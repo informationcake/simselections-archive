@@ -1,0 +1,96 @@
+:root {
+    --bg-main: #06050c; /* Deeper midnight black with a violet cast */
+    --bg-sidebar: #030206; /* Darker sidebar */
+    --bg-card: rgba(18, 14, 36, 0.45); /* Richer glassmorphic cards */
+    --bg-card-hover: rgba(30, 24, 58, 0.65);
+    --border-color: rgba(255, 255, 255, 0.05);
+    --border-color-glow: rgba(236, 72, 153, 0.25); /* Hot Pink Glow */
+    
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+    
+    --accent: #ec4899; /* Cyberpunk Pink */
+    --accent-glow: rgba(236, 72, 153, 0.4);
+    --accent-hover: #db2777;
+    
+    --accent-green: #10b981;
+    --accent-cyan: #06b6d4; /* Neon Cyan */
+    --accent-cyan-glow: rgba(6, 182, 212, 0.4);
+    --accent-purple: #8b5cf6; /* Cyberpunk Purple */
+    --accent-purple-glow: rgba(139, 92, 246, 0.4);
+    --accent-gold: #fde047; /* Challenge gold */
+    
+    --accent-rgb: 236, 72, 153;
+    --accent-cyan-rgb: 6, 182, 212;
+    --accent-purple-rgb: 139, 92, 246;
+    
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    --sidebar-width: 280px;
+    --player-height: 190px;
+    
+    --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --bg-sidebar-rgb: 3, 2, 6;
+}
+
+/* Alternate Theme: Emerald / Gold / Orange Cyber Theme */
+body.theme-alt {
+    --bg-main: #020806; /* Dark forest/emerald cast */
+    --bg-sidebar: #010403;
+    --bg-sidebar-rgb: 1, 4, 3;
+    --bg-card: rgba(6, 25, 18, 0.45);
+    --bg-card-hover: rgba(12, 45, 34, 0.65);
+    --border-color: rgba(255, 255, 255, 0.05);
+    --border-color-glow: rgba(16, 185, 129, 0.25); /* Emerald Glow */
+    
+    --accent: #10b981; /* Emerald Green */
+    --accent-glow: rgba(16, 185, 129, 0.4);
+    --accent-hover: #059669;
+    
+    --accent-cyan: #eab308; /* Bright Gold */
+    --accent-cyan-glow: rgba(234, 179, 8, 0.4);
+    --accent-purple: #f97316; /* Neon Orange */
+    --accent-purple-glow: rgba(249, 115, 22, 0.4);
+    --accent-gold: #f43f5e; /* Rose Red Challenge */
+    
+    --accent-rgb: 16, 185, 129;
+    --accent-cyan-rgb: 234, 179, 8;
+    --accent-purple-rgb: 249, 115, 22;
+}
+
+/* True Slate / Monochrome Theme (Pure Black & White) */
+body.theme-greyscale {
+    --bg-main: #000000; /* Pure Black background */
+    --bg-sidebar: #0a0a0a; /* Pure Dark Grey sidebar */
+    --bg-sidebar-rgb: 10, 10, 10;
+    --bg-card: rgba(20, 20, 20, 0.5); /* Neutral Grey Glass Card */
+    --bg-card-hover: rgba(40, 40, 40, 0.7);
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-color-glow: rgba(255, 255, 255, 0.15); /* Pure White Glow */
+    
+    --accent: #ffffff; /* Pure White Accent */
+    --accent-glow: rgba(255, 255, 255, 0.15);
+    --accent-hover: #cbd5e1; /* Neutral Grey Hover */
+    
+    --accent-cyan: #e5e5e5; /* Silver */
+    --accent-cyan-glow: rgba(229, 229, 229, 0.15);
+    --accent-purple: #a3a3a3; /* Mid-Grey */
+    --accent-purple-glow: rgba(163, 163, 163, 0.15);
+    --accent-gold: #737373; /* Dark Grey */
+    
+    --accent-rgb: 255, 255, 255;
+    --accent-cyan-rgb: 229, 229, 229;
+    --accent-purple-rgb: 163, 163, 163;
+}
+
+/* Adjust primary button text/icon colors to black in Greyscale Theme for visibility */
+body.theme-greyscale .btn-playlist-play,
+body.theme-greyscale .btn-playlist-play:hover,
+body.theme-greyscale .ctrl-btn-main,
+body.theme-greyscale .ctrl-btn-main:hover,
+body.theme-greyscale .btn-login,
+body.theme-greyscale .btn-login:hover {
+    color: #000000 !important;
+}

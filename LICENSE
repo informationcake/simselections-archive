@@ -1,0 +1,27 @@
+Proprietary License (All Rights Reserved)
+
+Copyright (c) 2026 Alex Clarke (informationcake)
+
+All rights reserved.
+
+This software and its associated source code, documentation, and configuration files (collectively, the "Software") are proprietary. 
+
+TERMS AND CONDITIONS:
+
+1. PERSONAL, NON-COMMERCIAL USE ONLY
+   Permission is granted to individuals to download, install, run, and modify this Software solely for personal, non-commercial, and archival purposes. 
+
+2. PROHIBITION OF SALE AND COMMERCIALISATION
+   You may NOT sell, rent, lease, license, sub-license, commercialise, or otherwise exploit this Software, in whole or in part, for any commercial purpose, financial gain, or in connection with any paid product, service, or membership.
+
+3. PROHIBITION OF REDISTRIBUTION
+   You may NOT distribute, host, or publish copies of this Software (modified or unmodified) publicly, except via contribution (Pull Requests/Merge Requests) to the official repository (https://github.com/informationcake/simselections-archive).
+
+4. EXCLUSION OF MEDIA AND MUSIC FILES
+   This license applies EXCLUSIVELY to the software source code (including HTML, CSS, JavaScript, Python scripts, configuration files, and documentation). It does NOT grant, assign, or license any rights to:
+   - Any audio, music, video, or sample files (including track submissions, challenge files, or sound assets).
+   - Any spreadsheet data, artist names, track titles, or other metadata.
+   All audio submissions remain the sole, exclusive, and unalienable intellectual property of their respective creators/artists.
+
+5. DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

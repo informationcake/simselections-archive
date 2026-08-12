@@ -1,0 +1,301 @@
+/* ==========================================================================
+   Player Control Bar (Footer)
+   ========================================================================== */
+.player-bar {
+    background-color: rgba(var(--bg-sidebar-rgb), 0.85);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid var(--border-color);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+    height: var(--player-height);
+    grid-column: 1 / -1;
+}
+
+.player-bar-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.player-bar-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.player-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Now Playing Info */
+.now-playing-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.now-playing-thumb {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.now-playing-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.default-disc-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--text-muted);
+}
+
+.center-track-info {
+    text-align: center;
+    max-width: 600px;
+}
+
+.now-playing-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    transition: var(--transition-fast);
+}
+
+.now-playing-title.has-link {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--accent);
+}
+
+.now-playing-title.has-link:hover {
+    color: var(--accent);
+    text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.now-playing-artist {
+    font-size: 16px;
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+/* Controls */
+.control-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.control-buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.ctrl-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-fast);
+}
+
+.ctrl-btn:hover {
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
+.ctrl-btn i {
+    width: 22px;
+    height: 22px;
+}
+
+.ctrl-btn-main {
+    background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent) 100%);
+    color: white;
+    width: 52px;
+    height: 52px;
+    box-shadow: 0 0 15px rgba(var(--accent-cyan-rgb), 0.45), 0 0 4px rgba(var(--accent-rgb), 0.45);
+    border: none;
+}
+
+.ctrl-btn-main:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(var(--accent-cyan-rgb), 0.7), 0 0 8px rgba(var(--accent-rgb), 0.7);
+    color: white;
+}
+
+.ctrl-btn-main i {
+    width: 22px;
+    height: 22px;
+}
+
+.ctrl-btn.active {
+    color: var(--accent-cyan);
+    filter: drop-shadow(0 0 6px rgba(var(--accent-cyan-rgb), 0.5));
+}
+
+/* Progress Slider */
+.progress-bar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    gap: 16px;
+}
+
+.time-label {
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-secondary);
+    min-width: 35px;
+}
+
+.progress-slider {
+    flex-grow: 1;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.progress-track {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    position: relative;
+    transition: height var(--transition-fast);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-cyan) 0%, var(--accent) 100%);
+    border-radius: 6px;
+    width: 0%;
+    box-shadow: 0 0 10px rgba(var(--accent-cyan-rgb), 0.4);
+}
+
+.progress-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: opacity var(--transition-fast);
+}
+
+.progress-slider:hover .progress-handle {
+    opacity: 1;
+}
+
+.progress-slider:hover .progress-track {
+    height: 14px;
+}
+
+/* Volume Slider */
+.player-settings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.volume-slider {
+    width: 100px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.volume-track {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    position: relative;
+}
+
+.volume-fill {
+    height: 100%;
+    background-color: var(--text-primary);
+    border-radius: 2px;
+}
+
+.volume-slider:hover .volume-track {
+    height: 6px;
+}
+
+.volume-slider:hover .volume-fill {
+    background-color: var(--accent-cyan);
+}
+
+/* Standard progress bar time label overrides */
+.progress-bar-container .time-label {
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-secondary);
+    min-width: 40px;
+    text-align: center;
+}
+
+.btn-playlist-play {
+    background: var(--accent);
+    color: white;
+    box-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.3);
+    border: none;
+    align-self: center;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 13px;
+    transition: var(--transition-fast);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 700;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.btn-playlist-play:hover {
+    background: var(--accent-cyan);
+    box-shadow: 0 4px 12px rgba(var(--accent-cyan-rgb), 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-playlist-play i {
+    width: 14px;
+    height: 14px;
+}

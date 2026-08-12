@@ -1,0 +1,260 @@
+/* Clustermap Song Similarity Map Panel */
+#clustermap-view-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 180px);
+    gap: 20px;
+    overflow: hidden;
+}
+
+.clustermap-panel {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 180px);
+}
+
+.clustermap-layout-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex: 1;
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.clustermap-plot-wrapper {
+    flex: 3;
+    min-height: 450px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#clustermap-plot-div {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    background: transparent !important;
+}
+
+/* Sidebar styles */
+.clustermap-sidebar {
+    flex: 1;
+    max-width: 300px;
+    background: rgba(18, 18, 24, 0.45);
+    backdrop-filter: blur(12px);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+    height: 100%;
+}
+
+.sidebar-search-box input {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: var(--text-color);
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.sidebar-search-box input:focus {
+    border-color: var(--primary-color);
+}
+
+.artist-list {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-right: 4px;
+}
+
+.artist-legend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    transition: background 0.15s, color 0.15s;
+    user-select: none;
+}
+
+.artist-legend-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
+}
+
+.artist-legend-item.active {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.artist-legend-left {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.artist-color-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.artist-track-count {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.clear-btn {
+    width: 100%;
+    padding: 8px;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 6px;
+    color: #ef4444;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.clear-btn:hover {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.5);
+}
+
+.clear-btn.hidden {
+    display: none;
+}
+
+/* Neon pulse ring for the currently playing track dot */
+.clustermap-pulse-ring {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 10px var(--accent), inset 0 0 10px var(--accent);
+    animation: clustermap-glow-pulse 1.8s infinite ease-in-out;
+    z-index: 10;
+}
+
+.clustermap-pulse-ring.hidden {
+    display: none;
+}
+
+@keyframes clustermap-glow-pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.6);
+        opacity: 0.2;
+        box-shadow: 0 0 4px var(--accent);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 0.9;
+        box-shadow: 0 0 16px var(--accent), inset 0 0 8px var(--accent);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2.0);
+        opacity: 0;
+        box-shadow: 0 0 24px var(--accent);
+    }
+}
+
+/* Slider Controls Section */
+.clustermap-controls-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.clustermap-controls-section h3 {
+    margin: 0 0 4px 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-color);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.control-group label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-group label span {
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--accent-cyan);
+}
+
+.control-group input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+.control-group input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    box-shadow: 0 0 6px var(--accent);
+    transition: background 0.15s, transform 0.1s;
+}
+
+.control-group input[type="range"]::-webkit-slider-thumb:hover {
+    background: var(--accent-cyan);
+    box-shadow: 0 0 8px var(--accent-cyan);
+    transform: scale(1.2);
+}

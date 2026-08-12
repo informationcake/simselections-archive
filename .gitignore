@@ -1,0 +1,24 @@
+# Python bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing / Pytest
+.pytest_cache/
+
+# Environments / Configs
+.venv/
+venv/
+env/
+python-portable/
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor configurations
+.vscode/
+.idea/
+*.code-workspace

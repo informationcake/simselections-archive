@@ -1,0 +1,492 @@
+import { state, events } from './state.js';
+import { initAudioContext, showAudioVisualizer, showVideoPlayer } from './visualizer.js';
+import { playlistData } from './metadata.js';
+import { startClustermapPulseLoop } from './clustermap.js';
+import { canTrackPlay } from './optin.js';
+
+let audio = null;
+let video = null;
+let btnPlayPause = null;
+let btnPrev = null;
+let btnNext = null;
+let btnShuffle = null;
+let btnRepeat = null;
+let btnMute = null;
+let volumeIcon = null;
+let progressSliderWrapper = null;
+let progressFill = null;
+let progressHandle = null;
+let timeCurrent = null;
+let timeTotal = null;
+let volumeSliderWrapper = null;
+let volumeFill = null;
+let playerTrackTitle = null;
+let playerTrackArtist = null;
+let vinylDisc = null;
+let fallbackTitle = null;
+let fallbackArtist = null;
+let nowPlayingFallback = null;
+let isDraggingSeek = false;
+
+/**
+ * Initializes DOM element references for the player module and sets up listeners.
+ */
+export function initPlayerElements() {
+    audio = document.getElementById('audio-element');
+    video = document.getElementById('video-element');
+    btnPlayPause = document.getElementById('btn-play-pause');
+    btnPrev = document.getElementById('btn-prev');
+    btnNext = document.getElementById('btn-next');
+    btnShuffle = document.getElementById('btn-shuffle');
+    btnRepeat = document.getElementById('btn-repeat');
+    btnMute = document.getElementById('btn-mute');
+    volumeIcon = document.getElementById('volume-icon');
+    progressSliderWrapper = document.getElementById('progress-slider-wrapper');
+    progressFill = document.getElementById('progress-fill');
+    progressHandle = document.getElementById('progress-handle');
+    timeCurrent = document.getElementById('time-current');
+    timeTotal = document.getElementById('time-total');
+    volumeSliderWrapper = document.getElementById('volume-slider-wrapper');
+    volumeFill = document.getElementById('volume-fill');
+    playerTrackTitle = document.getElementById('player-track-title');
+    playerTrackArtist = document.getElementById('player-track-artist');
+    vinylDisc = document.getElementById('vinyl-disc');
+    fallbackTitle = document.getElementById('fallback-title');
+    fallbackArtist = document.getElementById('fallback-artist');
+    nowPlayingFallback = document.getElementById('now-playing-fallback');
+
+    setupPlayerEventListeners();
+}
+
+/**
+ * Plays a specific track from the currently active playlist by its index.
+ * @param {number} index - The index of the track in the playlist.
+ */
+export function playTrack(index) {
+    if (!state.currentPlaylist || index < 0 || index >= state.currentPlaylist.tracks.length) return;
+
+    state.playingPlaylist = state.currentPlaylist;
+    state.currentTrackIndex = index;
+    const track = state.currentPlaylist.tracks[index];
+
+    events.emit('TRACK_CHANGED', { track, index, playlist: state.playingPlaylist });
+    if (!canTrackPlay(track)) {
+        stopCurrentMedia();
+        updatePlayState(false);
+        playerTrackTitle.textContent = track.title;
+        playerTrackArtist.textContent = track.artist;
+        fallbackTitle.textContent = track.title;
+        fallbackArtist.textContent = track.artist;
+
+        if (track.link) {
+            playerTrackTitle.classList.add('has-link');
+            playerTrackTitle.title = "View Link (Bandcamp/Soundcloud/YouTube)";
+        } else {
+            playerTrackTitle.classList.remove('has-link');
+            playerTrackTitle.removeAttribute('title');
+        }
+
+        return;
+    }
+
+    const base = window.SIMSELECTIONS_AUDIO_BASE || '';
+    const mediaUrl = base + (base && !base.endsWith('/') ? '/' : '') + track.file.split('/').map(encodeURIComponent).join('/');
+    const cleanFile = (track.file || '').split('?')[0].split('#')[0];
+    const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(cleanFile);
+    state.currentMediaType = isVideo ? 'video' : 'audio';
+
+    stopCurrentMedia();
+
+    if (isVideo) {
+        video.src = mediaUrl;
+        video.load();
+        showVideoPlayer();
+        video.play()
+            .then(() => {
+                updatePlayState(true);
+            })
+            .catch(err => {
+                console.error("Video playback error:", err);
+                showAudioVisualizer();
+                updatePlayState(false);
+            });
+    } else {
+        audio.src = mediaUrl;
+        audio.play()
+            .then(() => {
+                initAudioContext();
+                updatePlayState(true);
+                showAudioVisualizer();
+            })
+            .catch(err => {
+                console.error("Audio playback error:", err);
+                updatePlayState(false);
+            });
+    }
+
+    // Update Player Info
+    playerTrackTitle.textContent = track.title;
+    playerTrackArtist.textContent = track.artist;
+    fallbackTitle.textContent = track.title;
+    fallbackArtist.textContent = track.artist;
+
+    if (track.link) {
+        playerTrackTitle.classList.add('has-link');
+        playerTrackTitle.title = "View Link (Bandcamp/Soundcloud/YouTube)";
+    } else {
+        playerTrackTitle.classList.remove('has-link');
+        playerTrackTitle.removeAttribute('title');
+    }
+
+
+}
+
+/**
+ * Completely stops media playback and resets the audio/video elements.
+ */
+export function stopCurrentMedia() {
+    if (!audio) initPlayerElements();
+    audio.pause();
+    audio.currentTime = 0;
+    audio.src = '';
+    audio.removeAttribute('src');
+    audio.load();
+
+    video.pause();
+    video.currentTime = 0;
+    video.src = '';
+    video.removeAttribute('src');
+    video.load();
+}
+
+/**
+ * Pauses the currently active media (audio or video).
+ */
+export function pauseCurrentMedia() {
+    if (!audio) initPlayerElements();
+    const activeMedia = state.currentMediaType === 'video' ? video : audio;
+    if (activeMedia) {
+        activeMedia.pause();
+        updatePlayState(false);
+    }
+}
+
+/**
+ * Resumes playback of the currently active media.
+ */
+export function resumeCurrentMedia() {
+    if (!audio) initPlayerElements();
+    const activeMedia = state.currentMediaType === 'video' ? video : audio;
+    if (activeMedia) {
+        activeMedia.play().then(() => {
+            if (state.currentMediaType === 'audio') {
+                initAudioContext();
+                showAudioVisualizer();
+            } else {
+                showVideoPlayer();
+            }
+            updatePlayState(true);
+        }).catch(err => console.error('Playback resume failed:', err));
+    }
+}
+
+/**
+ * Advances playback to the next track, handling shuffle and repeat states.
+ */
+export function playNextTrack() {
+    if (state.isShuffleAll) {
+        playRandomFromAll();
+        return;
+    }
+    
+    if (!state.currentPlaylist) return;
+    
+    if (state.isShuffle) {
+        const randIdx = Math.floor(Math.random() * state.currentPlaylist.tracks.length);
+        playTrack(randIdx);
+    } else {
+        let nextIdx = state.currentTrackIndex + 1;
+        if (nextIdx >= state.currentPlaylist.tracks.length) {
+            if (state.isRepeat) {
+                nextIdx = 0; // Loop playlist
+            } else {
+                return; // Stop at end
+            }
+        }
+        playTrack(nextIdx);
+    }
+}
+
+/**
+ * Selects and plays a random track from the entire library.
+ */
+export function playRandomFromAll() {
+    if (typeof playlistData === 'undefined' || playlistData.length === 0) return;
+    const randPlaylist = playlistData[Math.floor(Math.random() * playlistData.length)];
+    if (!randPlaylist.tracks || randPlaylist.tracks.length === 0) {
+        playRandomFromAll(); // Try again if empty
+        return;
+    }
+    // Load the playlist and pick a random track
+    if (typeof window.loadPlaylist === 'function') {
+        window.loadPlaylist(randPlaylist);
+    }
+    if (typeof window.activatePlaylistSelection === 'function') {
+        window.activatePlaylistSelection(randPlaylist);
+    }
+    const randTrackIdx = Math.floor(Math.random() * randPlaylist.tracks.length);
+    playTrack(randTrackIdx);
+}
+
+/**
+ * Updates the visual state (Play/Pause icon) of the main playlist play button.
+ */
+export function updatePlaylistPlayButtonState() {
+    const btnPlay = document.getElementById('btn-playlist-play');
+    if (!btnPlay) return;
+
+    const isCurrentPlaylistPlaying = state.isPlaying && state.playingPlaylist && state.currentPlaylist && state.playingPlaylist.id === state.currentPlaylist.id;
+    
+    if (isCurrentPlaylistPlaying) {
+        btnPlay.innerHTML = '<i data-lucide="pause"></i><span>Pause</span>';
+    } else {
+        btnPlay.innerHTML = '<i data-lucide="play"></i><span>Play</span>';
+    }
+    
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons({ root: btnPlay });
+    }
+}
+
+/**
+ * Updates the global player UI state based on whether media is playing or paused.
+ * @param {boolean} playing - True if media is currently playing.
+ */
+export function updatePlayState(playing) {
+    state.isPlaying = playing;
+    if (playing) {
+        btnPlayPause.querySelector('.play-icon').classList.add('hidden');
+        btnPlayPause.querySelector('.pause-icon').classList.remove('hidden');
+        vinylDisc.classList.add('playing');
+        nowPlayingFallback.classList.add('hidden');
+    } else {
+        btnPlayPause.querySelector('.play-icon').classList.remove('hidden');
+        btnPlayPause.querySelector('.pause-icon').classList.add('hidden');
+        vinylDisc.classList.remove('playing');
+        if (!state.audioCtx) {
+            nowPlayingFallback.classList.remove('hidden');
+        }
+    }
+    
+    updatePlaylistPlayButtonState();
+    
+    startClustermapPulseLoop();
+}
+
+/**
+ * Formats a duration in seconds to a MM:SS string.
+ * @param {number} secs - Time in seconds.
+ * @returns {string} Formatted time string.
+ */
+export function formatTime(secs) {
+    const m = Math.floor(secs / 60);
+    const s = Math.floor(secs % 60).toString().padStart(2, '0');
+    return `${m}:${s}`;
+}
+
+/**
+ * Handles the media 'timeupdate' event to update the progress bar and timers.
+ */
+function handleTimeUpdate() {
+    const activeMedia = state.currentMediaType === 'video' ? video : audio;
+    if (!isDraggingSeek && activeMedia && activeMedia.duration) {
+        const pct = (activeMedia.currentTime / activeMedia.duration) * 100;
+        progressFill.style.width = `${pct}%`;
+        progressHandle.style.left = `${pct}%`;
+        timeCurrent.textContent = formatTime(activeMedia.currentTime);
+        timeTotal.textContent = formatTime(activeMedia.duration);
+    }
+}
+
+/**
+ * Handles the media 'durationchange' event to update the total time display.
+ */
+function handleDurationChange() {
+    const activeMedia = state.currentMediaType === 'video' ? video : audio;
+    if (activeMedia) {
+        timeTotal.textContent = formatTime(activeMedia.duration || 0);
+    }
+}
+
+/**
+ * Sets up all interactive event listeners for the player controls.
+ */
+function setupPlayerEventListeners() {
+    btnPlayPause.addEventListener('click', () => {
+        const activeMedia = state.currentMediaType === 'video' ? video : audio;
+        const hasActiveMedia = activeMedia && (activeMedia.currentSrc || (state.currentMediaType === 'video' ? video.src : audio.src));
+
+        if (hasActiveMedia) {
+            if (state.isPlaying) {
+                activeMedia.pause();
+                updatePlayState(false);
+            } else {
+                activeMedia.play().then(() => {
+                    if (state.currentMediaType === 'audio') {
+                        initAudioContext();
+                        showAudioVisualizer();
+                    } else {
+                        showVideoPlayer();
+                    }
+                    updatePlayState(true);
+                }).catch(() => {
+                    updatePlayState(false);
+                });
+            }
+        } else if (state.currentPlaylist && state.currentPlaylist.tracks.length > 0) {
+            const targetIndex = (state.currentTrackIndex >= 0 && state.currentTrackIndex < state.currentPlaylist.tracks.length)
+                ? state.currentTrackIndex
+                : 0;
+            playTrack(targetIndex);
+        }
+    });
+
+    btnPrev.addEventListener('click', () => {
+        if (!state.currentPlaylist) return;
+        let nextIdx = state.currentTrackIndex - 1;
+        if (nextIdx < 0) {
+            nextIdx = state.currentPlaylist.tracks.length - 1;
+        }
+        playTrack(nextIdx);
+    });
+
+    btnNext.addEventListener('click', () => {
+        playNextTrack();
+    });
+
+    if (btnRepeat) {
+        btnRepeat.addEventListener('click', () => {
+            state.isRepeat = !state.isRepeat;
+            btnRepeat.classList.toggle('active', state.isRepeat);
+        });
+    }
+
+    if (btnShuffle) {
+        btnShuffle.addEventListener('click', () => {
+            state.isShuffle = !state.isShuffle;
+            btnShuffle.classList.toggle('active', state.isShuffle);
+        });
+    }
+
+    // Audio/Video native listeners
+    audio.addEventListener('timeupdate', handleTimeUpdate);
+    video.addEventListener('timeupdate', handleTimeUpdate);
+
+    audio.addEventListener('durationchange', handleDurationChange);
+    video.addEventListener('durationchange', handleDurationChange);
+
+    audio.addEventListener('ended', () => {
+        if (audio.currentTime > 0 && audio.duration && Math.abs(audio.currentTime - audio.duration) < 1.5) {
+            playNextTrack();
+        }
+    });
+
+    video.addEventListener('ended', () => {
+        if (video.currentTime > 0 && video.duration && Math.abs(video.currentTime - video.duration) < 1.5) {
+            playNextTrack();
+        }
+    });
+
+    // Seek Click
+    progressSliderWrapper.addEventListener('click', (e) => {
+        const activeMedia = state.currentMediaType === 'video' ? video : audio;
+        if (!activeMedia || !activeMedia.src || !activeMedia.duration) return;
+        const rect = progressSliderWrapper.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const percent = Math.max(0, Math.min(1, clickX / rect.width));
+        activeMedia.currentTime = percent * activeMedia.duration;
+    });
+
+    // Seek Drag
+    progressSliderWrapper.addEventListener('mousedown', () => { isDraggingSeek = true; });
+    document.addEventListener('mousemove', (e) => {
+        const activeMedia = state.currentMediaType === 'video' ? video : audio;
+        if (!isDraggingSeek || !activeMedia || !activeMedia.duration) return;
+        const rect = progressSliderWrapper.getBoundingClientRect();
+        const moveX = e.clientX - rect.left;
+        const percent = Math.max(0, Math.min(1, moveX / rect.width));
+        progressFill.style.width = `${percent * 100}%`;
+        progressHandle.style.left = `${percent * 100}%`;
+        timeCurrent.textContent = formatTime(percent * activeMedia.duration);
+    });
+    document.addEventListener('mouseup', (e) => {
+        if (isDraggingSeek) {
+            isDraggingSeek = false;
+            const activeMedia = state.currentMediaType === 'video' ? video : audio;
+            if (activeMedia && activeMedia.duration) {
+                const rect = progressSliderWrapper.getBoundingClientRect();
+                const releaseX = e.clientX - rect.left;
+                const percent = Math.max(0, Math.min(1, releaseX / rect.width));
+                activeMedia.currentTime = percent * activeMedia.duration;
+            }
+        }
+    });
+
+    // Volume controls
+    volumeSliderWrapper.addEventListener('click', (e) => {
+        const rect = volumeSliderWrapper.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const volume = Math.max(0, Math.min(1, clickX / rect.width));
+        audio.volume = volume;
+        video.volume = volume;
+        volumeFill.style.width = `${volume * 100}%`;
+        updateVolumeIcon(volume);
+        state.lastVolume = volume;
+    });
+
+    btnMute.addEventListener('click', () => {
+        const currentVol = state.currentMediaType === 'video' ? video.volume : audio.volume;
+        if (currentVol > 0) {
+            state.lastVolume = currentVol;
+            audio.volume = 0;
+            video.volume = 0;
+            volumeFill.style.width = '0%';
+            updateVolumeIcon(0);
+        } else {
+            audio.volume = state.lastVolume;
+            video.volume = state.lastVolume;
+            volumeFill.style.width = `${state.lastVolume * 100}%`;
+            updateVolumeIcon(state.lastVolume);
+        }
+    });
+
+    playerTrackTitle.addEventListener('click', () => {
+        if (state.currentPlaylist && state.currentTrackIndex !== -1) {
+            const track = state.currentPlaylist.tracks[state.currentTrackIndex];
+            if (track && track.link) {
+                window.open(track.link, '_blank', 'noopener,noreferrer');
+            }
+        }
+    });
+}
+
+/**
+ * Updates the volume icon based on the current volume level.
+ * Replaces the DOM node entirely to ensure Lucide re-renders the new SVG.
+ * @param {number} vol - The current volume level (0.0 to 1.0)
+ */
+function updateVolumeIcon(vol) {
+    if (typeof lucide !== 'undefined') {
+        const currentVolIcon = document.getElementById('volume-icon');
+        if (currentVolIcon) {
+            const parent = currentVolIcon.parentNode;
+            if (parent) {
+                const newIcon = document.createElement('i');
+                newIcon.id = 'volume-icon';
+                newIcon.setAttribute('data-lucide', vol === 0 ? 'volume-x' : (vol < 0.4 ? 'volume' : (vol < 0.7 ? 'volume-1' : 'volume-2')));
+                parent.replaceChild(newIcon, currentVolIcon);
+                lucide.createIcons({ root: parent });
+            }
+        }
+    }
+}

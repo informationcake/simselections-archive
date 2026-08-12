@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="darkreader-lock">
+    <meta name="color-scheme" content="dark">
+    <title>SimSelections Web Player</title>
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons for premium modern look -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Configuration for Production R2 Bucket Streaming -->
+    <script>
+        // Set this to your Cloudflare R2 bucket public URL when deploying to the cloud (e.g. Pages/Workers)
+        // e.g., window.SIMSELECTIONS_AUDIO_BASE = "https://your-r2-public-domain.com";
+        window.SIMSELECTIONS_AUDIO_BASE = "";
+    </script>
+</head>
+
+<body>
+    <!-- Password Protection Overlay -->
+    <div id="password-overlay" class="password-overlay">
+        <div class="password-card">
+            <i data-lucide="lock" class="lock-icon"></i>
+            <h2>SimSelections Archives</h2>
+            <p>Please enter the access key to enter the archive.</p>
+            <form id="password-form">
+                <input type="password" id="archive-password" placeholder="Access Key" required
+                    autocomplete="current-password">
+                <button type="submit" class="btn btn-login">Unlock</button>
+            </form>
+            <div id="password-error" class="password-error hidden">Invalid Access Key</div>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i data-lucide="music" class="logo-icon animate-pulse"></i>
+                    <span>SimSelections</span>
+                </div>
+                <button class="theme-toggle-btn" id="theme-toggle" title="Switch Color Theme">
+                    <i data-lucide="palette"></i>
+                </button>
+            </div>
+
+            <div class="search-box">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" id="search-input" placeholder="Search songs or artists...">
+                <button id="clear-search" class="hidden">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-nav">
+                <div class="view-toggles">
+                    <button class="nav-tab active" id="tab-playlist-view">
+                        <i data-lucide="library"></i> Playlists
+                    </button>
+                    <button class="nav-tab" id="tab-challenges-view">
+                        <i data-lucide="award"></i> Challenges
+                    </button>
+                    <button class="nav-tab" id="tab-clustermap-view">
+                        <i data-lucide="map"></i> Cluster Map
+                    </button>
+                    <button class="nav-tab" id="tab-stats-view">
+                        <i data-lucide="bar-chart-3"></i> Statistics
+                    </button>
+                </div>
+                <button class="btn btn-shuffle-all" id="btn-shuffle-all">
+                    <i data-lucide="shuffle"></i> Shuffle All
+                </button>
+                <div class="nav-section-title">Library</div>
+                <div id="library-tree" class="library-tree">
+                    <!-- Dynamic rendering of Years -> Months -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Display Content -->
+        <main class="main-content">
+            <!-- Playlist Banner / Header -->
+            <header class="content-header">
+                <div class="header-info">
+                    <h1 id="playlist-title">Select a Playlist</h1>
+                </div>
+                <div class="header-actions"></div>
+            </header>
+
+            <!-- Playlist Metadata Dashboard Card -->
+            <div id="playlist-metadata-card" class="metadata-card hidden">
+                <div class="metadata-item">
+                    <span class="meta-label"><i data-lucide="compass"></i> Theme</span>
+                    <span class="meta-val" id="meta-theme">-</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="meta-label"><i data-lucide="tag"></i> Keywords</span>
+                    <span class="meta-val" id="meta-keywords">-</span>
+                </div>
+                <div class="metadata-item challenge-item">
+                    <span class="meta-label"><i data-lucide="award"></i> Optional Challenge</span>
+                    <span class="meta-val" id="meta-challenge">-</span>
+                </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-stream metadata-stream-link hidden"
+                    id="stream-link-btn">
+                    <i data-lucide="youtube"></i> Watch Stream
+                </a>
+            </div>
+
+            <!-- Grid: Left side Tracklist, Right side Now Playing & Visualizer -->
+            <div class="view-grid">
+                <!-- Tracklist Panel -->
+                <section class="panel tracklist-panel">
+                    <div class="panel-header">
+                        <button class="btn-playlist-play" id="btn-playlist-play" title="Play Playlist">
+                            <i data-lucide="play"></i>
+                            <span>Play</span>
+                        </button>
+                        <span class="count-badge" id="track-count">0 songs</span>
+                    </div>
+                    <div class="tracklist-container">
+                        <table class="tracklist-table">
+                            <thead>
+                                <tr>
+                                    <th class="col-num">#</th>
+                                    <th class="col-title">Title</th>
+                                    <th class="col-artist">Artist</th>
+                                    <th class="col-action">Link</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tracklist-body">
+                                <tr>
+                                    <td colspan="4" class="empty-state">
+                                        <i data-lucide="music-4" class="empty-icon"></i>
+                                        <p>Choose a playlist or search to list tracks</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Visualization & Art Panel -->
+                <section class="panel now-playing-panel">
+                    <div class="panel-header">
+                        <h2>Visualizer</h2>
+                        <div class="visualizer-controls">
+                            <select id="visualizer-mode" class="select-mode">
+                                <option value="bars">Neon Bars</option>
+                                <option value="heatmap">Neon Heatmap</option>
+                                <option value="wave">Sinewave</option>
+                                <option value="circle">Circular Pulse</option>
+                                <option value="particle">Cyber Wave</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="visualizer-container">
+                        <canvas id="visualizer-canvas"></canvas>
+                        <video id="video-element" crossorigin="anonymous" playsinline controlsList="nodownload" oncontextmenu="return false;"></video>
+
+                        <!-- Track Banner Overlay (when no visualization active / fallback) -->
+                        <div class="visualizer-fallback-card" id="now-playing-fallback">
+                            <div class="vinyl-disc" id="vinyl-disc">
+                                <div class="vinyl-label"></div>
+                            </div>
+                            <div class="fallback-track-info">
+                                <h3 id="fallback-title">No Track Playing</h3>
+                                <p id="fallback-artist">Select a track and press Play</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Challenges View (Hidden by default) -->
+            <div id="challenges-view-container" class="panel challenges-panel hidden">
+                <div class="stats-card challenges-card-full">
+                    <div class="stats-card-header challenges-card-header">
+                        <div class="stats-metric-grid">
+                            <div class="stat-metric">
+                                <i data-lucide="calendar"></i>
+                                <span class="stat-label">Months</span>
+                                <strong id="challenges-month-count">0</strong>
+                            </div>
+                            <div class="stat-metric">
+                                <i data-lucide="music-4"></i>
+                                <span class="stat-label">Submissions</span>
+                                <strong id="challenges-submission-count">0</strong>
+                            </div>
+                            <div class="stat-metric">
+                                <i data-lucide="link-2"></i>
+                                <span class="stat-label">Linked Tracks</span>
+                                <strong id="challenges-linked-count">0</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stats-month-list" class="stats-month-list"></div>
+                </div>
+            </div>
+
+            <!-- Statistics Dashboard View (Hidden by default) -->
+            <div id="stats-view-container" class="panel stats-panel hidden">
+                <div class="panel-header stats-header">
+                    <h2>Statistics</h2>
+                    <div class="stats-metric-grid">
+                        <div class="stat-metric">
+                            <i data-lucide="calendar"></i>
+                            <span class="stat-label">Months</span>
+                            <strong id="stats-month-count">0</strong>
+                        </div>
+                        <div class="stat-metric">
+                            <i data-lucide="music-4"></i>
+                            <span class="stat-label">Submissions</span>
+                            <strong id="stats-submission-count">0</strong>
+                        </div>
+                        <div class="stat-metric">
+                            <i data-lucide="link-2"></i>
+                            <span class="stat-label">Linked Tracks</span>
+                            <strong id="stats-linked-count">0</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-overview-grid">
+                    <div class="stats-card stats-chart-card">
+                        <div class="stats-card-header">
+                            <h3>Submissions by month</h3>
+                        </div>
+                        <div id="stats-chart" class="stats-chart"></div>
+                    </div>
+                    <div class="stats-card stats-chart-card">
+                        <div class="stats-card-header">
+                            <h3>Track length distribution</h3>
+                        </div>
+                        <div id="stats-lengths-chart" class="stats-chart"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clustermap Song Map View (Hidden by default) -->
+            <div id="clustermap-view-container" class="panel clustermap-panel hidden">
+                <div class="panel-header">
+                    <h2>SimSelections Clustering Map</h2>
+                    <span class="count-badge" id="clustermap-status-badge">Loading clustering map...</span>
+                </div>
+                <div class="clustermap-layout-wrapper">
+                    <div class="clustermap-plot-wrapper">
+                        <div id="clustermap-plot-div"></div>
+                        <div id="clustermap-active-pulse-ring" class="clustermap-pulse-ring hidden"></div>
+                    </div>
+                    <!-- Custom Artist Legend & Highlight Sidebar -->
+                    <div class="clustermap-sidebar" id="clustermap-sidebar">
+                        <div class="clustermap-controls-section">
+                            <h3>Map Layout Controls</h3>
+                            <div class="control-group">
+                                <label for="ctrl-collab">Collab Attraction: <span id="val-collab">1.0</span></label>
+                                <input type="range" id="ctrl-collab" min="0" max="5" step="0.02" value="1.0">
+                            </div>
+                            <div class="control-group">
+                                <label for="ctrl-repel">Map Spread: <span id="val-repel">0</span></label>
+                                <input type="range" id="ctrl-repel" min="-50" max="600" step="1" value="0">
+                            </div>
+                            <div class="control-group">
+                                <label for="ctrl-regularity">Regularity: <span id="val-regularity">0.000</span></label>
+                                <input type="range" id="ctrl-regularity" min="-0.035" max="0.05" step="0.0002"
+                                    value="0.000">
+                            </div>
+                            <button id="reset-clustermap-controls" class="clear-btn"
+                                style="margin-top: 6px; background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.15); color: var(--text-color);">Reset
+                                Controls</button>
+                        </div>
+                        <div class="sidebar-search-box">
+                            <input type="text" id="artist-legend-search" placeholder="Search artists...">
+                        </div>
+                        <div class="artist-list" id="artist-legend-list">
+                            <!-- Populated dynamically -->
+                        </div>
+                        <button id="clear-artist-highlight" class="clear-btn hidden">Clear Highlight</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+        <!-- Player Footer Control Bar -->
+        <footer class="player-bar">
+            <!-- Left Column: Made By Info -->
+            <div class="player-bar-left">
+                <div class="footer-credit" id="btn-more-info">
+                    <i data-lucide="info"></i>
+                    <span>more information</span>
+                </div>
+            </div>
+
+            <!-- Center Column: Track Info, Play/Pause Buttons, Progress Slider -->
+            <div class="player-bar-center">
+                <!-- Track Details -->
+                <div class="center-track-info">
+                    <div class="now-playing-title" id="player-track-title">Not Playing</div>
+                    <div class="now-playing-artist" id="player-track-artist">Select a track</div>
+                </div>
+
+                <!-- Controls -->
+                <div class="control-buttons">
+                    <button class="ctrl-btn" id="btn-prev" title="Previous">
+                        <i data-lucide="skip-back"></i>
+                    </button>
+                    <button class="ctrl-btn ctrl-btn-main" id="btn-play-pause" title="Play">
+                        <i data-lucide="play" class="play-icon"></i>
+                        <i data-lucide="pause" class="pause-icon hidden"></i>
+                    </button>
+                    <button class="ctrl-btn" id="btn-next" title="Next">
+                        <i data-lucide="skip-forward"></i>
+                    </button>
+                </div>
+
+                <!-- Progress Slider -->
+                <div class="progress-bar-container">
+                    <span class="time-label" id="time-current">0:00</span>
+                    <div class="progress-slider" id="progress-slider-wrapper">
+                        <div class="progress-track">
+                            <div class="progress-fill" id="progress-fill"></div>
+                            <div class="progress-handle" id="progress-handle"></div>
+                        </div>
+                    </div>
+                    <span class="time-label" id="time-total">0:00</span>
+                </div>
+            </div>
+
+            <!-- Right Column: Settings & Volume -->
+            <div class="player-bar-right">
+                <div class="player-settings">
+                    <button class="ctrl-btn" id="btn-mute" title="Mute">
+                        <i data-lucide="volume-2" id="volume-icon"></i>
+                    </button>
+                    <div class="volume-slider" id="volume-slider-wrapper">
+                        <div class="volume-track">
+                            <div class="volume-fill" id="volume-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- More Info Modal Overlay -->
+    <div id="info-modal" class="info-modal-overlay hidden">
+        <div class="info-modal-card">
+            <div class="info-modal-header">
+                <h2>More Information</h2>
+                <button class="info-modal-close" id="btn-close-info">&times;</button>
+            </div>
+            <div class="info-modal-body">
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Native Media Elements -->
+    <audio id="audio-element" crossorigin="anonymous" controlsList="nodownload"></audio>
+
+    <!-- External Libraries -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="src/main.js"></script>
+</body>
+
+</html>

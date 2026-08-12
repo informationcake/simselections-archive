@@ -1,0 +1,11 @@
+name = "simselections-archive"
+main = "src/worker.js"
+compatibility_date = "2024-07-26"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+
+[[r2_buckets]]
+binding = "MUSIC_BUCKET"
+bucket_name = "simselections-music"
