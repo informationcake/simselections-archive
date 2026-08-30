@@ -17,109 +17,131 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Akemiya",
                 "title": "Parallels",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/13. Akemiya - Parallels.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 298.15
             },
             {
                 "trackNo": 2,
                 "artist": "dogsander",
                 "title": "exogenous tampering",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/12. dogsander - exogenous tampering.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 173.64
             },
             {
                 "trackNo": 3,
                 "artist": "DRMR",
                 "title": "Hex48",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/11. DRMR - Hex48.mp3",
                 "link": "https://soundcloud.com/d-r-m-r/hexagram48",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 364.9
             },
             {
                 "trackNo": 4,
                 "artist": "Durkl",
                 "title": "The Arsonist",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/10. durkl - The Arsonist.mp3",
                 "link": "https://soundcloud.com/durkl1/the-arsonist",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 288.07
             },
             {
                 "trackNo": 5,
                 "artist": "ipsotheque",
                 "title": "Basis",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/09. ipso - Basis.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.07
             },
             {
                 "trackNo": 6,
                 "artist": "Wonky Robot",
                 "title": "untitled",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/07. Wonky Robot - Sim Selections May.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 224.06
             },
             {
                 "trackNo": 7,
                 "artist": "Mark Feifarek",
                 "title": "Falling Forward",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/06. Mark Feifarek - Falling Forward.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 140.35
             },
             {
                 "trackNo": 8,
                 "artist": "Menhirs",
                 "title": "Untrue",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/05. Menhirs - Untrue.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.68
+            },
+            {
+                "trackNo": 8,
+                "artist": "Wonky Robot",
+                "title": "Sim Selections May (video)",
+                "file": "2021/Sim_Selections_MAY_2021/08. Wonky Robot - Sim Selections May (video).mp4",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 224.0
             },
             {
                 "trackNo": 9,
                 "artist": "Next Stop Mars",
                 "title": "Big Spike Sampler",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/04. Next Stop Mars - Big Spike Sampler.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 188.14
             },
             {
                 "trackNo": 10,
                 "artist": "NGC 3019",
                 "title": "Burning Bridges aka Bridge to the Moon",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/03. NGC 3019 - Burning Bridges.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/bridge-to-the-moon-2",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 11,
                 "artist": "Nornec",
                 "title": "Confusion",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/02. Nornec - Confusion.mp3",
                 "link": "https://nornec.bandcamp.com/track/confusion",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 185.28
             },
             {
                 "trackNo": 12,
                 "artist": "Octalus",
                 "title": "Burning Bridges",
-                "file": "",
+                "file": "2021/Sim_Selections_MAY_2021/01. Octalus - Burning Bridges.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 141.82
             }
         ]
     },
@@ -140,109 +162,121 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "apple butter",
                 "title": "Where's The Milk & Cookies",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/12. apple butter - Where's The Milk & Cookies.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 26.9
             },
             {
                 "trackNo": 2,
                 "artist": "dogsander",
                 "title": "the succorous power of milk",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/11. dogsander - the succorous power of milk.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 127.58
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "Valued Time",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/10. informationcake - Valued Time.mp3",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 239.98
             },
             {
                 "trackNo": 4,
                 "artist": "ipso",
                 "title": "The Milky Way",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/09. ipso - The Milky Way.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.44
             },
             {
                 "trackNo": 5,
                 "artist": "jungle pickle",
                 "title": "Milk",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/08. jungle pickle - 20210605.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/milk?si=e23df83ea0cc4f1aa18592249ad08907&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 215.3
             },
             {
                 "trackNo": 6,
                 "artist": "Wonky Robot",
                 "title": "Sim Selections June 2021",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/07. Wonky Robot - Sim Selections June.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.07
             },
             {
                 "trackNo": 7,
                 "artist": "Menhirs & Akemiya",
                 "title": "When The World Was Bigger",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/06. Menhirs & Akemiya - When the World Was Bigger.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 283.78
             },
             {
                 "trackNo": 8,
                 "artist": "Next Stop Mars",
                 "title": "Milk The Djembe",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/05. Next Stop Mars - Milk The Djembe.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 120.07
             },
             {
                 "trackNo": 9,
                 "artist": "NGC 3019",
                 "title": "The Milky Way",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/04. NGC 3019 - The Milky Way.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/the-milky-way-2",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 10,
                 "artist": "Theit",
                 "title": "Sim",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/03. Theit - sim.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 51.07
             },
             {
                 "trackNo": 11,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Milk",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/02. Thomas and the Evil Computer - Milk.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 177.62
             },
             {
                 "trackNo": 12,
                 "artist": "Tranendal",
                 "title": "Lactic Acid",
-                "file": "",
+                "file": "2021/Sim_Selections_JUNE_2021/01. Tranendal - Lactic Acid.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 212.93
             }
         ]
     },
@@ -263,145 +297,161 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Akemiya",
                 "title": "Opposite Reaction",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/17. Akemiya - Opposite Reaction.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 300.96
             },
             {
                 "trackNo": 2,
                 "artist": "Anomaly",
                 "title": "Mammatus",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/16. Anomaly - Mammatus.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 152.06
             },
             {
                 "trackNo": 3,
                 "artist": "Defauly Media Transmitter",
                 "title": "Feverish Loop",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/15. Default Media Transmitter - Feverish Loop.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/feverish-loop",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 144.1
             },
             {
                 "trackNo": 4,
                 "artist": "Dogsander",
                 "title": "Accretion Disk",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/14. dogsander - Accretion Disk.mp4",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 179.9
             },
             {
                 "trackNo": 5,
                 "artist": "Durkl",
                 "title": "Reprieve",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/13. durkl - Reprieve.mp3",
                 "link": "https://soundcloud.com/durkl1/reprieve",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 181.1
             },
             {
                 "trackNo": 6,
                 "artist": "informationcake",
                 "title": "Side Thoughts",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/12. informationcake - Side Thoughts.mp3",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 181.63
             },
             {
                 "trackNo": 7,
                 "artist": "Jungle Pickle",
                 "title": "Cape of Moss",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/10. jungle pickle - Cape of Moss (maddening).mp3",
                 "link": "https://soundcloud.com/jungle-pickle/cape-of-moss-maddening?si=36f81f7a5a544f0d9676bf57e6cd007c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 187.27
             },
             {
                 "trackNo": 8,
                 "artist": "Jungle Pickle",
                 "title": "Hope",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/11. jungle pickle - unknown.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/hope?si=fec828976add4c18a70be61f00cc16fd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 172.37
             },
             {
                 "trackNo": 9,
                 "artist": "Menhirs & Nornec",
                 "title": "Chromatose",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/09. Menhirs & Nornec - Chromatose.mp3",
                 "link": "https://nornec.bandcamp.com/track/chromatose-feat-menhirs",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 225.07
             },
             {
                 "trackNo": 10,
                 "artist": "NGC 3019 & Next Stop Mars",
                 "title": "Moonstalgia",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/08. NGC 3019 & Next Stop Mars - Moonstalgia.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 171.89
             },
             {
                 "trackNo": 11,
                 "artist": "Obselysium",
                 "title": "Fight for Flight",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/07. Obselysium - Fight for Flight.mp3",
                 "link": "https://soundcloud.com/obselysium/fight-for-flight",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 165.07
             },
             {
                 "trackNo": 12,
                 "artist": "Theit",
                 "title": "a stolen car crashed through my wall but I am alive",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/06. Theit - a stolen car crashed through my wall but I am alive.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 160.13
             },
             {
                 "trackNo": 13,
                 "artist": "Unthank",
                 "title": "Bassickly",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/04. Unthank - Bassickly.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 184.87
             },
             {
                 "trackNo": 14,
                 "artist": "Viiri",
                 "title": "Love You Forever",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/03. Viiri - Love You Forever.mp4",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 311.81
             },
             {
                 "trackNo": 15,
                 "artist": "Wonky Robot",
                 "title": "Sliver of Hope",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/02. Wonky Robot - Sliver of Hope.mp3",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-sliver-of-hope",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 151.3
             },
             {
                 "trackNo": 16,
                 "artist": "Ipso",
                 "title": "Grime",
-                "file": "",
+                "file": "2021/Sim_Selections_JULY_2021/01. ipso - Grime.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 353.18
             },
             {
                 "trackNo": 17,
@@ -431,64 +481,71 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "ipso",
                 "title": "Escape",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/01. ipso - Escape.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 65.11
             },
             {
                 "trackNo": 2,
                 "artist": "kevin Thorsen",
                 "title": "Forgetting",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/02. Kevin Thorsen - Forgetting.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.55
             },
             {
                 "trackNo": 3,
                 "artist": "Viiri",
                 "title": "Hard Time Letting Go",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/03. Viiri - Hard Time Letting Go.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 306.43
             },
             {
                 "trackNo": 4,
                 "artist": "Wonky Robot",
                 "title": "Out of Time",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/04. Wonky Robot - Out of Time.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 176.06
             },
             {
                 "trackNo": 5,
                 "artist": "Durkl",
                 "title": "Running (out of time)",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/05. durkl - Running (out of time).mp3",
                 "link": "https://soundcloud.com/durkl1/running-out-of-time",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 203.98
             },
             {
                 "trackNo": 6,
                 "artist": "Mark Feifarek",
                 "title": "Aurelian Glenn",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/06. Mark Feifarek - Aurelian Glenn.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 179.9
             },
             {
                 "trackNo": 7,
                 "artist": "Plesiotone",
                 "title": "The Waterfountain loop",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/07. plesiotone - The Waterfountain Loop.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 181.82
             },
             {
                 "trackNo": 8,
@@ -503,100 +560,111 @@ export const playlistData = [
                 "trackNo": 9,
                 "artist": "jungle pickle",
                 "title": "Out of Time",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/09. jungle pickle - Out of TIme.mp4",
                 "link": "https://soundcloud.com/jungle-pickle/out-of-time?si=9214dbef7a484ec89cd15a2ca80c21f4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 186.0
             },
             {
                 "trackNo": 10,
                 "artist": "Nornec",
                 "title": "The Ritual",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/10. Nornec - The Ritual.mp3",
                 "link": "https://nornec.bandcamp.com/track/the-ritual",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 214.54
             },
             {
                 "trackNo": 11,
                 "artist": "zeroAPR",
                 "title": "I Just Called to Say",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/11. zeroApr - I Just Called to Say.mp3",
                 "link": "https://soundcloud.com/charles-ginsberg/i-just-called-to-say",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 159.24
             },
             {
                 "trackNo": 12,
                 "artist": "dogsander",
                 "title": "Icosikaihenagon",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/12. dogsander - Icosikaihenagon.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 129.07
             },
             {
                 "trackNo": 13,
                 "artist": "Heavy Listening",
                 "title": "Meditation One",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/13. Heavy Listening - Meditation One.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 14,
                 "artist": "NGC 3019",
                 "title": "Out of Time, Out of Space, Out of Options",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/14. NGC 2019 - Out of TIme, Out of Space, Out of Options.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/out-of-time-out-of-space-out-of-options-2",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.73
             },
             {
                 "trackNo": 15,
                 "artist": "Unthank",
                 "title": "Kabulean Algebra",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/15. Unthank - Kabulean Algebra.mp3",
                 "link": "https://soundcloud.com/unthank/sim-selections-august-benn-midi",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 161.69
             },
             {
                 "trackNo": 16,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Lost in Time",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/16. Thomas and the Evil Computer - Out of Time.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 206.54
             },
             {
                 "trackNo": 17,
                 "artist": "Kitsune Machines",
                 "title": "Nothing Left",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/17. Kitsune Machines - Nothing Left.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 224.06
             },
             {
                 "trackNo": 18,
                 "artist": "Default Media Transmitter",
                 "title": "OEM Outfit",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/18. Default Media Transmitter - OEM Outfit.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/oem-outfit",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.22
             },
             {
                 "trackNo": 19,
                 "artist": "Christopher Floyd",
                 "title": "empty apartment",
-                "file": "",
+                "file": "2021/Sim_Selections_AUGUST_2021/19. Christopher Floyd - empty apartment.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 196.08
             }
         ]
     },
@@ -617,10 +685,11 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Myrrys",
                 "title": "The Garden",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/01. Myrrys - The Garden.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 259.18
             },
             {
                 "trackNo": 2,
@@ -635,73 +704,81 @@ export const playlistData = [
                 "trackNo": 3,
                 "artist": "Kitsune Machines",
                 "title": "Falling",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/02. Kitsune Machines - Falling.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 152.93
             },
             {
                 "trackNo": 4,
                 "artist": "Paroxysmal Nocturnal Dyspnea (PND)",
                 "title": "Nurd of Time",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/03. Paroxysmal Nocturnal Dyspnea - Nurd of Time.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 232.61
             },
             {
                 "trackNo": 5,
                 "artist": "NGC 3019",
                 "title": "Pre-Gravity (demo)",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/04. NGC 3019 - Pre-Gravity (demo).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 249.84
             },
             {
                 "trackNo": 6,
                 "artist": "Aplut",
                 "title": "Sweet & Spicy",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/05. Aplut - Sweet & Spicy.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.94
             },
             {
                 "trackNo": 7,
                 "artist": "Divided Horizon",
                 "title": "Gaze",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/06. Divided Horizon - Gaze.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 219.55
             },
             {
                 "trackNo": 8,
                 "artist": "Nornec",
                 "title": "Gentle Giant",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/07. Nornec - Gentle Giant.mp3",
                 "link": "https://nornec.bandcamp.com/track/gentle-giant",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 266.74
             },
             {
                 "trackNo": 9,
                 "artist": "nedogled",
                 "title": "Foreverdream",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/08. nedogled - Foreverdream.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 55.9
             },
             {
                 "trackNo": 10,
                 "artist": "udinkhatola",
                 "title": "Mephistopheles' Trail",
-                "file": "",
+                "file": "2021/Sim_Selections_OCTOBER_2021/09. udonkhatola - Mephistopheles' Trail.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.08
             },
             {
                 "trackNo": 11,
@@ -731,190 +808,211 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "stoic",
                 "title": "Heavy Stimula",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/01. stoic - Heavy Simula.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 94.27
             },
             {
                 "trackNo": 2,
                 "artist": "Theit",
                 "title": "Microcassette",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/02. Theit - Microcassette.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 98.3
             },
             {
                 "trackNo": 3,
                 "artist": "Menhirs",
                 "title": "567 MPH",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/03. Menhirs - 567 MPH.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 313.49
             },
             {
                 "trackNo": 4,
                 "artist": "zeroApr",
                 "title": "Private Poet's Entropy",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/04. zeroApr - Private Poet's Entropy.mp3",
                 "link": "https://soundcloud.com/charles-ginsberg/private-poets-entropy-1",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 196.08
             },
             {
                 "trackNo": 5,
                 "artist": "Durkl",
                 "title": "A Third Way",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/05. durkl - A Third Way.mp3",
                 "link": "https://soundcloud.com/durkl1/a-third-way",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 175.27
             },
             {
                 "trackNo": 6,
                 "artist": "NGC 3019",
                 "title": "Identity Crisis aka Particle Wave Duality",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/06. NGC 3019 - Identity Crisis.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/particle-wave-duality-2",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 147.77
             },
             {
                 "trackNo": 7,
                 "artist": "Unthank",
                 "title": "In The Basement",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/07. Unthank - In The Basement.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 83.59
             },
             {
                 "trackNo": 8,
                 "artist": "Viiri",
                 "title": "Road of Bones",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/08. Viiri - Road of Bones.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 341.02
             },
             {
                 "trackNo": 9,
                 "artist": "nedogled",
                 "title": "Make FM Great Again",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/09. nedogled - Make FM Great Again.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 149.45
             },
             {
                 "trackNo": 10,
                 "artist": "Fjaru",
                 "title": "Nuclear willpower",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/10. Fjaru - Nuclear willpower.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 189.43
             },
             {
                 "trackNo": 11,
                 "artist": "jungle pickle",
                 "title": "I don't know who I am",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/11. jungle pickle - I don't know who I am.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/i-dont-know-who-i-am",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.07
             },
             {
                 "trackNo": 12,
                 "artist": "Nornec",
                 "title": "The Death of Song",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/12. Nornec - The Death of Song.mp3",
                 "link": "https://nornec.bandcamp.com/track/the-death-of-song",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.47
             },
             {
                 "trackNo": 13,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Moist Shamoyce",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/13. Thomas and the Evil Computer - Moist Shamoyce.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 162.41
             },
             {
                 "trackNo": 14,
                 "artist": "Sparga",
                 "title": "Window",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/14. Sparga - Window.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.3
             },
             {
                 "trackNo": 15,
                 "artist": "Agent VX",
                 "title": "Incident Report #1",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/15. Agent VX - Incident Report #1.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 114.5
             },
             {
                 "trackNo": 16,
                 "artist": "Aplut",
                 "title": "Rediscovery",
-                "file": "",
-                "link": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/16. Aplut - Rediscovery.mp3",
+                "link": "https://soundcloud.com/aplutofficial/rediscovery",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 143.38
             },
             {
                 "trackNo": 17,
                 "artist": "Kitsune Machines",
                 "title": "Generative Identity",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/17. Kitsune Machines - Generative Identity.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 145.34
             },
             {
                 "trackNo": 18,
                 "artist": "Plesiotone",
                 "title": "Stale Chili Powder",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/18. plesiotone - Stale Chili Powder.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 112.51
             },
             {
                 "trackNo": 19,
                 "artist": "Default Media Transmitter",
                 "title": "Laughing Matters",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/19. Default Media Transmitter - Laughing Matters.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/laughing-matters",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 157.2
             },
             {
                 "trackNo": 20,
                 "artist": "Obselysium",
                 "title": "Oops! All Bass",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/20. Obselysium - Oops! All Bass.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 65.52
             },
             {
                 "trackNo": 21,
                 "artist": "MRDR",
                 "title": "Full of Compromise",
-                "file": "",
+                "file": "2021/Sim_Selections_NOVEMBER_2021/21. MRDR - Full of Compromise.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 214.18
             }
         ]
     },
@@ -935,208 +1033,231 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Agent VX",
                 "title": "The Bad Touch",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/23. Agent VX - The Bad Touch.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 239.66
             },
             {
                 "trackNo": 2,
                 "artist": "Aplut",
                 "title": "Watching Time Go By",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/22. Aplut - Watching Time Go By.mp3",
                 "link": "https://soundcloud.com/aplutofficial/watching-time-go-by",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 297.58
             },
             {
                 "trackNo": 3,
                 "artist": "DRMR",
                 "title": "Memory Fleeting",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/21. DRMR - Memory Fleeting.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 250.7
             },
             {
                 "trackNo": 4,
                 "artist": "Fjaru",
                 "title": "Data Heist",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/20. Fjaru - Data heist.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 234.29
             },
             {
                 "trackNo": 5,
                 "artist": "Heavy Listening",
                 "title": "Jesu, Joy Of Robot's Desiring",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/19. Heavy Listening - Jesu, Joy of Robot's Desiring.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 88.58
             },
             {
                 "trackNo": 6,
                 "artist": "informationcake",
                 "title": "Santa Will Betray You",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/18. informationcake - Santa Will Betray You.mp3",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 106.42
             },
             {
                 "trackNo": 7,
                 "artist": "Ipso",
                 "title": "Mirrored Caverns, Vol 2",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/17. ipso - Mirrored Caverns, vol 2.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 357.24
             },
             {
                 "trackNo": 8,
                 "artist": "Jungle Pickle",
                 "title": "Hanky Panky",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/16. jungle pickle - Hanky Panky.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/hanky-panky",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.07
             },
             {
                 "trackNo": 9,
                 "artist": "Just Below Purgatory",
                 "title": "Bezoz Blaster",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/15. Just Below Purgatory - Bezos Blaster.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.14
             },
             {
                 "trackNo": 10,
                 "artist": "Kevin Thorsen",
                 "title": "Eden",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/14. Kevin Thorsen - Eden.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 257.57
             },
             {
                 "trackNo": 11,
                 "artist": "Lauren",
                 "title": "Bells",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/13. lauren - bells.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 210.91
             },
             {
                 "trackNo": 12,
                 "artist": "Liquidkey",
                 "title": "3",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/12. liquidkey - 3.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 221.62
             },
             {
                 "trackNo": 13,
                 "artist": "My Gloomy Machine",
                 "title": "No Strings Attached",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/11. My Gloomy Machine - No Strings Attached.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 277.18
             },
             {
                 "trackNo": 14,
                 "artist": "Nedogled",
                 "title": "Hei Sloveni",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/10. nedogled - Hei Sloveni.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 85.44
             },
             {
                 "trackNo": 15,
                 "artist": "NGC 3019",
                 "title": "Saturnalia Waltz",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/09. NGC 3019 - Saturnalia Waltz.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.86
             },
             {
                 "trackNo": 16,
                 "artist": "Nornec",
                 "title": "Warlord (Unreal Remix)",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/08. Nornec - Warlord (Unreal Remix).mp3",
                 "link": "https://nornec.bandcamp.com/track/warlord-unreal-remix",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 193.78
             },
             {
                 "trackNo": 17,
                 "artist": "Obselysium",
                 "title": "Warm Scarf",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/07. Obselysium - Warm Scarf.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 215.02
             },
             {
                 "trackNo": 18,
                 "artist": "Riku Morten",
                 "title": "The Sage",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/06. Riku Morten - The Sage.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 264.07
             },
             {
                 "trackNo": 19,
                 "artist": "Stoic",
                 "title": "All The Way",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/05. stoic - All The Way.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 57.89
             },
             {
                 "trackNo": 20,
                 "artist": "Thomas And The Evil Computer",
                 "title": "The Monkey's Paw",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/04. Thomas and the Evil Computer - The Monkey Paw.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 144.14
             },
             {
                 "trackNo": 21,
                 "artist": "Viiri",
                 "title": "Jingle Bells Made Me Do It",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/03. Viiri - Jingle Bells Made Me Do It.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 555.17
             },
             {
                 "trackNo": 22,
                 "artist": "Wonky Robot",
                 "title": "Holiday Wishes",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/02. Wonky Robot - Holiday Wishes.mp3",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-holiday-wishes-sim-selection-december-2021",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 148.54
             },
             {
                 "trackNo": 23,
                 "artist": "ZeroAPR",
                 "title": "Store Closed",
-                "file": "",
+                "file": "2021/Sim_Selections_DECEMBER_2021/01. zeroApr - Store Closed.mp3",
                 "link": "https://soundcloud.com/charles-ginsberg/store-closed",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 103.01
             },
             {
                 "trackNo": 24,
@@ -1193,46 +1314,51 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Agent VX",
                 "title": "Metal Machine",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/01. Agent VX - Metal Machine.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 60.72
             },
             {
                 "trackNo": 2,
                 "artist": "Aplut",
                 "title": "Lightly",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/02. Aplut - Lightly.mp3",
                 "link": "https://youtu.be/Nq5q-gB9Dfc",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 149.06
             },
             {
                 "trackNo": 3,
                 "artist": "DRMR",
                 "title": "Simplified Occurrence",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/03. DRMR - Simplified Occurrence.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 375.05
             },
             {
                 "trackNo": 4,
                 "artist": "Equals Equals",
                 "title": "Dat house is drumming",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/04. Equal Equals - Dat house is drumming.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 142.78
             },
             {
                 "trackNo": 5,
                 "artist": "fulhjort",
                 "title": "i, too, like a good rant",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/05. fulhjort - i, too, like a good rant.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.66
             },
             {
                 "trackNo": 6,
@@ -1247,127 +1373,151 @@ export const playlistData = [
                 "trackNo": 7,
                 "artist": "jungle pickle",
                 "title": "9 Circles",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/06. jungle pickle - 9 Circles.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/9-circles?si=52aec875168e43b6adbad3723411e66f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 269.54
             },
             {
                 "trackNo": 8,
                 "artist": "Kevin Thorsen",
                 "title": "Get Enough",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/07. Kevin Thorsen - Get Enough.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 160.68
+            },
+            {
+                "trackNo": 8,
+                "artist": "lauren",
+                "title": "some chromophone taps",
+                "file": "2022/Sim_Selections_JANUARY_2022/08. lauren - some chromophone taps.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 35.4
             },
             {
                 "trackNo": 9,
                 "artist": "Lauren",
                 "title": "some chromophone taps; spent 2h making it this bad",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/09. lauren - spent 2h making it this bad.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 24.84
             },
             {
                 "trackNo": 10,
                 "artist": "liquidkey",
                 "title": "glass half full",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/10. liquidkey - glass half full.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 160.08
             },
             {
                 "trackNo": 11,
                 "artist": "nedogled",
                 "title": "solar panels will not save us",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/11. nedogled - solar panels will not save us.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 133.01
             },
             {
                 "trackNo": 12,
                 "artist": "NGC 3019",
                 "title": "Low Vapour Pressure",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/12. NGC 3019 - Low Vapour Pressure.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/low-vapour-pressure",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 193.92
             },
             {
                 "trackNo": 13,
                 "artist": "Plesiotone",
                 "title": "The Pumpkin Beer Microwave Incident",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/13. plesiotone - The Punpkin Beer Microwave Incident.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 155.74
             },
             {
                 "trackNo": 14,
                 "artist": "Sparga",
                 "title": "Song of the Sad Screwdriver",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/14. Sparga - Song of the Sad Screwdriver.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.07
             },
             {
                 "trackNo": 15,
                 "artist": "stoic",
                 "title": "Sephrim 9",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/15. stoic - Sephrim 9.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 16,
                 "artist": "Theodore Snoozevelt",
                 "title": "the high price of clownery",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/16. Theodore Snoozevelt - the high price of clownery.mp3",
                 "link": "https://soundcloud.com/snoozevelt/the-high-price-of-clownery",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 97.75
             },
             {
                 "trackNo": 17,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Low Job",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/17. Thomas and the Evil Computer - Low Job.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 168.65
             },
             {
                 "trackNo": 18,
                 "artist": "Viiri",
                 "title": "Mmoni",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/18. Viiri - Mmoni.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 73.92
             },
             {
                 "trackNo": 19,
                 "artist": "Wonky Robot",
                 "title": "Dancing Alone",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/19. Wonky Robot - Dancing Alone.mp3",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-dancing-alone-sim-selection-january-2022",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 168.29
             },
             {
                 "trackNo": 20,
                 "artist": "ZeroApr",
                 "title": "Bwrrrang Town",
-                "file": "",
+                "file": "2022/Sim_Selections_JANUARY_2022/20. zeroApr - Bwrrrang Town.mp3",
                 "link": "https://soundcloud.com/charles-ginsberg/bwrang-town-final",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 85.27
             }
         ]
     },
@@ -1388,208 +1538,231 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Max Mattingly",
                 "title": "Nighttime Noodles",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/01. Max Mattingly - Nighttime Noodles.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 179.33
             },
             {
                 "trackNo": 2,
                 "artist": "Agent VX feat. Ken",
                 "title": "Chilled Scotch",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/02. Agent VX feat. Ken - Chilled Scotch.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 170.81
             },
             {
                 "trackNo": 3,
                 "artist": "Edwin",
                 "title": "Evening Encounter",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/03. Edwin - Evening Encounter.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.94
             },
             {
                 "trackNo": 4,
                 "artist": "Equals Equals",
                 "title": "Just for the Memories",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/04. Equal Equals - Just for the Memories.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 221.62
             },
             {
                 "trackNo": 5,
                 "artist": "fulhjort",
                 "title": "Once maybe twice",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/05. fulhjort - Once maybe twice.mp3",
                 "link": "https://soundcloud.com/hjorten/once-maybe-twice",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 181.78
             },
             {
                 "trackNo": 6,
                 "artist": "Pulse-Static",
                 "title": "Guitar Remix",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/06. Pulse-Static - Guitar Remix.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 105.41
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake",
                 "title": "Inwards Upwards",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/07. informationcake - Inwards Upwards.mp3",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 232.08
             },
             {
                 "trackNo": 8,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Lost and Found",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/08. Thomas and the Evil Computer - Lost and Found.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.12
             },
             {
                 "trackNo": 9,
                 "artist": "Mark Feifarek",
                 "title": "Lost at Seaside",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/09. Mark Feifarek - Lost at Seaside.mp3",
                 "link": "https://drive.google.com/file/d/1klCPItRYKY2YvdmRfEDADzmewpx4s_XI/view?usp=sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 201.02
             },
             {
                 "trackNo": 10,
                 "artist": "NGC 3019",
                 "title": "Casio Cascade",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/10. NGC 3019 - Casino Cascade.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/casio-cascade",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 197.21
             },
             {
                 "trackNo": 11,
                 "artist": "Viiri",
                 "title": "Faced With the Pardox",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/11. Viiri - Faced With the Paradox.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.07
             },
             {
                 "trackNo": 12,
                 "artist": "Kevin Thorsen",
                 "title": "Polytopia",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/12. Kevin Thorsen - Polytopia.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 217.54
             },
             {
                 "trackNo": 13,
                 "artist": "jungle pickle",
                 "title": "Purple Skies",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/13. jungle pickle - Purple Skies.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/purple-skies-1",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 201.67
             },
             {
                 "trackNo": 14,
                 "artist": "stoic",
                 "title": "rinsomaton",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/14. stoic - rinsomaton.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 166.8
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec",
                 "title": "Space Walk",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/15. Nornec - Space Walk.mp3",
                 "link": "https://nornec.bandcamp.com/track/space-walk",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 299.16
             },
             {
                 "trackNo": 16,
                 "artist": "informationcake",
                 "title": "Top Of The World",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/16. informationcake - Top Of The World.mp3",
                 "link": "https://informationcake.bandcamp.com/track/top-of-the-world-2",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 329.95
             },
             {
                 "trackNo": 17,
                 "artist": "Innate Distance",
                 "title": "Undercover",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/17. Innate Distance - Undercover.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.68
             },
             {
                 "trackNo": 18,
                 "artist": "Heavy Listening",
                 "title": "Waiting Here For You",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/18. Heavy Listening - Waiting Here For You.mp3",
                 "link": "https://heavylistening.substack.com/p/february-waiting-here-for-you",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 234.36
             },
             {
                 "trackNo": 19,
                 "artist": "Default Media Transmitter",
                 "title": "What happens if I do this?",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/19. Default Media Transmitter - What happens if I do this.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/what-happens-if-i-do-this",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 154.1
             },
             {
                 "trackNo": 20,
                 "artist": "Wonky Robot",
                 "title": "Riff On Past Self",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/20. Wonky Robot - Riff On Past Self.mp3",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-riff-on-past-self-sim-selection-febuary-2022",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 203.47
             },
             {
                 "trackNo": 21,
                 "artist": "Adam Johan Bergren",
                 "title": "Dance of Ideas",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/21. Adam Johan Bergren - Dance of Ideas.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/dance-of-ideas",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.07
             },
             {
                 "trackNo": 22,
                 "artist": "ipso",
                 "title": "Thump",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/23. ipso - Thump.mp4",
                 "link": "https://soundcloud.com/ipsotheque/thump-where-the-lost-balloons",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 327.77
             },
             {
                 "trackNo": 23,
                 "artist": "Edwin",
                 "title": "Tip Top Shape",
-                "file": "",
+                "file": "2022/Sim_Selections_FEBRUARY_2022/22. Edwin DeNicholas - Tip Top Shape.ogg",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 73.85
             },
             {
                 "trackNo": 24,
@@ -1628,199 +1801,221 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Adam Johan Bergren",
                 "title": "Psyclone Psea Psnakes",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/01. Adam Johan Bergren - Psyclone Psea Psnakes.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/psyclone-psea-psnakes",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 207.58
             },
             {
                 "trackNo": 2,
                 "artist": "Zero Apr",
                 "title": "Time Decay",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/02. zeroApr - Time Decay.mp3",
                 "link": "https://soundcloud.com/charles-ginsberg/time-decay",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 188.98
             },
             {
                 "trackNo": 3,
                 "artist": "Aplut",
                 "title": "Existence",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/03. Aplut - Existence.mp3",
                 "link": "https://youtu.be/UjlUq5DNmms",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 246.86
             },
             {
                 "trackNo": 4,
                 "artist": "Wonky Robot",
                 "title": "Metamorph",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/04. Wonky Robot - Metamorph.mp3",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-metamorph-sim-selections-april-2022",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 162.53
             },
             {
                 "trackNo": 5,
                 "artist": "Jungle Pickle",
                 "title": "Fool's Gold",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/05. jungle pickle - Fool's Gold.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/fools-gold",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 152.06
             },
             {
                 "trackNo": 6,
                 "artist": "Undercover Brother",
                 "title": "Veil",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/06. Undercover Brother - Veil.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 249.53
             },
             {
                 "trackNo": 7,
                 "artist": "Kitsune Machines",
                 "title": "Divergence",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/07. Kitsune Machines - Divergence.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 174.29
             },
             {
                 "trackNo": 8,
                 "artist": "Tranendal",
                 "title": "Op Zoek Naar Het Klatergoud",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/08. Tranendal - Op Zoek Naar Het Klatergoud.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 358.34
             },
             {
                 "trackNo": 9,
                 "artist": "Dream Static",
                 "title": "Charged Particles",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/09. Dream Static - Charged Particles.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 227.06
             },
             {
                 "trackNo": 10,
                 "artist": "Stoic",
                 "title": "Broken Record",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/10. stoic - broken record.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.12
             },
             {
                 "trackNo": 11,
                 "artist": "Durkl",
                 "title": "Liveset Preview",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/11. durkl - Liveset Preview.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 237.89
             },
             {
                 "trackNo": 12,
                 "artist": "Edwin",
                 "title": "Pyrite mining",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/12. Edwin - pyrite-mining.mp3",
                 "link": "https://khaotomsunrise.bandcamp.com/track/pyrite-mining",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 232.51
             },
             {
                 "trackNo": 13,
                 "artist": "Equals Equals",
                 "title": "Worth The Tape",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/13. Equal Equals - WORTH THE TAPE.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 300.79
             },
             {
                 "trackNo": 14,
                 "artist": "Nornec",
                 "title": "F# At The End Of Time",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/14. Nornec - F# At The End of TIme.mp3",
                 "link": "https://nornec.bandcamp.com/track/f-at-the-end-of-time",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 284.64
             },
             {
                 "trackNo": 15,
                 "artist": "Default Media Transmitter",
                 "title": "Flood Slog",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/15. Default Media Transmitter - Flood Slog.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/flood-slog",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 245.45
             },
             {
                 "trackNo": 16,
                 "artist": "NGC 3019",
                 "title": "Meteroite",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/16. NGC 3019 - Meteorite.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/meteorite",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 299.11
             },
             {
                 "trackNo": 17,
                 "artist": "Fulhjort",
                 "title": "Urgent Build",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/17. fulhjort - Urgent build.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 319.9
             },
             {
                 "trackNo": 18,
                 "artist": "Jungle Pickle",
                 "title": "Metamorphic",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/18. jungle pickle - Metamorphic.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/metamorphic",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 245.62
             },
             {
                 "trackNo": 19,
                 "artist": "Ashley Chapman",
                 "title": "Head Thunder",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/19. Ashley Chapman - Head Thunder.mp3",
                 "link": "https://soundcloud.com/user308437765/head-thunder-april-sim-selections",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.14
             },
             {
                 "trackNo": 20,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Sim Systems",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/20. Thomas and the Evil Computer - Sim Systems.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 176.71
             },
             {
                 "trackNo": 21,
                 "artist": "informationcake",
                 "title": "Another World",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/21. informationcake - In Another World.mp3",
                 "link": "https://informationcake.bandcamp.com/track/another-world-i",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 260.06
             },
             {
                 "trackNo": 22,
                 "artist": "Ipso",
                 "title": "Tfom 2022 Excerpt",
-                "file": "",
+                "file": "2022/Sim_Selections_APRIL_2022/22. ipso - TFoM 2022 Excerpt.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 293.71
             },
             {
                 "trackNo": 23,
@@ -1850,181 +2045,201 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Jungle Pickle",
                 "title": "A real jungle pickle",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/01. jungle pickle - A real jungle pickle.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/a-real-jungle-pickle",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 154.9
             },
             {
                 "trackNo": 2,
                 "artist": "fuljort",
                 "title": "Binds",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/02. fulhjort - Binds.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 175.46
             },
             {
                 "trackNo": 3,
                 "artist": "Ashley Chapman",
                 "title": "Careless Trip",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/03. Ashley Chapman - Careless Trip.mp3",
                 "link": "https://soundcloud.com/user308437765/careless-trip-may-sim-selections",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 163.73
             },
             {
                 "trackNo": 4,
                 "artist": "Popbot",
                 "title": "Craters",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/04. Popbot - Craters.mp3",
                 "link": "https://drive.google.com/file/d/1vSIWIM7zZBEKgKMuaQUbbZa83I80zlc2/view?usp=sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 152.04
             },
             {
                 "trackNo": 5,
                 "artist": "err rawr",
                 "title": "Reverse the random",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/05. err Rawr - Reverse the random.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 134.06
             },
             {
                 "trackNo": 6,
                 "artist": "First Sun",
                 "title": "It's Not A Planet",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/06. First Sun - It's Not A Planet.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 288.07
             },
             {
                 "trackNo": 7,
                 "artist": "Durkl",
                 "title": "Inferno",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/07. durkl - Inferno.mp3",
                 "link": "https://soundcloud.com/durkl1/inferno",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 189.94
             },
             {
                 "trackNo": 8,
                 "artist": "NGC 3019 & informationcake",
                 "title": "Pluto",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/08. NGC 3019 & Informationcake - Pluto.mp3",
                 "link": "https://informationcake.bandcamp.com/track/pluto",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 213.53
             },
             {
                 "trackNo": 9,
                 "artist": "Nornec",
                 "title": "Kuiper noir",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/09. Nornec - Kuiper Noir.mp3",
                 "link": "https://nornec.bandcamp.com/track/kuiper-noir",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 251.04
             },
             {
                 "trackNo": 10,
                 "artist": "MRDR",
                 "title": "Between Pluto and Eris",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/10. MRDR - Between Pluto and Eris.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 183.86
             },
             {
                 "trackNo": 11,
                 "artist": "Viiri",
                 "title": "On the Far Side of the Solar System",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/11. Viiri - On the Far Side of the Solar System.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 340.51
             },
             {
                 "trackNo": 12,
                 "artist": "Edwin",
                 "title": "Passing Pluto In Reverse",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/12. Edwin - Passing Pluto In Reverse.mp3",
                 "link": "https://khaotomsunrise.bandcamp.com/track/passing-pluto-in-reverse",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.06
             },
             {
                 "trackNo": 13,
                 "artist": "Plesiotone",
                 "title": "Plutonian Orbital Injection",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/13. plesiotone - Plutonian Orbital Injection.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 272.11
             },
             {
                 "trackNo": 14,
                 "artist": "Adam Johan Bergren",
                 "title": "Precovery data Recovery",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/14. Adam Johan Bergren - Precovery data Recovery.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/precovery-data-recovery",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 206.74
             },
             {
                 "trackNo": 15,
                 "artist": "Default Media Transmitter",
                 "title": "Retrograde",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/15. Default Media Transmitter - Retrograde.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/retrograde",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 179.45
             },
             {
                 "trackNo": 16,
                 "artist": "Michael Henry",
                 "title": "Pluto Soundtrack",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/16. Michael Henry - Pluto Soundtrack.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 174.65
             },
             {
                 "trackNo": 17,
                 "artist": "CataclystP",
                 "title": "Eventide on a distant horizon",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/17. catatronic - Eventide on a distant horizon.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 360.07
             },
             {
                 "trackNo": 18,
                 "artist": "Sparga",
                 "title": "Brain on Ice",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/18. Sparga - Brain on Ice.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 236.06
             },
             {
                 "trackNo": 19,
                 "artist": "Dream Static",
                 "title": "The Great Decay",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/19. Dream Static - The Great Decay.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 129.96
             },
             {
                 "trackNo": 20,
                 "artist": "ipso",
                 "title": "Cityside Twilight",
-                "file": "",
+                "file": "2022/Sim_Selections_MAY_2022/20. ipso - Cityside Twilight.mp4",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 155.43
             },
             {
                 "trackNo": 21,
@@ -2054,145 +2269,161 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Tranendal",
                 "title": "Zo Droog Als As",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/01. Tranendal - Zo Droog Als As.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.41
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Ishmael's Lament",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/02. Adam Johan Bergren - Ishmael's Lament.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/ishmaels-lament",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 217.85
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "Falling Through",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/03. informationcake - Falling Through.mp3",
                 "link": "https://informationcake.bandcamp.com/track/falling-through-2",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 348.17
             },
             {
                 "trackNo": 4,
                 "artist": "Default Media Transmitter",
                 "title": "Impermenance",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/04. Default Media Transmitter - Impermanence.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/impermanence",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 271.46
             },
             {
                 "trackNo": 5,
                 "artist": "Popbot",
                 "title": "Grist",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/05. Popbot - Grist.mp3",
                 "link": "https://soundcloud.com/popbot1/1-popbot-grist/s-zewidRsQzmz?si=5d4f0c033d574407826545d97bd64b0d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 230.21
             },
             {
                 "trackNo": 6,
                 "artist": "Edwin",
                 "title": "Flicking In The Woods",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/06. Edwin - Flickering In The Woods.mp3",
                 "link": "https://khaotomsunrise.bandcamp.com/track/flickering-beams-in-a-forest-of-stars",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 236.06
             },
             {
                 "trackNo": 7,
                 "artist": "Stoic",
                 "title": "Too Late",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/07. stoic - Too Late.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.08
             },
             {
                 "trackNo": 8,
                 "artist": "NGC 3019",
                 "title": "Captain Solvander The Starship Commander",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/08. NGC 3019 - Captain Solvander the Starship Commander.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/captain-solvander-the-starship-commander",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 225.96
             },
             {
                 "trackNo": 9,
                 "artist": "Jungle Pickle",
                 "title": "Tony",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/09. jungle pickle - jungle pickle.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/tony?si=51d3b5bf4349403185c4001f8e540b66&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 220.08
             },
             {
                 "trackNo": 10,
                 "artist": "Ipso & Nornec",
                 "title": "One Hundred Acres",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/10. ipso & Nornec - One Hundred Acres.mp3",
                 "link": "https://nornec.bandcamp.com/track/one-hundred-acres-feat-ipso",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 188.06
             },
             {
                 "trackNo": 11,
                 "artist": "Miya Moon",
                 "title": "Miya In The Woods",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/11. Miya Moon - Miya In The Woods.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 165.1
             },
             {
                 "trackNo": 12,
                 "artist": "Katt",
                 "title": "Watery Eyes",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/12. Katt - Watery Eyes.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 248.11
             },
             {
                 "trackNo": 13,
                 "artist": "Composite Complex",
                 "title": "Valentines Memories",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/13. Composite Complex - Valentines Memories.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 184.2
             },
             {
                 "trackNo": 14,
                 "artist": "Err: Rawr",
                 "title": "Love The Way She Smiles",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/14. err Rawr - Love the way she smiles.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 124.08
             },
             {
                 "trackNo": 15,
                 "artist": "Fuljhort",
                 "title": "Waaaaat",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/15. fulhjort - waaaaat.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 188.86
             },
             {
                 "trackNo": 16,
                 "artist": "Aplut",
                 "title": "Simple Feeling, Simple Thought",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/16. Aplut - Simple Feeling, Simple Thought.mp3",
                 "link": "https://youtu.be/8kIFlCSSM7E",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 201.1
             },
             {
                 "trackNo": 17,
@@ -2207,10 +2438,11 @@ export const playlistData = [
                 "trackNo": 18,
                 "artist": "Ipso & Nornec",
                 "title": "Wanderer",
-                "file": "",
+                "file": "2022/Sim_Selections_JUNE_2022/ipso & Nornec - Wanderer.mov",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 101.2
             }
         ]
     },
@@ -2231,217 +2463,251 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Acrid Meteors",
                 "title": "Raining Down on Mars",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/01. Acrid Meteors - Raining Down on Mars.mp3",
                 "link": "https://soundcloud.com/d-r-m-r/acrid-meteors-raining-down-on-mars",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 260.26
             },
             {
                 "trackNo": 2,
                 "artist": "Aplut",
                 "title": "Never Skip a Beat",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/02. Aplut - Never Skip A Beat.mp3",
                 "link": "https://youtu.be/vqoC9oEstaw",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 160.73
             },
             {
                 "trackNo": 3,
                 "artist": "Dream Static",
                 "title": "Rust Breathers",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/03. Dream Static - Rust Breathers.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 307.73
             },
             {
                 "trackNo": 4,
                 "artist": "Adam Johan Bergren",
                 "title": "Dynamic Situation Survival Simulation",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/04. Adam Johan Bergren - Dynamic Situation Survival Simulation.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/dynamic-situation-survival-simulation",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.63
             },
             {
                 "trackNo": 5,
                 "artist": "Krank Gronker",
                 "title": "Extinct Lifeform Findings",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/05. Krank Grokker - Extinct Lifeform Findings.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 150.14
             },
             {
                 "trackNo": 6,
                 "artist": "Fractalint",
                 "title": "Air is Thin",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/06. Fractalint - Air is Thin.mp3",
                 "link": "https://soundcloud.com/fractalint/air-is-thin",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 218.42
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake",
                 "title": "With Me",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/07. informationcake - With Me.mp3",
                 "link": "https://informationcake.bandcamp.com/track/with-me-2",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 420.07
+            },
+            {
+                "trackNo": 8,
+                "artist": "Kevhuman",
+                "title": "Break Orbit",
+                "file": "2022/Sim_Selections_JULY_2022/08. Kevhuman - Break Orbit.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 336.98
             },
             {
                 "trackNo": 8,
                 "artist": "NGC 3019",
                 "title": "Eleven of Sixteen Survive on Mars",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/09. NGC 3019 - Eleven out of 16 Survive on Mars.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.53
             },
             {
                 "trackNo": 9,
                 "artist": "Popbot",
                 "title": "pocket-note",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/10. Popbot - pocket-note.mp3",
                 "link": "https://soundcloud.com/popbot1/2-popbot-pocket-note/s-amAfU39rtBc?si=6964e1060ca847cfb399370b8f66a7ea&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 195.5
             },
             {
                 "trackNo": 10,
                 "artist": "Jungle Pickle",
                 "title": "Screw Your Silly Time Signature",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/11. jungle pickle - Screw your silly time signature.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/screw-your-silly-time-signature?si=489ca526c1d7470ab98b85ec803fea70&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 166.58
             },
             {
                 "trackNo": 11,
                 "artist": "Stoic",
                 "title": "Predestined Movement",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/12. stoic - predestined movement.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 173.35
             },
             {
                 "trackNo": 12,
                 "artist": "Coolout Coexist",
                 "title": "Will Call When we Reach Mars",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/13. Coolout Coexist - Will Call When We Reach Mars.mp3",
                 "link": "https://soundcloud.com/user-877170727/will-call-when-we-reach-mars",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 313.92
             },
             {
                 "trackNo": 13,
                 "artist": "Default Media Transmitter",
                 "title": "Solemnity",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/14. Default Media Transmitter - Solemnity.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/solemnity",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 281.14
             },
             {
                 "trackNo": 14,
                 "artist": "Fjaru",
                 "title": "Last to Leave",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/15. Fjaru - Last to leave.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 129.02
             },
             {
                 "trackNo": 15,
                 "artist": "Herr Shield",
                 "title": "A Billionaire's Fever Dreams",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/16. Herr Shield - A Billionaire's Fever Dreams.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.94
             },
             {
                 "trackNo": 16,
                 "artist": "Kevin Thorsen",
                 "title": "Every Butterfly",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/17. Kevin Thorsen - Every Butterfly.mp3",
                 "link": "https://soundcloud.com/kevinthorsen/every-butterfly?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 223.56
             },
             {
                 "trackNo": 17,
                 "artist": "Nornec",
                 "title": "Cold and Alone",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/18. Nornec - Cold And Alone.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.85
             },
             {
                 "trackNo": 18,
                 "artist": "Skyguide",
                 "title": "Cold as Hell",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/19. Skyguide - Cold as Hell.mp3",
                 "link": "https://youtu.be/LzVjWLcVLN4",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 156.07
             },
             {
                 "trackNo": 19,
                 "artist": "DRMR",
                 "title": "The Phases of Phobos and Deimos",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/20. DRMR - The Phases of Phobos and Deimos.mp3",
                 "link": "https://soundcloud.com/d-r-m-r/the-phases-of-phobos-and-deimos",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.03
             },
             {
                 "trackNo": 20,
                 "artist": "Heavy Listening",
                 "title": "Air on a Whale Tail",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/21. Heavy Listening - Air on a Whale Tail.mp3",
                 "link": "https://heavylistening.substack.com/p/july",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 314.28
             },
             {
                 "trackNo": 21,
                 "artist": "Just Below Purgatory",
                 "title": "Demond Don't Survive on Mars",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/22. Just Below Purgatory - Demons Don't Survive On Mars.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 200.16
             },
             {
                 "trackNo": 22,
                 "artist": "My Gloomy Machine",
                 "title": "It Is Better to Die on Earh than to Live on Mars",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/23. My Gloomy Machine - It's Better to Die on Earth Than to Live on Mars.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 329.59
             },
             {
                 "trackNo": 23,
                 "artist": "Pulse-Static",
                 "title": "Broken Form",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/24. Pulse-Static - Broken Form.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 116.57
             },
             {
                 "trackNo": 24,
                 "artist": "Theodore Snoozevelt",
                 "title": "A Failed Wager",
-                "file": "",
+                "file": "2022/Sim_Selections_JULY_2022/25. Theodore Snoozevelt - A failed wager.mp3",
                 "link": "https://soundcloud.com/snoozevelt/a-failed-wager-2",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 85.27
             },
             {
                 "trackNo": 25,
@@ -2480,226 +2746,261 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Edwin",
                 "title": "An Oddity",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/01. Edwin - An Oddity.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 170.06
             },
             {
                 "trackNo": 2,
                 "artist": "catatronic & Sparga",
                 "title": "Trust",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/02. catatronic & Sparga - Trust.mp3",
                 "link": "https://drive.google.com/file/d/1p-o0z8Zcn8iCrPcDnvf5MT_wuVmOoHPc/view?usp=sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 329.64
             },
             {
                 "trackNo": 3,
                 "artist": "Default Media Transmitter",
                 "title": "Aether",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/03. Default Media Transmitter - \u2019ther.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/aether",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 243.24
             },
             {
                 "trackNo": 4,
                 "artist": "DRMR",
                 "title": "Talk About Trust",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/04. DRMR - Talk About Trust.mp3",
                 "link": "https://soundcloud.com/d-r-m-r/talk-about-trust",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 196.1
             },
             {
                 "trackNo": 5,
                 "artist": "err: Rawr",
                 "title": "Fleeting Love",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/05. err Rawr - Fleeting Love.mp3",
                 "link": "https://open.spotify.com/track/7jhewPfOa0T0oqTu8rm5uB?si=oi2x_7Y4RhyiDi7unl4pZQ",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 191.33
             },
             {
                 "trackNo": 6,
                 "artist": "informationcake",
                 "title": "Unstable In The Twilight",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/06. informationcake - Unstable In The Twilight.mp3",
                 "link": "https://informationcake.bandcamp.com/track/unstable-in-the-twilight-2",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 266.23
             },
             {
                 "trackNo": 7,
                 "artist": "Krank Grokker",
                 "title": "Mandate",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/07. Krank Grokker - mandate.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 169.66
             },
             {
                 "trackNo": 8,
                 "artist": "NGC3019",
                 "title": "Thrust Issues",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/08. NGC 3019 - Thrust Issues.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 230.83
             },
             {
                 "trackNo": 9,
                 "artist": "Popbot and Default Media Transmitter",
                 "title": "Rommes",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/09. Popbot & Default Media Transmitter - Rommes.mp3",
                 "link": "https://drive.google.com/file/d/11wM356HWa7KBYiQbtqfD1O66S3Heuq7I/view?usp=sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 225.29
             },
             {
                 "trackNo": 10,
                 "artist": "Pulse Static",
                 "title": "Fmould Formation",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/10. Pulse-Static - FMold Formation.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 145.08
             },
             {
                 "trackNo": 11,
                 "artist": "Skyguide",
                 "title": "Belleweather",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/11. Skyguide - Belleweather.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 300.17
             },
             {
                 "trackNo": 12,
                 "artist": "Stoic",
                 "title": "Tension",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/12. stoic - tension.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.84
             },
             {
                 "trackNo": 13,
                 "artist": "Fractalint",
                 "title": "Wisdom of Crowds",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/13. Fractalint - Wisdom of Crowds.mp3",
                 "link": "https://soundcloud.com/fractalint/wisdom-of-crowds",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.22
             },
             {
                 "trackNo": 14,
                 "artist": "Dream Static and Nornec",
                 "title": "It Must Be a Virus",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/14. Dream Static & Nornec - It Must Be A Virus.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 251.45
             },
             {
                 "trackNo": 15,
                 "artist": "Adam Johan Bergren",
                 "title": "Deep Inelastic Scattering",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/15. Adam Johan Bergren - Deep Inelastic Scattering.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/deep-inelastic-scattering",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 211.27
             },
             {
                 "trackNo": 16,
                 "artist": "Duck Propaganda",
                 "title": "Bjodda",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/16. Duck Propaganda - Bjodda.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 146.28
             },
             {
                 "trackNo": 17,
                 "artist": "Heavy LIstening",
                 "title": "Scissors Runner",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/17. Heavy Listening - Scissors Runner Theme.mp3",
                 "link": "https://heavylistening.substack.com/p/august",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 275.42
             },
             {
                 "trackNo": 18,
                 "artist": "Mia Moon",
                 "title": "Kitchen Nightmares",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/18. Mia Moon - Kitchen Nightmares.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 268.63
             },
             {
                 "trackNo": 19,
                 "artist": "Popbot",
                 "title": "Brain Termites",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/19. Popbot - Brain Termites.mp3",
                 "link": "https://soundcloud.com/popbot1/4-popbot-brain-termites/s-e5FR04c7bHC?si=e32eff8d808943c085d1700458bbf5c6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 251.42
+            },
+            {
+                "trackNo": 20,
+                "artist": "Sounds by Shawn",
+                "title": "TrustInMe",
+                "file": "2022/Sim_Selections_AUGUST_2022/20. Sounds by Shawn - TrustInMe.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 116.06
             },
             {
                 "trackNo": 20,
                 "artist": "Stu M",
                 "title": "Shinrai",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/21. Stu M - Shinrai.mp3",
                 "link": "https://soundcloud.com/stumcgregor/shinrai?si=9d8cfd17ddca4d9e81bdf5c0507d8c6f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 229.18
             },
             {
                 "trackNo": 21,
                 "artist": "GRBT",
                 "title": "Trust Fall",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/22. GRBT - Trust Fall.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 95.45
             },
             {
                 "trackNo": 22,
                 "artist": "Kevin Thorsen",
                 "title": "Unfold",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/23. Kevin Thorsen - Unfold.mp3",
                 "link": "https://soundcloud.com/kevinthorsen/unfold",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 274.7
             },
             {
                 "trackNo": 23,
                 "artist": "Plesiotone",
                 "title": "Loose Red Pill",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/24. plesiotone - Loose Red Pill.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 153.7
             },
             {
                 "trackNo": 24,
                 "artist": "Protocol",
                 "title": "Round Of Trust",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/25. Protocol - Round of Trust.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.05
             },
             {
                 "trackNo": 25,
                 "artist": "Takamoon",
                 "title": "The Runaway Bunny",
-                "file": "",
+                "file": "2022/Sim_Selections_AUGUST_2022/26. Takamoon - The Runaway Bunny.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.77
             },
             {
                 "trackNo": 26,
@@ -2729,298 +3030,341 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Jungle Pickle",
                 "title": "Rock Music",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/203. jungle pickle - Rock Music.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 108.58
             },
             {
                 "trackNo": 2,
                 "artist": "stoic",
                 "title": "Dandelion dreams",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/226. stoic - dandelion dreams.mp3",
                 "link": "https://chewy.skin/dandelion_dreams.mp3",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 342.0
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "One Hour",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/224. informationcake - One Hour.mp3",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 153.29
             },
             {
                 "trackNo": 4,
                 "artist": "Heavy Listening",
                 "title": "In a September Groove",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/223. Heavy Listening - In a September Groove.mp3",
                 "link": "https://heavylistening.substack.com/p/in-a-september-groove",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 261.5
             },
             {
                 "trackNo": 5,
                 "artist": "Eukan Happonen",
                 "title": "Kuistilla",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/221. Eukari Happonen - Kuistilla.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 289.87
             },
             {
                 "trackNo": 6,
                 "artist": "Broken Gravity",
                 "title": "Approaching The Derelict",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/220. Broken Gravity - Approaching the derelict.mp3",
                 "link": "https://soundcloud.com/broken-gravity/approaching-the-derelict/s-jCcidtMeGto?si=f8e4abbedac249cdbbf4e7a34ebfe13a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 260.88
             },
             {
                 "trackNo": 7,
                 "artist": "Default Media Transmitter",
                 "title": "Too Late To Cash In",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/219. Default Media Transmitter - Too late to cash in.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/too-late-to-cash-in",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 258.19
             },
             {
                 "trackNo": 8,
                 "artist": "Plesiotone",
                 "title": "New Sk8er Shoes",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/217. plesiotone - New Sk8er Shoes.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 113.3
             },
             {
                 "trackNo": 9,
                 "artist": "Blip Factory",
                 "title": "Isolate 106",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/215. Blipfactory - Isolate 106.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 10,
                 "artist": "Menhirs",
                 "title": "Server Room Is A Forest",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/212. Menhirs - Server Room is a Forest.mp3",
                 "link": "https://soundcloud.com/menhirs/server-room-is-a-forest?si=58f0e30732234db18a0fab8fa46ba4ce&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 262.7
             },
             {
                 "trackNo": 11,
                 "artist": "Fractalint",
                 "title": "Donte tu",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/210. Fractalint - donte tu.mp3",
                 "link": "https://soundcloud.com/fractalint/donte-tu",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.49
             },
             {
                 "trackNo": 12,
                 "artist": "Sparga",
                 "title": "RSI March",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/208. Sparga - RSI March.mp3",
                 "link": "https://soundcloud.com/sparga1/rsimarch",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 13,
                 "artist": "Catatronic",
                 "title": "Wind Guitars",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/206. catatronic - Wind Guitars.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 253.66
             },
             {
                 "trackNo": 14,
                 "artist": "Stu M",
                 "title": "Cast Aside",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/204. Stu M - Cast Aside.mp3",
                 "link": "https://soundcloud.com/stumcgregor/stu-m-cast-aside-mp3?si=5388a87a5bc24229965d38c84285cc48&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.51
             },
             {
                 "trackNo": 15,
                 "artist": "NGC 3019",
                 "title": "Spacewalk Jettison",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/202. NGC 3019 - Spacewalk Jettison.mp3",
                 "link": "https://ngc3019.bandcamp.com/track/spacewalk-jettison",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 253.66
             },
             {
                 "trackNo": 16,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Quaternion",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/201. Thomas and the Evil Computer - Quaternion.mp3",
                 "link": "https://soundcloud.app.goo.gl/pQ15V",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 292.78
             },
             {
                 "trackNo": 17,
                 "artist": "err, Rawr",
                 "title": "Why Iwato",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/227. err Rawr - Why Iwato.mp3",
                 "link": "https://soundcloud.com/err_rawr/sets/the-journey-begins?si=583dbb5502fd4accb9a5ed49341a2669&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 339.7
             },
             {
                 "trackNo": 18,
                 "artist": "Krank Grotter",
                 "title": "Impoverished hotdog vendor with rich inner life",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/222. Krank Grokker - impoverished-hotdog-vendor-with-Rich-Inner-Life.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 186.65
             },
             {
                 "trackNo": 19,
                 "artist": "DRMR",
                 "title": "Together In Solitude",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/211. DRMR - Together in Solitude.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 337.46
             },
             {
                 "trackNo": 20,
                 "artist": "Takamoon",
                 "title": "Audite!",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/209. Takamoon - Audite!.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.05
             },
             {
                 "trackNo": 21,
                 "artist": "Adam Johan Bergren",
                 "title": "Friendly Fairground Phantom",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/205. Adam Johan Bergren - Friendly Fairground Phantom.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/friendly-fairground-phantom",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 201.58
             },
             {
                 "trackNo": 22,
                 "artist": "Kevin Thorsen",
                 "title": "Velvet Enclave",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/214. Kevin Thorsen - Velvet Enclave.mp3",
                 "link": "https://soundcloud.com/kevinthorsen/velvet-enclave",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 330.65
             },
             {
                 "trackNo": 23,
                 "artist": "Fulhjort",
                 "title": "Earth And Ground",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/207. fulhjort - Earth and ground.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 270.6
             },
             {
                 "trackNo": 24,
                 "artist": "Popbot & Dreamstatic",
                 "title": "Awakening",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/101. Popbot & Dream Static - Awakening.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 142.3
             },
             {
                 "trackNo": 25,
                 "artist": "Zero Lucks Given",
                 "title": "7am Zoom Meeting No Coffee",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/216. Zero Lucks Given - 7AM Zoom Meeting No Coffee.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/7am-zoom-meeting-no-coffee",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 292.15
             },
             {
                 "trackNo": 26,
                 "artist": "Skyguide",
                 "title": "All The Best Players Are Russian",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/225. Skyguide - All The Best Players Are Russian.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.05
             },
             {
                 "trackNo": 27,
                 "artist": "Nornec",
                 "title": "Guitech, Gesundheit",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/213. Nornec - Guitech, Gesundheit.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 321.58
             },
             {
                 "trackNo": 28,
                 "artist": "informationcake",
                 "title": "The Forever Path",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/103. informationcake - The Forever Path.mp3",
                 "link": "https://informationcake.bandcamp.com/track/the-forever-path",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 361.42
             },
             {
                 "trackNo": 29,
                 "artist": "_rchestra",
                 "title": "Opal Decay",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/102. _rchestra - Opal Decay.mp3",
                 "link": "https://soundcloud.com/kevinthorsen/opal-decay",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.22
             },
             {
                 "trackNo": 30,
                 "artist": "Stoic & Fjaru & Acid Rain",
                 "title": "The Song",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/105. stoic & Fjaru & acid_rain - The Song.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 154.58
             },
             {
                 "trackNo": 31,
                 "artist": "Dream Static",
                 "title": "Unempathy",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/104. Dream Static - UnEmpathy.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 301.08
             },
             {
                 "trackNo": 32,
                 "artist": "Jungle Pickle",
                 "title": "Alone",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/106. jingle puckle - Alone.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/alone?si=b0de7a2c43dd49ed86bb474fdceda100&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 271.46
             },
             {
                 "trackNo": 33,
                 "artist": "Fjaru",
                 "title": "Gravity Assist",
-                "file": "",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/107. Fjaru - Gravity Assist.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 235.56
+            },
+            {
+                "trackNo": 218,
+                "artist": "Kevhuman",
+                "title": "Civil Unrest",
+                "file": "2022/Sim_Selections_SEPTEMBER_2022/218. Kevhuman - Civil Unrest.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 276.91
             }
         ]
     },
@@ -3041,253 +3385,291 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Popbot",
                 "title": "Organic Machine",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/01. Popbot - Organic Machine.mp3",
                 "link": "https://soundcloud.com/popbot1/organic-machine-3/s-CEZa1zvmWon?si=61b9c9a7d9b64a7b96547dc6ceb25d0a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 190.18
             },
             {
                 "trackNo": 2,
                 "artist": "Undercover",
                 "title": "Recurrent Narrative",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/17. Undercover - Recurrent Narrative.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 268.08
             },
             {
                 "trackNo": 3,
                 "artist": "Stu M",
                 "title": "Helios",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/14. Stu M - Helios.mp3",
                 "link": "https://soundcloud.com/stumcgregor/helios?si=20bba2ef55294110a0bbb13ba1005e2e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.1
             },
             {
                 "trackNo": 4,
                 "artist": "Blipfactory",
                 "title": "Bakunawa",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/20. Blipfactory - Bakunawa.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 279.07
             },
             {
                 "trackNo": 5,
                 "artist": "Skyguide",
                 "title": "Bellows From Below",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/13. Skyguide - Bellows From Below.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 172.44
             },
             {
                 "trackNo": 6,
                 "artist": "Mia Moon",
                 "title": "Esja",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/27. Mia Moon - Esja.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 318.65
             },
             {
                 "trackNo": 7,
                 "artist": "Heavy Listening",
                 "title": "Rob D Ripoff",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/16. Heavy Listening - Rob D Ripoff.mp3",
                 "link": "https://heavylistening.substack.com/p/october-a-rob-d-ripoff",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 357.67
+            },
+            {
+                "trackNo": 8,
+                "artist": "Kevhuman",
+                "title": "Carcosa Foam Party",
+                "file": "2022/Sim_Selections_OCTOBER_2022/08. Kevhuman  - Carcosa Foam Party.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 216.34
             },
             {
                 "trackNo": 8,
                 "artist": "Nornec",
                 "title": "Sloth God",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/15. Nornec - Sloth God.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 9,
                 "artist": "Adam Johan Bergren (ft. Jungle Pickle)",
                 "title": "Cherenkov Therapy",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/06. Adam Johan Bergren (ft. Jungle Pickle) - Cherenkov Therapy.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/cherenkov-therapy",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 206.66
             },
             {
                 "trackNo": 10,
                 "artist": "Dream Static",
                 "title": "Harmonia, Goddess of Harmony and Concord",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/03. Dream Static - Harmonia, Goddess of Harmony and Concord.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.08
             },
             {
                 "trackNo": 11,
                 "artist": "catatronic",
                 "title": "self titled track",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/24. catatronic - self titled track.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 219.07
             },
             {
                 "trackNo": 12,
                 "artist": "stoic",
                 "title": "float askew",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/18. stoic - float askew.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 157.85
             },
             {
                 "trackNo": 13,
                 "artist": "Takamoon",
                 "title": "Zorya",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/22. Takamoon - Zorya.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 232.9
             },
             {
                 "trackNo": 14,
                 "artist": "Zero Lucks Given",
                 "title": "The Morrigan Waits",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/02. Zero Lucks Given - The Morrigan Waits.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-morrigan-waits",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 221.14
             },
             {
                 "trackNo": 15,
                 "artist": "Adam Johan Bergren",
                 "title": "150000",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/09. Adam Johan Bergren - 15000.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/fifteen-thousand",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 212.81
             },
             {
                 "trackNo": 16,
                 "artist": "PonyArt",
                 "title": "FRM Guitar",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/23. PonyArt - FRM guitar.mp3",
                 "link": "https://www.dropbox.com/s/0dtrsgbz4uc5y67/PonyArt%20-%20FRM%20guitar%20SelfMaster1.wav?dl=0",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 312.89
             },
             {
                 "trackNo": 17,
                 "artist": "Fractalint",
                 "title": "Talos",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/19. Fractalint - Talos.mp3",
                 "link": "https://soundcloud.com/fractalint/talos",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 220.61
             },
             {
                 "trackNo": 18,
                 "artist": "Theodore Snoozevelt",
                 "title": "Ex Chao",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/31. Theodore Snoozevelt - Ex Chao.mp3",
                 "link": "https://soundcloud.com/snoozevelt/ex-chao",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 97.82
             },
             {
                 "trackNo": 19,
                 "artist": "Wonky Robot",
                 "title": "Divine Rising",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/12. Wonky Robot - Divine Rising.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 169.99
             },
             {
                 "trackNo": 20,
                 "artist": "NGC 3019",
                 "title": "Tekhne",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/26. NGC 3019 - Tekhne.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 21,
                 "artist": "Tranendal",
                 "title": "Na Ons De Zondvloed",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/04. Tranendal - Na Ons De Zondvloed.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 340.75
             },
             {
                 "trackNo": 22,
                 "artist": "err Rawr",
                 "title": "Wildling",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/28. err Rawr - Wildling.mp3",
                 "link": "https://soundcloud.com/err_rawr/err-wildling/s-0PUFE2mDB5V?ref=clipboard&p=i&c=1&si=7BEC33EEDF544DECBF9978EE6DC28799&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 373.42
             },
             {
                 "trackNo": 23,
                 "artist": "Krank Grokker",
                 "title": "TV Salesman Experiencing Existential Crises in San Francisco",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/07. Krank Grokker - TV Salesman Experiencing Existential Crises in San Francisco.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 75.14
             },
             {
                 "trackNo": 24,
                 "artist": "Kevin Thorsen",
                 "title": "Pastoral 9-Volt",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/10. Kevin Thorsen - Pastoral 9-Volt.mp3",
                 "link": "https://soundcloud.com/kevinthorsen/9-volt-pastoral",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 213.05
             },
             {
                 "trackNo": 25,
                 "artist": "ANODE",
                 "title": "Closeyes",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/05. ANODE - Closeyes.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 249.46
             },
             {
                 "trackNo": 26,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Tickle Me Erasmus of Formia",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/21. Thomas and the Evil Computer  - Tickle Me Erasmus of Formia.mp3",
                 "link": "https://soundcloud.com/evilcomputer/tickle-me-erasmus-of-formia/s-GOEMPzEsLcD?ref=clipboard&p=a&c=1&si=240882c2471a4b3eb1740febce125fb0",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.14
             },
             {
                 "trackNo": 27,
                 "artist": "Sparga",
                 "title": "Fraction",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/25. Sparga - Fraction.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 124.25
             },
             {
                 "trackNo": 28,
                 "artist": "informationcake",
                 "title": "An Ancient Presence",
-                "file": "",
+                "file": "2022/Sim_Selections_OCTOBER_2022/11. informationcake - An Ancient Presence.mp3",
                 "link": "https://informationcake.bandcamp.com/track/an-ancient-presence-i",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 340.61
             },
             {
                 "trackNo": 29,
@@ -3314,19 +3696,21 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Tranendal",
                 "title": "Totaal In De Rats",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/12. Tranendal - Totaal In De Rats.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 158.66
             },
             {
                 "trackNo": 2,
                 "artist": "informationcake",
                 "title": "Between The Stars",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/15. informationcake - Between The Stars.mp3",
                 "link": "https://informationcake.bandcamp.com/track/between-the-stars",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 217.75
             },
             {
                 "trackNo": 3,
@@ -3341,118 +3725,131 @@ export const playlistData = [
                 "trackNo": 4,
                 "artist": "Jungle Pickle",
                 "title": "It Took A Cat To Figure It Out",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/05. jungle pickle - it took a cat to figure it out.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/it-took-a-cat-to-figure-it-out?si=e146bbe40cbe4c0fae5e6c1536f8d899&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 114.07
             },
             {
                 "trackNo": 5,
                 "artist": "Catatronic",
                 "title": "Dunes Of Glass",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/08. catatronic - Dunes of Glass.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 182.02
             },
             {
                 "trackNo": 6,
                 "artist": "Adam Johan Bergren",
                 "title": "Elmo's Rave",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/01. Adam Johan Bergren - Elmo's Rave.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.07
             },
             {
                 "trackNo": 7,
                 "artist": "Stu M",
                 "title": "Baslp",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/09. Stu M - Baslp.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 272.09
             },
             {
                 "trackNo": 8,
                 "artist": "err: Rawr",
                 "title": "Splitfired",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/10. err Rawr - Splitfired.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 196.08
             },
             {
                 "trackNo": 9,
                 "artist": "Fractalint",
                 "title": "Night Train NYC",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/03. Fractalint - Night Train NYC.mp3",
                 "link": "https://soundcloud.com/fractalint/night-train-nyc",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 209.3
             },
             {
                 "trackNo": 10,
                 "artist": "Edwin",
                 "title": "Bronson Nights",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/11. Edwin - Bronson Nights.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 188.09
             },
             {
                 "trackNo": 11,
                 "artist": "Fulhjort",
                 "title": "Part2",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/04. fulhjort - Part2.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 282.96
             },
             {
                 "trackNo": 12,
                 "artist": "Equal Equals",
                 "title": "It's Called Fate Or Club Fake",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/02. Equal Equals - It's called fate or Club Fake.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 332.06
             },
             {
                 "trackNo": 13,
                 "artist": "Skyguide",
                 "title": "What If It Was Purple?",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/07. Skyguide - What If It Was Purple.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 213.41
             },
             {
                 "trackNo": 14,
                 "artist": "Heavy Listening",
                 "title": "November Funk",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/13. Heavy Listening - November Funk.mp3",
                 "link": "https://heavylistening.substack.com/p/november-funk",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 259.3
             },
             {
                 "trackNo": 15,
                 "artist": "NGC3019",
                 "title": "Heterodyne",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/06. NGC 3019 - Heterodyne.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 16,
                 "artist": "Zero Lucks Given",
                 "title": "Robots Can Dance",
-                "file": "",
+                "file": "2022/Sim_Selections_NOVEMBER_2022/14. Zero Lucks Given - Robots Can Dance.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/robots-can-dance",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 257.09
             },
             {
                 "trackNo": 17,
@@ -3482,244 +3879,271 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "err: Rawr",
                 "title": "Time and Time",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/01. err Rawr - Time and time.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 274.2
             },
             {
                 "trackNo": 2,
                 "artist": "Zero Lucks Given",
                 "title": "Recocooning",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/02. Zero Lucks Given - ReCocooning.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/recocooning",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 257.09
             },
             {
                 "trackNo": 3,
                 "artist": "Viridian",
                 "title": "Lost in the passage of time",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/03. Viridian - Lost in the Passage of Time.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 355.3
             },
             {
                 "trackNo": 4,
                 "artist": "PonyArt",
                 "title": "FRMS Aphex",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/04. PonyArt - FRMS aphex.mp3",
                 "link": "https://www.dropbox.com/s/50630038fnpbz0y/PonyArt%20-%20FRMS%20aphex%20SM1.1.wav?dl=0",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 297.38
             },
             {
                 "trackNo": 5,
                 "artist": "Adam Johan Bergren",
                 "title": "Nonlinear Awareness",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/05. Adam Johan Bergren - Nonlinear Awareness.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/album/dissipation-dynamics?t=1",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 176.28
             },
             {
                 "trackNo": 6,
                 "artist": "jungle pickle",
                 "title": "A cracking good time",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/06. jungle pickle - a cracking good time.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/a-cracking-good-time?si=be3b94fc462a48659849cc08895665a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.07
             },
             {
                 "trackNo": 7,
                 "artist": "Stu M",
                 "title": "Kaloan",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/07. Stu M - Kaloan.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.57
             },
             {
                 "trackNo": 8,
                 "artist": "Fjaru",
                 "title": "Terminal Pinch",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/08. Fjaru - Terminal pinch.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 264.67
             },
             {
                 "trackNo": 9,
                 "artist": "Takamoon",
                 "title": "Pay Day",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/09. Takamoon - Pay Day.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 205.54
             },
             {
                 "trackNo": 10,
                 "artist": "Catatronic",
                 "title": "Time Immemorial",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/10. catatronic - Time Immemorial.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 413.16
             },
             {
                 "trackNo": 11,
                 "artist": "Firephly",
                 "title": "A Fracture in Time",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/11. Firephly - A Fracture In Time.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 288.07
             },
             {
                 "trackNo": 12,
                 "artist": "Nornec",
                 "title": "A Distant Memory",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/12. Nornec - A Distant Memory.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 245.9
             },
             {
                 "trackNo": 13,
                 "artist": "NGC 3019",
                 "title": "Flux Capacitor",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/13. NGC 3019 - Flux Capacitor.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 184.37
             },
             {
                 "trackNo": 14,
                 "artist": "Popbot",
                 "title": "Metronome",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/14. Popbot - Metronome.mp3",
                 "link": "https://drive.google.com/drive/folders/1ukaUZ9RBhXKtz-uT07qOW08NPvzOA1GF?usp=share_link",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 158.69
             },
             {
                 "trackNo": 15,
                 "artist": "Ipso",
                 "title": "Ceramic",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/15. ipso - Ceramic.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 132.07
             },
             {
                 "trackNo": 16,
                 "artist": "Fulhjort",
                 "title": "ASRGAERBGAERG",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/16. fulhjort - asrgaerbgaerg (or I Just Mashed Some  Keys).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 116.86
             },
             {
                 "trackNo": 17,
                 "artist": "Pulse Static",
                 "title": "End",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/17. Pulse-Static - End.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 135.07
             },
             {
                 "trackNo": 18,
                 "artist": "Default Media Transmitter",
                 "title": "Fluctuations",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/18. Default Media Transmitter - Fluctuations.mp3",
                 "link": "https://funkwhale.defaultmediatransmitter.com/library/tracks/14/",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 299.69
             },
             {
                 "trackNo": 19,
                 "artist": "Sleep Television",
                 "title": "2016",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/19. Sleep Television - 2016.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 147.77
             },
             {
                 "trackNo": 20,
                 "artist": "Theodore Snoozevelt",
                 "title": "De_Theo",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/20. Theodore Snoozevelt - de_theo.mp3",
                 "link": "https://soundcloud.com/snoozevelt/de_theo",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 103.15
             },
             {
                 "trackNo": 21,
                 "artist": "Ashley Chapman",
                 "title": "Run Theory",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/21. Ashley Chapman - Run Theory.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 179.62
             },
             {
                 "trackNo": 22,
                 "artist": "Edwin",
                 "title": "LFO Valley",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/22. Edwin - LFO Valley.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 205.51
             },
             {
                 "trackNo": 23,
                 "artist": "Skyguide",
                 "title": "Slumberland",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/23. Skyguide - Slumberland.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 121.8
             },
             {
                 "trackNo": 24,
                 "artist": "informationcake",
                 "title": "My Timelapse",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/24. informationcake - Evolving Time.mp3",
                 "link": "https://informationcake.bandcamp.com/track/my-timelapse",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 221.02
             },
             {
                 "trackNo": 25,
                 "artist": "Heavy Listening",
                 "title": "Mellow Blue",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/26. Heavy Listening - Mellow Blue.mp3",
                 "link": "https://heavylistening.substack.com/p/december-mellow-blue",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 211.54
             },
             {
                 "trackNo": 26,
                 "artist": "Stoic",
                 "title": "Time to Move on",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/25. stoic - Time To Move On.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 191.21
             },
             {
                 "trackNo": 27,
                 "artist": "ZeroApr",
                 "title": "In Machine I Trust",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/ZeroApr - In Machine I Trust.mov",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 176.49
             },
             {
                 "trackNo": 28,
@@ -3749,235 +4173,291 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "First Sun",
                 "title": "Gears and Pulleys",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/12. First Sun - Gears And Pulleys.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.37
             },
             {
                 "trackNo": 2,
                 "artist": "Blush Akimbo",
                 "title": "Blast",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/02. Blush Akimbo - Blast.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 230.09
             },
             {
                 "trackNo": 3,
                 "artist": "Wonky Robot",
                 "title": "Countach",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/03. Wonky Robot - Countach.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 210.6
+            },
+            {
+                "trackNo": 4,
+                "artist": "First Sun",
+                "title": "Court Night",
+                "file": "2023/Sim_Selections_JANUARY_2023/04. First Sun - Court Night.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 93.67
             },
             {
                 "trackNo": 4,
                 "artist": "Protocol",
                 "title": "Daemonset",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/05. Protocol - Daemonset.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 200.09
             },
             {
                 "trackNo": 5,
                 "artist": "Kiwillian",
                 "title": "Don",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/06. Kiwillian - Don.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 182.06
             },
             {
                 "trackNo": 6,
                 "artist": "Ponyart",
                 "title": "Don't Cross The Streams",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/07. Ponyart - Don't Cross The Streams.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 266.02
             },
             {
                 "trackNo": 7,
                 "artist": "Zero Lucks Given",
                 "title": "Entering The Terrordrome",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/08. Zero Lucks Given - Entering the Terrordrome.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/entering-the-terrordrome",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 338.5
             },
             {
                 "trackNo": 8,
                 "artist": "Default Media Transmitter",
                 "title": "Flash Boards",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/10. Default Media Transmitter - Flash Boards.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/flash-boards",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.31
             },
             {
                 "trackNo": 9,
                 "artist": "Hojascirculares",
                 "title": "Frame Control",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/11. Hojascirculares - Frame Control.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 300.07
+            },
+            {
+                "trackNo": 9,
+                "artist": "TessellationRow",
+                "title": "Eunos",
+                "file": "2023/Sim_Selections_JANUARY_2023/09. TessellationRow - Eunos.mp4",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 146.6
             },
             {
                 "trackNo": 10,
                 "artist": "Fulhjort",
                 "title": "Aliens",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/01. fulhjort - Aliens.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 185.74
             },
             {
                 "trackNo": 11,
                 "artist": "ZeroAPR",
                 "title": "In Machine I Trust",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/13. ZeroApr - In Machine I Trust.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 176.57
             },
             {
                 "trackNo": 12,
                 "artist": "Edwin",
                 "title": "Loopalogue Epilogue",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/15. Edwin - Loopalogue Epilogue.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 284.38
             },
             {
                 "trackNo": 13,
                 "artist": "Computrhead",
                 "title": "Master System",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/16. Computrhead - Master System.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 276.74
             },
             {
                 "trackNo": 14,
                 "artist": "Equal Equals",
                 "title": "Missing Walkmans",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/17. Equal Equals - Missing Walkmans.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 302.69
+            },
+            {
+                "trackNo": 14,
+                "artist": "Kevhuman",
+                "title": "Jumbo Chords",
+                "file": "2023/Sim_Selections_JANUARY_2023/14. Kevhuman - Jumbo Chords.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 176.9
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec",
                 "title": "No Strangers To Love",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/18. Nornec - No Strangers To Love.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 216.26
             },
             {
                 "trackNo": 16,
                 "artist": "Jungle Pickle",
                 "title": "ODE-2-8E",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/19. jungle pickle - ODE-2-8E.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 141.74
             },
             {
                 "trackNo": 17,
                 "artist": "Dream Static",
                 "title": "Pyramid",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/20. Dream Static - Pyramid.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.07
             },
             {
                 "trackNo": 18,
                 "artist": "Mango Chunks",
                 "title": "RPN",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/21. Mango Chunks - RPN.mp3.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 70.08
             },
             {
                 "trackNo": 19,
                 "artist": "err:rawr",
                 "title": "Simmering Sunlight",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/22. err Rawr - Simmering Sunlight.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 197.54
             },
             {
                 "trackNo": 20,
                 "artist": "Stu M",
                 "title": "SimSelectoRama",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/23. Stu M - Simselectorama.mp3",
                 "link": "https://soundcloud.com/stumcgregor/stu-m-simselectorama?si=500ace8609cf4f0f9317d542bbc2f6b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 225.41
             },
             {
                 "trackNo": 21,
                 "artist": "informationcake",
                 "title": "Some Kind Of Escape",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/24. informationcake - Some Kind Of Escape.mp3",
                 "link": "https://informationcake.bandcamp.com/track/some-kind-of-escape",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 376.58
             },
             {
                 "trackNo": 22,
                 "artist": "ZeroAPR",
                 "title": "Suffering",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/25. ZeroApr - Suffering.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 133.01
             },
             {
                 "trackNo": 23,
                 "artist": "Broken Gravity",
                 "title": "The Furry Alien Show",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/26. Broken Gravity - The Furry Alien Show.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.34
             },
             {
                 "trackNo": 24,
                 "artist": "Adam Johan Bergren",
                 "title": "The Mushroom Kingdom",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/27. Adam Johan Bergren - The Mushroom Kingdom.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 210.7
             },
             {
                 "trackNo": 25,
                 "artist": "Ipso",
                 "title": "The Oracle",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/28. ipso - The Oracle.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 209.02
             },
             {
                 "trackNo": 26,
                 "artist": "Takamoon",
                 "title": "ZZZZ... 88?",
-                "file": "",
+                "file": "2023/Sim_Selections_JANUARY_2023/29. Takamoon - Zzzz... 88.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 235.51
             },
             {
                 "trackNo": 27,
@@ -4523,19 +5003,21 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Amess",
                 "title": "Thirsty Five Dice and a Pocket Full of Mice",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/01. aMess - Thirsty five dice and a pocket full of mice.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 64.06
             },
             {
                 "trackNo": 2,
                 "artist": "Vogel",
                 "title": "Bonus-Track",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/02. Vogel - bonus-TraCK.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 197.41
             },
             {
                 "trackNo": 3,
@@ -4550,10 +5032,11 @@ export const playlistData = [
                 "trackNo": 4,
                 "artist": "Default Media Transmitter",
                 "title": "Northwest Passage",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/04. Default Media Transmitter - Northwest Passage.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/northwest-passage",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 300.02
             },
             {
                 "trackNo": 5,
@@ -4568,37 +5051,41 @@ export const playlistData = [
                 "trackNo": 6,
                 "artist": "Pulse Static",
                 "title": "Drugkz.Ver395[ax^2+bx+c=0 mix]",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/06. Pulse-Static - Drugkz.ver395[ax^2+bx+c=0 mix].mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 211.33
             },
             {
                 "trackNo": 7,
                 "artist": "err:rawr",
                 "title": "Video Today",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/07. err Rawr - Video today.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 156.46
             },
             {
                 "trackNo": 8,
                 "artist": "Menhirs",
                 "title": "Fall Where They May",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/08. Menhirs - Fall Where They May.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 258.01
             },
             {
                 "trackNo": 9,
                 "artist": "Blipfactory",
                 "title": "Fast Approach",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/09. Blipfactory - Fast Approach.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 177.82
             },
             {
                 "trackNo": 10,
@@ -4613,28 +5100,31 @@ export const playlistData = [
                 "trackNo": 11,
                 "artist": "Broken Gravity",
                 "title": "Free At Last",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/11. Broken Gravity - Free at last.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 256.55
             },
             {
                 "trackNo": 12,
                 "artist": "Fulhjort",
                 "title": "Don't Daaaaaance To This",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/12. fulhjort - Don't daaaaaance to this.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 133.38
             },
             {
                 "trackNo": 13,
                 "artist": "Jungle Pickle",
                 "title": "Get Me Another",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/13. jungle pickle - get me another.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/get-me-another?si=97b2bc06fe9643bfaa7ac7cd76482b27&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 213.96
             },
             {
                 "trackNo": 14,
@@ -4649,19 +5139,21 @@ export const playlistData = [
                 "trackNo": 15,
                 "artist": "informationcake",
                 "title": "In The End",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/15. informationcake - In The End.mp3",
                 "link": "https://informationcake.bandcamp.com/track/in-the-end",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 211.65
             },
             {
                 "trackNo": 16,
                 "artist": "Ponyart",
                 "title": "iPad22 1 V2",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/16. PonyArt - ipad22 1 v2.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 338.08
             },
             {
                 "trackNo": 17,
@@ -4676,28 +5168,31 @@ export const playlistData = [
                 "trackNo": 18,
                 "artist": "Zero Lucks Given",
                 "title": "March: The Inexorable Rhythm of Spring Flowers",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/18. Zero Lucks Given - March The Inexorable Rhythm of Spring Flowers.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/march-the-inexorable-rhythm-of-spring-flowers",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 279.02
             },
             {
                 "trackNo": 19,
                 "artist": "Kiwillian",
                 "title": "Mirepoix",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/19. Kiwillian - Mirepoix.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 166.9
             },
             {
                 "trackNo": 20,
                 "artist": "Thomass",
                 "title": "Once Before - Tom Morton",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/20. ThomasS - Once Before.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 236.02
             },
             {
                 "trackNo": 21,
@@ -4712,46 +5207,51 @@ export const playlistData = [
                 "trackNo": 22,
                 "artist": "Nornec",
                 "title": "Vega Libre: Rebuild",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/22. Nornec - Vega Libre Rebuild.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 331.27
             },
             {
                 "trackNo": 23,
                 "artist": "Stu M",
                 "title": "Broken Silence",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/23. Stu M - Broken Silence.mp3",
                 "link": "https://soundcloud.com/stumcgregor/broken-silence?si=49e0b9cadfd449ebb566f537c4466456&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.0
             },
             {
                 "trackNo": 24,
                 "artist": "Coolout Coexist",
                 "title": "The Overpowering Urge To Drink",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/24. Coolout Coexist - The overpowering Urge to Drink.mp3",
                 "link": "https://soundcloud.com/user-877170727/the-overpowering-urge-to-drink",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.02
             },
             {
                 "trackNo": 25,
                 "artist": "Grokker",
                 "title": "Too Too Abstract With Much Disrespect",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/25. Grokker - too too abstract with much disrespect.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 105.04
             },
             {
                 "trackNo": 26,
                 "artist": "Fractalint",
                 "title": "Westnorth",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/26. Fractalint - Westnorth.mp3",
                 "link": "https://soundcloud.com/fractalint/westnorth",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 264.84
             },
             {
                 "trackNo": 27,
@@ -4781,71 +5281,78 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "aMess",
                 "title": "I Spilled Ponzu Sauce On My Nokia",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/01. aMess - I spilled ponzu sauce on my nokia.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 66.54
             },
             {
                 "trackNo": 2,
                 "artist": "Jungle Pickle",
                 "title": "Big Man",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/02. jungle pickle - big man.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/big-man?si=6aa7e5a687ed4ccca8bdc57499687609&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 235.78
             },
             {
                 "trackNo": 3,
                 "artist": "Fractalint",
                 "title": "Blue Sky",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/03. Fractalint - Blue Sky.mp3",
                 "link": "https://soundcloud.com/fractalint/blue-sky",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 233.28
             },
             {
                 "trackNo": 4,
                 "artist": "Default Media Transmitter",
                 "title": "End Of Signal",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/04. Default Media Transmitter - End of Signal.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/end-of-signal",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 284.47
             },
             {
                 "trackNo": 5,
                 "artist": "DRMR",
                 "title": "Trilling",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/05. DRMR - Trilling.mp3",
                 "link": "https://soundcloud.com/d-r-m-r/trilling",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 316.1
             },
             {
                 "trackNo": 6,
                 "artist": "Broken Gravity",
                 "title": "Echoes Of Home",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/06. Broken Gravity - Echoes of Home.mp3",
                 "link": "https://www.youtube.com/watch?v=wvR0rk8Lmz0",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 257.54
             },
             {
                 "trackNo": 7,
                 "artist": "Err: Rawr",
                 "title": "Hollow",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/07. err Rawr - Hollow.mp3",
                 "link": "https://soundcloud.com/err_rawr/hollow?si=e29c6c6adb634ec5a56c65dd9011a4b9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 179.57
             },
             {
                 "trackNo": 8,
                 "artist": "Aplut",
                 "title": "Fabulist",
                 "file": "",
-                "link": "",
+                "link": "https://soundcloud.com/aplutofficial/fabulist",
                 "optIn": false,
                 "canPlay": false
             },
@@ -4853,28 +5360,31 @@ export const playlistData = [
                 "trackNo": 9,
                 "artist": "Fjaru",
                 "title": "Defunct",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/09. Fjaru - Defunct.mp3",
                 "link": "https://soundcloud.com/fjaru/defunct",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 220.29
             },
             {
                 "trackNo": 10,
                 "artist": "Fulhjort",
                 "title": "We're Almost Out Of Oranges",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/10. fulhjort - we're almost out of oranges.mp3",
                 "link": "https://soundcloud.com/hjorten/were-almost-out-of-oranges",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 220.6
             },
             {
                 "trackNo": 11,
                 "artist": "Kiwillian",
                 "title": "Last Stand",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/11. Kiwillian - Last Stand.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 217.85
             },
             {
                 "trackNo": 12,
@@ -4889,37 +5399,41 @@ export const playlistData = [
                 "trackNo": 13,
                 "artist": "Adam Johan Bergren",
                 "title": "No Quarters",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/13. Adam Johan Bergren - No Quarters.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/no-quarters",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 237.72
             },
             {
                 "trackNo": 14,
                 "artist": "Zero Lucks Given",
                 "title": "Olde Roland To The Dark Tower Returned",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/14. Zero Lucks Given - Olde Roland to the Dark Tower Returned.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/olde-roland-to-the-dark-tower-returned",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 355.03
             },
             {
                 "trackNo": 15,
                 "artist": "Protocol",
                 "title": "Observer",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/15. Protocol - Observer.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 178.81
             },
             {
                 "trackNo": 16,
                 "artist": "Viiri",
                 "title": "just some metadata?",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/16. Viiri - Untitled.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 384.91
             },
             {
                 "trackNo": 17,
@@ -4943,28 +5457,31 @@ export const playlistData = [
                 "trackNo": 19,
                 "artist": "Blipfactory",
                 "title": "Standoff Above Ceres",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/19. Blipfactory - Standoff Above Ceres.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.46
             },
             {
                 "trackNo": 20,
                 "artist": "Stu M",
                 "title": "Blue Mantra (Dslv Mix)",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/20. Stu M - Blue Mantra (DSLV Mix).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 273.11
             },
             {
                 "trackNo": 21,
                 "artist": "Computrhead",
                 "title": "The Last Disease",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/21. Computrhead - The Last Disease.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 271.36
             },
             {
                 "trackNo": 22,
@@ -4979,10 +5496,11 @@ export const playlistData = [
                 "trackNo": 23,
                 "artist": "Ponyart",
                 "title": "Voices",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/23. PonyArt - Voices.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 234.06
             }
         ]
     },
@@ -5003,19 +5521,21 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Virus_Protocol",
                 "title": "Among The Canopy Of Broken Automata",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/01. virus_protocol - Among The Canopy Of Broken Automata.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 214.76
             },
             {
                 "trackNo": 2,
                 "artist": "AMESS",
                 "title": "Oatmeal Is Royalty (The Musical)",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/02. aMess - Oatmeal is royalty (The musical).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 112.56
             },
             {
                 "trackNo": 3,
@@ -5030,55 +5550,61 @@ export const playlistData = [
                 "trackNo": 4,
                 "artist": "Fractalint",
                 "title": "Ant Talk",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/04. Fractalint - Ant Talk.mp3",
                 "link": "https://soundcloud.com/fractalint/ant-talk",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 165.89
             },
             {
                 "trackNo": 5,
                 "artist": "BlipFactory",
                 "title": "ATC Prologue",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/05. Blipfactory - AtC Prologue.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 236.69
             },
             {
                 "trackNo": 6,
                 "artist": "Defaut Media Transmitter",
                 "title": "Pine Cone Anthem",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/06. Default Media Transmitter - Pine Cone Anthem.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/pine-cone-anthem",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 232.03
             },
             {
                 "trackNo": 7,
                 "artist": "Err: Rawr",
                 "title": "Rising",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/07. err Rawr - Rising.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.72
             },
             {
                 "trackNo": 8,
                 "artist": "Kiwillian",
                 "title": "Forest For Trees",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/08. Kiwillian - Forest for Trees.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 154.71
             },
             {
                 "trackNo": 9,
                 "artist": "Fulhjort",
                 "title": "This One Time Before A \"Nerd\" Convention",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/09. fulhjort - This one time before a nerd convention.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 98.22
             },
             {
                 "trackNo": 10,
@@ -5093,37 +5619,41 @@ export const playlistData = [
                 "trackNo": 11,
                 "artist": "VIIRI",
                 "title": "I Think I'm Being Watched",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/10. Viiri - I Think I'm Being Watched.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 530.65
             },
             {
                 "trackNo": 12,
                 "artist": "informationcake",
                 "title": "A Distant Place To Rest",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/11. informationcake - A Distant Place To Rest.mp3",
                 "link": "https://informationcake.bandcamp.com/track/a-distant-place-to-rest",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 370.0
             },
             {
                 "trackNo": 13,
                 "artist": "Adam Johan Bergren",
                 "title": "King Hypha's Ascention",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/12. Adam Johan Bergren - King Hypha's Ascention.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/king-hyphas-ascension",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 229.36
             },
             {
                 "trackNo": 14,
                 "artist": "Unthank",
                 "title": "Machrie",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/13. Unthank - Machrie.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.51
             },
             {
                 "trackNo": 15,
@@ -5138,10 +5668,11 @@ export const playlistData = [
                 "trackNo": 16,
                 "artist": "Myrrys",
                 "title": "Great! ...But You Missed 23 Boxes",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/15. Myrrys - Great! ...But You Missed 23 Boxes.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.01
             },
             {
                 "trackNo": 17,
@@ -5156,64 +5687,71 @@ export const playlistData = [
                 "trackNo": 18,
                 "artist": "Nornec",
                 "title": "Apex",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/18. Kevhuman - Not Their King.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 289.05
             },
             {
                 "trackNo": 19,
                 "artist": "Giungla Sottaceto (jungle pickle)",
                 "title": "Phantom Of The Bakery",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/19. giungla sottaceto - phantom of the bakery.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/phantom-of-the-bakery?si=8996ad2654ad4ec5aefdec1590a95fc3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 216.1
             },
             {
                 "trackNo": 20,
                 "artist": "Poetry In Noise",
                 "title": "Old Growth",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/20. Poetry in Noise - Old Growth.mp3",
                 "link": "https://on.soundcloud.com/6wE6i",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 282.17
             },
             {
                 "trackNo": 21,
                 "artist": "Ponyart",
                 "title": "Conform",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/21. PonyArt - Conform.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 375.49
             },
             {
                 "trackNo": 22,
                 "artist": "Silence (jungle pickle)",
                 "title": "Silence",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/22. SILENCE - SILENCE.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/silence?si=58cbf9c6200143e4b7b37ef6c7d5c2a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 166.32
             },
             {
                 "trackNo": 23,
                 "artist": "Coolout Coexist",
                 "title": "Sparkle On A Dewy Morning",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/23. Coolout Coexist - Sparkle on a dewy morning.mp3",
                 "link": "https://soundcloud.com/user-877170727/sparkle-on-a-dewy-morning",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 199.21
             },
             {
                 "trackNo": 24,
                 "artist": "Stu M",
                 "title": "Rojas",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/24. Stu M - Rojas.mp3",
                 "link": "https://soundcloud.com/stumcgregor/rojas?si=cf155ec3fac04173abbe96858a025f13&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 248.48
             },
             {
                 "trackNo": 25,
@@ -5228,10 +5766,11 @@ export const playlistData = [
                 "trackNo": 26,
                 "artist": "Broken Gravity",
                 "title": "Sunbeams Through The Canopy",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/26. Broken Gravity - Sunbeams Through The Canopy.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 249.16
             },
             {
                 "trackNo": 27,
@@ -5261,91 +5800,111 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Computerhead",
                 "title": "Sodium Chloride",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/03. Computrhead  - Sodium Chloride.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 221.73
             },
             {
                 "trackNo": 2,
                 "artist": "Default Media Transmitter",
                 "title": "Illicit Oval Vents",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/04. Default Media Transmitter - Illicit Oval Vents.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/illicit-oval-vents",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 164.76
             },
             {
                 "trackNo": 3,
                 "artist": "Adam Johan Bergren",
                 "title": "People Are Programmable",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/10. Adam Johan Bergren - People Are Programmable.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/people-are-programmable",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 271.94
             },
             {
                 "trackNo": 4,
                 "artist": "Poetry In Noise",
                 "title": "Intrusive Thoughts (Be Salty)",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/12. Poetry in Noise - Intrusive Thoughts (Be Salty).mp3",
                 "link": "https://soundcloud.com/hedbut/intrusive-thoughts-be-salty/s-3oLJ2ggOvI4?si=4206b01303f94569b90b559ec3bccade&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 172.54
             },
             {
                 "trackNo": 5,
                 "artist": "Broken Anti-Gravity",
                 "title": "Sodium & Gomorrah",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/16. Broken Anti-Gravity - Sodium and Gomorrah.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 111.36
             },
             {
                 "trackNo": 6,
                 "artist": "Grbt",
                 "title": "Anxiety",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/17. grbt - Anxiety.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.05
             },
             {
                 "trackNo": 7,
                 "artist": "Mia Moon",
                 "title": "The Lighthouse",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/19. Mia Moon - The Lighthouse.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.22
             },
             {
                 "trackNo": 8,
                 "artist": "Kiwillian",
                 "title": "Broken Glass",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/01. Kiwillian - Broken Glass.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.05
+            },
+            {
+                "trackNo": 8,
+                "artist": "Unknown Artist",
+                "title": "08. - Na+Cl2",
+                "file": "2023/Sim_Selections_JUNE_2023/08. - Na+Cl2.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 157.31
             },
             {
                 "trackNo": 9,
                 "artist": "Skyguide",
                 "title": "Chat-gpt-bowie-type-beat",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/02. Skyguide - chat-gpt-bowie-type-beat.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 288.41
             },
             {
                 "trackNo": 10,
                 "artist": "Fjaru",
                 "title": "Spec Orks",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/05. Fjaru - Spec Orks.mp3",
                 "link": "https://soundcloud.com/fjaru/spec-orks",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 224.63
             },
             {
                 "trackNo": 11,
@@ -5360,19 +5919,21 @@ export const playlistData = [
                 "trackNo": 12,
                 "artist": "Fractalint",
                 "title": "lb Salt",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/07. Fractalint - lb salt.mp3",
                 "link": "https://soundcloud.com/fractalint/lb-salt",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 203.12
             },
             {
                 "trackNo": 13,
                 "artist": "Popbot",
                 "title": "Pantagonal Somthing",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/09. Popbot - Pantagonal Something.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 186.62
             },
             {
                 "trackNo": 14,
@@ -5387,37 +5948,41 @@ export const playlistData = [
                 "trackNo": 15,
                 "artist": "Dschungelgurke (jungle pickle)",
                 "title": "Polite And Angry",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/13. dschungelgurke - polite and angry.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/polite-and-angry?si=dbd8aedd22ce441a987c98d175a974ba&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 209.96
             },
             {
                 "trackNo": 16,
                 "artist": "Blip Factory",
                 "title": "Questions Of Salt",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/14. Blipfactory - Questions of Salt.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 186.07
             },
             {
                 "trackNo": 17,
                 "artist": "Sir Fancy",
                 "title": "Rebellion Of The Brine",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/15. Sir Fancy - Rebellion of the Brine.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 209.56
             },
             {
                 "trackNo": 18,
                 "artist": "Stu M",
                 "title": "Surfaces",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/18. Stu M - Surfaces.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 256.42
             },
             {
                 "trackNo": 19,
@@ -5432,10 +5997,11 @@ export const playlistData = [
                 "trackNo": 20,
                 "artist": "informationcake",
                 "title": "Aurora Simulation",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/informationcake - Aurora Simulation.mov",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 285.68
             }
         ]
     },
@@ -5465,28 +6031,31 @@ export const playlistData = [
                 "trackNo": 2,
                 "artist": "Default Media Transmitter",
                 "title": "Analog Melt",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/02. Default Media Transmitter - Analog Melt.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/analog-melt",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 277.03
             },
             {
                 "trackNo": 3,
                 "artist": "Pony Art",
                 "title": "Don't Be Lazy",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/03. PonyArt - Don't Be Lazy (UnfinishedWIP).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 287.77
             },
             {
                 "trackNo": 4,
                 "artist": "DRMR",
                 "title": "Down By The Water",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/04. DRMR - Down By The Water.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 189.62
             },
             {
                 "trackNo": 5,
@@ -5501,37 +6070,41 @@ export const playlistData = [
                 "trackNo": 6,
                 "artist": "Fulhjort",
                 "title": "Theme For Al And Greta",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/06. fulhjort - Theme For Al and Greta.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.89
             },
             {
                 "trackNo": 7,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Funk Machine",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/07. Amadeus B. Snivelitch - Funk Machine.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 184.66
             },
             {
                 "trackNo": 8,
                 "artist": "Fwlty",
                 "title": "Ice Cube Root",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/08. FWLTY - Ice Cube Root.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 110.79
             },
             {
                 "trackNo": 9,
                 "artist": "Mup / Muurmon",
                 "title": "Too Short",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/09. \u00e6\u0081p  muurmon - Too Short.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 21.86
             },
             {
                 "trackNo": 10,
@@ -5546,19 +6119,21 @@ export const playlistData = [
                 "trackNo": 11,
                 "artist": "informationcake",
                 "title": "Death By Supernova",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/11. informationcake - Death By Supernova.mp3",
                 "link": "https://informationcake.bandcamp.com/album/death-by-supernova",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 376.01
             },
             {
                 "trackNo": 12,
                 "artist": "Kiwillian",
                 "title": "Ice-cream In Havana",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/12. Kiwillian - Ice-cream in Havana.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 182.35
             },
             {
                 "trackNo": 13,
@@ -5573,55 +6148,61 @@ export const playlistData = [
                 "trackNo": 14,
                 "artist": "Adam Johan Bergren",
                 "title": "Oxidane",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/14. Adam Johan Bergren - Oxidane.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/oxidane",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 272.44
             },
             {
                 "trackNo": 15,
                 "artist": "Sir Fancy",
                 "title": "Polyartic Corruption",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/15. Sir Fancy - Polyarctic Corruption.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 258.01
             },
             {
                 "trackNo": 16,
                 "artist": "Broken Gravity",
                 "title": "Saved By The Rain",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/16. Broken Gravity - Saved By The Rain.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 250.36
             },
             {
                 "trackNo": 17,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Spank It Like It's Hot",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/17. Thomas and the Evil Computer - Spank it like it's hot.mp3",
                 "link": "https://on.soundcloud.com/kQzwE",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 199.03
             },
             {
                 "trackNo": 18,
                 "artist": "Stu M",
                 "title": "Utah Wind",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/18. Stu M - Utah Wind.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 183.28
             },
             {
                 "trackNo": 19,
                 "artist": "Theodore Snoozevelt",
                 "title": "Vierzig Grad Und Zwei Promille",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/19. theodore snoozevelt - vierzig grad und zwei promille.mp3",
                 "link": "https://soundcloud.com/snoozevelt/vierzig-grad-und-zwei-promille",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 107.05
             },
             {
                 "trackNo": 20,
@@ -5645,10 +6226,11 @@ export const playlistData = [
                 "trackNo": 22,
                 "artist": "Poetry In Noise",
                 "title": "The Psychoacoustic Effects Of Solid State DHMO",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/22. Poetry In Noise - The Psychoacoustic Effects of Solid State DHMO.mp4",
                 "link": "https://on.soundcloud.com/BK2K1",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 263.29
             }
         ]
     },
@@ -5687,76 +6269,104 @@ export const playlistData = [
                 "trackNo": 3,
                 "artist": "Broken Gravity",
                 "title": "The Blade Enigma",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/02. Broken Gravity - The Blade Enigma.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.13
             },
             {
                 "trackNo": 4,
                 "artist": "Ponyart",
                 "title": "Snares From Tomorrow (WIP)",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/03. PonyArt - Snares From Tomorrow (WIP).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 489.67
             },
             {
                 "trackNo": 5,
                 "artist": "Sir Fancy",
                 "title": "The Mission",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/04. Sir Fancy - The Mission.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 130.54
             },
             {
                 "trackNo": 6,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Still Searching",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/05. Amadeus B. Snivelitch - Still Searching.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 165.62
             },
             {
                 "trackNo": 7,
                 "artist": "Lake Machine",
                 "title": "Spy Farts",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/06. Lake Machine - Spy Farts.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 161.15
             },
             {
                 "trackNo": 8,
                 "artist": "Stoic",
                 "title": "Deep Below",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/07. Stoic - Deep Below.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 315.89
             },
             {
                 "trackNo": 9,
                 "artist": ">Virus_Protocol",
                 "title": "Nothing Good Happens Afer 2AM",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/08. virus_protocol - Nothing Good Happens After 2AM.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 126.02
+            },
+            {
+                "trackNo": 10,
+                "artist": "Muggi B",
+                "title": "Breaks From Thieves",
+                "file": "2023/Sim_Selections_AUGUST_2023/10. Muggi B - Breaks From Thieves.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 155.72
             },
             {
                 "trackNo": 10,
                 "artist": "One Track Mind",
                 "title": "Nostalgia (Clues)",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/09. One Track Mind - Nostalgia (Clues).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 266.71
             },
             {
                 "trackNo": 11,
+                "artist": "MC Kevhuman",
+                "title": "Meat Thief",
+                "file": "2023/Sim_Selections_AUGUST_2023/12. MC Kevhuman - Meat Thief.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 223.98
+            },
+            {
+                "trackNo": 12,
                 "artist": "Menhirs",
                 "title": "Life In Lines",
                 "file": "",
@@ -5765,7 +6375,7 @@ export const playlistData = [
                 "canPlay": false
             },
             {
-                "trackNo": 12,
+                "trackNo": 13,
                 "artist": "Skyguide",
                 "title": "Kitchen Type Beat",
                 "file": "",
@@ -5774,34 +6384,37 @@ export const playlistData = [
                 "canPlay": false
             },
             {
-                "trackNo": 13,
+                "trackNo": 14,
                 "artist": "informationcake",
                 "title": "Hard Light",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/15. informationcake - Hard Light.mp3",
                 "link": "https://informationcake.bandcamp.com/track/hard-light",
                 "optIn": true,
-                "canPlay": false
-            },
-            {
-                "trackNo": 14,
-                "artist": "Fjaru",
-                "title": "Grit",
-                "file": "",
-                "link": "",
-                "optIn": false,
-                "canPlay": false
+                "canPlay": true,
+                "length": 331.68
             },
             {
                 "trackNo": 15,
-                "artist": "Fulhjort",
-                "title": "Nern (Apparently Abstience Is Cool)",
-                "file": "",
+                "artist": "Fjaru",
+                "title": "Grit",
+                "file": "2023/Sim_Selections_AUGUST_2023/16. Fjaru - Grit.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 132.05
             },
             {
                 "trackNo": 16,
+                "artist": "Fulhjort",
+                "title": "Nern (Apparently Abstience Is Cool)",
+                "file": "2023/Sim_Selections_AUGUST_2023/17. fulhjort - Nern (Apparently abstinence is cool).mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 92.03
+            },
+            {
+                "trackNo": 17,
                 "artist": "Pulse-Static",
                 "title": "Dithered Fields",
                 "file": "",
@@ -5810,34 +6423,37 @@ export const playlistData = [
                 "canPlay": false
             },
             {
-                "trackNo": 17,
+                "trackNo": 18,
                 "artist": "Adam Johan Bergren",
                 "title": "Corn and Potatoes",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/19. Adam Johan Bergren - Corn and Potatoes.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/corn-and-potatoes",
                 "optIn": false,
-                "canPlay": false
-            },
-            {
-                "trackNo": 18,
-                "artist": "Kiwillian",
-                "title": "Control Your Destiny",
-                "file": "",
-                "link": "",
-                "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 283.26
             },
             {
                 "trackNo": 19,
-                "artist": "Heavy Listening & Fractalint",
-                "title": "All Summer in a Day",
-                "file": "",
-                "link": "https://soundcloud.com/fractalint/all-summer-in-a-day",
+                "artist": "Kiwillian",
+                "title": "Control Your Destiny",
+                "file": "2023/Sim_Selections_AUGUST_2023/20. Kiwillian - Control Your Destiny.mp3",
+                "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 157.06
             },
             {
                 "trackNo": 20,
+                "artist": "Heavy Listening & Fractalint",
+                "title": "All Summer in a Day",
+                "file": "2023/Sim_Selections_AUGUST_2023/21. Fractalint & Heavy Listening - All Summer in a Day.mp3",
+                "link": "https://soundcloud.com/fractalint/all-summer-in-a-day",
+                "optIn": false,
+                "canPlay": false,
+                "length": 255.0
+            },
+            {
+                "trackNo": 21,
                 "artist": "Nornec",
                 "title": "PSA",
                 "file": "",
@@ -5846,7 +6462,7 @@ export const playlistData = [
                 "canPlay": false
             },
             {
-                "trackNo": 21,
+                "trackNo": 22,
                 "artist": "NGC3019",
                 "title": "Mooncat Whiskers",
                 "file": "",
@@ -5855,16 +6471,17 @@ export const playlistData = [
                 "canPlay": false
             },
             {
-                "trackNo": 22,
+                "trackNo": 23,
                 "artist": "Poetry In Noise",
                 "title": "(We Got That) Mystery Meat",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/24. Poetry in Noise - (We Got That) Mystery Meat.mp3",
                 "link": "https://on.soundcloud.com/fE4zc",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 181.89
             },
             {
-                "trackNo": 23,
+                "trackNo": 24,
                 "artist": "Jungle Pickle",
                 "title": "The Good Stuff",
                 "file": "",
@@ -5891,37 +6508,41 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Poetry In Noise",
                 "title": "Tarot Guided Phase & Drone",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/01. Poetry in Noise - Tarot Guided Phase & Drone.mp3",
                 "link": "https://on.soundcloud.com/1bYRm",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 292.02
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Empiricism",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/02. Adam Johan Bergren - Empiricism.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/empiricism",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 287.43
             },
             {
                 "trackNo": 3,
                 "artist": "Krovvythered",
                 "title": "One Ear Tied Behind My Back",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/03. KrovvyTheRed - One Ear Tied Behind My Back.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 208.28
             },
             {
                 "trackNo": 4,
                 "artist": "Kiwillian",
                 "title": "Feef",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/04. Kiwillian - Feef.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 290.67
             },
             {
                 "trackNo": 5,
@@ -5936,19 +6557,21 @@ export const playlistData = [
                 "trackNo": 6,
                 "artist": "Ponyart",
                 "title": "The End",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/06. PonyArt - THE END (cut down for sim-selections).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 401.14
             },
             {
                 "trackNo": 7,
                 "artist": "Amadeus B Snivelitch",
                 "title": "Driveway Struggles",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/07. Amadeus B Snivelitch - Driveway Struggles.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 242.57
             },
             {
                 "trackNo": 8,
@@ -5963,19 +6586,21 @@ export const playlistData = [
                 "trackNo": 9,
                 "artist": "Computrhead",
                 "title": "Raccoon",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/09. Computrhead  - Raccoon.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 136.78
             },
             {
                 "trackNo": 10,
                 "artist": "Udonkhatola",
                 "title": "Here Is Nothing",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/10. udonkhatola - Here is Nothing.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 160.03
             },
             {
                 "trackNo": 11,
@@ -5990,64 +6615,71 @@ export const playlistData = [
                 "trackNo": 12,
                 "artist": "Grokker",
                 "title": "Beef Oven",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/12. grokker - Beef Oven.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 147.72
             },
             {
                 "trackNo": 13,
                 "artist": "Anonymoose",
                 "title": "Di Cat Geri Doo",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/13. Anonymoose - Di Cat Geri Doo.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 212.02
             },
             {
                 "trackNo": 14,
                 "artist": "Broken Gravity",
                 "title": "Pixel Runner",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/14. Broken Gravity - Pixel Runner.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 221.2
             },
             {
                 "trackNo": 15,
                 "artist": "Stu M",
                 "title": "12 Hours",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/15. Stu M - 12 Hours.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.51
             },
             {
                 "trackNo": 16,
                 "artist": "Fulhjort",
                 "title": "SLNTL MKNG 8BT MSC",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/16. fulhjort - Slntl mkng 8bt msc.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 77.48
             },
             {
                 "trackNo": 17,
                 "artist": "Fjaru & informationcake",
                 "title": "Honour",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/17. Fjaru & informationcake - Honour.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 265.25
             },
             {
                 "trackNo": 18,
                 "artist": "One Track Mind",
                 "title": "Calling Card",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/18. One Track Mind - Calling Card.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 275.04
             },
             {
                 "trackNo": 19,
@@ -6062,10 +6694,11 @@ export const playlistData = [
                 "trackNo": 20,
                 "artist": "DRMR",
                 "title": "Digital Currents",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/20. DRMR - Digital Currents.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 232.1
             },
             {
                 "trackNo": 21,
@@ -6122,19 +6755,21 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Default Media Transmitter",
                 "title": "Void Maneuver",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/01. Default Media Transmitter - Void Maneuver.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.18
             },
             {
                 "trackNo": 2,
                 "artist": "vetra miga",
                 "title": "sugar glass",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/02. vetramiga - sugarglass.mp3",
                 "link": "https://www.youtube.com/watch?v=2x1l8Gnzk6I",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 127.03
             },
             {
                 "trackNo": 3,
@@ -6149,10 +6784,11 @@ export const playlistData = [
                 "trackNo": 4,
                 "artist": "Seth Monyette",
                 "title": "Silk",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/04. Seth Monyette - Silk.mp3.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 290.85
             },
             {
                 "trackNo": 5,
@@ -6176,145 +6812,161 @@ export const playlistData = [
                 "trackNo": 7,
                 "artist": "Fractalint",
                 "title": "Reflect-indirect",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/07. Fractalint - reflect-indirect.mp3",
                 "link": "https://soundcloud.com/fractalint/reflect-indirect",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.92
             },
             {
                 "trackNo": 8,
                 "artist": "Krovvythered",
                 "title": "Point 5 MK IV",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/08. KrovvyTheRed - Point 5 Mk IV.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 168.57
             },
             {
                 "trackNo": 9,
                 "artist": "Kiwillian",
                 "title": "Physical Pane",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/09. Kiwillian - Physical Pane.mp3",
                 "link": "https://www.youtube.com/watch?v=6xP7HmWUa2k",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 217.73
             },
             {
                 "trackNo": 10,
                 "artist": "Heavy Listening with DMT",
                 "title": "No Midis were harmed in this 5 hour window",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/10. Heavy Listening with DMT - No MIDIs were harmed in this 5 hour window.mp3",
                 "link": "https://heavylistening.substack.com/p/october-no-midis-were-harmed-in-this",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 185.6
             },
             {
                 "trackNo": 11,
                 "artist": "Mikey303",
                 "title": "My Dog Threw Up",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/11. mikey303 - my dog threw up.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 156.61
             },
             {
                 "trackNo": 12,
                 "artist": "Fulhjort",
                 "title": "Meowdwamatick Meowment",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/12. fulhjort - Meowdwamatick Meowment.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 104.18
             },
             {
                 "trackNo": 13,
                 "artist": "Ponyart",
                 "title": "LP2 - track 5",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/13. PonyArt - LP2 - Track 5.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 348.06
             },
             {
                 "trackNo": 14,
                 "artist": "Paco",
                 "title": "Look! Outside The Window!",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/14. paco - look! outside the window!.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 131.87
             },
             {
                 "trackNo": 15,
                 "artist": "Abstract Justice Board",
                 "title": "Limited Integrals",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/15. Abstract Justice Board - Limited Integrals.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/limited-integrals",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 264.32
             },
             {
                 "trackNo": 16,
                 "artist": "Stu M",
                 "title": "Kisetsu",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/16. Stu M - Kisetsu.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 210.47
             },
             {
                 "trackNo": 17,
                 "artist": "Adam Johan Bergren",
                 "title": "Infinite Derivatives",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/17. Adam Johan Bergren - Infinite Derivatives.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/infinite-derivatives",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 273.18
             },
             {
                 "trackNo": 18,
                 "artist": "Skyguide",
                 "title": "Greased Ham",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/18. Skyguide - Greased Ham.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 70.16
             },
             {
                 "trackNo": 19,
                 "artist": "Broken Information",
                 "title": "Gravity Cake",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/19. Broken Information - Gravity Cake.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 313.66
             },
             {
                 "trackNo": 20,
                 "artist": "Alderach",
                 "title": "Everyday Eulogy",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/20. Alderach - Everyday Eulogy.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.38
             },
             {
                 "trackNo": 21,
                 "artist": "No Owls",
                 "title": "Dejected Reflections",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/21. No Owls - Dejected Reflections.mp3",
                 "link": "https://on.soundcloud.com/T27As",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 268.49
             },
             {
                 "trackNo": 22,
                 "artist": "Kiwillian & Jungle Pickle",
                 "title": "Dear Susan",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/22. Kiwillian x jungle pickle - Dear Susan.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/dear-susan?si=850ec966d61b4ac88912cb656f53f2d9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 250.83
             },
             {
                 "trackNo": 23,
@@ -6329,37 +6981,41 @@ export const playlistData = [
                 "trackNo": 24,
                 "artist": "Takamoon",
                 "title": "91 303 KM each of the Danube middle course",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/24. Takamoon - '91. 303 km East of the Danube Middle Course.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 306.02
             },
             {
                 "trackNo": 25,
                 "artist": "Jungle Pickle",
                 "title": "8 Hours",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/25. jungle pickle - 8 hours.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/8-hours-master?si=c3dcb539aa9c439bb461c6bdd4063808&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 175.13
             },
             {
                 "trackNo": 26,
                 "artist": "Poetry In Noise",
                 "title": "5minwin",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/26. Poetry In Noise - 5minwin.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 274.78
             },
             {
                 "trackNo": 27,
                 "artist": "Robert Redshaw",
                 "title": "5 Shades",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/27. Robert Redshaw - 5 shades.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 181.4
             },
             {
                 "trackNo": 28,
@@ -6374,19 +7030,21 @@ export const playlistData = [
                 "trackNo": 29,
                 "artist": "Silent Pity",
                 "title": "unknown",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/29. -.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 162.04
             },
             {
                 "trackNo": 30,
                 "artist": "First Sun",
                 "title": "Dream Sequence",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/30. -.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 250.97
             },
             {
                 "trackNo": 31,
@@ -6416,298 +7074,331 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Amadeus B Snivelitch",
                 "title": "(Formerly) Scottish Flavored Thanksgiving",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/01. Amadeus B Snivelitch - (Formerly) Scottish Flavored Thanksgiving.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 219.17
             },
             {
                 "trackNo": 2,
                 "artist": "Ducks",
                 "title": "You Rode And Brought The Sun",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/02. ducks - you rode and brought the sun.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 140.3
             },
             {
                 "trackNo": 3,
                 "artist": "Jacketpocket",
                 "title": "Father Sun",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/03. jacketpocket - Father Sun.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 230.71
             },
             {
                 "trackNo": 4,
                 "artist": "Derek Shunia",
                 "title": "Adrift Among The Stars",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/04. Derek Shunia - Adrift Among the Stars.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 229.96
             },
             {
                 "trackNo": 5,
                 "artist": "Fulhjort",
                 "title": "T3chnov",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/05. fulhjort - t3chnov.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 275.23
             },
             {
                 "trackNo": 6,
                 "artist": "Procrastronaut",
                 "title": "Elephant Eyes",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/06. Procrastronaut - Elephant Eyes.mp3",
                 "link": "https://soundcloud.com/procrastro0/elephant-eyes?si=4199fff3f7ed41ddb746016ab7f6da78&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 266.04
             },
             {
                 "trackNo": 7,
                 "artist": "Adam Johan Bergren",
                 "title": "Quadriga",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/07. Adam Johan Bergren - Quadriga.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/quadriga",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 297.34
             },
             {
                 "trackNo": 8,
                 "artist": "Zero Lucks Given",
                 "title": "Helios: Rise & Shine",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/08. Zero Lucks Given - Helios_ Rise & Shine.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/helios-rise-shine",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 319.54
             },
             {
                 "trackNo": 9,
                 "artist": "Skyguide",
                 "title": "We Will Change",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/09. Skyguide - We Will Change.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 212.47
             },
             {
                 "trackNo": 10,
                 "artist": "Seth Monyette",
                 "title": "Serpentine",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/10. Seth Monyette - Serpentine.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 193.85
             },
             {
                 "trackNo": 11,
                 "artist": "Michael Till",
                 "title": "Sunset - Sunrise",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/11. Michael Till - Sunset - Sunrise.mp3",
                 "link": "https://youtu.be/atisje9CHLE?si=y2bvpC1Sd6yDFHKH",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.42
             },
             {
                 "trackNo": 12,
                 "artist": "informationcake",
                 "title": "Step Into Your Existance",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/12. informationcake - Step Into Your Existance.mp3",
                 "link": "https://informationcake.bandcamp.com/track/step-into-your-existence",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 376.97
             },
             {
                 "trackNo": 13,
                 "artist": "Negative Teens",
                 "title": "Arc De Lumens",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/13. Negative Teens - Arc de Lumens.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 304.54
             },
             {
                 "trackNo": 14,
                 "artist": "Stu M",
                 "title": "Artemis",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/14. Stu M - Artemis.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 195.37
             },
             {
                 "trackNo": 15,
                 "artist": "Pathing & Gold",
                 "title": "Caribbea",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/15. Pathing & Gold - Caribbea.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 207.05
             },
             {
                 "trackNo": 16,
                 "artist": "Fractalint",
                 "title": "East To West",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/16. Fractalint - east to west.mp3",
                 "link": "https://soundcloud.com/fractalint/east-to-west",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 168.26
             },
             {
                 "trackNo": 17,
                 "artist": "Lemon Berries",
                 "title": "Milk Drop",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/17. Lemon Berries - Milk Drop.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 84.41
             },
             {
                 "trackNo": 18,
                 "artist": "Wasted Transmitter",
                 "title": "Stab Me Tender",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/18. Wasted Transmitter - Stab Me Tender.mp3",
                 "link": "https://soundcloud.com/defaultmediatransmitter/wasted-transmitter-stab-me-tender",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 276.96
             },
             {
                 "trackNo": 19,
                 "artist": "Kiwillian",
                 "title": "Touched By The Sun",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/19. Kiwillian - Touched By The Sun.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 437.4
             },
             {
                 "trackNo": 20,
                 "artist": "Robolution",
                 "title": "Helios Break",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/20. robolution - helios break.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 105.51
             },
             {
                 "trackNo": 21,
                 "artist": "Fjaru",
                 "title": "Self Destruction",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/21. Fjaru - Self Destruction.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.2
             },
             {
                 "trackNo": 22,
                 "artist": "Krovvythered",
                 "title": "Impromptu Pour Un Automne Froid",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/22. KrovvyTheRed - Impromptu pour un automne froid.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 140.59
             },
             {
                 "trackNo": 23,
                 "artist": "NGC 3019",
                 "title": "Moon Dust Derby",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/23. NGC 3019 - Moon Dust Derby.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 195.29
             },
             {
                 "trackNo": 24,
                 "artist": "Poetry In Noise",
                 "title": "Feast Of Helios",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/24. Poetry in Noise - Feast of Helios.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 273.19
             },
             {
                 "trackNo": 25,
                 "artist": "Reveur Mort",
                 "title": "Days Of Thunder",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/25. R\u02c6veur Mort - Days of Thunder.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 258.82
             },
             {
                 "trackNo": 26,
                 "artist": "Total Bedroom",
                 "title": "Iperion",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/26. Total Bedroom - Iperion.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 235.08
             },
             {
                 "trackNo": 27,
                 "artist": "Takamoon",
                 "title": "Respectfully No Thank You",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/27. Takamoon - Respectfully No Thank You.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 246.91
             },
             {
                 "trackNo": 28,
                 "artist": "Edwin",
                 "title": "A Plucky Day In Fall",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/28. Edwin - A Plucky Day in Fall.mp3",
                 "link": "https://www.youtube.com/watch?v=Lf-UJFrviSo",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 257.3
             },
             {
                 "trackNo": 29,
                 "artist": "Menhirs & Nornec",
                 "title": "The Sun Is A Pretty Cool Guy",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/29. Menhirs & Nornec - The Sun Is A Pretty Cool Guy.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 253.78
             },
             {
                 "trackNo": 30,
                 "artist": "Broken Gravity",
                 "title": "Hollow Sun",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/30. Broken Gravity - Hollow Sun.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 215.77
             },
             {
                 "trackNo": 31,
                 "artist": "vetra miga",
                 "title": "icarus, descend",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/31. vetramiga - icarus, descend.mp3",
                 "link": "https://www.youtube.com/watch?v=QBKmMVYyiJA",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 212.69
             },
             {
                 "trackNo": 32,
                 "artist": "Ponyart",
                 "title": "Step One Now Step Two Feat Kingosiris",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/32. PonyArt - Step One Now Step Two feat KingOsiris.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 168.05
             },
             {
                 "trackNo": 33,
                 "artist": "Computrhead",
                 "title": "Food For The Gods",
-                "file": "",
+                "file": "2023/Sim_Selections_NOVEMBER_2023/33. Computrhead - Food For The Gods.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 188.63
             },
             {
                 "trackNo": 34,
@@ -6746,73 +7437,81 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "DJ Stable D & Kiwillian",
                 "title": "Canny Valley",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/01. DJ Stable D & Kiwillian - Canny Valley.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 94.32
             },
             {
                 "trackNo": 2,
                 "artist": "Theodore Snoozevelt",
                 "title": "Ebakindlusega",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/02. Theodore Snoozevelt - Ebakindlusega.mp3",
                 "link": "https://soundcloud.com/snoozevelt/ebakindlusega",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 107.49
             },
             {
                 "trackNo": 3,
                 "artist": "JacketPocket",
                 "title": "Panorama City",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/03. jacketpocket - Panorama City.mp3",
                 "link": "https://soundcloud.com/traviedoodle/panorama-city/s-JRbckpKhAgs?si=65568d28253b41f8804d067db6730933&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.6
             },
             {
                 "trackNo": 4,
                 "artist": "Robert Redshaw",
                 "title": "Hill 2 Hill",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/04. Robert Redshaw - Hill 2 Hill.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 147.48
             },
             {
                 "trackNo": 5,
                 "artist": "Poetry In Noise",
                 "title": "Covered Bridges",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/05. Poetry in Noise - Covered Bridges.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 242.99
             },
             {
                 "trackNo": 6,
                 "artist": "vetra miga",
                 "title": "city lights (feat. jacketpocket)",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/06. vetramiga - city lights (feat. jacketpocket).mp3",
                 "link": "https://www.youtube.com/watch?v=LLQO5vXhnb0",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 224.89
             },
             {
                 "trackNo": 7,
                 "artist": "Lemon Berries",
                 "title": "Datura",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/07. Lemon Berries - Datura.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 144.02
             },
             {
                 "trackNo": 8,
                 "artist": "ComputrHead",
                 "title": "Silicon City",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/08. Computrhead - Silicon City.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 285.41
             },
             {
                 "trackNo": 9,
@@ -6827,190 +7526,211 @@ export const playlistData = [
                 "trackNo": 10,
                 "artist": "informationcake & The Flashbulb",
                 "title": "Somewhere Bright",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/10. informationcake & The Flashbulb - Somewhere Bright.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 388.15
             },
             {
                 "trackNo": 11,
                 "artist": "Michael Till",
                 "title": "Lucy",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/11. Michael Till - Lucy.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 249.78
             },
             {
                 "trackNo": 12,
                 "artist": "Kiwillian",
                 "title": "Check It Out",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/12. Kiwillian - Check It Out.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 115.78
             },
             {
                 "trackNo": 13,
                 "artist": "Largeman - Abell 85 Studios",
                 "title": "Jazzy Bird Sits On A Plane And Does Loopings",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/13. Largeman - Abell 85 Studio - jazzy bird sits on a plane and does loopings.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 186.31
             },
             {
                 "trackNo": 14,
                 "artist": "Stoic",
                 "title": "The Unbearable Crushing Weight Of Happiness",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/14. stoic - The Unbearable Crushing Weight of Happiness.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 351.46
             },
             {
                 "trackNo": 15,
                 "artist": "Jungle Pickle",
                 "title": "Deep In The Valley",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/15. jungle pickle - deep in the valley.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/deep-in-the-valley?si=309166cae57446109108f77ae6703588&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 137.21
             },
             {
                 "trackNo": 16,
                 "artist": "DRMR",
                 "title": "Uncanny Valley",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/16. DRMR - Uncanny Valley.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.61
             },
             {
                 "trackNo": 17,
                 "artist": "Seth Monyette",
                 "title": "Chaos",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/17. Seth Monyette - Chaos.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 130.87
             },
             {
                 "trackNo": 18,
                 "artist": "Err: Rawr",
                 "title": "Torn Apart (Some More)",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/18. err Rawr - Torn apart (some more).mp3",
                 "link": "https://on.soundcloud.com/FKdBW8pXc8oMM55v7",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 166.08
             },
             {
                 "trackNo": 19,
                 "artist": "Sir Fancy",
                 "title": "Early Bird",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/19. Sir Fancy -.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 162.93
             },
             {
                 "trackNo": 20,
                 "artist": "informationcake",
                 "title": "Lost Mornings",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/20. informationcake - Lost Mornings.mp3",
                 "link": "https://informationcake.bandcamp.com/track/lost-mornings",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 382.85
             },
             {
                 "trackNo": 21,
                 "artist": "Edwin",
                 "title": "Slowview",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/21. Edwin - Slowview.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 272.66
             },
             {
                 "trackNo": 22,
                 "artist": "Stu M",
                 "title": "Auresolve",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/22. Stu M - Auresolve.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 178.57
             },
             {
                 "trackNo": 23,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "City 17 Polar Express",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/23. Amadeus B. Snivelitch - City 17 Polar Express.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 317.35
             },
             {
                 "trackNo": 24,
                 "artist": "Cahl",
                 "title": "Soaring",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/24. Cahl - Soaring.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 445.99
             },
             {
                 "trackNo": 25,
                 "artist": "Fuljort",
                 "title": "Sysodeme Ln",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/25. fulhjort - Sysodeme LN.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 308.82
             },
             {
                 "trackNo": 26,
                 "artist": "Broken Gravity",
                 "title": "Ares Landing",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/26. Broken Gravity - Ares Landing.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 256.84
             },
             {
                 "trackNo": 27,
                 "artist": "Adam Johan Bergren",
                 "title": "Galaxies Reform (FT. Broderick Smith)",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/27. Adam Johan Bergren - Galaxies ReForm (ft. Broderick Smith).mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/galaxies-reform-ft-broderick-smith",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 228.89
             },
             {
                 "trackNo": 28,
                 "artist": "No Owls",
                 "title": "If There's A Way",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/28. No Owls - If Theres A Way.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 221.95
             },
             {
                 "trackNo": 29,
                 "artist": "procrastronaught",
                 "title": "20-20",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/29. Procrastronaut - 20-20.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 262.54
             },
             {
                 "trackNo": 30,
                 "artist": "Nornec",
                 "title": "Europa Metro",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/30. Nornec - Europa Metro.mp4",
                 "link": "https://www.youtube.com/watch?v=3cfOmEpQ9mc",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 228.03
             },
             {
                 "trackNo": 31,
@@ -7067,235 +7787,261 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Yakmilksoda",
                 "title": "Let's Choke",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/21. yakmilksoda - Let's Choke.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 228.57
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Cocoa Rye",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/16. Adam Johan Bergren - Cocoa Rye.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/cocoa-rye",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 275.52
             },
             {
                 "trackNo": 3,
                 "artist": "Anthony Felos",
                 "title": "We Are All We've Got",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/23. Anthony Felos - We Are All We_ve Got.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 172.04
             },
             {
                 "trackNo": 4,
                 "artist": "Dedblank",
                 "title": "Full Force",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/13. dedblank - Full Force.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.02
             },
             {
                 "trackNo": 5,
                 "artist": "Broken Gravity",
                 "title": "Acidalia Interrail",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/07. Broken Gravity - Acidalia Interrail.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 209.42
             },
             {
                 "trackNo": 6,
                 "artist": "Takamoon",
                 "title": "Wow Crazy Cool To See You So Random Bye",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/11. Takamoon - wow crazy cool to see you so random bye.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 150.65
             },
             {
                 "trackNo": 7,
                 "artist": "Jacketpocket",
                 "title": "Choose",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/06. jacketpocket - Choose.mp3",
                 "link": "https://soundcloud.com/traviedoodle/jacketpocket-choose",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 215.57
             },
             {
                 "trackNo": 8,
                 "artist": "Pulse-Static",
                 "title": "Peace",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/10. Pulse-Static - Peace.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 176.77
             },
             {
                 "trackNo": 9,
                 "artist": "mikey303",
                 "title": "Scramble",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/14. mikey303 - scramble.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 175.8
             },
             {
                 "trackNo": 10,
                 "artist": "Jungle Pickle; Heavy Listening",
                 "title": "Counting Calories",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/15. jungle pickle;Heavy Listening - counting calories.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/counting-calories?si=5b8bb7f7d7d141e79700c5862d5997df&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.05
             },
             {
                 "trackNo": 11,
                 "artist": "Stu M",
                 "title": "Arrowheads",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/03. Stu M - Arrowheads.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 275.88
             },
             {
                 "trackNo": 12,
                 "artist": "Largeman",
                 "title": "It's 2024, Calm Down",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/09. Largeman - Its 2024. Calm down!.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 170.3
             },
             {
                 "trackNo": 13,
                 "artist": "vetra miga",
                 "title": "4",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/18. vetra miga - 4.mp3",
                 "link": "https://www.youtube.com/watch?v=5KA3_vmpH5I",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 185.26
             },
             {
                 "trackNo": 14,
                 "artist": "Edwin",
                 "title": "Going Crazy For Chocolates",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/12. Edwin - Going Crazy for Chocolates.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 153.62
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec",
                 "title": "Lick The Spoon",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/20. Nornec - Lick The Spoon.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 309.36
             },
             {
                 "trackNo": 16,
                 "artist": "Negative Teens",
                 "title": "\"Calm Down, Man\"",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/08. Negative Teens - Calm Down, Man.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 302.0
             },
             {
                 "trackNo": 17,
                 "artist": "Procrastronaut",
                 "title": "hersheysisactualpuke",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/02. Procrastronaut - hersheysisactualpuke.mp3",
                 "link": "https://soundcloud.com/procrastro0/hersheysisactualpuke",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.02
             },
             {
                 "trackNo": 18,
                 "artist": "Poetry In Noise",
                 "title": "P.I.N. Aux Chocolate",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/26. Poetry In Noise - P.I.N. Aux Chocolate.mp3",
                 "link": "https://on.soundcloud.com/HsjqY",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 260.65
             },
             {
                 "trackNo": 19,
                 "artist": "Ponyart",
                 "title": "Blaze (Mad Hed City)",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/01. PonyArt - Blaze (Mad Hed City).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.04
             },
             {
                 "trackNo": 20,
                 "artist": "Mylarmelodies/Pathing",
                 "title": "Metropolis Showdown",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/25. MylarmelodiesPathing - Metropolis Showdown.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 80.02
             },
             {
                 "trackNo": 21,
                 "artist": "Krovvythered",
                 "title": "Unearned Cheerful Confidence",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/04. KrovvyTheRed - Unearned Cheerful Confidence.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 110.0
             },
             {
                 "trackNo": 22,
                 "artist": "Kiwillian",
                 "title": "Dreamers Of Dreams",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/24. Kiwillian - Dreamers of Dreams.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 131.76
             },
             {
                 "trackNo": 23,
                 "artist": "Robert Redshaw",
                 "title": "Illogical Heft",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/22. Robert Redshaw - Illogical Heft.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 250.97
             },
             {
                 "trackNo": 24,
                 "artist": "Drew Willard",
                 "title": "Wonder",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/17. Drew Willard - Wonder.mp3",
                 "link": "https://drewillard.com/track/3684557/wonder",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 230.69
             },
             {
                 "trackNo": 25,
                 "artist": "Zero Lucks Given",
                 "title": "The Struggle Continues",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/05. Zero Lucks Given - The Struggle Continues.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-struggle-continues",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 322.25
             },
             {
                 "trackNo": 26,
                 "artist": "Meganeura",
                 "title": "Atom Splitter",
-                "file": "",
+                "file": "2024/Sim_Selections_JANUARY_2024/19. Meganeura - Atom Splitter.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 275.3
             }
         ]
     },
@@ -7316,46 +8062,51 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Cahl",
                 "title": "At The End Of Everything",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/18. Cahl - at the end of everything.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 355.97
             },
             {
                 "trackNo": 2,
                 "artist": "Fjaru & PonyArt",
                 "title": "Shoot Til It Dies!",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/11. Fjaru & PonyArt - Shoot till it dies!.mp3",
                 "link": "https://soundcloud.com/fjaru/shoot-till-it-dies-ponyart-fjaru",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 329.64
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "Eyes Open",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/10. informationcake - Eyes Open.mp3",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 325.72
             },
             {
                 "trackNo": 4,
                 "artist": "Your Computer",
                 "title": "Airlock Pong",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/22. Your Computer - Airlock Pong.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 271.46
             },
             {
                 "trackNo": 5,
                 "artist": "Default Media Transmitter",
                 "title": "Sensors Detect Rot",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/02. Default Media Transmitter - Sensors Detect Rot.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 270.26
             },
             {
                 "trackNo": 6,
@@ -7370,289 +8121,331 @@ export const playlistData = [
                 "trackNo": 7,
                 "artist": "mikey303",
                 "title": "Signal",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/31. mikey303 - SIGNAL.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.22
             },
             {
                 "trackNo": 8,
                 "artist": "Broken Gravity",
                 "title": "Phobos Night Drive",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/08. Broken Gravity - Phobos Night Drive.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 254.8
             },
             {
                 "trackNo": 9,
                 "artist": "JacketPocket",
                 "title": "Offline",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/07. jacketpocket - Offline (I Have a Cold Version).mp3",
                 "link": "https://soundcloud.com/traviedoodle/jacketpocket-offline",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 244.9
             },
             {
                 "trackNo": 10,
                 "artist": "The Jovian Path",
                 "title": "Island In The Sky",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/35. The Jovian Path - Island in the Sky.mp3",
                 "link": "https://soundcloud.com/thejovianpath/islandinthesky",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.39
             },
             {
                 "trackNo": 11,
                 "artist": "Meganeura",
                 "title": "Red Supergiant",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/19. Meganeura - Red Supergiant.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 233.33
             },
             {
                 "trackNo": 12,
                 "artist": "Stu M",
                 "title": "Val Canegia",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/16. Stu M - Val Canegia.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 232.78
             },
             {
                 "trackNo": 13,
                 "artist": "Echos Bats",
                 "title": "Talking To The Moon",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/15. EchoEs Bats - Talking to the Moon.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 227.04
             },
             {
                 "trackNo": 14,
                 "artist": "Ara Cristina",
                 "title": "Decay (Of Time)",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/14. Ara Cristina - Decay (of Time).mp3",
                 "link": "https://hojascirculares.bandcamp.com",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 224.74
             },
             {
                 "trackNo": 15,
                 "artist": "PonyArt (Mad Hed City)",
                 "title": "Who The Leader",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/26. PonyArt (Mad Hed City) - Who The Leader.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.9
             },
             {
                 "trackNo": 16,
                 "artist": "Zero Lucks Given",
                 "title": "Offline",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/21. Zero Lucks Given - Offline.mp3",
                 "link": "https://zerolucksgiven.bandcamp.com/track/offline",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 215.78
             },
             {
                 "trackNo": 17,
                 "artist": "Nornec & The Flashbulb",
                 "title": "Stranded In Nice Weather",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/04. Nornec & The Flashbulb - Stranded In Nice Weather.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 214.94
             },
             {
                 "trackNo": 18,
                 "artist": "Seth Monyette",
                 "title": "Sky",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/30. Seth Monyette - Sky.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 208.34
             },
             {
                 "trackNo": 19,
                 "artist": "Poetry In Noise",
                 "title": "BTBOL (ANFO Fork)",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/32. Poetry In Noise - BTBOL (ANFO Fork).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 205.75
             },
             {
                 "trackNo": 20,
                 "artist": "Robert Redshaw",
                 "title": "In Clouds",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/12. Robert Redshaw - In Clouds.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.06
             },
             {
                 "trackNo": 21,
                 "artist": "Perlin",
                 "title": "Power Outage",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/34. Perlin - Power Outage.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 197.17
             },
             {
                 "trackNo": 22,
                 "artist": "Lonnon Foster",
                 "title": "Take It Offline",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/29. Lonnon Foster - Take It Offline.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 195.53
             },
             {
                 "trackNo": 23,
                 "artist": "Ducks",
                 "title": "Steelmill Rodeo",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/33. ducks - steelmill rodeo.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 193.08
+            },
+            {
+                "trackNo": 23,
+                "artist": "err Rawr",
+                "title": "Trouble",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/23. err Rawr - Trouble.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 187.08
             },
             {
                 "trackNo": 24,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Unplug",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/06. Amadeus B. Snivelitch - Unplug.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 187.68
             },
             {
                 "trackNo": 25,
                 "artist": "Drew Willard",
                 "title": "Traffic",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/17. Drew Willard - Traffic.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 186.2
             },
             {
                 "trackNo": 26,
                 "artist": "Menhirs & Skyguide",
                 "title": "False Spring Waltz",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/25. Menhirs; Skyguide - False Spring Waltz.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 185.42
             },
             {
                 "trackNo": 27,
                 "artist": "Takamoon",
                 "title": "My Friends Waste Cheese",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/01. Takamoon - My Friends Waste Cheese.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 185.04
             },
             {
                 "trackNo": 28,
                 "artist": "Sonarant Escapades",
                 "title": "Cascade Anomolies",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/05. Sonarant Escapades - Cascade Anomolies.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 159.03
             },
             {
                 "trackNo": 29,
                 "artist": "Mark Feifarek",
                 "title": "Highland Forest",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/20. Mark Feifarek - Highland Forest.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 153.38
             },
             {
                 "trackNo": 30,
                 "artist": "Edwin",
                 "title": "Iakesi",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/28. Edwin - Iakesi.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 148.63
             },
             {
                 "trackNo": 31,
                 "artist": "Fjaru",
                 "title": "Lost In A Puddle",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/09. Fjaru - Lost in a puddle.mp3",
                 "link": "https://soundcloud.com/fjaru/lost-in-a-puddle",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 177.32
             },
             {
                 "trackNo": 32,
                 "artist": "Adam Johan Bergren",
                 "title": "Catskill Eagle",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/13. Adam Johan Bergren - Catskill Eagle.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/catskill-eagle",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 289.3
             },
             {
                 "trackNo": 33,
                 "artist": "ZeroAPR",
                 "title": "Arithmetic Error",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/27. Zeroapr - Arithmetic Error.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 113.58
             },
             {
                 "trackNo": 34,
                 "artist": "LaurenPinsChannels",
                 "title": "Spectral Pan Thing (Real) (Slow Version)",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/03. @LaurenPinsChannels - Spectral Pan Thing (real) (slow version).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 107.0
             },
             {
                 "trackNo": 35,
                 "artist": "Anonymous Water Bottle",
                 "title": "The Mercator Projection Ate My Parents",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/24. Anonymous Water Bottle - The mercator projection ate my parents.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 97.54
             },
             {
                 "trackNo": 36,
                 "artist": "Negative Teens",
                 "title": "Off The Grid",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/37. Negative Teens - Off The Grid.mp4",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 259.99
             },
             {
                 "trackNo": 37,
                 "artist": "Jungle Pickle",
                 "title": "Put On Your Gloves",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/36. jungle pickle - put on your gloves.mp4",
                 "link": "https://soundcloud.com/jungle-pickle/put-on-your-gloves?si=f24bf322276c402c82f6f45eaa9e902b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 172.78
             },
             {
                 "trackNo": 38,
                 "artist": "Dedblank",
                 "title": "High On Clear",
-                "file": "",
+                "file": "2024/Sim_Selections_FEBRUARY_2024/38. dedblank - high on clear.mp4",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 256.0
             }
         ]
     },
@@ -7673,325 +8466,361 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Ara Cristina",
                 "title": "Mirrors Facing the Ceilng",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/01. Ara Cristina - Mirrors Facing the Ceiling.mp3",
                 "link": "https://on.soundcloud.com/f9RfQApBYvScYTaDA",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 335.04
             },
             {
                 "trackNo": 2,
                 "artist": "Vetra Miga",
                 "title": "6",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/02. vetra miga - 6.mp3",
                 "link": "https://youtu.be/W-72POw-Rnc",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 177.43
             },
             {
                 "trackNo": 3,
                 "artist": "Meganeura",
                 "title": "Rain Of Stars",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/03. Meganeura - Rain of Stars.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 255.45
             },
             {
                 "trackNo": 4,
                 "artist": "Euskalduna",
                 "title": "The Tea House",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/04. euskalduna - The Tea House.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 243.67
             },
             {
                 "trackNo": 5,
                 "artist": "Lonnon Foster",
                 "title": "Strange Brew",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/05. Lonnon Foster - Strange Brew.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 78.63
             },
             {
                 "trackNo": 6,
                 "artist": "Robert Redshaw",
                 "title": "Return Visit",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/06. Robert Redshaw - Return Visit.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 117.02
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake & Anthony Felos",
                 "title": "Euphoria At The Tea House",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/07. informationcake & Anthony Felos - Euphoria At The Tea House.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 339.8
             },
             {
                 "trackNo": 8,
                 "artist": "Ponyart",
                 "title": "Inspired By Dune",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/08. PonyArt - Inspired by Dune.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.03
             },
             {
                 "trackNo": 9,
                 "artist": "Astar, A Robot",
                 "title": "GLASS-Z12",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/09. Astar, a Robot - GLASS-z12.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 175.31
             },
             {
                 "trackNo": 10,
                 "artist": "Procrastronaut",
                 "title": "Pop Music (Mug Of Tea Mix)",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/10. Procrastronaut - Pop Music (Mug Of Tea Mix).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 290.88
             },
             {
                 "trackNo": 11,
                 "artist": "Earl Grey",
                 "title": "Take A Sip",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/11. Earl Grey - Take a sip.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 196.51
             },
             {
                 "trackNo": 12,
                 "artist": "Ducks",
                 "title": "Oolong Oolong",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/12. ducks - Oolong Oolong.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 210.22
             },
             {
                 "trackNo": 13,
                 "artist": "DREAMX",
                 "title": "Stalactites In The Dark",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/13. DreamX - Stalactites in the Dark.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 285.57
             },
             {
                 "trackNo": 14,
                 "artist": "NASCEN7",
                 "title": "The Lullaby",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/14. NASCEN7 - The Lullaby.mp3",
                 "link": "https://audius.co/nascent/the-lullaby",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 146.59
             },
             {
                 "trackNo": 15,
                 "artist": "Snoozevelt",
                 "title": "Third Place",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/15. snoozevelt - third place.mp3",
                 "link": "https://soundcloud.com/snoozevelt/third-place",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 66.96
             },
             {
                 "trackNo": 16,
                 "artist": "Teapotahedron",
                 "title": "Little Big Tea House",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/16. Teapotahedron - Little Big Tea House.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 122.21
             },
             {
                 "trackNo": 17,
                 "artist": "Err: Rawr",
                 "title": "New Breakaway",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/17. err Rawr - New Breakaway.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 156.0
             },
             {
                 "trackNo": 18,
                 "artist": "Moiko",
                 "title": "Tea House, Too",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/18. moiko - Tea House, Too.mp3",
                 "link": "https://soundcloud.com/moikop/tea-house-too",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 207.36
             },
             {
                 "trackNo": 19,
                 "artist": "Seth Monyette",
                 "title": "Welcome Home",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/19. Seth Monyette - Welcome Home.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.46
             },
             {
                 "trackNo": 20,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Teatime In Bristol",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/20. Amadeus B. Snivelitch - Teatime in Bristol.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 200.04
             },
             {
                 "trackNo": 21,
                 "artist": "Moiko",
                 "title": "Tea House In Orbit",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/21. moiko - Tea House in Orbit.mp3",
                 "link": "https://soundcloud.com/moikop/teahouse-in-orbit",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 238.1
             },
             {
                 "trackNo": 22,
                 "artist": "Broken Gravity",
                 "title": "The Teahouse At Lake Shinji",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/22. Broken Gravity - The Teahouse At Lake Shinji.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 226.85
             },
             {
                 "trackNo": 23,
                 "artist": "Zero Lucks Given",
                 "title": "Yesterdays Gaiwan, Todays Teacup",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/23. Zero Lucks Given - Yesterdays Gaiwan, Todays Teacup.mp3",
                 "link": "http://zerolucksgiven.band/track/yesterdays-gaiwan-todays-teacup",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.29
             },
             {
                 "trackNo": 24,
                 "artist": "Jacketpocket",
                 "title": "Ambush At Hanamikoji",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/24. jacketpocket - Ambush at Hanamikoji.mp3",
                 "link": "https://soundcloud.com/traviedoodle/ambush-at-hanamikoji",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 223.34
             },
             {
                 "trackNo": 25,
                 "artist": "Edwin",
                 "title": "T-Pose T-House",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/25. Edwin - t-pose t-house.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 197.38
             },
             {
                 "trackNo": 26,
                 "artist": "Adam Johan Bergren",
                 "title": "Never Odd Or Even",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/26. Adam Johan Bergren - Never Odd or Even.mp3",
                 "link": "https://adamjohanbergren.bandcamp.com/track/never-odd-or-even",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 306.65
             },
             {
                 "trackNo": 27,
                 "artist": "Fractalint",
                 "title": "Tea For T",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/27. Fractalint - Tea for T.mp3",
                 "link": "https://soundcloud.com/fractalint/tea-for-t",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 236.47
             },
             {
                 "trackNo": 28,
                 "artist": "Perlin",
                 "title": "Tachycardia",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/28. Perlin - Tachycardia.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 197.59
             },
             {
                 "trackNo": 29,
                 "artist": "TheDisordered",
                 "title": "Radium",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/29. TheDisordered - Radium.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.08
             },
             {
                 "trackNo": 30,
                 "artist": "Stu M",
                 "title": "Tea_Gen",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/30. Stu M - Tea_Gen.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 274.29
             },
             {
                 "trackNo": 31,
                 "artist": "Dedblank",
                 "title": "Lotus (WIP)",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/31. dedblank - lotus (WIP).mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 170.52
             },
             {
                 "trackNo": 32,
                 "artist": "Jungle Pickle",
                 "title": "Can You Imagine",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/32. jungle pickle - can you imagine.mp3",
                 "link": "https://soundcloud.com/jungle-pickle/can-you-imagine?si=f24bf322276c402c82f6f45eaa9e902b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 162.7
             },
             {
                 "trackNo": 33,
                 "artist": "Cahl",
                 "title": "C U At 9",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/33. Cahl - C U At 9.mp3",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 178.39
             },
             {
                 "trackNo": 34,
                 "artist": "Skyguide",
                 "title": "Fast Slow Disco",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/34. Skyguide - Fast Slow Disco.mp4",
                 "link": "https://youtu.be/XhiqdqUn5g8",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 365.38
             },
             {
                 "trackNo": 35,
                 "artist": "Poetry In Noise",
                 "title": "Carafe's Eye View",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/35. Poetry In Noise - Carafe's Eye View.mp4",
                 "link": "https://youtu.be/gfPwc2g9C7k",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 297.2
             },
             {
                 "trackNo": 36,
                 "artist": "Skitter",
                 "title": "Blast",
-                "file": "",
+                "file": "2024/Sim_Selections_MARCH_2024/36. Skitter - Blast.mp4",
                 "link": "https://www.youtube.com/watch?v=OMj0yvLeNIg",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 146.47
             }
         ]
     },
@@ -8016,7 +8845,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.07
+                "length": 310.05
             },
             {
                 "trackNo": 2,
@@ -8026,7 +8855,7 @@ export const playlistData = [
                 "link": "https://zerolucksgiven.bandcamp.com/track/a-is-for-apple",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.73
+                "length": 253.7
             },
             {
                 "trackNo": 3,
@@ -8036,7 +8865,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.06
+                "length": 208.03
             },
             {
                 "trackNo": 4,
@@ -8046,7 +8875,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.6
+                "length": 259.58
             },
             {
                 "trackNo": 5,
@@ -8056,7 +8885,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.42
+                "length": 238.39
             },
             {
                 "trackNo": 6,
@@ -8066,7 +8895,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.71
+                "length": 200.69
             },
             {
                 "trackNo": 7,
@@ -8076,7 +8905,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.82
+                "length": 187.79
             },
             {
                 "trackNo": 8,
@@ -8086,7 +8915,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.68
+                "length": 231.65
             },
             {
                 "trackNo": 9,
@@ -8096,7 +8925,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.41
+                "length": 126.38
             },
             {
                 "trackNo": 10,
@@ -8106,7 +8935,7 @@ export const playlistData = [
                 "link": "https://on.soundcloud.com/7A6iXnSJV4KLBRRs5",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.83
+                "length": 206.81
             },
             {
                 "trackNo": 11,
@@ -8116,7 +8945,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.06
+                "length": 237.04
             },
             {
                 "trackNo": 12,
@@ -8126,7 +8955,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.22
+                "length": 276.19
             },
             {
                 "trackNo": 13,
@@ -8136,7 +8965,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.39
+                "length": 210.36
             },
             {
                 "trackNo": 14,
@@ -8146,7 +8975,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/hedbut/pommes?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=b7d38cd1e1164fb3aa289c528c139488",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.95
+                "length": 152.93
             },
             {
                 "trackNo": 15,
@@ -8156,7 +8985,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.18
+                "length": 298.15
             },
             {
                 "trackNo": 16,
@@ -8166,7 +8995,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.83
+                "length": 268.8
             },
             {
                 "trackNo": 17,
@@ -8176,7 +9005,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.93
+                "length": 186.91
             },
             {
                 "trackNo": 18,
@@ -8186,7 +9015,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/mr-bumble?si=08d66412f2a44f40bf8776aa6c2856c9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.55
+                "length": 153.53
             },
             {
                 "trackNo": 19,
@@ -8196,7 +9025,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 327.55
+                "length": 327.53
             },
             {
                 "trackNo": 19,
@@ -8206,7 +9035,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 394.4
+                "length": 394.37
             },
             {
                 "trackNo": 20,
@@ -8216,7 +9045,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/goodland-harvest",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.48
+                "length": 297.46
             },
             {
                 "trackNo": 21,
@@ -8226,7 +9055,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/fractalint/telehat",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.02
+                "length": 192.0
             },
             {
                 "trackNo": 22,
@@ -8236,7 +9065,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.29
+                "length": 159.26
             },
             {
                 "trackNo": 23,
@@ -8246,7 +9075,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.7
+                "length": 225.67
             },
             {
                 "trackNo": 24,
@@ -8256,7 +9085,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.44
+                "length": 218.41
             },
             {
                 "trackNo": 25,
@@ -8266,7 +9095,7 @@ export const playlistData = [
                 "link": "https://depthbuffer.bandcamp.com/track/cicadasong",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.38
+                "length": 302.35
             },
             {
                 "trackNo": 26,
@@ -8276,7 +9105,7 @@ export const playlistData = [
                 "link": "https://nascen7.bandcamp.com/track/warm-invitations",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.82
+                "length": 130.8
             },
             {
                 "trackNo": 27,
@@ -8286,7 +9115,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.71
+                "length": 234.68
             },
             {
                 "trackNo": 28,
@@ -8296,7 +9125,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.13
+                "length": 189.1
             },
             {
                 "trackNo": 29,
@@ -8306,7 +9135,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 121.63
+                "length": 121.6
             },
             {
                 "trackNo": 30,
@@ -8316,7 +9145,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.06
+                "length": 136.03
             },
             {
                 "trackNo": 31,
@@ -8326,7 +9155,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.91
+                "length": 189.89
             },
             {
                 "trackNo": 32,
@@ -8336,7 +9165,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/gorchard-ft-mikki-pike-hades",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.25
+                "length": 274.22
             },
             {
                 "trackNo": 33,
@@ -8346,7 +9175,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.59
+                "length": 147.57
             },
             {
                 "trackNo": 34,
@@ -8356,7 +9185,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.46
+                "length": 216.43
             },
             {
                 "trackNo": 35,
@@ -8366,7 +9195,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=8xGJIhCya7c",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.92
+                "length": 238.9
             },
             {
                 "trackNo": 36,
@@ -8376,7 +9205,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.38
+                "length": 240.35
             },
             {
                 "trackNo": 37,
@@ -8411,7 +9240,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.29
+                "length": 227.27
             },
             {
                 "trackNo": 2,
@@ -8421,7 +9250,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 336.33
+                "length": 336.3
             },
             {
                 "trackNo": 3,
@@ -8431,7 +9260,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.98
+                "length": 194.95
             },
             {
                 "trackNo": 4,
@@ -8450,7 +9279,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 394.4
+                "length": 394.37
             },
             {
                 "trackNo": 6,
@@ -8460,7 +9289,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.71
+                "length": 224.68
             },
             {
                 "trackNo": 7,
@@ -8470,7 +9299,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.05
+                "length": 177.02
             },
             {
                 "trackNo": 8,
@@ -8480,7 +9309,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.0
+                "length": 91.98
             },
             {
                 "trackNo": 9,
@@ -8490,7 +9319,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/adam-johan-bergren/ego-fatality-ft-superlative?si=58fdada864f1474ea0d9c88e9577886b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.51
+                "length": 283.49
             },
             {
                 "trackNo": 10,
@@ -8500,7 +9329,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 78.32
+                "length": 78.29
             },
             {
                 "trackNo": 11,
@@ -8510,7 +9339,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.13
+                "length": 182.1
             },
             {
                 "trackNo": 12,
@@ -8520,7 +9349,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 65.16
+                "length": 65.14
             },
             {
                 "trackNo": 13,
@@ -8530,7 +9359,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.05
+                "length": 143.02
             },
             {
                 "trackNo": 14,
@@ -8540,7 +9369,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.79
+                "length": 202.76
             },
             {
                 "trackNo": 15,
@@ -8550,7 +9379,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.05
+                "length": 252.02
             },
             {
                 "trackNo": 16,
@@ -8560,7 +9389,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 76.33
+                "length": 76.3
             },
             {
                 "trackNo": 17,
@@ -8570,7 +9399,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/prvsm/loch-ness-monster",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.7
+                "length": 217.68
             },
             {
                 "trackNo": 18,
@@ -8580,7 +9409,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 95.16
+                "length": 95.14
             },
             {
                 "trackNo": 19,
@@ -8590,7 +9419,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.06
+                "length": 182.04
             },
             {
                 "trackNo": 20,
@@ -8600,7 +9429,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/mindset",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.86
+                "length": 143.83
             },
             {
                 "trackNo": 21,
@@ -8610,7 +9439,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.93
+                "length": 258.9
             },
             {
                 "trackNo": 22,
@@ -8620,7 +9449,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.39
+                "length": 150.36
             },
             {
                 "trackNo": 23,
@@ -8630,7 +9459,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "length": 240.04
             },
             {
                 "trackNo": 24,
@@ -8640,7 +9469,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 72.19
+                "length": 72.17
             },
             {
                 "trackNo": 25,
@@ -8650,7 +9479,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/gattb?si=87d4536fbb494b88a05a4de8f196d473&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 145.58
+                "length": 145.56
             },
             {
                 "trackNo": 26,
@@ -8660,7 +9489,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.54
+                "length": 154.51
             },
             {
                 "trackNo": 27,
@@ -8670,7 +9499,7 @@ export const playlistData = [
                 "link": "https://on.soundcloud.com/ricvGN6eceMaDPjMA",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.99
+                "length": 217.97
             },
             {
                 "trackNo": 28,
@@ -8680,7 +9509,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 117.0
+                "length": 116.98
             },
             {
                 "trackNo": 29,
@@ -8690,7 +9519,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/traviedoodle/whats-happenin-feat-superlative",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.33
+                "length": 134.3
             },
             {
                 "trackNo": 30,
@@ -8700,7 +9529,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.82
+                "length": 155.79
             },
             {
                 "trackNo": 31,
@@ -8710,7 +9539,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/pathing/pembroke",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.25
+                "length": 130.22
             },
             {
                 "trackNo": 32,
@@ -8735,7 +9564,7 @@ export const playlistData = [
             "terror"
         ],
         "challenge": "Remix \"Nornec - Confusion\"",
-        "streamUrl": "https://www.youtube.com/watch?v=GMbK3bWo8Ug",
+        "streamUrl": "https://www.youtube.com/watch?v=5DRN3Dr1xVQ",
         "tracks": [
             {
                 "trackNo": 1,
@@ -8745,7 +9574,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 356.7
+                "length": 356.68
             },
             {
                 "trackNo": 2,
@@ -8755,7 +9584,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.66
+                "length": 178.63
             },
             {
                 "trackNo": 3,
@@ -8765,7 +9594,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.05
+                "length": 180.02
             },
             {
                 "trackNo": 4,
@@ -8775,7 +9604,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.34
+                "length": 210.31
             },
             {
                 "trackNo": 5,
@@ -8785,7 +9614,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.95
+                "length": 240.93
             },
             {
                 "trackNo": 6,
@@ -8795,7 +9624,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 119.66
+                "length": 119.64
             },
             {
                 "trackNo": 7,
@@ -8805,7 +9634,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.29
+                "length": 216.27
             },
             {
                 "trackNo": 8,
@@ -8815,7 +9644,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.72
+                "length": 255.7
             },
             {
                 "trackNo": 9,
@@ -8825,7 +9654,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.34
+                "length": 238.32
             },
             {
                 "trackNo": 10,
@@ -8835,7 +9664,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.11
+                "length": 166.09
             },
             {
                 "trackNo": 11,
@@ -8845,7 +9674,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 312.06
+                "length": 312.03
             },
             {
                 "trackNo": 12,
@@ -8855,7 +9684,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.16
+                "length": 266.14
             },
             {
                 "trackNo": 13,
@@ -8865,7 +9694,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.49
+                "length": 250.46
             },
             {
                 "trackNo": 14,
@@ -8875,7 +9704,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.73
+                "length": 193.7
             },
             {
                 "trackNo": 15,
@@ -8885,7 +9714,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/hindsight?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=133dc6fa156043449c1bb72af17d858a",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.78
+                "length": 205.75
             },
             {
                 "trackNo": 16,
@@ -8895,7 +9724,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/aplutofficial/nornec-confusion-aplut-remixx",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.59
+                "length": 197.56
             },
             {
                 "trackNo": 17,
@@ -8905,7 +9734,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.86
+                "length": 253.83
             },
             {
                 "trackNo": 18,
@@ -8915,7 +9744,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 417.82
+                "length": 417.79
             },
             {
                 "trackNo": 19,
@@ -8925,7 +9754,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.03
             },
             {
                 "trackNo": 20,
@@ -8935,7 +9764,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.58
+                "length": 289.56
             },
             {
                 "trackNo": 21,
@@ -8945,7 +9774,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 267.24
+                "length": 267.22
             },
             {
                 "trackNo": 22,
@@ -8955,7 +9784,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.45
+                "length": 276.43
             },
             {
                 "trackNo": 23,
@@ -8965,7 +9794,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.06
+                "length": 120.03
             },
             {
                 "trackNo": 24,
@@ -8975,7 +9804,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.06
+                "length": 320.04
             },
             {
                 "trackNo": 25,
@@ -8985,7 +9814,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/confusion-ajb-remix-bandcamp-exclusive",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.25
+                "length": 241.22
             },
             {
                 "trackNo": 26,
@@ -8995,7 +9824,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.39
+                "length": 202.37
             },
             {
                 "trackNo": 27,
@@ -9005,7 +9834,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.1
+                "length": 178.08
             },
             {
                 "trackNo": 28,
@@ -9015,7 +9844,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 348.03
+                "length": 348.0
             },
             {
                 "trackNo": 29,
@@ -9025,7 +9854,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.06
+                "length": 170.03
             },
             {
                 "trackNo": 30,
@@ -9035,7 +9864,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.91
+                "length": 135.89
             },
             {
                 "trackNo": 31,
@@ -9045,7 +9874,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.47
+                "length": 220.45
             },
             {
                 "trackNo": 32,
@@ -9055,7 +9884,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.05
+                "length": 228.02
             },
             {
                 "trackNo": 33,
@@ -9065,7 +9894,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.47
+                "length": 252.45
             },
             {
                 "trackNo": 34,
@@ -9075,7 +9904,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.44
+                "length": 192.42
             },
             {
                 "trackNo": 35,
@@ -9085,7 +9914,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.41
+                "length": 156.38
             },
             {
                 "trackNo": 36,
@@ -9130,7 +9959,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.16
+                "length": 302.13
             },
             {
                 "trackNo": 2,
@@ -9140,7 +9969,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=ygTG0dG6_Ao",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.98
+                "length": 188.95
             },
             {
                 "trackNo": 3,
@@ -9150,7 +9979,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.53
+                "length": 282.5
             },
             {
                 "trackNo": 4,
@@ -9160,7 +9989,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 286.39
+                "length": 286.37
             },
             {
                 "trackNo": 5,
@@ -9170,7 +9999,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.06
+                "length": 252.03
             },
             {
                 "trackNo": 6,
@@ -9180,7 +10009,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/ruminate-on-change-of-state",
                 "optIn": false,
                 "canPlay": false,
-                "length": 286.1
+                "length": 286.08
             },
             {
                 "trackNo": 7,
@@ -9190,7 +10019,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.06
+                "length": 252.03
             },
             {
                 "trackNo": 8,
@@ -9200,7 +10029,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 112.2
+                "length": 112.17
             },
             {
                 "trackNo": 9,
@@ -9210,7 +10039,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.63
+                "length": 256.6
             },
             {
                 "trackNo": 10,
@@ -9220,7 +10049,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.25
+                "length": 122.23
             },
             {
                 "trackNo": 10,
@@ -9230,7 +10059,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.06
+                "length": 248.03
             },
             {
                 "trackNo": 11,
@@ -9240,7 +10069,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.76
+                "length": 164.74
             },
             {
                 "trackNo": 12,
@@ -9250,7 +10079,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.23
+                "length": 188.21
             },
             {
                 "trackNo": 13,
@@ -9260,7 +10089,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.48
+                "length": 190.46
             },
             {
                 "trackNo": 14,
@@ -9270,7 +10099,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.32
+                "length": 290.3
             },
             {
                 "trackNo": 15,
@@ -9280,7 +10109,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.91
+                "length": 126.89
             },
             {
                 "trackNo": 16,
@@ -9290,7 +10119,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.9
+                "length": 217.87
             },
             {
                 "trackNo": 17,
@@ -9300,7 +10129,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 151.64
+                "length": 151.61
             },
             {
                 "trackNo": 18,
@@ -9310,7 +10139,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.07
+                "length": 207.05
             },
             {
                 "trackNo": 19,
@@ -9320,7 +10149,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.11
+                "length": 89.09
             },
             {
                 "trackNo": 20,
@@ -9330,7 +10159,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.69
+                "length": 176.66
             },
             {
                 "trackNo": 21,
@@ -9340,7 +10169,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.89
+                "length": 89.86
             },
             {
                 "trackNo": 22,
@@ -9350,7 +10179,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.46
+                "length": 254.43
             },
             {
                 "trackNo": 23,
@@ -9360,7 +10189,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.76
+                "length": 156.73
             },
             {
                 "trackNo": 24,
@@ -9370,7 +10199,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.79
+                "length": 264.77
             },
             {
                 "trackNo": 25,
@@ -9380,7 +10209,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/production-hell",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.95
+                "length": 180.92
             },
             {
                 "trackNo": 26,
@@ -9390,7 +10219,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.73
+                "length": 210.7
             },
             {
                 "trackNo": 27,
@@ -9425,7 +10254,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.13
+                "length": 182.1
             },
             {
                 "trackNo": 2,
@@ -9435,7 +10264,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.43
+                "length": 180.4
             },
             {
                 "trackNo": 3,
@@ -9445,7 +10274,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=nUAz0bcPMUU",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.25
+                "length": 172.23
             },
             {
                 "trackNo": 4,
@@ -9455,7 +10284,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.2
+                "length": 190.18
             },
             {
                 "trackNo": 5,
@@ -9465,7 +10294,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.49
+                "length": 90.46
             },
             {
                 "trackNo": 6,
@@ -9475,7 +10304,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.05
+                "length": 225.02
             },
             {
                 "trackNo": 7,
@@ -9485,7 +10314,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 404.85
+                "length": 404.82
             },
             {
                 "trackNo": 8,
@@ -9495,7 +10324,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.59
+                "length": 225.57
             },
             {
                 "trackNo": 9,
@@ -9505,7 +10334,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.27
+                "length": 266.24
             },
             {
                 "trackNo": 10,
@@ -9515,7 +10344,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.27
+                "length": 269.24
             },
             {
                 "trackNo": 11,
@@ -9525,7 +10354,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.76
+                "length": 113.74
             },
             {
                 "trackNo": 12,
@@ -9535,7 +10364,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.99
+                "length": 260.96
             },
             {
                 "trackNo": 13,
@@ -9545,7 +10374,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.06
+                "length": 184.03
             },
             {
                 "trackNo": 14,
@@ -9555,7 +10384,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.33
+                "length": 179.3
             },
             {
                 "trackNo": 15,
@@ -9565,7 +10394,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.67
+                "length": 129.65
             },
             {
                 "trackNo": 16,
@@ -9575,7 +10404,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.29
+                "length": 295.26
             },
             {
                 "trackNo": 17,
@@ -9585,7 +10414,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.5
+                "length": 152.47
             },
             {
                 "trackNo": 18,
@@ -9595,7 +10424,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.58
+                "length": 198.56
             },
             {
                 "trackNo": 19,
@@ -9605,7 +10434,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.13
+                "length": 203.1
             },
             {
                 "trackNo": 20,
@@ -9615,7 +10444,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.39
+                "length": 232.36
             },
             {
                 "trackNo": 21,
@@ -9625,7 +10454,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.86
+                "length": 156.84
             },
             {
                 "trackNo": 22,
@@ -9635,7 +10464,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/uncrypting",
                 "optIn": false,
                 "canPlay": false,
-                "length": 242.69
+                "length": 242.66
             },
             {
                 "trackNo": 23,
@@ -9645,7 +10474,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/the-storm?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=91312ecd6574448d9e98103631021301",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.05
+                "length": 234.02
             },
             {
                 "trackNo": 24,
@@ -9655,7 +10484,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.06
+                "length": 220.03
             },
             {
                 "trackNo": 25,
@@ -9690,7 +10519,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 127.56
+                "length": 127.54
             },
             {
                 "trackNo": 2,
@@ -9700,7 +10529,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.19
+                "length": 282.17
             },
             {
                 "trackNo": 3,
@@ -9710,7 +10539,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.22
+                "length": 293.2
             },
             {
                 "trackNo": 4,
@@ -9720,7 +10549,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/youve-got-time?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=621225d8b8d747989c53c7922929ac85",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "length": 168.02
             },
             {
                 "trackNo": 5,
@@ -9730,7 +10559,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.92
+                "length": 259.89
             },
             {
                 "trackNo": 6,
@@ -9740,7 +10569,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.38
+                "length": 183.36
             },
             {
                 "trackNo": 7,
@@ -9750,7 +10579,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.17
+                "length": 180.14
             },
             {
                 "trackNo": 8,
@@ -9760,7 +10589,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=EHUWTIQNb3Q",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.88
+                "length": 289.85
             },
             {
                 "trackNo": 9,
@@ -9770,7 +10599,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.79
+                "length": 219.77
             },
             {
                 "trackNo": 10,
@@ -9780,7 +10609,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 301.01
+                "length": 300.98
             },
             {
                 "trackNo": 11,
@@ -9790,7 +10619,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.56
+                "length": 262.53
             },
             {
                 "trackNo": 12,
@@ -9800,7 +10629,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.64
+                "length": 260.62
             },
             {
                 "trackNo": 13,
@@ -9810,7 +10639,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/tortuosity",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.2
+                "length": 268.18
             },
             {
                 "trackNo": 14,
@@ -9820,7 +10649,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.22
+                "length": 186.19
             },
             {
                 "trackNo": 15,
@@ -9830,7 +10659,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.7
+                "length": 136.67
             },
             {
                 "trackNo": 16,
@@ -9840,7 +10669,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 339.44
+                "length": 339.41
             },
             {
                 "trackNo": 17,
@@ -9850,7 +10679,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.16
+                "length": 287.14
             },
             {
                 "trackNo": 18,
@@ -9860,7 +10689,7 @@ export const playlistData = [
                 "link": "https://zerolucksgiven.bandcamp.com/track/cant-come-home",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.06
+                "length": 316.03
             },
             {
                 "trackNo": 19,
@@ -9870,7 +10699,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.05
+                "length": 264.02
             },
             {
                 "trackNo": 20,
@@ -9880,7 +10709,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.44
+                "length": 171.42
             },
             {
                 "trackNo": 21,
@@ -9890,7 +10719,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.77
+                "length": 276.74
             },
             {
                 "trackNo": 22,
@@ -9900,7 +10729,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.85
+                "length": 253.82
             },
             {
                 "trackNo": 23,
@@ -9910,7 +10739,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.29
+                "length": 248.27
             },
             {
                 "trackNo": 24,
@@ -9920,7 +10749,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.38
+                "length": 236.35
             },
             {
                 "trackNo": 25,
@@ -9930,7 +10759,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 263.71
+                "length": 263.69
             },
             {
                 "trackNo": 26,
@@ -9940,7 +10769,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 148.09
+                "length": 148.06
             },
             {
                 "trackNo": 27,
@@ -9950,7 +10779,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.25
+                "length": 199.22
             },
             {
                 "trackNo": 28,
@@ -9960,7 +10789,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.48
+                "length": 156.46
             },
             {
                 "trackNo": 29,
@@ -9970,7 +10799,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.39
+                "length": 193.37
             },
             {
                 "trackNo": 30,
@@ -10005,7 +10834,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 97.59
+                "length": 97.57
             },
             {
                 "trackNo": 2,
@@ -10015,7 +10844,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 305.01
+                "length": 304.98
             },
             {
                 "trackNo": 3,
@@ -10025,7 +10854,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 60.87
+                "length": 60.84
             },
             {
                 "trackNo": 4,
@@ -10035,7 +10864,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.33
+                "length": 247.3
             },
             {
                 "trackNo": 5,
@@ -10045,7 +10874,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.44
+                "length": 130.42
             },
             {
                 "trackNo": 6,
@@ -10055,7 +10884,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.94
+                "length": 252.92
             },
             {
                 "trackNo": 7,
@@ -10065,7 +10894,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.66
+                "length": 219.64
             },
             {
                 "trackNo": 8,
@@ -10075,7 +10904,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.85
+                "length": 219.82
             },
             {
                 "trackNo": 9,
@@ -10085,7 +10914,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/downwind/s-bIlWqM8cB7K?si=b659428dfe79429cb0ef304467d2a14e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.57
+                "length": 192.55
             },
             {
                 "trackNo": 10,
@@ -10095,7 +10924,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/it-was-an-accident?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=be1045be727c41e79e8c89937f676bd4",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.47
+                "length": 218.45
             },
             {
                 "trackNo": 11,
@@ -10105,7 +10934,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.06
+                "length": 188.03
             },
             {
                 "trackNo": 12,
@@ -10115,7 +10944,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.05
+                "length": 135.02
             },
             {
                 "trackNo": 13,
@@ -10125,7 +10954,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/two-against-all-odds",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.1
+                "length": 288.07
             },
             {
                 "trackNo": 14,
@@ -10135,7 +10964,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.26
+                "length": 225.24
             },
             {
                 "trackNo": 15,
@@ -10145,7 +10974,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 326.69
+                "length": 326.66
             },
             {
                 "trackNo": 16,
@@ -10155,7 +10984,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 75.08
+                "length": 75.05
             },
             {
                 "trackNo": 17,
@@ -10165,7 +10994,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=AWqv-ZqZt90",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.95
+                "length": 298.92
             },
             {
                 "trackNo": 18,
@@ -10175,7 +11004,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.4
+                "length": 221.38
             },
             {
                 "trackNo": 19,
@@ -10185,7 +11014,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.06
+                "length": 257.04
             },
             {
                 "trackNo": 20,
@@ -10195,7 +11024,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.05
+                "length": 240.02
             },
             {
                 "trackNo": 21,
@@ -10205,7 +11034,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.8
+                "length": 275.77
             },
             {
                 "trackNo": 22,
@@ -10215,7 +11044,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 100.22
+                "length": 100.2
             },
             {
                 "trackNo": 23,
@@ -10225,7 +11054,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.06
+                "length": 272.04
             },
             {
                 "trackNo": 24,
@@ -10235,7 +11064,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.05
+                "length": 320.03
             },
             {
                 "trackNo": 25,
@@ -10245,7 +11074,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.36
+                "length": 195.34
             },
             {
                 "trackNo": 26,
@@ -10255,7 +11084,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.18
+                "length": 168.15
             },
             {
                 "trackNo": 27,
@@ -10265,7 +11094,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.36
+                "length": 240.34
             }
         ]
     },
@@ -10290,7 +11119,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.81
+                "length": 199.78
             },
             {
                 "trackNo": 2,
@@ -10300,7 +11129,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.05
+                "length": 180.02
             },
             {
                 "trackNo": 3,
@@ -10310,7 +11139,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.33
+                "length": 302.3
             },
             {
                 "trackNo": 4,
@@ -10320,7 +11149,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 330.05
+                "length": 330.02
             },
             {
                 "trackNo": 5,
@@ -10330,7 +11159,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.43
+                "length": 204.41
             },
             {
                 "trackNo": 6,
@@ -10340,7 +11169,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.07
+                "length": 197.04
             },
             {
                 "trackNo": 7,
@@ -10350,7 +11179,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.09
+                "length": 173.06
             },
             {
                 "trackNo": 8,
@@ -10360,7 +11189,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 123.05
+                "length": 123.02
             },
             {
                 "trackNo": 9,
@@ -10370,7 +11199,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.56
+                "length": 293.54
             },
             {
                 "trackNo": 10,
@@ -10380,7 +11209,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.1
+                "length": 243.07
             },
             {
                 "trackNo": 11,
@@ -10390,7 +11219,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 78.65
+                "length": 78.63
             },
             {
                 "trackNo": 12,
@@ -10400,7 +11229,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.05
+                "length": 300.02
             },
             {
                 "trackNo": 13,
@@ -10410,7 +11239,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.46
+                "length": 297.43
             },
             {
                 "trackNo": 14,
@@ -10420,7 +11249,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.71
+                "length": 197.69
             },
             {
                 "trackNo": 15,
@@ -10430,7 +11259,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 390.3
+                "length": 390.27
             },
             {
                 "trackNo": 16,
@@ -10440,7 +11269,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.45
+                "length": 198.43
             },
             {
                 "trackNo": 17,
@@ -10450,7 +11279,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.06
+                "length": 302.04
             },
             {
                 "trackNo": 18,
@@ -10460,7 +11289,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.62
+                "length": 232.59
             },
             {
                 "trackNo": 19,
@@ -10470,7 +11299,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.41
+                "length": 190.38
             },
             {
                 "trackNo": 20,
@@ -10480,7 +11309,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.45
+                "length": 251.42
             },
             {
                 "trackNo": 21,
@@ -10490,7 +11319,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 410.09
+                "length": 410.06
             },
             {
                 "trackNo": 22,
@@ -10500,7 +11329,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.85
+                "length": 236.83
             },
             {
                 "trackNo": 23,
@@ -10510,7 +11339,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.5
+                "length": 188.47
             },
             {
                 "trackNo": 24,
@@ -10520,7 +11349,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 125.59
+                "length": 125.57
             },
             {
                 "trackNo": 25,
@@ -10530,7 +11359,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 314.23
+                "length": 314.21
             },
             {
                 "trackNo": 26,
@@ -10540,7 +11369,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.22
+                "length": 295.2
             },
             {
                 "trackNo": 27,
@@ -10550,7 +11379,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=tcF04YLzY88",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.07
+                "length": 200.05
             },
             {
                 "trackNo": 28,
@@ -10560,7 +11389,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 161.04
+                "length": 161.02
             }
         ]
     },
@@ -10585,7 +11414,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.77
+                "length": 144.74
             },
             {
                 "trackNo": 2,
@@ -10595,7 +11424,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/turbulence",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.22
+                "length": 252.19
             },
             {
                 "trackNo": 3,
@@ -10605,7 +11434,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.35
+                "length": 141.32
             },
             {
                 "trackNo": 4,
@@ -10615,7 +11444,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.78
+                "length": 248.76
             },
             {
                 "trackNo": 5,
@@ -10625,7 +11454,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.06
+                "length": 176.04
             },
             {
                 "trackNo": 6,
@@ -10635,7 +11464,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.08
+                "length": 220.06
             },
             {
                 "trackNo": 7,
@@ -10645,7 +11474,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.15
+                "length": 90.12
             },
             {
                 "trackNo": 8,
@@ -10655,7 +11484,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.84
+                "length": 195.82
             },
             {
                 "trackNo": 9,
@@ -10665,7 +11494,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=B_tSMjWVkw8",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.07
+                "length": 236.04
             },
             {
                 "trackNo": 10,
@@ -10675,7 +11504,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.01
+                "length": 234.98
             },
             {
                 "trackNo": 11,
@@ -10685,7 +11514,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.34
+                "length": 196.31
             },
             {
                 "trackNo": 12,
@@ -10695,7 +11524,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.78
+                "length": 248.76
             },
             {
                 "trackNo": 13,
@@ -10705,7 +11534,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.33
+                "length": 218.3
             },
             {
                 "trackNo": 14,
@@ -10715,7 +11544,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/jabby?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=908b74df09284dd4aa1fd642e4e4c78f",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.06
+                "length": 152.04
             },
             {
                 "trackNo": 15,
@@ -10725,7 +11554,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.98
+                "length": 206.95
             },
             {
                 "trackNo": 16,
@@ -10735,7 +11564,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.66
+                "length": 253.63
             },
             {
                 "trackNo": 17,
@@ -10745,7 +11574,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.72
+                "length": 162.69
             },
             {
                 "trackNo": 18,
@@ -10755,7 +11584,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.47
+                "length": 224.44
             },
             {
                 "trackNo": 19,
@@ -10765,7 +11594,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.14
+                "length": 265.12
             },
             {
                 "trackNo": 20,
@@ -10800,7 +11629,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.26
+                "length": 160.24
             },
             {
                 "trackNo": 2,
@@ -10810,7 +11639,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.56
+                "length": 194.53
             },
             {
                 "trackNo": 3,
@@ -10820,7 +11649,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/penultimate",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.27
+                "length": 289.25
             },
             {
                 "trackNo": 4,
@@ -10830,7 +11659,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.71
+                "length": 245.69
             },
             {
                 "trackNo": 5,
@@ -10840,7 +11669,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.44
+                "length": 89.42
             },
             {
                 "trackNo": 6,
@@ -10850,7 +11679,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.82
+                "length": 162.8
             },
             {
                 "trackNo": 7,
@@ -10860,7 +11689,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.05
+                "length": 234.02
             },
             {
                 "trackNo": 8,
@@ -10870,7 +11699,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.51
+                "length": 322.48
             },
             {
                 "trackNo": 9,
@@ -10880,7 +11709,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.9
+                "length": 133.88
             },
             {
                 "trackNo": 10,
@@ -10890,7 +11719,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.59
+                "length": 222.56
             },
             {
                 "trackNo": 11,
@@ -10900,7 +11729,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.57
+                "length": 203.54
             },
             {
                 "trackNo": 12,
@@ -10910,7 +11739,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 131.26
+                "length": 131.23
             },
             {
                 "trackNo": 13,
@@ -10920,7 +11749,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 378.31
+                "length": 378.28
             },
             {
                 "trackNo": 14,
@@ -10930,7 +11759,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=iCObgxXh8hg",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.01
+                "length": 272.98
             },
             {
                 "trackNo": 15,
@@ -10940,7 +11769,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.12
+                "length": 279.09
             },
             {
                 "trackNo": 16,
@@ -10950,7 +11779,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.11
+                "length": 269.09
             },
             {
                 "trackNo": 17,
@@ -10960,7 +11789,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.05
+                "length": 240.02
             },
             {
                 "trackNo": 18,
@@ -10970,7 +11799,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.21
+                "length": 206.18
             },
             {
                 "trackNo": 19,
@@ -10980,7 +11809,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.35
+                "length": 159.32
             },
             {
                 "trackNo": 20,
@@ -10990,7 +11819,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.68
+                "length": 241.66
             },
             {
                 "trackNo": 21,
@@ -11000,7 +11829,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.31
+                "length": 306.29
             },
             {
                 "trackNo": 22,
@@ -11010,7 +11839,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.19
+                "length": 219.17
             },
             {
                 "trackNo": 23,
@@ -11020,7 +11849,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/a-new-day?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=f808809e623143d49b0c3034402eab2a",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.56
+                "length": 187.54
             },
             {
                 "trackNo": 24,
@@ -11030,7 +11859,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.34
+                "length": 207.31
             },
             {
                 "trackNo": 25,
@@ -11040,7 +11869,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.05
+                "length": 120.02
             },
             {
                 "trackNo": 26,
@@ -11050,7 +11879,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.87
+                "length": 295.85
             },
             {
                 "trackNo": 27,
@@ -11060,7 +11889,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.61
+                "length": 251.59
             },
             {
                 "trackNo": 28,
@@ -11070,7 +11899,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.06
+                "length": 136.03
             },
             {
                 "trackNo": 29,
@@ -11080,7 +11909,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.38
+                "length": 231.36
             },
             {
                 "trackNo": 30,
@@ -11090,7 +11919,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.69
+                "length": 170.66
             },
             {
                 "trackNo": 31,
@@ -11100,7 +11929,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.69
+                "length": 208.67
             },
             {
                 "trackNo": 32,
@@ -11110,7 +11939,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.06
+                "length": 206.04
             },
             {
                 "trackNo": 33,
@@ -11120,7 +11949,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.08
+                "length": 196.05
             },
             {
                 "trackNo": 34,
@@ -11130,7 +11959,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.05
+                "length": 216.02
             },
             {
                 "trackNo": 35,
@@ -11165,7 +11994,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 115.13
+                "length": 115.1
             },
             {
                 "trackNo": 2,
@@ -11175,7 +12004,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.27
+                "length": 196.25
             },
             {
                 "trackNo": 3,
@@ -11185,7 +12014,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 211.82
+                "length": 211.8
             },
             {
                 "trackNo": 4,
@@ -11195,7 +12024,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.77
+                "length": 207.74
             },
             {
                 "trackNo": 5,
@@ -11205,7 +12034,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/man-in-the-garden?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=0dab613def69446a8a515296a8bbefcf",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.07
+                "length": 168.05
             },
             {
                 "trackNo": 6,
@@ -11215,7 +12044,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/octachoron",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.5
+                "length": 255.48
             },
             {
                 "trackNo": 7,
@@ -11225,7 +12054,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.27
+                "length": 235.25
             },
             {
                 "trackNo": 8,
@@ -11235,7 +12064,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.36
+                "length": 164.34
             },
             {
                 "trackNo": 9,
@@ -11245,7 +12074,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.42
+                "length": 160.39
             },
             {
                 "trackNo": 10,
@@ -11255,7 +12084,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.67
+                "length": 175.65
             },
             {
                 "trackNo": 11,
@@ -11265,7 +12094,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=4GR2szFiloI",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.53
+                "length": 216.5
             },
             {
                 "trackNo": 12,
@@ -11275,7 +12104,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 428.38
+                "length": 428.36
             },
             {
                 "trackNo": 13,
@@ -11285,7 +12114,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.49
+                "length": 143.46
             },
             {
                 "trackNo": 14,
@@ -11295,7 +12124,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.17
+                "length": 133.15
             },
             {
                 "trackNo": 15,
@@ -11305,7 +12134,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.35
+                "length": 293.33
             },
             {
                 "trackNo": 16,
@@ -11315,7 +12144,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 98.71
+                "length": 98.69
             },
             {
                 "trackNo": 17,
@@ -11325,7 +12154,7 @@ export const playlistData = [
                 "link": "https://youtu.be/d3_tR9gM1JE",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.49
+                "length": 200.46
             },
             {
                 "trackNo": 18,
@@ -11335,7 +12164,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.82
+                "length": 244.79
             },
             {
                 "trackNo": 19,
@@ -11345,7 +12174,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.07
+                "length": 229.04
             },
             {
                 "trackNo": 20,
@@ -11355,7 +12184,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.06
+                "length": 320.04
             },
             {
                 "trackNo": 21,
@@ -11365,7 +12194,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 42.76
+                "length": 42.74
             },
             {
                 "trackNo": 22,
@@ -11375,7 +12204,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.37
+                "length": 198.35
             },
             {
                 "trackNo": 23,
@@ -11385,7 +12214,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 140.21
+                "length": 140.18
             },
             {
                 "trackNo": 24,
@@ -11395,7 +12224,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.06
+                "length": 182.04
             },
             {
                 "trackNo": 25,
@@ -11405,7 +12234,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.03
             },
             {
                 "trackNo": 26,
@@ -11415,7 +12244,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.06
+                "length": 256.03
             },
             {
                 "trackNo": 27,
@@ -11425,7 +12254,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 118.94
+                "length": 118.92
             },
             {
                 "trackNo": 28,
@@ -11445,7 +12274,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 349.0
+                "length": 348.97
             }
         ]
     },
@@ -11470,7 +12299,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.73
+                "length": 271.7
             },
             {
                 "trackNo": 2,
@@ -11480,7 +12309,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.74
+                "length": 287.71
             },
             {
                 "trackNo": 3,
@@ -11490,7 +12319,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.87
+                "length": 274.85
             },
             {
                 "trackNo": 4,
@@ -11500,7 +12329,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.43
+                "length": 204.41
             },
             {
                 "trackNo": 5,
@@ -11510,7 +12339,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 82.34
+                "length": 82.31
             },
             {
                 "trackNo": 6,
@@ -11520,7 +12349,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 167.6
+                "length": 167.58
             },
             {
                 "trackNo": 7,
@@ -11530,7 +12359,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.88
+                "length": 269.86
             },
             {
                 "trackNo": 8,
@@ -11540,7 +12369,7 @@ export const playlistData = [
                 "link": "https://catharticreunion.bandcamp.com/track/resigned",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.08
+                "length": 249.05
             },
             {
                 "trackNo": 9,
@@ -11550,7 +12379,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.57
+                "length": 249.55
             },
             {
                 "trackNo": 10,
@@ -11560,7 +12389,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/dust-to-dust",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.05
+                "length": 216.02
             },
             {
                 "trackNo": 11,
@@ -11570,7 +12399,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/beek",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.07
+                "length": 144.04
             },
             {
                 "trackNo": 12,
@@ -11580,7 +12409,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/multimodality",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.67
+                "length": 279.65
             },
             {
                 "trackNo": 13,
@@ -11590,7 +12419,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.66
+                "length": 227.63
             },
             {
                 "trackNo": 14,
@@ -11600,7 +12429,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.85
+                "length": 154.82
             },
             {
                 "trackNo": 15,
@@ -11610,7 +12439,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.06
+                "length": 295.03
             },
             {
                 "trackNo": 16,
@@ -11620,7 +12449,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 308.64
+                "length": 308.62
             },
             {
                 "trackNo": 17,
@@ -11630,7 +12459,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.85
+                "length": 204.83
             },
             {
                 "trackNo": 18,
@@ -11640,7 +12469,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.91
+                "length": 285.89
             },
             {
                 "trackNo": 19,
@@ -11650,7 +12479,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.59
+                "length": 154.57
             },
             {
                 "trackNo": 20,
@@ -11660,7 +12489,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.74
+                "length": 299.71
             },
             {
                 "trackNo": 21,
@@ -11670,7 +12499,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=vxvwMaGtwZY",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.96
+                "length": 258.94
             },
             {
                 "trackNo": 22,
@@ -11680,7 +12509,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.6
+                "length": 198.58
             },
             {
                 "trackNo": 23,
@@ -11690,7 +12519,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.06
+                "length": 156.03
             },
             {
                 "trackNo": 24,
@@ -11700,7 +12529,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.03
+                "length": 268.01
             },
             {
                 "trackNo": 25,
@@ -11710,7 +12539,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.34
+                "length": 159.31
             },
             {
                 "trackNo": 26,
@@ -11720,7 +12549,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.95
+                "length": 212.92
             },
             {
                 "trackNo": 27,
@@ -11730,7 +12559,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.3
+                "length": 190.28
             },
             {
                 "trackNo": 28,
@@ -11740,7 +12569,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.45
+                "length": 316.42
             },
             {
                 "trackNo": 29,
@@ -11750,7 +12579,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 538.7
+                "length": 538.67
             }
         ]
     },
@@ -11775,7 +12604,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 434.86
+                "length": 434.83
             },
             {
                 "trackNo": 2,
@@ -11785,7 +12614,7 @@ export const playlistData = [
                 "link": "https://catharticreunion.bandcamp.com/track/the-flashbulb-frozen-trajectory-remix",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.93
+                "length": 243.91
             },
             {
                 "trackNo": 3,
@@ -11795,7 +12624,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 70.97
+                "length": 70.94
             },
             {
                 "trackNo": 4,
@@ -11805,7 +12634,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/frozen-trajectory-ajb-remix",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.89
+                "length": 216.86
             },
             {
                 "trackNo": 5,
@@ -11815,7 +12644,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/frozen-trajectory-skitter-flip",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.06
+                "length": 195.03
             },
             {
                 "trackNo": 6,
@@ -11825,7 +12654,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.93
+                "length": 183.9
             },
             {
                 "trackNo": 7,
@@ -11835,7 +12664,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.55
+                "length": 259.53
             },
             {
                 "trackNo": 8,
@@ -11845,7 +12674,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.58
+                "length": 116.56
             },
             {
                 "trackNo": 9,
@@ -11855,7 +12684,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.63
+                "length": 223.61
             },
             {
                 "trackNo": 10,
@@ -11865,7 +12694,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.53
+                "length": 173.51
             },
             {
                 "trackNo": 11,
@@ -11875,7 +12704,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/stasis",
                 "optIn": false,
                 "canPlay": false,
-                "length": 201.84
+                "length": 201.82
             },
             {
                 "trackNo": 12,
@@ -11885,7 +12714,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 242.26
+                "length": 242.23
             },
             {
                 "trackNo": 13,
@@ -11895,7 +12724,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 151.98
+                "length": 151.95
             },
             {
                 "trackNo": 14,
@@ -11905,7 +12734,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.18
+                "length": 235.15
             },
             {
                 "trackNo": 15,
@@ -11915,7 +12744,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.01
+                "length": 204.98
             },
             {
                 "trackNo": 16,
@@ -11925,7 +12754,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.07
+                "length": 236.04
             },
             {
                 "trackNo": 17,
@@ -11935,7 +12764,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.07
+                "length": 183.04
             },
             {
                 "trackNo": 18,
@@ -11945,7 +12774,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.08
+                "length": 292.05
             },
             {
                 "trackNo": 19,
@@ -11955,7 +12784,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.9
+                "length": 244.87
             },
             {
                 "trackNo": 20,
@@ -11965,7 +12794,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 163.61
+                "length": 163.58
             },
             {
                 "trackNo": 21,
@@ -11975,7 +12804,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 280.06
+                "length": 280.03
             },
             {
                 "trackNo": 22,
@@ -11985,7 +12814,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.89
+                "length": 141.86
             },
             {
                 "trackNo": 23,
@@ -11995,7 +12824,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.68
+                "length": 185.65
             },
             {
                 "trackNo": 24,
@@ -12005,7 +12834,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.2
+                "length": 218.17
             },
             {
                 "trackNo": 25,
@@ -12015,7 +12844,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.9
+                "length": 154.87
             },
             {
                 "trackNo": 26,
@@ -12025,7 +12854,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.81
+                "length": 206.78
             },
             {
                 "trackNo": 27,
@@ -12035,7 +12864,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 368.77
+                "length": 368.74
             },
             {
                 "trackNo": 28,
@@ -12045,7 +12874,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 158.06
+                "length": 158.04
             },
             {
                 "trackNo": 29,
@@ -12055,7 +12884,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 149.57
+                "length": 149.54
             },
             {
                 "trackNo": 30,
@@ -12065,7 +12894,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.26
+                "length": 218.23
             },
             {
                 "trackNo": 31,
@@ -12075,7 +12904,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 324.26
+                "length": 324.24
             },
             {
                 "trackNo": 32,
@@ -12085,7 +12914,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 139.52
+                "length": 139.49
             },
             {
                 "trackNo": 33,
@@ -12095,7 +12924,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=2p0-eVzSmy0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.7
+                "length": 262.68
             }
         ]
     },
@@ -12120,7 +12949,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/the-button",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.05
+                "length": 282.02
             },
             {
                 "trackNo": 2,
@@ -12130,7 +12959,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.94
+                "length": 153.91
             },
             {
                 "trackNo": 3,
@@ -12140,7 +12969,7 @@ export const playlistData = [
                 "link": "https://youtu.be/8IKhjcALHd8",
                 "optIn": false,
                 "canPlay": false,
-                "length": 124.97
+                "length": 124.94
             },
             {
                 "trackNo": 4,
@@ -12150,7 +12979,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/collateral?si=db5293cfa4ba476bbb9aa45f041077aa&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.92
+                "length": 251.9
             },
             {
                 "trackNo": 5,
@@ -12160,7 +12989,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.78
+                "length": 259.75
             },
             {
                 "trackNo": 6,
@@ -12170,7 +12999,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.95
+                "length": 194.93
             },
             {
                 "trackNo": 7,
@@ -12180,7 +13009,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/end-of-an-era",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.46
+                "length": 154.44
             },
             {
                 "trackNo": 8,
@@ -12190,7 +13019,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.25
+                "length": 199.22
             },
             {
                 "trackNo": 9,
@@ -12200,7 +13029,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.21
+                "length": 185.18
             },
             {
                 "trackNo": 10,
@@ -12210,7 +13039,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.77
+                "length": 300.75
             },
             {
                 "trackNo": 11,
@@ -12220,7 +13049,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 48.05
+                "length": 48.02
             },
             {
                 "trackNo": 12,
@@ -12230,7 +13059,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.31
+                "length": 255.29
             },
             {
                 "trackNo": 13,
@@ -12240,7 +13069,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 394.81
+                "length": 394.79
             },
             {
                 "trackNo": 14,
@@ -12250,7 +13079,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.13
+                "length": 135.11
             },
             {
                 "trackNo": 15,
@@ -12260,7 +13089,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.98
+                "length": 204.96
             },
             {
                 "trackNo": 16,
@@ -12270,7 +13099,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.7
+                "length": 203.68
             },
             {
                 "trackNo": 17,
@@ -12280,7 +13109,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.54
+                "length": 178.51
             },
             {
                 "trackNo": 18,
@@ -12290,7 +13119,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.8
+                "length": 271.78
             },
             {
                 "trackNo": 19,
@@ -12300,7 +13129,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.07
+                "length": 168.05
             },
             {
                 "trackNo": 20,
@@ -12310,7 +13139,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.05
+                "length": 180.02
             },
             {
                 "trackNo": 21,
@@ -12320,7 +13149,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.08
+                "length": 210.05
             },
             {
                 "trackNo": 22,
@@ -12330,7 +13159,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 548.13
+                "length": 548.1
             },
             {
                 "trackNo": 23,
@@ -12340,7 +13169,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.81
+                "length": 213.79
             },
             {
                 "trackNo": 24,
@@ -12350,7 +13179,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.06
+                "length": 244.03
             },
             {
                 "trackNo": 25,
@@ -12360,7 +13189,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.76
+                "length": 191.74
             },
             {
                 "trackNo": 26,
@@ -12370,7 +13199,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.12
+                "length": 229.09
             },
             {
                 "trackNo": 27,
@@ -12380,7 +13209,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 345.29
+                "length": 345.26
             },
             {
                 "trackNo": 28,
@@ -12390,7 +13219,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.82
+                "length": 141.79
             },
             {
                 "trackNo": 29,
@@ -12400,7 +13229,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/questline",
                 "optIn": false,
                 "canPlay": false,
-                "length": 321.94
+                "length": 321.91
             },
             {
                 "trackNo": 30,
@@ -12410,7 +13239,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=UHOCFJQ_v9M",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.67
+                "length": 219.65
             },
             {
                 "trackNo": 31,
@@ -12420,7 +13249,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.14
+                "length": 177.11
             },
             {
                 "trackNo": 32,
@@ -12430,7 +13259,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.06
+                "length": 180.04
             },
             {
                 "trackNo": 33,
@@ -12440,7 +13269,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 363.99
+                "length": 363.96
             }
         ]
     },
@@ -12465,7 +13294,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.17
+                "length": 231.14
             },
             {
                 "trackNo": 2,
@@ -12475,7 +13304,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/lmno-project/coyote-summoning",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.65
+                "length": 153.63
             },
             {
                 "trackNo": 3,
@@ -12485,7 +13314,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/nova",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.74
+                "length": 230.71
             },
             {
                 "trackNo": 4,
@@ -12495,7 +13324,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.9
+                "length": 235.87
             },
             {
                 "trackNo": 5,
@@ -12505,7 +13334,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/pipe-dream",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.22
+                "length": 250.2
             },
             {
                 "trackNo": 6,
@@ -12515,7 +13344,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 328.07
+                "length": 328.05
             },
             {
                 "trackNo": 7,
@@ -12525,7 +13354,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 423.65
+                "length": 423.63
             },
             {
                 "trackNo": 8,
@@ -12535,7 +13364,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.7
+                "length": 283.68
             },
             {
                 "trackNo": 9,
@@ -12545,7 +13374,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/outlast-the-relentless-sun?si=8eb1dce8b8334adba51357c03f22c6f2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.66
+                "length": 234.63
             },
             {
                 "trackNo": 10,
@@ -12564,7 +13393,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.18
+                "length": 224.16
             },
             {
                 "trackNo": 12,
@@ -12574,7 +13403,7 @@ export const playlistData = [
                 "link": "https://catharticreunion.bandcamp.com/track/wish-i-was-an-ancient",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.06
+                "length": 191.03
             },
             {
                 "trackNo": 13,
@@ -12584,7 +13413,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.05
+                "length": 120.02
             },
             {
                 "trackNo": 14,
@@ -12594,7 +13423,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.05
+                "length": 240.02
             },
             {
                 "trackNo": 15,
@@ -12604,7 +13433,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.12
+                "length": 169.09
             },
             {
                 "trackNo": 16,
@@ -12614,7 +13443,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.87
+                "length": 256.85
             },
             {
                 "trackNo": 17,
@@ -12624,7 +13453,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.1
+                "length": 175.08
             },
             {
                 "trackNo": 18,
@@ -12634,7 +13463,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.06
+                "length": 166.03
             },
             {
                 "trackNo": 19,
@@ -12644,7 +13473,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.05
+                "length": 273.02
             },
             {
                 "trackNo": 20,
@@ -12654,7 +13483,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 115.06
+                "length": 115.03
             },
             {
                 "trackNo": 21,
@@ -12664,7 +13493,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.06
+                "length": 256.03
             },
             {
                 "trackNo": 22,
@@ -12674,7 +13503,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.36
+                "length": 171.34
             },
             {
                 "trackNo": 23,
@@ -12684,7 +13513,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.15
+                "length": 196.13
             },
             {
                 "trackNo": 24,
@@ -12694,7 +13523,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.14
+                "length": 282.12
             },
             {
                 "trackNo": 25,
@@ -12704,7 +13533,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.62
+                "length": 179.59
             },
             {
                 "trackNo": 26,
@@ -12714,7 +13543,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.66
+                "length": 241.63
             },
             {
                 "trackNo": 27,
@@ -12733,7 +13562,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/solar-wax",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.7
+                "length": 264.67
             },
             {
                 "trackNo": 29,
@@ -12743,7 +13572,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=KmvtYHgCsfo",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.57
+                "length": 194.54
             },
             {
                 "trackNo": 30,
@@ -12753,7 +13582,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.08
+                "length": 164.05
             },
             {
                 "trackNo": 31,
@@ -12763,7 +13592,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.22
+                "length": 244.19
             },
             {
                 "trackNo": 32,
@@ -12773,7 +13602,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.08
+                "length": 199.06
             },
             {
                 "trackNo": 33,
@@ -12783,7 +13612,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.05
+                "length": 144.02
             },
             {
                 "trackNo": 34,
@@ -12793,7 +13622,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 345.08
+                "length": 345.05
             },
             {
                 "trackNo": 35,
@@ -12803,7 +13632,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.02
             },
             {
                 "trackNo": 36,
@@ -12813,7 +13642,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.4
+                "length": 258.38
             },
             {
                 "trackNo": 37,
@@ -12833,7 +13662,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.18
+                "length": 302.16
             }
         ]
     },
@@ -12858,7 +13687,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.59
+                "length": 218.57
             },
             {
                 "trackNo": 2,
@@ -12868,7 +13697,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/lmno-project/squeeze",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.93
+                "length": 144.9
             },
             {
                 "trackNo": 3,
@@ -12878,7 +13707,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 284.06
+                "length": 284.03
             },
             {
                 "trackNo": 4,
@@ -12888,7 +13717,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.19
+                "length": 159.17
             },
             {
                 "trackNo": 5,
@@ -12898,7 +13727,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.03
+                "length": 256.0
             },
             {
                 "trackNo": 6,
@@ -12908,7 +13737,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/escape",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.29
+                "length": 210.26
             },
             {
                 "trackNo": 7,
@@ -12918,7 +13747,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.06
+                "length": 215.04
             },
             {
                 "trackNo": 8,
@@ -12928,7 +13757,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.43
+                "length": 194.4
             },
             {
                 "trackNo": 9,
@@ -12938,7 +13767,7 @@ export const playlistData = [
                 "link": "https://catharticreunion.bandcamp.com/track/check-the-tape",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.74
+                "length": 287.71
             },
             {
                 "trackNo": 10,
@@ -12948,7 +13777,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.05
+                "length": 252.02
             },
             {
                 "trackNo": 11,
@@ -12958,7 +13787,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.7
+                "length": 175.68
             },
             {
                 "trackNo": 12,
@@ -12968,7 +13797,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 263.0
+                "length": 262.97
             },
             {
                 "trackNo": 13,
@@ -12978,7 +13807,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "length": 192.02
             },
             {
                 "trackNo": 14,
@@ -12988,7 +13817,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.93
+                "length": 162.9
             },
             {
                 "trackNo": 15,
@@ -12998,7 +13827,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/language-games",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.46
+                "length": 176.43
             },
             {
                 "trackNo": 16,
@@ -13008,7 +13837,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.09
+                "length": 251.06
             },
             {
                 "trackNo": 17,
@@ -13018,7 +13847,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 226.19
+                "length": 226.17
             },
             {
                 "trackNo": 18,
@@ -13028,7 +13857,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.39
+                "length": 199.37
             },
             {
                 "trackNo": 19,
@@ -13038,7 +13867,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.06
+                "length": 178.03
             },
             {
                 "trackNo": 20,
@@ -13048,7 +13877,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.22
+                "length": 88.2
             },
             {
                 "trackNo": 21,
@@ -13058,7 +13887,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.56
+                "length": 271.54
             },
             {
                 "trackNo": 22,
@@ -13068,7 +13897,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.78
+                "length": 181.75
             },
             {
                 "trackNo": 23,
@@ -13078,7 +13907,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/no-more-days-like-this",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.5
+                "length": 177.48
             },
             {
                 "trackNo": 24,
@@ -13088,7 +13917,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 455.39
+                "length": 455.37
             },
             {
                 "trackNo": 25,
@@ -13098,7 +13927,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.06
+                "length": 92.04
             },
             {
                 "trackNo": 26,
@@ -13108,7 +13937,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.98
+                "length": 254.96
             },
             {
                 "trackNo": 27,
@@ -13118,7 +13947,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/unplugged-plugins",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.64
+                "length": 290.62
             },
             {
                 "trackNo": 28,
@@ -13128,7 +13957,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.82
+                "length": 244.79
             },
             {
                 "trackNo": 29,
@@ -13138,7 +13967,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.6
+                "length": 217.57
             },
             {
                 "trackNo": 30,
@@ -13148,7 +13977,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 305.74
+                "length": 305.71
             },
             {
                 "trackNo": 31,
@@ -13158,7 +13987,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.95
+                "length": 113.92
             },
             {
                 "trackNo": 32,
@@ -13168,7 +13997,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.67
+                "length": 197.64
             },
             {
                 "trackNo": 33,
@@ -13213,7 +14042,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 491.36
+                "length": 491.34
             },
             {
                 "trackNo": 2,
@@ -13223,7 +14052,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.16
+                "length": 197.14
             },
             {
                 "trackNo": 3,
@@ -13233,7 +14062,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.5
+                "length": 135.47
             },
             {
                 "trackNo": 4,
@@ -13243,7 +14072,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.71
+                "length": 245.69
             },
             {
                 "trackNo": 5,
@@ -13253,7 +14082,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/the_infra/zero-sum?si=421677e0c7a548089c741197746f51f8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.37
+                "length": 259.34
             },
             {
                 "trackNo": 6,
@@ -13263,7 +14092,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.3
+                "length": 229.27
             },
             {
                 "trackNo": 7,
@@ -13273,7 +14102,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 393.38
+                "length": 393.35
             },
             {
                 "trackNo": 8,
@@ -13283,7 +14112,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.41
+                "length": 190.38
             },
             {
                 "trackNo": 9,
@@ -13293,7 +14122,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 328.91
+                "length": 328.88
             },
             {
                 "trackNo": 10,
@@ -13303,7 +14132,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.04
+                "length": 169.01
             },
             {
                 "trackNo": 11,
@@ -13313,7 +14142,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.12
+                "length": 129.1
             },
             {
                 "trackNo": 12,
@@ -13323,7 +14152,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.08
+                "length": 208.06
             },
             {
                 "trackNo": 13,
@@ -13333,7 +14162,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.48
+                "length": 266.45
             },
             {
                 "trackNo": 14,
@@ -13343,7 +14172,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.35
+                "length": 230.33
             },
             {
                 "trackNo": 15,
@@ -13353,7 +14182,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.36
+                "length": 268.33
             },
             {
                 "trackNo": 16,
@@ -13363,7 +14192,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/two-dozen-bars-of-guitar",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.39
+                "length": 292.37
             },
             {
                 "trackNo": 17,
@@ -13373,7 +14202,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.64
+                "length": 315.61
             },
             {
                 "trackNo": 18,
@@ -13383,7 +14212,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.75
+                "length": 200.72
             },
             {
                 "trackNo": 19,
@@ -13393,7 +14222,7 @@ export const playlistData = [
                 "link": "https://catharticreunion.bandcamp.com/track/upwards",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.12
+                "length": 129.1
             },
             {
                 "trackNo": 20,
@@ -13403,7 +14232,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.76
+                "length": 295.73
             },
             {
                 "trackNo": 21,
@@ -13413,7 +14242,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.32
+                "length": 166.3
             },
             {
                 "trackNo": 22,
@@ -13423,7 +14252,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "length": 168.02
             },
             {
                 "trackNo": 23,
@@ -13433,7 +14262,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 139.27
+                "length": 139.25
             },
             {
                 "trackNo": 24,
@@ -13443,7 +14272,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.04
+                "length": 307.02
             },
             {
                 "trackNo": 25,
@@ -13453,7 +14282,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.84
+                "length": 234.81
             },
             {
                 "trackNo": 26,
@@ -13463,7 +14292,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.05
+                "length": 270.03
             },
             {
                 "trackNo": 27,
@@ -13473,7 +14302,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.41
+                "length": 246.38
             },
             {
                 "trackNo": 28,
@@ -13483,7 +14312,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.9
+                "length": 235.87
             },
             {
                 "trackNo": 29,
@@ -13493,7 +14322,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 280.37
+                "length": 280.34
             },
             {
                 "trackNo": 30,
@@ -13503,7 +14332,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 239.86
+                "length": 239.83
             },
             {
                 "trackNo": 31,
@@ -13513,7 +14342,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.56
+                "length": 187.54
             },
             {
                 "trackNo": 32,
@@ -13523,7 +14352,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.35
+                "length": 299.33
             },
             {
                 "trackNo": 33,
@@ -13533,7 +14362,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.88
+                "length": 214.86
             },
             {
                 "trackNo": 34,
@@ -13543,7 +14372,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.68
+                "length": 288.65
             },
             {
                 "trackNo": 35,
@@ -13553,7 +14382,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 118.06
+                "length": 118.03
             },
             {
                 "trackNo": 36,
@@ -13563,7 +14392,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.32
+                "length": 229.3
             },
             {
                 "trackNo": 37,
@@ -13573,7 +14402,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.26
+                "length": 155.23
             },
             {
                 "trackNo": 38,
@@ -13583,7 +14412,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.56
+                "length": 265.53
             },
             {
                 "trackNo": 39,
@@ -13593,7 +14422,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/alive-again",
                 "optIn": false,
                 "canPlay": false,
-                "length": 278.23
+                "length": 278.21
             },
             {
                 "trackNo": 40,
@@ -13603,7 +14432,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 158.46
+                "length": 158.43
             },
             {
                 "trackNo": 41,
@@ -13613,7 +14442,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 109.85
+                "length": 109.82
             },
             {
                 "trackNo": 42,
@@ -13623,7 +14452,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.57
+                "length": 218.54
             },
             {
                 "trackNo": 43,
@@ -13648,7 +14477,7 @@ export const playlistData = [
             "Imperfect"
         ],
         "challenge": "Challenge the listener. We're talking unexpected sounds/timings/progressions/inter-genres, whatever devices you can think of to keep the listener questioning their musical reality. Break their expectations and the satisfaction they derive from sustained order, make them accept the inevitable decay of all systems into disorder.",
-        "streamUrl": "https://www.youtube.com/watch?v=WnWJbtgebY4",
+        "streamUrl": "https://www.youtube.com/watch?v=NX_dPqAgTk0",
         "tracks": [
             {
                 "trackNo": 1,
@@ -13658,7 +14487,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.14
+                "length": 248.11
             },
             {
                 "trackNo": 2,
@@ -13668,7 +14497,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 114.84
+                "length": 114.82
             },
             {
                 "trackNo": 3,
@@ -13678,7 +14507,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.05
+                "length": 135.03
             },
             {
                 "trackNo": 4,
@@ -13688,7 +14517,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.37
+                "length": 247.34
             },
             {
                 "trackNo": 5,
@@ -13698,7 +14527,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "length": 168.02
             },
             {
                 "trackNo": 6,
@@ -13708,7 +14537,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/watch-hands-on-sands",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.49
+                "length": 295.46
             },
             {
                 "trackNo": 7,
@@ -13718,7 +14547,7 @@ export const playlistData = [
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-anomalist",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.1
+                "length": 223.08
             },
             {
                 "trackNo": 8,
@@ -13728,7 +14557,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.13
+                "length": 283.1
             },
             {
                 "trackNo": 9,
@@ -13738,7 +14567,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/from-rats-to-itches",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.66
+                "length": 275.64
             },
             {
                 "trackNo": 10,
@@ -13748,7 +14577,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.06
+                "length": 298.03
             },
             {
                 "trackNo": 11,
@@ -13758,7 +14587,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.8
+                "length": 154.78
             },
             {
                 "trackNo": 12,
@@ -13768,7 +14597,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.25
+                "length": 218.23
             },
             {
                 "trackNo": 13,
@@ -13778,7 +14607,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.49
+                "length": 307.46
             },
             {
                 "trackNo": 14,
@@ -13788,7 +14617,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.42
+                "length": 259.4
             },
             {
                 "trackNo": 15,
@@ -13798,7 +14627,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.77
+                "length": 294.74
             },
             {
                 "trackNo": 16,
@@ -13808,7 +14637,7 @@ export const playlistData = [
                 "link": "https://youtu.be/0E4uWUB7nv4",
                 "optIn": false,
                 "canPlay": false,
-                "length": 38.45
+                "length": 38.43
             },
             {
                 "trackNo": 17,
@@ -13818,7 +14647,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.13
+                "length": 274.1
             },
             {
                 "trackNo": 18,
@@ -13828,7 +14657,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.93
+                "length": 169.9
             },
             {
                 "trackNo": 19,
@@ -13838,7 +14667,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 341.35
+                "length": 341.33
             },
             {
                 "trackNo": 20,
@@ -13848,7 +14677,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.5
+                "length": 282.48
             },
             {
                 "trackNo": 21,
@@ -13858,7 +14687,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.67
+                "length": 141.65
             },
             {
                 "trackNo": 22,
@@ -13868,7 +14697,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/lmno-project/tangentially-related-to-sayings-equine-in-nature",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.72
+                "length": 225.7
             },
             {
                 "trackNo": 23,
@@ -13878,7 +14707,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.02
             },
             {
                 "trackNo": 24,
@@ -13888,7 +14717,7 @@ export const playlistData = [
                 "link": "https://finestructureconstant.bandcamp.com/track/boltzmann-brains",
                 "optIn": false,
                 "canPlay": false,
-                "length": 138.98
+                "length": 138.96
             },
             {
                 "trackNo": 25,
@@ -13898,7 +14727,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 676.06
+                "length": 676.03
             },
             {
                 "trackNo": 26,
@@ -13908,7 +14737,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.06
+                "length": 276.04
             },
             {
                 "trackNo": 27,
@@ -13918,7 +14747,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.84
+                "length": 134.82
             },
             {
                 "trackNo": 28,
@@ -13928,7 +14757,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/married-life",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.38
+                "length": 240.35
             },
             {
                 "trackNo": 29,
@@ -13938,7 +14767,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 554.37
+                "length": 554.34
             },
             {
                 "trackNo": 30,
@@ -13948,7 +14777,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.14
+                "length": 189.12
             },
             {
                 "trackNo": 31,
@@ -13958,7 +14787,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.43
+                "length": 240.4
             },
             {
                 "trackNo": 32,
@@ -13968,7 +14797,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 338.14
+                "length": 338.11
             },
             {
                 "trackNo": 33,
@@ -13978,7 +14807,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.28
+                "length": 203.26
             },
             {
                 "trackNo": 34,
@@ -13988,7 +14817,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/matthias-straka-1/one-past-four",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.51
+                "length": 136.49
             },
             {
                 "trackNo": 35,
@@ -13998,7 +14827,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.15
+                "length": 221.13
             },
             {
                 "trackNo": 36,
@@ -14008,7 +14837,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.97
+                "length": 250.94
             },
             {
                 "trackNo": 37,
@@ -14018,7 +14847,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.63
+                "length": 274.6
             },
             {
                 "trackNo": 38,
@@ -14083,7 +14912,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.8
+                "length": 229.78
             },
             {
                 "trackNo": 2,
@@ -14093,7 +14922,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 174.46
+                "length": 174.43
             },
             {
                 "trackNo": 3,
@@ -14103,7 +14932,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 350.06
+                "length": 350.04
             },
             {
                 "trackNo": 4,
@@ -14113,7 +14942,7 @@ export const playlistData = [
                 "link": "https://apalebluethought.bandcamp.com/track/out-of-time",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.11
+                "length": 213.08
             },
             {
                 "trackNo": 5,
@@ -14123,7 +14952,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 324.26
+                "length": 324.24
             },
             {
                 "trackNo": 6,
@@ -14133,7 +14962,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.06
+                "length": 315.04
             },
             {
                 "trackNo": 7,
@@ -14143,7 +14972,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/affect-modulation",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.1
+                "length": 225.07
             },
             {
                 "trackNo": 8,
@@ -14153,7 +14982,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.08
+                "length": 192.05
             },
             {
                 "trackNo": 9,
@@ -14163,7 +14992,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.1
+                "length": 189.07
             },
             {
                 "trackNo": 10,
@@ -14173,7 +15002,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.08
+                "length": 252.06
             },
             {
                 "trackNo": 11,
@@ -14183,7 +15012,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.56
+                "length": 184.54
             },
             {
                 "trackNo": 12,
@@ -14193,7 +15022,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.95
+                "length": 198.92
             },
             {
                 "trackNo": 13,
@@ -14203,7 +15032,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 187.56
+                "length": 187.53
             },
             {
                 "trackNo": 14,
@@ -14213,7 +15042,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.02
             },
             {
                 "trackNo": 15,
@@ -14223,7 +15052,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.06
+                "length": 252.03
             },
             {
                 "trackNo": 16,
@@ -14233,7 +15062,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.07
+                "length": 189.05
             },
             {
                 "trackNo": 17,
@@ -14243,7 +15072,7 @@ export const playlistData = [
                 "link": "https://christophersisk.bandcamp.com/track/they-were-all-around-me",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.18
+                "length": 266.16
             },
             {
                 "trackNo": 18,
@@ -14253,7 +15082,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.5
+                "length": 113.48
             },
             {
                 "trackNo": 19,
@@ -14263,7 +15092,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 335.69
+                "length": 335.66
             },
             {
                 "trackNo": 20,
@@ -14273,7 +15102,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 327.05
+                "length": 327.02
             },
             {
                 "trackNo": 21,
@@ -14283,7 +15112,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.07
+                "length": 189.05
             },
             {
                 "trackNo": 22,
@@ -14293,7 +15122,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.05
+                "length": 162.02
             },
             {
                 "trackNo": 23,
@@ -14303,7 +15132,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 291.06
+                "length": 291.03
             },
             {
                 "trackNo": 24,
@@ -14313,7 +15142,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.27
+                "length": 162.25
             },
             {
                 "trackNo": 25,
@@ -14323,7 +15152,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.05
+                "length": 258.02
             },
             {
                 "trackNo": 26,
@@ -14333,7 +15162,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.05
+                "length": 258.02
             },
             {
                 "trackNo": 27,
@@ -14343,7 +15172,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "length": 192.02
             },
             {
                 "trackNo": 28,
@@ -14353,7 +15182,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 146.49
+                "length": 146.47
             },
             {
                 "trackNo": 29,
@@ -14363,7 +15192,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/smoked-out",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.05
+                "length": 216.02
             },
             {
                 "trackNo": 30,
@@ -14373,7 +15202,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 303.05
+                "length": 303.02
             },
             {
                 "trackNo": 31,
@@ -14383,7 +15212,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.07
+                "length": 246.05
             },
             {
                 "trackNo": 32,
@@ -14393,7 +15222,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.05
+                "length": 216.02
             },
             {
                 "trackNo": 33,
@@ -14403,7 +15232,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.14
+                "length": 265.12
             },
             {
                 "trackNo": 34,
@@ -14413,7 +15242,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.98
+                "length": 171.96
             },
             {
                 "trackNo": 35,
@@ -14423,7 +15252,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.05
+                "length": 222.02
             },
             {
                 "trackNo": 36,
@@ -14433,7 +15262,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.3
+                "length": 236.28
             },
             {
                 "trackNo": 37,
@@ -14443,7 +15272,7 @@ export const playlistData = [
                 "link": "https://catharticreunion.bandcamp.com/track/party-with-ghosts",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.22
+                "length": 184.19
             },
             {
                 "trackNo": 38,
@@ -14453,7 +15282,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.3
+                "length": 289.27
             },
             {
                 "trackNo": 39,
@@ -14463,7 +15292,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.56
+                "length": 199.54
             },
             {
                 "trackNo": 40,
@@ -14473,7 +15302,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.81
+                "length": 192.78
             },
             {
                 "trackNo": 41,
@@ -14483,7 +15312,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.06
+                "length": 187.03
             },
             {
                 "trackNo": 42,
@@ -14493,7 +15322,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.05
+                "length": 294.02
             },
             {
                 "trackNo": 43,
@@ -14513,7 +15342,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 132.05
+                "length": 132.02
             },
             {
                 "trackNo": 45,
@@ -14523,7 +15352,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.82
+                "length": 207.79
             },
             {
                 "trackNo": 46,
@@ -14533,7 +15362,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.05
+                "length": 126.02
             },
             {
                 "trackNo": 47,
@@ -14543,7 +15372,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.56
+                "length": 178.54
             },
             {
                 "trackNo": 48,
@@ -14553,7 +15382,7 @@ export const playlistData = [
                 "link": "https://christophersisk.bandcamp.com/track/axis-mundi",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.24
+                "length": 270.22
             }
         ]
     },
@@ -14578,7 +15407,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 0.91
+                "length": 0.89
             },
             {
                 "trackNo": 2,
@@ -14588,7 +15417,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 3,
@@ -14598,7 +15427,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 8.5
+                "length": 8.47
             },
             {
                 "trackNo": 4,
@@ -14608,7 +15437,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 5,
@@ -14618,7 +15447,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.11
+                "length": 32.09
             },
             {
                 "trackNo": 6,
@@ -14628,7 +15457,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.34
+                "length": 21.32
             },
             {
                 "trackNo": 7,
@@ -14638,7 +15467,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 8,
@@ -14648,7 +15477,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 1.94
+                "length": 1.92
             },
             {
                 "trackNo": 9,
@@ -14658,7 +15487,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.94
+                "length": 21.91
             },
             {
                 "trackNo": 10,
@@ -14668,7 +15497,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 4.06
+                "length": 4.03
             },
             {
                 "trackNo": 11,
@@ -14678,7 +15507,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 1.94
+                "length": 1.92
             },
             {
                 "trackNo": 12,
@@ -14688,7 +15517,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 13,
@@ -14698,7 +15527,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 23.62
+                "length": 23.59
             },
             {
                 "trackNo": 14,
@@ -14708,7 +15537,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 12.79
+                "length": 12.77
             },
             {
                 "trackNo": 15,
@@ -14718,7 +15547,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.58
+                "length": 16.56
             },
             {
                 "trackNo": 16,
@@ -14728,7 +15557,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 36.68
+                "length": 36.65
             },
             {
                 "trackNo": 17,
@@ -14738,7 +15567,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 18,
@@ -14748,7 +15577,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 34.06
+                "length": 34.03
             },
             {
                 "trackNo": 19,
@@ -14758,7 +15587,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 15.07
+                "length": 15.05
             },
             {
                 "trackNo": 20,
@@ -14768,7 +15597,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 9.43
+                "length": 9.4
             },
             {
                 "trackNo": 21,
@@ -14778,7 +15607,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 3.37
+                "length": 3.34
             },
             {
                 "trackNo": 22,
@@ -14788,7 +15617,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 3.19
+                "length": 3.16
             },
             {
                 "trackNo": 23,
@@ -14798,7 +15627,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 8.06
+                "length": 8.04
             },
             {
                 "trackNo": 24,
@@ -14808,7 +15637,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 14.06
+                "length": 14.04
             },
             {
                 "trackNo": 25,
@@ -14818,7 +15647,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 10.06
+                "length": 10.03
             },
             {
                 "trackNo": 26,
@@ -14828,7 +15657,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 24.06
+                "length": 24.03
             },
             {
                 "trackNo": 27,
@@ -14838,7 +15667,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.58
+                "length": 21.55
             },
             {
                 "trackNo": 28,
@@ -14848,7 +15677,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 13.06
+                "length": 13.03
             },
             {
                 "trackNo": 29,
@@ -14858,7 +15687,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 30,
@@ -14868,7 +15697,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.94
+                "length": 21.91
             },
             {
                 "trackNo": 31,
@@ -14878,7 +15707,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 32,
@@ -14888,7 +15717,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 33,
@@ -14898,7 +15727,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.06
+                "length": 32.04
             },
             {
                 "trackNo": 34,
@@ -14908,7 +15737,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 4.57
+                "length": 4.55
             },
             {
                 "trackNo": 35,
@@ -14918,7 +15747,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 25.99
+                "length": 25.97
             },
             {
                 "trackNo": 36,
@@ -14928,7 +15757,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 37,
@@ -14938,7 +15767,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 36.05
+                "length": 36.02
             },
             {
                 "trackNo": 38,
@@ -14948,7 +15777,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 39,
@@ -14958,7 +15787,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.25
+                "length": 16.22
             },
             {
                 "trackNo": 40,
@@ -14968,7 +15797,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 41,
@@ -14978,7 +15807,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 42,
@@ -14988,7 +15817,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 43,
@@ -14998,7 +15827,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.08
+                "length": 16.06
             },
             {
                 "trackNo": 44,
@@ -15008,7 +15837,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 24.06
+                "length": 24.03
             },
             {
                 "trackNo": 45,
@@ -15018,7 +15847,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.18
+                "length": 16.15
             },
             {
                 "trackNo": 46,
@@ -15028,7 +15857,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 47,
@@ -15038,7 +15867,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 54.31
+                "length": 54.29
             },
             {
                 "trackNo": 48,
@@ -15048,7 +15877,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 49,
@@ -15058,7 +15887,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.08
+                "length": 16.06
             },
             {
                 "trackNo": 50,
@@ -15068,7 +15897,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.32
+                "length": 16.3
             },
             {
                 "trackNo": 51,
@@ -15078,7 +15907,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 52,
@@ -15088,7 +15917,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 22.06
+                "length": 22.03
             },
             {
                 "trackNo": 53,
@@ -15098,7 +15927,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 15.26
+                "length": 15.23
             },
             {
                 "trackNo": 54,
@@ -15108,7 +15937,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.06
+                "length": 32.04
             },
             {
                 "trackNo": 55,
@@ -15118,7 +15947,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 17.23
+                "length": 17.21
             },
             {
                 "trackNo": 56,
@@ -15128,7 +15957,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 70.42
+                "length": 70.39
             },
             {
                 "trackNo": 57,
@@ -15138,7 +15967,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 13.56
+                "length": 13.54
             },
             {
                 "trackNo": 58,
@@ -15148,7 +15977,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.06
+                "length": 32.04
             },
             {
                 "trackNo": 59,
@@ -15158,7 +15987,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 20.06
+                "length": 20.04
             },
             {
                 "trackNo": 60,
@@ -15168,7 +15997,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 10.95
+                "length": 10.92
             },
             {
                 "trackNo": 61,
@@ -15178,7 +16007,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 15.07
+                "length": 15.05
             },
             {
                 "trackNo": 62,
@@ -15188,7 +16017,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 63,
@@ -15198,7 +16027,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 64,
@@ -15208,7 +16037,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 65,
@@ -15218,7 +16047,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 66,
@@ -15228,7 +16057,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 67,
@@ -15238,7 +16067,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 12.93
+                "length": 12.9
             },
             {
                 "trackNo": 68,
@@ -15248,7 +16077,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 15.07
+                "length": 15.05
             },
             {
                 "trackNo": 69,
@@ -15258,7 +16087,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 18.38
+                "length": 18.36
             },
             {
                 "trackNo": 70,
@@ -15268,7 +16097,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.09
+                "length": 16.07
             },
             {
                 "trackNo": 71,
@@ -15278,7 +16107,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.07
+                "length": 16.04
             },
             {
                 "trackNo": 72,
@@ -15288,7 +16117,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 17.06
+                "length": 17.03
             },
             {
                 "trackNo": 73,
@@ -15298,7 +16127,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "length": 16.03
             },
             {
                 "trackNo": 74,
@@ -15308,7 +16137,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 19.97
+                "length": 19.94
             },
             {
                 "trackNo": 75,
@@ -15353,7 +16182,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 117.05
+                "length": 117.03
             },
             {
                 "trackNo": 2,
@@ -15363,7 +16192,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.06
+                "length": 232.03
             },
             {
                 "trackNo": 3,
@@ -15373,7 +16202,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.23
+                "length": 136.2
             },
             {
                 "trackNo": 4,
@@ -15383,7 +16212,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.06
+                "length": 182.04
             },
             {
                 "trackNo": 5,
@@ -15393,7 +16222,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.57
+                "length": 212.54
             },
             {
                 "trackNo": 6,
@@ -15403,7 +16232,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.18
+                "length": 155.16
             },
             {
                 "trackNo": 7,
@@ -15413,7 +16242,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.06
+                "length": 200.04
             },
             {
                 "trackNo": 8,
@@ -15423,7 +16252,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.57
+                "length": 189.54
             },
             {
                 "trackNo": 9,
@@ -15433,7 +16262,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.44
+                "length": 199.42
             },
             {
                 "trackNo": 10,
@@ -15443,7 +16272,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.06
+                "length": 134.04
             },
             {
                 "trackNo": 11,
@@ -15453,7 +16282,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.14
+                "length": 176.12
             },
             {
                 "trackNo": 12,
@@ -15463,7 +16292,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.7
+                "length": 240.67
             },
             {
                 "trackNo": 13,
@@ -15473,7 +16302,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.06
+                "length": 248.04
             },
             {
                 "trackNo": 14,
@@ -15483,7 +16312,7 @@ export const playlistData = [
                 "link": "https://apalebluethought.bandcamp.com/track/mercy",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.32
+                "length": 251.3
             },
             {
                 "trackNo": 15,
@@ -15493,7 +16322,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.17
+                "length": 208.14
             },
             {
                 "trackNo": 16,
@@ -15503,7 +16332,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.33
+                "length": 150.31
             },
             {
                 "trackNo": 17,
@@ -15513,7 +16342,7 @@ export const playlistData = [
                 "link": "https://bandwagon.fm/6960b81c2f0f56fdcee52f6e",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.05
+                "length": 189.02
             },
             {
                 "trackNo": 18,
@@ -15523,7 +16352,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.27
+                "length": 130.25
             },
             {
                 "trackNo": 19,
@@ -15533,7 +16362,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/user-783179659/25-12-sim-selections-they-speak-for-themselves",
                 "optIn": false,
                 "canPlay": false,
-                "length": 263.11
+                "length": 263.08
             },
             {
                 "trackNo": 20,
@@ -15543,7 +16372,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/phillip-is-unemployed",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.82
+                "length": 169.8
             },
             {
                 "trackNo": 21,
@@ -15553,7 +16382,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.07
+                "length": 272.04
             },
             {
                 "trackNo": 22,
@@ -15563,7 +16392,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.1
+                "length": 196.08
             },
             {
                 "trackNo": 23,
@@ -15573,7 +16402,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.12
+                "length": 228.1
             },
             {
                 "trackNo": 24,
@@ -15583,7 +16412,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.64
+                "length": 269.61
             },
             {
                 "trackNo": 25,
@@ -15593,7 +16422,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 190.69
+                "length": 190.67
             },
             {
                 "trackNo": 26,
@@ -15603,7 +16432,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.08
+                "length": 241.06
             },
             {
                 "trackNo": 27,
@@ -15613,7 +16442,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.89
+                "length": 216.87
             },
             {
                 "trackNo": 28,
@@ -15623,7 +16452,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/solvatochromism",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.05
+                "length": 306.02
             },
             {
                 "trackNo": 29,
@@ -15633,7 +16462,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.55
+                "length": 216.53
             },
             {
                 "trackNo": 30,
@@ -15643,7 +16472,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.52
+                "length": 185.5
             },
             {
                 "trackNo": 31,
@@ -15653,7 +16482,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/kongr45gpen/affirmative-repair",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.09
+                "length": 236.07
             },
             {
                 "trackNo": 32,
@@ -15663,7 +16492,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.1
+                "length": 261.07
             },
             {
                 "trackNo": 33,
@@ -15673,7 +16502,7 @@ export const playlistData = [
                 "link": "https://bjen.bandcamp.com/album/radio-simulacra",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.57
+                "length": 285.54
             },
             {
                 "trackNo": 34,
@@ -15683,7 +16512,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.62
+                "length": 188.59
             },
             {
                 "trackNo": 35,
@@ -15693,7 +16522,7 @@ export const playlistData = [
                 "link": "https://on.soundcloud.com/ohk3Wkpi0MrFjF7Ljh",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.86
+                "length": 253.83
             },
             {
                 "trackNo": 36,
@@ -15703,7 +16532,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 161.67
+                "length": 161.65
             },
             {
                 "trackNo": 37,
@@ -15713,7 +16542,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.19
+                "length": 173.17
             },
             {
                 "trackNo": 38,
@@ -15723,7 +16552,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 364.75
+                "length": 364.72
             },
             {
                 "trackNo": 39,
@@ -15733,7 +16562,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.67
+                "length": 216.65
             },
             {
                 "trackNo": 40,
@@ -15743,7 +16572,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.47
+                "length": 285.44
             },
             {
                 "trackNo": 41,
@@ -15778,7 +16607,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.99
+                "length": 283.97
             },
             {
                 "trackNo": 2,
@@ -15788,7 +16617,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 327.31
+                "length": 327.29
             },
             {
                 "trackNo": 3,
@@ -15798,7 +16627,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.07
+                "length": 204.04
             },
             {
                 "trackNo": 4,
@@ -15808,7 +16637,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.4
+                "length": 197.38
             },
             {
                 "trackNo": 5,
@@ -15818,7 +16647,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.05
+                "length": 282.02
             },
             {
                 "trackNo": 6,
@@ -15828,7 +16657,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.06
+                "length": 143.04
             },
             {
                 "trackNo": 7,
@@ -15838,7 +16667,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.46
+                "length": 208.43
             },
             {
                 "trackNo": 8,
@@ -15848,7 +16677,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.31
+                "length": 294.29
             },
             {
                 "trackNo": 9,
@@ -15858,7 +16687,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.76
+                "length": 269.74
             },
             {
                 "trackNo": 10,
@@ -15868,7 +16697,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.06
+                "length": 216.03
             },
             {
                 "trackNo": 11,
@@ -15878,7 +16707,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.63
+                "length": 223.61
             },
             {
                 "trackNo": 12,
@@ -15888,7 +16717,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "length": 192.02
             },
             {
                 "trackNo": 13,
@@ -15898,7 +16727,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.05
+                "length": 282.02
             },
             {
                 "trackNo": 14,
@@ -15908,7 +16737,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.41
+                "length": 293.38
             },
             {
                 "trackNo": 15,
@@ -15918,7 +16747,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.87
+                "length": 316.84
             },
             {
                 "trackNo": 16,
@@ -15928,7 +16757,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 138.05
+                "length": 138.02
             },
             {
                 "trackNo": 17,
@@ -15938,7 +16767,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.06
+                "length": 255.03
             },
             {
                 "trackNo": 18,
@@ -15948,7 +16777,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/user-783179659/26-01-sim-selections-getting?si=e0624068fa0444ce8d08347b490c710c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.78
+                "length": 226.75
             },
             {
                 "trackNo": 19,
@@ -15958,7 +16787,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 311.64
+                "length": 311.61
             },
             {
                 "trackNo": 20,
@@ -15968,7 +16797,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=WD-UUCPSiI0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 381.26
+                "length": 381.23
             },
             {
                 "trackNo": 21,
@@ -15978,7 +16807,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=WBgbk5bVXFg",
                 "optIn": false,
                 "canPlay": false,
-                "length": 341.73
+                "length": 341.71
             },
             {
                 "trackNo": 22,
@@ -15988,7 +16817,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.4
+                "length": 188.38
             },
             {
                 "trackNo": 23,
@@ -15998,7 +16827,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.92
+                "length": 283.9
             },
             {
                 "trackNo": 24,
@@ -16008,7 +16837,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.69
+                "length": 237.66
             },
             {
                 "trackNo": 25,
@@ -16018,7 +16847,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.86
+                "length": 210.84
             },
             {
                 "trackNo": 26,
@@ -16028,7 +16857,7 @@ export const playlistData = [
                 "link": "https://zuggamasta.de/music/sim-sel/1/",
                 "optIn": false,
                 "canPlay": false,
-                "length": 124.06
+                "length": 124.03
             },
             {
                 "trackNo": 27,
@@ -16038,7 +16867,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.87
+                "length": 273.84
             },
             {
                 "trackNo": 28,
@@ -16048,7 +16877,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.87
+                "length": 234.84
             },
             {
                 "trackNo": 29,
@@ -16058,7 +16887,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.07
+                "length": 300.04
             },
             {
                 "trackNo": 30,
@@ -16068,7 +16897,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.79
+                "length": 144.77
             },
             {
                 "trackNo": 31,
@@ -16078,7 +16907,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.56
+                "length": 220.54
             },
             {
                 "trackNo": 32,
@@ -16088,7 +16917,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 347.51
+                "length": 347.48
             },
             {
                 "trackNo": 33,
@@ -16098,7 +16927,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 163.87
+                "length": 163.85
             },
             {
                 "trackNo": 34,
@@ -16108,7 +16937,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.33
+                "length": 32.3
             },
             {
                 "trackNo": 35,
@@ -16118,7 +16947,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.05
+                "length": 224.03
             },
             {
                 "trackNo": 36,
@@ -16128,7 +16957,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 44.06
+                "length": 44.04
             },
             {
                 "trackNo": 37,
@@ -16138,7 +16967,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 53.66
+                "length": 53.63
             },
             {
                 "trackNo": 38,
@@ -16148,7 +16977,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 99.08
+                "length": 99.06
             },
             {
                 "trackNo": 39,
@@ -16158,7 +16987,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 100.42
+                "length": 100.39
             },
             {
                 "trackNo": 40,
@@ -16168,7 +16997,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 125.52
+                "length": 125.5
             },
             {
                 "trackNo": 41,
@@ -16178,7 +17007,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/matthias-straka-1/spa-in-a-can",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.06
+                "length": 160.03
             },
             {
                 "trackNo": 42,
@@ -16188,7 +17017,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.79
+                "length": 315.77
             },
             {
                 "trackNo": 43,
@@ -16198,7 +17027,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.74
+                "length": 297.72
             },
             {
                 "trackNo": 44,
@@ -16208,7 +17037,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.25
+                "length": 122.23
             },
             {
                 "trackNo": 45,
@@ -16218,7 +17047,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.7
+                "length": 165.67
             },
             {
                 "trackNo": 46,
@@ -16228,7 +17057,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 346.94
+                "length": 346.92
             },
             {
                 "trackNo": 47,
@@ -16238,7 +17067,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 239.81
+                "length": 239.78
             },
             {
                 "trackNo": 48,
@@ -16248,7 +17077,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.23
+                "length": 329.21
             },
             {
                 "trackNo": 49,
@@ -16258,7 +17087,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.31
+                "length": 198.29
             },
             {
                 "trackNo": 50,
@@ -16268,7 +17097,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.38
+                "length": 180.35
             },
             {
                 "trackNo": 51,
@@ -16278,7 +17107,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.1
+                "length": 253.07
             },
             {
                 "trackNo": 52,
@@ -16288,7 +17117,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.07
+                "length": 261.04
             },
             {
                 "trackNo": 53,
@@ -16298,7 +17127,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/translational-mantra",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.74
+                "length": 300.72
             },
             {
                 "trackNo": 54,
@@ -16308,7 +17137,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.56
+                "length": 220.54
             },
             {
                 "trackNo": 55,
@@ -16318,7 +17147,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/the_infra/teeth?si=cd694eff2dac4b5092abf826867aebce&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.21
+                "length": 217.18
             },
             {
                 "trackNo": 56,
@@ -16328,7 +17157,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.96
+                "length": 225.93
             },
             {
                 "trackNo": 57,
@@ -16363,7 +17192,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.02
+                "length": 196.0
             },
             {
                 "trackNo": 2,
@@ -16373,7 +17202,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.34
+                "length": 202.32
             },
             {
                 "trackNo": 3,
@@ -16383,7 +17212,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.02
             },
             {
                 "trackNo": 4,
@@ -16393,7 +17222,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.85
+                "length": 268.83
             },
             {
                 "trackNo": 5,
@@ -16412,7 +17241,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.05
+                "length": 216.02
             },
             {
                 "trackNo": 7,
@@ -16422,7 +17251,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 304.04
+                "length": 304.01
             },
             {
                 "trackNo": 8,
@@ -16432,7 +17261,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/lewpsi/reflux?si=65001b1f73a945c8a13c14f605d2728d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.76
+                "length": 104.74
             },
             {
                 "trackNo": 9,
@@ -16442,7 +17271,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.02
+                "length": 203.0
             },
             {
                 "trackNo": 10,
@@ -16452,7 +17281,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.74
+                "length": 259.71
             },
             {
                 "trackNo": 11,
@@ -16462,7 +17291,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.06
+                "length": 276.04
             },
             {
                 "trackNo": 12,
@@ -16472,7 +17301,7 @@ export const playlistData = [
                 "link": "https://zuggamasta.de/music/sim-sel/2/",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.81
+                "length": 285.78
             },
             {
                 "trackNo": 13,
@@ -16482,7 +17311,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.92
+                "length": 270.89
             },
             {
                 "trackNo": 14,
@@ -16492,7 +17321,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/user-783179659/26-02-sim-selections-this",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.78
+                "length": 173.76
             },
             {
                 "trackNo": 15,
@@ -16502,7 +17331,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 149.4
+                "length": 149.38
             },
             {
                 "trackNo": 16,
@@ -16512,7 +17341,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.86
+                "length": 182.83
             },
             {
                 "trackNo": 17,
@@ -16522,7 +17351,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.05
+                "length": 310.02
             },
             {
                 "trackNo": 18,
@@ -16532,7 +17361,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.26
+                "length": 275.23
             },
             {
                 "trackNo": 19,
@@ -16542,7 +17371,7 @@ export const playlistData = [
                 "link": "https://bjen.bandcamp.com/album/catalyst",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.2
+                "length": 221.18
             },
             {
                 "trackNo": 20,
@@ -16552,7 +17381,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.36
+                "length": 177.34
             },
             {
                 "trackNo": 21,
@@ -16562,7 +17391,7 @@ export const playlistData = [
                 "link": "https://zerolucksgiven.bandcamp.com/track/acids-and-bases",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.43
+                "length": 249.41
             },
             {
                 "trackNo": 22,
@@ -16572,7 +17401,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 313.7
+                "length": 313.68
             },
             {
                 "trackNo": 23,
@@ -16582,7 +17411,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 263.31
+                "length": 263.29
             },
             {
                 "trackNo": 24,
@@ -16592,7 +17421,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.28
+                "length": 243.25
             },
             {
                 "trackNo": 25,
@@ -16602,7 +17431,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/alter-of-acid",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.52
+                "length": 182.5
             },
             {
                 "trackNo": 26,
@@ -16612,7 +17441,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.38
+                "length": 222.35
             },
             {
                 "trackNo": 27,
@@ -16622,7 +17451,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 105.14
+                "length": 105.12
             },
             {
                 "trackNo": 28,
@@ -16632,7 +17461,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.06
+                "length": 104.04
             },
             {
                 "trackNo": 29,
@@ -16642,7 +17471,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.83
+                "length": 293.8
             },
             {
                 "trackNo": 30,
@@ -16652,7 +17481,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.66
+                "length": 247.63
             },
             {
                 "trackNo": 31,
@@ -16662,7 +17491,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.94
+                "length": 168.91
             },
             {
                 "trackNo": 32,
@@ -16672,7 +17501,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.77
+                "length": 229.75
             },
             {
                 "trackNo": 33,
@@ -16682,7 +17511,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 344.52
+                "length": 344.5
             },
             {
                 "trackNo": 34,
@@ -16692,7 +17521,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/too-little-time?si=0d5b8759939848ee914c15fe6fc61dfb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.36
+                "length": 221.34
             },
             {
                 "trackNo": 35,
@@ -16702,7 +17531,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 101.64
+                "length": 101.62
             },
             {
                 "trackNo": 36,
@@ -16712,7 +17541,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 267.82
+                "length": 267.79
             }
         ]
     },
@@ -16737,7 +17566,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.49
+                "length": 136.46
             },
             {
                 "trackNo": 2,
@@ -16747,7 +17576,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.5
+                "length": 156.47
             },
             {
                 "trackNo": 3,
@@ -16757,7 +17586,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.27
+                "length": 227.24
             },
             {
                 "trackNo": 4,
@@ -16767,7 +17596,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 119.4
+                "length": 119.38
             },
             {
                 "trackNo": 5,
@@ -16777,7 +17606,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/edges-of-history",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.54
+                "length": 245.52
             },
             {
                 "trackNo": 6,
@@ -16787,7 +17616,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.05
+                "length": 144.02
             },
             {
                 "trackNo": 7,
@@ -16797,7 +17626,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 83.06
+                "length": 83.04
             },
             {
                 "trackNo": 8,
@@ -16807,7 +17636,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.5
+                "length": 248.48
             },
             {
                 "trackNo": 9,
@@ -16817,7 +17646,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.71
+                "length": 288.68
             },
             {
                 "trackNo": 10,
@@ -16827,7 +17656,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.56
+                "length": 205.53
             },
             {
                 "trackNo": 11,
@@ -16837,7 +17666,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.7
+                "length": 234.67
             },
             {
                 "trackNo": 12,
@@ -16847,7 +17676,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 74.06
+                "length": 74.04
             },
             {
                 "trackNo": 13,
@@ -16857,7 +17686,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.47
+                "length": 194.45
             },
             {
                 "trackNo": 14,
@@ -16867,17 +17696,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.1
+                "length": 192.08
             },
             {
                 "trackNo": 15,
                 "artist": "tabs",
                 "title": "Cryoslept into a Frozen Star",
                 "file": "2026/Sim_Selections_MARCH_2026/15. tabs - Cryoslept into a Frozen Star.mp3",
-                "link": "https://soundcloud.com/user-783179659/26-03-sim-selections-1",
+                "link": "https://soundcloud.com/user-783179659/26-03-sim-selections-cryoslept",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.12
+                "length": 237.1
             },
             {
                 "trackNo": 16,
@@ -16887,17 +17716,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.45
+                "length": 244.43
             },
             {
                 "trackNo": 17,
                 "artist": "Spirit Unknown",
                 "title": "Sine Party",
                 "file": "2026/Sim_Selections_MARCH_2026/17. Spirit Unknown - Sine Party.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/spirit_unknown/sine-party?si=99bfe962c5504ac2b17aa86d64ab84a6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.64
+                "length": 188.62
             },
             {
                 "trackNo": 18,
@@ -16907,7 +17736,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/convalescence?si=96de784b9db84fd4b3e5687aaa10866b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 344.58
+                "length": 344.56
             },
             {
                 "trackNo": 19,
@@ -16917,7 +17746,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.99
+                "length": 232.97
             },
             {
                 "trackNo": 20,
@@ -16927,7 +17756,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.98
+                "length": 268.96
             },
             {
                 "trackNo": 21,
@@ -16937,7 +17766,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": true,
                 "canPlay": true,
-                "length": 363.44
+                "length": 363.42
             },
             {
                 "trackNo": 22,
@@ -16947,7 +17776,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 69.59
+                "length": 69.56
             },
             {
                 "trackNo": 23,
@@ -16957,7 +17786,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 342.84
+                "length": 342.82
             },
             {
                 "trackNo": 24,
@@ -16967,7 +17796,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 114.74
+                "length": 114.72
             },
             {
                 "trackNo": 25,
@@ -16977,7 +17806,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.3
+                "length": 178.27
             },
             {
                 "trackNo": 26,
@@ -16987,7 +17816,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.06
+                "length": 252.03
             },
             {
                 "trackNo": 27,
@@ -16997,7 +17826,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.39
+                "length": 274.37
             },
             {
                 "trackNo": 28,
@@ -17007,7 +17836,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.06
+                "length": 182.04
             },
             {
                 "trackNo": 29,
@@ -17017,7 +17846,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.72
+                "length": 183.69
             },
             {
                 "trackNo": 30,
@@ -17027,7 +17856,7 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=8dSwmxEVJSw",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.3
+                "length": 290.27
             },
             {
                 "trackNo": 31,
@@ -17037,7 +17866,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.29
+                "length": 273.27
             },
             {
                 "trackNo": 32,
@@ -17047,7 +17876,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.37
+                "length": 287.35
             },
             {
                 "trackNo": 33,
@@ -17057,7 +17886,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.57
+                "length": 282.54
             },
             {
                 "trackNo": 34,
@@ -17067,7 +17896,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.84
+                "length": 206.81
             },
             {
                 "trackNo": 35,
@@ -17077,7 +17906,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.5
+                "length": 251.47
             },
             {
                 "trackNo": 36,
@@ -17087,7 +17916,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/the_infra/thin-air?si=d828baca8ba44c339bf6731ce4b016b1&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.78
+                "length": 231.76
             },
             {
                 "trackNo": 37,
@@ -17097,7 +17926,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.47
+                "length": 194.45
             },
             {
                 "trackNo": 38,
@@ -17152,7 +17981,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.42
+                "length": 178.39
             },
             {
                 "trackNo": 2,
@@ -17162,7 +17991,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.37
+                "length": 92.34
             },
             {
                 "trackNo": 3,
@@ -17172,7 +18001,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.07
+                "length": 192.05
             },
             {
                 "trackNo": 4,
@@ -17182,7 +18011,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.05
+                "length": 162.02
             },
             {
                 "trackNo": 5,
@@ -17192,7 +18021,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.06
+                "length": 244.03
             },
             {
                 "trackNo": 6,
@@ -17202,7 +18031,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.94
+                "length": 271.92
             },
             {
                 "trackNo": 7,
@@ -17212,7 +18041,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.07
+                "length": 183.04
             },
             {
                 "trackNo": 8,
@@ -17222,7 +18051,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.69
+                "length": 116.66
             },
             {
                 "trackNo": 9,
@@ -17232,7 +18061,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.06
+                "length": 212.04
             },
             {
                 "trackNo": 10,
@@ -17242,7 +18071,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.55
+                "length": 273.53
             },
             {
                 "trackNo": 11,
@@ -17252,7 +18081,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.9
+                "length": 176.88
             },
             {
                 "trackNo": 12,
@@ -17262,17 +18091,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.34
+                "length": 203.31
             },
             {
                 "trackNo": 13,
                 "artist": "Frildoh, Skitter",
                 "title": "Multivariate",
                 "file": "2026/Sim_Selections_APRIL_2026/13. Frildoh, Skitter - Multivariate.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/skittermusic/multivariate?si=a0e2fadf30e7425990d27990c6bd752d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.06
+                "length": 234.03
             },
             {
                 "trackNo": 14,
@@ -17282,7 +18111,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/nights-in-your-arms",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.83
+                "length": 178.81
             },
             {
                 "trackNo": 15,
@@ -17292,7 +18121,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.82
+                "length": 183.79
             },
             {
                 "trackNo": 16,
@@ -17302,7 +18131,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.05
+                "length": 183.02
             },
             {
                 "trackNo": 17,
@@ -17312,7 +18141,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.68
+                "length": 220.66
             },
             {
                 "trackNo": 18,
@@ -17322,7 +18151,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.9
+                "length": 176.88
             },
             {
                 "trackNo": 19,
@@ -17332,7 +18161,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 108.07
+                "length": 108.05
             },
             {
                 "trackNo": 20,
@@ -17342,7 +18171,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.81
+                "length": 253.78
             },
             {
                 "trackNo": 21,
@@ -17352,7 +18181,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.21
+                "length": 224.18
             },
             {
                 "trackNo": 22,
@@ -17362,7 +18191,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.32
+                "length": 155.3
             },
             {
                 "trackNo": 23,
@@ -17372,7 +18201,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.7
+                "length": 322.68
             },
             {
                 "trackNo": 24,
@@ -17382,7 +18211,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.08
+                "length": 274.06
             },
             {
                 "trackNo": 25,
@@ -17392,7 +18221,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.29
+                "length": 135.26
             },
             {
                 "trackNo": 26,
@@ -17402,7 +18231,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.14
+                "length": 171.12
             },
             {
                 "trackNo": 27,
@@ -17412,7 +18241,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.7
+                "length": 228.68
             },
             {
                 "trackNo": 28,
@@ -17422,7 +18251,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.84
+                "length": 259.81
             },
             {
                 "trackNo": 29,
@@ -17432,7 +18261,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/attention-economy-remix-by-poetry-in-noise",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.17
+                "length": 208.14
             },
             {
                 "trackNo": 30,
@@ -17442,7 +18271,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.48
+                "length": 223.45
             },
             {
                 "trackNo": 31,
@@ -17452,7 +18281,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.17
+                "length": 279.14
             },
             {
                 "trackNo": 32,
@@ -17462,7 +18291,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.7
+                "length": 226.68
             },
             {
                 "trackNo": 33,
@@ -17472,7 +18301,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.42
+                "length": 244.39
             },
             {
                 "trackNo": 34,
@@ -17482,7 +18311,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.06
+                "length": 176.04
             },
             {
                 "trackNo": 35,
@@ -17492,7 +18321,7 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/aliens-are-demons",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.91
+                "length": 237.89
             },
             {
                 "trackNo": 36,
@@ -17502,7 +18331,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 137.2
+                "length": 137.17
             },
             {
                 "trackNo": 37,
@@ -17512,7 +18341,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.18
+                "length": 310.15
             },
             {
                 "trackNo": 38,
@@ -17522,7 +18351,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.06
+                "length": 254.04
             },
             {
                 "trackNo": 39,
@@ -17532,7 +18361,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.14
+                "length": 171.12
             },
             {
                 "trackNo": 40,
@@ -17542,7 +18371,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.7
+                "length": 156.67
             },
             {
                 "trackNo": 41,
@@ -17552,7 +18381,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.07
+                "length": 183.04
             },
             {
                 "trackNo": 42,
@@ -17562,7 +18391,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 65.1
+                "length": 65.07
             },
             {
                 "trackNo": 43,
@@ -17572,7 +18401,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.28
+                "length": 126.25
             },
             {
                 "trackNo": 44,
@@ -17582,7 +18411,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.51
+                "length": 147.49
             },
             {
                 "trackNo": 45,
@@ -17592,7 +18421,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 376.06
+                "length": 376.03
             },
             {
                 "trackNo": 46,
@@ -17602,7 +18431,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "length": 192.02
             },
             {
                 "trackNo": 47,
@@ -17612,7 +18441,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.43
+                "length": 204.41
             },
             {
                 "trackNo": 48,
@@ -17622,7 +18451,7 @@ export const playlistData = [
                 "link": "https://soundcloud.com/thesimfra/mechanical-brain",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.32
+                "length": 162.3
             },
             {
                 "trackNo": 49,
@@ -17632,7 +18461,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.36
+                "length": 270.34
             },
             {
                 "trackNo": 50,
@@ -17642,7 +18471,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.05
+                "length": 288.02
             }
         ]
     },
@@ -17667,7 +18496,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.98
+                "length": 247.95
             },
             {
                 "trackNo": 2,
@@ -17677,17 +18506,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.9
+                "length": 329.87
             },
             {
                 "trackNo": 3,
                 "artist": "Heavix",
                 "title": "Moth lights the flame",
                 "file": "2026/Sim_Selections_MAY_2026/03. Heavix - Moth lights the flame.mp3",
-                "link": "",
+                "link": "https://www.youtube.com/watch?v=rruLkkRlD0U",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.3
+                "length": 320.28
             },
             {
                 "trackNo": 4,
@@ -17697,7 +18526,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 359.69
+                "length": 359.66
             },
             {
                 "trackNo": 5,
@@ -17707,7 +18536,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.34
+                "length": 181.32
             },
             {
                 "trackNo": 6,
@@ -17717,7 +18546,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.17
+                "length": 120.14
             },
             {
                 "trackNo": 7,
@@ -17727,7 +18556,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.45
+                "length": 170.42
             },
             {
                 "trackNo": 8,
@@ -17737,7 +18566,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.53
+                "length": 261.5
             },
             {
                 "trackNo": 9,
@@ -17747,7 +18576,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.27
+                "length": 175.25
             },
             {
                 "trackNo": 10,
@@ -17757,7 +18586,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.9
+                "length": 251.87
             },
             {
                 "trackNo": 11,
@@ -17767,27 +18596,27 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.07
+                "length": 272.04
             },
             {
                 "trackNo": 12,
                 "artist": "Spirit Unknown",
                 "title": "Chromatic Surrogation",
                 "file": "2026/Sim_Selections_MAY_2026/12. Spirit Unknown - Chromatic Surrogation.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/spirit_unknown/chromatic-surrogation?si=3f1c88faf48e4423b980a9a27834b54f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 309.79
+                "length": 309.77
             },
             {
                 "trackNo": 13,
                 "artist": "Tabs",
                 "title": "Beh Buh Boh",
                 "file": "2026/Sim_Selections_MAY_2026/13. tabs - Beh Buh Boh.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/user-783179659/26-05-sim-selections",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.7
+                "length": 171.67
             },
             {
                 "trackNo": 14,
@@ -17797,7 +18626,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.12
+                "length": 150.1
             },
             {
                 "trackNo": 15,
@@ -17807,7 +18636,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.69
+                "length": 143.66
             },
             {
                 "trackNo": 16,
@@ -17817,7 +18646,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.41
+                "length": 141.38
             },
             {
                 "trackNo": 17,
@@ -17827,7 +18656,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.85
+                "length": 282.83
             },
             {
                 "trackNo": 18,
@@ -17837,7 +18666,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.93
+                "length": 133.9
             },
             {
                 "trackNo": 19,
@@ -17847,7 +18676,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.05
+                "length": 294.02
             },
             {
                 "trackNo": 20,
@@ -17857,7 +18686,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.36
+                "length": 307.33
             },
             {
                 "trackNo": 21,
@@ -17867,7 +18696,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.91
+                "length": 288.89
             },
             {
                 "trackNo": 22,
@@ -17877,7 +18706,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.85
+                "length": 214.82
             },
             {
                 "trackNo": 23,
@@ -17887,7 +18716,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.43
+                "length": 237.41
             },
             {
                 "trackNo": 24,
@@ -17897,7 +18726,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.15
+                "length": 253.13
             },
             {
                 "trackNo": 25,
@@ -17907,7 +18736,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 346.1
+                "length": 346.08
             },
             {
                 "trackNo": 26,
@@ -17917,7 +18746,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.32
+                "length": 248.29
             },
             {
                 "trackNo": 27,
@@ -17927,7 +18756,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.79
+                "length": 266.76
             },
             {
                 "trackNo": 28,
@@ -17937,7 +18766,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.07
+                "length": 225.04
             },
             {
                 "trackNo": 29,
@@ -17947,17 +18776,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.57
+                "length": 215.54
             },
             {
                 "trackNo": 30,
                 "artist": "Skitter",
                 "title": "I Lost",
                 "file": "2026/Sim_Selections_MAY_2026/30. Skitter - I Lost.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/skittermusic/in-freefall?si=5997c5789cbe469a8ca3e593fc51bd5e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.68
+                "length": 170.66
             },
             {
                 "trackNo": 31,
@@ -17967,7 +18796,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.31
+                "length": 90.29
             },
             {
                 "trackNo": 32,
@@ -17977,7 +18806,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.56
+                "length": 191.53
             },
             {
                 "trackNo": 33,
@@ -17987,7 +18816,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.8
+                "length": 176.77
             },
             {
                 "trackNo": 34,
@@ -17997,7 +18826,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 84.45
+                "length": 84.43
             },
             {
                 "trackNo": 35,
@@ -18007,7 +18836,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.32
+                "length": 245.29
             },
             {
                 "trackNo": 36,
@@ -18017,7 +18846,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 303.17
+                "length": 303.14
             }
         ]
     },
@@ -18042,17 +18871,17 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=3wkqgvhghFI",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.31
+                "length": 221.28
             },
             {
                 "trackNo": 2,
                 "artist": "Skitter",
                 "title": "Thinking in Patterns",
                 "file": "2026/Sim_Selections_JUNE_2026/02. Skitter - Thinking in Patterns.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/skittermusic/thinking-in-patterns?si=89835369290b4b178e2d399588a896f0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 277.29
+                "length": 277.26
             },
             {
                 "trackNo": 3,
@@ -18062,7 +18891,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 366.52
+                "length": 366.5
             },
             {
                 "trackNo": 4,
@@ -18072,7 +18901,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.53
+                "length": 322.51
             },
             {
                 "trackNo": 5,
@@ -18082,7 +18911,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.06
+                "length": 200.04
             },
             {
                 "trackNo": 6,
@@ -18092,7 +18921,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 324.05
+                "length": 324.02
             },
             {
                 "trackNo": 7,
@@ -18102,7 +18931,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.13
+                "length": 184.1
             },
             {
                 "trackNo": 8,
@@ -18112,7 +18941,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.05
+                "length": 270.03
             },
             {
                 "trackNo": 9,
@@ -18122,17 +18951,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.39
+                "length": 193.37
             },
             {
                 "trackNo": 10,
                 "artist": "tabs",
                 "title": "A Walk on Uneven Ground",
                 "file": "2026/Sim_Selections_JUNE_2026/10. tabs - A Walk on Uneven Ground.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/user-783179659/26-06-sim-selections-1of2-a",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.44
+                "length": 169.42
             },
             {
                 "trackNo": 11,
@@ -18142,7 +18971,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.09
+                "length": 173.06
             },
             {
                 "trackNo": 12,
@@ -18152,7 +18981,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.06
+                "length": 275.04
             },
             {
                 "trackNo": 13,
@@ -18162,7 +18991,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.6
+                "length": 220.58
             },
             {
                 "trackNo": 14,
@@ -18172,7 +19001,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.07
+                "length": 232.05
             },
             {
                 "trackNo": 15,
@@ -18182,7 +19011,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.4
+                "length": 216.37
             },
             {
                 "trackNo": 16,
@@ -18192,17 +19021,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.8
+                "length": 310.78
             },
             {
                 "trackNo": 17,
                 "artist": "tabs",
                 "title": "Generational Bad Luck",
                 "file": "2026/Sim_Selections_JUNE_2026/17. tabs - Generational Bad Luck.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/user-783179659/26-06-sim-selections",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.59
+                "length": 122.57
             },
             {
                 "trackNo": 18,
@@ -18212,7 +19041,7 @@ export const playlistData = [
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.06
+                "length": 220.03
             },
             {
                 "trackNo": 19,
@@ -18222,7 +19051,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.84
+                "length": 191.82
             },
             {
                 "trackNo": 20,
@@ -18232,7 +19061,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 342.74
+                "length": 342.72
             },
             {
                 "trackNo": 21,
@@ -18242,7 +19071,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.61
+                "length": 273.58
             },
             {
                 "trackNo": 22,
@@ -18252,7 +19081,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.72
+                "length": 268.7
             },
             {
                 "trackNo": 23,
@@ -18262,7 +19091,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 317.07
+                "length": 317.05
             },
             {
                 "trackNo": 24,
@@ -18272,7 +19101,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.25
+                "length": 232.22
             },
             {
                 "trackNo": 25,
@@ -18282,7 +19111,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.4
+                "length": 104.38
             },
             {
                 "trackNo": 26,
@@ -18292,17 +19121,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.25
+                "length": 259.22
             },
             {
                 "trackNo": 27,
                 "artist": "Spirit Unknown",
                 "title": "The Snow in June",
                 "file": "2026/Sim_Selections_JUNE_2026/27. Spirit Unknown - The Snow in June.mp3",
-                "link": "",
+                "link": "https://soundcloud.com/spirit_unknown/the-snow-in-june?si=5faeb5fc633040e7922f2466a47f2959&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.91
+                "length": 294.89
             },
             {
                 "trackNo": 28,
@@ -18312,17 +19141,17 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.36
+                "length": 307.33
             },
             {
                 "trackNo": 29,
                 "artist": "Sean VanSickel",
                 "title": "Dictatorial Pips",
                 "file": "2026/Sim_Selections_JUNE_2026/29. Sean VanSickel - Dictatorial Pips.mp3",
-                "link": "",
+                "link": "https://youtu.be/q10Z7TCzeMA?",
                 "optIn": false,
                 "canPlay": false,
-                "length": 131.76
+                "length": 131.74
             },
             {
                 "trackNo": 30,
@@ -18332,7 +19161,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.62
+                "length": 197.59
             },
             {
                 "trackNo": 31,
@@ -18342,7 +19171,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.53
+                "length": 189.5
             },
             {
                 "trackNo": 32,
@@ -18352,7 +19181,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.44
+                "length": 166.42
             },
             {
                 "trackNo": 33,
@@ -18362,7 +19191,7 @@ export const playlistData = [
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 278.49
+                "length": 278.47
             },
             {
                 "trackNo": 34,
@@ -18373,6 +19202,431 @@ export const playlistData = [
                 "optIn": false,
                 "canPlay": false,
                 "length": 80.0
+            }
+        ]
+    },
+    {
+        "id": "2026-july",
+        "name": "July 2026",
+        "year": 2026,
+        "month": "JULY",
+        "theme": "Nature",
+        "keywords": [
+            "Connected",
+            "Earth"
+        ],
+        "challenge": "Get out and record nature.",
+        "streamUrl": "",
+        "tracks": [
+            {
+                "trackNo": 1,
+                "artist": "estes_",
+                "title": "puddlejumper",
+                "file": "2026/Sim_Selections_JULY_2026/01. estes_ - puddlejumper.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 215.22
+            },
+            {
+                "trackNo": 2,
+                "artist": "Bjen",
+                "title": "Woolgathering",
+                "file": "2026/Sim_Selections_JULY_2026/02. Bjen - Woolgathering.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 168.05
+            },
+            {
+                "trackNo": 3,
+                "artist": "liquidkey",
+                "title": "ocean debris",
+                "file": "2026/Sim_Selections_JULY_2026/03. liquidkey - ocean debris.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 221.73
+            },
+            {
+                "trackNo": 4,
+                "artist": "jacketpocket",
+                "title": "Splendor",
+                "file": "2026/Sim_Selections_JULY_2026/04. jacketpocket - Splendor.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 239.04
+            },
+            {
+                "trackNo": 5,
+                "artist": "edwin",
+                "title": "birds",
+                "file": "2026/Sim_Selections_JULY_2026/05. edwin - birds.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 63.77
+            },
+            {
+                "trackNo": 6,
+                "artist": "Doggo Shark (Fallacy Dice)",
+                "title": "What Was Once a Glade",
+                "file": "2026/Sim_Selections_JULY_2026/06. Doggo Shark (Fallacy Dice) - What Was Once a Glade.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 178.99
+            },
+            {
+                "trackNo": 7,
+                "artist": "euskalduna",
+                "title": "Orange Band, June 17, 1987",
+                "file": "2026/Sim_Selections_JULY_2026/07. euskalduna - Orange Band, June 17, 1987.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 238.79
+            },
+            {
+                "trackNo": 8,
+                "artist": "5XVT",
+                "title": "///Swanky.Future.Plankton",
+                "file": "2026/Sim_Selections_JULY_2026/08. 5XVT - ___Swanky.Future.Plankton.mp3",
+                "link": "https://youtu.be/ZUqNdkm72i0?si=r7Jpo48258rKMcEO",
+                "optIn": false,
+                "canPlay": false,
+                "length": 256.03
+            },
+            {
+                "trackNo": 9,
+                "artist": "dedblank",
+                "title": "I think its gonna rain",
+                "file": "2026/Sim_Selections_JULY_2026/09. dedblank - I think its gonna rain.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 209.74
+            },
+            {
+                "trackNo": 10,
+                "artist": "Poetry In Noise",
+                "title": "Plants Shall Inherit",
+                "file": "2026/Sim_Selections_JULY_2026/10. Poetry In Noise - Plants Shall Inherit.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 292.26
+            },
+            {
+                "trackNo": 11,
+                "artist": "Stu M",
+                "title": "For the last",
+                "file": "2026/Sim_Selections_JULY_2026/11. Stu M - For the last.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 117.37
+            },
+            {
+                "trackNo": 12,
+                "artist": "natas_liam",
+                "title": "walk_in_a_park",
+                "file": "2026/Sim_Selections_JULY_2026/12. natas_liam - walk_in_a_park.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 452.05
+            },
+            {
+                "trackNo": 13,
+                "artist": "Heavix",
+                "title": "Mothers tears",
+                "file": "2026/Sim_Selections_JULY_2026/13. Heavix - Mothers tears.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 187.37
+            },
+            {
+                "trackNo": 14,
+                "artist": "Sean VanSickel",
+                "title": "Shod Steps",
+                "file": "2026/Sim_Selections_JULY_2026/14. Sean VanSickel - Shod Steps.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 168.54
+            },
+            {
+                "trackNo": 15,
+                "artist": "NASCEN7",
+                "title": "Stuck In The Ever",
+                "file": "2026/Sim_Selections_JULY_2026/15. NASCEN7 - Stuck In The Ever.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 212.52
+            },
+            {
+                "trackNo": 16,
+                "artist": "Skitter",
+                "title": "tailwhip",
+                "file": "2026/Sim_Selections_JULY_2026/16. Skitter - tailwhip.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 119.82
+            },
+            {
+                "trackNo": 17,
+                "artist": "ArcticOne",
+                "title": "Waiting For Thunder (Heatwave Mix)",
+                "file": "2026/Sim_Selections_JULY_2026/17. ArcticOne - Waiting For Thunder (Heatwave Mix).mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 299.95
+            },
+            {
+                "trackNo": 18,
+                "artist": "kruvek",
+                "title": "atmosphere.wav",
+                "file": "2026/Sim_Selections_JULY_2026/18. kruvek - atmosphere.wav.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 335.28
+            },
+            {
+                "trackNo": 19,
+                "artist": "Storm",
+                "title": "Slumber of the Frogs",
+                "file": "2026/Sim_Selections_JULY_2026/19. Storm - Slumber of the Frogs.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 96.73
+            },
+            {
+                "trackNo": 20,
+                "artist": "bit.r.ist",
+                "title": "Rain, the Moon, and Me",
+                "file": "2026/Sim_Selections_JULY_2026/20. bit.r.ist - Rain, the Moon, and Me.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 269.74
+            },
+            {
+                "trackNo": 21,
+                "artist": "edwin",
+                "title": "thunder",
+                "file": "2026/Sim_Selections_JULY_2026/21. edwin - thunder.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 42.03
+            },
+            {
+                "trackNo": 22,
+                "artist": "Peregrine (cschweppe)",
+                "title": "Of Nowhere",
+                "file": "2026/Sim_Selections_JULY_2026/22. Peregrine (cschweppe) - Of Nowhere.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 262.87
+            },
+            {
+                "trackNo": 23,
+                "artist": "Robert Redshaw",
+                "title": "The Rush",
+                "file": "2026/Sim_Selections_JULY_2026/23. Robert Redshaw - The Rush.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 186.34
+            },
+            {
+                "trackNo": 24,
+                "artist": "Saw Whet",
+                "title": "Quicksand",
+                "file": "2026/Sim_Selections_JULY_2026/24. Saw Whet - Quicksand.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 183.46
+            },
+            {
+                "trackNo": 25,
+                "artist": "edwin",
+                "title": "windy",
+                "file": "2026/Sim_Selections_JULY_2026/25. edwin - windy.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 64.29
+            },
+            {
+                "trackNo": 26,
+                "artist": "frildoh",
+                "title": "Nighteyes",
+                "file": "2026/Sim_Selections_JULY_2026/26. frildoh - Nighteyes.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 262.9
+            },
+            {
+                "trackNo": 27,
+                "artist": "Astar, a Robot",
+                "title": "Bo\u00f6tes Void",
+                "file": "2026/Sim_Selections_JULY_2026/27. Astar, a Robot - Bo\u00f6tes Void.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 276.43
+            },
+            {
+                "trackNo": 28,
+                "artist": "Adam Johan Bergren",
+                "title": "Exile",
+                "file": "2026/Sim_Selections_JULY_2026/28. Adam Johan Bergren - Exile.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 233.09
+            },
+            {
+                "trackNo": 29,
+                "artist": "Oobesan",
+                "title": "Vitthala Panduranga",
+                "file": "2026/Sim_Selections_JULY_2026/29. Oobesan - Vitthala Panduranga.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 240.34
+            },
+            {
+                "trackNo": 30,
+                "artist": "Spirit Unknown",
+                "title": "Rain Dance",
+                "file": "2026/Sim_Selections_JULY_2026/30. Spirit Unknown - Rain Dance.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 386.45
+            },
+            {
+                "trackNo": 31,
+                "artist": "dedblank",
+                "title": "Smokey Summer",
+                "file": "2026/Sim_Selections_JULY_2026/31. dedblank - Smokey Summer.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 190.93
+            },
+            {
+                "trackNo": 32,
+                "artist": "fulhjort",
+                "title": "Enough, soon enough.",
+                "file": "2026/Sim_Selections_JULY_2026/32. fulhjort - Enough, soon enough_.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 209.14
+            },
+            {
+                "trackNo": 33,
+                "artist": "Softcore Toucan",
+                "title": "Sidequest Stulle",
+                "file": "2026/Sim_Selections_JULY_2026/33. Softcore Toucan - Sidequest Stulle.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 223.73
+            },
+            {
+                "trackNo": 34,
+                "artist": "Oobesan",
+                "title": "So Easy",
+                "file": "2026/Sim_Selections_JULY_2026/34. Oobesan - So Easy.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 192.31
+            },
+            {
+                "trackNo": 35,
+                "artist": "tabs",
+                "title": "A Walk at 0500 on 28th July 2026",
+                "file": "2026/Sim_Selections_JULY_2026/35. tabs - A Walk at 0500 on 28th July 2026.mp3",
+                "link": "https://soundcloud.com/user-783179659/26-07-sim-selections-a-walk-at",
+                "optIn": false,
+                "canPlay": false,
+                "length": 199.9
+            },
+            {
+                "trackNo": 36,
+                "artist": "Fine Structure Constant",
+                "title": "Nature's Lament",
+                "file": "2026/Sim_Selections_JULY_2026/36. Fine Structure Constant - Nature's Lament.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 219.02
+            },
+            {
+                "trackNo": 37,
+                "artist": "kruvek",
+                "title": "who_loves_the_rain.wav",
+                "file": "2026/Sim_Selections_JULY_2026/37. kruvek - who_loves_the_rain.wav.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 273.08
+            },
+            {
+                "trackNo": 38,
+                "artist": "Heavix",
+                "title": "HennJordan",
+                "file": "2026/Sim_Selections_JULY_2026/38. Heavix - HennJordan.mp3",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 102.29
+            },
+            {
+                "trackNo": 39,
+                "artist": "Christopher Sisk",
+                "title": "The Fireflies Are Out Tonight",
+                "file": "2026/Sim_Selections_JULY_2026/39. Christopher Sisk - The Fireflies Are Out Tonight.mp3",
+                "link": "https://music.christophersisk.com/simsel",
+                "optIn": false,
+                "canPlay": false,
+                "length": 218.04
+            },
+            {
+                "trackNo": 40,
+                "artist": "jungle pickle",
+                "title": "on a beach",
+                "file": "2026/Sim_Selections_JULY_2026/40. jungle pickle - on a beach.mp4",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 179.99
+            },
+            {
+                "trackNo": 41,
+                "artist": "Hunter the Gatherer",
+                "title": "A Good Year (but maybe not for me)",
+                "file": "2026/Sim_Selections_JULY_2026/41. Hunter the Gatherer - A Good Year (but maybe not for me).mp4",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 231.13
             }
         ]
     }
