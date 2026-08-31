@@ -4149,10 +4149,11 @@ export const playlistData = [
                 "trackNo": 28,
                 "artist": "Fractalint",
                 "title": "Perceptual Gate",
-                "file": "",
+                "file": "2022/Sim_Selections_DECEMBER_2022/27. Fractalint - Perceptual Gate.wav",
                 "link": "https://soundcloud.com/fractalint/perceptual-gate",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 219.57
             }
         ]
     },
@@ -4484,505 +4485,581 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Seth Monyette",
                 "title": "Grounded",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/101. Seth Monyette - Grounded.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.0
             },
             {
                 "trackNo": 2,
                 "artist": "Joel",
                 "title": "Love Letter",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/102. Joel - Love letter.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.0
             },
             {
                 "trackNo": 3,
                 "artist": "Tom Morton",
                 "title": "The Revelation",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/103. Tom Morton - The Revelation.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 84.01
             },
             {
                 "trackNo": 4,
                 "artist": "Stu M",
                 "title": "Casing Duet",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/104. stu m - Casing Duet.wav",
                 "link": "https://soundcloud.com/stumcgregor/stu-m-casing-duet?si=ba805f32702c4995b37226c8368ec361&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.36
             },
             {
                 "trackNo": 5,
                 "artist": "Axel Ramirez",
                 "title": "Self-Reflection",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/105. Axel Ramirez - Self-reflection.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.0
             },
             {
                 "trackNo": 6,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Imminent Trousers",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/106. Thomas and the Evil Computer - Imminent Trousers.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.43
             },
             {
                 "trackNo": 7,
                 "artist": "Kiwillian",
                 "title": "Quiet Earth",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/107. Kiwillian - Quiet Earth.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.34
             },
             {
                 "trackNo": 8,
                 "artist": "Fileareport",
                 "title": "ObviousOblivious",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/108. fileareport - ObviousOblivious.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.05
             },
             {
                 "trackNo": 9,
                 "artist": "Mark Feifarek",
                 "title": "Silence Of The Forest",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/109. Mark Feifarek - Silence of the forest.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.29
             },
             {
                 "trackNo": 10,
                 "artist": "Peman Audio",
                 "title": "Non Existing Soundtrack",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/110. Peman Audio - Non existing soundtrack.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 92.19
             },
             {
                 "trackNo": 11,
                 "artist": "Zero Lucks Given",
                 "title": "None Shall Pass",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/111. Zero Lucks Given - None Shall Pass.wav",
                 "link": "https://www.youtube.com/watch?v=dRwadkEWpLE",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.78
             },
             {
                 "trackNo": 12,
                 "artist": "DRMR",
                 "title": "The Last Vampire Hunter",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/112. DRMR - The Last Vampire Hunter.wav",
                 "link": "https://www.youtube.com/watch?v=ciIEwJU_0h0",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 88.15
             },
             {
                 "trackNo": 13,
                 "artist": "Ponyart",
                 "title": "Selling Your Product",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/113. PonyArt - Selling Your Product.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.5
             },
             {
                 "trackNo": 14,
                 "artist": "Fractalint",
                 "title": "Arrival",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/114. Fractalint - Arrival.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.0
             },
             {
                 "trackNo": 15,
                 "artist": "Pulse-static",
                 "title": "Memories Of The Forest",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/115. Pulse-Static - Memories Of The Forest.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.53
             },
             {
                 "trackNo": 16,
                 "artist": "NGC 3019",
                 "title": "The Lost And Found",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/116. NGC 3019 - The Lost and Found.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.51
             },
             {
                 "trackNo": 17,
                 "artist": "Rosentwig",
                 "title": "Alien Entity Killer Cleans Up Kill",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/117. Rosentwig - Alien entitykiller cleans up kill.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.43
             },
             {
                 "trackNo": 18,
                 "artist": "Dan",
                 "title": "Time",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/118. Dan - Time.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.5
             },
             {
                 "trackNo": 19,
                 "artist": "Mr P",
                 "title": "SS23-2 Alternate Version",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/119. Mr P - SS23-2 Alternate Version.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 81.5
             },
             {
                 "trackNo": 20,
                 "artist": "Tessellation Row",
                 "title": "Subsidence",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/120. Tessellation Row - Subsidence.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.0
             },
             {
                 "trackNo": 21,
                 "artist": "Nornec",
                 "title": "Scornec",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/121. Nornec - Scornec.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.5
             },
             {
                 "trackNo": 22,
                 "artist": "Skitter",
                 "title": "A Sudden Cold Case",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/122. Skitter - A Sudden Cold Case.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.08
             },
             {
                 "trackNo": 23,
                 "artist": "Fjaru",
                 "title": "Something Is Afoot",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/123. Fjaru - Something is afoot.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.28
             },
             {
                 "trackNo": 24,
                 "artist": "Nootropic",
                 "title": "Truth Decay",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/124. NOOTROPIC - Truth Decay.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.51
             },
             {
                 "trackNo": 25,
                 "artist": "Wonky Robot",
                 "title": "Sim Film Score (Feb 2023)",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/125. Wonky Robot - Sim Film Score (Feb 2023).wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.33
             },
             {
                 "trackNo": 26,
                 "artist": "Skyguide",
                 "title": "Ending Exodus",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/126. Skyguide - Ending Exodus.wav",
                 "link": "https://skyguiderecords.bandcamp.com/track/ending-exodus",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.06
             },
             {
                 "trackNo": 27,
                 "artist": "Grokker",
                 "title": "Breaking The Covenant",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/127. Grokker - Breaking the Covenant.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 92.59
             },
             {
                 "trackNo": 28,
                 "artist": "Firephly",
                 "title": "What Is Real",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/128. Firephly - What Is Real.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.5
             },
             {
                 "trackNo": 29,
                 "artist": "informationcake",
                 "title": "Veiled Forest",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/129. informationcake - Veiled Forest.wav",
                 "link": "",
                 "optIn": true,
-                "canPlay": false
+                "canPlay": true,
+                "length": 87.37
             },
             {
                 "trackNo": 30,
                 "artist": "CRXZOSDK",
                 "title": "Walk In The Forest",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/130. crxzosdk - walk in the forest.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.51
             },
             {
                 "trackNo": 31,
                 "artist": "Sarah Arvizo",
                 "title": "Score",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/131. Sarah Arvizo - Score.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 117.3
             },
             {
                 "trackNo": 32,
                 "artist": "Samar",
                 "title": "Ready For Unexpected",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/132. Samar - Ready for unexpected..wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.28
             },
             {
                 "trackNo": 33,
                 "artist": "Err Rawr",
                 "title": "Unexpected Happenings",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/133. err Rawr - Unexpected happenings on the 23rd moon of Planet Pulsar.wav",
                 "link": "https://youtu.be/V-1itBj-6XY",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 92.02
             },
             {
                 "trackNo": 34,
                 "artist": "Donoru",
                 "title": "Switchup",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/134. Donoru - Switchup.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.55
             },
             {
                 "trackNo": 35,
                 "artist": "Spec7or",
                 "title": "Preceding The Apocalypse",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/135. Spec7or - Preceding the apocalypse lol.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.33
             },
             {
                 "trackNo": 36,
                 "artist": "Mark",
                 "title": "Non-existent Song For A Non-existent Film Opus No 1",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/136. Mark - Non-Existent Song for a Non-Existent Film Opus No 1.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 93.18
             },
             {
                 "trackNo": 37,
                 "artist": "Tanukid",
                 "title": "So. It Turns Out That Nothing's Ever Really \"Free\"",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/137. TanukiD - So. It turns out that nothing's ever really 'free'..wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.0
             },
             {
                 "trackNo": 38,
                 "artist": "Devon Gates",
                 "title": "Hummer",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/138. Devon Gates - Hummer.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.0
             },
             {
                 "trackNo": 39,
                 "artist": "Too Much Stress",
                 "title": "Father's Theme",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/139. Too much stress - Father's Theme.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.33
             },
             {
                 "trackNo": 40,
                 "artist": "Theodore Snoozevelt",
                 "title": "Here Lies Snoozevelt, He Never Scored",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/140. Theodore Snoozevelt - here lies snoozevelt, he never scored.wav",
                 "link": "https://www.youtube.com/watch?v=-c41iha6DQk",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 88.33
             },
             {
                 "trackNo": 41,
                 "artist": "Menhirs",
                 "title": "Washed Out Road",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/141. Menhirs - Washed Out Road.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 92.0
             },
             {
                 "trackNo": 42,
                 "artist": "Mia Moon",
                 "title": "Memories Of The Woods",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/142. Mia Moon - Memories of the Woods.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.02
             },
             {
                 "trackNo": 43,
                 "artist": "Bazebuster",
                 "title": "None",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/143. bazebuster - None.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.5
             },
             {
                 "trackNo": 44,
                 "artist": "First Sun",
                 "title": "N/A",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/144. First Sun - First Sun - BLJ_Scoring_With_Sound_Design_Final.wav",
                 "link": "https://www.youtube.com/watch?v=NWiBBd9Vt2Y",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.51
             },
             {
                 "trackNo": 45,
                 "artist": "Adam Johan Bergren",
                 "title": "The Trail Runs Cold (AN LJ, PI Mystery)",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/145. Adam Johan Bergren - The Trail Runs Cold (an LJ, PI Mystery).wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 88.06
             },
             {
                 "trackNo": 46,
                 "artist": "Broken Gravity",
                 "title": "The Lee Jordan Incident",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/146. Broken Gravity - The Lee Jordan Incident.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.33
             },
             {
                 "trackNo": 47,
                 "artist": "Default Media Transmitter",
                 "title": "SimScore",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/147. Default Media Transmitter - SimScore.wav",
                 "link": "https://youtu.be/XmqJmZpEZ_Y",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.5
             },
             {
                 "trackNo": 48,
                 "artist": "Frank Lumien",
                 "title": "Misunderstood",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/148. Frank Lumien - Misunderstood.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.02
             },
             {
                 "trackNo": 49,
                 "artist": "Takamoon",
                 "title": "Mr. Lee In The Forest",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/149. Takamoon - Mr. Lee in the Forest.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 84.0
             },
             {
                 "trackNo": 50,
                 "artist": "Gaze Boozan",
                 "title": "Unearthing The Truth",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/201. Gage Boozan - Unearthing the Truth.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 96.88
             },
             {
                 "trackNo": 51,
                 "artist": "Lizard Milke",
                 "title": "Sibilance",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/202. lizard milke - sibilance.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.51
             },
             {
                 "trackNo": 52,
                 "artist": "T3ter",
                 "title": "Filmscore",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/203. T3ter - T3ter - Film Score.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 88.0
             },
             {
                 "trackNo": 53,
                 "artist": "Thecuri",
                 "title": "No Traces",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/204. thecuri - no traces.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 90.5
             },
             {
                 "trackNo": 54,
                 "artist": "Tom Higgins",
                 "title": "Shackman 3000",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/205. Tom Higgins - Shackman 3000.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 87.0
             },
             {
                 "trackNo": 55,
                 "artist": "Lauren Pins Channels",
                 "title": "Purrmachine Being",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/206. Lauren pins channels - PurrMachine Being.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 91.55
             },
             {
                 "trackNo": 56,
                 "artist": "I,,onothem",
                 "title": "Dad-errant",
-                "file": "",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/207. \u0623\u201eonothem - Dad-errant.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 89.51
+            },
+            {
+                "trackNo": 208,
+                "artist": "Olessia Dupuy",
+                "title": "Promenade",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/208. Olessia Dupuy - Promenade.wav",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 85.3
+            },
+            {
+                "trackNo": 209,
+                "artist": "DARKMAJIK",
+                "title": "Spoon",
+                "file": "2023/Sim_Selections_FEBRUARY_2023/209. DARKMAJIK - Spoon.wav",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 92.6
             }
         ]
     },
@@ -5023,10 +5100,11 @@ export const playlistData = [
                 "trackNo": 3,
                 "artist": "Seth Monyette",
                 "title": "D1CE3",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/03. Seth Monyette - d1ce3.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 172.22
             },
             {
                 "trackNo": 4,
@@ -5042,10 +5120,11 @@ export const playlistData = [
                 "trackNo": 5,
                 "artist": "Takamoon",
                 "title": "Dig Deeper",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/05. Takamoon - Dig Deeper.flac",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 220.46
             },
             {
                 "trackNo": 6,
@@ -5091,10 +5170,11 @@ export const playlistData = [
                 "trackNo": 10,
                 "artist": "Josef HF K(ErikJMS)",
                 "title": "Thousand Year Drought",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/10. josef hf k (erikjms) - thousand year drought.flac",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 280.58
             },
             {
                 "trackNo": 11,
@@ -5130,10 +5210,11 @@ export const playlistData = [
                 "trackNo": 14,
                 "artist": "Mia Moon",
                 "title": "In The Tunnels",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/14. Mia Moon - In the Tunnels.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.0
             },
             {
                 "trackNo": 15,
@@ -5159,10 +5240,11 @@ export const playlistData = [
                 "trackNo": 17,
                 "artist": "Computrhead",
                 "title": "Liquid Acid - Brendan Ballerini",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/17. Brendan Ballerini - Liquid Acid.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 330.6
             },
             {
                 "trackNo": 18,
@@ -5198,10 +5280,11 @@ export const playlistData = [
                 "trackNo": 21,
                 "artist": "Adam Johan Bergren",
                 "title": "Preference Mod Matrix",
-                "file": "",
+                "file": "2023/Sim_Selections_MARCH_2023/21. Adam Johan Bergren - Preference Mod Matrix.wav",
                 "link": "https://adamjohanbergren.bandcamp.com/track/preference-mod-matrix",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 206.81
             },
             {
                 "trackNo": 22,
@@ -5351,10 +5434,11 @@ export const playlistData = [
                 "trackNo": 8,
                 "artist": "Aplut",
                 "title": "Fabulist",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/08. Aplut - Fabulist.flac",
                 "link": "https://soundcloud.com/aplutofficial/fabulist",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 129.55
             },
             {
                 "trackNo": 9,
@@ -5390,10 +5474,11 @@ export const playlistData = [
                 "trackNo": 12,
                 "artist": "Seth Monyette",
                 "title": "Need",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/12. Seth Monyette - Need.wav.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 204.0
             },
             {
                 "trackNo": 13,
@@ -5439,19 +5524,21 @@ export const playlistData = [
                 "trackNo": 17,
                 "artist": "Takamoon",
                 "title": "Sabretooth Soldier",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/17. Takamoon - Sabretooth Soldier.flac",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 165.0
             },
             {
                 "trackNo": 18,
                 "artist": "Skyguide",
                 "title": "Sloe Gin Horse",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/18. Skyguide - Sloe Gin Horse.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 211.66
             },
             {
                 "trackNo": 19,
@@ -5487,10 +5574,11 @@ export const playlistData = [
                 "trackNo": 22,
                 "artist": "Edwin",
                 "title": "Tower Of Hollow And Ring Mod",
-                "file": "",
+                "file": "2023/Sim_Selections_APRIL_2023/22. Edwin - Tower Of Hollow and Ring Mod.flac",
                 "link": "https://www.youtube.com/watch?v=ywxlFSrBSAk",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.01
             },
             {
                 "trackNo": 23,
@@ -5541,10 +5629,11 @@ export const playlistData = [
                 "trackNo": 3,
                 "artist": "Seth Monyette",
                 "title": "Among The Canopy",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/03. Seth Monyette - Among the Canopy.wav.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 128.32
             },
             {
                 "trackNo": 4,
@@ -5659,10 +5748,11 @@ export const playlistData = [
                 "trackNo": 15,
                 "artist": "Skyguide",
                 "title": "Meridian",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/14. Skyguide - Meridian.wav",
                 "link": "https://distrokid.com/hyperfollow/skyguide/meridian",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.35
             },
             {
                 "trackNo": 16,
@@ -5678,20 +5768,31 @@ export const playlistData = [
                 "trackNo": 17,
                 "artist": "NGC3019",
                 "title": "Return To Stardust",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/16. NGC 3019 - Return to Stardust.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 240.0
             },
             {
                 "trackNo": 18,
-                "artist": "Nornec",
-                "title": "Apex",
+                "artist": "Kevhuman",
+                "title": "Not Their King",
                 "file": "2023/Sim_Selections_MAY_2023/18. Kevhuman - Not Their King.mp3",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
                 "length": 289.05
+            },
+            {
+                "trackNo": 18,
+                "artist": "Nornec",
+                "title": "Apex",
+                "file": "2023/Sim_Selections_MAY_2023/17. Nornec - Apex.wav",
+                "link": "",
+                "optIn": false,
+                "canPlay": false,
+                "length": 287.21
             },
             {
                 "trackNo": 19,
@@ -5757,10 +5858,11 @@ export const playlistData = [
                 "trackNo": 25,
                 "artist": "Edwin",
                 "title": "Such Canopies Are",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/25. Edwin - Such Canopies Are.flac",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 143.81
             },
             {
                 "trackNo": 26,
@@ -5776,10 +5878,11 @@ export const playlistData = [
                 "trackNo": 27,
                 "artist": "Zero Lucks Given",
                 "title": "The Overstory",
-                "file": "",
+                "file": "2023/Sim_Selections_MAY_2023/27. Zero Lucks Given - The Overstory.flac",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-overstory",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 277.0
             }
         ]
     },
@@ -5910,10 +6013,11 @@ export const playlistData = [
                 "trackNo": 11,
                 "artist": "Edwin",
                 "title": "Gulls At The Shore",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/06. Edwin - Gulls at the Shore.flac",
                 "link": "https://www.youtube.com/watch?v=ln56a-jy1E4",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 181.0
             },
             {
                 "trackNo": 12,
@@ -5939,10 +6043,11 @@ export const playlistData = [
                 "trackNo": 14,
                 "artist": "Nornec",
                 "title": "Salt",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/11. Nornec - Salt.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 236.57
             },
             {
                 "trackNo": 15,
@@ -5988,10 +6093,11 @@ export const playlistData = [
                 "trackNo": 19,
                 "artist": "Seth Monyette",
                 "title": "Voicelog 4 hd258792 d",
-                "file": "",
+                "file": "2023/Sim_Selections_JUNE_2023/20. Seth Monyette - Voicelog 4 - HD 258792 d.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 212.57
             },
             {
                 "trackNo": 20,
@@ -6022,10 +6128,11 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Seth Monyette",
                 "title": "Centrosome",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/01. Seth Monyette - Centrosome.wav.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.38
             },
             {
                 "trackNo": 2,
@@ -6061,10 +6168,11 @@ export const playlistData = [
                 "trackNo": 5,
                 "artist": "Skyguide",
                 "title": "Fog Bank",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/05. Skyguide - Fogbank.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.0
             },
             {
                 "trackNo": 6,
@@ -6110,10 +6218,11 @@ export const playlistData = [
                 "trackNo": 10,
                 "artist": "Nornec",
                 "title": "Terminal",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/10. Nornec - Terminal.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 215.09
             },
             {
                 "trackNo": 11,
@@ -6139,10 +6248,11 @@ export const playlistData = [
                 "trackNo": 13,
                 "artist": "Edwin",
                 "title": "Nousejam",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/13. Edwin - Nousejam.flac",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 231.11
             },
             {
                 "trackNo": 14,
@@ -6208,10 +6318,11 @@ export const playlistData = [
                 "trackNo": 20,
                 "artist": "Zero Lucks Given",
                 "title": "And Hell Followed With Me",
-                "file": "",
+                "file": "2023/Sim_Selections_JULY_2023/20. Zero Lucks Given - And Hell Followed With Me.flac",
                 "link": "https://zerolucksgiven.bandcamp.com/track/and-hell-followed-with-me",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 257.0
             },
             {
                 "trackNo": 21,
@@ -6251,19 +6362,21 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Valeph_{0}",
                 "title": "Mouth_Perc",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/aleph_{0} - mouth_perc .wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 108.47
             },
             {
                 "trackNo": 2,
                 "artist": "Seth Monyette",
                 "title": "XYLEM",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/01. Seth Monyette - Xylem.wav.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 159.0
             },
             {
                 "trackNo": 3,
@@ -6369,19 +6482,21 @@ export const playlistData = [
                 "trackNo": 12,
                 "artist": "Menhirs",
                 "title": "Life In Lines",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/13. Menhirs - Life in Lines.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 216.58
             },
             {
                 "trackNo": 13,
                 "artist": "Skyguide",
                 "title": "Kitchen Type Beat",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/14. Skyguide - Kitchen Type Beat.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 170.0
             },
             {
                 "trackNo": 14,
@@ -6417,10 +6532,11 @@ export const playlistData = [
                 "trackNo": 17,
                 "artist": "Pulse-Static",
                 "title": "Dithered Fields",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/18. Pulse-Static - Dithered Fields.flac",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 222.41
             },
             {
                 "trackNo": 18,
@@ -6456,19 +6572,21 @@ export const playlistData = [
                 "trackNo": 21,
                 "artist": "Nornec",
                 "title": "PSA",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/22. Nornec - PSA.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 171.0
             },
             {
                 "trackNo": 22,
                 "artist": "NGC3019",
                 "title": "Mooncat Whiskers",
-                "file": "",
+                "file": "2023/Sim_Selections_AUGUST_2023/23. NGC 3019 - Mooncat Whiskers.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 202.11
             },
             {
                 "trackNo": 23,
@@ -6548,10 +6666,11 @@ export const playlistData = [
                 "trackNo": 5,
                 "artist": "Menhirs",
                 "title": "Cave Walls",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/05. Menhirs - Cave Walls.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 109.79
             },
             {
                 "trackNo": 6,
@@ -6577,10 +6696,11 @@ export const playlistData = [
                 "trackNo": 8,
                 "artist": "Seth Monyette",
                 "title": "Face It",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/08. Seth Monyette - Face it.wav.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 192.0
             },
             {
                 "trackNo": 9,
@@ -6606,10 +6726,11 @@ export const playlistData = [
                 "trackNo": 11,
                 "artist": "Nornec",
                 "title": "Of Machines",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/11. Nornec - Of Machines.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 293.33
             },
             {
                 "trackNo": 12,
@@ -6685,10 +6806,11 @@ export const playlistData = [
                 "trackNo": 19,
                 "artist": "Zero Lucks Given",
                 "title": "Poro Roggo's Dance",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/19. Zero Lucks Given - Poro Roggo's Dance.flac",
                 "link": "https://zerolucksgiven.bandcamp.com/track/poro-roggos-dance",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 369.12
             },
             {
                 "trackNo": 20,
@@ -6704,28 +6826,31 @@ export const playlistData = [
                 "trackNo": 21,
                 "artist": "Mikey303",
                 "title": "Party Foul",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/21. -.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 196.97
             },
             {
                 "trackNo": 22,
                 "artist": "Skyguide",
                 "title": "Rythm.ic",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/22. Skyguide - Rythm.ic.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 36.57
             },
             {
                 "trackNo": 23,
                 "artist": "Fool Mala",
                 "title": "Cortical Midline Failure",
-                "file": "",
+                "file": "2023/Sim_Selections_SEPTEMBER_2023/23. Fool Mala - Cortical Midline Failure.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 180.0
             },
             {
                 "trackNo": 24,
@@ -6775,10 +6900,11 @@ export const playlistData = [
                 "trackNo": 3,
                 "artist": "Edwin",
                 "title": "Something outside my window oh it's just winter",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/03. Edwin - something outside my window oh its just winter.flac",
                 "link": "https://www.youtube.com/watch?v=ZmO8LwmsBIw",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 223.3
             },
             {
                 "trackNo": 4,
@@ -6794,19 +6920,21 @@ export const playlistData = [
                 "trackNo": 5,
                 "artist": "Zero Lucks Given",
                 "title": "Shudderbug",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/05. Zero Lucks Given - Shudderbug.flac",
                 "link": "https://zerolucksgiven.bandcamp.com/track/shudderbug",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 233.78
             },
             {
                 "trackNo": 6,
                 "artist": "Meganeura and Nornec",
                 "title": "Rule Of Two",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/06. Meganeura and Nornec - Rule of Two.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 280.2
             },
             {
                 "trackNo": 7,
@@ -6972,10 +7100,11 @@ export const playlistData = [
                 "trackNo": 23,
                 "artist": "Fjaru & Nornec",
                 "title": "As The Gate Opens",
-                "file": "",
+                "file": "2023/Sim_Selections_OCTOBER_2023/23. Fjaru and Nornec - As The Gate Opens.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 608.24
             },
             {
                 "trackNo": 24,
@@ -7517,10 +7646,11 @@ export const playlistData = [
                 "trackNo": 9,
                 "artist": "PonyArt",
                 "title": "Music for a game part 1,2,3 WIP",
-                "file": "",
+                "file": "2023/Sim_Selections_DECEMBER_2023/09. PonyArt - Music For A Game Part 1,2,3 WIP.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 316.94
             },
             {
                 "trackNo": 10,
@@ -9564,7 +9694,7 @@ export const playlistData = [
             "terror"
         ],
         "challenge": "Remix \"Nornec - Confusion\"",
-        "streamUrl": "https://www.youtube.com/watch?v=5DRN3Dr1xVQ",
+        "streamUrl": "https://www.youtube.com/watch?v=GMbK3bWo8Ug",
         "tracks": [
             {
                 "trackNo": 1,
@@ -13380,10 +13510,11 @@ export const playlistData = [
                 "trackNo": 10,
                 "artist": "Dalton",
                 "title": "The Ancient Club",
-                "file": "",
+                "file": "2025/Sim_Selections_JUNE_2025/12. Dalton - The Ancient Club.wav",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 147.0
             },
             {
                 "trackNo": 11,
@@ -13549,10 +13680,11 @@ export const playlistData = [
                 "trackNo": 27,
                 "artist": "vetra miga",
                 "title": "183.7351334",
-                "file": "",
+                "file": "2025/Sim_Selections_JUNE_2025/28. vetra miga - 183.7351334.wav",
                 "link": "https://youtu.be/tNh993whMKc",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "length": 153.15
             },
             {
                 "trackNo": 28,
@@ -14477,7 +14609,7 @@ export const playlistData = [
             "Imperfect"
         ],
         "challenge": "Challenge the listener. We're talking unexpected sounds/timings/progressions/inter-genres, whatever devices you can think of to keep the listener questioning their musical reality. Break their expectations and the satisfaction they derive from sustained order, make them accept the inevitable decay of all systems into disorder.",
-        "streamUrl": "https://www.youtube.com/watch?v=NX_dPqAgTk0",
+        "streamUrl": "https://www.youtube.com/watch?v=mEC6PM97IRI",
         "tracks": [
             {
                 "trackNo": 1,
@@ -17182,7 +17314,7 @@ export const playlistData = [
             "Analog"
         ],
         "challenge": "Write a track that sits somewhere on the Ph scale, or transitions through it.",
-        "streamUrl": "https://www.youtube.com/watch?v=Cc0bkPl9y84",
+        "streamUrl": "https://www.youtube.com/watch?v=5DRN3Dr1xVQ",
         "tracks": [
             {
                 "trackNo": 1,

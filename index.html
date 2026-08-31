@@ -24,16 +24,24 @@
 </head>
 
 <body>
-    <!-- Password Protection Overlay -->
+    <!-- Password & Authentication Overlay -->
     <div id="password-overlay" class="password-overlay">
         <div class="password-card">
             <i data-lucide="lock" class="lock-icon"></i>
-            <h2>SimSelections Archives</h2>
-            <p>Please enter the access key to enter the archive.</p>
+            <h2>SimSelections Archive</h2>
+
+            <a href="/api/auth/discord" class="btn btn-discord-large" id="btn-discord-primary">
+                <i data-lucide="disc"></i> Login with Discord (Enables playback & opt-in features for artists)
+            </a>
+
+            <div class="auth-divider">
+                <span>Or use the global user/pass for view-only access.</span>
+            </div>
+
             <form id="password-form">
-                <input type="password" id="archive-password" placeholder="Access Key" required
+                <input type="password" id="archive-password" placeholder="View-Only Access Key"
                     autocomplete="current-password">
-                <button type="submit" class="btn btn-login">Unlock</button>
+                <button type="submit" class="btn btn-login">Enter View-Only</button>
             </form>
             <div id="password-error" class="password-error hidden">Invalid Access Key</div>
         </div>
@@ -52,13 +60,8 @@
                 </button>
             </div>
 
-            <div class="search-box">
-                <i data-lucide="search" class="search-icon"></i>
-                <input type="text" id="search-input" placeholder="Search songs or artists...">
-                <button id="clear-search" class="hidden">
-                    <i data-lucide="x"></i>
-                </button>
-            </div>
+            <!-- Auth Status & Controls (Below Header, Above Nav) -->
+            <div id="auth-sidebar-container" class="auth-sidebar-container"></div>
 
             <div class="sidebar-nav">
                 <div class="view-toggles">
@@ -75,6 +78,15 @@
                         <i data-lucide="bar-chart-3"></i> Statistics
                     </button>
                 </div>
+
+                <div class="search-box">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search songs or artists...">
+                    <button id="clear-search" class="hidden">
+                        <i data-lucide="x"></i>
+                    </button>
+                </div>
+
                 <button class="btn btn-shuffle-all" id="btn-shuffle-all">
                     <i data-lucide="shuffle"></i> Shuffle All
                 </button>
@@ -92,7 +104,6 @@
                 <div class="header-info">
                     <h1 id="playlist-title">Select a Playlist</h1>
                 </div>
-                <div class="header-actions"></div>
             </header>
 
             <!-- Playlist Metadata Dashboard Card -->
@@ -165,7 +176,8 @@
 
                     <div class="visualizer-container">
                         <canvas id="visualizer-canvas"></canvas>
-                        <video id="video-element" crossorigin="anonymous" playsinline controlsList="nodownload" oncontextmenu="return false;"></video>
+                        <video id="video-element" crossorigin="anonymous" playsinline controlsList="nodownload"
+                            oncontextmenu="return false;"></video>
 
                         <!-- Track Banner Overlay (when no visualization active / fallback) -->
                         <div class="visualizer-fallback-card" id="now-playing-fallback">
@@ -361,6 +373,13 @@
             </div>
             <div class="info-modal-body">
             </div>
+        </div>
+    </div>
+
+    <!-- Artist Self-Service Dashboard Modal -->
+    <div id="artist-dashboard-modal" class="modal-overlay hidden">
+        <div class="dashboard-modal-card">
+            <div id="artist-dashboard-content"></div>
         </div>
     </div>
 

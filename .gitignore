@@ -13,6 +13,7 @@ venv/
 env/
 python-portable/
 .env
+.dev.vars
 
 # OS specific files
 .DS_Store
@@ -22,3 +23,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
+
+# Runtime dynamic database (opt-out by default in production)
+data/dynamic_optin.json

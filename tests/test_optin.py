@@ -11,25 +11,25 @@ spec.loader.exec_module(scanner)
 
 def test_is_artist_opted_in():
     exact_set = {
-        "informationcake",
-        "Benn Jordan",
+        "Mock Artist Alpha",
+        "Mock Artist Beta",
         "Artist A",
         "Artist B"
     }
     fuzzy_set = {
-        "informationcake",
-        "bennjordan",
+        "mockartistalpha",
+        "mockartistbeta",
         "artista",
         "artistb"
     }
     optin_sets = (exact_set, fuzzy_set)
 
-    # Informationcake (caps) matches the lowercase version in exact_set via fuzzy fallback
-    assert scanner.is_artist_opted_in("Informationcake", optin_sets) is True
-    assert scanner.is_artist_opted_in("Benn Jordan", optin_sets) is True
+    # Mock Artist Alpha (caps) matches the lowercase version in exact_set via fuzzy fallback
+    assert scanner.is_artist_opted_in("Mock Artist Alpha", optin_sets) is True
+    assert scanner.is_artist_opted_in("Mock Artist Beta", optin_sets) is True
     
     # Other case discrepancies should succeed fuzzy match and be accepted
-    assert scanner.is_artist_opted_in("informationcake", optin_sets) is True
+    assert scanner.is_artist_opted_in("mock artist alpha", optin_sets) is True
     
     # Collabs where ALL opt-in
     assert scanner.is_artist_opted_in("Artist A feat. Artist B", optin_sets) is True
@@ -45,17 +45,16 @@ def test_is_artist_opted_in():
 
 def test_build_playlist_entry_optin_flags():
     mock_files = [
-        "01. Informationcake - Track1.mp3",
+        "01. Mock Artist Alpha - Track1.mp3",
         "02. Unopted Artist - Track2.mp3"
     ]
     meta = {
         "tracks": [
-            {"trackNo": 1, "artist": "Informationcake", "title": "Track1"},
+            {"trackNo": 1, "artist": "Mock Artist Alpha", "title": "Track1"},
             {"trackNo": 2, "artist": "Unopted Artist", "title": "Track2"}
         ]
     }
-    # The actual optin list has "informationcake" in lowercase
-    optin_sets = ({"informationcake"}, {"informationcake"})
+    optin_sets = ({"mock artist alpha"}, {"mockartistalpha"})
 
     playlist = scanner.build_playlist_entry(
         playlist_id="test-optin",
@@ -71,8 +70,8 @@ def test_build_playlist_entry_optin_flags():
     )
 
     t1 = playlist["tracks"][0]
-    assert t1["artist"] == "Informationcake"
-    assert t1["file"].endswith("01. Informationcake - Track1.mp3")
+    assert t1["artist"] == "Mock Artist Alpha"
+    assert t1["file"].endswith("01. Mock Artist Alpha - Track1.mp3")
     assert t1["optIn"] is True
     assert t1["canPlay"] is True
 

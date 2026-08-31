@@ -31,14 +31,17 @@ export function initUiElements() {
         playPlaylistBtn:  document.getElementById('btn-playlist-play'),
     });
 
-    // Password protection auth gate
+    // Password & Discord auth gate
     const passwordOverlay = document.getElementById('password-overlay');
     const passwordForm = document.getElementById('password-form');
     const passwordInput = document.getElementById('archive-password');
     const passwordError = document.getElementById('password-error');
     const CORRECT_HASH = '81eece161c57157ff3360d5edaf1d094794eaf846dc75651dbf28618901531bb';
 
-    if (localStorage.getItem('simselections_unlocked') === 'true') {
+    const isServerAuthed = Boolean(window.AUTH_STATE && window.AUTH_STATE.authenticated);
+    const isLocalUnlocked = localStorage.getItem('simselections_unlocked') === 'true';
+
+    if (isServerAuthed || isLocalUnlocked) {
         if (passwordOverlay) passwordOverlay.classList.add('hidden');
         initializeApp();
     } else {
@@ -47,7 +50,18 @@ export function initUiElements() {
                 e.preventDefault();
                 const hashedInput = await sha256(passwordInput.value);
                 if (hashedInput === CORRECT_HASH) {
+                    try {
+                        // Issue view-only session on server
+                        await fetch('/api/auth/login-basic', { method: 'POST' });
+                    } catch (err) {
+                        // Continue locally if offline
+                    }
                     localStorage.setItem('simselections_unlocked', 'true');
+                    if (window.AUTH_STATE && !window.AUTH_STATE.authenticated) {
+                        window.AUTH_STATE.role = 'view_only';
+                        window.AUTH_STATE.authenticated = true;
+                        window.AUTH_STATE.canPlayAudio = false;
+                    }
                     if (passwordOverlay) passwordOverlay.classList.add('hidden');
                     initializeApp();
                 } else {

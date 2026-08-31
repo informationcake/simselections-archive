@@ -1,14 +1,18 @@
 import { initUiElements } from './ui.js';
 import { loadOptInList } from './optin.js';
+import { initAuthAndDashboard } from './dashboard.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
+    // 1. Fetch live authentication & session state
+    await initAuthAndDashboard();
+
+    // 2. Fetch opt-in lists & dynamic overrides
     await loadOptInList();
 
-    // Initialize all DOM references and wire up event listeners.
-    // Auth check + app bootstrap are handled inside initUiElements → setupUiEventListeners.
+    // 3. Initialize UI elements & event listeners
     initUiElements();
 
-    // Refresh Lucide icons after DOM is populated
+    // 4. Refresh Lucide icons
     if (typeof lucide !== 'undefined') {
         lucide.createIcons();
     }

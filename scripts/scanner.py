@@ -850,7 +850,7 @@ def run_scan(music_dir, verbose=False):
                 playlist_id = f"{folder_year}-{month.lower()}"
                 playlist_name = f"{month.capitalize()} {folder_year}"
                 
-                files = sorted([f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f)) and f.lower().endswith((".mp3", ".mp4", ".webm", ".ogg", ".mov"))])
+                files = sorted([f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f)) and f.lower().endswith((".mp3", ".wav", ".flac", ".m4a", ".mp4", ".mkv", ".webm", ".ogg", ".mov", ".avi"))])
                 meta = meta_map.get(playlist_id, {})
                 playlist_entry = build_playlist_entry(
                     playlist_id=playlist_id,
