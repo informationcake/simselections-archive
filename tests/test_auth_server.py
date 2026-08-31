@@ -222,3 +222,17 @@ def test_tester_allowlist():
 
     with patch.dict("os.environ", {"DISCORD_TESTERS": ""}):
         assert start_server.is_tester_allowed("anyone", "111") is True
+
+def test_check_user_in_guild():
+    from auth import check_user_in_guild
+    # When guild_id is empty, returns True
+    assert check_user_in_guild("dummy_token", "") is True
+
+    # When guild API returns matching guild
+    mock_resp = MagicMock()
+    mock_resp.read.return_value = json.dumps([{"id": "111222333"}, {"id": "444555666"}]).encode('utf-8')
+    mock_resp.__enter__.return_value = mock_resp
+    
+    with patch("urllib.request.urlopen", return_value=mock_resp):
+        assert check_user_in_guild("dummy_token", "111222333") is True
+        assert check_user_in_guild("dummy_token", "999999999") is False

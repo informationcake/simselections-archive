@@ -30,7 +30,7 @@ export async function initAuthAndDashboard() {
     renderAuthHeader();
     setupDashboardEventListeners();
 
-    // Check for login query parameter in URL (e.g. ?auth=success or ?auth_notice=beta_restricted)
+    // Check for login query parameter in URL (e.g. ?auth=success, ?auth_notice=beta_restricted, or ?auth_error=guild_required)
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('auth') === 'success' || urlParams.get('auth') === 'dev_success') {
         window.history.replaceState({}, document.title, window.location.pathname);
@@ -43,6 +43,9 @@ export async function initAuthAndDashboard() {
     } else if (urlParams.get('auth_notice') === 'beta_restricted') {
         window.history.replaceState({}, document.title, window.location.pathname);
         showToast('Discord login is currently in private testing. You are connected in View-Only mode.', 'info');
+    } else if (urlParams.get('auth_error') === 'guild_required') {
+        window.history.replaceState({}, document.title, window.location.pathname);
+        showToast('Login failed: You must be a member of the Discord server to log in.', 'error');
     }
 }
 

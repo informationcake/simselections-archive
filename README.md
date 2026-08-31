@@ -90,13 +90,24 @@ python3 scripts/scanner.py --music-file-path </path/to/media/>
 
 If you don't have access to the media files, you can skip setting the environment variable and the script will still complete. You'll just not be able to play the tracks, and the matching of metadata to exact files may have some errors in it. In this case you may not be able to reliably or fully develop new features. The script will output errors and inform you if there are discrepencies with artist or track names between the Google Sheet and local files. It will also alert you if there are variations on artist names from typos in the Google Sheet. 
 
+### Create Discord identity map
+To link submissions to Discord user accounts, `scripts/compile_discord_map.py` parses the compiled catalog (`src/metadata.js`) and historical submission sheets (`data/metadata_YYYY.csv`). It deconstructs multi-artist collaboration strings into individual creators, normalises Discord handles, and generates the master identity lookup file: `data/artist_discord_map.json`.
+
+```bash
+python3 scripts/compile_discord_map.py
+```
+
+This mapping is used by both the local server and Cloudflare Workers to automatically populate the Artist Dashboard when an artist logs in with Discord, allowing them to manage playback permissions for their tracks.
+
 ### Fuzzy matching
 We have a situation where metadata in the Google Sheet may not exactly match that of the uploaded files. Whilst I fill in the Google Sheet with data that exactly matches the uploaded tracks (I have a script that does this to avoid errors), we enable the community to go and edit the Google Sheet, and they may wish to change their track name, artist name, or perhaps other data in the future. So having the ability to fuzzily match them is usefull. Therefore all media files must be downloaded locally for this matching process to generate the `src/metadata.js` file reliably and also to test playback.
 
-## Options for playback
-Playback has not been agreed upon yet and would be an opt-in feature.  
+## Playback
+Logging in with discord will be required for playback, but anyone logging in with the global user/pass can browse the catalog without playback.
 
-The best and most cost effective proposal so far is to use a Cloudflare R2 storage bucket combined with a serverless Cloudflare Worker proxy (`src/worker.js`). For the amount of data and number of expected users this is essentially free. In production, the player requests audio using relative paths (e.g., `/2024/...`), which are intercepted by the serverless proxy worker to stream tracks directly from the bound R2 bucket. Locally, these same relative requests are captured by the HTTP development server (`scripts/start_server.py`) and resolved to your local drive. This ensures that the local workspace matches the cloud setup. Whilst only opt-in tracks would be uploaded to the R2 bucket, the opt-in metadata ensures that even if files are in the R2 bucket they cannot be requested without consent. 
+All tracks are opted out of Playback until artists log in and enable it by hand. Since all submissions originally came with a discord handle, when an artist logs in with Discord the system automatically matches their account against `data/artist_discord_map.json` and loads their submissions into their artist dashboard panel. Artists can then toggle playback on or off for individual or all tracks. Collaboration tracks require all collaborators to opt-in. 
+
+The most effective deployment proposal is to use a Cloudflare R2 storage bucket combined with a serverless Cloudflare Worker proxy (`src/worker.js`). For the amount of data and number of expected users this is essentially free. In production, the player requests audio using relative paths (e.g., `/2024/...`), which are intercepted by the serverless proxy worker to stream tracks directly from the bound R2 bucket. Locally, these same relative requests are captured by the HTTP development server (`scripts/start_server.py`) and resolved to your local drive. This ensures that the local workspace matches the cloud setup.
 
 Beyond these technical aspects, we must ensure users are aware of the legal implications of sharing their music, with clear terms of service (further described in the additional information section).
 

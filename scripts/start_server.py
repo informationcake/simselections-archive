@@ -12,7 +12,7 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 # Import local auth helpers
 try:
     from auth import (
-        DISCORD_CLIENT_ID, DISCORD_REDIRECT_URI,
+        DISCORD_CLIENT_ID, DISCORD_REDIRECT_URI, DISCORD_GUILD_ID,
         sign_payload, verify_token, clean_string,
         get_linked_artists_for_user, exchange_discord_code,
         load_dynamic_optins, save_dynamic_optins, update_dynamic_optins_batch,
@@ -20,7 +20,7 @@ try:
     )
 except ImportError:
     from scripts.auth import (
-        DISCORD_CLIENT_ID, DISCORD_REDIRECT_URI,
+        DISCORD_CLIENT_ID, DISCORD_REDIRECT_URI, DISCORD_GUILD_ID,
         sign_payload, verify_token, clean_string,
         get_linked_artists_for_user, exchange_discord_code,
         load_dynamic_optins, save_dynamic_optins, update_dynamic_optins_batch,
@@ -236,9 +236,10 @@ class RangeHTTPRequestHandler(BaseHTTPRequestHandler):
                     self._safe_write(b"<h1>Discord OAuth Not Configured</h1><p>Please set DISCORD_CLIENT_ID in your .env file.</p>")
                     return
 
+                scope = "identify%20guilds" if DISCORD_GUILD_ID else "identify"
                 discord_oauth_url = (
                     f"https://discord.com/oauth2/authorize?client_id={DISCORD_CLIENT_ID}"
-                    f"&response_type=code&scope=identify"
+                    f"&response_type=code&scope={scope}"
                     f"&redirect_uri={urllib.parse.quote(DISCORD_REDIRECT_URI)}"
                 )
                 self.send_response(302)
@@ -284,6 +285,11 @@ class RangeHTTPRequestHandler(BaseHTTPRequestHandler):
                     self.send_response(302)
                     self.send_header('Set-Cookie', cookie)
                     self.send_header('Location', redirect_url)
+                    self.end_headers()
+                    return
+                except PermissionError:
+                    self.send_response(302)
+                    self.send_header('Location', '/index.html?auth_error=guild_required')
                     self.end_headers()
                     return
                 except Exception as e:

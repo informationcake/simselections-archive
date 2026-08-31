@@ -24,5 +24,5 @@ Thumbs.db
 .idea/
 *.code-workspace
 
-# Runtime dynamic database (opt-out by default in production)
+# Created automatically at runtime locally from start_server.py script.
 data/dynamic_optin.json

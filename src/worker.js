@@ -123,7 +123,8 @@ export default {
             if (!clientId) {
                 return new Response("Discord OAuth not configured on Worker.", { status: 500 });
             }
-            const discordUrl = `https://discord.com/oauth2/authorize?client_id=${clientId}&response_type=code&scope=identify&redirect_uri=${encodeURIComponent(redirectUri)}`;
+            const scope = env.DISCORD_GUILD_ID ? "identify%20guilds" : "identify";
+            const discordUrl = `https://discord.com/oauth2/authorize?client_id=${clientId}&response_type=code&scope=${scope}&redirect_uri=${encodeURIComponent(redirectUri)}`;
             return Response.redirect(discordUrl, 302);
         }
 
@@ -151,6 +152,23 @@ export default {
 
                 if (!tokenResp.ok) throw new Error("Failed to exchange token with Discord.");
                 const tokenData = await tokenResp.json();
+
+                // Verify Discord Server / Guild membership if DISCORD_GUILD_ID is configured
+                if (env.DISCORD_GUILD_ID && env.DISCORD_GUILD_ID.trim()) {
+                    const targetGuild = env.DISCORD_GUILD_ID.trim();
+                    const guildsResp = await fetch("https://discord.com/api/v10/users/@me/guilds", {
+                        headers: { Authorization: `Bearer ${tokenData.access_token}` }
+                    });
+                    if (guildsResp.ok) {
+                        const guilds = await guildsResp.json();
+                        const isInGuild = Array.isArray(guilds) && guilds.some(g => String(g.id) === targetGuild);
+                        if (!isInGuild) {
+                            return Response.redirect(`${url.origin}/index.html?auth_error=guild_required`, 302);
+                        }
+                    } else {
+                        return Response.redirect(`${url.origin}/index.html?auth_error=guild_required`, 302);
+                    }
+                }
 
                 const userResp = await fetch("https://discord.com/api/v10/users/@me", {
                     headers: { Authorization: `Bearer ${tokenData.access_token}` }

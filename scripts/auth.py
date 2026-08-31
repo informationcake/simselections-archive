@@ -50,6 +50,7 @@ load_env_file()
 DISCORD_CLIENT_ID = os.environ.get("DISCORD_CLIENT_ID", "")
 DISCORD_CLIENT_SECRET = os.environ.get("DISCORD_CLIENT_SECRET", "")
 DISCORD_REDIRECT_URI = os.environ.get("DISCORD_REDIRECT_URI", "http://localhost:8086/api/auth/callback")
+DISCORD_GUILD_ID = os.environ.get("DISCORD_GUILD_ID", "").strip()
 JWT_SECRET = os.environ.get("JWT_SECRET", "simselections_local_dev_secret_key_2026")
 DISCORD_TESTERS = os.environ.get("DISCORD_TESTERS", "").strip()
 
@@ -191,9 +192,27 @@ def get_linked_artists_for_user(username, discord_id=""):
                 
     return sorted(list(linked))
 
+def check_user_in_guild(access_token, guild_id):
+    """
+    Checks if the user associated with access_token is a member of the specified guild.
+    """
+    if not guild_id:
+        return True
+    try:
+        guilds_req = urllib.request.Request("https://discord.com/api/v10/users/@me/guilds", headers={
+            "Authorization": f"Bearer {access_token}",
+            "User-Agent": "SimSelectionsArchive/1.0"
+        })
+        with urllib.request.urlopen(guilds_req) as resp:
+            guilds = json.loads(resp.read().decode('utf-8'))
+            return any(str(g.get("id")) == str(guild_id) for g in guilds)
+    except Exception:
+        return False
+
 def exchange_discord_code(code):
     """
     Exchanges an OAuth2 code with Discord API for access token and fetches user profile.
+    If DISCORD_GUILD_ID is set, verifies that the user is a member of the required Discord server.
     """
     token_url = "https://discord.com/api/v10/oauth2/token"
     token_data = urllib.parse.urlencode({
@@ -211,6 +230,11 @@ def exchange_discord_code(code):
     with urllib.request.urlopen(req) as resp:
         token_resp = json.loads(resp.read().decode('utf-8'))
         access_token = token_resp.get("access_token")
+
+    if DISCORD_GUILD_ID:
+        in_guild = check_user_in_guild(access_token, DISCORD_GUILD_ID)
+        if not in_guild:
+            raise PermissionError("User is not a member of the required Discord server.")
 
     user_req = urllib.request.Request("https://discord.com/api/v10/users/@me", headers={
         "Authorization": f"Bearer {access_token}",
