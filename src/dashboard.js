@@ -344,9 +344,6 @@ async function toggleAllUserTracks(userTracks, optIn) {
  */
 async function toggleTrackOptIn(trackFile, artist, optIn) {
     updateLocalOptIn(trackFile, optIn);
-    if (artist) {
-        updateLocalOptIn(`artist:${artist.toLowerCase().replace(/[^a-z0-9]/g, '')}`, optIn);
-    }
 
     try {
         const resp = await fetch('/api/optin', {

@@ -158,7 +158,7 @@ def update_dynamic_optins_batch(items):
             opt_in = bool(it.get("optIn", True))
             if track_key:
                 dynamic_map[track_key] = opt_in
-            if artist_name:
+            elif artist_name:
                 dynamic_map[f"artist:{clean_string(artist_name)}"] = opt_in
 
         os.makedirs(os.path.dirname(DYNAMIC_OPTIN_PATH), exist_ok=True)
