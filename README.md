@@ -1,6 +1,6 @@
 # SimSelections Archive
 
-A custom archive for the **SimSelections** community song writing challenges.
+A custom archive for the **SimSelections** community song writing challenges in Benn Jordan's Discord server.
 
 ---
 
@@ -113,7 +113,7 @@ We have a situation where metadata in the Google Sheet may not exactly match tha
 ## Playback
 Logging in with discord will be required for playback, but anyone logging in with the global user/pass can browse the catalog without playback.
 
-All tracks are opted out of Playback until artists log in and enable it by hand. Since all submissions originally came with a discord handle, when an artist logs in with Discord the system automatically matches their account against `data/artist_discord_map.json` and loads their submissions into their artist dashboard panel. Artists can then toggle playback on or off for individual or all tracks. Collaboration tracks require all collaborators to opt-in. 
+All tracks are opted out of playback until artists log in and enable it by hand. Since all submissions originally came with a discord handle, when an artist logs in with Discord the system automatically matches their account against `data/artist_discord_map.json` and loads their submissions into their artist dashboard panel. Artists can then toggle playback on or off for individual or all tracks. Collaboration tracks require all collaborators to opt-in. 
 
 The most effective deployment proposal is to use a Cloudflare R2 storage bucket combined with a serverless Cloudflare Worker proxy (`src/worker.js`). For the amount of data and number of expected users this is essentially free. In production, the player requests audio using relative paths (e.g., `/2024/...`), which are intercepted by the serverless proxy worker to stream tracks directly from the bound R2 bucket. Locally, these same relative requests are captured by the HTTP development server (`scripts/start_server.py`) and resolved to your local drive. This ensures that the local workspace matches the cloud setup.
 
