@@ -185,19 +185,20 @@ def test_audio_gating_blocks_opted_out_track_for_discord_user():
         assert data["error"] == "track_opted_out"
 
 def test_dev_login_redirect():
-    handler = object.__new__(start_server.RangeHTTPRequestHandler)
-    handler.path = "/api/auth/dev-login?user=testuser"
-    handler.headers = {}
-    handler.wfile = MagicMock()
-    handler.send_response = MagicMock()
-    handler.send_header = MagicMock()
-    handler.end_headers = MagicMock()
-    handler.close_connection = False
+    with patch.dict("os.environ", {"DISCORD_TESTERS": ""}):
+        handler = object.__new__(start_server.RangeHTTPRequestHandler)
+        handler.path = "/api/auth/dev-login?user=testuser"
+        handler.headers = {}
+        handler.wfile = MagicMock()
+        handler.send_response = MagicMock()
+        handler.send_header = MagicMock()
+        handler.end_headers = MagicMock()
+        handler.close_connection = False
 
-    handler.do_GET()
+        handler.do_GET()
 
-    handler.send_response.assert_called_with(302)
-    handler.send_header.assert_any_call('Location', '/index.html?auth=dev_success')
+        handler.send_response.assert_called_with(302)
+        handler.send_header.assert_any_call('Location', '/index.html?auth=dev_success')
 
 def test_logout_clears_cookie():
     handler = object.__new__(start_server.RangeHTTPRequestHandler)

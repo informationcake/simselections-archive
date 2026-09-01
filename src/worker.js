@@ -180,9 +180,17 @@ export default {
                 let linkedArtists = [];
                 try {
                     let mapData = null;
-                    if (env.MUSIC_BUCKET) {
-                        const mapObj = await env.MUSIC_BUCKET.get("artist_discord_map.json");
-                        if (mapObj) mapData = await mapObj.json();
+                    if (env.ASSETS) {
+                        try {
+                            const assetResp = await env.ASSETS.fetch(new Request(new URL('/data/artist_discord_map.json', request.url)));
+                            if (assetResp.ok) mapData = await assetResp.json();
+                        } catch (e) {}
+                    }
+                    if (!mapData && env.MUSIC_BUCKET) {
+                        try {
+                            const mapObj = await env.MUSIC_BUCKET.get("artist_discord_map.json");
+                            if (mapObj) mapData = await mapObj.json();
+                        } catch (e) {}
                     }
                     if (mapData) {
                         const cUser = cleanString(user.username);
