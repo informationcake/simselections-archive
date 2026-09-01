@@ -3,9 +3,12 @@ import { FEATURES } from './features.js';
 import { playlistData } from './metadata.js';
 import { renderStatsDashboard } from './statistics.js';
 import { renderChallengesDashboard } from './challenges.js';
-import { playTrack, pauseCurrentMedia, resumeCurrentMedia, playRandomFromAll } from './player.js';
 import { resizeCanvas } from './visualizer.js';
-import { renderClustermapPlot, initializeClustermap } from './clustermap.js';
+import { 
+    renderClustermapPlot, initializeClustermap, 
+    startClustermapPulseLoop, stopClustermapPulseLoop,
+    updateSimulationForces, resetClustermapZoom, kickClustermapSimulation
+} from './clustermap.js';
 import {
     initLibraryElements, initLibrary,
     loadPlaylist, activatePlaylistSelection, updateMetadataCard,
@@ -105,6 +108,7 @@ function initializeFeatureModules() {
     // 3. Cluster Map Feature
     if (FEATURES && FEATURES.clusterMap) {
         initializeClustermap();
+        setupSliderListeners();
     } else {
         const clustermapToggle = document.getElementById('tab-clustermap-view');
         const clustermapViewContainer = document.getElementById('clustermap-view-container');
@@ -146,7 +150,15 @@ export function setupViewToggles() {
 
         if (viewGrid) viewGrid.classList.toggle('hidden', viewName !== 'playlist');
         if (contentHeader) contentHeader.classList.toggle('hidden', viewName !== 'playlist');
-        if (clustermapViewContainer) clustermapViewContainer.classList.toggle('hidden', viewName !== 'clustermap');
+        if (clustermapViewContainer) {
+            const isClustermap = viewName === 'clustermap';
+            clustermapViewContainer.classList.toggle('hidden', !isClustermap);
+            if (isClustermap && typeof startClustermapPulseLoop === 'function') {
+                startClustermapPulseLoop();
+            } else if (!isClustermap && typeof stopClustermapPulseLoop === 'function') {
+                stopClustermapPulseLoop();
+            }
+        }
         if (statsViewContainer) statsViewContainer.classList.toggle('hidden', viewName !== 'stats');
         if (challengesViewContainer) challengesViewContainer.classList.toggle('hidden', viewName !== 'challenges');
         if (metadataCard) {
@@ -228,10 +240,16 @@ export function setupInfoModal() {
             });
     }
 
-    const openModal = () => infoModal.classList.remove('hidden');
+    btnMoreInfo.addEventListener('click', () => {
+        const infoModalHeaderTitle = infoModal.querySelector('.info-modal-header h2');
+        if (infoModalHeaderTitle) {
+            infoModalHeaderTitle.textContent = 'More Information';
+        }
+        infoModal.classList.remove('hidden');
+    });
+
     const closeModal = () => infoModal.classList.add('hidden');
 
-    btnMoreInfo.addEventListener('click', openModal);
     btnCloseInfo.addEventListener('click', closeModal);
     infoModal.addEventListener('click', e => { if (e.target === infoModal) closeModal(); });
     document.addEventListener('keydown', e => {
@@ -405,4 +423,127 @@ if (typeof window !== 'undefined') {
     window.loadPlaylist = loadPlaylist;
     window.activatePlaylistSelection = activatePlaylistSelection;
     window.updateMetadataCard = updateMetadataCard;
+}
+
+/**
+ * Retrieves the current values of the Clustermap physics control sliders.
+ * These values are passed into the D3 simulation to adjust physics parameters like repel strength and regularity.
+ * @returns {Object} Dictionary containing the parsed values of the physics sliders.
+ */
+export function getSliderValues() {
+    const collab = document.getElementById('ctrl-collab');
+    const challenge = document.getElementById('ctrl-challenge');
+    const repel = document.getElementById('ctrl-repel');
+    const regularity = document.getElementById('ctrl-regularity');
+
+    return {
+        collab: collab ? parseFloat(collab.value) : 1.0,
+        challenge: challenge ? parseFloat(challenge.value) : 0.15,
+        repel: repel ? parseFloat(repel.value) : 10,
+        regularity: regularity ? parseFloat(regularity.value) : 0.0
+    };
+}
+
+/**
+ * Attaches event listeners to the Clustermap UI controls (sliders, resets, info modal).
+ * This wires up the HTML inputs to trigger updates in the D3 simulation.
+ */
+export function setupSliderListeners() {
+    const sliders = [
+        { id: 'ctrl-collab', valId: 'val-collab' },
+        { id: 'ctrl-challenge', valId: 'val-challenge' },
+        { id: 'ctrl-repel', valId: 'val-repel' },
+        { id: 'ctrl-regularity', valId: 'val-regularity' }
+    ];
+
+    const defaults = { 'ctrl-collab': 1.0, 'ctrl-challenge': 0.00, 'ctrl-repel': 100, 'ctrl-regularity': 0.00 };
+
+    sliders.forEach(({ id, valId }) => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.addEventListener('input', () => {
+                const valEl = document.getElementById(valId);
+                if (valEl) valEl.textContent = el.value;
+                if (typeof updateSimulationForces === 'function') {
+                    updateSimulationForces();
+                }
+            });
+            el.addEventListener('dblclick', () => {
+                el.value = defaults[id];
+                const valEl = document.getElementById(valId);
+                if (valEl) valEl.textContent = el.value;
+                if (typeof updateSimulationForces === 'function') {
+                    updateSimulationForces();
+                }
+            });
+        }
+    });
+
+    const layoutSelect = document.getElementById('ctrl-challenge-layout');
+    if (layoutSelect) {
+        layoutSelect.addEventListener('change', () => {
+            if (typeof updateSimulationForces === 'function') {
+                updateSimulationForces();
+            }
+            if (typeof kickClustermapSimulation === 'function') {
+                kickClustermapSimulation();
+            }
+        });
+    }
+
+    // Info button using event delegation to survive HTML hot-reloads
+    document.body.addEventListener('click', (e) => {
+        if (e.target && e.target.id === 'btn-clustermap-info') {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const infoModal = document.getElementById('info-modal');
+            const infoModalBody = document.querySelector('.info-modal-body');
+            const infoModalHeaderTitle = infoModal ? infoModal.querySelector('.info-modal-header h2') : null;
+
+            if (infoModal && infoModalBody) {
+                if (infoModalHeaderTitle) {
+                    infoModalHeaderTitle.textContent = 'Map Layout Controls';
+                }
+                
+                infoModalBody.innerHTML = `
+                    <p><strong>Challenge Layout:</strong> Switch between a dense Fibonacci flower or a wide open ring.</p>
+                    <p><strong>Collab Attraction:</strong> Pulls tracks by the same artist closer together (elastic links).</p>
+                    <p><strong>Challenge Attraction:</strong> Pulls tracks towards their respective challenge month cluster.</p>
+                    <p><strong>Map Spread:</strong> Adjusts the repulsive force pushing all tracks away from each other.</p>
+                    <p><strong>Regularity:</strong> Slide right to pull frequent submitters to the center; slide left to pull one-time submitters to the center.</p>
+                `;
+                infoModal.classList.remove('hidden');
+            }
+        }
+    });
+
+    // Reset button
+    const btnReset = document.getElementById('reset-clustermap-controls');
+    if (btnReset) {
+        btnReset.addEventListener('click', () => {
+            sliders.forEach(({ id, valId }) => {
+                const el = document.getElementById(id);
+                const valEl = document.getElementById(valId);
+                if (el) {
+                    el.value = defaults[id];
+                    if (valEl) valEl.textContent = defaults[id];
+                }
+            });
+
+            if (layoutSelect) layoutSelect.value = 'flower';
+
+            if (typeof resetClustermapZoom === 'function') {
+                resetClustermapZoom();
+            }
+            
+            if (typeof updateSimulationForces === 'function') {
+                updateSimulationForces();
+            }
+            
+            if (typeof kickClustermapSimulation === 'function') {
+                kickClustermapSimulation();
+            }
+        });
+    }
 }

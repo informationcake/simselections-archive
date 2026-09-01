@@ -271,23 +271,36 @@
                     <!-- Custom Artist Legend & Highlight Sidebar -->
                     <div class="clustermap-sidebar" id="clustermap-sidebar">
                         <div class="clustermap-controls-section">
-                            <h3>Map Layout Controls</h3>
+                            <h3 style="display: flex; justify-content: space-between; align-items: center;">
+                                Map Layout Controls
+                                <button id="btn-clustermap-info" class="btn" style="padding: 2px 6px; font-size: 0.75rem; border-radius: 50%; cursor: pointer;" title="Toggle Help Panel">?</button>
+                            </h3>
+
+                            <div class="control-group">
+                                <label for="ctrl-challenge-layout">Challenge Layout Style</label>
+                                <select id="ctrl-challenge-layout" style="width: 100%; padding: 4px; background: rgba(0,0,0,0.2); color: var(--text-color); border: 1px solid rgba(255,255,255,0.15); border-radius: 4px;">
+                                    <option value="flower">Flower (Fibonacci Spiral)</option>
+                                    <option value="ring">Ring (Radial Edge)</option>
+                                </select>
+                            </div>
                             <div class="control-group">
                                 <label for="ctrl-collab">Collab Attraction: <span id="val-collab">1.0</span></label>
                                 <input type="range" id="ctrl-collab" min="0" max="5" step="0.02" value="1.0">
                             </div>
                             <div class="control-group">
-                                <label for="ctrl-repel">Map Spread: <span id="val-repel">0</span></label>
-                                <input type="range" id="ctrl-repel" min="-50" max="600" step="1" value="0">
+                                <label for="ctrl-challenge">Challenge Attraction: <span id="val-challenge">0.00</span></label>
+                                <input type="range" id="ctrl-challenge" min="0" max="1" step="0.01" value="0.00">
                             </div>
                             <div class="control-group">
-                                <label for="ctrl-regularity">Regularity: <span id="val-regularity">0.000</span></label>
-                                <input type="range" id="ctrl-regularity" min="-0.035" max="0.05" step="0.0002"
-                                    value="0.000">
+                                <label for="ctrl-repel">Map Spread: <span id="val-repel">100</span></label>
+                                <input type="range" id="ctrl-repel" min="0" max="200" step="1" value="100">
+                            </div>
+                            <div class="control-group">
+                                <label for="ctrl-regularity">Regularity: <span id="val-regularity">0.00</span></label>
+                                <input type="range" id="ctrl-regularity" min="-1" max="1" step="0.01" value="0.00">
                             </div>
                             <button id="reset-clustermap-controls" class="clear-btn"
-                                style="margin-top: 6px; background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.15); color: var(--text-color);">Reset
-                                Controls</button>
+                                style="margin-top: 6px; background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.15); color: var(--text-color);">Reset Controls</button>
                         </div>
                         <div class="sidebar-search-box">
                             <input type="text" id="artist-legend-search" placeholder="Search artists...">
@@ -387,7 +400,7 @@
     <audio id="audio-element" crossorigin="anonymous" controlsList="nodownload"></audio>
 
     <!-- External Libraries -->
-    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script type="module" src="src/main.js"></script>
 </body>
