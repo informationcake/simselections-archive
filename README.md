@@ -8,51 +8,58 @@ A custom archive for the **SimSelections** community song writing challenges.
 
 ```text
 ├── data/
-│   ├── metadata_YYYY.csv       # Downloaded metadata per year
-│   └── optin-playback.txt      # Test file for playback opt-in (not implemented yet)
+│   ├── artist_discord_map.json         # Compiled Discord identity & artist lookup map
+│   └── metadata_YYYY.csv               # Downloaded metadata per year
 ├── scripts/
-│   ├── download_sheets.py      # Google Sheets tab downloader
-│   ├── scanner.py              # Library scanner & catalog compiler
-│   └── start_server.py         # Local HTTP server with Range Request support
+│   ├── auth.py                         # Discord OAuth, JWT sessions, allowlist & guild check
+│   ├── compile_discord_map.py          # Discord identity map compiler
+│   ├── download_sheets.py              # Google Sheets tab downloader
+│   ├── scanner.py                      # Library scanner & catalog compiler
+│   └── start_server.py                 # Local HTTP server with Range Request & API support
 ├── src/
 │   ├── css/
-│   │   ├── base.css            # Reset, body, app grid, scrollbars
-│   │   ├── challenges.css      # Challenges dashboard panel styles
-│   │   ├── clustermap.css      # Cluster map panel and sidebar styles
-│   │   ├── components.css      # Shared UI components (vinyl, visualiser, etc.)
-│   │   ├── content.css         # Main area, panels, tracklist, buttons
-│   │   ├── player-bar.css      # Footer player bar controls
-│   │   ├── sidebar.css         # Sidebar, logo, search, library
-│   │   ├── statistics.css      # Statistics dashboard panel styles
-│   │   └── variables.css       # Design variables (colours, spacing, fonts)
-│   ├── challenges.js           # Challenges dashboard logic
-│   ├── clustermap-data.js      # Data processing and artist grouping for clustermap
-│   ├── clustermap.js           # An interactive map of songs based on metadata
-│   ├── features.js             # Deployment feature flags
-│   ├── index.css               # CSS entry point (@imports all stylesheets)
-│   ├── library.js              # Library tree, playlist loading, tracklist, search
-│   ├── main.js                 # JS entry point (bootstraps the app)
-│   ├── metadata.js             # Auto-generated playlist catalog (via scanner.py)
-│   ├── optin.js                # Artist opt-in for playback list
-│   ├── player.js               # Audio/video playback, controls, progress bar
-│   ├── state.js                # Centralised app state object
-│   ├── statistics.js           # Statistics dashboard logic
-│   ├── ui.js                   # View toggles, info modal, auth, event wiring
-│   ├── utils.js                # Utility functions
-│   ├── visualiser.js           # Web Audio API visualiser rendering
-│   └── worker.js               # Cloudflare Worker proxy & asset routing script
+│   │   ├── base.css                    # Reset, body, app grid, scrollbars
+│   │   ├── challenges.css              # Challenges dashboard panel styles
+│   │   ├── clustermap.css              # Cluster map panel and sidebar styles
+│   │   ├── components.css              # Shared UI components (vinyl, visualiser, etc.)
+│   │   ├── content.css                 # Main area, panels, tracklist, buttons
+│   │   ├── dashboard.css               # Artist dashboard modal and track list styles
+│   │   ├── player-bar.css              # Footer player bar controls
+│   │   ├── sidebar.css                 # Sidebar, logo, search, library
+│   │   ├── statistics.css              # Statistics dashboard panel styles
+│   │   └── variables.css               # Design variables (colours, spacing, fonts)
+│   ├── challenges.js                   # Challenges dashboard logic
+│   ├── clustermap-data.js              # Data processing and artist grouping for clustermap
+│   ├── clustermap.js                   # An interactive map of songs based on metadata
+│   ├── dashboard.js                    # Artist dashboard UI and playback toggle logic
+│   ├── features.js                     # Deployment feature flags
+│   ├── index.css                       # CSS entry point (@imports all stylesheets)
+│   ├── library.js                      # Library tree, playlist loading, tracklist, search
+│   ├── main.js                         # JS entry point (bootstraps the app)
+│   ├── metadata.js                     # Auto-generated playlist catalog (via scanner.py)
+│   ├── optin.js                        # Playback opt-in resolution logic
+│   ├── player.js                       # Audio/video playback, controls, progress bar
+│   ├── state.js                        # Centralised app state object
+│   ├── statistics.js                   # Statistics dashboard logic
+│   ├── ui.js                           # View toggles, info modal, auth, event wiring
+│   ├── utils.js                        # Utility functions
+│   ├── visualiser.js                   # Web Audio API visualiser rendering
+│   └── worker.js                       # Cloudflare Worker proxy & asset routing script
 ├── tests/
-│   ├── test_download_sheets.py # Unit tests for download_sheets.py
-│   ├── test_optin.py           # Unit tests for optin.js
-│   ├── test_scanner.py         # Unit tests for scanner.py
-│   └── test_start_server.py    # Unit tests for start_server.py
-├── .assetsignore               # Cloudflare Wrangler asset ignore rules
-├── .gitignore                  # Git ignore rules
-├── LICENSE                     # Community archive license terms
-├── README.md                   # This documentation file
-├── index.html                  # Main application markup
-├── info-text.txt               # FAQs and data handling info
-└── wrangler.toml               # Cloudflare Workers with Assets configuration
+│   ├── test_auth_server.py             # Unit tests for auth.py & start_server.py
+│   ├── test_compile_discord_map.py     # Unit tests for compile_discord_map.py
+│   ├── test_download_sheets.py         # Unit tests for download_sheets.py
+│   ├── test_optin.py                   # Unit tests for optin.js
+│   ├── test_scanner.py                 # Unit tests for scanner.py
+│   ├── test_server_integration.py      # Full server lifecycle & API integration tests
+│   └── test_start_server.py            # Unit tests for start_server.py
+├── .assetsignore                       # Cloudflare Wrangler asset ignore rules
+├── .gitignore                          # Git ignore rules
+├── LICENSE                             # Community archive license terms
+├── README.md                           # This documentation file
+├── index.html                          # Main application markup
+├── info-text.txt                       # FAQs and data handling info
+└── wrangler.toml                       # Cloudflare Workers with Assets configuration
 ```
 
 ---
