@@ -1,488 +1,432 @@
+/**
+ * clustermap.js
+ * 
+ * Core D3.js physics and rendering engine for the SimSelections clustering map.
+ * This module is exclusively responsible for the force-directed graph simulation,
+ * SVG node rendering, zooming behavior, and node pulsing animations. 
+ * Data parsing and UI logic are handled by clustermap-data.js and ui.js respectively.
+ */
 import { state } from './state.js';
 import { playTrack } from './player.js';
 import { playlistData } from './metadata.js';
 import { escapeHtml } from './utils.js';
-// ─── Clustermap / Similarity Map ────────────────────────────────────────────────────
-// This module handles the interactive audio-similarity scatter plot built with
-// Plotly.  It is only initialised when FEATURES.clusterMap === true.
-// ─────────────────────────────────────────────────────────────────────────────
+import { 
+    allTracks, canonicalArtists, artistList, 
+    artistSubmissionCounts, artistCollabDegrees, 
+    getPrimaryArtists, prepareStaticData 
+} from './clustermap-data.js';
+import { getSliderValues } from './ui.js';
 
 let clustermapLoaded = false;
 let clustermapData = null;
 let highlightedArtist = null;
 let clustermapPulseLoopRunning = false;
-let staticDataPrepared = false;
-let allTracks = [];
-let getPrimaryArtists = null;
-let canonicalArtists = {};
-let artistList = [];
-let artistSubmissionCounts = {};
-let artistCollabDegrees = {};
 
-function prepareStaticData() {
-    if (staticDataPrepared) return;
+// D3 state
+let simulation = null;
+let svgSelection = null;
+let zoomBehavior = null;
+let containerSize = { width: 800, height: 600 };
+let currentZoom = d3.zoomIdentity;
+let d3CachedNodes = null;
+let d3CachedLinks = null;
 
-    allTracks = [];
-    playlistData.forEach(playlist => {
-        const tracks = playlist.tracks || [];
-        tracks.forEach(track => {
-            allTracks.push({
-                trackNo: track.trackNo,
-                artist: track.artist || 'Unknown Artist',
-                title: track.title || 'Untitled',
-                file: track.file || '',
-                playlist: playlist.name,
-                playlistId: playlist.id,
-                year: playlist.year,
-                month: playlist.month,
-                theme: playlist.theme,
-                challenge: playlist.challenge
-            });
-        });
-    });
+// Expose these for external scripts if needed
+window.clustermapLoaded = false;
+window.clustermapData = [];
 
-    getPrimaryArtists = (artistStr) => {
-        if (!artistStr) return [];
-        let normalized = artistStr
-            .replace(/\b(feat\.?|ft\.?|and|with|vs\.?|versus)\b/gi, '|')
-            .replace(/[&;\/]/g, '|');
-        return normalized.split('|')
-            .map(a => a.trim())
-            .filter(a => a.length > 0);
-    };
-
-    allTracks.forEach(track => {
-        const pa = getPrimaryArtists(track.artist);
-        pa.forEach(a => {
-            const lower = a.toLowerCase();
-            if (!canonicalArtists[lower]) {
-                canonicalArtists[lower] = a;
-            }
-            const canonical = canonicalArtists[lower];
-            artistSubmissionCounts[canonical] = (artistSubmissionCounts[canonical] || 0) + 1;
-        });
-    });
-
-    artistList = Array.from(new Set(Object.values(canonicalArtists)));
-
-    // Compute collaboration degrees (number of unique collaborators) for each artist
-    const collaboratorsMap = {};
-    artistList.forEach(a => collaboratorsMap[a] = new Set());
-    allTracks.forEach(track => {
-        const pa = getPrimaryArtists(track.artist).map(a => canonicalArtists[a.toLowerCase()]);
-        if (pa.length > 1) {
-            pa.forEach(a1 => {
-                pa.forEach(a2 => {
-                    if (a1 && a2 && a1 !== a2) {
-                        collaboratorsMap[a1].add(a2);
-                    }
-                });
-            });
-        }
-    });
-    artistList.forEach(a => {
-        artistCollabDegrees[a] = collaboratorsMap[a].size;
-    });
-
-    staticDataPrepared = true;
+export function resetClustermapZoom() {
+    if (svgSelection && containerSize.width && zoomBehavior) {
+        svgSelection.transition().duration(750).call(
+            zoomBehavior.transform,
+            d3.zoomIdentity.translate(containerSize.width / 2, containerSize.height / 2).scale(0.3)
+        );
+    }
 }
 
-// ── Public API (also attached to window for cross-module access) ──────────────
-
-/**
- * Fetches the Clustermap coordinate data and initializes the Plotly similarity map.
- */
-/**
- * Helper to generate Clustermap-style 2D coordinates for all tracks dynamically.
- * Clusters tracks by primary artist, collaboration connections, and shared challenges.
- */
-function generateClustermapData() {
-    prepareStaticData();
-
-    const sliderCollab = document.getElementById('ctrl-collab');
-    const sliderChallenge = document.getElementById('ctrl-challenge');
-    const sliderRepel = document.getElementById('ctrl-repel');
-    const sliderRegularity = document.getElementById('ctrl-regularity');
-
-    const collabFactor = sliderCollab ? parseFloat(sliderCollab.value) : 1.0;
-    const challengeFactor = sliderChallenge ? parseFloat(sliderChallenge.value) : 0.15;
-    const repelFactor = sliderRepel ? parseFloat(sliderRepel.value) : 0;
-    const regularityFactor = sliderRegularity ? parseFloat(sliderRegularity.value) : 0.0;
-
-    const artistCoords = {};
-
-    // Find max submissions across catalog to normalize regularity pull
-    const maxSubmissions = Math.max(...Object.values(artistSubmissionCounts), 1);
-    const totalArtists = artistList.length || 1;
-
-    // Position artists in a golden spiral initially
-    artistList.forEach((artist, index) => {
-        const phi = index * 137.5 * Math.PI / 180;
-        const r = 1.0 * Math.sqrt(index + 1); 
-        artistCoords[artist] = { x: r * Math.cos(phi), y: r * Math.sin(phi) };
-    });
-
-    // Compute collaboration strengths
-    const collabStrengths = {};
-    allTracks.forEach(track => {
-        const pa = getPrimaryArtists(track.artist).map(a => canonicalArtists[a.toLowerCase()]);
-        for (let i = 0; i < pa.length; i++) {
-            for (let j = i + 1; j < pa.length; j++) {
-                const a1 = pa[i];
-                const a2 = pa[j];
-                if (a1 && a2 && a1 !== a2) {
-                    const key = a1 < a2 ? `${a1}|||${a2}` : `${a2}|||${a1}`;
-                    collabStrengths[key] = (collabStrengths[key] || 0) + collabFactor;
-                }
-            }
-        }
-    });
-
-    // Run force-directed layout (reduced to 30 iterations for fast live adjustments)
-    const iterations = 30;
-    const kRepel = repelFactor;
-    const kAttract = 0.05;
-    const kOrigin = 0.015;
-
-    for (let step = 0; step < iterations; step++) {
-        const forces = {};
-        artistList.forEach(a => forces[a] = { x: 0, y: 0 });
-
-        // Repel all artists
-        for (let i = 0; i < artistList.length; i++) {
-            const a1 = artistList[i];
-            const p1 = artistCoords[a1];
-            for (let j = i + 1; j < artistList.length; j++) {
-                const a2 = artistList[j];
-                const p2 = artistCoords[a2];
-
-                const dx = p1.x - p2.x;
-                const dy = p1.y - p2.y;
-                const actDist = Math.sqrt(dx * dx + dy * dy) + 0.01;
-                const distSq = dx * dx + dy * dy + 400;
-
-                if (actDist < 200) {
-                    const f = kRepel / distSq;
-                    const fx = (dx / actDist) * f;
-                    const fy = (dy / actDist) * f;
-
-                    forces[a1].x += fx;
-                    forces[a1].y += fy;
-                    forces[a2].x -= fx;
-                    forces[a2].y -= fy;
-                }
-            }
-        }
-
-        // Attract collaborating artists
-        Object.entries(collabStrengths).forEach(([key, strength]) => {
-            const [a1, a2] = key.split('|||');
-            if (artistCoords[a1] && artistCoords[a2]) {
-                const p1 = artistCoords[a1];
-                const p2 = artistCoords[a2];
-
-                const dx = p1.x - p2.x;
-                const dy = p1.y - p2.y;
-                const dist = Math.sqrt(dx * dx + dy * dy) + 0.01;
-
-                const f = kAttract * dist * strength;
-                const fx = (dx / dist) * f;
-                const fy = (dy / dist) * f;
-
-                forces[a1].x -= fx;
-                forces[a1].y -= fy;
-                forces[a2].x += fx;
-                forces[a2].y += fy;
-            }
-        });
-
-        artistList.forEach(a => {
-            const p = artistCoords[a];
-            const hasCollab = (artistCollabDegrees[a] || 0) > 0 && (collabFactor > 0.01);
-            const submissions = artistSubmissionCounts[a] || 1;
-            
-            if (hasCollab) {
-                const kRegularity = regularityFactor * (submissions - 1);
-                // Scale origin pull by collabFactor to pull collabs to the center
-                const totalOriginPull = (kOrigin * collabFactor) + kRegularity;
-                forces[a].x -= p.x * totalOriginPull;
-                forces[a].y -= p.y * totalOriginPull;
-            } else {
-                // Solo artists (or all artists when collab attraction is 0) are directed to a target shell that shrinks with regularity
-                const baseTargetR = 30 + (collabFactor - 1.0) * 3.0;
-                const dist = Math.sqrt(p.x * p.x + p.y * p.y) + 0.01;
-                const kShell = 0.08; 
-                const targetR = Math.max(0, baseTargetR - regularityFactor * 45.0 * (submissions - 1));
-                const f = kShell * (dist - targetR);
-                forces[a].x -= (p.x / dist) * f;
-                forces[a].y -= (p.y / dist) * f;
-            }
-        });
-
-        // Update coordinates with cooling
-        const cooling = 1 - (step / iterations);
-        artistList.forEach(a => {
-            artistCoords[a].x += forces[a].x * 0.5 * cooling;
-            artistCoords[a].y += forces[a].y * 0.5 * cooling;
-        });
-    }
-
-    // Compute monthly playlist centroids dynamically based on current artist layout coords
-    const playlistCoords = {};
-    playlistData.forEach(playlist => {
-        let sumX = 0;
-        let sumY = 0;
-        let count = 0;
-        const tracks = playlist.tracks || [];
-        tracks.forEach(track => {
-            const primaryArtists = getPrimaryArtists(track.artist);
-            primaryArtists.forEach(a => {
-                const canonical = canonicalArtists[a.toLowerCase()];
-                if (canonical && artistCoords[canonical]) {
-                    sumX += artistCoords[canonical].x;
-                    sumY += artistCoords[canonical].y;
-                    count++;
-                }
-            });
-        });
-        if (count > 0) {
-            playlistCoords[playlist.name] = { x: sumX / count, y: sumY / count };
-        }
-    });
-
-    // Map tracks to cluster positions
-    return allTracks.map(track => {
-        const pa = getPrimaryArtists(track.artist).map(a => canonicalArtists[a.toLowerCase()]);
-        let baseX = 0;
-        let baseY = 0;
-        let validArtistsCount = 0;
-
-        pa.forEach(a => {
-            if (a && artistCoords[a]) {
-                baseX += artistCoords[a].x;
-                baseY += artistCoords[a].y;
-                validArtistsCount++;
-            }
-        });
-
-        if (validArtistsCount > 0) {
-            baseX /= validArtistsCount;
-            baseY /= validArtistsCount;
-        }
-
-        // Collab Attraction: Pull tracks with multiple artists (collabs) visually to the center,
-        // and push single artist tracks (solos) visually toward the edge.
-        if (pa.length > 1) {
-            // It's a collaboration track. Max pull to center is 85%.
-            const pullToCenter = Math.min(0.85, Math.max(0, (collabFactor - 1.0) * 0.25)); 
-            if (pullToCenter > 0) {
-                baseX *= (1 - pullToCenter);
-                baseY *= (1 - pullToCenter);
-            }
-        } else {
-            // It's a solo track. Push it to the edge.
-            const pushToEdge = Math.max(0, (collabFactor - 1.0) * 3.5); 
-            if (pushToEdge > 0) {
-                const trackDist = Math.sqrt(baseX * baseX + baseY * baseY) + 0.001;
-                baseX += (baseX / trackDist) * pushToEdge;
-                baseY += (baseY / trackDist) * pushToEdge;
-            }
-        }
-
-        // Pull tracks towards their monthly playlist centroid dynamically based on challengeFactor (Month Attraction)
-        const pCoord = playlistCoords[track.playlist];
-        if (pCoord) {
-            const blend = Math.min(0.85, challengeFactor * 1.5); // Cap at 85% blend so they don't completely merge
-            baseX = baseX * (1 - blend) + pCoord.x * blend;
-            baseY = baseY * (1 - blend) + pCoord.y * blend;
-        }
-
-        // Apply tanh compression to keep coordinates bounded and avoid excessive empty margins
-        const dist = Math.sqrt(baseX * baseX + baseY * baseY);
-        if (dist > 0) {
-            const maxRadius = 40;  // Limit coordinate range to a 40-unit radius
-            const scale = 25;      // Keep central cluster expansion linear
-            const newDist = maxRadius * Math.tanh(dist / scale);
-            baseX = (baseX / dist) * newDist;
-            baseY = (baseY / dist) * newDist;
-        }
-
-        return {
-            ...track,
-            x: baseX,
-            y: baseY
-        };
-    });
-}
-
-let slidersWired = false;
-
-function setupSliderListeners() {
-    if (slidersWired) return;
-    
-    const sliderCollab = document.getElementById('ctrl-collab');
-    const sliderChallenge = document.getElementById('ctrl-challenge');
-    const sliderRepel = document.getElementById('ctrl-repel');
-    const sliderRegularity = document.getElementById('ctrl-regularity');
-    const btnReset = document.getElementById('reset-clustermap-controls');
-    
-    if (!sliderCollab) return;
-    
-    const sliders = [
-        { el: sliderCollab, valId: 'val-collab', defaultVal: "1.0" },
-        { el: sliderRepel, valId: 'val-repel', defaultVal: "0" },
-        { el: sliderRegularity, valId: 'val-regularity', defaultVal: "0.000" }
-    ];
-    
-    sliders.forEach(({ el, valId }) => {
-        el.addEventListener('input', () => {
-            const valEl = document.getElementById(valId);
-            if (valEl) valEl.textContent = el.value;
-            try {
-                const data = generateClustermapData();
-                clustermapData = data;
-                renderClustermapPlot(data);
-            } catch (err) {
-                console.error('Error updating similarity map on control change:', err);
-            }
-        });
-    });
-
-    if (btnReset) {
-        btnReset.addEventListener('click', () => {
-            sliders.forEach(({ el, valId, defaultVal }) => {
-                el.value = defaultVal;
-                const valEl = document.getElementById(valId);
-                if (valEl) valEl.textContent = defaultVal;
-            });
-            try {
-                const data = generateClustermapData();
-                clustermapData = data;
-                renderClustermapPlot(data);
-            } catch (err) {
-                console.error('Error resetting similarity map controls:', err);
-            }
-        });
-    }
-    
-    slidersWired = true;
+export function kickClustermapSimulation() {
+    if (simulation) simulation.alpha(1).restart();
 }
 
 export function initializeClustermap() {
+    prepareStaticData();
+
     const statusBadge = document.getElementById('clustermap-status-badge');
-    if (statusBadge) statusBadge.textContent = 'Generating clustering map...';
+    if (statusBadge) statusBadge.textContent = `${allTracks.length} songs mapped`;
 
-    setupSliderListeners();
+    clustermapData = allTracks;
+    window.clustermapData = clustermapData;
+    clustermapLoaded = true;
+    window.clustermapLoaded = true;
 
-    try {
-        const data = generateClustermapData();
-        clustermapData = data;
-        clustermapLoaded = true;
-        if (statusBadge) statusBadge.textContent = `${data.length} songs mapped`;
-        renderClustermapPlot(data);
-        buildArtistLegend(data);
-    } catch (err) {
-        console.error('Error generating similarity map:', err);
-        if (statusBadge) statusBadge.textContent = 'Similarity map unavailable';
-    }
+    initD3Plot();
+    buildArtistLegend();
+
+    updateSimulationForces();
 }
 
-/**
- * Renders or updates the interactive Plotly scatter plot with the provided data.
- * @param {Array} data - Array of track coordinate objects.
- */
-export function renderClustermapPlot(data) {
+function initD3Plot() {
     const plotDiv = document.getElementById('clustermap-plot-div');
-    if (!plotDiv || typeof Plotly === 'undefined') return;
+    if (!plotDiv) return;
 
+    // Clear existing
+    plotDiv.innerHTML = '';
+
+    // Get container size
+    const rect = plotDiv.getBoundingClientRect();
+    containerSize.width = rect.width || 800;
+    containerSize.height = rect.height || 600;
+
+    // Create SVG
+    const svg = d3.select(plotDiv)
+        .append('svg')
+        .attr('width', '100%')
+        .attr('height', '100%')
+        .style('overflow', 'hidden');
+
+    svgSelection = svg;
+
+    const g = svg.append('g').attr('class', 'main-group');
+
+    // Zoom setup
+    zoomBehavior = d3.zoom()
+        .scaleExtent([0.1, 4])
+        .on('zoom', (event) => {
+            currentZoom = event.transform;
+            g.attr('transform', event.transform);
+        });
+
+    svg.call(zoomBehavior);
+
+    // Initial transform to center and zoom out slightly so it fits on screen
+    svg.call(zoomBehavior.transform, d3.zoomIdentity.translate(containerSize.width / 2, containerSize.height / 2).scale(0.3));
+
+    // Force Simulation Setup
+    simulation = d3.forceSimulation(allTracks)
+        .force("charge", d3.forceManyBody())
+        .force("collide", d3.forceCollide().radius(7))
+        // Baseline forces to shape the generic blob into a 1.5 aspect ratio oval
+        .force("baseY", d3.forceY(0).strength(0.045))
+        .force("baseX", d3.forceX(0).strength(0.03))
+        .alphaDecay(0.01) // Lower decay so it runs longer on single clicks
+        .on("tick", ticked);
+
+    // Links container
+    g.append("g")
+        .attr("class", "links")
+        .attr("stroke", "#ffffff")
+        .attr("stroke-opacity", 0.15)
+        .attr("stroke-width", 1.5);
+
+    // Nodes container
+    const nodesG = g.append("g")
+        .attr("class", "nodes");
+
+    // Tooltip
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "clustermap-tooltip")
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background", "var(--bg-card)")
+        .style("color", "var(--text-color)")
+        .style("padding", "8px 12px")
+        .style("border-radius", "6px")
+        .style("font-size", "12px")
+        .style("pointer-events", "none")
+        .style("box-shadow", "0 4px 12px rgba(0,0,0,0.5)")
+        .style("z-index", 1000)
+        .style("border", "1px solid var(--border-color)");
+
+    function ticked() {
+        if (d3CachedLinks) {
+            d3CachedLinks
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+        }
+
+        if (d3CachedNodes) {
+            d3CachedNodes
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+        }
+    }
+
+    renderNodes();
+
+    // Handle resizing
+    window.addEventListener('resize', () => {
+        const r = plotDiv.getBoundingClientRect();
+        if (r.width > 0 && r.height > 0) {
+            containerSize.width = r.width;
+            containerSize.height = r.height;
+        }
+    });
+}
+
+export function updateSimulationForces() {
+    if (!simulation) return;
+
+    const vals = getSliderValues();
+
+    // Compute Challenge Centroids (Phyllotaxis / Fibonacci flower spiral OR Radial Ring)
+    const challengeList = [...new Set(allTracks.map(d => d.playlist))];
+    const challengeCentroids = {};
+    const layoutStyle = document.getElementById('ctrl-challenge-layout')?.value || 'flower';
+
+    // Sort to keep the timeline/order somewhat consistent
+    challengeList.sort(); 
+    challengeList.forEach((c, i) => {
+        if (layoutStyle === 'flower') {
+            // Golden ratio angle (137.5 degrees) creates a natural flower packing
+            const angle = i * 2.39996;
+            // Radius expands slowly as more items are added (sqrt ensures even density)
+            const radius = Math.sqrt(i) * 150;
+            challengeCentroids[c] = {
+                x: Math.cos(angle) * radius * 1.5, // Multiply X by 1.5 for oval layout
+                y: Math.sin(angle) * radius
+            };
+        } else {
+            // Standard circular ring
+            const angle = (i / challengeList.length) * 2 * Math.PI;
+            const radius = 600; // Fixed wide radius
+            challengeCentroids[c] = {
+                x: Math.cos(angle) * radius * 1.5, // Multiply X by 1.5 for oval layout
+                y: Math.sin(angle) * radius
+            };
+        }
+    });
+
+    // Apply bounding force to prevent flying away when repel is high and attractions are low
+    // We use distinct X/Y forces with a 1.5 ratio instead of forceRadial to maintain the oval shape
+    simulation.force("boundingX", d3.forceX(0).strength(0.01));
+    simulation.force("boundingY", d3.forceY(0).strength(0.015));
+    simulation.force("bounding", null); // Remove old circular radial force if it was active
+
+    // Apply forces
+    simulation.force("charge", d3.forceManyBody().strength(-vals.repel));
+
+    // Challenge Attraction Forces
+    simulation.force("challengeForceX", d3.forceX(d => {
+        return challengeCentroids[d.playlist] ? challengeCentroids[d.playlist].x : 0;
+    }).strength(vals.challenge > 0 ? vals.challenge * 0.3 : 0));
+
+    simulation.force("challengeForceY", d3.forceY(d => {
+        return challengeCentroids[d.playlist] ? challengeCentroids[d.playlist].y : 0;
+    }).strength(vals.challenge > 0 ? vals.challenge * 0.3 : 0));
+
+    // Regularity pulls frequent/infrequent submitters based on slider
+    const maxFreq = d3.max(allTracks, d => d.submissionFrequency) || 10;
+    
+    // Custom oval radial force (D3's forceRadial is perfectly circular)
+    const regularityStrength = Math.abs(vals.regularity) * 0.4;
+    simulation.force("regularityForce", function(alpha) {
+        if (regularityStrength === 0) return;
+        for (let i = 0, n = allTracks.length; i < n; ++i) {
+            const d = allTracks[i];
+            const normalized = d.submissionFrequency / maxFreq;
+            const targetRadius = vals.regularity > 0 ? (1 - normalized) * 800 : normalized * 800;
+            
+            // Determine the node's current angle relative to center (0,0)
+            const angle = Math.atan2(d.y, d.x);
+            // Target an oval by scaling X by 1.5
+            const targetX = Math.cos(angle) * targetRadius * 1.5;
+            const targetY = Math.sin(angle) * targetRadius;
+            
+            d.vx += (targetX - d.x) * regularityStrength * alpha;
+            d.vy += (targetY - d.y) * regularityStrength * alpha;
+        }
+    });
+
+    // Always generate links for collabs to visualize the graph structure
+    const linksData = [];
+    const tracksByArtist = {};
+    allTracks.forEach(t => {
+        t.primaryCanonicalArtists.forEach(a => {
+            if (!tracksByArtist[a]) tracksByArtist[a] = [];
+            tracksByArtist[a].push(t);
+        });
+    });
+
+    // Star topology: link all tracks of an artist to their first track
+    Object.values(tracksByArtist).forEach(list => {
+        if (list.length > 1) {
+            const hub = list[0];
+            for (let i = 1; i < list.length; i++) {
+                linksData.push({ source: hub.id, target: list[i].id });
+            }
+        }
+    });
+
+    // Update links on DOM
+    const linksG = d3.select('.links');
+    const links = linksG.selectAll('line').data(linksData, d => {
+        const s = typeof d.source === 'object' ? d.source.id : d.source;
+        const t = typeof d.target === 'object' ? d.target.id : d.target;
+        return s + '-' + t;
+    });
+    links.enter().append('line');
+    links.exit().remove();
+    d3CachedLinks = linksG.selectAll('line');
+
+    // Adjust visual opacity based on collab strength
+    d3CachedLinks.attr("stroke-opacity", vals.collab > 0 ? 0.15 : 0.05);
+
+    // Apply force only if collab attraction is active
+    if (vals.collab > 0) {
+        // vals.collab ranges from 0 to 5. Scale strength smoothly up to 0.5.
+        const linkStrength = Math.min(1.0, vals.collab * 0.1);
+        simulation.force("link", d3.forceLink(linksData).id(d => d.id).distance(20).strength(linkStrength));
+    } else {
+        simulation.force("link", null);
+    }
+
+    // Restart simulation
+    simulation.alpha(1).restart();
+}
+
+export function renderClustermapPlot(data) {
+    if (!svgSelection || !clustermapLoaded) return;
+
+    // In D3 version, we render once and update attributes, but we can call renderNodes
+    // to update colors if highlight changes.
+    renderNodes();
+}
+
+function renderNodes() {
     const bodyStyles = getComputedStyle(document.body);
     const accent = bodyStyles.getPropertyValue('--accent').trim() || '#ec4899';
     const accentCyan = bodyStyles.getPropertyValue('--accent-cyan').trim() || '#06b6d4';
 
-    const artistColorMap = buildArtistColorMap(data, accent, accentCyan);
+    const artistColorMap = buildArtistColorMap(allTracks, accent, accentCyan);
+    const tooltip = d3.select('.clustermap-tooltip');
 
-    const filteredData = highlightedArtist
-        ? data.filter(d => d.artist === highlightedArtist)
-        : data;
+    const nodesG = d3.select('.nodes');
 
-    const x = filteredData.map(d => d.x);
-    const y = filteredData.map(d => d.y);
-    const colors = filteredData.map(d => artistColorMap[d.artist] || accentCyan);
-    const text = filteredData.map(d => `${d.title} – ${d.artist}<br>${d.playlist || ''}`);
+    const nodeSelection = nodesG.selectAll('.node')
+        .data(allTracks, d => d.id);
 
-    const trace = {
-        type: 'scatter',
-        mode: 'markers',
-        x, y,
-        text,
-        hoverinfo: 'text',
-        marker: {
-            size: 7,
-            color: colors,
-            opacity: 0.82,
-            line: { width: 0 }
-        }
-    };
+    const nodeEnter = nodeSelection.enter()
+        .append("circle")
+        .attr("class", "node")
+        .attr("r", 10)
+        .call(d3.drag()
+            .on("start", (event, d) => {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            })
+            .on("drag", (event, d) => {
+                d.fx = event.x;
+                d.fy = event.y;
+            })
+            .on("end", (event, d) => {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }));
 
-    const layout = {
-        margin: { t: 8, r: 8, b: 8, l: 8 },
-        paper_bgcolor: 'rgba(0,0,0,0)',
-        plot_bgcolor: 'rgba(0,0,0,0)',
-        showlegend: false,
-        dragmode: 'pan',
-        hovermode: 'closest',
-        xaxis: { showgrid: false, zeroline: false, visible: false },
-        yaxis: { showgrid: false, zeroline: false, visible: false }
-    };
-
-    Plotly.newPlot(plotDiv, [trace], layout, {
-        responsive: true,
-        displayModeBar: false,
-        scrollZoom: true
-    });
-
-    plotDiv.on('plotly_click', evt => {
-        const pt = evt.points[0];
-        if (!pt) return;
-        const clicked = filteredData[pt.pointIndex];
-        if (!clicked) return;
-        jumpToTrack(clicked);
-    });
+    // Update visuals
+    nodesG.selectAll('.node')
+        .attr("fill", d => {
+            if (d.primaryCanonicalArtists && d.primaryCanonicalArtists.length > 0) {
+                return artistColorMap[d.primaryCanonicalArtists[0]] || accentCyan;
+            }
+            return accentCyan;
+        })
+        .attr("opacity", d => (!highlightedArtist || (d.primaryCanonicalArtists && d.primaryCanonicalArtists.includes(highlightedArtist))) ? 0.9 : 0.1)
+        .attr("stroke", d => (!highlightedArtist || (d.primaryCanonicalArtists && d.primaryCanonicalArtists.includes(highlightedArtist))) ? "#fff" : "none")
+        .attr("stroke-width", d => (!highlightedArtist || (d.primaryCanonicalArtists && d.primaryCanonicalArtists.includes(highlightedArtist))) ? 0.5 : 0)
+        .on("mouseover", (event, d) => {
+            d3.select(event.currentTarget).attr("r", 14).attr("stroke-width", 2);
+            tooltip.html(`<b>${d.title}</b><br/>${d.artist}<br/><span style="opacity:0.7">${d.playlist}</span>`)
+                .style("visibility", "visible");
+        })
+        .on("mousemove", (event) => {
+            tooltip.style("top", (event.pageY - 10) + "px")
+                .style("left", (event.pageX + 15) + "px");
+        })
+        .on("mouseout", (event, d) => {
+            d3.select(event.currentTarget).attr("r", 10).attr("stroke-width", (!highlightedArtist || (d.primaryCanonicalArtists && d.primaryCanonicalArtists.includes(highlightedArtist))) ? 0.5 : 0);
+            tooltip.style("visibility", "hidden");
+        })
+        .on("click", (event, d) => jumpToTrack(d));
+    
+    d3CachedNodes = nodesG.selectAll('.node');
 }
 
-/**
- * Starts the animation loop for the "now playing" pulse ring indicator on the map.
- */
 export function startClustermapPulseLoop() {
     if (clustermapPulseLoopRunning || !clustermapLoaded) return;
     clustermapPulseLoopRunning = true;
     requestAnimationFrame(updatePulseRing);
 }
 
-// ── Internal helpers ──────────────────────────────────────────────────────────
+export function stopClustermapPulseLoop() {
+    clustermapPulseLoopRunning = false;
+}
 
-/**
- * Builds a mapping of artist names to specific theme colors for the scatter plot.
- * @param {Array} data - Clustermap dataset.
- * @param {string} accent - Primary accent color.
- * @param {string} accentCyan - Secondary accent color.
- * @returns {Object} Dictionary mapping artists to color strings.
- */
+function updatePulseRing() {
+    if (!clustermapLoaded || !clustermapPulseLoopRunning) { 
+        clustermapPulseLoopRunning = false; 
+        return; 
+    }
+
+    const ring = document.getElementById('clustermap-active-pulse-ring');
+    const plotDiv = document.getElementById('clustermap-plot-div');
+    if (!ring || !plotDiv || !state.playingPlaylist || state.currentTrackIndex < 0) {
+        if (ring) ring.classList.add('hidden');
+        requestAnimationFrame(updatePulseRing);
+        return;
+    }
+
+    const track = state.playingPlaylist.tracks[state.currentTrackIndex];
+    if (!track || !allTracks) {
+        ring.classList.add('hidden');
+        requestAnimationFrame(updatePulseRing);
+        return;
+    }
+
+    let match = allTracks.find(d =>
+        (d.file && d.file === track.file) ||
+        (d.artist === track.artist && d.title === track.title)
+    );
+
+    if (!match || match.x === undefined) {
+        ring.classList.add('hidden');
+        requestAnimationFrame(updatePulseRing);
+        return;
+    }
+
+    // Calculate CSS transform scale to accurately place ring
+    const k = currentZoom.k;
+    const tx = currentZoom.x;
+    const ty = currentZoom.y;
+
+    // Use getBoundingClientRect to ensure absolute positioning matches SVG offsets
+    const rect = plotDiv.getBoundingClientRect();
+    const wrapper = plotDiv.parentElement;
+    const wrapRect = wrapper.getBoundingClientRect();
+
+    // tx and ty already include the container center offset from the zoom.transform initialization
+    const px = (match.x * k) + tx + (rect.left - wrapRect.left);
+    const py = (match.y * k) + ty + (rect.top - wrapRect.top);
+
+    ring.style.left = `${px}px`;
+    ring.style.top = `${py}px`;
+    ring.classList.remove('hidden');
+
+    requestAnimationFrame(updatePulseRing);
+}
+
 function buildArtistColorMap(data, accent, accentCyan) {
-    const artists = [...new Set(data.map(d => d.artist))];
+    const artists = [...new Set(data.flatMap(d => d.primaryCanonicalArtists || []))];
     const palette = buildPalette(artists.length, accent, accentCyan);
     const map = {};
     artists.forEach((a, i) => { map[a] = palette[i]; });
     return map;
 }
 
-/**
- * Generates an array of equidistant HSL colors for artist grouping.
- * @param {number} n - Number of colors to generate.
- * @param {string} accent - Primary accent.
- * @param {string} accentCyan - Secondary accent.
- * @returns {Array} Array of color strings.
- */
 function buildPalette(n, accent, accentCyan) {
     const colors = [];
     for (let i = 0; i < n; i++) {
@@ -492,11 +436,7 @@ function buildPalette(n, accent, accentCyan) {
     return colors;
 }
 
-/**
- * Renders the interactive artist legend and search filter next to the similarity map.
- * @param {Array} data - Clustermap dataset.
- */
-function buildArtistLegend(data) {
+function buildArtistLegend() {
     const listEl = document.getElementById('artist-legend-list');
     const searchEl = document.getElementById('artist-legend-search');
     const clearBtn = document.getElementById('clear-artist-highlight');
@@ -505,10 +445,16 @@ function buildArtistLegend(data) {
     const bodyStyles = getComputedStyle(document.body);
     const accent = bodyStyles.getPropertyValue('--accent').trim() || '#ec4899';
     const accentCyan = bodyStyles.getPropertyValue('--accent-cyan').trim() || '#06b6d4';
-    const artistColorMap = buildArtistColorMap(data, accent, accentCyan);
+    const artistColorMap = buildArtistColorMap(allTracks, accent, accentCyan);
 
     const artistCounts = {};
-    data.forEach(d => { artistCounts[d.artist] = (artistCounts[d.artist] || 0) + 1; });
+    allTracks.forEach(d => {
+        if (d.primaryCanonicalArtists) {
+            d.primaryCanonicalArtists.forEach(a => {
+                artistCounts[a] = (artistCounts[a] || 0) + 1;
+            });
+        }
+    });
     const sorted = Object.entries(artistCounts).sort((a, b) => b[1] - a[1]);
 
     function render(filter = '') {
@@ -529,7 +475,7 @@ function buildArtistLegend(data) {
                 item.addEventListener('click', () => {
                     highlightedArtist = highlightedArtist === name ? null : name;
                     if (clearBtn) clearBtn.classList.toggle('hidden', !highlightedArtist);
-                    renderClustermapPlot(data);
+                    renderNodes();
                     render(searchEl ? searchEl.value : '');
                 });
                 listEl.appendChild(item);
@@ -542,16 +488,12 @@ function buildArtistLegend(data) {
         clearBtn.addEventListener('click', () => {
             highlightedArtist = null;
             clearBtn.classList.add('hidden');
-            renderClustermapPlot(data);
+            renderNodes();
             render(searchEl ? searchEl.value : '');
         });
     }
 }
 
-/**
- * Locates a clicked track in the library and immediately starts playback.
- * @param {Object} trackEntry - The track data object clicked on the map.
- */
 function jumpToTrack(trackEntry) {
     if (!trackEntry) return;
     if (typeof window.loadPlaylist !== 'function') return;
@@ -559,11 +501,10 @@ function jumpToTrack(trackEntry) {
     for (const playlist of playlistData) {
         let trackIndex = -1;
 
-        // Try matching exactly by file, title, and artist first to resolve collisions
         if (trackEntry.file) {
-            trackIndex = playlist.tracks.findIndex(t => 
-                t.file === trackEntry.file && 
-                t.title === trackEntry.title && 
+            trackIndex = playlist.tracks.findIndex(t =>
+                t.file === trackEntry.file &&
+                t.title === trackEntry.title &&
                 t.artist === trackEntry.artist
             );
             if (trackIndex === -1) {
@@ -571,27 +512,23 @@ function jumpToTrack(trackEntry) {
             }
         }
 
-        // Fallback to title and artist match within the target playlist
         if (trackIndex === -1 && (playlist.name === trackEntry.playlist || playlist.id === trackEntry.playlistId)) {
-            trackIndex = playlist.tracks.findIndex(t => 
-                t.title === trackEntry.title && 
+            trackIndex = playlist.tracks.findIndex(t =>
+                t.title === trackEntry.title &&
                 t.artist === trackEntry.artist
             );
         }
 
-        // Global fallback to title and artist match
         if (trackIndex === -1) {
-            trackIndex = playlist.tracks.findIndex(t => 
-                t.title === trackEntry.title && 
+            trackIndex = playlist.tracks.findIndex(t =>
+                t.title === trackEntry.title &&
                 t.artist === trackEntry.artist
             );
         }
 
         if (trackIndex !== -1) {
-            // Load playlist
             window.loadPlaylist(playlist);
 
-            // Sync active sidebar item
             const monthItem = document.querySelector(`.month-item[data-id="${playlist.id}"]`);
             if (monthItem) {
                 document.querySelectorAll('.month-item').forEach(el => el.classList.remove('active'));
@@ -604,93 +541,14 @@ function jumpToTrack(trackEntry) {
                 }
             }
 
-            // Play/select track (handles audio play or UI update for non-opted-in tracks)
             playTrack(trackIndex);
             break;
         }
     }
 }
 
-/**
- * Animation loop that continuously positions the pulse ring over the currently playing track's coordinates.
- */
-function updatePulseRing() {
-    if (!clustermapLoaded) { clustermapPulseLoopRunning = false; return; }
-
-    const ring = document.getElementById('clustermap-active-pulse-ring');
-    const plotDiv = document.getElementById('clustermap-plot-div');
-    if (!ring || !plotDiv || !state.playingPlaylist || state.currentTrackIndex < 0) {
-        if (ring) ring.classList.add('hidden');
-        requestAnimationFrame(updatePulseRing);
-        return;
-    }
-
-    const track = state.playingPlaylist.tracks[state.currentTrackIndex];
-    if (!track || !clustermapData) {
-        ring.classList.add('hidden');
-        requestAnimationFrame(updatePulseRing);
-        return;
-    }
-
-    let match = null;
-    if (track.file) {
-        match = clustermapData.find(d => d.file && d.file === track.file);
-    }
-    if (!match) {
-        match = clustermapData.find(d => 
-            d.artist === track.artist && 
-            d.title === track.title && 
-            (d.playlist === state.playingPlaylist.name || d.playlistId === state.playingPlaylist.id)
-        );
-    }
-    if (!match) {
-        match = clustermapData.find(d => d.artist === track.artist && d.title === track.title);
-    }
-
-    if (!match) {
-        ring.classList.add('hidden');
-        requestAnimationFrame(updatePulseRing);
-        return;
-    }
-
-    // Get Plotly pixel coordinates for the matched data point
-    const gd = plotDiv._fullLayout;
-    if (!gd || !gd.xaxis || !gd.yaxis || !gd._size) {
-        ring.classList.add('hidden');
-        requestAnimationFrame(updatePulseRing);
-        return;
-    }
-    
-    const xAxis = gd.xaxis;
-    const yAxis = gd.yaxis;
-    
-    // Calculate coordinates relative to #clustermap-plot-div
-    const px = xAxis.l2p(match.x) + gd._size.l;
-    const py = yAxis.l2p(match.y) + gd._size.t;
-    
-    // Offset by the difference between #clustermap-plot-div and the .clustermap-plot-wrapper (offsetParent)
-    const wrapper = plotDiv.parentElement;
-    if (wrapper) {
-        const rectDiv = plotDiv.getBoundingClientRect();
-        const rectWrap = wrapper.getBoundingClientRect();
-        ring.style.left = `${px + rectDiv.left - rectWrap.left}px`;
-        ring.style.top = `${py + rectDiv.top - rectWrap.top}px`;
-        ring.classList.remove('hidden');
-    } else {
-        ring.style.left = `${px}px`;
-        ring.style.top = `${py}px`;
-        ring.classList.remove('hidden');
-    }
-
-    requestAnimationFrame(updatePulseRing);
-}
-
-
-// ── Window exports for cross-module use ──────────────────────────────────────
 if (typeof window !== 'undefined') {
     window.initializeClustermap = initializeClustermap;
     window.renderClustermapPlot = renderClustermapPlot;
     window.startClustermapPulseLoop = startClustermapPulseLoop;
-    Object.defineProperty(window, 'clustermapLoaded', { get: () => clustermapLoaded });
-    Object.defineProperty(window, 'clustermapData', { get: () => clustermapData });
 }

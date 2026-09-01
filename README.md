@@ -1,6 +1,6 @@
 # SimSelections Archive
 
-A custom web-based archive for the **SimSelections** community.
+A custom archive for the **SimSelections** community song writing challenges.
 
 ---
 
@@ -26,6 +26,7 @@ A custom web-based archive for the **SimSelections** community.
 │   │   ├── statistics.css      # Statistics dashboard panel styles
 │   │   └── variables.css       # Design variables (colours, spacing, fonts)
 │   ├── challenges.js           # Challenges dashboard logic
+│   ├── clustermap-data.js      # Data processing and artist grouping for clustermap
 │   ├── clustermap.js           # An interactive map of songs based on metadata
 │   ├── features.js             # Deployment feature flags
 │   ├── index.css               # CSS entry point (@imports all stylesheets)
