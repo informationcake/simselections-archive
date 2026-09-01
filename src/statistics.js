@@ -1,11 +1,45 @@
 import { playlistData } from './metadata.js';
 
-let globalChartResizeObserver = null;
-let globalLengthsResizeObserver = null;
+let statsResizeObserver = null;
+let lengthsResizeObserver = null;
+let tooltipEl = null;
+
+function getOrCreateTooltip() {
+    if (!tooltipEl) {
+        tooltipEl = document.getElementById('stats-d3-tooltip');
+        if (!tooltipEl) {
+            tooltipEl = document.createElement('div');
+            tooltipEl.id = 'stats-d3-tooltip';
+            tooltipEl.className = 'stats-d3-tooltip';
+            document.body.appendChild(tooltipEl);
+        }
+    }
+    return tooltipEl;
+}
+
+function showTooltip(html, event) {
+    const tip = getOrCreateTooltip();
+    tip.innerHTML = html;
+    tip.style.display = 'block';
+    const x = event.pageX + 12;
+    const y = event.pageY - 28;
+    tip.style.left = `${x}px`;
+    tip.style.top = `${y}px`;
+}
+
+function hideTooltip() {
+    const tip = getOrCreateTooltip();
+    tip.style.display = 'none';
+}
+
+function formatSeconds(secs) {
+    const m = Math.floor(secs / 60);
+    const s = Math.floor(secs % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+}
 
 /**
- * Renders the statistics dashboard chart and metrics by aggregating track data across all playlists.
- * Initializes a Plotly bar chart and sets up a ResizeObserver for responsiveness.
+ * Renders the entire statistics dashboard using D3.js.
  */
 export function renderStatsDashboard() {
     const statsView = document.getElementById('stats-view-container');
@@ -33,75 +67,16 @@ export function renderStatsDashboard() {
     if (statsLinkedCount) statsLinkedCount.textContent = linkedCount;
 
     const chartContainer = document.getElementById('stats-chart');
-    if (chartContainer && typeof Plotly !== 'undefined') {
-        const accent = getComputedStyle(document.body).getPropertyValue('--accent').trim() || '#ec4899';
-        const accentCyan = getComputedStyle(document.body).getPropertyValue('--accent-cyan').trim() || '#06b6d4';
-        const accentPurple = getComputedStyle(document.body).getPropertyValue('--accent-purple').trim() || '#8b5cf6';
-        const trace = {
-            type: 'bar',
-            x: orderedMonths.map(playlist => playlist.name),
-            y: orderedMonths.map(playlist => (playlist.tracks || []).length),
-            marker: { color: orderedMonths.map((_, index) => index % 3 === 0 ? accentCyan : index % 3 === 1 ? accent : accentPurple) },
-            hovertemplate: '%{x}<br>%{y} submissions<extra></extra>',
-            hoverinfo: 'none'
-        };
+    if (chartContainer && typeof d3 !== 'undefined') {
+        drawSubmissionsChart(chartContainer, orderedMonths);
 
-        Plotly.newPlot(chartContainer, [trace], {
-            margin: { t: 12, r: 18, b: 70, l: 38 },
-            paper_bgcolor: 'rgba(0,0,0,0)',
-            plot_bgcolor: 'rgba(0,0,0,0)',
-            autosize: true,
-            dragmode: false,
-            hovermode: true,
-            xaxis: {
-                showgrid: false,
-                zeroline: false,
-                tickfont: { size: 10, color: 'rgba(248,250,252,0.72)' },
-                title: '',
-                automargin: true
-            },
-            yaxis: {
-                showgrid: true,
-                gridcolor: 'rgba(255,255,255,0.08)',
-                zeroline: false,
-                rangemode: 'tozero',
-                tickfont: { color: 'rgba(248,250,252,0.72)' }
-            },
-            showlegend: false
-        }, {
-            responsive: false,
-            displayModeBar: false
-        });
-
-        // Clean up any existing observer
-        if (globalChartResizeObserver) {
-            globalChartResizeObserver.disconnect();
-        }
-
-        // Track both width and height to trigger resizes on horizontal and vertical adjustments
-        let lastWidth = chartContainer.clientWidth;
-        let lastHeight = chartContainer.clientHeight;
-
-        globalChartResizeObserver = new ResizeObserver((entries) => {
-            const entry = entries[0];
-            const currentWidth = entry.contentRect.width;
-            const currentHeight = entry.contentRect.height;
-
-            // Trigger if width or height changes by more than 2 pixels
-            if (Math.abs(currentWidth - lastWidth) > 2 || Math.abs(currentHeight - lastHeight) > 2) {
-                lastWidth = currentWidth;
-                lastHeight = currentHeight;
-
-                window.requestAnimationFrame(() => {
-                    if (chartContainer && chartContainer.clientHeight > 0 && chartContainer.clientWidth > 0) {
-                        Plotly.Plots.resize(chartContainer);
-                    }
-                });
+        if (statsResizeObserver) statsResizeObserver.disconnect();
+        statsResizeObserver = new ResizeObserver(() => {
+            if (chartContainer.clientWidth > 0 && chartContainer.clientHeight > 0) {
+                drawSubmissionsChart(chartContainer, orderedMonths);
             }
         });
-
-        // Start observing
-        globalChartResizeObserver.observe(chartContainer);
+        statsResizeObserver.observe(chartContainer);
     }
 
     const insight = busiestMonth ? `Busiest month: ${busiestMonth.name} with ${busiestMonth.tracks.length} submissions` : '';
@@ -110,217 +85,333 @@ export function renderStatsDashboard() {
     }
 
     const chartContainer2 = document.getElementById('stats-lengths-chart');
-    if (chartContainer2 && typeof Plotly !== 'undefined') {
-        const accentPurple = getComputedStyle(document.body).getPropertyValue('--accent-purple').trim() || '#8b5cf6';
+    if (chartContainer2 && typeof d3 !== 'undefined') {
+        drawLengthsHistogram(chartContainer2, playlistData);
 
-        // Extract track length directly from in-memory playlistData
-        const secondsList = [];
-        playlistData.forEach(playlist => {
-            (playlist.tracks || []).forEach(track => {
-                if (track.length && !isNaN(track.length) && track.length > 0) {
-                    secondsList.push(track.length);
-                }
-            });
-        });
-
-        if (secondsList.length === 0) {
-            chartContainer2.innerHTML = `<div class="empty-state" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--text-muted);"><i data-lucide="info" style="margin-bottom:8px;width:24px;height:24px;"></i><p>No track lengths available</p></div>`;
-            if (typeof lucide !== 'undefined') lucide.createIcons({ root: chartContainer2 });
-            return;
-        }
-
-        // Calculate mean and median in seconds
-        const meanSeconds = secondsList.reduce((sum, val) => sum + val, 0) / secondsList.length;
-        const sortedSecs = [...secondsList].sort((a, b) => a - b);
-        const midSecs = Math.floor(sortedSecs.length / 2);
-        const medianSeconds = sortedSecs.length % 2 !== 0 ? sortedSecs[midSecs] : (sortedSecs[midSecs - 1] + sortedSecs[midSecs]) / 2;
-
-        // Format helper function to convert raw seconds to M:SS
-        function formatSeconds(secs) {
-            const m = Math.floor(secs / 60);
-            const s = Math.floor(secs % 60);
-            return `${m}:${s.toString().padStart(2, '0')}`;
-        }
-
-        // Pre-bin the data for a custom bar chart (10 second bins)
-        const maxSeconds = Math.max(...secondsList);
-        const binSize = 10; // 10 seconds
-        const numBins = Math.ceil(maxSeconds / binSize);
-        const binCounts = Array(numBins).fill(0);
-
-        secondsList.forEach(s => {
-            const idx = Math.floor(s / binSize);
-            if (idx >= 0 && idx < numBins) {
-                binCounts[idx]++;
+        if (lengthsResizeObserver) lengthsResizeObserver.disconnect();
+        lengthsResizeObserver = new ResizeObserver(() => {
+            if (chartContainer2.clientWidth > 0 && chartContainer2.clientHeight > 0) {
+                drawLengthsHistogram(chartContainer2, playlistData);
             }
         });
+        lengthsResizeObserver.observe(chartContainer2);
+    }
+}
 
-        const binCenters = [];
-        const hoverTexts = [];
-        for (let i = 0; i < numBins; i++) {
-            const start = i * binSize;
-            const end = (i + 1) * binSize;
-            binCenters.push((start + binSize / 2.0) / 60.0); // in minutes (bin center)
-            hoverTexts.push(`${formatSeconds(start)} - ${formatSeconds(end)}`);
-        }
+/**
+ * Draws the Monthly Submissions Bar Chart with D3.
+ */
+function drawSubmissionsChart(container, orderedMonths) {
+    container.innerHTML = '';
+    const rect = container.getBoundingClientRect();
+    const width = Math.floor(rect.width) || container.clientWidth || 600;
+    const height = Math.floor(rect.height) || container.clientHeight || 340;
 
-        const accent = getComputedStyle(document.body).getPropertyValue('--accent').trim() || '#ec4899';
-        const accentCyan = getComputedStyle(document.body).getPropertyValue('--accent-cyan').trim() || '#06b6d4';
+    const margin = { top: 12, right: 12, bottom: 82, left: 38 };
+    const innerWidth = Math.max(10, width - margin.left - margin.right);
+    const innerHeight = Math.max(10, height - margin.top - margin.bottom);
 
-        // Position shapes and annotations linearly in minutes
-        const mean = meanSeconds / 60.0;
-        const median = medianSeconds / 60.0;
+    const accent = getComputedStyle(document.body).getPropertyValue('--accent').trim() || '#ec4899';
+    const accentCyan = getComputedStyle(document.body).getPropertyValue('--accent-cyan').trim() || '#06b6d4';
+    const accentPurple = getComputedStyle(document.body).getPropertyValue('--accent-purple').trim() || '#8b5cf6';
+    const colors = [accentCyan, accent, accentPurple];
 
-        const shapes = [
-            {
-                type: 'line',
-                x0: mean,
-                y0: 0,
-                x1: mean,
-                y1: 1,
-                yref: 'paper',
-                line: {
-                    color: accent,
-                    width: 1.5,
-                    dash: 'dash'
-                }
-            },
-            {
-                type: 'line',
-                x0: median,
-                y0: 0,
-                x1: median,
-                y1: 1,
-                yref: 'paper',
-                line: {
-                    color: accentCyan,
-                    width: 1.5,
-                    dash: 'dot'
-                }
-            }
-        ];
+    const svg = d3.select(container)
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .style('display', 'block');
 
-        const annotations = [
-            {
-                x: mean,
-                y: 0.15,
-                yref: 'paper',
-                text: `Mean: ${formatSeconds(meanSeconds)}`,
-                showarrow: false,
-                xanchor: 'right',
-                yanchor: 'top',
-                font: {
-                    size: 10,
-                    color: accent
-                },
-                bgcolor: 'rgba(3, 2, 6, 0.85)',
-                bordercolor: 'rgba(255,255,255,0.08)',
-                borderwidth: 1,
-                borderpad: 4
-            },
-            {
-                x: median,
-                y: 0.30,
-                yref: 'paper',
-                text: `Median: ${formatSeconds(medianSeconds)}`,
-                showarrow: false,
-                xanchor: 'left',
-                yanchor: 'top',
-                font: {
-                    size: 10,
-                    color: accentCyan
-                },
-                bgcolor: 'rgba(3, 2, 6, 0.85)',
-                bordercolor: 'rgba(255,255,255,0.08)',
-                borderwidth: 1,
-                borderpad: 4
-            }
-        ];
+    const g = svg.append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
 
-        const trace2 = {
-            type: 'bar',
-            x: binCenters, // Use numerical x-axis
-            y: binCounts,
-            hovertext: hoverTexts,
-            textposition: 'none',
-            marker: {
-                color: accentPurple,
-                line: {
-                    color: 'rgba(255, 255, 255, 0.08)',
-                    width: 1
-                }
-            },
-            hovertemplate: 'Duration: %{hovertext}<br>Tracks: %{y}<extra></extra>'
-        };
+    const xScale = d3.scaleBand()
+        .domain(orderedMonths.map(d => d.name))
+        .range([0, innerWidth])
+        .padding(0.25);
 
-        const maxMinutes = Math.ceil(maxSeconds / 60);
-        const tickvals = [];
-        const ticktext = [];
-        for (let m = 0; m <= maxMinutes; m++) {
-            tickvals.push(m);
-            ticktext.push(`${m}:00`);
-        }
+    const yMax = d3.max(orderedMonths, d => (d.tracks || []).length) || 10;
+    const yScale = d3.scaleLinear()
+        .domain([0, yMax])
+        .nice()
+        .range([innerHeight, 0]);
 
-        Plotly.newPlot(chartContainer2, [trace2], {
-            margin: { t: 12, r: 18, b: 50, l: 38 },
-            paper_bgcolor: 'rgba(0,0,0,0)',
-            plot_bgcolor: 'rgba(0,0,0,0)',
-            autosize: true,
-            dragmode: false,
-            hovermode: true,
-            bargap: 0.05,
-            shapes: shapes,
-            annotations: annotations,
-            xaxis: {
-                type: 'linear',
-                showgrid: false,
-                zeroline: false,
-                tickvals: tickvals,
-                ticktext: ticktext,
-                range: [0, maxMinutes],
-                tickfont: { size: 10, color: 'rgba(248,250,252,0.72)' },
-                title: { text: 'Duration', font: { size: 11, color: 'rgba(248,250,252,0.72)' } },
-                automargin: true
-            },
-            yaxis: {
-                showgrid: true,
-                gridcolor: 'rgba(255,255,255,0.08)',
-                zeroline: false,
-                rangemode: 'tozero',
-                tickfont: { color: 'rgba(248,250,252,0.72)' }
-            },
-            showlegend: false
-        }, {
-            responsive: false,
-            displayModeBar: false
+    // Gridlines
+    g.append('g')
+        .attr('class', 'grid-lines')
+        .call(d3.axisLeft(yScale)
+            .ticks(4)
+            .tickSize(-innerWidth)
+            .tickFormat('')
+        )
+        .selectAll('line')
+        .style('stroke', 'rgba(255, 255, 255, 0.06)')
+        .style('stroke-dasharray', '2,2');
+
+    g.select('.grid-lines .domain').remove();
+
+    // X Axis
+    const xAxisG = g.append('g')
+        .attr('transform', `translate(0,${innerHeight})`)
+        .call(d3.axisBottom(xScale));
+
+    xAxisG.select('.domain').style('stroke', 'rgba(255, 255, 255, 0.1)');
+    xAxisG.selectAll('.tick line').style('stroke', 'rgba(255, 255, 255, 0.1)');
+    xAxisG.selectAll('.tick text')
+        .style('fill', 'rgba(248, 250, 252, 0.72)')
+        .style('font-size', '9.5px')
+        .style('font-family', 'inherit')
+        .attr('transform', 'rotate(-55)')
+        .style('text-anchor', 'end')
+        .attr('dx', '-8px')
+        .attr('dy', '2px');
+
+    // Y Axis
+    const yAxisG = g.append('g')
+        .call(d3.axisLeft(yScale).ticks(4));
+
+    yAxisG.select('.domain').remove();
+    yAxisG.selectAll('.tick line').remove();
+    yAxisG.selectAll('.tick text')
+        .style('fill', 'rgba(248, 250, 252, 0.72)')
+        .style('font-size', '10px')
+        .style('font-family', 'inherit');
+
+    // Bars
+    g.selectAll('.bar')
+        .data(orderedMonths)
+        .enter()
+        .append('rect')
+        .attr('class', 'bar')
+        .attr('x', d => xScale(d.name))
+        .attr('y', d => yScale((d.tracks || []).length))
+        .attr('width', xScale.bandwidth())
+        .attr('height', d => innerHeight - yScale((d.tracks || []).length))
+        .attr('rx', 3)
+        .attr('ry', 3)
+        .attr('fill', (_, i) => colors[i % colors.length])
+        .style('cursor', 'pointer')
+        .style('transition', 'opacity 0.2s ease, filter 0.2s ease')
+        .on('mouseenter', function (event, d) {
+            d3.select(this)
+                .style('opacity', '0.85')
+                .style('filter', 'brightness(1.2)');
+            const count = (d.tracks || []).length;
+            showTooltip(`<strong>${d.name}</strong><br>${count} submission${count === 1 ? '' : 's'}`, event);
+        })
+        .on('mousemove', function (event) {
+            const tip = getOrCreateTooltip();
+            tip.style.left = `${event.pageX + 12}px`;
+            tip.style.top = `${event.pageY - 28}px`;
+        })
+        .on('mouseleave', function () {
+            d3.select(this)
+                .style('opacity', '1')
+                .style('filter', 'none');
+            hideTooltip();
         });
+}
 
-        // Set up ResizeObserver for the histogram
-        if (globalLengthsResizeObserver) {
-            globalLengthsResizeObserver.disconnect();
-        }
+/**
+ * Draws the Track Length Distribution Histogram with Mean & Median lines using D3.
+ */
+function drawLengthsHistogram(container, playlists) {
+    container.innerHTML = '';
+    const rect = container.getBoundingClientRect();
+    const width = Math.floor(rect.width) || container.clientWidth || 600;
+    const height = Math.floor(rect.height) || container.clientHeight || 340;
 
-        let lastWidth = chartContainer2.clientWidth;
-        let lastHeight = chartContainer2.clientHeight;
-
-        globalLengthsResizeObserver = new ResizeObserver((entries) => {
-            const entry = entries[0];
-            const currentWidth = entry.contentRect.width;
-            const currentHeight = entry.contentRect.height;
-
-            if (Math.abs(currentWidth - lastWidth) > 2 || Math.abs(currentHeight - lastHeight) > 2) {
-                lastWidth = currentWidth;
-                lastHeight = currentHeight;
-
-                window.requestAnimationFrame(() => {
-                    if (chartContainer2 && chartContainer2.clientHeight > 0 && chartContainer2.clientWidth > 0) {
-                        Plotly.Plots.resize(chartContainer2);
-                    }
-                });
+    const secondsList = [];
+    playlists.forEach(playlist => {
+        (playlist.tracks || []).forEach(track => {
+            if (track.length && !isNaN(track.length) && track.length > 0) {
+                secondsList.push(track.length);
             }
         });
+    });
 
-        globalLengthsResizeObserver.observe(chartContainer2);
+    if (secondsList.length === 0) {
+        container.innerHTML = `<div class="empty-state" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--text-muted);"><i data-lucide="info" style="margin-bottom:8px;width:24px;height:24px;"></i><p>No track lengths available</p></div>`;
+        if (typeof lucide !== 'undefined') lucide.createIcons({ root: container });
+        return;
+    }
+
+    const margin = { top: 18, right: 12, bottom: 28, left: 36 };
+    const innerWidth = Math.max(10, width - margin.left - margin.right);
+    const innerHeight = Math.max(10, height - margin.top - margin.bottom);
+
+    const meanSeconds = secondsList.reduce((sum, val) => sum + val, 0) / secondsList.length;
+    const sortedSecs = [...secondsList].sort((a, b) => a - b);
+    const midSecs = Math.floor(sortedSecs.length / 2);
+    const medianSeconds = sortedSecs.length % 2 !== 0 ? sortedSecs[midSecs] : (sortedSecs[midSecs - 1] + sortedSecs[midSecs]) / 2;
+
+    const binSize = 10;
+    const maxSeconds = Math.max(...secondsList);
+    const numBins = Math.ceil(maxSeconds / binSize);
+    const binCounts = Array(numBins).fill(0);
+
+    secondsList.forEach(s => {
+        const idx = Math.floor(s / binSize);
+        if (idx >= 0 && idx < numBins) binCounts[idx]++;
+    });
+
+    const bins = [];
+    for (let i = 0; i < numBins; i++) {
+        const start = i * binSize;
+        const end = (i + 1) * binSize;
+        bins.push({
+            startMinutes: start / 60.0,
+            endMinutes: end / 60.0,
+            centerMinutes: (start + binSize / 2.0) / 60.0,
+            rangeLabel: `${formatSeconds(start)} - ${formatSeconds(end)}`,
+            count: binCounts[i]
+        });
+    }
+
+    const accent = getComputedStyle(document.body).getPropertyValue('--accent').trim() || '#ec4899';
+    const accentCyan = getComputedStyle(document.body).getPropertyValue('--accent-cyan').trim() || '#06b6d4';
+    const accentPurple = getComputedStyle(document.body).getPropertyValue('--accent-purple').trim() || '#8b5cf6';
+
+    const maxMinutes = Math.ceil(maxSeconds / 60);
+
+    const svg = d3.select(container)
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .style('display', 'block');
+
+    const g = svg.append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const xScale = d3.scaleLinear()
+        .domain([0, maxMinutes])
+        .range([0, innerWidth]);
+
+    const yMax = d3.max(binCounts) || 5;
+    const yScale = d3.scaleLinear()
+        .domain([0, yMax])
+        .nice()
+        .range([innerHeight, 0]);
+
+    // Gridlines
+    g.append('g')
+        .attr('class', 'grid-lines')
+        .call(d3.axisLeft(yScale)
+            .ticks(5)
+            .tickSize(-innerWidth)
+            .tickFormat('')
+        )
+        .selectAll('line')
+        .style('stroke', 'rgba(255, 255, 255, 0.06)')
+        .style('stroke-dasharray', '2,2');
+
+    g.select('.grid-lines .domain').remove();
+
+    // X Axis
+    const xAxis = d3.axisBottom(xScale)
+        .ticks(Math.min(maxMinutes, 12))
+        .tickFormat(m => `${m}:00`);
+
+    const xAxisG = g.append('g')
+        .attr('transform', `translate(0,${innerHeight})`)
+        .call(xAxis);
+
+    xAxisG.select('.domain').style('stroke', 'rgba(255, 255, 255, 0.1)');
+    xAxisG.selectAll('.tick line').style('stroke', 'rgba(255, 255, 255, 0.1)');
+    xAxisG.selectAll('.tick text')
+        .style('fill', 'rgba(248, 250, 252, 0.72)')
+        .style('font-size', '10px')
+        .style('font-family', 'inherit');
+
+    // Y Axis
+    const yAxisG = g.append('g')
+        .call(d3.axisLeft(yScale).ticks(5));
+
+    yAxisG.select('.domain').remove();
+    yAxisG.selectAll('.tick line').remove();
+    yAxisG.selectAll('.tick text')
+        .style('fill', 'rgba(248, 250, 252, 0.72)')
+        .style('font-size', '10px')
+        .style('font-family', 'inherit');
+
+    // Histogram Bars
+    const barWidth = Math.max(1, (innerWidth / (maxMinutes * 60 / binSize)) - 1);
+
+    g.selectAll('.hist-bar')
+        .data(bins)
+        .enter()
+        .append('rect')
+        .attr('class', 'hist-bar')
+        .attr('x', d => xScale(d.startMinutes))
+        .attr('y', d => yScale(d.count))
+        .attr('width', barWidth)
+        .attr('height', d => innerHeight - yScale(d.count))
+        .attr('fill', accentPurple)
+        .attr('rx', 1)
+        .style('cursor', 'pointer')
+        .style('transition', 'opacity 0.2s ease, fill 0.2s ease')
+        .on('mouseenter', function (event, d) {
+            d3.select(this)
+                .style('fill', accentCyan)
+                .style('opacity', '0.9');
+            showTooltip(`<strong>Duration:</strong> ${d.rangeLabel}<br><strong>Tracks:</strong> ${d.count}`, event);
+        })
+        .on('mousemove', function (event) {
+            const tip = getOrCreateTooltip();
+            tip.style.left = `${event.pageX + 12}px`;
+            tip.style.top = `${event.pageY - 28}px`;
+        })
+        .on('mouseleave', function () {
+            d3.select(this)
+                .style('fill', accentPurple)
+                .style('opacity', '1');
+            hideTooltip();
+        });
+
+    // Mean Line & Annotation
+    const meanX = xScale(meanSeconds / 60.0);
+    if (meanX >= 0 && meanX <= innerWidth) {
+        g.append('line')
+            .attr('x1', meanX)
+            .attr('x2', meanX)
+            .attr('y1', 0)
+            .attr('y2', innerHeight)
+            .attr('stroke', accent)
+            .attr('stroke-width', 1.5)
+            .attr('stroke-dasharray', '4,4');
+
+        g.append('text')
+            .attr('x', meanX - 6)
+            .attr('y', -6)
+            .attr('text-anchor', 'end')
+            .attr('fill', accent)
+            .style('font-size', '10px')
+            .style('font-weight', '600')
+            .style('font-family', 'inherit')
+            .text(`Mean: ${formatSeconds(meanSeconds)}`);
+    }
+
+    // Median Line & Annotation
+    const medianX = xScale(medianSeconds / 60.0);
+    if (medianX >= 0 && medianX <= innerWidth) {
+        g.append('line')
+            .attr('x1', medianX)
+            .attr('x2', medianX)
+            .attr('y1', 0)
+            .attr('y2', innerHeight)
+            .attr('stroke', accentCyan)
+            .attr('stroke-width', 1.5)
+            .attr('stroke-dasharray', '2,2');
+
+        g.append('text')
+            .attr('x', medianX + 6)
+            .attr('y', -6)
+            .attr('text-anchor', 'start')
+            .attr('fill', accentCyan)
+            .style('font-size', '10px')
+            .style('font-weight', '600')
+            .style('font-family', 'inherit')
+            .text(`Median: ${formatSeconds(medianSeconds)}`);
     }
 }
 
