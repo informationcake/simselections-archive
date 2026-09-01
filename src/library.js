@@ -98,6 +98,24 @@ export function initLibrary() {
             const isOpen = yearNode.classList.contains('open');
             if (!isOpen) {
                 collapseOtherYears(yearNode);
+                
+                // Reset scroll position when opening a year, unless it contains the active month
+                const hasActiveMonth = monthList.querySelector('.month-item.active');
+                if (!hasActiveMonth) {
+                    // Use a short timeout to ensure the element is visible before setting scrollTop
+                    setTimeout(() => {
+                        monthList.scrollTop = 0;
+                    }, 10);
+                } else {
+                    // If it has an active month, ensure it's visible by scrolling to it
+                    // Wait for max-height transition to finish
+                    setTimeout(() => {
+                        const activeItem = monthList.querySelector('.month-item.active');
+                        if (activeItem) {
+                            activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                        }
+                    }, 300);
+                }
             }
             yearNode.classList.toggle('open');
             yearHeader.classList.toggle('open');
@@ -145,6 +163,11 @@ export function activatePlaylistSelection(playlist) {
             yearNode.classList.add('open');
             const header = yearNode.querySelector('.year-header');
             if (header) header.classList.add('open');
+            
+            // Wait for max-height transition to finish before scrolling
+            setTimeout(() => {
+                monthItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 300);
         }
     }
 }
@@ -251,6 +274,12 @@ export function loadPlaylist(playlist, playImmediately = false) {
  */
 export function renderTracklist(tracks) {
     tracklistBody.innerHTML = '';
+    
+    // Reset scroll position for the tracklist container when rendering a new playlist
+    const container = document.querySelector('.tracklist-container');
+    if (container) {
+        container.scrollTop = 0;
+    }
 
     if (tracks.length === 0) {
         tracklistBody.innerHTML = `
