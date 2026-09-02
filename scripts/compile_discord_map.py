@@ -51,9 +51,16 @@ def is_collaboration(artist_str):
     """
     if not artist_str:
         return False
-    # Remove text in parentheses before checking for collaboration words
-    s_no_paren = re.sub(r'\(.*?\)', '', artist_str)
-    return bool(re.search(r'\b(feat|ft|and|with|vs|versus)\b|[&;\|/,]', s_no_paren, re.IGNORECASE))
+    # Remove text in parentheses before checking for collaboration words, 
+    # UNLESS they contain strong delimiters like / or &
+    def strip_safe_parens(match):
+        content = match.group(0)
+        if bool(re.search(r'[/&;]', content)):
+            return content
+        return ""
+    
+    s_no_paren = re.sub(r'\(.*?\)', strip_safe_parens, artist_str)
+    return bool(re.search(r'\b(feat|ft|and|with|vs|versus|x)\b|[&;\|/,]', s_no_paren, re.IGNORECASE))
 
 def split_collaborators(artist_str):
     """
@@ -65,19 +72,29 @@ def split_collaborators(artist_str):
         return []
     
     # If no delimiters outside parentheses, return as single artist
-    s_no_paren = re.sub(r'\(.*?\)', '', artist_str)
-    if not bool(re.search(r'\b(feat|ft|and|with|vs|versus)\b|[&;\|/,]', s_no_paren, re.IGNORECASE)):
+    def strip_safe_parens(match):
+        content = match.group(0)
+        if bool(re.search(r'[/&;]', content)):
+            return content
+        return ""
+    
+    s_no_paren = re.sub(r'\(.*?\)', strip_safe_parens, artist_str)
+    if not bool(re.search(r'\b(feat|ft|and|with|vs|versus|x)\b|[&;\|/,]', s_no_paren, re.IGNORECASE)):
         return [artist_str.strip()]
 
     # Replace collaboration words outside parentheses
     # Protect parentheses content by replacing temporarily
     parens = []
     def save_paren(match):
-        parens.append(match.group(0))
+        content = match.group(0)
+        if bool(re.search(r'[/&;]', content)):
+            # Convert parentheses to delimiters so we split on them too!
+            return "|" + content[1:-1] + "|"
+        parens.append(content)
         return f"__PAREN_{len(parens)-1}__"
     
     protected = re.sub(r'\(.*?\)', save_paren, artist_str)
-    norm = re.sub(r'\b(feat|ft|and|with|vs|versus)\b\.?', '|', protected, flags=re.IGNORECASE)
+    norm = re.sub(r'\b(feat|ft|and|with|vs|versus|x)\b\.?', '|', protected, flags=re.IGNORECASE)
     parts = [p.strip() for p in re.split(r'[&;\|/,]', norm) if p.strip()]
     
     # Restore parenthetical content
@@ -185,23 +202,11 @@ def compile_discord_map(music_dir=""):
             "discord_ids": set()
         }
 
-    # Known canonical aliases for abbreviations
-    KNOWN_ALIASES = {
-        "ajbergren": "Adam Johan Bergren",
-        "ajb": "Adam Johan Bergren",
-        "dmt": "Default Media Transmitter",
-        "mmt": "Mime Mining Corporation",
-        "fallacydice": "Doggo Shark (Fallacy Dice)",
-        "ponyart": "PonyArt",
-        "errrawr": "Err:Rawr",
-        "jacketpocket": "Jacketpocket",
-        "cschweppe": "Peregrine (cschweppe)",
-        "brokengravity": "Broken Gravity",
-        "alexclarke": "informationcake"
-    }
 
     # Discover and parse submission CSVs
     scanned_files = 0
+    all_rows = []
+    
     for sdir in search_dirs:
         for root, _, files in os.walk(sdir):
             for fname in files:
@@ -242,74 +247,87 @@ def compile_discord_map(music_dir=""):
                                     disc_val = row[disc_idx].strip() if disc_idx != -1 and len(row) > disc_idx else ""
                                     disc_id_val = row[disc_id_idx].strip() if disc_id_idx != -1 and len(row) > disc_id_idx else ""
 
-                                    clean_handle = normalize_discord_handle(disc_val)
-                                    if (clean_handle or disc_id_val) and art_val:
-                                        c_handle = clean_string(clean_handle)
-
-                                        # Remix title protection: If title is a remix/rework/cover/remake and submitter is not the original artist,
-                                        # do NOT attach the remixer's Discord handle to the original stem artist!
-                                        is_remix_title = bool(re.search(r'\b(remix|rework|reimagining|cover|flip|edit|remake|done redid)\b', tit_val, re.IGNORECASE))
-                                        if is_remix_title and c_handle and c_handle != clean_string(art_val):
-                                            # Check if the title specifies the remixer: e.g. "Confusion (Aplut Remix)"
-                                            # If so, or if handle matches a known catalog artist, map to the remixer artist
-                                            remixer_candidate = None
-                                            for c_art_key, disp_name in atomic_artists.items():
-                                                if c_art_key == c_handle:
-                                                    remixer_candidate = disp_name
-                                                    break
-                                            if not remixer_candidate and c_handle in KNOWN_ALIASES:
-                                                remixer_candidate = KNOWN_ALIASES[c_handle]
-
-                                            if remixer_candidate:
-                                                c_remixer = clean_string(remixer_candidate)
-                                                if c_remixer in artist_to_handles:
-                                                    artist_to_handles[c_remixer]["handles"].add(clean_handle)
-                                                    if disc_id_val:
-                                                        artist_to_handles[c_remixer]["discord_ids"].add(disc_id_val)
-                                            continue
-
-                                        # Stem provider protection during remix months (The Flashbulb, Simulation, Nornec)
-                                        if clean_string(art_val) in {"theflashbulb", "simulation"}:
-                                            if "remix" in tit_val.lower() or "edit" in tit_val.lower() or c_handle not in {"theflashbulb", "bennjordan"}:
-                                                continue
-
-                                        # Split into constituent atomic artists
-                                        constituents = split_collaborators(art_val) if is_collaboration(art_val) else [art_val]
-
-                                        # Determine which constituent artist this handle belongs to
-                                        target_artist = None
-
-                                        # 1. Exact string match between handle and constituent
-                                        for const in constituents:
-                                            if clean_string(const) == c_handle:
-                                                target_artist = const
-                                                break
-
-                                        # 2. Match against known alias map
-                                        if not target_artist and c_handle in KNOWN_ALIASES:
-                                            target_artist = KNOWN_ALIASES[c_handle]
-
-                                        # 3. Default to primary submitting artist
-                                        if not target_artist and len(constituents) > 0:
-                                            first_const = constituents[0]
-                                            if clean_string(first_const) in {"theflashbulb", "simulation"} and len(constituents) > 1:
-                                                target_artist = constituents[1]
-                                            else:
-                                                target_artist = first_const
-
-                                        if target_artist:
-                                            c_target = clean_string(target_artist)
-                                            # Also resolve alias if target is an alias
-                                            if c_target in KNOWN_ALIASES:
-                                                c_target = clean_string(KNOWN_ALIASES[c_target])
-
-                                            if c_target in artist_to_handles:
-                                                if clean_handle:
-                                                    artist_to_handles[c_target]["handles"].add(clean_handle)
-                                                if disc_id_val:
-                                                    artist_to_handles[c_target]["discord_ids"].add(disc_id_val)
+                                    if art_val and (disc_val or disc_id_val):
+                                        all_rows.append((art_val, tit_val, disc_val, disc_id_val))
                     except Exception as e:
                         print(f"Warning: Failed to read {fpath}: {e}")
+
+    # Pass 1: Build dynamic aliases from solo tracks
+    dynamic_aliases = {}
+    for art_val, tit_val, disc_val, disc_id_val in all_rows:
+        clean_handle = normalize_discord_handle(disc_val)
+        c_handle = clean_string(clean_handle)
+        # If this is a solo track (not a collaboration), the handle belongs to this artist
+        if c_handle and not is_collaboration(art_val):
+            if c_handle not in dynamic_aliases:
+                dynamic_aliases[c_handle] = art_val
+
+    # Pass 2: Assign handles correctly even in collaborations
+    for art_val, tit_val, disc_val, disc_id_val in all_rows:
+        clean_handle = normalize_discord_handle(disc_val)
+        c_handle = clean_string(clean_handle)
+        
+        if not c_handle and not disc_id_val:
+            continue
+
+        # Remix title protection
+        is_remix_title = bool(re.search(r'\b(remix|rework|reimagining|cover|flip|edit|remake|done redid)\b', tit_val, re.IGNORECASE))
+        if is_remix_title and c_handle and c_handle != clean_string(art_val):
+            remixer_candidate = None
+            for c_art_key, disp_name in atomic_artists.items():
+                if c_art_key == c_handle:
+                    remixer_candidate = disp_name
+                    break
+            
+            if not remixer_candidate and c_handle in dynamic_aliases:
+                remixer_candidate = dynamic_aliases[c_handle]
+
+            if remixer_candidate:
+                c_remixer = clean_string(remixer_candidate)
+                if c_remixer in artist_to_handles:
+                    if clean_handle:
+                        artist_to_handles[c_remixer]["handles"].add(clean_handle)
+                    if disc_id_val:
+                        artist_to_handles[c_remixer]["discord_ids"].add(disc_id_val)
+            continue
+
+        # Stem provider protection during remix months
+        if clean_string(art_val) in {"theflashbulb", "simulation"}:
+            if "remix" in tit_val.lower() or "edit" in tit_val.lower() or c_handle not in {"theflashbulb", "bennjordan"}:
+                continue
+
+        # Split into constituent atomic artists
+        constituents = split_collaborators(art_val) if is_collaboration(art_val) else [art_val]
+
+        # Determine which constituent artist this handle belongs to
+        target_artist = None
+
+        # 1. Exact string match between handle and constituent
+        for const in constituents:
+            if clean_string(const) == c_handle:
+                target_artist = const
+                break
+
+        # 2. Match against dynamic aliases learned from solo tracks
+        if not target_artist and c_handle in dynamic_aliases:
+            target_artist = dynamic_aliases[c_handle]
+
+        # 3. Default to primary submitting artist
+        if not target_artist and len(constituents) > 0:
+            first_const = constituents[0]
+            if clean_string(first_const) in {"theflashbulb", "simulation"} and len(constituents) > 1:
+                target_artist = constituents[1]
+            else:
+                target_artist = first_const
+
+        if target_artist:
+            c_target = clean_string(target_artist)
+
+            if c_target in artist_to_handles:
+                if clean_handle:
+                    artist_to_handles[c_target]["handles"].add(clean_handle)
+                if disc_id_val:
+                    artist_to_handles[c_target]["discord_ids"].add(disc_id_val)
 
     # Build reverse lookup handle_to_artists map
     handle_to_artists = {}

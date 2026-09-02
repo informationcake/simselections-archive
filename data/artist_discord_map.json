@@ -7,23 +7,20 @@
     },
     "how_login_works": "When an artist logs in via Discord OAuth2, the server normalizes their Discord username (removes spaces, punctuation, lowercase) and queries 'handle_lookup' to find all artist aliases they own.",
     "coverage": {
-      "total_individual_artists": 389,
-      "linked_artists_count": 292,
-      "coverage_percentage": "75.1%"
+      "total_individual_artists": 386,
+      "linked_artists_count": 250,
+      "coverage_percentage": "64.8%"
     }
   },
   "artists": {
     "5XVT": {
       "handles": [
-        "5XVT",
-        "Doggo Shark"
+        "5XVT"
       ],
       "discord_ids": []
     },
     "_rchestra": {
-      "handles": [
-        "Kev"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "A Robot": {
@@ -56,8 +53,7 @@
     },
     "Adam Johan Bergren": {
       "handles": [
-        "ajbergren",
-        "ajbergren @Hades the Plutonian"
+        "ajbergren"
       ],
       "discord_ids": []
     },
@@ -106,18 +102,6 @@
       "handles": [
         "AmbientSpace",
         "ambientspace"
-      ],
-      "discord_ids": []
-    },
-    "AmbientSpace x Christopher Sisk": {
-      "handles": [
-        "AmbientSpace"
-      ],
-      "discord_ids": []
-    },
-    "AmbientSpace x Saw Whet": {
-      "handles": [
-        "AmbientSpace"
       ],
       "discord_ids": []
     },
@@ -192,14 +176,10 @@
       "discord_ids": []
     },
     "Ara Cristina": {
-      "handles": [
-        "AIADreamloss",
-        "AIAdreamloss",
-        "aiadreamloss"
-      ],
+      "handles": [],
       "discord_ids": []
     },
-    "ARC19-X": {
+    "ARC19-": {
       "handles": [
         "keatonktw121"
       ],
@@ -290,6 +270,10 @@
       "handles": [],
       "discord_ids": []
     },
+    "Bonfire": {
+      "handles": [],
+      "discord_ids": []
+    },
     "Bottle:Brush": {
       "handles": [
         "Digfig"
@@ -341,21 +325,15 @@
       "discord_ids": []
     },
     "Camino del Dragon": {
-      "handles": [
-        "Deeds"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Camino del Dragon (feat BerserkerBot)": {
-      "handles": [
-        "Deeds"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Camino del Dragon (YL)": {
-      "handles": [
-        "Deeds"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "CataclystP": {
@@ -375,10 +353,7 @@
       "discord_ids": []
     },
     "CayZe": {
-      "handles": [
-        "Jimbotron5000",
-        "jimbotron5000"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Chaos Engine": {
@@ -417,16 +392,8 @@
         "825848945640603670"
       ]
     },
-    "Christopher Sisk x AmbientSpace": {
-      "handles": [
-        "AmbientSpace"
-      ],
-      "discord_ids": []
-    },
     "Committees of Newfoundland": {
-      "handles": [
-        "PoetryinNoise"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Composite Complex": {
@@ -458,7 +425,10 @@
       "discord_ids": []
     },
     "cschweppe": {
-      "handles": [],
+      "handles": [
+        "Cschweppe",
+        "cschweppe"
+      ],
       "discord_ids": []
     },
     "Cschweppe NeutronCereal": {
@@ -512,10 +482,12 @@
         "716104350904352808"
       ]
     },
-    "deedsblankwin (deeds / dedblank / edwin)": {
-      "handles": [
-        "edwin1337"
-      ],
+    "deeds": {
+      "handles": [],
+      "discord_ids": []
+    },
+    "deedsblankwin": {
+      "handles": [],
       "discord_ids": []
     },
     "Deelooon": {
@@ -571,9 +543,7 @@
       "discord_ids": []
     },
     "Dig Fig": {
-      "handles": [
-        "sawwhet_85750"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Dire Gaze": {
@@ -633,9 +603,7 @@
       "discord_ids": []
     },
     "DREAMX": {
-      "handles": [
-        "Dream Static"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Drew Willard": {
@@ -671,9 +639,7 @@
       "discord_ids": []
     },
     "Duck Propaganda": {
-      "handles": [
-        "fulhjort"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Ducks": {
@@ -696,9 +662,7 @@
       "discord_ids": []
     },
     "Earl Grey": {
-      "handles": [
-        "jellymustardgut"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Echoes Bats": {
@@ -772,15 +736,12 @@
     },
     "Euskalduna": {
       "handles": [
-        "andrew.tobia",
-        "sawwhet_85750"
+        "andrew.tobia"
       ],
       "discord_ids": []
     },
-    "euskawin (euskalduna / edwin)": {
-      "handles": [
-        "edwin1337"
-      ],
+    "euskawin": {
+      "handles": [],
       "discord_ids": []
     },
     "Fallacy Dice": {
@@ -788,9 +749,7 @@
       "discord_ids": []
     },
     "Fallacy Dog": {
-      "handles": [
-        "Doggo Shark"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "fallen princess": {
@@ -833,9 +792,7 @@
       "discord_ids": []
     },
     "First Sun": {
-      "handles": [
-        "acid_rain"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Fjaru": {
@@ -877,10 +834,8 @@
         "466624835980623872"
       ]
     },
-    "FSC x Stu M": {
-      "handles": [
-        "_kholdstare_"
-      ],
+    "FSC": {
+      "handles": [],
       "discord_ids": []
     },
     "Fulhjort": {
@@ -890,15 +845,11 @@
       "discord_ids": []
     },
     "fulhjort as Lith um Oh": {
-      "handles": [
-        "fulhjort"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "fulhjotr": {
-      "handles": [
-        "fulhjort"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Fuljhort": {
@@ -940,9 +891,7 @@
       "discord_ids": []
     },
     "Grokker": {
-      "handles": [
-        "dogsander"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Heavix": {
@@ -984,6 +933,8 @@
     },
     "Hojascirculares": {
       "handles": [
+        "AIADreamloss",
+        "AIAdreamloss",
         "aiadreamloss"
       ],
       "discord_ids": []
@@ -1031,9 +982,7 @@
       "discord_ids": []
     },
     "Infra": {
-      "handles": [
-        "Deeds"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Innate Distance": {
@@ -1104,9 +1053,7 @@
       "discord_ids": []
     },
     "KairoKunOngaku": {
-      "handles": [
-        "KairoKun\u97f3\u697d"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "KairoKun\u97f3\u697d": {
@@ -1215,9 +1162,7 @@
       "discord_ids": []
     },
     "Largeman": {
-      "handles": [
-        "spaceperson16largeman"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Largeman - Abell 85 Studios": {
@@ -1232,15 +1177,12 @@
     },
     "Lauren Pins Channels": {
       "handles": [
-        "lauren",
         "lauren0001"
       ],
       "discord_ids": []
     },
     "Law Effort": {
-      "handles": [
-        "jellymustardgut"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Lemon Berries": {
@@ -1342,9 +1284,7 @@
       "discord_ids": []
     },
     "Mia Moon": {
-      "handles": [
-        "Elsper"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Michael Henry": {
@@ -1364,9 +1304,7 @@
       "discord_ids": []
     },
     "mikey chiptune": {
-      "handles": [
-        "mikey303"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Mikey303": {
@@ -1380,9 +1318,7 @@
       "discord_ids": []
     },
     "Mime Mining Corporation": {
-      "handles": [
-        "Deeds"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "MISLS": {
@@ -1392,9 +1328,7 @@
       "discord_ids": []
     },
     "Miya Moon": {
-      "handles": [
-        "Elsper"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "mmm": {
@@ -1405,7 +1339,6 @@
     },
     "Moiko": {
       "handles": [
-        "ckevv",
         "moikojay"
       ],
       "discord_ids": []
@@ -1417,15 +1350,11 @@
       "discord_ids": []
     },
     "Mr P": {
-      "handles": [
-        "jungle pickle"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "MRDR": {
-      "handles": [
-        "dreamer"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Muggi B": {
@@ -1468,12 +1397,6 @@
       ],
       "discord_ids": []
     },
-    "NASCEN7 x Bonfire": {
-      "handles": [
-        "NASCEN7"
-      ],
-      "discord_ids": []
-    },
     "natas_liam": {
       "handles": [
         "natas_liam"
@@ -1510,9 +1433,7 @@
       "discord_ids": []
     },
     "No Time To Mix": {
-      "handles": [
-        "jellymustardgut"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Nootropic": {
@@ -1614,10 +1535,7 @@
       "discord_ids": []
     },
     "Peregrine (Cschweppe)": {
-      "handles": [
-        "Cschweppe",
-        "cschweppe"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Perlin": {
@@ -1760,20 +1678,13 @@
       "handles": [],
       "discord_ids": []
     },
-    "Saw Whet x AmbientSpace": {
-      "handles": [
-        "AmbientSpace"
-      ],
-      "discord_ids": []
-    },
     "Sean V": {
-      "handles": [
-        "SeanSVS"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Sean VanSickel": {
       "handles": [
+        "SeanSVS",
         "seansvs"
       ],
       "discord_ids": [
@@ -1813,17 +1724,14 @@
       ],
       "discord_ids": []
     },
-    "siskwin (Christopher Sisk / Edwin)": {
-      "handles": [
-        "edwin1337"
-      ],
+    "siskwin": {
+      "handles": [],
       "discord_ids": []
     },
     "Skitter": {
       "handles": [
         "Skitter",
-        "Skitterr",
-        "Stevo /Bjen\\"
+        "Skitterr"
       ],
       "discord_ids": []
     },
@@ -1858,14 +1766,13 @@
       "discord_ids": []
     },
     "SomethingAboutThings": {
-      "handles": [
-        "sawwhet_85750"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Sonarant Escapades": {
       "handles": [
-        "Jimbotron5000"
+        "Jimbotron5000",
+        "jimbotron5000"
       ],
       "discord_ids": []
     },
@@ -1909,7 +1816,6 @@
     },
     "Stu M": {
       "handles": [
-        "Ginger_Bitters",
         "Stu M",
         "edisolve",
         "edisolve (stu m)",
@@ -1920,7 +1826,6 @@
     },
     "stupidPilled": {
       "handles": [
-        "mcjizzle",
         "stupidPilled",
         "stupidPilled / bl_00n",
         "stupidpilled"
@@ -1940,7 +1845,6 @@
     "tabs": {
       "handles": [
         "_tabs_",
-        "mcjizzle",
         "tabs"
       ],
       "discord_ids": [
@@ -2035,7 +1939,6 @@
     },
     "the_f3l1x": {
       "handles": [
-        "mAngAt00n (ArcticOne)",
         "the_F3l1x",
         "the_f3l1x"
       ],
@@ -2112,9 +2015,7 @@
       "discord_ids": []
     },
     "Tranendal": {
-      "handles": [
-        "dreamer"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "truck (but with a leading underscore like my discord handle)": {
@@ -2137,14 +2038,14 @@
     },
     "Undercover": {
       "handles": [
-        "Undercover",
-        "UndercoverBrother"
+        "Undercover"
       ],
       "discord_ids": []
     },
     "Undercover Brother": {
       "handles": [
-        "Undercover Brother"
+        "Undercover Brother",
+        "UndercoverBrother"
       ],
       "discord_ids": []
     },
@@ -2194,9 +2095,7 @@
       "discord_ids": []
     },
     "Waived (Ethan Cadamore)": {
-      "handles": [
-        "waived"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Wasted Transmitter": {
@@ -2205,7 +2104,6 @@
     },
     "wisteria": {
       "handles": [
-        "fallenprincess",
         "fallenprincess (wisteria)",
         "wisteria / fallenprincess",
         "wisteria / ok seashells"
@@ -2237,15 +2135,11 @@
       "discord_ids": []
     },
     "Yesterday's Lazers (MMT mix)": {
-      "handles": [
-        "Deeds"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "Your Computer": {
-      "handles": [
-        "jellymustardgut"
-      ],
+      "handles": [],
       "discord_ids": []
     },
     "ZBreezie": {
@@ -2287,21 +2181,16 @@
       "5XVT"
     ],
     "acidrain": [
-      "First Sun",
       "Just Below Purgatory"
     ],
     "agentvx": [
       "Agent VX"
     ],
     "aiadreamloss": [
-      "Ara Cristina",
       "Hojascirculares"
     ],
     "ajbergren": [
       "AJ Bergren",
-      "Adam Johan Bergren"
-    ],
-    "ajbergrenhadestheplutonian": [
       "Adam Johan Bergren"
     ],
     "akilakavo": [
@@ -2323,11 +2212,7 @@
       "informationcake"
     ],
     "ambientspace": [
-      "AmbientSpace",
-      "AmbientSpace x Christopher Sisk",
-      "AmbientSpace x Saw Whet",
-      "Christopher Sisk x AmbientSpace",
-      "Saw Whet x AmbientSpace"
+      "AmbientSpace"
     ],
     "amessvv": [
       "Anonymous Water Bottle"
@@ -2409,7 +2294,6 @@
       "Christopher Sisk"
     ],
     "ckevv": [
-      "Moiko",
       "Perlin"
     ],
     "commanderviral": [
@@ -2425,7 +2309,7 @@
       "CRXZOSDK"
     ],
     "cschweppe": [
-      "Peregrine (Cschweppe)"
+      "cschweppe"
     ],
     "curi": [
       "Thecuri"
@@ -2454,13 +2338,7 @@
       "Dedblank"
     ],
     "deeds": [
-      "Camino del Dragon",
-      "Camino del Dragon (YL)",
-      "Camino del Dragon (feat BerserkerBot)",
-      "Infra",
-      "Mime Mining Corporation",
-      "Yesterday's Lazers (CDD)",
-      "Yesterday's Lazers (MMT mix)"
+      "Yesterday's Lazers (CDD)"
     ],
     "deelooon": [
       "Deelooon"
@@ -2484,12 +2362,9 @@
       "Dire Gaze"
     ],
     "doggoshark": [
-      "5XVT",
-      "Doggo Shark (Fallacy Dice)",
-      "Fallacy Dog"
+      "Doggo Shark (Fallacy Dice)"
     ],
     "dogsander": [
-      "Grokker",
       "Krank Grokker"
     ],
     "dohgurt15": [
@@ -2508,12 +2383,9 @@
       "dotaistheworstgame"
     ],
     "dreamer": [
-      "DRMR",
-      "MRDR",
-      "Tranendal"
+      "DRMR"
     ],
     "dreamstatic": [
-      "DREAMX",
       "Dream Static"
     ],
     "drewillard": [
@@ -2539,10 +2411,7 @@
       "Edwin"
     ],
     "edwin1337": [
-      "Edwin",
-      "deedsblankwin (deeds / dedblank / edwin)",
-      "euskawin (euskalduna / edwin)",
-      "siskwin (Christopher Sisk / Edwin)"
+      "Edwin"
     ],
     "electricbuffalo": [
       "Monkey Luckless"
@@ -2551,9 +2420,7 @@
       "The Elk Lodge"
     ],
     "elsper": [
-      "Kitsune Machines",
-      "Mia Moon",
-      "Miya Moon"
+      "Kitsune Machines"
     ],
     "ergonogo": [
       "ErgoNogo"
@@ -2562,8 +2429,7 @@
       "err rawr"
     ],
     "fallenprincess": [
-      "fallen princess",
-      "wisteria"
+      "fallen princess"
     ],
     "fallenprincesswisteria": [
       "wisteria"
@@ -2590,10 +2456,7 @@
       "frildoh"
     ],
     "fulhjort": [
-      "Duck Propaganda",
-      "Fulhjort",
-      "fulhjort as Lith um Oh",
-      "fulhjotr"
+      "Fulhjort"
     ],
     "gamingrobot": [
       "GRBT"
@@ -2602,7 +2465,6 @@
       "Pantagruel"
     ],
     "gingerbitters": [
-      "Stu M",
       "bit.r.ist"
     ],
     "goog": [
@@ -2648,14 +2510,9 @@
       "Astar"
     ],
     "jellymustardgut": [
-      "Earl Grey",
-      "Law Effort",
-      "No Time To Mix",
-      "Too Much Stress",
-      "Your Computer"
+      "Too Much Stress"
     ],
     "jimbotron5000": [
-      "CayZe",
       "Sonarant Escapades"
     ],
     "jimh001": [
@@ -2672,11 +2529,9 @@
       "The Jovian Path"
     ],
     "junglepickle": [
-      "Mr P",
       "jungle pickle"
     ],
     "kairokun": [
-      "KairoKunOngaku",
       "KairoKun\u97f3\u697d"
     ],
     "kaiunix": [
@@ -2687,10 +2542,9 @@
       "catatronic"
     ],
     "keatonktw121": [
-      "ARC19-X"
+      "ARC19-"
     ],
     "kev": [
-      "_rchestra",
       "kevin Thorsen"
     ],
     "kevhuman": [
@@ -2700,7 +2554,6 @@
       "Intent Unknown"
     ],
     "kholdstare": [
-      "FSC x Stu M",
       "Fine Structure Constant"
     ],
     "kiwillian": [
@@ -2728,8 +2581,7 @@
       "Default Media Transmitter"
     ],
     "lauren": [
-      "Lauren",
-      "Lauren Pins Channels"
+      "Lauren"
     ],
     "lauren0001": [
       "Lauren Pins Channels"
@@ -2768,8 +2620,7 @@
       "ArcticOne"
     ],
     "mangat00narcticone": [
-      "ArcticOne",
-      "the_f3l1x"
+      "ArcticOne"
     ],
     "mangochunks": [
       "Mango Chunks"
@@ -2790,9 +2641,7 @@
       "Max Mattingly"
     ],
     "mcjizzle": [
-      "KwaK",
-      "stupidPilled",
-      "tabs"
+      "KwaK"
     ],
     "mdsds": [
       "Samar"
@@ -2810,8 +2659,7 @@
       "Long Century of The Surreal"
     ],
     "mikey303": [
-      "Mikey303",
-      "mikey chiptune"
+      "Mikey303"
     ],
     "misumurmur": [
       "mmm"
@@ -2838,8 +2686,7 @@
       "My Gloomy Machine"
     ],
     "nascen7": [
-      "NASCEN7",
-      "NASCEN7 x Bonfire"
+      "NASCEN7"
     ],
     "natasliam": [
       "natas_liam"
@@ -2899,7 +2746,6 @@
       "Chaos Engine"
     ],
     "poetryinnoise": [
-      "Committees of Newfoundland",
       "Poetry In Noise"
     ],
     "poldu": [
@@ -2951,10 +2797,7 @@
       "MISLS"
     ],
     "sawwhet85750": [
-      "Dig Fig",
-      "Euskalduna",
-      "Saw Whet",
-      "SomethingAboutThings"
+      "Saw Whet"
     ],
     "sawwhet85750neuroprism": [
       "Saw Whet"
@@ -2963,7 +2806,6 @@
       "Olessia Dupuy"
     ],
     "seansvs": [
-      "Sean V",
       "Sean VanSickel"
     ],
     "sethmonyette": [
@@ -3018,9 +2860,6 @@
     "snowlight": [
       "Frank Lumien"
     ],
-    "spaceperson16largeman": [
-      "Largeman"
-    ],
     "spec7or": [
       "Spec7or"
     ],
@@ -3043,8 +2882,7 @@
       "Bjen"
     ],
     "stevobjen": [
-      "Bjen",
-      "Skitter"
+      "Bjen"
     ],
     "stfulahlah": [
       "Lahlah"
@@ -3153,7 +2991,6 @@
       "Undercover"
     ],
     "undercoverbrother": [
-      "Undercover",
       "Undercover Brother"
     ],
     "unthank": [
@@ -3169,8 +3006,7 @@
       "Meganeura"
     ],
     "waived": [
-      "Dire Gaze",
-      "Waived (Ethan Cadamore)"
+      "Dire Gaze"
     ],
     "wisteriafallenprincess": [
       "wisteria"
