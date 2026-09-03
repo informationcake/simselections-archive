@@ -199,6 +199,8 @@ export function setupInfoModal() {
     const btnCloseInfo = document.getElementById('btn-close-info');
     const infoModalBody = document.querySelector('.info-modal-body');
 
+    let mainInfoHTML = '';
+
     if (!btnMoreInfo || !infoModal || !btnCloseInfo) return;
 
     if (infoModalBody) {
@@ -231,12 +233,14 @@ export function setupInfoModal() {
                         infoModalBody.appendChild(qDiv);
                     }
                 });
+                mainInfoHTML = infoModalBody.innerHTML;
             })
             .catch(err => {
                 console.warn('Could not load info-text.txt:', err);
                 const errorPara = document.createElement('p');
                 errorPara.textContent = 'Project information is currently unavailable.';
                 infoModalBody.replaceChildren(errorPara);
+                mainInfoHTML = infoModalBody.innerHTML;
             });
     }
 
@@ -244,6 +248,9 @@ export function setupInfoModal() {
         const infoModalHeaderTitle = infoModal.querySelector('.info-modal-header h2');
         if (infoModalHeaderTitle) {
             infoModalHeaderTitle.textContent = 'More Information';
+        }
+        if (mainInfoHTML) {
+            infoModalBody.innerHTML = mainInfoHTML;
         }
         infoModal.classList.remove('hidden');
     });
