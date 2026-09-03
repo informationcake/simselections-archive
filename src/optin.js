@@ -27,21 +27,7 @@ export async function loadOptInList() {
 }
 
 /**
- * Checks if a given artist has enabled global playback.
- * @param {string} artistStr - Artist name from track metadata.
- * @returns {boolean} True only if artist explicitly enabled playback via Discord.
- */
-export function isArtistOptedIn(artistStr) {
-    if (!artistStr) return false;
-    const cleanArt = cleanArtistName(artistStr);
-    const artKey = `artist:${cleanArt}`;
-    if (artKey in dynamicOverrides) {
-        return Boolean(dynamicOverrides[artKey]);
-    }
-    return false;
-}
 
-/**
  * Determines whether a track can play audio/video.
  * Requires an attached media file AND explicit artist opt-in via Discord.
  * @param {Object} track - Track metadata object.
@@ -55,12 +41,7 @@ export function canTrackPlay(track) {
         return Boolean(dynamicOverrides[track.file]);
     }
 
-    // 2. Check dynamic artist-level override
-    if (isArtistOptedIn(track.artist)) {
-        return true;
-    }
-
-    // 3. Default is strictly OPT-OUT (false)
+    // Default is strictly OPT-OUT (false)
     return false;
 }
 

@@ -309,12 +309,9 @@ export default {
 
             for (const it of items) {
                 const trackKey = it.trackKey || it.file;
-                const artist = it.artist;
                 const optIn = Boolean(it.optIn);
                 if (trackKey) {
                     dynamicMap[trackKey] = optIn;
-                } else if (artist) {
-                    dynamicMap[`artist:${cleanString(artist)}`] = optIn;
                 }
             }
 
@@ -337,8 +334,6 @@ export default {
             const dynamicMap = await loadDynamicOptins(env);
             if (trackKey) {
                 dynamicMap[trackKey] = optIn;
-            } else if (artist) {
-                dynamicMap[`artist:${cleanString(artist)}`] = optIn;
             }
 
             await saveDynamicOptins(env, dynamicMap);

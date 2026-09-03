@@ -326,20 +326,10 @@ async function toggleAllUserTracks(userTracks, optIn) {
             optIn: optIn
         }));
 
-    // Explicitly add an artist-level toggle to sync the global state on the server
-    if (userTracks.length > 0 && userTracks[0].track && userTracks[0].track.artist) {
-        items.push({
-            trackKey: null,
-            artist: userTracks[0].track.artist,
-            optIn: optIn
-        });
-    }
-
     // Update in-memory opt-in state immediately
     items.forEach(it => {
-        updateLocalOptIn(it.trackKey, it.optIn);
-        if (it.artist) {
-            updateLocalOptIn(`artist:${it.artist.toLowerCase().replace(/[^a-z0-9]/g, '')}`, it.optIn);
+        if (it.trackKey) {
+            updateLocalOptIn(it.trackKey, it.optIn);
         }
     });
 
