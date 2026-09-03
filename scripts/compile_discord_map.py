@@ -10,9 +10,10 @@ data/artist_discord_map.json
 
 import os
 import sys
-import csv
 import json
+import csv
 import re
+import pandas as pd
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
@@ -226,45 +227,62 @@ def compile_discord_map(music_dir=""):
     for sdir in search_dirs:
         for root, _, files in os.walk(sdir):
             for fname in files:
-                if fname.endswith(".csv") and not fname.startswith("."):
+                if (fname.endswith(".csv") or fname.endswith(".ods")) and not fname.startswith("."):
                     fpath = os.path.join(root, fname)
                     scanned_files += 1
                     try:
-                        with open(fpath, 'r', encoding='utf-8', errors='ignore') as f:
-                            reader = csv.reader(f)
-                            header = [h.strip() for h in next(reader, [])]
+                        header = []
+                        data_rows = []
+                        if fname.endswith(".csv"):
+                            with open(fpath, 'r', encoding='utf-8', errors='ignore') as f:
+                                reader = csv.reader(f)
+                                try:
+                                    header = [h.strip() for h in next(reader, [])]
+                                except StopIteration:
+                                    pass
+                                data_rows = list(reader)
+                        else:
+                            df = pd.read_excel(fpath, engine="odf")
+                            header = [str(h).strip() for h in df.columns]
+                            data_rows = df.values.tolist()
 
-                            is_invalid_survey = any("would you like" in h.lower() and "feedback" in h.lower() for h in header)
-                            if is_invalid_survey:
-                                continue
+                        is_invalid_survey = any("would you like" in h.lower() and "feedback" in h.lower() for h in header)
+                        if is_invalid_survey:
+                            continue
 
-                            art_idx = -1
-                            tit_idx = -1
-                            disc_idx = -1
-                            disc_id_idx = -1
+                        art_idx = -1
+                        tit_idx = -1
+                        disc_idx = -1
+                        disc_id_idx = -1
 
-                            for idx, h in enumerate(header):
-                                h_clean = h.lower()
-                                if "discord user id" in h_clean:
-                                    disc_id_idx = idx
-                                elif "discord handle" in h_clean or ("discord" in h_clean and "critique" not in h_clean and "feedback" not in h_clean):
-                                    disc_idx = idx
-                                elif art_idx == -1 and ("artist" in h_clean or "preferred artist" in h_clean):
-                                    art_idx = idx
-                                elif tit_idx == -1 and ("title" in h_clean or "art name" in h_clean or "track name" in h_clean or "score name" in h_clean):
-                                    tit_idx = idx
+                        for idx, h in enumerate(header):
+                            h_clean = h.lower()
+                            if "discord user id" in h_clean:
+                                disc_id_idx = idx
+                            elif "discord handle" in h_clean or ("discord" in h_clean and "critique" not in h_clean and "feedback" not in h_clean):
+                                disc_idx = idx
+                            elif art_idx == -1 and ("artist" in h_clean or "preferred artist" in h_clean):
+                                art_idx = idx
+                            elif tit_idx == -1 and ("title" in h_clean or "art name" in h_clean or "track name" in h_clean or "score name" in h_clean):
+                                tit_idx = idx
 
-                            if art_idx != -1 and (disc_idx != -1 or disc_id_idx != -1):
-                                for row in reader:
-                                    if not row:
-                                        continue
-                                    art_val = row[art_idx].strip() if len(row) > art_idx else ""
-                                    tit_val = row[tit_idx].strip() if tit_idx != -1 and len(row) > tit_idx else ""
-                                    disc_val = row[disc_idx].strip() if disc_idx != -1 and len(row) > disc_idx else ""
-                                    disc_id_val = row[disc_id_idx].strip() if disc_id_idx != -1 and len(row) > disc_id_idx else ""
+                        if art_idx != -1 and (disc_idx != -1 or disc_id_idx != -1):
+                            for row in data_rows:
+                                if not row:
+                                    continue
+                                
+                                def get_val(r, i):
+                                    if i != -1 and i < len(r) and pd.notna(r[i]):
+                                        return str(r[i]).strip()
+                                    return ""
+                                
+                                art_val = get_val(row, art_idx)
+                                tit_val = get_val(row, tit_idx)
+                                disc_val = get_val(row, disc_idx)
+                                disc_id_val = get_val(row, disc_id_idx)
 
-                                    if art_val and (disc_val or disc_id_val):
-                                        all_rows.append((art_val, tit_val, disc_val, disc_id_val))
+                                if art_val and (disc_val or disc_id_val):
+                                    all_rows.append((art_val, tit_val, disc_val, disc_id_val))
                     except Exception as e:
                         print(f"Warning: Failed to read {fpath}: {e}")
 
