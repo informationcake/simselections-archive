@@ -54,7 +54,6 @@ export function updateLocalOptIn(key, value) {
 
 if (typeof window !== 'undefined') {
     window.loadOptInList = loadOptInList;
-    window.isArtistOptedIn = isArtistOptedIn;
     window.canTrackPlay = canTrackPlay;
     window.updateLocalOptIn = updateLocalOptIn;
 }

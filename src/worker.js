@@ -1,12 +1,22 @@
-// Base64URL helper for Web Crypto JWTs
+// Base64URL helper for Web Crypto JWTs (UTF-8 safe)
 function base64UrlDecode(str) {
     str = str.replace(/-/g, '+').replace(/_/g, '/');
     while (str.length % 4) str += '=';
-    return atob(str);
+    const binString = atob(str);
+    const bytes = new Uint8Array(binString.length);
+    for (let i = 0; i < binString.length; i++) {
+        bytes[i] = binString.charCodeAt(i);
+    }
+    return new TextDecoder().decode(bytes);
 }
 
 function base64UrlEncode(str) {
-    return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    const bytes = new TextEncoder().encode(str);
+    let binString = '';
+    for (let i = 0; i < bytes.length; i++) {
+        binString += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binString).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
 function cleanString(s) {
@@ -211,7 +221,13 @@ export default {
                 const avatarUrl = user.avatar ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png` : "https://cdn.discordapp.com/embed/avatars/0.png";
 
                 // Check optional testing allowlist
-                const testersCfg = env.DISCORD_TESTERS || "";
+                let testersCfg = env.DISCORD_TESTERS;
+                if (testersCfg === "undefined" || testersCfg === "null" || testersCfg === "false") {
+                    testersCfg = "";
+                } else {
+                    testersCfg = testersCfg || "";
+                }
+                
                 let isTester = true;
                 if (testersCfg.trim()) {
                     const parts = testersCfg.split(',').map(s => s.trim()).filter(Boolean);
