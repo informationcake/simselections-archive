@@ -261,8 +261,12 @@ function renderArtistDashboardContent() {
                 }
             });
 
-            await toggleAllUserTracks(userTracks, true);
-            showToast('All your tracks have been enabled for public playback!', 'success');
+            const success = await toggleAllUserTracks(userTracks, true);
+            if (success) {
+                showToast('All your tracks have been enabled for public playback!', 'success');
+            } else {
+                showToast('Failed to sync changes to the server. Please try logging in again.', 'error');
+            }
         });
     }
 
@@ -280,8 +284,12 @@ function renderArtistDashboardContent() {
                 }
             });
 
-            await toggleAllUserTracks(userTracks, false);
-            showToast('All your tracks have been disabled for public playback.', 'info');
+            const success = await toggleAllUserTracks(userTracks, false);
+            if (success) {
+                showToast('All your tracks have been disabled for public playback.', 'info');
+            } else {
+                showToast('Failed to sync changes to the server. Please try logging in again.', 'error');
+            }
         });
     }
 
