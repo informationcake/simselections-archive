@@ -51,6 +51,11 @@
     border-color: var(--accent);
 }
 
+select option {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+}
+
 /* Fallback Card when no visualizer active */
 .visualizer-fallback-card {
     position: relative;
