@@ -7,9 +7,9 @@
     },
     "how_login_works": "When an artist logs in via Discord OAuth2, the server normalizes their Discord username (removes spaces, punctuation, lowercase) and queries 'handle_lookup' to find all artist aliases they own.",
     "coverage": {
-      "total_individual_artists": 386,
+      "total_individual_artists": 385,
       "linked_artists_count": 288,
-      "coverage_percentage": "74.6%"
+      "coverage_percentage": "74.8%"
     }
   },
   "artists": {
@@ -738,10 +738,6 @@
       ],
       "discord_ids": []
     },
-    "err": {
-      "handles": [],
-      "discord_ids": []
-    },
     "err rawr": {
       "handles": [
         "err.rawr",
@@ -749,6 +745,10 @@
         "err_Rawr",
         "err_rawr"
       ],
+      "discord_ids": []
+    },
+    "err___PROTECTED_DELIM___ Rawr": {
+      "handles": [],
       "discord_ids": []
     },
     "estes_": {
@@ -1675,10 +1675,6 @@
         "Dohgurt15",
         "swordnspade"
       ],
-      "discord_ids": []
-    },
-    "Rawr": {
-      "handles": [],
       "discord_ids": []
     },
     "Reark": {

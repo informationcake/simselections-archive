@@ -62,10 +62,20 @@ def is_collaboration(artist_str):
     s_no_paren = re.sub(r'\(.*?\)', strip_safe_parens, artist_str)
     return bool(re.search(r'\b(feat|ft|and|with|vs|versus|x)\b|[&;\|/,]', s_no_paren, re.IGNORECASE))
 
+# Artists that contain delimiters but should NOT be split
+IGNORE_SPLIT = [
+    "err, rawr",
+    "err: rawr",
+    "err:rawr",
+    "err; rawr",
+    "err;rawr",
+    "a star, a robot"
+]
+
 def split_collaborators(artist_str):
     """
     Splits multi-artist strings into individual artist names, ignoring delimiters inside parentheses.
-    e.g. "Stoic & Fjaru & Acid Rain" -> ["Stoic", "Fjaru", "Acid Rain"]
+    e.g. "A & B & C" -> ["A", "B", "C"]
     e.g. "truck (but with a leading underscore)" -> ["truck (but with a leading underscore)"]
     """
     if not artist_str:
@@ -94,6 +104,12 @@ def split_collaborators(artist_str):
         return f"__PAREN_{len(parens)-1}__"
     
     protected = re.sub(r'\(.*?\)', save_paren, artist_str)
+    
+    # Protect specific complex artists that contain delimiters
+    for protected_name in IGNORE_SPLIT:
+        pattern = re.compile(re.escape(protected_name), re.IGNORECASE)
+        protected = pattern.sub(lambda m: m.group(0).replace(",", "___PROTECTED_DELIM___").replace(":", "___PROTECTED_DELIM___").replace(";", "___PROTECTED_DELIM___"), protected)
+    
     norm = re.sub(r'\b(feat|ft|and|with|vs|versus|x)\b\.?', '|', protected, flags=re.IGNORECASE)
     parts = [p.strip() for p in re.split(r'[&;\|/,]', norm) if p.strip()]
     
