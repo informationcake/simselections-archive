@@ -260,7 +260,8 @@ def compile_discord_map(music_dir=""):
         # If this is a solo track (not a collaboration), the handle belongs to this artist
         if c_handle and not is_collaboration(art_val):
             if c_handle not in dynamic_aliases:
-                dynamic_aliases[c_handle] = art_val
+                dynamic_aliases[c_handle] = set()
+            dynamic_aliases[c_handle].add(art_val)
 
     # Pass 2: Assign handles correctly even in collaborations
     for art_val, tit_val, disc_val, disc_id_val in all_rows:
@@ -280,7 +281,7 @@ def compile_discord_map(music_dir=""):
                     break
             
             if not remixer_candidate and c_handle in dynamic_aliases:
-                remixer_candidate = dynamic_aliases[c_handle]
+                remixer_candidate = list(dynamic_aliases[c_handle])[0]
 
             if remixer_candidate:
                 c_remixer = clean_string(remixer_candidate)
@@ -308,9 +309,12 @@ def compile_discord_map(music_dir=""):
                 target_artist = const
                 break
 
-        # 2. Match against dynamic aliases learned from solo tracks
-        if not target_artist and c_handle in dynamic_aliases:
-            target_artist = dynamic_aliases[c_handle]
+        # 2. Match against dynamic aliases learned from solo tracks (for collaborations)
+        if not target_artist and c_handle in dynamic_aliases and len(constituents) > 1:
+            for const in constituents:
+                if const in dynamic_aliases[c_handle]:
+                    target_artist = const
+                    break
 
         # 3. Default to primary submitting artist
         if not target_artist and len(constituents) > 0:
