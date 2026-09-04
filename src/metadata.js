@@ -17,131 +17,145 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Akemiya",
                 "title": "Parallels",
-                "file": "2021/Sim_Selections_MAY_2021/13. Akemiya - Parallels.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.15
+                "canonical_artists": [
+                    "akemiya"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "dogsander",
                 "title": "exogenous tampering",
-                "file": "2021/Sim_Selections_MAY_2021/12. dogsander - exogenous tampering.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.64
+                "canonical_artists": [
+                    "dogsander"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "DRMR",
                 "title": "Hex48",
-                "file": "2021/Sim_Selections_MAY_2021/11. DRMR - Hex48.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/d-r-m-r/hexagram48",
                 "optIn": false,
                 "canPlay": false,
-                "length": 364.9
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Durkl",
                 "title": "The Arsonist",
-                "file": "2021/Sim_Selections_MAY_2021/10. durkl - The Arsonist.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/durkl1/the-arsonist",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.07
+                "canonical_artists": [
+                    "durkl"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "ipsotheque",
                 "title": "Basis",
-                "file": "2021/Sim_Selections_MAY_2021/09. ipso - Basis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.07
+                "canonical_artists": [
+                    "ipsotheque"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Wonky Robot",
                 "title": "untitled",
-                "file": "2021/Sim_Selections_MAY_2021/07. Wonky Robot - Sim Selections May.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.06
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Mark Feifarek",
                 "title": "Falling Forward",
-                "file": "2021/Sim_Selections_MAY_2021/06. Mark Feifarek - Falling Forward.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 140.35
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Menhirs",
                 "title": "Untrue",
-                "file": "2021/Sim_Selections_MAY_2021/05. Menhirs - Untrue.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.68
-            },
-            {
-                "trackNo": 8,
-                "artist": "Wonky Robot",
-                "title": "Sim Selections May (video)",
-                "file": "2021/Sim_Selections_MAY_2021/08. Wonky Robot - Sim Selections May (video).mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 224.0
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Next Stop Mars",
                 "title": "Big Spike Sampler",
-                "file": "2021/Sim_Selections_MAY_2021/04. Next Stop Mars - Big Spike Sampler.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.14
+                "canonical_artists": [
+                    "nextstopmars"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "NGC 3019",
                 "title": "Burning Bridges aka Bridge to the Moon",
-                "file": "2021/Sim_Selections_MAY_2021/03. NGC 3019 - Burning Bridges.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/bridge-to-the-moon-2",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Nornec",
                 "title": "Confusion",
-                "file": "2021/Sim_Selections_MAY_2021/02. Nornec - Confusion.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/confusion",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.28
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Octalus",
                 "title": "Burning Bridges",
-                "file": "2021/Sim_Selections_MAY_2021/01. Octalus - Burning Bridges.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.82
+                "canonical_artists": [
+                    "octalus"
+                ]
             }
         ]
     },
@@ -162,121 +176,146 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "apple butter",
                 "title": "Where's The Milk & Cookies",
-                "file": "2021/Sim_Selections_JUNE_2021/12. apple butter - Where's The Milk & Cookies.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 26.9
+                "canonical_artists": [
+                    "applebutter"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "dogsander",
                 "title": "the succorous power of milk",
-                "file": "2021/Sim_Selections_JUNE_2021/11. dogsander - the succorous power of milk.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 127.58
+                "canonical_artists": [
+                    "dogsander"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "Valued Time",
-                "file": "2021/Sim_Selections_JUNE_2021/10. informationcake - Valued Time.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 239.98
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "ipso",
                 "title": "The Milky Way",
-                "file": "2021/Sim_Selections_JUNE_2021/09. ipso - The Milky Way.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.44
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "jungle pickle",
                 "title": "Milk",
-                "file": "2021/Sim_Selections_JUNE_2021/08. jungle pickle - 20210605.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/milk?si=e23df83ea0cc4f1aa18592249ad08907&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.3
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Wonky Robot",
                 "title": "Sim Selections June 2021",
-                "file": "2021/Sim_Selections_JUNE_2021/07. Wonky Robot - Sim Selections June.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.07
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Menhirs & Akemiya",
                 "title": "When The World Was Bigger",
-                "file": "2021/Sim_Selections_JUNE_2021/06. Menhirs & Akemiya - When the World Was Bigger.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.78
+                "canonical_artists": [
+                    "menhirs",
+                    "akemiya"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Next Stop Mars",
                 "title": "Milk The Djembe",
-                "file": "2021/Sim_Selections_JUNE_2021/05. Next Stop Mars - Milk The Djembe.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.07
+                "canonical_artists": [
+                    "nextstopmars"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "NGC 3019",
                 "title": "The Milky Way",
-                "file": "2021/Sim_Selections_JUNE_2021/04. NGC 3019 - The Milky Way.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/the-milky-way-2",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Theit",
                 "title": "Sim",
-                "file": "2021/Sim_Selections_JUNE_2021/03. Theit - sim.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 51.07
+                "canonical_artists": [
+                    "theit"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Milk",
-                "file": "2021/Sim_Selections_JUNE_2021/02. Thomas and the Evil Computer - Milk.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.62
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Tranendal",
                 "title": "Lactic Acid",
-                "file": "2021/Sim_Selections_JUNE_2021/01. Tranendal - Lactic Acid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.93
+                "canonical_artists": [
+                    "tranendal"
+                ]
             }
         ]
     },
@@ -297,161 +336,195 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Akemiya",
                 "title": "Opposite Reaction",
-                "file": "2021/Sim_Selections_JULY_2021/17. Akemiya - Opposite Reaction.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.96
+                "canonical_artists": [
+                    "akemiya"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Anomaly",
                 "title": "Mammatus",
-                "file": "2021/Sim_Selections_JULY_2021/16. Anomaly - Mammatus.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.06
+                "canonical_artists": [
+                    "anomaly"
+                ]
             },
             {
                 "trackNo": 3,
-                "artist": "Defauly Media Transmitter",
+                "artist": "Default Media Transmitter",
                 "title": "Feverish Loop",
-                "file": "2021/Sim_Selections_JULY_2021/15. Default Media Transmitter - Feverish Loop.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/feverish-loop",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.1
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Dogsander",
                 "title": "Accretion Disk",
-                "file": "2021/Sim_Selections_JULY_2021/14. dogsander - Accretion Disk.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.9
+                "canonical_artists": [
+                    "dogsander"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Durkl",
                 "title": "Reprieve",
-                "file": "2021/Sim_Selections_JULY_2021/13. durkl - Reprieve.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/durkl1/reprieve",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.1
+                "canonical_artists": [
+                    "durkl"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "informationcake",
                 "title": "Side Thoughts",
-                "file": "2021/Sim_Selections_JULY_2021/12. informationcake - Side Thoughts.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 181.63
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Jungle Pickle",
                 "title": "Cape of Moss",
-                "file": "2021/Sim_Selections_JULY_2021/10. jungle pickle - Cape of Moss (maddening).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/cape-of-moss-maddening?si=36f81f7a5a544f0d9676bf57e6cd007c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.27
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Jungle Pickle",
                 "title": "Hope",
-                "file": "2021/Sim_Selections_JULY_2021/11. jungle pickle - unknown.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/hope?si=fec828976add4c18a70be61f00cc16fd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.37
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Menhirs & Nornec",
                 "title": "Chromatose",
-                "file": "2021/Sim_Selections_JULY_2021/09. Menhirs & Nornec - Chromatose.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/chromatose-feat-menhirs",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.07
+                "canonical_artists": [
+                    "menhirs",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "NGC 3019 & Next Stop Mars",
                 "title": "Moonstalgia",
-                "file": "2021/Sim_Selections_JULY_2021/08. NGC 3019 & Next Stop Mars - Moonstalgia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.89
+                "canonical_artists": [
+                    "ngc3019",
+                    "nextstopmars"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Obselysium",
                 "title": "Fight for Flight",
-                "file": "2021/Sim_Selections_JULY_2021/07. Obselysium - Fight for Flight.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/obselysium/fight-for-flight",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.07
+                "canonical_artists": [
+                    "obselysium"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Theit",
                 "title": "a stolen car crashed through my wall but I am alive",
-                "file": "2021/Sim_Selections_JULY_2021/06. Theit - a stolen car crashed through my wall but I am alive.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.13
+                "canonical_artists": [
+                    "theit"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Unthank",
                 "title": "Bassickly",
-                "file": "2021/Sim_Selections_JULY_2021/04. Unthank - Bassickly.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.87
+                "canonical_artists": [
+                    "unthank"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Viiri",
                 "title": "Love You Forever",
-                "file": "2021/Sim_Selections_JULY_2021/03. Viiri - Love You Forever.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 311.81
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Wonky Robot",
                 "title": "Sliver of Hope",
-                "file": "2021/Sim_Selections_JULY_2021/02. Wonky Robot - Sliver of Hope.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-sliver-of-hope",
                 "optIn": false,
                 "canPlay": false,
-                "length": 151.3
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Ipso",
                 "title": "Grime",
-                "file": "2021/Sim_Selections_JULY_2021/01. ipso - Grime.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 353.18
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 17,
@@ -460,7 +533,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             }
         ]
     },
@@ -481,71 +557,85 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "ipso",
                 "title": "Escape",
-                "file": "2021/Sim_Selections_AUGUST_2021/01. ipso - Escape.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 65.11
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "kevin Thorsen",
                 "title": "Forgetting",
-                "file": "2021/Sim_Selections_AUGUST_2021/02. Kevin Thorsen - Forgetting.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.55
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Viiri",
                 "title": "Hard Time Letting Go",
-                "file": "2021/Sim_Selections_AUGUST_2021/03. Viiri - Hard Time Letting Go.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.43
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Wonky Robot",
                 "title": "Out of Time",
-                "file": "2021/Sim_Selections_AUGUST_2021/04. Wonky Robot - Out of Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.06
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Durkl",
                 "title": "Running (out of time)",
-                "file": "2021/Sim_Selections_AUGUST_2021/05. durkl - Running (out of time).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/durkl1/running-out-of-time",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.98
+                "canonical_artists": [
+                    "durkl"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Mark Feifarek",
                 "title": "Aurelian Glenn",
-                "file": "2021/Sim_Selections_AUGUST_2021/06. Mark Feifarek - Aurelian Glenn.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.9
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Plesiotone",
                 "title": "The Waterfountain loop",
-                "file": "2021/Sim_Selections_AUGUST_2021/07. plesiotone - The Waterfountain Loop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.82
+                "canonical_artists": [
+                    "plesiotone"
+                ]
             },
             {
                 "trackNo": 8,
@@ -554,117 +644,142 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "jungle pickle",
                 "title": "Out of Time",
-                "file": "2021/Sim_Selections_AUGUST_2021/09. jungle pickle - Out of TIme.mp4",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/out-of-time?si=9214dbef7a484ec89cd15a2ca80c21f4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.0
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Nornec",
                 "title": "The Ritual",
-                "file": "2021/Sim_Selections_AUGUST_2021/10. Nornec - The Ritual.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/the-ritual",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.54
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "zeroAPR",
                 "title": "I Just Called to Say",
-                "file": "2021/Sim_Selections_AUGUST_2021/11. zeroApr - I Just Called to Say.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/charles-ginsberg/i-just-called-to-say",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.24
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "dogsander",
                 "title": "Icosikaihenagon",
-                "file": "2021/Sim_Selections_AUGUST_2021/12. dogsander - Icosikaihenagon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.07
+                "canonical_artists": [
+                    "dogsander"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Heavy Listening",
                 "title": "Meditation One",
-                "file": "2021/Sim_Selections_AUGUST_2021/13. Heavy Listening - Meditation One.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "NGC 3019",
                 "title": "Out of Time, Out of Space, Out of Options",
-                "file": "2021/Sim_Selections_AUGUST_2021/14. NGC 2019 - Out of TIme, Out of Space, Out of Options.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/out-of-time-out-of-space-out-of-options-2",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.73
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Unthank",
                 "title": "Kabulean Algebra",
-                "file": "2021/Sim_Selections_AUGUST_2021/15. Unthank - Kabulean Algebra.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/unthank/sim-selections-august-benn-midi",
                 "optIn": false,
                 "canPlay": false,
-                "length": 161.69
+                "canonical_artists": [
+                    "unthank"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Lost in Time",
-                "file": "2021/Sim_Selections_AUGUST_2021/16. Thomas and the Evil Computer - Out of Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.54
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Kitsune Machines",
                 "title": "Nothing Left",
-                "file": "2021/Sim_Selections_AUGUST_2021/17. Kitsune Machines - Nothing Left.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.06
+                "canonical_artists": [
+                    "kitsunemachines"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Default Media Transmitter",
                 "title": "OEM Outfit",
-                "file": "2021/Sim_Selections_AUGUST_2021/18. Default Media Transmitter - OEM Outfit.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/oem-outfit",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.22
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Christopher Floyd",
                 "title": "empty apartment",
-                "file": "2021/Sim_Selections_AUGUST_2021/19. Christopher Floyd - empty apartment.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.08
+                "canonical_artists": [
+                    "christopherfloyd"
+                ]
             }
         ]
     },
@@ -685,11 +800,13 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Myrrys",
                 "title": "The Garden",
-                "file": "2021/Sim_Selections_OCTOBER_2021/01. Myrrys - The Garden.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.18
+                "canonical_artists": [
+                    "myrrys"
+                ]
             },
             {
                 "trackNo": 2,
@@ -698,87 +815,106 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/2NX8bddJcr8",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Kitsune Machines",
                 "title": "Falling",
-                "file": "2021/Sim_Selections_OCTOBER_2021/02. Kitsune Machines - Falling.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.93
+                "canonical_artists": [
+                    "kitsunemachines"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Paroxysmal Nocturnal Dyspnea (PND)",
                 "title": "Nurd of Time",
-                "file": "2021/Sim_Selections_OCTOBER_2021/03. Paroxysmal Nocturnal Dyspnea - Nurd of Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.61
+                "canonical_artists": [
+                    "paroxysmalnocturnaldyspneapnd"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "NGC 3019",
                 "title": "Pre-Gravity (demo)",
-                "file": "2021/Sim_Selections_OCTOBER_2021/04. NGC 3019 - Pre-Gravity (demo).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.84
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Aplut",
                 "title": "Sweet & Spicy",
-                "file": "2021/Sim_Selections_OCTOBER_2021/05. Aplut - Sweet & Spicy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.94
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Divided Horizon",
                 "title": "Gaze",
-                "file": "2021/Sim_Selections_OCTOBER_2021/06. Divided Horizon - Gaze.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.55
+                "canonical_artists": [
+                    "dividedhorizon"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Nornec",
                 "title": "Gentle Giant",
-                "file": "2021/Sim_Selections_OCTOBER_2021/07. Nornec - Gentle Giant.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/gentle-giant",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.74
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "nedogled",
                 "title": "Foreverdream",
-                "file": "2021/Sim_Selections_OCTOBER_2021/08. nedogled - Foreverdream.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 55.9
+                "canonical_artists": [
+                    "nedogled"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "udinkhatola",
                 "title": "Mephistopheles' Trail",
-                "file": "2021/Sim_Selections_OCTOBER_2021/09. udonkhatola - Mephistopheles' Trail.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.08
+                "canonical_artists": [
+                    "udinkhatola"
+                ]
             },
             {
                 "trackNo": 11,
@@ -787,7 +923,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://www.youtube.com/watch?v=D0RXRPm6MOs",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "viiri"
+                ]
             }
         ]
     },
@@ -808,211 +947,253 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "stoic",
                 "title": "Heavy Stimula",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/01. stoic - Heavy Simula.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 94.27
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Theit",
                 "title": "Microcassette",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/02. Theit - Microcassette.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 98.3
+                "canonical_artists": [
+                    "theit"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Menhirs",
                 "title": "567 MPH",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/03. Menhirs - 567 MPH.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 313.49
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "zeroApr",
                 "title": "Private Poet's Entropy",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/04. zeroApr - Private Poet's Entropy.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/charles-ginsberg/private-poets-entropy-1",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.08
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Durkl",
                 "title": "A Third Way",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/05. durkl - A Third Way.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/durkl1/a-third-way",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.27
+                "canonical_artists": [
+                    "durkl"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "NGC 3019",
                 "title": "Identity Crisis aka Particle Wave Duality",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/06. NGC 3019 - Identity Crisis.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/particle-wave-duality-2",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.77
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Unthank",
                 "title": "In The Basement",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/07. Unthank - In The Basement.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 83.59
+                "canonical_artists": [
+                    "unthank"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Viiri",
                 "title": "Road of Bones",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/08. Viiri - Road of Bones.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 341.02
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "nedogled",
                 "title": "Make FM Great Again",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/09. nedogled - Make FM Great Again.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 149.45
+                "canonical_artists": [
+                    "nedogled"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Fjaru",
                 "title": "Nuclear willpower",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/10. Fjaru - Nuclear willpower.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.43
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "jungle pickle",
                 "title": "I don't know who I am",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/11. jungle pickle - I don't know who I am.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/i-dont-know-who-i-am",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.07
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Nornec",
                 "title": "The Death of Song",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/12. Nornec - The Death of Song.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/the-death-of-song",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.47
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Moist Shamoyce",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/13. Thomas and the Evil Computer - Moist Shamoyce.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.41
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Sparga",
                 "title": "Window",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/14. Sparga - Window.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.3
+                "canonical_artists": [
+                    "sparga"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Agent VX",
                 "title": "Incident Report #1",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/15. Agent VX - Incident Report #1.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 114.5
+                "canonical_artists": [
+                    "agentvx"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Aplut",
                 "title": "Rediscovery",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/16. Aplut - Rediscovery.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/aplutofficial/rediscovery",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.38
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Kitsune Machines",
                 "title": "Generative Identity",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/17. Kitsune Machines - Generative Identity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 145.34
+                "canonical_artists": [
+                    "kitsunemachines"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Plesiotone",
                 "title": "Stale Chili Powder",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/18. plesiotone - Stale Chili Powder.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 112.51
+                "canonical_artists": [
+                    "plesiotone"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Default Media Transmitter",
                 "title": "Laughing Matters",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/19. Default Media Transmitter - Laughing Matters.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/laughing-matters",
                 "optIn": false,
                 "canPlay": false,
-                "length": 157.2
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Obselysium",
                 "title": "Oops! All Bass",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/20. Obselysium - Oops! All Bass.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 65.52
+                "canonical_artists": [
+                    "obselysium"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "MRDR",
                 "title": "Full of Compromise",
-                "file": "2021/Sim_Selections_NOVEMBER_2021/21. MRDR - Full of Compromise.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.18
+                "canonical_artists": [
+                    "mrdr"
+                ]
             }
         ]
     },
@@ -1033,231 +1214,277 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Agent VX",
                 "title": "The Bad Touch",
-                "file": "2021/Sim_Selections_DECEMBER_2021/23. Agent VX - The Bad Touch.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 239.66
+                "canonical_artists": [
+                    "agentvx"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Aplut",
                 "title": "Watching Time Go By",
-                "file": "2021/Sim_Selections_DECEMBER_2021/22. Aplut - Watching Time Go By.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/aplutofficial/watching-time-go-by",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.58
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "DRMR",
                 "title": "Memory Fleeting",
-                "file": "2021/Sim_Selections_DECEMBER_2021/21. DRMR - Memory Fleeting.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.7
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Fjaru",
                 "title": "Data Heist",
-                "file": "2021/Sim_Selections_DECEMBER_2021/20. Fjaru - Data heist.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.29
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Heavy Listening",
                 "title": "Jesu, Joy Of Robot's Desiring",
-                "file": "2021/Sim_Selections_DECEMBER_2021/19. Heavy Listening - Jesu, Joy of Robot's Desiring.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.58
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "informationcake",
                 "title": "Santa Will Betray You",
-                "file": "2021/Sim_Selections_DECEMBER_2021/18. informationcake - Santa Will Betray You.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 106.42
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Ipso",
                 "title": "Mirrored Caverns, Vol 2",
-                "file": "2021/Sim_Selections_DECEMBER_2021/17. ipso - Mirrored Caverns, vol 2.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 357.24
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Jungle Pickle",
                 "title": "Hanky Panky",
-                "file": "2021/Sim_Selections_DECEMBER_2021/16. jungle pickle - Hanky Panky.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/hanky-panky",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.07
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Just Below Purgatory",
                 "title": "Bezoz Blaster",
-                "file": "2021/Sim_Selections_DECEMBER_2021/15. Just Below Purgatory - Bezos Blaster.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.14
+                "canonical_artists": [
+                    "justbelowpurgatory"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Kevin Thorsen",
                 "title": "Eden",
-                "file": "2021/Sim_Selections_DECEMBER_2021/14. Kevin Thorsen - Eden.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.57
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Lauren",
                 "title": "Bells",
-                "file": "2021/Sim_Selections_DECEMBER_2021/13. lauren - bells.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.91
+                "canonical_artists": [
+                    "lauren"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Liquidkey",
                 "title": "3",
-                "file": "2021/Sim_Selections_DECEMBER_2021/12. liquidkey - 3.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.62
+                "canonical_artists": [
+                    "liquidkey"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "My Gloomy Machine",
                 "title": "No Strings Attached",
-                "file": "2021/Sim_Selections_DECEMBER_2021/11. My Gloomy Machine - No Strings Attached.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 277.18
+                "canonical_artists": [
+                    "mygloomymachine"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Nedogled",
                 "title": "Hei Sloveni",
-                "file": "2021/Sim_Selections_DECEMBER_2021/10. nedogled - Hei Sloveni.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 85.44
+                "canonical_artists": [
+                    "nedogled"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "NGC 3019",
                 "title": "Saturnalia Waltz",
-                "file": "2021/Sim_Selections_DECEMBER_2021/09. NGC 3019 - Saturnalia Waltz.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.86
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Nornec",
                 "title": "Warlord (Unreal Remix)",
-                "file": "2021/Sim_Selections_DECEMBER_2021/08. Nornec - Warlord (Unreal Remix).mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/warlord-unreal-remix",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.78
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Obselysium",
                 "title": "Warm Scarf",
-                "file": "2021/Sim_Selections_DECEMBER_2021/07. Obselysium - Warm Scarf.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.02
+                "canonical_artists": [
+                    "obselysium"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Riku Morten",
                 "title": "The Sage",
-                "file": "2021/Sim_Selections_DECEMBER_2021/06. Riku Morten - The Sage.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.07
+                "canonical_artists": [
+                    "rikumorten"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Stoic",
                 "title": "All The Way",
-                "file": "2021/Sim_Selections_DECEMBER_2021/05. stoic - All The Way.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 57.89
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Thomas And The Evil Computer",
                 "title": "The Monkey's Paw",
-                "file": "2021/Sim_Selections_DECEMBER_2021/04. Thomas and the Evil Computer - The Monkey Paw.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.14
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Viiri",
                 "title": "Jingle Bells Made Me Do It",
-                "file": "2021/Sim_Selections_DECEMBER_2021/03. Viiri - Jingle Bells Made Me Do It.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 555.17
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Wonky Robot",
                 "title": "Holiday Wishes",
-                "file": "2021/Sim_Selections_DECEMBER_2021/02. Wonky Robot - Holiday Wishes.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-holiday-wishes-sim-selection-december-2021",
                 "optIn": false,
                 "canPlay": false,
-                "length": 148.54
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "ZeroAPR",
                 "title": "Store Closed",
-                "file": "2021/Sim_Selections_DECEMBER_2021/01. zeroApr - Store Closed.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/charles-ginsberg/store-closed",
                 "optIn": false,
                 "canPlay": false,
-                "length": 103.01
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 24,
@@ -1266,7 +1493,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 25,
@@ -1275,7 +1505,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "bennjordan"
+                ]
             },
             {
                 "trackNo": 26,
@@ -1284,7 +1517,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "bennjordan"
+                ]
             },
             {
                 "trackNo": 27,
@@ -1293,7 +1529,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "bennjordan"
+                ]
             }
         ]
     },
@@ -1314,51 +1553,61 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Agent VX",
                 "title": "Metal Machine",
-                "file": "2022/Sim_Selections_JANUARY_2022/01. Agent VX - Metal Machine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 60.72
+                "canonical_artists": [
+                    "agentvx"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Aplut",
                 "title": "Lightly",
-                "file": "2022/Sim_Selections_JANUARY_2022/02. Aplut - Lightly.mp3",
+                "file": "",
                 "link": "https://youtu.be/Nq5q-gB9Dfc",
                 "optIn": false,
                 "canPlay": false,
-                "length": 149.06
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "DRMR",
                 "title": "Simplified Occurrence",
-                "file": "2022/Sim_Selections_JANUARY_2022/03. DRMR - Simplified Occurrence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 375.05
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Equals Equals",
                 "title": "Dat house is drumming",
-                "file": "2022/Sim_Selections_JANUARY_2022/04. Equal Equals - Dat house is drumming.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 142.78
+                "canonical_artists": [
+                    "equalsequals"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "fulhjort",
                 "title": "i, too, like a good rant",
-                "file": "2022/Sim_Selections_JANUARY_2022/05. fulhjort - i, too, like a good rant.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.66
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 6,
@@ -1366,158 +1615,179 @@ export const playlistData = [
                 "title": "Once",
                 "file": "",
                 "link": "https://informationcake.bandcamp.com/track/once-2",
-                "optIn": true,
-                "canPlay": false
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "jungle pickle",
                 "title": "9 Circles",
-                "file": "2022/Sim_Selections_JANUARY_2022/06. jungle pickle - 9 Circles.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/9-circles?si=52aec875168e43b6adbad3723411e66f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.54
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Kevin Thorsen",
                 "title": "Get Enough",
-                "file": "2022/Sim_Selections_JANUARY_2022/07. Kevin Thorsen - Get Enough.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.68
-            },
-            {
-                "trackNo": 8,
-                "artist": "lauren",
-                "title": "some chromophone taps",
-                "file": "2022/Sim_Selections_JANUARY_2022/08. lauren - some chromophone taps.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 35.4
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Lauren",
                 "title": "some chromophone taps; spent 2h making it this bad",
-                "file": "2022/Sim_Selections_JANUARY_2022/09. lauren - spent 2h making it this bad.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 24.84
+                "canonical_artists": [
+                    "lauren"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "liquidkey",
                 "title": "glass half full",
-                "file": "2022/Sim_Selections_JANUARY_2022/10. liquidkey - glass half full.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.08
+                "canonical_artists": [
+                    "liquidkey"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "nedogled",
                 "title": "solar panels will not save us",
-                "file": "2022/Sim_Selections_JANUARY_2022/11. nedogled - solar panels will not save us.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.01
+                "canonical_artists": [
+                    "nedogled"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "NGC 3019",
                 "title": "Low Vapour Pressure",
-                "file": "2022/Sim_Selections_JANUARY_2022/12. NGC 3019 - Low Vapour Pressure.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/low-vapour-pressure",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.92
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Plesiotone",
                 "title": "The Pumpkin Beer Microwave Incident",
-                "file": "2022/Sim_Selections_JANUARY_2022/13. plesiotone - The Punpkin Beer Microwave Incident.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.74
+                "canonical_artists": [
+                    "plesiotone"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Sparga",
                 "title": "Song of the Sad Screwdriver",
-                "file": "2022/Sim_Selections_JANUARY_2022/14. Sparga - Song of the Sad Screwdriver.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.07
+                "canonical_artists": [
+                    "sparga"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "stoic",
                 "title": "Sephrim 9",
-                "file": "2022/Sim_Selections_JANUARY_2022/15. stoic - Sephrim 9.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Theodore Snoozevelt",
                 "title": "the high price of clownery",
-                "file": "2022/Sim_Selections_JANUARY_2022/16. Theodore Snoozevelt - the high price of clownery.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/the-high-price-of-clownery",
                 "optIn": false,
                 "canPlay": false,
-                "length": 97.75
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Low Job",
-                "file": "2022/Sim_Selections_JANUARY_2022/17. Thomas and the Evil Computer - Low Job.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.65
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Viiri",
                 "title": "Mmoni",
-                "file": "2022/Sim_Selections_JANUARY_2022/18. Viiri - Mmoni.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 73.92
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Wonky Robot",
                 "title": "Dancing Alone",
-                "file": "2022/Sim_Selections_JANUARY_2022/19. Wonky Robot - Dancing Alone.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-dancing-alone-sim-selection-january-2022",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.29
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "ZeroApr",
                 "title": "Bwrrrang Town",
-                "file": "2022/Sim_Selections_JANUARY_2022/20. zeroApr - Bwrrrang Town.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/charles-ginsberg/bwrang-town-final",
                 "optIn": false,
                 "canPlay": false,
-                "length": 85.27
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             }
         ]
     },
@@ -1538,231 +1808,278 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Max Mattingly",
                 "title": "Nighttime Noodles",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/01. Max Mattingly - Nighttime Noodles.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.33
+                "canonical_artists": [
+                    "maxmattingly"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Agent VX feat. Ken",
                 "title": "Chilled Scotch",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/02. Agent VX feat. Ken - Chilled Scotch.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.81
+                "canonical_artists": [
+                    "agentvx",
+                    "ken"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Edwin",
                 "title": "Evening Encounter",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/03. Edwin - Evening Encounter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.94
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Equals Equals",
                 "title": "Just for the Memories",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/04. Equal Equals - Just for the Memories.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.62
+                "canonical_artists": [
+                    "equalsequals"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "fulhjort",
                 "title": "Once maybe twice",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/05. fulhjort - Once maybe twice.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/hjorten/once-maybe-twice",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.78
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Pulse-Static",
                 "title": "Guitar Remix",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/06. Pulse-Static - Guitar Remix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 105.41
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake",
                 "title": "Inwards Upwards",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/07. informationcake - Inwards Upwards.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 232.08
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Lost and Found",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/08. Thomas and the Evil Computer - Lost and Found.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.12
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Mark Feifarek",
                 "title": "Lost at Seaside",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/09. Mark Feifarek - Lost at Seaside.mp3",
+                "file": "",
                 "link": "https://drive.google.com/file/d/1klCPItRYKY2YvdmRfEDADzmewpx4s_XI/view?usp=sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 201.02
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "NGC 3019",
                 "title": "Casio Cascade",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/10. NGC 3019 - Casino Cascade.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/casio-cascade",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.21
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Viiri",
                 "title": "Faced With the Pardox",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/11. Viiri - Faced With the Paradox.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.07
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Kevin Thorsen",
                 "title": "Polytopia",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/12. Kevin Thorsen - Polytopia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.54
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "jungle pickle",
                 "title": "Purple Skies",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/13. jungle pickle - Purple Skies.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/purple-skies-1",
                 "optIn": false,
                 "canPlay": false,
-                "length": 201.67
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "stoic",
                 "title": "rinsomaton",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/14. stoic - rinsomaton.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.8
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec",
                 "title": "Space Walk",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/15. Nornec - Space Walk.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/space-walk",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.16
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "informationcake",
                 "title": "Top Of The World",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/16. informationcake - Top Of The World.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/top-of-the-world-2",
-                "optIn": true,
-                "canPlay": true,
-                "length": 329.95
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Innate Distance",
                 "title": "Undercover",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/17. Innate Distance - Undercover.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.68
+                "canonical_artists": [
+                    "innatedistance"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Heavy Listening",
                 "title": "Waiting Here For You",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/18. Heavy Listening - Waiting Here For You.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/february-waiting-here-for-you",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.36
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Default Media Transmitter",
                 "title": "What happens if I do this?",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/19. Default Media Transmitter - What happens if I do this.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/what-happens-if-i-do-this",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.1
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Wonky Robot",
                 "title": "Riff On Past Self",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/20. Wonky Robot - Riff On Past Self.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-riff-on-past-self-sim-selection-febuary-2022",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.47
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Adam Johan Bergren",
                 "title": "Dance of Ideas",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/21. Adam Johan Bergren - Dance of Ideas.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/dance-of-ideas",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.07
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "ipso",
                 "title": "Thump",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/23. ipso - Thump.mp4",
+                "file": "",
                 "link": "https://soundcloud.com/ipsotheque/thump-where-the-lost-balloons",
                 "optIn": false,
                 "canPlay": false,
-                "length": 327.77
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Edwin",
                 "title": "Tip Top Shape",
-                "file": "2022/Sim_Selections_FEBRUARY_2022/22. Edwin DeNicholas - Tip Top Shape.ogg",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 73.85
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 24,
@@ -1771,7 +2088,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "anthonybrechbill"
+                ]
             },
             {
                 "trackNo": 25,
@@ -1780,7 +2100,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -1801,221 +2124,265 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Adam Johan Bergren",
                 "title": "Psyclone Psea Psnakes",
-                "file": "2022/Sim_Selections_APRIL_2022/01. Adam Johan Bergren - Psyclone Psea Psnakes.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/psyclone-psea-psnakes",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.58
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Zero Apr",
                 "title": "Time Decay",
-                "file": "2022/Sim_Selections_APRIL_2022/02. zeroApr - Time Decay.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/charles-ginsberg/time-decay",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.98
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Aplut",
                 "title": "Existence",
-                "file": "2022/Sim_Selections_APRIL_2022/03. Aplut - Existence.mp3",
+                "file": "",
                 "link": "https://youtu.be/UjlUq5DNmms",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.86
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Wonky Robot",
                 "title": "Metamorph",
-                "file": "2022/Sim_Selections_APRIL_2022/04. Wonky Robot - Metamorph.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/malte-hansen-985974512/wonky-robot-metamorph-sim-selections-april-2022",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.53
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Jungle Pickle",
                 "title": "Fool's Gold",
-                "file": "2022/Sim_Selections_APRIL_2022/05. jungle pickle - Fool's Gold.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/fools-gold",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.06
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Undercover Brother",
                 "title": "Veil",
-                "file": "2022/Sim_Selections_APRIL_2022/06. Undercover Brother - Veil.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.53
+                "canonical_artists": [
+                    "undercoverbrother"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Kitsune Machines",
                 "title": "Divergence",
-                "file": "2022/Sim_Selections_APRIL_2022/07. Kitsune Machines - Divergence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 174.29
+                "canonical_artists": [
+                    "kitsunemachines"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Tranendal",
                 "title": "Op Zoek Naar Het Klatergoud",
-                "file": "2022/Sim_Selections_APRIL_2022/08. Tranendal - Op Zoek Naar Het Klatergoud.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 358.34
+                "canonical_artists": [
+                    "tranendal"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Dream Static",
                 "title": "Charged Particles",
-                "file": "2022/Sim_Selections_APRIL_2022/09. Dream Static - Charged Particles.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.06
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Stoic",
                 "title": "Broken Record",
-                "file": "2022/Sim_Selections_APRIL_2022/10. stoic - broken record.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.12
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Durkl",
                 "title": "Liveset Preview",
-                "file": "2022/Sim_Selections_APRIL_2022/11. durkl - Liveset Preview.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.89
+                "canonical_artists": [
+                    "durkl"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Edwin",
                 "title": "Pyrite mining",
-                "file": "2022/Sim_Selections_APRIL_2022/12. Edwin - pyrite-mining.mp3",
+                "file": "",
                 "link": "https://khaotomsunrise.bandcamp.com/track/pyrite-mining",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.51
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Equals Equals",
                 "title": "Worth The Tape",
-                "file": "2022/Sim_Selections_APRIL_2022/13. Equal Equals - WORTH THE TAPE.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.79
+                "canonical_artists": [
+                    "equalsequals"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Nornec",
                 "title": "F# At The End Of Time",
-                "file": "2022/Sim_Selections_APRIL_2022/14. Nornec - F# At The End of TIme.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/f-at-the-end-of-time",
                 "optIn": false,
                 "canPlay": false,
-                "length": 284.64
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Default Media Transmitter",
                 "title": "Flood Slog",
-                "file": "2022/Sim_Selections_APRIL_2022/15. Default Media Transmitter - Flood Slog.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/flood-slog",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.45
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "NGC 3019",
                 "title": "Meteroite",
-                "file": "2022/Sim_Selections_APRIL_2022/16. NGC 3019 - Meteorite.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/meteorite",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.11
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 17,
-                "artist": "Fulhjort",
+                "artist": "fulhjort",
                 "title": "Urgent Build",
-                "file": "2022/Sim_Selections_APRIL_2022/17. fulhjort - Urgent build.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 319.9
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Jungle Pickle",
                 "title": "Metamorphic",
-                "file": "2022/Sim_Selections_APRIL_2022/18. jungle pickle - Metamorphic.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/metamorphic",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.62
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Ashley Chapman",
                 "title": "Head Thunder",
-                "file": "2022/Sim_Selections_APRIL_2022/19. Ashley Chapman - Head Thunder.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user308437765/head-thunder-april-sim-selections",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.14
+                "canonical_artists": [
+                    "ashleychapman"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Sim Systems",
-                "file": "2022/Sim_Selections_APRIL_2022/20. Thomas and the Evil Computer - Sim Systems.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.71
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "informationcake",
                 "title": "Another World",
-                "file": "2022/Sim_Selections_APRIL_2022/21. informationcake - In Another World.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/another-world-i",
-                "optIn": true,
-                "canPlay": true,
-                "length": 260.06
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Ipso",
                 "title": "Tfom 2022 Excerpt",
-                "file": "2022/Sim_Selections_APRIL_2022/22. ipso - TFoM 2022 Excerpt.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.71
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 23,
@@ -2024,7 +2391,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "gero"
+                ]
             }
         ]
     },
@@ -2045,201 +2415,242 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Jungle Pickle",
                 "title": "A real jungle pickle",
-                "file": "2022/Sim_Selections_MAY_2022/01. jungle pickle - A real jungle pickle.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/a-real-jungle-pickle",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.9
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 2,
-                "artist": "fuljort",
+                "artist": "fulhjort",
                 "title": "Binds",
-                "file": "2022/Sim_Selections_MAY_2022/02. fulhjort - Binds.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.46
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Ashley Chapman",
                 "title": "Careless Trip",
-                "file": "2022/Sim_Selections_MAY_2022/03. Ashley Chapman - Careless Trip.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user308437765/careless-trip-may-sim-selections",
                 "optIn": false,
                 "canPlay": false,
-                "length": 163.73
+                "canonical_artists": [
+                    "ashleychapman"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Popbot",
                 "title": "Craters",
-                "file": "2022/Sim_Selections_MAY_2022/04. Popbot - Craters.mp3",
+                "file": "",
                 "link": "https://drive.google.com/file/d/1vSIWIM7zZBEKgKMuaQUbbZa83I80zlc2/view?usp=sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.04
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "err rawr",
                 "title": "Reverse the random",
-                "file": "2022/Sim_Selections_MAY_2022/05. err Rawr - Reverse the random.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.06
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "First Sun",
                 "title": "It's Not A Planet",
-                "file": "2022/Sim_Selections_MAY_2022/06. First Sun - It's Not A Planet.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.07
+                "canonical_artists": [
+                    "firstsun"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Durkl",
                 "title": "Inferno",
-                "file": "2022/Sim_Selections_MAY_2022/07. durkl - Inferno.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/durkl1/inferno",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.94
+                "canonical_artists": [
+                    "durkl"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "NGC 3019 & informationcake",
                 "title": "Pluto",
-                "file": "2022/Sim_Selections_MAY_2022/08. NGC 3019 & Informationcake - Pluto.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/pluto",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.53
+                "canonical_artists": [
+                    "ngc3019",
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Nornec",
                 "title": "Kuiper noir",
-                "file": "2022/Sim_Selections_MAY_2022/09. Nornec - Kuiper Noir.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/kuiper-noir",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.04
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "MRDR",
                 "title": "Between Pluto and Eris",
-                "file": "2022/Sim_Selections_MAY_2022/10. MRDR - Between Pluto and Eris.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.86
+                "canonical_artists": [
+                    "mrdr"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Viiri",
                 "title": "On the Far Side of the Solar System",
-                "file": "2022/Sim_Selections_MAY_2022/11. Viiri - On the Far Side of the Solar System.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 340.51
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Edwin",
                 "title": "Passing Pluto In Reverse",
-                "file": "2022/Sim_Selections_MAY_2022/12. Edwin - Passing Pluto In Reverse.mp3",
+                "file": "",
                 "link": "https://khaotomsunrise.bandcamp.com/track/passing-pluto-in-reverse",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.06
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Plesiotone",
                 "title": "Plutonian Orbital Injection",
-                "file": "2022/Sim_Selections_MAY_2022/13. plesiotone - Plutonian Orbital Injection.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.11
+                "canonical_artists": [
+                    "plesiotone"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Adam Johan Bergren",
                 "title": "Precovery data Recovery",
-                "file": "2022/Sim_Selections_MAY_2022/14. Adam Johan Bergren - Precovery data Recovery.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/precovery-data-recovery",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.74
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Default Media Transmitter",
                 "title": "Retrograde",
-                "file": "2022/Sim_Selections_MAY_2022/15. Default Media Transmitter - Retrograde.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/retrograde",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.45
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Michael Henry",
                 "title": "Pluto Soundtrack",
-                "file": "2022/Sim_Selections_MAY_2022/16. Michael Henry - Pluto Soundtrack.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 174.65
+                "canonical_artists": [
+                    "michaelhenry"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "CataclystP",
                 "title": "Eventide on a distant horizon",
-                "file": "2022/Sim_Selections_MAY_2022/17. catatronic - Eventide on a distant horizon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 360.07
+                "canonical_artists": [
+                    "cataclystp"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Sparga",
                 "title": "Brain on Ice",
-                "file": "2022/Sim_Selections_MAY_2022/18. Sparga - Brain on Ice.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.06
+                "canonical_artists": [
+                    "sparga"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Dream Static",
                 "title": "The Great Decay",
-                "file": "2022/Sim_Selections_MAY_2022/19. Dream Static - The Great Decay.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.96
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "ipso",
                 "title": "Cityside Twilight",
-                "file": "2022/Sim_Selections_MAY_2022/20. ipso - Cityside Twilight.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.43
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 21,
@@ -2248,7 +2659,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://www.youtube.com/watch?v=eWA6LcxOzls",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             }
         ]
     },
@@ -2269,161 +2683,194 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Tranendal",
                 "title": "Zo Droog Als As",
-                "file": "2022/Sim_Selections_JUNE_2022/01. Tranendal - Zo Droog Als As.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.41
+                "canonical_artists": [
+                    "tranendal"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Ishmael's Lament",
-                "file": "2022/Sim_Selections_JUNE_2022/02. Adam Johan Bergren - Ishmael's Lament.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/ishmaels-lament",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.85
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "Falling Through",
-                "file": "2022/Sim_Selections_JUNE_2022/03. informationcake - Falling Through.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/falling-through-2",
-                "optIn": true,
-                "canPlay": true,
-                "length": 348.17
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Default Media Transmitter",
                 "title": "Impermenance",
-                "file": "2022/Sim_Selections_JUNE_2022/04. Default Media Transmitter - Impermanence.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/impermanence",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.46
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Popbot",
                 "title": "Grist",
-                "file": "2022/Sim_Selections_JUNE_2022/05. Popbot - Grist.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/popbot1/1-popbot-grist/s-zewidRsQzmz?si=5d4f0c033d574407826545d97bd64b0d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.21
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Edwin",
                 "title": "Flicking In The Woods",
-                "file": "2022/Sim_Selections_JUNE_2022/06. Edwin - Flickering In The Woods.mp3",
+                "file": "",
                 "link": "https://khaotomsunrise.bandcamp.com/track/flickering-beams-in-a-forest-of-stars",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.06
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Stoic",
                 "title": "Too Late",
-                "file": "2022/Sim_Selections_JUNE_2022/07. stoic - Too Late.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.08
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "NGC 3019",
                 "title": "Captain Solvander The Starship Commander",
-                "file": "2022/Sim_Selections_JUNE_2022/08. NGC 3019 - Captain Solvander the Starship Commander.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/captain-solvander-the-starship-commander",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.96
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Jungle Pickle",
                 "title": "Tony",
-                "file": "2022/Sim_Selections_JUNE_2022/09. jungle pickle - jungle pickle.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/tony?si=51d3b5bf4349403185c4001f8e540b66&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.08
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Ipso & Nornec",
                 "title": "One Hundred Acres",
-                "file": "2022/Sim_Selections_JUNE_2022/10. ipso & Nornec - One Hundred Acres.mp3",
+                "file": "",
                 "link": "https://nornec.bandcamp.com/track/one-hundred-acres-feat-ipso",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.06
+                "canonical_artists": [
+                    "ipso",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Miya Moon",
                 "title": "Miya In The Woods",
-                "file": "2022/Sim_Selections_JUNE_2022/11. Miya Moon - Miya In The Woods.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.1
+                "canonical_artists": [
+                    "miyamoon"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Katt",
                 "title": "Watery Eyes",
-                "file": "2022/Sim_Selections_JUNE_2022/12. Katt - Watery Eyes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.11
+                "canonical_artists": [
+                    "katt"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Composite Complex",
                 "title": "Valentines Memories",
-                "file": "2022/Sim_Selections_JUNE_2022/13. Composite Complex - Valentines Memories.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.2
+                "canonical_artists": [
+                    "compositecomplex"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Err: Rawr",
                 "title": "Love The Way She Smiles",
-                "file": "2022/Sim_Selections_JUNE_2022/14. err Rawr - Love the way she smiles.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 124.08
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 15,
-                "artist": "Fuljhort",
+                "artist": "fulhjort",
                 "title": "Waaaaat",
-                "file": "2022/Sim_Selections_JUNE_2022/15. fulhjort - waaaaat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.86
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Aplut",
                 "title": "Simple Feeling, Simple Thought",
-                "file": "2022/Sim_Selections_JUNE_2022/16. Aplut - Simple Feeling, Simple Thought.mp3",
+                "file": "",
                 "link": "https://youtu.be/8kIFlCSSM7E",
                 "optIn": false,
                 "canPlay": false,
-                "length": 201.1
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 17,
@@ -2432,17 +2879,23 @@ export const playlistData = [
                 "file": "",
                 "link": "https://www.youtube.com/watch?v=4zCgY4MD9Y8",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "herrshield"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Ipso & Nornec",
                 "title": "Wanderer",
-                "file": "2022/Sim_Selections_JUNE_2022/ipso & Nornec - Wanderer.mov",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 101.2
+                "canonical_artists": [
+                    "ipso",
+                    "nornec"
+                ]
             }
         ]
     },
@@ -2463,251 +2916,289 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Acrid Meteors",
                 "title": "Raining Down on Mars",
-                "file": "2022/Sim_Selections_JULY_2022/01. Acrid Meteors - Raining Down on Mars.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/d-r-m-r/acrid-meteors-raining-down-on-mars",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.26
+                "canonical_artists": [
+                    "acridmeteors"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Aplut",
                 "title": "Never Skip a Beat",
-                "file": "2022/Sim_Selections_JULY_2022/02. Aplut - Never Skip A Beat.mp3",
+                "file": "",
                 "link": "https://youtu.be/vqoC9oEstaw",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.73
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Dream Static",
                 "title": "Rust Breathers",
-                "file": "2022/Sim_Selections_JULY_2022/03. Dream Static - Rust Breathers.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.73
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Adam Johan Bergren",
                 "title": "Dynamic Situation Survival Simulation",
-                "file": "2022/Sim_Selections_JULY_2022/04. Adam Johan Bergren - Dynamic Situation Survival Simulation.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/dynamic-situation-survival-simulation",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.63
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Krank Gronker",
                 "title": "Extinct Lifeform Findings",
-                "file": "2022/Sim_Selections_JULY_2022/05. Krank Grokker - Extinct Lifeform Findings.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.14
+                "canonical_artists": [
+                    "krankgronker"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Fractalint",
                 "title": "Air is Thin",
-                "file": "2022/Sim_Selections_JULY_2022/06. Fractalint - Air is Thin.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/air-is-thin",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.42
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake",
                 "title": "With Me",
-                "file": "2022/Sim_Selections_JULY_2022/07. informationcake - With Me.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/with-me-2",
-                "optIn": true,
-                "canPlay": true,
-                "length": 420.07
-            },
-            {
-                "trackNo": 8,
-                "artist": "Kevhuman",
-                "title": "Break Orbit",
-                "file": "2022/Sim_Selections_JULY_2022/08. Kevhuman - Break Orbit.mp3",
-                "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 336.98
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "NGC 3019",
                 "title": "Eleven of Sixteen Survive on Mars",
-                "file": "2022/Sim_Selections_JULY_2022/09. NGC 3019 - Eleven out of 16 Survive on Mars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.53
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Popbot",
                 "title": "pocket-note",
-                "file": "2022/Sim_Selections_JULY_2022/10. Popbot - pocket-note.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/popbot1/2-popbot-pocket-note/s-amAfU39rtBc?si=6964e1060ca847cfb399370b8f66a7ea&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.5
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Jungle Pickle",
                 "title": "Screw Your Silly Time Signature",
-                "file": "2022/Sim_Selections_JULY_2022/11. jungle pickle - Screw your silly time signature.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/screw-your-silly-time-signature?si=489ca526c1d7470ab98b85ec803fea70&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.58
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Stoic",
                 "title": "Predestined Movement",
-                "file": "2022/Sim_Selections_JULY_2022/12. stoic - predestined movement.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.35
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Coolout Coexist",
                 "title": "Will Call When we Reach Mars",
-                "file": "2022/Sim_Selections_JULY_2022/13. Coolout Coexist - Will Call When We Reach Mars.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-877170727/will-call-when-we-reach-mars",
                 "optIn": false,
                 "canPlay": false,
-                "length": 313.92
+                "canonical_artists": [
+                    "cooloutcoexist"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Default Media Transmitter",
                 "title": "Solemnity",
-                "file": "2022/Sim_Selections_JULY_2022/14. Default Media Transmitter - Solemnity.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/solemnity",
                 "optIn": false,
                 "canPlay": false,
-                "length": 281.14
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Fjaru",
                 "title": "Last to Leave",
-                "file": "2022/Sim_Selections_JULY_2022/15. Fjaru - Last to leave.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.02
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Herr Shield",
                 "title": "A Billionaire's Fever Dreams",
-                "file": "2022/Sim_Selections_JULY_2022/16. Herr Shield - A Billionaire's Fever Dreams.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.94
+                "canonical_artists": [
+                    "herrshield"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Kevin Thorsen",
                 "title": "Every Butterfly",
-                "file": "2022/Sim_Selections_JULY_2022/17. Kevin Thorsen - Every Butterfly.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/kevinthorsen/every-butterfly?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.56
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Nornec",
                 "title": "Cold and Alone",
-                "file": "2022/Sim_Selections_JULY_2022/18. Nornec - Cold And Alone.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.85
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Skyguide",
                 "title": "Cold as Hell",
-                "file": "2022/Sim_Selections_JULY_2022/19. Skyguide - Cold as Hell.mp3",
+                "file": "",
                 "link": "https://youtu.be/LzVjWLcVLN4",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.07
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "DRMR",
                 "title": "The Phases of Phobos and Deimos",
-                "file": "2022/Sim_Selections_JULY_2022/20. DRMR - The Phases of Phobos and Deimos.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/d-r-m-r/the-phases-of-phobos-and-deimos",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.03
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Heavy Listening",
                 "title": "Air on a Whale Tail",
-                "file": "2022/Sim_Selections_JULY_2022/21. Heavy Listening - Air on a Whale Tail.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/july",
                 "optIn": false,
                 "canPlay": false,
-                "length": 314.28
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Just Below Purgatory",
                 "title": "Demond Don't Survive on Mars",
-                "file": "2022/Sim_Selections_JULY_2022/22. Just Below Purgatory - Demons Don't Survive On Mars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.16
+                "canonical_artists": [
+                    "justbelowpurgatory"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "My Gloomy Machine",
                 "title": "It Is Better to Die on Earh than to Live on Mars",
-                "file": "2022/Sim_Selections_JULY_2022/23. My Gloomy Machine - It's Better to Die on Earth Than to Live on Mars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.59
+                "canonical_artists": [
+                    "mygloomymachine"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Pulse-Static",
                 "title": "Broken Form",
-                "file": "2022/Sim_Selections_JULY_2022/24. Pulse-Static - Broken Form.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.57
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Theodore Snoozevelt",
                 "title": "A Failed Wager",
-                "file": "2022/Sim_Selections_JULY_2022/25. Theodore Snoozevelt - A failed wager.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/a-failed-wager-2",
                 "optIn": false,
                 "canPlay": false,
-                "length": 85.27
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 25,
@@ -2716,7 +3207,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://www.theflashbulb.co.uk/tba",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 26,
@@ -2725,7 +3219,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "hjorten"
+                ]
             }
         ]
     },
@@ -2746,261 +3243,304 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Edwin",
                 "title": "An Oddity",
-                "file": "2022/Sim_Selections_AUGUST_2022/01. Edwin - An Oddity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.06
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "catatronic & Sparga",
                 "title": "Trust",
-                "file": "2022/Sim_Selections_AUGUST_2022/02. catatronic & Sparga - Trust.mp3",
+                "file": "",
                 "link": "https://drive.google.com/file/d/1p-o0z8Zcn8iCrPcDnvf5MT_wuVmOoHPc/view?usp=sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.64
+                "canonical_artists": [
+                    "catatronic",
+                    "sparga"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Default Media Transmitter",
                 "title": "Aether",
-                "file": "2022/Sim_Selections_AUGUST_2022/03. Default Media Transmitter - \u2019ther.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/aether",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.24
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "DRMR",
                 "title": "Talk About Trust",
-                "file": "2022/Sim_Selections_AUGUST_2022/04. DRMR - Talk About Trust.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/d-r-m-r/talk-about-trust",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.1
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "err: Rawr",
                 "title": "Fleeting Love",
-                "file": "2022/Sim_Selections_AUGUST_2022/05. err Rawr - Fleeting Love.mp3",
+                "file": "",
                 "link": "https://open.spotify.com/track/7jhewPfOa0T0oqTu8rm5uB?si=oi2x_7Y4RhyiDi7unl4pZQ",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.33
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "informationcake",
                 "title": "Unstable In The Twilight",
-                "file": "2022/Sim_Selections_AUGUST_2022/06. informationcake - Unstable In The Twilight.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/unstable-in-the-twilight-2",
-                "optIn": true,
-                "canPlay": true,
-                "length": 266.23
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Krank Grokker",
                 "title": "Mandate",
-                "file": "2022/Sim_Selections_AUGUST_2022/07. Krank Grokker - mandate.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.66
+                "canonical_artists": [
+                    "krankgrokker"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "NGC3019",
                 "title": "Thrust Issues",
-                "file": "2022/Sim_Selections_AUGUST_2022/08. NGC 3019 - Thrust Issues.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.83
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Popbot and Default Media Transmitter",
                 "title": "Rommes",
-                "file": "2022/Sim_Selections_AUGUST_2022/09. Popbot & Default Media Transmitter - Rommes.mp3",
+                "file": "",
                 "link": "https://drive.google.com/file/d/11wM356HWa7KBYiQbtqfD1O66S3Heuq7I/view?usp=sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.29
+                "canonical_artists": [
+                    "popbot",
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Pulse Static",
                 "title": "Fmould Formation",
-                "file": "2022/Sim_Selections_AUGUST_2022/10. Pulse-Static - FMold Formation.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 145.08
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Skyguide",
                 "title": "Belleweather",
-                "file": "2022/Sim_Selections_AUGUST_2022/11. Skyguide - Belleweather.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.17
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Stoic",
                 "title": "Tension",
-                "file": "2022/Sim_Selections_AUGUST_2022/12. stoic - tension.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.84
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Fractalint",
                 "title": "Wisdom of Crowds",
-                "file": "2022/Sim_Selections_AUGUST_2022/13. Fractalint - Wisdom of Crowds.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/wisdom-of-crowds",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.22
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Dream Static and Nornec",
                 "title": "It Must Be a Virus",
-                "file": "2022/Sim_Selections_AUGUST_2022/14. Dream Static & Nornec - It Must Be A Virus.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.45
+                "canonical_artists": [
+                    "dreamstatic",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Adam Johan Bergren",
                 "title": "Deep Inelastic Scattering",
-                "file": "2022/Sim_Selections_AUGUST_2022/15. Adam Johan Bergren - Deep Inelastic Scattering.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/deep-inelastic-scattering",
                 "optIn": false,
                 "canPlay": false,
-                "length": 211.27
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Duck Propaganda",
                 "title": "Bjodda",
-                "file": "2022/Sim_Selections_AUGUST_2022/16. Duck Propaganda - Bjodda.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 146.28
+                "canonical_artists": [
+                    "duckpropaganda"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Heavy LIstening",
                 "title": "Scissors Runner",
-                "file": "2022/Sim_Selections_AUGUST_2022/17. Heavy Listening - Scissors Runner Theme.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/august",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.42
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Mia Moon",
                 "title": "Kitchen Nightmares",
-                "file": "2022/Sim_Selections_AUGUST_2022/18. Mia Moon - Kitchen Nightmares.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.63
+                "canonical_artists": [
+                    "miamoon"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Popbot",
                 "title": "Brain Termites",
-                "file": "2022/Sim_Selections_AUGUST_2022/19. Popbot - Brain Termites.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/popbot1/4-popbot-brain-termites/s-e5FR04c7bHC?si=e32eff8d808943c085d1700458bbf5c6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.42
-            },
-            {
-                "trackNo": 20,
-                "artist": "Sounds by Shawn",
-                "title": "TrustInMe",
-                "file": "2022/Sim_Selections_AUGUST_2022/20. Sounds by Shawn - TrustInMe.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 116.06
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Stu M",
                 "title": "Shinrai",
-                "file": "2022/Sim_Selections_AUGUST_2022/21. Stu M - Shinrai.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/shinrai?si=9d8cfd17ddca4d9e81bdf5c0507d8c6f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.18
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "GRBT",
                 "title": "Trust Fall",
-                "file": "2022/Sim_Selections_AUGUST_2022/22. GRBT - Trust Fall.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 95.45
+                "canonical_artists": [
+                    "grbt"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Kevin Thorsen",
                 "title": "Unfold",
-                "file": "2022/Sim_Selections_AUGUST_2022/23. Kevin Thorsen - Unfold.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/kevinthorsen/unfold",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.7
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Plesiotone",
                 "title": "Loose Red Pill",
-                "file": "2022/Sim_Selections_AUGUST_2022/24. plesiotone - Loose Red Pill.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.7
+                "canonical_artists": [
+                    "plesiotone"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Protocol",
                 "title": "Round Of Trust",
-                "file": "2022/Sim_Selections_AUGUST_2022/25. Protocol - Round of Trust.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "canonical_artists": [
+                    "protocol"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Takamoon",
                 "title": "The Runaway Bunny",
-                "file": "2022/Sim_Selections_AUGUST_2022/26. Takamoon - The Runaway Bunny.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.77
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 26,
@@ -3009,7 +3549,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/baby?si=809d4830c8cc4ace9e5d394a2c45cc6a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -3030,341 +3573,400 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Jungle Pickle",
                 "title": "Rock Music",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/203. jungle pickle - Rock Music.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 108.58
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "stoic",
                 "title": "Dandelion dreams",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/226. stoic - dandelion dreams.mp3",
+                "file": "",
                 "link": "https://chewy.skin/dandelion_dreams.mp3",
                 "optIn": false,
                 "canPlay": false,
-                "length": 342.0
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "One Hour",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/224. informationcake - One Hour.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 153.29
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Heavy Listening",
                 "title": "In a September Groove",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/223. Heavy Listening - In a September Groove.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/in-a-september-groove",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.5
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Eukan Happonen",
                 "title": "Kuistilla",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/221. Eukari Happonen - Kuistilla.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.87
+                "canonical_artists": [
+                    "eukanhapponen"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Broken Gravity",
                 "title": "Approaching The Derelict",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/220. Broken Gravity - Approaching the derelict.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/broken-gravity/approaching-the-derelict/s-jCcidtMeGto?si=f8e4abbedac249cdbbf4e7a34ebfe13a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.88
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Default Media Transmitter",
                 "title": "Too Late To Cash In",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/219. Default Media Transmitter - Too late to cash in.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/too-late-to-cash-in",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.19
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Plesiotone",
                 "title": "New Sk8er Shoes",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/217. plesiotone - New Sk8er Shoes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.3
+                "canonical_artists": [
+                    "plesiotone"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Blip Factory",
                 "title": "Isolate 106",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/215. Blipfactory - Isolate 106.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "blipfactory"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Menhirs",
                 "title": "Server Room Is A Forest",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/212. Menhirs - Server Room is a Forest.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/menhirs/server-room-is-a-forest?si=58f0e30732234db18a0fab8fa46ba4ce&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.7
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Fractalint",
                 "title": "Donte tu",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/210. Fractalint - donte tu.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/donte-tu",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.49
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Sparga",
                 "title": "RSI March",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/208. Sparga - RSI March.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/sparga1/rsimarch",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "sparga"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Catatronic",
                 "title": "Wind Guitars",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/206. catatronic - Wind Guitars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.66
+                "canonical_artists": [
+                    "catatronic"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Stu M",
                 "title": "Cast Aside",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/204. Stu M - Cast Aside.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/stu-m-cast-aside-mp3?si=5388a87a5bc24229965d38c84285cc48&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.51
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "NGC 3019",
                 "title": "Spacewalk Jettison",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/202. NGC 3019 - Spacewalk Jettison.mp3",
+                "file": "",
                 "link": "https://ngc3019.bandcamp.com/track/spacewalk-jettison",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.66
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Quaternion",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/201. Thomas and the Evil Computer - Quaternion.mp3",
+                "file": "",
                 "link": "https://soundcloud.app.goo.gl/pQ15V",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.78
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "err, Rawr",
                 "title": "Why Iwato",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/227. err Rawr - Why Iwato.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/err_rawr/sets/the-journey-begins?si=583dbb5502fd4accb9a5ed49341a2669&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 339.7
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Krank Grotter",
                 "title": "Impoverished hotdog vendor with rich inner life",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/222. Krank Grokker - impoverished-hotdog-vendor-with-Rich-Inner-Life.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.65
+                "canonical_artists": [
+                    "krankgrotter"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "DRMR",
                 "title": "Together In Solitude",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/211. DRMR - Together in Solitude.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 337.46
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Takamoon",
                 "title": "Audite!",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/209. Takamoon - Audite!.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.05
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Adam Johan Bergren",
                 "title": "Friendly Fairground Phantom",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/205. Adam Johan Bergren - Friendly Fairground Phantom.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/friendly-fairground-phantom",
                 "optIn": false,
                 "canPlay": false,
-                "length": 201.58
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Kevin Thorsen",
                 "title": "Velvet Enclave",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/214. Kevin Thorsen - Velvet Enclave.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/kevinthorsen/velvet-enclave",
                 "optIn": false,
                 "canPlay": false,
-                "length": 330.65
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 23,
-                "artist": "Fulhjort",
+                "artist": "fulhjort",
                 "title": "Earth And Ground",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/207. fulhjort - Earth and ground.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.6
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Popbot & Dreamstatic",
                 "title": "Awakening",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/101. Popbot & Dream Static - Awakening.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 142.3
+                "canonical_artists": [
+                    "popbot",
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Zero Lucks Given",
                 "title": "7am Zoom Meeting No Coffee",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/216. Zero Lucks Given - 7AM Zoom Meeting No Coffee.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/7am-zoom-meeting-no-coffee",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.15
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Skyguide",
                 "title": "All The Best Players Are Russian",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/225. Skyguide - All The Best Players Are Russian.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.05
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Nornec",
                 "title": "Guitech, Gesundheit",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/213. Nornec - Guitech, Gesundheit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 321.58
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "informationcake",
                 "title": "The Forever Path",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/103. informationcake - The Forever Path.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/the-forever-path",
-                "optIn": true,
-                "canPlay": true,
-                "length": 361.42
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "_rchestra",
                 "title": "Opal Decay",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/102. _rchestra - Opal Decay.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/kevinthorsen/opal-decay",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.22
+                "canonical_artists": [
+                    "rchestra"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Stoic & Fjaru & Acid Rain",
                 "title": "The Song",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/105. stoic & Fjaru & acid_rain - The Song.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.58
+                "canonical_artists": [
+                    "stoic",
+                    "fjaru",
+                    "acidrain"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Dream Static",
                 "title": "Unempathy",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/104. Dream Static - UnEmpathy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 301.08
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Jungle Pickle",
                 "title": "Alone",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/106. jingle puckle - Alone.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/alone?si=b0de7a2c43dd49ed86bb474fdceda100&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.46
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Fjaru",
                 "title": "Gravity Assist",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/107. Fjaru - Gravity Assist.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.56
-            },
-            {
-                "trackNo": 218,
-                "artist": "Kevhuman",
-                "title": "Civil Unrest",
-                "file": "2022/Sim_Selections_SEPTEMBER_2022/218. Kevhuman - Civil Unrest.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 276.91
+                "canonical_artists": [
+                    "fjaru"
+                ]
             }
         ]
     },
@@ -3385,291 +3987,338 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Popbot",
                 "title": "Organic Machine",
-                "file": "2022/Sim_Selections_OCTOBER_2022/01. Popbot - Organic Machine.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/popbot1/organic-machine-3/s-CEZa1zvmWon?si=61b9c9a7d9b64a7b96547dc6ceb25d0a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.18
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Undercover",
                 "title": "Recurrent Narrative",
-                "file": "2022/Sim_Selections_OCTOBER_2022/17. Undercover - Recurrent Narrative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.08
+                "canonical_artists": [
+                    "undercover"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Stu M",
                 "title": "Helios",
-                "file": "2022/Sim_Selections_OCTOBER_2022/14. Stu M - Helios.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/helios?si=20bba2ef55294110a0bbb13ba1005e2e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.1
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Blipfactory",
                 "title": "Bakunawa",
-                "file": "2022/Sim_Selections_OCTOBER_2022/20. Blipfactory - Bakunawa.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.07
+                "canonical_artists": [
+                    "blipfactory"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Skyguide",
                 "title": "Bellows From Below",
-                "file": "2022/Sim_Selections_OCTOBER_2022/13. Skyguide - Bellows From Below.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.44
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Mia Moon",
                 "title": "Esja",
-                "file": "2022/Sim_Selections_OCTOBER_2022/27. Mia Moon - Esja.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 318.65
+                "canonical_artists": [
+                    "miamoon"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Heavy Listening",
                 "title": "Rob D Ripoff",
-                "file": "2022/Sim_Selections_OCTOBER_2022/16. Heavy Listening - Rob D Ripoff.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/october-a-rob-d-ripoff",
                 "optIn": false,
                 "canPlay": false,
-                "length": 357.67
-            },
-            {
-                "trackNo": 8,
-                "artist": "Kevhuman",
-                "title": "Carcosa Foam Party",
-                "file": "2022/Sim_Selections_OCTOBER_2022/08. Kevhuman  - Carcosa Foam Party.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 216.34
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Nornec",
                 "title": "Sloth God",
-                "file": "2022/Sim_Selections_OCTOBER_2022/15. Nornec - Sloth God.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Adam Johan Bergren (ft. Jungle Pickle)",
                 "title": "Cherenkov Therapy",
-                "file": "2022/Sim_Selections_OCTOBER_2022/06. Adam Johan Bergren (ft. Jungle Pickle) - Cherenkov Therapy.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/cherenkov-therapy",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.66
+                "canonical_artists": [
+                    "adamjohanbergren",
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Dream Static",
                 "title": "Harmonia, Goddess of Harmony and Concord",
-                "file": "2022/Sim_Selections_OCTOBER_2022/03. Dream Static - Harmonia, Goddess of Harmony and Concord.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.08
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "catatronic",
                 "title": "self titled track",
-                "file": "2022/Sim_Selections_OCTOBER_2022/24. catatronic - self titled track.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.07
+                "canonical_artists": [
+                    "catatronic"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "stoic",
                 "title": "float askew",
-                "file": "2022/Sim_Selections_OCTOBER_2022/18. stoic - float askew.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 157.85
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Takamoon",
                 "title": "Zorya",
-                "file": "2022/Sim_Selections_OCTOBER_2022/22. Takamoon - Zorya.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.9
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Zero Lucks Given",
                 "title": "The Morrigan Waits",
-                "file": "2022/Sim_Selections_OCTOBER_2022/02. Zero Lucks Given - The Morrigan Waits.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-morrigan-waits",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.14
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Adam Johan Bergren",
                 "title": "150000",
-                "file": "2022/Sim_Selections_OCTOBER_2022/09. Adam Johan Bergren - 15000.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/fifteen-thousand",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.81
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "PonyArt",
                 "title": "FRM Guitar",
-                "file": "2022/Sim_Selections_OCTOBER_2022/23. PonyArt - FRM guitar.mp3",
+                "file": "",
                 "link": "https://www.dropbox.com/s/0dtrsgbz4uc5y67/PonyArt%20-%20FRM%20guitar%20SelfMaster1.wav?dl=0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 312.89
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Fractalint",
                 "title": "Talos",
-                "file": "2022/Sim_Selections_OCTOBER_2022/19. Fractalint - Talos.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/talos",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.61
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Theodore Snoozevelt",
                 "title": "Ex Chao",
-                "file": "2022/Sim_Selections_OCTOBER_2022/31. Theodore Snoozevelt - Ex Chao.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/ex-chao",
                 "optIn": false,
                 "canPlay": false,
-                "length": 97.82
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Wonky Robot",
                 "title": "Divine Rising",
-                "file": "2022/Sim_Selections_OCTOBER_2022/12. Wonky Robot - Divine Rising.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.99
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "NGC 3019",
                 "title": "Tekhne",
-                "file": "2022/Sim_Selections_OCTOBER_2022/26. NGC 3019 - Tekhne.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Tranendal",
                 "title": "Na Ons De Zondvloed",
-                "file": "2022/Sim_Selections_OCTOBER_2022/04. Tranendal - Na Ons De Zondvloed.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 340.75
+                "canonical_artists": [
+                    "tranendal"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "err Rawr",
                 "title": "Wildling",
-                "file": "2022/Sim_Selections_OCTOBER_2022/28. err Rawr - Wildling.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/err_rawr/err-wildling/s-0PUFE2mDB5V?ref=clipboard&p=i&c=1&si=7BEC33EEDF544DECBF9978EE6DC28799&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 373.42
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Krank Grokker",
                 "title": "TV Salesman Experiencing Existential Crises in San Francisco",
-                "file": "2022/Sim_Selections_OCTOBER_2022/07. Krank Grokker - TV Salesman Experiencing Existential Crises in San Francisco.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 75.14
+                "canonical_artists": [
+                    "krankgrokker"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Kevin Thorsen",
                 "title": "Pastoral 9-Volt",
-                "file": "2022/Sim_Selections_OCTOBER_2022/10. Kevin Thorsen - Pastoral 9-Volt.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/kevinthorsen/9-volt-pastoral",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.05
+                "canonical_artists": [
+                    "kevinthorsen"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "ANODE",
                 "title": "Closeyes",
-                "file": "2022/Sim_Selections_OCTOBER_2022/05. ANODE - Closeyes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.46
+                "canonical_artists": [
+                    "anode"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Tickle Me Erasmus of Formia",
-                "file": "2022/Sim_Selections_OCTOBER_2022/21. Thomas and the Evil Computer  - Tickle Me Erasmus of Formia.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/evilcomputer/tickle-me-erasmus-of-formia/s-GOEMPzEsLcD?ref=clipboard&p=a&c=1&si=240882c2471a4b3eb1740febce125fb0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.14
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Sparga",
                 "title": "Fraction",
-                "file": "2022/Sim_Selections_OCTOBER_2022/25. Sparga - Fraction.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 124.25
+                "canonical_artists": [
+                    "sparga"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "informationcake",
                 "title": "An Ancient Presence",
-                "file": "2022/Sim_Selections_OCTOBER_2022/11. informationcake - An Ancient Presence.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/an-ancient-presence-i",
-                "optIn": true,
-                "canPlay": true,
-                "length": 340.61
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 29,
@@ -3678,7 +4327,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/forever-god?si=b57873a3d6af436caf338dffdbfb6c2d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -3696,21 +4348,25 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Tranendal",
                 "title": "Totaal In De Rats",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/12. Tranendal - Totaal In De Rats.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 158.66
+                "canonical_artists": [
+                    "tranendal"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "informationcake",
                 "title": "Between The Stars",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/15. informationcake - Between The Stars.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/between-the-stars",
-                "optIn": true,
-                "canPlay": true,
-                "length": 217.75
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 3,
@@ -3719,137 +4375,166 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "bennjordan"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Jungle Pickle",
                 "title": "It Took A Cat To Figure It Out",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/05. jungle pickle - it took a cat to figure it out.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/it-took-a-cat-to-figure-it-out?si=e146bbe40cbe4c0fae5e6c1536f8d899&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 114.07
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Catatronic",
                 "title": "Dunes Of Glass",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/08. catatronic - Dunes of Glass.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.02
+                "canonical_artists": [
+                    "catatronic"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Adam Johan Bergren",
                 "title": "Elmo's Rave",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/01. Adam Johan Bergren - Elmo's Rave.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.07
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Stu M",
                 "title": "Baslp",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/09. Stu M - Baslp.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.09
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "err: Rawr",
                 "title": "Splitfired",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/10. err Rawr - Splitfired.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.08
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Fractalint",
                 "title": "Night Train NYC",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/03. Fractalint - Night Train NYC.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/night-train-nyc",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.3
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Edwin",
                 "title": "Bronson Nights",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/11. Edwin - Bronson Nights.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.09
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 11,
-                "artist": "Fulhjort",
+                "artist": "fulhjort",
                 "title": "Part2",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/04. fulhjort - Part2.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.96
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Equal Equals",
                 "title": "It's Called Fate Or Club Fake",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/02. Equal Equals - It's called fate or Club Fake.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 332.06
+                "canonical_artists": [
+                    "equalequals"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Skyguide",
                 "title": "What If It Was Purple?",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/07. Skyguide - What If It Was Purple.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.41
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Heavy Listening",
                 "title": "November Funk",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/13. Heavy Listening - November Funk.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/november-funk",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.3
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "NGC3019",
                 "title": "Heterodyne",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/06. NGC 3019 - Heterodyne.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Zero Lucks Given",
                 "title": "Robots Can Dance",
-                "file": "2022/Sim_Selections_NOVEMBER_2022/14. Zero Lucks Given - Robots Can Dance.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/robots-can-dance",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.09
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 17,
@@ -3858,7 +4543,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/AKvFoW9Jd0U",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             }
         ]
     },
@@ -3879,281 +4567,337 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "err: Rawr",
                 "title": "Time and Time",
-                "file": "2022/Sim_Selections_DECEMBER_2022/01. err Rawr - Time and time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.2
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Zero Lucks Given",
                 "title": "Recocooning",
-                "file": "2022/Sim_Selections_DECEMBER_2022/02. Zero Lucks Given - ReCocooning.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/recocooning",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.09
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Viridian",
                 "title": "Lost in the passage of time",
-                "file": "2022/Sim_Selections_DECEMBER_2022/03. Viridian - Lost in the Passage of Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 355.3
+                "canonical_artists": [
+                    "viridian"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "PonyArt",
                 "title": "FRMS Aphex",
-                "file": "2022/Sim_Selections_DECEMBER_2022/04. PonyArt - FRMS aphex.mp3",
+                "file": "",
                 "link": "https://www.dropbox.com/s/50630038fnpbz0y/PonyArt%20-%20FRMS%20aphex%20SM1.1.wav?dl=0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.38
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Adam Johan Bergren",
                 "title": "Nonlinear Awareness",
-                "file": "2022/Sim_Selections_DECEMBER_2022/05. Adam Johan Bergren - Nonlinear Awareness.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/album/dissipation-dynamics?t=1",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.28
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "jungle pickle",
                 "title": "A cracking good time",
-                "file": "2022/Sim_Selections_DECEMBER_2022/06. jungle pickle - a cracking good time.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/a-cracking-good-time?si=be3b94fc462a48659849cc08895665a7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.07
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Stu M",
                 "title": "Kaloan",
-                "file": "2022/Sim_Selections_DECEMBER_2022/07. Stu M - Kaloan.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.57
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Fjaru",
                 "title": "Terminal Pinch",
-                "file": "2022/Sim_Selections_DECEMBER_2022/08. Fjaru - Terminal pinch.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.67
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Takamoon",
                 "title": "Pay Day",
-                "file": "2022/Sim_Selections_DECEMBER_2022/09. Takamoon - Pay Day.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.54
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Catatronic",
                 "title": "Time Immemorial",
-                "file": "2022/Sim_Selections_DECEMBER_2022/10. catatronic - Time Immemorial.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 413.16
+                "canonical_artists": [
+                    "catatronic"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Firephly",
                 "title": "A Fracture in Time",
-                "file": "2022/Sim_Selections_DECEMBER_2022/11. Firephly - A Fracture In Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.07
+                "canonical_artists": [
+                    "firephly"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Nornec",
                 "title": "A Distant Memory",
-                "file": "2022/Sim_Selections_DECEMBER_2022/12. Nornec - A Distant Memory.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.9
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "NGC 3019",
                 "title": "Flux Capacitor",
-                "file": "2022/Sim_Selections_DECEMBER_2022/13. NGC 3019 - Flux Capacitor.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.37
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Popbot",
                 "title": "Metronome",
-                "file": "2022/Sim_Selections_DECEMBER_2022/14. Popbot - Metronome.mp3",
+                "file": "",
                 "link": "https://drive.google.com/drive/folders/1ukaUZ9RBhXKtz-uT07qOW08NPvzOA1GF?usp=share_link",
                 "optIn": false,
                 "canPlay": false,
-                "length": 158.69
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Ipso",
                 "title": "Ceramic",
-                "file": "2022/Sim_Selections_DECEMBER_2022/15. ipso - Ceramic.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 132.07
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 16,
-                "artist": "Fulhjort",
+                "artist": "fulhjort",
                 "title": "ASRGAERBGAERG",
-                "file": "2022/Sim_Selections_DECEMBER_2022/16. fulhjort - asrgaerbgaerg (or I Just Mashed Some  Keys).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.86
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Pulse Static",
                 "title": "End",
-                "file": "2022/Sim_Selections_DECEMBER_2022/17. Pulse-Static - End.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.07
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Default Media Transmitter",
                 "title": "Fluctuations",
-                "file": "2022/Sim_Selections_DECEMBER_2022/18. Default Media Transmitter - Fluctuations.mp3",
+                "file": "",
                 "link": "https://funkwhale.defaultmediatransmitter.com/library/tracks/14/",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.69
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Sleep Television",
                 "title": "2016",
-                "file": "2022/Sim_Selections_DECEMBER_2022/19. Sleep Television - 2016.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.77
+                "canonical_artists": [
+                    "sleeptelevision"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Theodore Snoozevelt",
                 "title": "De_Theo",
-                "file": "2022/Sim_Selections_DECEMBER_2022/20. Theodore Snoozevelt - de_theo.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/de_theo",
                 "optIn": false,
                 "canPlay": false,
-                "length": 103.15
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Ashley Chapman",
                 "title": "Run Theory",
-                "file": "2022/Sim_Selections_DECEMBER_2022/21. Ashley Chapman - Run Theory.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.62
+                "canonical_artists": [
+                    "ashleychapman"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Edwin",
                 "title": "LFO Valley",
-                "file": "2022/Sim_Selections_DECEMBER_2022/22. Edwin - LFO Valley.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.51
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Skyguide",
                 "title": "Slumberland",
-                "file": "2022/Sim_Selections_DECEMBER_2022/23. Skyguide - Slumberland.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 121.8
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "informationcake",
                 "title": "My Timelapse",
-                "file": "2022/Sim_Selections_DECEMBER_2022/24. informationcake - Evolving Time.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/my-timelapse",
-                "optIn": true,
-                "canPlay": true,
-                "length": 221.02
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Heavy Listening",
                 "title": "Mellow Blue",
-                "file": "2022/Sim_Selections_DECEMBER_2022/26. Heavy Listening - Mellow Blue.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/december-mellow-blue",
                 "optIn": false,
                 "canPlay": false,
-                "length": 211.54
+                "canonical_artists": [
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Stoic",
                 "title": "Time to Move on",
-                "file": "2022/Sim_Selections_DECEMBER_2022/25. stoic - Time To Move On.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.21
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "ZeroApr",
                 "title": "In Machine I Trust",
-                "file": "2022/Sim_Selections_DECEMBER_2022/ZeroApr - In Machine I Trust.mov",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.49
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Fractalint",
                 "title": "Perceptual Gate",
-                "file": "2022/Sim_Selections_DECEMBER_2022/27. Fractalint - Perceptual Gate.wav",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/perceptual-gate",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.57
+                "canonical_artists": [
+                    "fractalint"
+                ]
             }
         ]
     },
@@ -4174,291 +4918,313 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "First Sun",
                 "title": "Gears and Pulleys",
-                "file": "2023/Sim_Selections_JANUARY_2023/12. First Sun - Gears And Pulleys.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.37
+                "canonical_artists": [
+                    "firstsun"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Blush Akimbo",
                 "title": "Blast",
-                "file": "2023/Sim_Selections_JANUARY_2023/02. Blush Akimbo - Blast.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.09
+                "canonical_artists": [
+                    "blushakimbo"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Wonky Robot",
                 "title": "Countach",
-                "file": "2023/Sim_Selections_JANUARY_2023/03. Wonky Robot - Countach.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.6
-            },
-            {
-                "trackNo": 4,
-                "artist": "First Sun",
-                "title": "Court Night",
-                "file": "2023/Sim_Selections_JANUARY_2023/04. First Sun - Court Night.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 93.67
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Protocol",
                 "title": "Daemonset",
-                "file": "2023/Sim_Selections_JANUARY_2023/05. Protocol - Daemonset.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.09
+                "canonical_artists": [
+                    "protocol"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Kiwillian",
                 "title": "Don",
-                "file": "2023/Sim_Selections_JANUARY_2023/06. Kiwillian - Don.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.06
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Ponyart",
                 "title": "Don't Cross The Streams",
-                "file": "2023/Sim_Selections_JANUARY_2023/07. Ponyart - Don't Cross The Streams.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.02
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Zero Lucks Given",
                 "title": "Entering The Terrordrome",
-                "file": "2023/Sim_Selections_JANUARY_2023/08. Zero Lucks Given - Entering the Terrordrome.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/entering-the-terrordrome",
                 "optIn": false,
                 "canPlay": false,
-                "length": 338.5
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Default Media Transmitter",
                 "title": "Flash Boards",
-                "file": "2023/Sim_Selections_JANUARY_2023/10. Default Media Transmitter - Flash Boards.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/flash-boards",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.31
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Hojascirculares",
                 "title": "Frame Control",
-                "file": "2023/Sim_Selections_JANUARY_2023/11. Hojascirculares - Frame Control.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.07
-            },
-            {
-                "trackNo": 9,
-                "artist": "TessellationRow",
-                "title": "Eunos",
-                "file": "2023/Sim_Selections_JANUARY_2023/09. TessellationRow - Eunos.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 146.6
+                "canonical_artists": [
+                    "hojascirculares"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Fulhjort",
                 "title": "Aliens",
-                "file": "2023/Sim_Selections_JANUARY_2023/01. fulhjort - Aliens.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.74
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "ZeroAPR",
                 "title": "In Machine I Trust",
-                "file": "2023/Sim_Selections_JANUARY_2023/13. ZeroApr - In Machine I Trust.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.57
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Edwin",
                 "title": "Loopalogue Epilogue",
-                "file": "2023/Sim_Selections_JANUARY_2023/15. Edwin - Loopalogue Epilogue.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 284.38
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Computrhead",
                 "title": "Master System",
-                "file": "2023/Sim_Selections_JANUARY_2023/16. Computrhead - Master System.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.74
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Equal Equals",
                 "title": "Missing Walkmans",
-                "file": "2023/Sim_Selections_JANUARY_2023/17. Equal Equals - Missing Walkmans.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.69
-            },
-            {
-                "trackNo": 14,
-                "artist": "Kevhuman",
-                "title": "Jumbo Chords",
-                "file": "2023/Sim_Selections_JANUARY_2023/14. Kevhuman - Jumbo Chords.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 176.9
+                "canonical_artists": [
+                    "equalequals"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec",
                 "title": "No Strangers To Love",
-                "file": "2023/Sim_Selections_JANUARY_2023/18. Nornec - No Strangers To Love.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.26
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Jungle Pickle",
                 "title": "ODE-2-8E",
-                "file": "2023/Sim_Selections_JANUARY_2023/19. jungle pickle - ODE-2-8E.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.74
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Dream Static",
                 "title": "Pyramid",
-                "file": "2023/Sim_Selections_JANUARY_2023/20. Dream Static - Pyramid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.07
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Mango Chunks",
                 "title": "RPN",
-                "file": "2023/Sim_Selections_JANUARY_2023/21. Mango Chunks - RPN.mp3.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 70.08
+                "canonical_artists": [
+                    "mangochunks"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "err:rawr",
                 "title": "Simmering Sunlight",
-                "file": "2023/Sim_Selections_JANUARY_2023/22. err Rawr - Simmering Sunlight.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.54
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Stu M",
                 "title": "SimSelectoRama",
-                "file": "2023/Sim_Selections_JANUARY_2023/23. Stu M - Simselectorama.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/stu-m-simselectorama?si=500ace8609cf4f0f9317d542bbc2f6b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.41
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "informationcake",
                 "title": "Some Kind Of Escape",
-                "file": "2023/Sim_Selections_JANUARY_2023/24. informationcake - Some Kind Of Escape.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/some-kind-of-escape",
-                "optIn": true,
-                "canPlay": true,
-                "length": 376.58
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "ZeroAPR",
                 "title": "Suffering",
-                "file": "2023/Sim_Selections_JANUARY_2023/25. ZeroApr - Suffering.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.01
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Broken Gravity",
                 "title": "The Furry Alien Show",
-                "file": "2023/Sim_Selections_JANUARY_2023/26. Broken Gravity - The Furry Alien Show.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.34
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Adam Johan Bergren",
                 "title": "The Mushroom Kingdom",
-                "file": "2023/Sim_Selections_JANUARY_2023/27. Adam Johan Bergren - The Mushroom Kingdom.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.7
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Ipso",
                 "title": "The Oracle",
-                "file": "2023/Sim_Selections_JANUARY_2023/28. ipso - The Oracle.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.02
+                "canonical_artists": [
+                    "ipso"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Takamoon",
                 "title": "ZZZZ... 88?",
-                "file": "2023/Sim_Selections_JANUARY_2023/29. Takamoon - Zzzz... 88.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.51
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 27,
@@ -4467,7 +5233,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/throw-it-back?si=3a6dd6f34a8c434f947bb93a97fb1cb7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -4485,581 +5254,673 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Seth Monyette",
                 "title": "Grounded",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/101. Seth Monyette - Grounded.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.0
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Joel",
                 "title": "Love Letter",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/102. Joel - Love letter.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.0
+                "canonical_artists": [
+                    "joel"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Tom Morton",
                 "title": "The Revelation",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/103. Tom Morton - The Revelation.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 84.01
+                "canonical_artists": [
+                    "tommorton"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Stu M",
                 "title": "Casing Duet",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/104. stu m - Casing Duet.wav",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/stu-m-casing-duet?si=ba805f32702c4995b37226c8368ec361&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.36
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Axel Ramirez",
                 "title": "Self-Reflection",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/105. Axel Ramirez - Self-reflection.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.0
+                "canonical_artists": [
+                    "axelramirez"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Imminent Trousers",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/106. Thomas and the Evil Computer - Imminent Trousers.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.43
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Kiwillian",
                 "title": "Quiet Earth",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/107. Kiwillian - Quiet Earth.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.34
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Fileareport",
                 "title": "ObviousOblivious",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/108. fileareport - ObviousOblivious.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.05
+                "canonical_artists": [
+                    "fileareport"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Mark Feifarek",
                 "title": "Silence Of The Forest",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/109. Mark Feifarek - Silence of the forest.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.29
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Peman Audio",
                 "title": "Non Existing Soundtrack",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/110. Peman Audio - Non existing soundtrack.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.19
+                "canonical_artists": [
+                    "pemanaudio"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Zero Lucks Given",
                 "title": "None Shall Pass",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/111. Zero Lucks Given - None Shall Pass.wav",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=dRwadkEWpLE",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.78
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "DRMR",
                 "title": "The Last Vampire Hunter",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/112. DRMR - The Last Vampire Hunter.wav",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=ciIEwJU_0h0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.15
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Ponyart",
                 "title": "Selling Your Product",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/113. PonyArt - Selling Your Product.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.5
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Fractalint",
                 "title": "Arrival",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/114. Fractalint - Arrival.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.0
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Pulse-static",
                 "title": "Memories Of The Forest",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/115. Pulse-Static - Memories Of The Forest.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.53
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "NGC 3019",
                 "title": "The Lost And Found",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/116. NGC 3019 - The Lost and Found.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.51
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Rosentwig",
                 "title": "Alien Entity Killer Cleans Up Kill",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/117. Rosentwig - Alien entitykiller cleans up kill.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.43
+                "canonical_artists": [
+                    "rosentwig"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Dan",
                 "title": "Time",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/118. Dan - Time.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.5
+                "canonical_artists": [
+                    "dan"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Mr P",
                 "title": "SS23-2 Alternate Version",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/119. Mr P - SS23-2 Alternate Version.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 81.5
+                "canonical_artists": [
+                    "mrp"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Tessellation Row",
                 "title": "Subsidence",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/120. Tessellation Row - Subsidence.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.0
+                "canonical_artists": [
+                    "tessellationrow"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Nornec",
                 "title": "Scornec",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/121. Nornec - Scornec.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.5
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Skitter",
                 "title": "A Sudden Cold Case",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/122. Skitter - A Sudden Cold Case.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.08
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Fjaru",
                 "title": "Something Is Afoot",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/123. Fjaru - Something is afoot.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.28
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Nootropic",
                 "title": "Truth Decay",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/124. NOOTROPIC - Truth Decay.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.51
+                "canonical_artists": [
+                    "nootropic"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Wonky Robot",
                 "title": "Sim Film Score (Feb 2023)",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/125. Wonky Robot - Sim Film Score (Feb 2023).wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.33
+                "canonical_artists": [
+                    "wonkyrobot"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Skyguide",
                 "title": "Ending Exodus",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/126. Skyguide - Ending Exodus.wav",
+                "file": "",
                 "link": "https://skyguiderecords.bandcamp.com/track/ending-exodus",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.06
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Grokker",
                 "title": "Breaking The Covenant",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/127. Grokker - Breaking the Covenant.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.59
+                "canonical_artists": [
+                    "grokker"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Firephly",
                 "title": "What Is Real",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/128. Firephly - What Is Real.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.5
+                "canonical_artists": [
+                    "firephly"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "informationcake",
                 "title": "Veiled Forest",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/129. informationcake - Veiled Forest.wav",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 87.37
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "CRXZOSDK",
                 "title": "Walk In The Forest",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/130. crxzosdk - walk in the forest.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.51
+                "canonical_artists": [
+                    "crxzosdk"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Sarah Arvizo",
                 "title": "Score",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/131. Sarah Arvizo - Score.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 117.3
+                "canonical_artists": [
+                    "saraharvizo"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Samar",
                 "title": "Ready For Unexpected",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/132. Samar - Ready for unexpected..wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.28
+                "canonical_artists": [
+                    "samar"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Err Rawr",
                 "title": "Unexpected Happenings",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/133. err Rawr - Unexpected happenings on the 23rd moon of Planet Pulsar.wav",
+                "file": "",
                 "link": "https://youtu.be/V-1itBj-6XY",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.02
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Donoru",
                 "title": "Switchup",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/134. Donoru - Switchup.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.55
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Spec7or",
                 "title": "Preceding The Apocalypse",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/135. Spec7or - Preceding the apocalypse lol.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.33
+                "canonical_artists": [
+                    "spec7or"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Mark",
                 "title": "Non-existent Song For A Non-existent Film Opus No 1",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/136. Mark - Non-Existent Song for a Non-Existent Film Opus No 1.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 93.18
+                "canonical_artists": [
+                    "mark"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Tanukid",
                 "title": "So. It Turns Out That Nothing's Ever Really \"Free\"",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/137. TanukiD - So. It turns out that nothing's ever really 'free'..wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.0
+                "canonical_artists": [
+                    "tanukid"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Devon Gates",
                 "title": "Hummer",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/138. Devon Gates - Hummer.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.0
+                "canonical_artists": [
+                    "devongates"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "Too Much Stress",
                 "title": "Father's Theme",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/139. Too much stress - Father's Theme.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.33
+                "canonical_artists": [
+                    "toomuchstress"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "Theodore Snoozevelt",
                 "title": "Here Lies Snoozevelt, He Never Scored",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/140. Theodore Snoozevelt - here lies snoozevelt, he never scored.wav",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=-c41iha6DQk",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.33
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Menhirs",
                 "title": "Washed Out Road",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/141. Menhirs - Washed Out Road.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.0
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 42,
                 "artist": "Mia Moon",
                 "title": "Memories Of The Woods",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/142. Mia Moon - Memories of the Woods.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.02
+                "canonical_artists": [
+                    "miamoon"
+                ]
             },
             {
                 "trackNo": 43,
                 "artist": "Bazebuster",
                 "title": "None",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/143. bazebuster - None.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.5
+                "canonical_artists": [
+                    "bazebuster"
+                ]
             },
             {
                 "trackNo": 44,
                 "artist": "First Sun",
                 "title": "N/A",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/144. First Sun - First Sun - BLJ_Scoring_With_Sound_Design_Final.wav",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=NWiBBd9Vt2Y",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.51
+                "canonical_artists": [
+                    "firstsun"
+                ]
             },
             {
                 "trackNo": 45,
                 "artist": "Adam Johan Bergren",
                 "title": "The Trail Runs Cold (AN LJ, PI Mystery)",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/145. Adam Johan Bergren - The Trail Runs Cold (an LJ, PI Mystery).wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.06
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 46,
                 "artist": "Broken Gravity",
                 "title": "The Lee Jordan Incident",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/146. Broken Gravity - The Lee Jordan Incident.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.33
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 47,
                 "artist": "Default Media Transmitter",
                 "title": "SimScore",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/147. Default Media Transmitter - SimScore.wav",
+                "file": "",
                 "link": "https://youtu.be/XmqJmZpEZ_Y",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.5
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 48,
                 "artist": "Frank Lumien",
                 "title": "Misunderstood",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/148. Frank Lumien - Misunderstood.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.02
+                "canonical_artists": [
+                    "franklumien"
+                ]
             },
             {
                 "trackNo": 49,
                 "artist": "Takamoon",
                 "title": "Mr. Lee In The Forest",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/149. Takamoon - Mr. Lee in the Forest.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 84.0
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 50,
                 "artist": "Gaze Boozan",
                 "title": "Unearthing The Truth",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/201. Gage Boozan - Unearthing the Truth.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 96.88
+                "canonical_artists": [
+                    "gazeboozan"
+                ]
             },
             {
                 "trackNo": 51,
                 "artist": "Lizard Milke",
                 "title": "Sibilance",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/202. lizard milke - sibilance.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.51
+                "canonical_artists": [
+                    "lizardmilke"
+                ]
             },
             {
                 "trackNo": 52,
                 "artist": "T3ter",
                 "title": "Filmscore",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/203. T3ter - T3ter - Film Score.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.0
+                "canonical_artists": [
+                    "t3ter"
+                ]
             },
             {
                 "trackNo": 53,
                 "artist": "Thecuri",
                 "title": "No Traces",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/204. thecuri - no traces.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.5
+                "canonical_artists": [
+                    "thecuri"
+                ]
             },
             {
                 "trackNo": 54,
                 "artist": "Tom Higgins",
                 "title": "Shackman 3000",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/205. Tom Higgins - Shackman 3000.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 87.0
+                "canonical_artists": [
+                    "tomhiggins"
+                ]
             },
             {
                 "trackNo": 55,
                 "artist": "Lauren Pins Channels",
                 "title": "Purrmachine Being",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/206. Lauren pins channels - PurrMachine Being.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 91.55
+                "canonical_artists": [
+                    "laurenpinschannels"
+                ]
             },
             {
                 "trackNo": 56,
                 "artist": "I,,onothem",
                 "title": "Dad-errant",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/207. \u0623\u201eonothem - Dad-errant.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.51
-            },
-            {
-                "trackNo": 208,
-                "artist": "Olessia Dupuy",
-                "title": "Promenade",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/208. Olessia Dupuy - Promenade.wav",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 85.3
-            },
-            {
-                "trackNo": 209,
-                "artist": "DARKMAJIK",
-                "title": "Spoon",
-                "file": "2023/Sim_Selections_FEBRUARY_2023/209. DARKMAJIK - Spoon.wav",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 92.6
+                "canonical_artists": [
+                    "ionothem"
+                ]
             }
         ]
     },
@@ -5080,261 +5941,313 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Amess",
                 "title": "Thirsty Five Dice and a Pocket Full of Mice",
-                "file": "2023/Sim_Selections_MARCH_2023/01. aMess - Thirsty five dice and a pocket full of mice.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 64.06
+                "canonical_artists": [
+                    "amess"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Vogel",
                 "title": "Bonus-Track",
-                "file": "2023/Sim_Selections_MARCH_2023/02. Vogel - bonus-TraCK.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.41
+                "canonical_artists": [
+                    "vogel"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Seth Monyette",
                 "title": "D1CE3",
-                "file": "2023/Sim_Selections_MARCH_2023/03. Seth Monyette - d1ce3.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.22
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Default Media Transmitter",
                 "title": "Northwest Passage",
-                "file": "2023/Sim_Selections_MARCH_2023/04. Default Media Transmitter - Northwest Passage.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/northwest-passage",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.02
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Takamoon",
                 "title": "Dig Deeper",
-                "file": "2023/Sim_Selections_MARCH_2023/05. Takamoon - Dig Deeper.flac",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.46
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Pulse Static",
                 "title": "Drugkz.Ver395[ax^2+bx+c=0 mix]",
-                "file": "2023/Sim_Selections_MARCH_2023/06. Pulse-Static - Drugkz.ver395[ax^2+bx+c=0 mix].mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 211.33
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "err:rawr",
                 "title": "Video Today",
-                "file": "2023/Sim_Selections_MARCH_2023/07. err Rawr - Video today.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.46
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Menhirs",
                 "title": "Fall Where They May",
-                "file": "2023/Sim_Selections_MARCH_2023/08. Menhirs - Fall Where They May.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.01
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Blipfactory",
                 "title": "Fast Approach",
-                "file": "2023/Sim_Selections_MARCH_2023/09. Blipfactory - Fast Approach.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.82
+                "canonical_artists": [
+                    "blipfactory"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Josef HF K(ErikJMS)",
                 "title": "Thousand Year Drought",
-                "file": "2023/Sim_Selections_MARCH_2023/10. josef hf k (erikjms) - thousand year drought.flac",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 280.58
+                "canonical_artists": [
+                    "josefhfkerikjms"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Broken Gravity",
                 "title": "Free At Last",
-                "file": "2023/Sim_Selections_MARCH_2023/11. Broken Gravity - Free at last.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.55
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Fulhjort",
                 "title": "Don't Daaaaaance To This",
-                "file": "2023/Sim_Selections_MARCH_2023/12. fulhjort - Don't daaaaaance to this.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.38
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Jungle Pickle",
                 "title": "Get Me Another",
-                "file": "2023/Sim_Selections_MARCH_2023/13. jungle pickle - get me another.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/get-me-another?si=97b2bc06fe9643bfaa7ac7cd76482b27&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.96
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Mia Moon",
                 "title": "In The Tunnels",
-                "file": "2023/Sim_Selections_MARCH_2023/14. Mia Moon - In the Tunnels.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.0
+                "canonical_artists": [
+                    "miamoon"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "informationcake",
                 "title": "In The End",
-                "file": "2023/Sim_Selections_MARCH_2023/15. informationcake - In The End.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/in-the-end",
-                "optIn": true,
-                "canPlay": true,
-                "length": 211.65
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Ponyart",
                 "title": "iPad22 1 V2",
-                "file": "2023/Sim_Selections_MARCH_2023/16. PonyArt - ipad22 1 v2.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 338.08
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Computrhead",
                 "title": "Liquid Acid - Brendan Ballerini",
-                "file": "2023/Sim_Selections_MARCH_2023/17. Brendan Ballerini - Liquid Acid.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 330.6
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Zero Lucks Given",
                 "title": "March: The Inexorable Rhythm of Spring Flowers",
-                "file": "2023/Sim_Selections_MARCH_2023/18. Zero Lucks Given - March The Inexorable Rhythm of Spring Flowers.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/march-the-inexorable-rhythm-of-spring-flowers",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.02
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Kiwillian",
                 "title": "Mirepoix",
-                "file": "2023/Sim_Selections_MARCH_2023/19. Kiwillian - Mirepoix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.9
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Thomass",
                 "title": "Once Before - Tom Morton",
-                "file": "2023/Sim_Selections_MARCH_2023/20. ThomasS - Once Before.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.02
+                "canonical_artists": [
+                    "thomass"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Adam Johan Bergren",
                 "title": "Preference Mod Matrix",
-                "file": "2023/Sim_Selections_MARCH_2023/21. Adam Johan Bergren - Preference Mod Matrix.wav",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/preference-mod-matrix",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.81
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Nornec",
                 "title": "Vega Libre: Rebuild",
-                "file": "2023/Sim_Selections_MARCH_2023/22. Nornec - Vega Libre Rebuild.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 331.27
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Stu M",
                 "title": "Broken Silence",
-                "file": "2023/Sim_Selections_MARCH_2023/23. Stu M - Broken Silence.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/broken-silence?si=49e0b9cadfd449ebb566f537c4466456&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.0
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Coolout Coexist",
                 "title": "The Overpowering Urge To Drink",
-                "file": "2023/Sim_Selections_MARCH_2023/24. Coolout Coexist - The overpowering Urge to Drink.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-877170727/the-overpowering-urge-to-drink",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.02
+                "canonical_artists": [
+                    "cooloutcoexist"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Grokker",
                 "title": "Too Too Abstract With Much Disrespect",
-                "file": "2023/Sim_Selections_MARCH_2023/25. Grokker - too too abstract with much disrespect.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 105.04
+                "canonical_artists": [
+                    "grokker"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Fractalint",
                 "title": "Westnorth",
-                "file": "2023/Sim_Selections_MARCH_2023/26. Fractalint - Westnorth.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/westnorth",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.84
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 27,
@@ -5343,7 +6256,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/3p_iJWIYJiU",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "skyguide"
+                ]
             }
         ]
     },
@@ -5364,231 +6280,277 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "aMess",
                 "title": "I Spilled Ponzu Sauce On My Nokia",
-                "file": "2023/Sim_Selections_APRIL_2023/01. aMess - I spilled ponzu sauce on my nokia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 66.54
+                "canonical_artists": [
+                    "amess"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Jungle Pickle",
                 "title": "Big Man",
-                "file": "2023/Sim_Selections_APRIL_2023/02. jungle pickle - big man.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/big-man?si=6aa7e5a687ed4ccca8bdc57499687609&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.78
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Fractalint",
                 "title": "Blue Sky",
-                "file": "2023/Sim_Selections_APRIL_2023/03. Fractalint - Blue Sky.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/blue-sky",
                 "optIn": false,
                 "canPlay": false,
-                "length": 233.28
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Default Media Transmitter",
                 "title": "End Of Signal",
-                "file": "2023/Sim_Selections_APRIL_2023/04. Default Media Transmitter - End of Signal.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/end-of-signal",
                 "optIn": false,
                 "canPlay": false,
-                "length": 284.47
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "DRMR",
                 "title": "Trilling",
-                "file": "2023/Sim_Selections_APRIL_2023/05. DRMR - Trilling.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/d-r-m-r/trilling",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.1
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Broken Gravity",
                 "title": "Echoes Of Home",
-                "file": "2023/Sim_Selections_APRIL_2023/06. Broken Gravity - Echoes of Home.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=wvR0rk8Lmz0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.54
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Err: Rawr",
                 "title": "Hollow",
-                "file": "2023/Sim_Selections_APRIL_2023/07. err Rawr - Hollow.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/err_rawr/hollow?si=e29c6c6adb634ec5a56c65dd9011a4b9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.57
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Aplut",
                 "title": "Fabulist",
-                "file": "2023/Sim_Selections_APRIL_2023/08. Aplut - Fabulist.flac",
+                "file": "",
                 "link": "https://soundcloud.com/aplutofficial/fabulist",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.55
+                "canonical_artists": [
+                    "aplut"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Fjaru",
                 "title": "Defunct",
-                "file": "2023/Sim_Selections_APRIL_2023/09. Fjaru - Defunct.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fjaru/defunct",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.29
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Fulhjort",
                 "title": "We're Almost Out Of Oranges",
-                "file": "2023/Sim_Selections_APRIL_2023/10. fulhjort - we're almost out of oranges.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/hjorten/were-almost-out-of-oranges",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.6
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Kiwillian",
                 "title": "Last Stand",
-                "file": "2023/Sim_Selections_APRIL_2023/11. Kiwillian - Last Stand.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.85
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Seth Monyette",
                 "title": "Need",
-                "file": "2023/Sim_Selections_APRIL_2023/12. Seth Monyette - Need.wav.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.0
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Adam Johan Bergren",
                 "title": "No Quarters",
-                "file": "2023/Sim_Selections_APRIL_2023/13. Adam Johan Bergren - No Quarters.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/no-quarters",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.72
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Zero Lucks Given",
                 "title": "Olde Roland To The Dark Tower Returned",
-                "file": "2023/Sim_Selections_APRIL_2023/14. Zero Lucks Given - Olde Roland to the Dark Tower Returned.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/olde-roland-to-the-dark-tower-returned",
                 "optIn": false,
                 "canPlay": false,
-                "length": 355.03
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Protocol",
                 "title": "Observer",
-                "file": "2023/Sim_Selections_APRIL_2023/15. Protocol - Observer.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.81
+                "canonical_artists": [
+                    "protocol"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Viiri",
                 "title": "just some metadata?",
-                "file": "2023/Sim_Selections_APRIL_2023/16. Viiri - Untitled.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 384.91
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Takamoon",
                 "title": "Sabretooth Soldier",
-                "file": "2023/Sim_Selections_APRIL_2023/17. Takamoon - Sabretooth Soldier.flac",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.0
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Skyguide",
                 "title": "Sloe Gin Horse",
-                "file": "2023/Sim_Selections_APRIL_2023/18. Skyguide - Sloe Gin Horse.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 211.66
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Blipfactory",
                 "title": "Standoff Above Ceres",
-                "file": "2023/Sim_Selections_APRIL_2023/19. Blipfactory - Standoff Above Ceres.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.46
+                "canonical_artists": [
+                    "blipfactory"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Stu M",
                 "title": "Blue Mantra (Dslv Mix)",
-                "file": "2023/Sim_Selections_APRIL_2023/20. Stu M - Blue Mantra (DSLV Mix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.11
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Computrhead",
                 "title": "The Last Disease",
-                "file": "2023/Sim_Selections_APRIL_2023/21. Computrhead - The Last Disease.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.36
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Edwin",
                 "title": "Tower Of Hollow And Ring Mod",
-                "file": "2023/Sim_Selections_APRIL_2023/22. Edwin - Tower Of Hollow and Ring Mod.flac",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=ywxlFSrBSAk",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.01
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Ponyart",
                 "title": "Voices",
-                "file": "2023/Sim_Selections_APRIL_2023/23. PonyArt - Voices.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.06
+                "canonical_artists": [
+                    "ponyart"
+                ]
             }
         ]
     },
@@ -5609,91 +6571,109 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Virus_Protocol",
                 "title": "Among The Canopy Of Broken Automata",
-                "file": "2023/Sim_Selections_MAY_2023/01. virus_protocol - Among The Canopy Of Broken Automata.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.76
+                "canonical_artists": [
+                    "virusprotocol"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "AMESS",
                 "title": "Oatmeal Is Royalty (The Musical)",
-                "file": "2023/Sim_Selections_MAY_2023/02. aMess - Oatmeal is royalty (The musical).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 112.56
+                "canonical_artists": [
+                    "amess"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Seth Monyette",
                 "title": "Among The Canopy",
-                "file": "2023/Sim_Selections_MAY_2023/03. Seth Monyette - Among the Canopy.wav.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 128.32
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Fractalint",
                 "title": "Ant Talk",
-                "file": "2023/Sim_Selections_MAY_2023/04. Fractalint - Ant Talk.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/ant-talk",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.89
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "BlipFactory",
                 "title": "ATC Prologue",
-                "file": "2023/Sim_Selections_MAY_2023/05. Blipfactory - AtC Prologue.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.69
+                "canonical_artists": [
+                    "blipfactory"
+                ]
             },
             {
                 "trackNo": 6,
-                "artist": "Defaut Media Transmitter",
+                "artist": "Default Media Transmitter",
                 "title": "Pine Cone Anthem",
-                "file": "2023/Sim_Selections_MAY_2023/06. Default Media Transmitter - Pine Cone Anthem.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/pine-cone-anthem",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.03
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Err: Rawr",
                 "title": "Rising",
-                "file": "2023/Sim_Selections_MAY_2023/07. err Rawr - Rising.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.72
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Kiwillian",
                 "title": "Forest For Trees",
-                "file": "2023/Sim_Selections_MAY_2023/08. Kiwillian - Forest for Trees.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.71
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Fulhjort",
                 "title": "This One Time Before A \"Nerd\" Convention",
-                "file": "2023/Sim_Selections_MAY_2023/09. fulhjort - This one time before a nerd convention.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 98.22
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 10,
@@ -5702,187 +6682,216 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "VIIRI",
                 "title": "I Think I'm Being Watched",
-                "file": "2023/Sim_Selections_MAY_2023/10. Viiri - I Think I'm Being Watched.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 530.65
+                "canonical_artists": [
+                    "viiri"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "informationcake",
                 "title": "A Distant Place To Rest",
-                "file": "2023/Sim_Selections_MAY_2023/11. informationcake - A Distant Place To Rest.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/a-distant-place-to-rest",
-                "optIn": true,
-                "canPlay": true,
-                "length": 370.0
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Adam Johan Bergren",
                 "title": "King Hypha's Ascention",
-                "file": "2023/Sim_Selections_MAY_2023/12. Adam Johan Bergren - King Hypha's Ascention.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/king-hyphas-ascension",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.36
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Unthank",
                 "title": "Machrie",
-                "file": "2023/Sim_Selections_MAY_2023/13. Unthank - Machrie.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.51
+                "canonical_artists": [
+                    "unthank"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Skyguide",
                 "title": "Meridian",
-                "file": "2023/Sim_Selections_MAY_2023/14. Skyguide - Meridian.wav",
+                "file": "",
                 "link": "https://distrokid.com/hyperfollow/skyguide/meridian",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.35
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Myrrys",
                 "title": "Great! ...But You Missed 23 Boxes",
-                "file": "2023/Sim_Selections_MAY_2023/15. Myrrys - Great! ...But You Missed 23 Boxes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.01
+                "canonical_artists": [
+                    "myrrys"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "NGC3019",
                 "title": "Return To Stardust",
-                "file": "2023/Sim_Selections_MAY_2023/16. NGC 3019 - Return to Stardust.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.0
-            },
-            {
-                "trackNo": 18,
-                "artist": "Kevhuman",
-                "title": "Not Their King",
-                "file": "2023/Sim_Selections_MAY_2023/18. Kevhuman - Not Their King.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 289.05
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Nornec",
                 "title": "Apex",
-                "file": "2023/Sim_Selections_MAY_2023/17. Nornec - Apex.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.21
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Giungla Sottaceto (jungle pickle)",
                 "title": "Phantom Of The Bakery",
-                "file": "2023/Sim_Selections_MAY_2023/19. giungla sottaceto - phantom of the bakery.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/phantom-of-the-bakery?si=8996ad2654ad4ec5aefdec1590a95fc3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.1
+                "canonical_artists": [
+                    "giunglasottaceto",
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Poetry In Noise",
                 "title": "Old Growth",
-                "file": "2023/Sim_Selections_MAY_2023/20. Poetry in Noise - Old Growth.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/6wE6i",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.17
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Ponyart",
                 "title": "Conform",
-                "file": "2023/Sim_Selections_MAY_2023/21. PonyArt - Conform.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 375.49
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Silence (jungle pickle)",
                 "title": "Silence",
-                "file": "2023/Sim_Selections_MAY_2023/22. SILENCE - SILENCE.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/silence?si=58cbf9c6200143e4b7b37ef6c7d5c2a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.32
+                "canonical_artists": [
+                    "silence",
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Coolout Coexist",
                 "title": "Sparkle On A Dewy Morning",
-                "file": "2023/Sim_Selections_MAY_2023/23. Coolout Coexist - Sparkle on a dewy morning.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-877170727/sparkle-on-a-dewy-morning",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.21
+                "canonical_artists": [
+                    "cooloutcoexist"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Stu M",
                 "title": "Rojas",
-                "file": "2023/Sim_Selections_MAY_2023/24. Stu M - Rojas.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/stumcgregor/rojas?si=cf155ec3fac04173abbe96858a025f13&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.48
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Edwin",
                 "title": "Such Canopies Are",
-                "file": "2023/Sim_Selections_MAY_2023/25. Edwin - Such Canopies Are.flac",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.81
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Broken Gravity",
                 "title": "Sunbeams Through The Canopy",
-                "file": "2023/Sim_Selections_MAY_2023/26. Broken Gravity - Sunbeams Through The Canopy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.16
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Zero Lucks Given",
                 "title": "The Overstory",
-                "file": "2023/Sim_Selections_MAY_2023/27. Zero Lucks Given - The Overstory.flac",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-overstory",
                 "optIn": false,
                 "canPlay": false,
-                "length": 277.0
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             }
         ]
     },
@@ -5903,211 +6912,242 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Computerhead",
                 "title": "Sodium Chloride",
-                "file": "2023/Sim_Selections_JUNE_2023/03. Computrhead  - Sodium Chloride.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.73
+                "canonical_artists": [
+                    "computerhead"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Default Media Transmitter",
                 "title": "Illicit Oval Vents",
-                "file": "2023/Sim_Selections_JUNE_2023/04. Default Media Transmitter - Illicit Oval Vents.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/illicit-oval-vents",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.76
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Adam Johan Bergren",
                 "title": "People Are Programmable",
-                "file": "2023/Sim_Selections_JUNE_2023/10. Adam Johan Bergren - People Are Programmable.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/people-are-programmable",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.94
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Poetry In Noise",
                 "title": "Intrusive Thoughts (Be Salty)",
-                "file": "2023/Sim_Selections_JUNE_2023/12. Poetry in Noise - Intrusive Thoughts (Be Salty).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/hedbut/intrusive-thoughts-be-salty/s-3oLJ2ggOvI4?si=4206b01303f94569b90b559ec3bccade&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.54
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Broken Anti-Gravity",
                 "title": "Sodium & Gomorrah",
-                "file": "2023/Sim_Selections_JUNE_2023/16. Broken Anti-Gravity - Sodium and Gomorrah.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 111.36
+                "canonical_artists": [
+                    "brokenantigravity"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Grbt",
                 "title": "Anxiety",
-                "file": "2023/Sim_Selections_JUNE_2023/17. grbt - Anxiety.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.05
+                "canonical_artists": [
+                    "grbt"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Mia Moon",
                 "title": "The Lighthouse",
-                "file": "2023/Sim_Selections_JUNE_2023/19. Mia Moon - The Lighthouse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.22
+                "canonical_artists": [
+                    "miamoon"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Kiwillian",
                 "title": "Broken Glass",
-                "file": "2023/Sim_Selections_JUNE_2023/01. Kiwillian - Broken Glass.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.05
-            },
-            {
-                "trackNo": 8,
-                "artist": "Unknown Artist",
-                "title": "08. - Na+Cl2",
-                "file": "2023/Sim_Selections_JUNE_2023/08. - Na+Cl2.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 157.31
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Skyguide",
                 "title": "Chat-gpt-bowie-type-beat",
-                "file": "2023/Sim_Selections_JUNE_2023/02. Skyguide - chat-gpt-bowie-type-beat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.41
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Fjaru",
                 "title": "Spec Orks",
-                "file": "2023/Sim_Selections_JUNE_2023/05. Fjaru - Spec Orks.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fjaru/spec-orks",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.63
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Edwin",
                 "title": "Gulls At The Shore",
-                "file": "2023/Sim_Selections_JUNE_2023/06. Edwin - Gulls at the Shore.flac",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=ln56a-jy1E4",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.0
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Fractalint",
                 "title": "lb Salt",
-                "file": "2023/Sim_Selections_JUNE_2023/07. Fractalint - lb salt.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/lb-salt",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.12
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Popbot",
                 "title": "Pantagonal Somthing",
-                "file": "2023/Sim_Selections_JUNE_2023/09. Popbot - Pantagonal Something.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.62
+                "canonical_artists": [
+                    "popbot"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Nornec",
                 "title": "Salt",
-                "file": "2023/Sim_Selections_JUNE_2023/11. Nornec - Salt.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.57
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Dschungelgurke (jungle pickle)",
                 "title": "Polite And Angry",
-                "file": "2023/Sim_Selections_JUNE_2023/13. dschungelgurke - polite and angry.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/polite-and-angry?si=dbd8aedd22ce441a987c98d175a974ba&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.96
+                "canonical_artists": [
+                    "dschungelgurke",
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Blip Factory",
                 "title": "Questions Of Salt",
-                "file": "2023/Sim_Selections_JUNE_2023/14. Blipfactory - Questions of Salt.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.07
+                "canonical_artists": [
+                    "blipfactory"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Sir Fancy",
                 "title": "Rebellion Of The Brine",
-                "file": "2023/Sim_Selections_JUNE_2023/15. Sir Fancy - Rebellion of the Brine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.56
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Stu M",
                 "title": "Surfaces",
-                "file": "2023/Sim_Selections_JUNE_2023/18. Stu M - Surfaces.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.42
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Seth Monyette",
                 "title": "Voicelog 4 hd258792 d",
-                "file": "2023/Sim_Selections_JUNE_2023/20. Seth Monyette - Voicelog 4 - HD 258792 d.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.57
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "informationcake",
                 "title": "Aurora Simulation",
-                "file": "2023/Sim_Selections_JUNE_2023/informationcake - Aurora Simulation.mov",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 285.68
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             }
         ]
     },
@@ -6128,201 +7168,241 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Seth Monyette",
                 "title": "Centrosome",
-                "file": "2023/Sim_Selections_JULY_2023/01. Seth Monyette - Centrosome.wav.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.38
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Default Media Transmitter",
                 "title": "Analog Melt",
-                "file": "2023/Sim_Selections_JULY_2023/02. Default Media Transmitter - Analog Melt.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/analog-melt",
                 "optIn": false,
                 "canPlay": false,
-                "length": 277.03
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Pony Art",
                 "title": "Don't Be Lazy",
-                "file": "2023/Sim_Selections_JULY_2023/03. PonyArt - Don't Be Lazy (UnfinishedWIP).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.77
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "DRMR",
                 "title": "Down By The Water",
-                "file": "2023/Sim_Selections_JULY_2023/04. DRMR - Down By The Water.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.62
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Skyguide",
                 "title": "Fog Bank",
-                "file": "2023/Sim_Selections_JULY_2023/05. Skyguide - Fogbank.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.0
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Fulhjort",
                 "title": "Theme For Al And Greta",
-                "file": "2023/Sim_Selections_JULY_2023/06. fulhjort - Theme For Al and Greta.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.89
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Funk Machine",
-                "file": "2023/Sim_Selections_JULY_2023/07. Amadeus B. Snivelitch - Funk Machine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.66
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Fwlty",
                 "title": "Ice Cube Root",
-                "file": "2023/Sim_Selections_JULY_2023/08. FWLTY - Ice Cube Root.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 110.79
+                "canonical_artists": [
+                    "fwlty"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Mup / Muurmon",
                 "title": "Too Short",
-                "file": "2023/Sim_Selections_JULY_2023/09. \u00e6\u0081p  muurmon - Too Short.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.86
+                "canonical_artists": [
+                    "mupmuurmon"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Nornec",
                 "title": "Terminal",
-                "file": "2023/Sim_Selections_JULY_2023/10. Nornec - Terminal.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.09
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "informationcake",
                 "title": "Death By Supernova",
-                "file": "2023/Sim_Selections_JULY_2023/11. informationcake - Death By Supernova.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/album/death-by-supernova",
-                "optIn": true,
-                "canPlay": true,
-                "length": 376.01
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Kiwillian",
                 "title": "Ice-cream In Havana",
-                "file": "2023/Sim_Selections_JULY_2023/12. Kiwillian - Ice-cream in Havana.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.35
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Edwin",
                 "title": "Nousejam",
-                "file": "2023/Sim_Selections_JULY_2023/13. Edwin - Nousejam.flac",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.11
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Adam Johan Bergren",
                 "title": "Oxidane",
-                "file": "2023/Sim_Selections_JULY_2023/14. Adam Johan Bergren - Oxidane.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/oxidane",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.44
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Sir Fancy",
                 "title": "Polyartic Corruption",
-                "file": "2023/Sim_Selections_JULY_2023/15. Sir Fancy - Polyarctic Corruption.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.01
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Broken Gravity",
                 "title": "Saved By The Rain",
-                "file": "2023/Sim_Selections_JULY_2023/16. Broken Gravity - Saved By The Rain.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.36
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Thomas And The Evil Computer",
                 "title": "Spank It Like It's Hot",
-                "file": "2023/Sim_Selections_JULY_2023/17. Thomas and the Evil Computer - Spank it like it's hot.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/kQzwE",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.03
+                "canonical_artists": [
+                    "thomasandtheevilcomputer"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Stu M",
                 "title": "Utah Wind",
-                "file": "2023/Sim_Selections_JULY_2023/18. Stu M - Utah Wind.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.28
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Theodore Snoozevelt",
                 "title": "Vierzig Grad Und Zwei Promille",
-                "file": "2023/Sim_Selections_JULY_2023/19. theodore snoozevelt - vierzig grad und zwei promille.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/vierzig-grad-und-zwei-promille",
                 "optIn": false,
                 "canPlay": false,
-                "length": 107.05
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Zero Lucks Given",
                 "title": "And Hell Followed With Me",
-                "file": "2023/Sim_Selections_JULY_2023/20. Zero Lucks Given - And Hell Followed With Me.flac",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/and-hell-followed-with-me",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.0
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 21,
@@ -6331,17 +7411,22 @@ export const playlistData = [
                 "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/nonsense?si=dd9f1e797201425093659b938180729b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Poetry In Noise",
                 "title": "The Psychoacoustic Effects Of Solid State DHMO",
-                "file": "2023/Sim_Selections_JULY_2023/22. Poetry In Noise - The Psychoacoustic Effects of Solid State DHMO.mp4",
+                "file": "",
                 "link": "https://on.soundcloud.com/BK2K1",
                 "optIn": false,
                 "canPlay": false,
-                "length": 263.29
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             }
         ]
     },
@@ -6362,241 +7447,278 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Valeph_{0}",
                 "title": "Mouth_Perc",
-                "file": "2023/Sim_Selections_AUGUST_2023/aleph_{0} - mouth_perc .wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 108.47
+                "canonical_artists": [
+                    "valeph0"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Seth Monyette",
                 "title": "XYLEM",
-                "file": "2023/Sim_Selections_AUGUST_2023/01. Seth Monyette - Xylem.wav.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.0
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Broken Gravity",
                 "title": "The Blade Enigma",
-                "file": "2023/Sim_Selections_AUGUST_2023/02. Broken Gravity - The Blade Enigma.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.13
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Ponyart",
                 "title": "Snares From Tomorrow (WIP)",
-                "file": "2023/Sim_Selections_AUGUST_2023/03. PonyArt - Snares From Tomorrow (WIP).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 489.67
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Sir Fancy",
                 "title": "The Mission",
-                "file": "2023/Sim_Selections_AUGUST_2023/04. Sir Fancy - The Mission.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.54
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Still Searching",
-                "file": "2023/Sim_Selections_AUGUST_2023/05. Amadeus B. Snivelitch - Still Searching.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.62
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Lake Machine",
                 "title": "Spy Farts",
-                "file": "2023/Sim_Selections_AUGUST_2023/06. Lake Machine - Spy Farts.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 161.15
+                "canonical_artists": [
+                    "lakemachine"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Stoic",
                 "title": "Deep Below",
-                "file": "2023/Sim_Selections_AUGUST_2023/07. Stoic - Deep Below.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.89
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": ">Virus_Protocol",
                 "title": "Nothing Good Happens Afer 2AM",
-                "file": "2023/Sim_Selections_AUGUST_2023/08. virus_protocol - Nothing Good Happens After 2AM.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.02
-            },
-            {
-                "trackNo": 10,
-                "artist": "Muggi B",
-                "title": "Breaks From Thieves",
-                "file": "2023/Sim_Selections_AUGUST_2023/10. Muggi B - Breaks From Thieves.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 155.72
+                "canonical_artists": [
+                    "virusprotocol"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "One Track Mind",
                 "title": "Nostalgia (Clues)",
-                "file": "2023/Sim_Selections_AUGUST_2023/09. One Track Mind - Nostalgia (Clues).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.71
+                "canonical_artists": [
+                    "onetrackmind"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "MC Kevhuman",
                 "title": "Meat Thief",
-                "file": "2023/Sim_Selections_AUGUST_2023/12. MC Kevhuman - Meat Thief.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.98
+                "canonical_artists": [
+                    "mckevhuman"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Menhirs",
                 "title": "Life In Lines",
-                "file": "2023/Sim_Selections_AUGUST_2023/13. Menhirs - Life in Lines.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.58
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Skyguide",
                 "title": "Kitchen Type Beat",
-                "file": "2023/Sim_Selections_AUGUST_2023/14. Skyguide - Kitchen Type Beat.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.0
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "informationcake",
                 "title": "Hard Light",
-                "file": "2023/Sim_Selections_AUGUST_2023/15. informationcake - Hard Light.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/hard-light",
-                "optIn": true,
-                "canPlay": true,
-                "length": 331.68
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Fjaru",
                 "title": "Grit",
-                "file": "2023/Sim_Selections_AUGUST_2023/16. Fjaru - Grit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 132.05
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Fulhjort",
                 "title": "Nern (Apparently Abstience Is Cool)",
-                "file": "2023/Sim_Selections_AUGUST_2023/17. fulhjort - Nern (Apparently abstinence is cool).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.03
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Pulse-Static",
                 "title": "Dithered Fields",
-                "file": "2023/Sim_Selections_AUGUST_2023/18. Pulse-Static - Dithered Fields.flac",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.41
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Adam Johan Bergren",
                 "title": "Corn and Potatoes",
-                "file": "2023/Sim_Selections_AUGUST_2023/19. Adam Johan Bergren - Corn and Potatoes.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/corn-and-potatoes",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.26
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Kiwillian",
                 "title": "Control Your Destiny",
-                "file": "2023/Sim_Selections_AUGUST_2023/20. Kiwillian - Control Your Destiny.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 157.06
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Heavy Listening & Fractalint",
                 "title": "All Summer in a Day",
-                "file": "2023/Sim_Selections_AUGUST_2023/21. Fractalint & Heavy Listening - All Summer in a Day.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/all-summer-in-a-day",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.0
+                "canonical_artists": [
+                    "heavylistening",
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Nornec",
                 "title": "PSA",
-                "file": "2023/Sim_Selections_AUGUST_2023/22. Nornec - PSA.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.0
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "NGC3019",
                 "title": "Mooncat Whiskers",
-                "file": "2023/Sim_Selections_AUGUST_2023/23. NGC 3019 - Mooncat Whiskers.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.11
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Poetry In Noise",
                 "title": "(We Got That) Mystery Meat",
-                "file": "2023/Sim_Selections_AUGUST_2023/24. Poetry in Noise - (We Got That) Mystery Meat.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/fE4zc",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.89
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 24,
@@ -6605,7 +7727,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/the-good-stuff?si=170012816511401c8a054e843684daf6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -6626,231 +7751,278 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Poetry In Noise",
                 "title": "Tarot Guided Phase & Drone",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/01. Poetry in Noise - Tarot Guided Phase & Drone.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/1bYRm",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.02
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Empiricism",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/02. Adam Johan Bergren - Empiricism.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/empiricism",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.43
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Krovvythered",
                 "title": "One Ear Tied Behind My Back",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/03. KrovvyTheRed - One Ear Tied Behind My Back.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.28
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Kiwillian",
                 "title": "Feef",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/04. Kiwillian - Feef.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.67
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Menhirs",
                 "title": "Cave Walls",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/05. Menhirs - Cave Walls.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 109.79
+                "canonical_artists": [
+                    "menhirs"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Ponyart",
                 "title": "The End",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/06. PonyArt - THE END (cut down for sim-selections).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 401.14
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Amadeus B Snivelitch",
                 "title": "Driveway Struggles",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/07. Amadeus B Snivelitch - Driveway Struggles.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 242.57
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Seth Monyette",
                 "title": "Face It",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/08. Seth Monyette - Face it.wav.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.0
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Computrhead",
                 "title": "Raccoon",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/09. Computrhead  - Raccoon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.78
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Udonkhatola",
                 "title": "Here Is Nothing",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/10. udonkhatola - Here is Nothing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.03
+                "canonical_artists": [
+                    "udonkhatola"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Nornec",
                 "title": "Of Machines",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/11. Nornec - Of Machines.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.33
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Grokker",
                 "title": "Beef Oven",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/12. grokker - Beef Oven.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.72
+                "canonical_artists": [
+                    "grokker"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Anonymoose",
                 "title": "Di Cat Geri Doo",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/13. Anonymoose - Di Cat Geri Doo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.02
+                "canonical_artists": [
+                    "anonymoose"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Broken Gravity",
                 "title": "Pixel Runner",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/14. Broken Gravity - Pixel Runner.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.2
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Stu M",
                 "title": "12 Hours",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/15. Stu M - 12 Hours.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.51
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Fulhjort",
                 "title": "SLNTL MKNG 8BT MSC",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/16. fulhjort - Slntl mkng 8bt msc.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 77.48
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Fjaru & informationcake",
                 "title": "Honour",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/17. Fjaru & informationcake - Honour.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.25
+                "canonical_artists": [
+                    "fjaru",
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "One Track Mind",
                 "title": "Calling Card",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/18. One Track Mind - Calling Card.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.04
+                "canonical_artists": [
+                    "onetrackmind"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Zero Lucks Given",
                 "title": "Poro Roggo's Dance",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/19. Zero Lucks Given - Poro Roggo's Dance.flac",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/poro-roggos-dance",
                 "optIn": false,
                 "canPlay": false,
-                "length": 369.12
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "DRMR",
                 "title": "Digital Currents",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/20. DRMR - Digital Currents.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.1
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Mikey303",
                 "title": "Party Foul",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/21. -.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.97
+                "canonical_artists": [
+                    "mikey303"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Skyguide",
                 "title": "Rythm.ic",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/22. Skyguide - Rythm.ic.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 36.57
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Fool Mala",
                 "title": "Cortical Midline Failure",
-                "file": "2023/Sim_Selections_SEPTEMBER_2023/23. Fool Mala - Cortical Midline Failure.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.0
+                "canonical_artists": [
+                    "foolmala"
+                ]
             },
             {
                 "trackNo": 24,
@@ -6859,7 +8031,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/ai-robber?si=ab21efe784404149960d2b6fbfa20661&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -6880,271 +8055,329 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Default Media Transmitter",
                 "title": "Void Maneuver",
-                "file": "2023/Sim_Selections_OCTOBER_2023/01. Default Media Transmitter - Void Maneuver.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.18
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "vetra miga",
                 "title": "sugar glass",
-                "file": "2023/Sim_Selections_OCTOBER_2023/02. vetramiga - sugarglass.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=2x1l8Gnzk6I",
                 "optIn": false,
                 "canPlay": false,
-                "length": 127.03
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Edwin",
                 "title": "Something outside my window oh it's just winter",
-                "file": "2023/Sim_Selections_OCTOBER_2023/03. Edwin - something outside my window oh its just winter.flac",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=ZmO8LwmsBIw",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.3
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Seth Monyette",
                 "title": "Silk",
-                "file": "2023/Sim_Selections_OCTOBER_2023/04. Seth Monyette - Silk.mp3.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.85
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Zero Lucks Given",
                 "title": "Shudderbug",
-                "file": "2023/Sim_Selections_OCTOBER_2023/05. Zero Lucks Given - Shudderbug.flac",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/shudderbug",
                 "optIn": false,
                 "canPlay": false,
-                "length": 233.78
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Meganeura and Nornec",
                 "title": "Rule Of Two",
-                "file": "2023/Sim_Selections_OCTOBER_2023/06. Meganeura and Nornec - Rule of Two.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 280.2
+                "canonical_artists": [
+                    "meganeura",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Fractalint",
                 "title": "Reflect-indirect",
-                "file": "2023/Sim_Selections_OCTOBER_2023/07. Fractalint - reflect-indirect.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/reflect-indirect",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.92
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Krovvythered",
                 "title": "Point 5 MK IV",
-                "file": "2023/Sim_Selections_OCTOBER_2023/08. KrovvyTheRed - Point 5 Mk IV.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.57
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Kiwillian",
                 "title": "Physical Pane",
-                "file": "2023/Sim_Selections_OCTOBER_2023/09. Kiwillian - Physical Pane.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=6xP7HmWUa2k",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.73
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Heavy Listening with DMT",
                 "title": "No Midis were harmed in this 5 hour window",
-                "file": "2023/Sim_Selections_OCTOBER_2023/10. Heavy Listening with DMT - No MIDIs were harmed in this 5 hour window.mp3",
+                "file": "",
                 "link": "https://heavylistening.substack.com/p/october-no-midis-were-harmed-in-this",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.6
+                "canonical_artists": [
+                    "heavylistening",
+                    "dmt"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Mikey303",
                 "title": "My Dog Threw Up",
-                "file": "2023/Sim_Selections_OCTOBER_2023/11. mikey303 - my dog threw up.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.61
+                "canonical_artists": [
+                    "mikey303"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Fulhjort",
                 "title": "Meowdwamatick Meowment",
-                "file": "2023/Sim_Selections_OCTOBER_2023/12. fulhjort - Meowdwamatick Meowment.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.18
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Ponyart",
                 "title": "LP2 - track 5",
-                "file": "2023/Sim_Selections_OCTOBER_2023/13. PonyArt - LP2 - Track 5.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 348.06
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Paco",
                 "title": "Look! Outside The Window!",
-                "file": "2023/Sim_Selections_OCTOBER_2023/14. paco - look! outside the window!.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 131.87
+                "canonical_artists": [
+                    "paco"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Abstract Justice Board",
                 "title": "Limited Integrals",
-                "file": "2023/Sim_Selections_OCTOBER_2023/15. Abstract Justice Board - Limited Integrals.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/limited-integrals",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.32
+                "canonical_artists": [
+                    "abstractjusticeboard"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Stu M",
                 "title": "Kisetsu",
-                "file": "2023/Sim_Selections_OCTOBER_2023/16. Stu M - Kisetsu.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.47
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Adam Johan Bergren",
                 "title": "Infinite Derivatives",
-                "file": "2023/Sim_Selections_OCTOBER_2023/17. Adam Johan Bergren - Infinite Derivatives.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/infinite-derivatives",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.18
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Skyguide",
                 "title": "Greased Ham",
-                "file": "2023/Sim_Selections_OCTOBER_2023/18. Skyguide - Greased Ham.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 70.16
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Broken Information",
                 "title": "Gravity Cake",
-                "file": "2023/Sim_Selections_OCTOBER_2023/19. Broken Information - Gravity Cake.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 313.66
+                "canonical_artists": [
+                    "brokeninformation"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Alderach",
                 "title": "Everyday Eulogy",
-                "file": "2023/Sim_Selections_OCTOBER_2023/20. Alderach - Everyday Eulogy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.38
+                "canonical_artists": [
+                    "alderach"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "No Owls",
                 "title": "Dejected Reflections",
-                "file": "2023/Sim_Selections_OCTOBER_2023/21. No Owls - Dejected Reflections.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/T27As",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.49
+                "canonical_artists": [
+                    "noowls"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Kiwillian & Jungle Pickle",
                 "title": "Dear Susan",
-                "file": "2023/Sim_Selections_OCTOBER_2023/22. Kiwillian x jungle pickle - Dear Susan.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/dear-susan?si=850ec966d61b4ac88912cb656f53f2d9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.83
+                "canonical_artists": [
+                    "kiwillian",
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Fjaru & Nornec",
                 "title": "As The Gate Opens",
-                "file": "2023/Sim_Selections_OCTOBER_2023/23. Fjaru and Nornec - As The Gate Opens.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 608.24
+                "canonical_artists": [
+                    "fjaru",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Takamoon",
                 "title": "91 303 KM each of the Danube middle course",
-                "file": "2023/Sim_Selections_OCTOBER_2023/24. Takamoon - '91. 303 km East of the Danube Middle Course.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.02
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Jungle Pickle",
                 "title": "8 Hours",
-                "file": "2023/Sim_Selections_OCTOBER_2023/25. jungle pickle - 8 hours.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/8-hours-master?si=c3dcb539aa9c439bb461c6bdd4063808&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.13
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Poetry In Noise",
                 "title": "5minwin",
-                "file": "2023/Sim_Selections_OCTOBER_2023/26. Poetry In Noise - 5minwin.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.78
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Robert Redshaw",
                 "title": "5 Shades",
-                "file": "2023/Sim_Selections_OCTOBER_2023/27. Robert Redshaw - 5 shades.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.4
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 28,
@@ -7153,27 +8386,34 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "unknown"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Silent Pity",
                 "title": "unknown",
-                "file": "2023/Sim_Selections_OCTOBER_2023/29. -.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.04
+                "canonical_artists": [
+                    "silentpity"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "First Sun",
                 "title": "Dream Sequence",
-                "file": "2023/Sim_Selections_OCTOBER_2023/30. -.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.97
+                "canonical_artists": [
+                    "firstsun"
+                ]
             },
             {
                 "trackNo": 31,
@@ -7182,7 +8422,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "drmr"
+                ]
             }
         ]
     },
@@ -7203,331 +8446,399 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Amadeus B Snivelitch",
                 "title": "(Formerly) Scottish Flavored Thanksgiving",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/01. Amadeus B Snivelitch - (Formerly) Scottish Flavored Thanksgiving.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.17
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Ducks",
                 "title": "You Rode And Brought The Sun",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/02. ducks - you rode and brought the sun.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 140.3
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Jacketpocket",
                 "title": "Father Sun",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/03. jacketpocket - Father Sun.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.71
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Derek Shunia",
                 "title": "Adrift Among The Stars",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/04. Derek Shunia - Adrift Among the Stars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.96
+                "canonical_artists": [
+                    "derekshunia"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Fulhjort",
                 "title": "T3chnov",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/05. fulhjort - t3chnov.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.23
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Procrastronaut",
                 "title": "Elephant Eyes",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/06. Procrastronaut - Elephant Eyes.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/procrastro0/elephant-eyes?si=4199fff3f7ed41ddb746016ab7f6da78&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.04
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Adam Johan Bergren",
                 "title": "Quadriga",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/07. Adam Johan Bergren - Quadriga.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/quadriga",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.34
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Zero Lucks Given",
                 "title": "Helios: Rise & Shine",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/08. Zero Lucks Given - Helios_ Rise & Shine.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/helios-rise-shine",
                 "optIn": false,
                 "canPlay": false,
-                "length": 319.54
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Skyguide",
                 "title": "We Will Change",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/09. Skyguide - We Will Change.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.47
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Seth Monyette",
                 "title": "Serpentine",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/10. Seth Monyette - Serpentine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.85
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Michael Till",
                 "title": "Sunset - Sunrise",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/11. Michael Till - Sunset - Sunrise.mp3",
+                "file": "",
                 "link": "https://youtu.be/atisje9CHLE?si=y2bvpC1Sd6yDFHKH",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.42
+                "canonical_artists": [
+                    "michaeltill"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "informationcake",
                 "title": "Step Into Your Existance",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/12. informationcake - Step Into Your Existance.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/step-into-your-existence",
-                "optIn": true,
-                "canPlay": true,
-                "length": 376.97
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Negative Teens",
                 "title": "Arc De Lumens",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/13. Negative Teens - Arc de Lumens.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 304.54
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Stu M",
                 "title": "Artemis",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/14. Stu M - Artemis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.37
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Pathing & Gold",
                 "title": "Caribbea",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/15. Pathing & Gold - Caribbea.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.05
+                "canonical_artists": [
+                    "pathing",
+                    "gold"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Fractalint",
                 "title": "East To West",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/16. Fractalint - east to west.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/east-to-west",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.26
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Lemon Berries",
                 "title": "Milk Drop",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/17. Lemon Berries - Milk Drop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 84.41
+                "canonical_artists": [
+                    "lemonberries"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Wasted Transmitter",
                 "title": "Stab Me Tender",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/18. Wasted Transmitter - Stab Me Tender.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/defaultmediatransmitter/wasted-transmitter-stab-me-tender",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.96
+                "canonical_artists": [
+                    "wastedtransmitter"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Kiwillian",
                 "title": "Touched By The Sun",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/19. Kiwillian - Touched By The Sun.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 437.4
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Robolution",
                 "title": "Helios Break",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/20. robolution - helios break.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 105.51
+                "canonical_artists": [
+                    "robolution"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Fjaru",
                 "title": "Self Destruction",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/21. Fjaru - Self Destruction.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.2
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Krovvythered",
                 "title": "Impromptu Pour Un Automne Froid",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/22. KrovvyTheRed - Impromptu pour un automne froid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 140.59
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "NGC 3019",
                 "title": "Moon Dust Derby",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/23. NGC 3019 - Moon Dust Derby.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.29
+                "canonical_artists": [
+                    "ngc3019"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Poetry In Noise",
                 "title": "Feast Of Helios",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/24. Poetry in Noise - Feast of Helios.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.19
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Reveur Mort",
                 "title": "Days Of Thunder",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/25. R\u02c6veur Mort - Days of Thunder.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.82
+                "canonical_artists": [
+                    "reveurmort"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Total Bedroom",
                 "title": "Iperion",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/26. Total Bedroom - Iperion.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.08
+                "canonical_artists": [
+                    "totalbedroom"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Takamoon",
                 "title": "Respectfully No Thank You",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/27. Takamoon - Respectfully No Thank You.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.91
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Edwin",
                 "title": "A Plucky Day In Fall",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/28. Edwin - A Plucky Day in Fall.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=Lf-UJFrviSo",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.3
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Menhirs & Nornec",
                 "title": "The Sun Is A Pretty Cool Guy",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/29. Menhirs & Nornec - The Sun Is A Pretty Cool Guy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.78
+                "canonical_artists": [
+                    "menhirs",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Broken Gravity",
                 "title": "Hollow Sun",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/30. Broken Gravity - Hollow Sun.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.77
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "vetra miga",
                 "title": "icarus, descend",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/31. vetramiga - icarus, descend.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=QBKmMVYyiJA",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.69
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Ponyart",
                 "title": "Step One Now Step Two Feat Kingosiris",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/32. PonyArt - Step One Now Step Two feat KingOsiris.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Computrhead",
                 "title": "Food For The Gods",
-                "file": "2023/Sim_Selections_NOVEMBER_2023/33. Computrhead - Food For The Gods.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.63
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 34,
@@ -7536,7 +8847,11 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "christophermills",
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 35,
@@ -7545,7 +8860,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/-t9RsTwcFQw  https://soundcloud.com/jungle-pickle/sunny-bunny?si=e5059b4ddff6463286770db00ad0a33b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -7566,301 +8884,363 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "DJ Stable D & Kiwillian",
                 "title": "Canny Valley",
-                "file": "2023/Sim_Selections_DECEMBER_2023/01. DJ Stable D & Kiwillian - Canny Valley.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 94.32
+                "canonical_artists": [
+                    "djstabled",
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Theodore Snoozevelt",
                 "title": "Ebakindlusega",
-                "file": "2023/Sim_Selections_DECEMBER_2023/02. Theodore Snoozevelt - Ebakindlusega.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/ebakindlusega",
                 "optIn": false,
                 "canPlay": false,
-                "length": 107.49
+                "canonical_artists": [
+                    "theodoresnoozevelt"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "JacketPocket",
                 "title": "Panorama City",
-                "file": "2023/Sim_Selections_DECEMBER_2023/03. jacketpocket - Panorama City.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/traviedoodle/panorama-city/s-JRbckpKhAgs?si=65568d28253b41f8804d067db6730933&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.6
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Robert Redshaw",
                 "title": "Hill 2 Hill",
-                "file": "2023/Sim_Selections_DECEMBER_2023/04. Robert Redshaw - Hill 2 Hill.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.48
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Poetry In Noise",
                 "title": "Covered Bridges",
-                "file": "2023/Sim_Selections_DECEMBER_2023/05. Poetry in Noise - Covered Bridges.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 242.99
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "vetra miga",
                 "title": "city lights (feat. jacketpocket)",
-                "file": "2023/Sim_Selections_DECEMBER_2023/06. vetramiga - city lights (feat. jacketpocket).mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=LLQO5vXhnb0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.89
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Lemon Berries",
                 "title": "Datura",
-                "file": "2023/Sim_Selections_DECEMBER_2023/07. Lemon Berries - Datura.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.02
+                "canonical_artists": [
+                    "lemonberries"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "ComputrHead",
                 "title": "Silicon City",
-                "file": "2023/Sim_Selections_DECEMBER_2023/08. Computrhead - Silicon City.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.41
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "PonyArt",
                 "title": "Music for a game part 1,2,3 WIP",
-                "file": "2023/Sim_Selections_DECEMBER_2023/09. PonyArt - Music For A Game Part 1,2,3 WIP.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.94
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "informationcake & The Flashbulb",
                 "title": "Somewhere Bright",
-                "file": "2023/Sim_Selections_DECEMBER_2023/10. informationcake & The Flashbulb - Somewhere Bright.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 388.15
+                "canonical_artists": [
+                    "informationcake",
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Michael Till",
                 "title": "Lucy",
-                "file": "2023/Sim_Selections_DECEMBER_2023/11. Michael Till - Lucy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.78
+                "canonical_artists": [
+                    "michaeltill"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Kiwillian",
                 "title": "Check It Out",
-                "file": "2023/Sim_Selections_DECEMBER_2023/12. Kiwillian - Check It Out.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 115.78
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Largeman - Abell 85 Studios",
                 "title": "Jazzy Bird Sits On A Plane And Does Loopings",
-                "file": "2023/Sim_Selections_DECEMBER_2023/13. Largeman - Abell 85 Studio - jazzy bird sits on a plane and does loopings.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.31
+                "canonical_artists": [
+                    "largemanabell85studios"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Stoic",
                 "title": "The Unbearable Crushing Weight Of Happiness",
-                "file": "2023/Sim_Selections_DECEMBER_2023/14. stoic - The Unbearable Crushing Weight of Happiness.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 351.46
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Jungle Pickle",
                 "title": "Deep In The Valley",
-                "file": "2023/Sim_Selections_DECEMBER_2023/15. jungle pickle - deep in the valley.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/deep-in-the-valley?si=309166cae57446109108f77ae6703588&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 137.21
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "DRMR",
                 "title": "Uncanny Valley",
-                "file": "2023/Sim_Selections_DECEMBER_2023/16. DRMR - Uncanny Valley.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.61
+                "canonical_artists": [
+                    "drmr"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Seth Monyette",
                 "title": "Chaos",
-                "file": "2023/Sim_Selections_DECEMBER_2023/17. Seth Monyette - Chaos.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.87
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Err: Rawr",
                 "title": "Torn Apart (Some More)",
-                "file": "2023/Sim_Selections_DECEMBER_2023/18. err Rawr - Torn apart (some more).mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/FKdBW8pXc8oMM55v7",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.08
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Sir Fancy",
                 "title": "Early Bird",
-                "file": "2023/Sim_Selections_DECEMBER_2023/19. Sir Fancy -.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.93
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "informationcake",
                 "title": "Lost Mornings",
-                "file": "2023/Sim_Selections_DECEMBER_2023/20. informationcake - Lost Mornings.mp3",
+                "file": "",
                 "link": "https://informationcake.bandcamp.com/track/lost-mornings",
-                "optIn": true,
-                "canPlay": true,
-                "length": 382.85
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Edwin",
                 "title": "Slowview",
-                "file": "2023/Sim_Selections_DECEMBER_2023/21. Edwin - Slowview.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.66
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Stu M",
                 "title": "Auresolve",
-                "file": "2023/Sim_Selections_DECEMBER_2023/22. Stu M - Auresolve.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.57
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "City 17 Polar Express",
-                "file": "2023/Sim_Selections_DECEMBER_2023/23. Amadeus B. Snivelitch - City 17 Polar Express.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 317.35
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Cahl",
                 "title": "Soaring",
-                "file": "2023/Sim_Selections_DECEMBER_2023/24. Cahl - Soaring.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 445.99
+                "canonical_artists": [
+                    "cahl"
+                ]
             },
             {
                 "trackNo": 25,
-                "artist": "Fuljort",
+                "artist": "Fulhjort",
                 "title": "Sysodeme Ln",
-                "file": "2023/Sim_Selections_DECEMBER_2023/25. fulhjort - Sysodeme LN.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 308.82
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Broken Gravity",
                 "title": "Ares Landing",
-                "file": "2023/Sim_Selections_DECEMBER_2023/26. Broken Gravity - Ares Landing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.84
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Adam Johan Bergren",
                 "title": "Galaxies Reform (FT. Broderick Smith)",
-                "file": "2023/Sim_Selections_DECEMBER_2023/27. Adam Johan Bergren - Galaxies ReForm (ft. Broderick Smith).mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/galaxies-reform-ft-broderick-smith",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.89
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "No Owls",
                 "title": "If There's A Way",
-                "file": "2023/Sim_Selections_DECEMBER_2023/28. No Owls - If Theres A Way.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.95
+                "canonical_artists": [
+                    "noowls"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "procrastronaught",
                 "title": "20-20",
-                "file": "2023/Sim_Selections_DECEMBER_2023/29. Procrastronaut - 20-20.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.54
+                "canonical_artists": [
+                    "procrastronaught"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Nornec",
                 "title": "Europa Metro",
-                "file": "2023/Sim_Selections_DECEMBER_2023/30. Nornec - Europa Metro.mp4",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=3cfOmEpQ9mc",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.03
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 31,
@@ -7869,7 +9249,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "anthonyfelos"
+                ]
             },
             {
                 "trackNo": 32,
@@ -7878,7 +9261,10 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "drewwillard"
+                ]
             },
             {
                 "trackNo": 33,
@@ -7887,7 +9273,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/6uc0RVrYObg?si=ki5tSL61i1iQxW-6",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 34,
@@ -7896,7 +9285,10 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/oGqBGFNhGfA",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             }
         ]
     },
@@ -7917,261 +9309,315 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Yakmilksoda",
                 "title": "Let's Choke",
-                "file": "2024/Sim_Selections_JANUARY_2024/21. yakmilksoda - Let's Choke.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.57
+                "canonical_artists": [
+                    "yakmilksoda"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Cocoa Rye",
-                "file": "2024/Sim_Selections_JANUARY_2024/16. Adam Johan Bergren - Cocoa Rye.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/cocoa-rye",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.52
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Anthony Felos",
                 "title": "We Are All We've Got",
-                "file": "2024/Sim_Selections_JANUARY_2024/23. Anthony Felos - We Are All We_ve Got.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.04
+                "canonical_artists": [
+                    "anthonyfelos"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Dedblank",
                 "title": "Full Force",
-                "file": "2024/Sim_Selections_JANUARY_2024/13. dedblank - Full Force.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.02
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Broken Gravity",
                 "title": "Acidalia Interrail",
-                "file": "2024/Sim_Selections_JANUARY_2024/07. Broken Gravity - Acidalia Interrail.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.42
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Takamoon",
                 "title": "Wow Crazy Cool To See You So Random Bye",
-                "file": "2024/Sim_Selections_JANUARY_2024/11. Takamoon - wow crazy cool to see you so random bye.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.65
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Jacketpocket",
                 "title": "Choose",
-                "file": "2024/Sim_Selections_JANUARY_2024/06. jacketpocket - Choose.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/traviedoodle/jacketpocket-choose",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.57
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Pulse-Static",
                 "title": "Peace",
-                "file": "2024/Sim_Selections_JANUARY_2024/10. Pulse-Static - Peace.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.77
+                "canonical_artists": [
+                    "pulsestatic"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "mikey303",
                 "title": "Scramble",
-                "file": "2024/Sim_Selections_JANUARY_2024/14. mikey303 - scramble.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.8
+                "canonical_artists": [
+                    "mikey303"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Jungle Pickle; Heavy Listening",
                 "title": "Counting Calories",
-                "file": "2024/Sim_Selections_JANUARY_2024/15. jungle pickle;Heavy Listening - counting calories.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/counting-calories?si=5b8bb7f7d7d141e79700c5862d5997df&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.05
+                "canonical_artists": [
+                    "junglepickle",
+                    "heavylistening"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Stu M",
                 "title": "Arrowheads",
-                "file": "2024/Sim_Selections_JANUARY_2024/03. Stu M - Arrowheads.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.88
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Largeman",
                 "title": "It's 2024, Calm Down",
-                "file": "2024/Sim_Selections_JANUARY_2024/09. Largeman - Its 2024. Calm down!.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.3
+                "canonical_artists": [
+                    "largeman"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "vetra miga",
                 "title": "4",
-                "file": "2024/Sim_Selections_JANUARY_2024/18. vetra miga - 4.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=5KA3_vmpH5I",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.26
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Edwin",
                 "title": "Going Crazy For Chocolates",
-                "file": "2024/Sim_Selections_JANUARY_2024/12. Edwin - Going Crazy for Chocolates.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.62
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec",
                 "title": "Lick The Spoon",
-                "file": "2024/Sim_Selections_JANUARY_2024/20. Nornec - Lick The Spoon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 309.36
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Negative Teens",
                 "title": "\"Calm Down, Man\"",
-                "file": "2024/Sim_Selections_JANUARY_2024/08. Negative Teens - Calm Down, Man.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.0
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Procrastronaut",
                 "title": "hersheysisactualpuke",
-                "file": "2024/Sim_Selections_JANUARY_2024/02. Procrastronaut - hersheysisactualpuke.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/procrastro0/hersheysisactualpuke",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.02
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Poetry In Noise",
                 "title": "P.I.N. Aux Chocolate",
-                "file": "2024/Sim_Selections_JANUARY_2024/26. Poetry In Noise - P.I.N. Aux Chocolate.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/HsjqY",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.65
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Ponyart",
                 "title": "Blaze (Mad Hed City)",
-                "file": "2024/Sim_Selections_JANUARY_2024/01. PonyArt - Blaze (Mad Hed City).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.04
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Mylarmelodies/Pathing",
                 "title": "Metropolis Showdown",
-                "file": "2024/Sim_Selections_JANUARY_2024/25. MylarmelodiesPathing - Metropolis Showdown.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 80.02
+                "canonical_artists": [
+                    "mylarmelodies",
+                    "pathing"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Krovvythered",
                 "title": "Unearned Cheerful Confidence",
-                "file": "2024/Sim_Selections_JANUARY_2024/04. KrovvyTheRed - Unearned Cheerful Confidence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 110.0
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Kiwillian",
                 "title": "Dreamers Of Dreams",
-                "file": "2024/Sim_Selections_JANUARY_2024/24. Kiwillian - Dreamers of Dreams.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 131.76
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Robert Redshaw",
                 "title": "Illogical Heft",
-                "file": "2024/Sim_Selections_JANUARY_2024/22. Robert Redshaw - Illogical Heft.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.97
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Drew Willard",
                 "title": "Wonder",
-                "file": "2024/Sim_Selections_JANUARY_2024/17. Drew Willard - Wonder.mp3",
+                "file": "",
                 "link": "https://drewillard.com/track/3684557/wonder",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.69
+                "canonical_artists": [
+                    "drewwillard"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Zero Lucks Given",
                 "title": "The Struggle Continues",
-                "file": "2024/Sim_Selections_JANUARY_2024/05. Zero Lucks Given - The Struggle Continues.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-struggle-continues",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.25
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Meganeura",
                 "title": "Atom Splitter",
-                "file": "2024/Sim_Selections_JANUARY_2024/19. Meganeura - Atom Splitter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.3
+                "canonical_artists": [
+                    "meganeura"
+                ]
             }
         ]
     },
@@ -8192,51 +9638,62 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Cahl",
                 "title": "At The End Of Everything",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/18. Cahl - at the end of everything.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 355.97
+                "canonical_artists": [
+                    "cahl"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Fjaru & PonyArt",
                 "title": "Shoot Til It Dies!",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/11. Fjaru & PonyArt - Shoot till it dies!.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fjaru/shoot-till-it-dies-ponyart-fjaru",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.64
+                "canonical_artists": [
+                    "fjaru",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "informationcake",
                 "title": "Eyes Open",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/10. informationcake - Eyes Open.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 325.72
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Your Computer",
                 "title": "Airlock Pong",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/22. Your Computer - Airlock Pong.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.46
+                "canonical_artists": [
+                    "yourcomputer"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Default Media Transmitter",
                 "title": "Sensors Detect Rot",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/02. Default Media Transmitter - Sensors Detect Rot.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.26
+                "canonical_artists": [
+                    "defaultmediatransmitter"
+                ]
             },
             {
                 "trackNo": 6,
@@ -8245,337 +9702,396 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "mikey303",
                 "title": "Signal",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/31. mikey303 - SIGNAL.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.22
+                "canonical_artists": [
+                    "mikey303"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Broken Gravity",
                 "title": "Phobos Night Drive",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/08. Broken Gravity - Phobos Night Drive.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.8
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "JacketPocket",
                 "title": "Offline",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/07. jacketpocket - Offline (I Have a Cold Version).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/traviedoodle/jacketpocket-offline",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.9
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "The Jovian Path",
                 "title": "Island In The Sky",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/35. The Jovian Path - Island in the Sky.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thejovianpath/islandinthesky",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.39
+                "canonical_artists": [
+                    "thejovianpath"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Meganeura",
                 "title": "Red Supergiant",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/19. Meganeura - Red Supergiant.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 233.33
+                "canonical_artists": [
+                    "meganeura"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Stu M",
                 "title": "Val Canegia",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/16. Stu M - Val Canegia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.78
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Echos Bats",
                 "title": "Talking To The Moon",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/15. EchoEs Bats - Talking to the Moon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.04
+                "canonical_artists": [
+                    "echosbats"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Ara Cristina",
                 "title": "Decay (Of Time)",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/14. Ara Cristina - Decay (of Time).mp3",
+                "file": "",
                 "link": "https://hojascirculares.bandcamp.com",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.74
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "PonyArt (Mad Hed City)",
                 "title": "Who The Leader",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/26. PonyArt (Mad Hed City) - Who The Leader.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.9
+                "canonical_artists": [
+                    "ponyartmadhedcity"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Zero Lucks Given",
                 "title": "Offline",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/21. Zero Lucks Given - Offline.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/offline",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.78
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Nornec & The Flashbulb",
                 "title": "Stranded In Nice Weather",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/04. Nornec & The Flashbulb - Stranded In Nice Weather.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.94
+                "canonical_artists": [
+                    "nornec",
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Seth Monyette",
                 "title": "Sky",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/30. Seth Monyette - Sky.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.34
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Poetry In Noise",
                 "title": "BTBOL (ANFO Fork)",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/32. Poetry In Noise - BTBOL (ANFO Fork).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.75
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Robert Redshaw",
                 "title": "In Clouds",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/12. Robert Redshaw - In Clouds.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.06
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Perlin",
                 "title": "Power Outage",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/34. Perlin - Power Outage.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.17
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Lonnon Foster",
                 "title": "Take It Offline",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/29. Lonnon Foster - Take It Offline.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.53
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Ducks",
                 "title": "Steelmill Rodeo",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/33. ducks - steelmill rodeo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.08
-            },
-            {
-                "trackNo": 23,
-                "artist": "err Rawr",
-                "title": "Trouble",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/23. err Rawr - Trouble.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 187.08
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Unplug",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/06. Amadeus B. Snivelitch - Unplug.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.68
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Drew Willard",
                 "title": "Traffic",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/17. Drew Willard - Traffic.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.2
+                "canonical_artists": [
+                    "drewwillard"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Menhirs & Skyguide",
                 "title": "False Spring Waltz",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/25. Menhirs; Skyguide - False Spring Waltz.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.42
+                "canonical_artists": [
+                    "menhirs",
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Takamoon",
                 "title": "My Friends Waste Cheese",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/01. Takamoon - My Friends Waste Cheese.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.04
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Sonarant Escapades",
                 "title": "Cascade Anomolies",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/05. Sonarant Escapades - Cascade Anomolies.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.03
+                "canonical_artists": [
+                    "sonarantescapades"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Mark Feifarek",
                 "title": "Highland Forest",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/20. Mark Feifarek - Highland Forest.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.38
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Edwin",
                 "title": "Iakesi",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/28. Edwin - Iakesi.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 148.63
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Fjaru",
                 "title": "Lost In A Puddle",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/09. Fjaru - Lost in a puddle.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fjaru/lost-in-a-puddle",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.32
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Adam Johan Bergren",
                 "title": "Catskill Eagle",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/13. Adam Johan Bergren - Catskill Eagle.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/catskill-eagle",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.3
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "ZeroAPR",
                 "title": "Arithmetic Error",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/27. Zeroapr - Arithmetic Error.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.58
+                "canonical_artists": [
+                    "zeroapr"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "LaurenPinsChannels",
                 "title": "Spectral Pan Thing (Real) (Slow Version)",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/03. @LaurenPinsChannels - Spectral Pan Thing (real) (slow version).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 107.0
+                "canonical_artists": [
+                    "laurenpinschannels"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Anonymous Water Bottle",
                 "title": "The Mercator Projection Ate My Parents",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/24. Anonymous Water Bottle - The mercator projection ate my parents.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 97.54
+                "canonical_artists": [
+                    "anonymouswaterbottle"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Negative Teens",
                 "title": "Off The Grid",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/37. Negative Teens - Off The Grid.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.99
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Jungle Pickle",
                 "title": "Put On Your Gloves",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/36. jungle pickle - put on your gloves.mp4",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/put-on-your-gloves?si=f24bf322276c402c82f6f45eaa9e902b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.78
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Dedblank",
                 "title": "High On Clear",
-                "file": "2024/Sim_Selections_FEBRUARY_2024/38. dedblank - high on clear.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.0
+                "canonical_artists": [
+                    "dedblank"
+                ]
             }
         ]
     },
@@ -8596,361 +10112,434 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Ara Cristina",
                 "title": "Mirrors Facing the Ceilng",
-                "file": "2024/Sim_Selections_MARCH_2024/01. Ara Cristina - Mirrors Facing the Ceiling.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/f9RfQApBYvScYTaDA",
                 "optIn": false,
                 "canPlay": false,
-                "length": 335.04
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 2,
-                "artist": "Vetra Miga",
+                "artist": "vetra miga",
                 "title": "6",
-                "file": "2024/Sim_Selections_MARCH_2024/02. vetra miga - 6.mp3",
+                "file": "",
                 "link": "https://youtu.be/W-72POw-Rnc",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.43
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Meganeura",
                 "title": "Rain Of Stars",
-                "file": "2024/Sim_Selections_MARCH_2024/03. Meganeura - Rain of Stars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.45
+                "canonical_artists": [
+                    "meganeura"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Euskalduna",
                 "title": "The Tea House",
-                "file": "2024/Sim_Selections_MARCH_2024/04. euskalduna - The Tea House.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.67
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Lonnon Foster",
                 "title": "Strange Brew",
-                "file": "2024/Sim_Selections_MARCH_2024/05. Lonnon Foster - Strange Brew.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 78.63
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Robert Redshaw",
                 "title": "Return Visit",
-                "file": "2024/Sim_Selections_MARCH_2024/06. Robert Redshaw - Return Visit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 117.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake & Anthony Felos",
                 "title": "Euphoria At The Tea House",
-                "file": "2024/Sim_Selections_MARCH_2024/07. informationcake & Anthony Felos - Euphoria At The Tea House.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 339.8
+                "canonical_artists": [
+                    "informationcake",
+                    "anthonyfelos"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Ponyart",
                 "title": "Inspired By Dune",
-                "file": "2024/Sim_Selections_MARCH_2024/08. PonyArt - Inspired by Dune.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.03
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Astar, A Robot",
                 "title": "GLASS-Z12",
-                "file": "2024/Sim_Selections_MARCH_2024/09. Astar, a Robot - GLASS-z12.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.31
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Procrastronaut",
                 "title": "Pop Music (Mug Of Tea Mix)",
-                "file": "2024/Sim_Selections_MARCH_2024/10. Procrastronaut - Pop Music (Mug Of Tea Mix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.88
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Earl Grey",
                 "title": "Take A Sip",
-                "file": "2024/Sim_Selections_MARCH_2024/11. Earl Grey - Take a sip.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.51
+                "canonical_artists": [
+                    "earlgrey"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Ducks",
                 "title": "Oolong Oolong",
-                "file": "2024/Sim_Selections_MARCH_2024/12. ducks - Oolong Oolong.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.22
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "DREAMX",
                 "title": "Stalactites In The Dark",
-                "file": "2024/Sim_Selections_MARCH_2024/13. DreamX - Stalactites in the Dark.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.57
+                "canonical_artists": [
+                    "dreamx"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "NASCEN7",
                 "title": "The Lullaby",
-                "file": "2024/Sim_Selections_MARCH_2024/14. NASCEN7 - The Lullaby.mp3",
+                "file": "",
                 "link": "https://audius.co/nascent/the-lullaby",
                 "optIn": false,
                 "canPlay": false,
-                "length": 146.59
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Snoozevelt",
                 "title": "Third Place",
-                "file": "2024/Sim_Selections_MARCH_2024/15. snoozevelt - third place.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/snoozevelt/third-place",
                 "optIn": false,
                 "canPlay": false,
-                "length": 66.96
+                "canonical_artists": [
+                    "snoozevelt"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Teapotahedron",
                 "title": "Little Big Tea House",
-                "file": "2024/Sim_Selections_MARCH_2024/16. Teapotahedron - Little Big Tea House.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.21
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Err: Rawr",
                 "title": "New Breakaway",
-                "file": "2024/Sim_Selections_MARCH_2024/17. err Rawr - New Breakaway.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.0
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Moiko",
                 "title": "Tea House, Too",
-                "file": "2024/Sim_Selections_MARCH_2024/18. moiko - Tea House, Too.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/moikop/tea-house-too",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.36
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Seth Monyette",
                 "title": "Welcome Home",
-                "file": "2024/Sim_Selections_MARCH_2024/19. Seth Monyette - Welcome Home.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.46
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Teatime In Bristol",
-                "file": "2024/Sim_Selections_MARCH_2024/20. Amadeus B. Snivelitch - Teatime in Bristol.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.04
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Moiko",
                 "title": "Tea House In Orbit",
-                "file": "2024/Sim_Selections_MARCH_2024/21. moiko - Tea House in Orbit.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/moikop/teahouse-in-orbit",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.1
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Broken Gravity",
                 "title": "The Teahouse At Lake Shinji",
-                "file": "2024/Sim_Selections_MARCH_2024/22. Broken Gravity - The Teahouse At Lake Shinji.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.85
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Zero Lucks Given",
                 "title": "Yesterdays Gaiwan, Todays Teacup",
-                "file": "2024/Sim_Selections_MARCH_2024/23. Zero Lucks Given - Yesterdays Gaiwan, Todays Teacup.mp3",
+                "file": "",
                 "link": "http://zerolucksgiven.band/track/yesterdays-gaiwan-todays-teacup",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.29
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Jacketpocket",
                 "title": "Ambush At Hanamikoji",
-                "file": "2024/Sim_Selections_MARCH_2024/24. jacketpocket - Ambush at Hanamikoji.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/traviedoodle/ambush-at-hanamikoji",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.34
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Edwin",
                 "title": "T-Pose T-House",
-                "file": "2024/Sim_Selections_MARCH_2024/25. Edwin - t-pose t-house.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.38
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Adam Johan Bergren",
                 "title": "Never Odd Or Even",
-                "file": "2024/Sim_Selections_MARCH_2024/26. Adam Johan Bergren - Never Odd or Even.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/never-odd-or-even",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.65
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Fractalint",
                 "title": "Tea For T",
-                "file": "2024/Sim_Selections_MARCH_2024/27. Fractalint - Tea for T.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/tea-for-t",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.47
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Perlin",
                 "title": "Tachycardia",
-                "file": "2024/Sim_Selections_MARCH_2024/28. Perlin - Tachycardia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.59
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "TheDisordered",
                 "title": "Radium",
-                "file": "2024/Sim_Selections_MARCH_2024/29. TheDisordered - Radium.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.08
+                "canonical_artists": [
+                    "thedisordered"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Stu M",
                 "title": "Tea_Gen",
-                "file": "2024/Sim_Selections_MARCH_2024/30. Stu M - Tea_Gen.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.29
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Dedblank",
                 "title": "Lotus (WIP)",
-                "file": "2024/Sim_Selections_MARCH_2024/31. dedblank - lotus (WIP).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.52
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Jungle Pickle",
                 "title": "Can You Imagine",
-                "file": "2024/Sim_Selections_MARCH_2024/32. jungle pickle - can you imagine.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/can-you-imagine?si=f24bf322276c402c82f6f45eaa9e902b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.7
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Cahl",
                 "title": "C U At 9",
-                "file": "2024/Sim_Selections_MARCH_2024/33. Cahl - C U At 9.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.39
+                "canonical_artists": [
+                    "cahl"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Skyguide",
                 "title": "Fast Slow Disco",
-                "file": "2024/Sim_Selections_MARCH_2024/34. Skyguide - Fast Slow Disco.mp4",
+                "file": "",
                 "link": "https://youtu.be/XhiqdqUn5g8",
                 "optIn": false,
                 "canPlay": false,
-                "length": 365.38
+                "canonical_artists": [
+                    "skyguide"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Poetry In Noise",
                 "title": "Carafe's Eye View",
-                "file": "2024/Sim_Selections_MARCH_2024/35. Poetry In Noise - Carafe's Eye View.mp4",
+                "file": "",
                 "link": "https://youtu.be/gfPwc2g9C7k",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.2
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Skitter",
                 "title": "Blast",
-                "file": "2024/Sim_Selections_MARCH_2024/36. Skitter - Blast.mp4",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=OMj0yvLeNIg",
                 "optIn": false,
                 "canPlay": false,
-                "length": 146.47
+                "canonical_artists": [
+                    "skitter"
+                ]
             }
         ]
     },
@@ -8971,381 +10560,448 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Ponyart",
                 "title": "Battle Tension",
-                "file": "2024/Sim_Selections_APRIL_2024/26. PonyArt - Battle Tension.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.05
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Zero Lucks Given",
                 "title": "A Is For Apple",
-                "file": "2024/Sim_Selections_APRIL_2024/10. Zero Lucks Given - A Is For Apple.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/a-is-for-apple",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.7
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Err: Rawr",
                 "title": "Change",
-                "file": "2024/Sim_Selections_APRIL_2024/08. err_ Rawr - Change.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.03
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Ponyart & Stu M",
                 "title": "As We Enter",
-                "file": "2024/Sim_Selections_APRIL_2024/29. PonyArt & Stu m - As We Enter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.58
+                "canonical_artists": [
+                    "ponyart",
+                    "stum"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Dedblank",
                 "title": "Spring",
-                "file": "2024/Sim_Selections_APRIL_2024/37. dedblank - Spring.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.39
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Depthbuffer",
                 "title": "Imperfect Circles (WIP)",
-                "file": "2024/Sim_Selections_APRIL_2024/25. Depthbuffer - Imperfect Circles (WIP).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.69
+                "canonical_artists": [
+                    "depthbuffer"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Skitter",
                 "title": "Moirais Cloak",
-                "file": "2024/Sim_Selections_APRIL_2024/16. Skitter - Moirais Cloak.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.79
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Derek Shunia",
                 "title": "Newton's Apple",
-                "file": "2024/Sim_Selections_APRIL_2024/21. Derek Shunia - Newtons Apple.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.65
+                "canonical_artists": [
+                    "derekshunia"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Amadeus B. Snivelitch",
                 "title": "Baby's First MPC Jam",
-                "file": "2024/Sim_Selections_APRIL_2024/30. Amadeus B Snivelitch - Babys First MPC Jam.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.38
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Moiko",
                 "title": "Gravity Vs. Sin",
-                "file": "2024/Sim_Selections_APRIL_2024/02. moiko - Gravity vs. Sin.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/7A6iXnSJV4KLBRRs5",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.81
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Euskalduna",
                 "title": "The Nero",
-                "file": "2024/Sim_Selections_APRIL_2024/36. euskalduna - the nero.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.04
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 12,
-                "artist": "Vetra Miga",
+                "artist": "vetra miga",
                 "title": "Rift",
-                "file": "2024/Sim_Selections_APRIL_2024/34. vetra miga - rift.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.19
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Lonnon Foster",
                 "title": "Gravity",
-                "file": "2024/Sim_Selections_APRIL_2024/07. Lonnon Foster - Gravity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.36
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Poetry in Noise",
                 "title": "Pommes",
-                "file": "2024/Sim_Selections_APRIL_2024/20. Poetry in Noise - Pommes.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/hedbut/pommes?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=b7d38cd1e1164fb3aa289c528c139488",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.93
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Nornec & Udio",
                 "title": "Acquiescence",
-                "file": "2024/Sim_Selections_APRIL_2024/22. Nornec & Udio - Acquiescence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.15
+                "canonical_artists": [
+                    "nornec",
+                    "udio"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Stu M",
                 "title": "Azul",
-                "file": "2024/Sim_Selections_APRIL_2024/32. Stu M - Azul.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.8
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "HH",
                 "title": "Bootsnipper",
-                "file": "2024/Sim_Selections_APRIL_2024/06. HH - Bootsnipper.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.91
+                "canonical_artists": [
+                    "hh"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Jungle Pickle",
                 "title": "Mr. Bumble",
-                "file": "2024/Sim_Selections_APRIL_2024/23. jungle pickle - mr bumble.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/mr-bumble?si=08d66412f2a44f40bf8776aa6c2856c9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.53
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "DSM4LV",
                 "title": "Autumn's Apple",
-                "file": "2024/Sim_Selections_APRIL_2024/17. DSM4LV - Autumns Apple.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 327.53
-            },
-            {
-                "trackNo": 19,
-                "artist": "informationcake",
-                "title": "Its Too Bright",
-                "file": "2024/Sim_Selections_APRIL_2024/19. informationcake - Its Too Bright.mp3",
-                "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 394.37
+                "canonical_artists": [
+                    "dsm4lv"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Adam Johan Bergren",
                 "title": "Goodland Harvest",
-                "file": "2024/Sim_Selections_APRIL_2024/18. Adam Johan Bergren - Goodland Harvest.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/goodland-harvest",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.46
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Fractalint",
                 "title": "Telehat",
-                "file": "2024/Sim_Selections_APRIL_2024/27. Fractalint - TeleHat.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/fractalint/telehat",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.0
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Cake Sandhi",
                 "title": "Seeds Falling Upward",
-                "file": "2024/Sim_Selections_APRIL_2024/33. cake sandhi - Seeds Falling Upward.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.26
+                "canonical_artists": [
+                    "cakesandhi"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Mikey303",
                 "title": "Appel",
-                "file": "2024/Sim_Selections_APRIL_2024/31. mikey303 - appel.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.67
+                "canonical_artists": [
+                    "mikey303"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Perlin",
                 "title": "Three Apple Tree",
-                "file": "2024/Sim_Selections_APRIL_2024/05. Perlin - Three Apple Tree.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.41
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Depthbuffer",
                 "title": "Cicadasong",
-                "file": "2024/Sim_Selections_APRIL_2024/03. Depthbuffer - Cicadasong.mp3",
+                "file": "",
                 "link": "https://depthbuffer.bandcamp.com/track/cicadasong",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.35
+                "canonical_artists": [
+                    "depthbuffer"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Nascen7",
                 "title": "Warm Invitations",
-                "file": "2024/Sim_Selections_APRIL_2024/28. NASCEN7 - Warm Invitations.mp3",
+                "file": "",
                 "link": "https://nascen7.bandcamp.com/track/warm-invitations",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.8
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Broken Gravity",
                 "title": "Barden Automata",
-                "file": "2024/Sim_Selections_APRIL_2024/15. Broken Gravity - Garden Automata.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.68
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Krovvythered",
                 "title": "April Impromptu",
-                "file": "2024/Sim_Selections_APRIL_2024/13. KrovvyTheRed - Impromptu.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.1
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Negativeteens",
                 "title": "Boom-Nostalgia",
-                "file": "2024/Sim_Selections_APRIL_2024/14. NegativeTeens - Boom-Nostalgia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 121.6
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Robert Redshaw",
                 "title": "Faulty Wiring",
-                "file": "2024/Sim_Selections_APRIL_2024/12. Robert Redshaw - Faulty Wiring.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.03
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Takamoon",
                 "title": "10 Things I Meh About You",
-                "file": "2024/Sim_Selections_APRIL_2024/09. Takamoon - 10 Things I Meh About You.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.89
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Adam Johan Bergren & Mikki Pike Hades",
                 "title": "Gorchard",
-                "file": "2024/Sim_Selections_APRIL_2024/01. AJB & Mikki Pike Hades - Gorchard.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/gorchard-ft-mikki-pike-hades",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.22
+                "canonical_artists": [
+                    "adamjohanbergren",
+                    "mikkipikehades"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Fulhjort",
                 "title": "Male Pattern Brand Awareness (Alternate)",
-                "file": "2024/Sim_Selections_APRIL_2024/11. fulhjort - Male pattern brand awareness (alternate).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.57
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Seth Monyette",
                 "title": "Bromoso Sol",
-                "file": "2024/Sim_Selections_APRIL_2024/35. Seth Monyette - bromoso sol.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.43
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Edwin",
                 "title": "I Was Chillin Under A Tree",
-                "file": "2024/Sim_Selections_APRIL_2024/04. Edwin - i was chillin under a tree.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=8xGJIhCya7c",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.9
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Procrastronaut",
                 "title": "Orbits",
-                "file": "2024/Sim_Selections_APRIL_2024/24. Procrastronaut - Orbits.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.35
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Skyguide",
                 "title": "In The Shade of the Old Apple Tree",
-                "file": "2024/Sim_Selections_APRIL_2024/38. Skyguide - In The Shade of the Old Apple Tree.mp4",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=gpq4wo8GSCE",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.82
+                "canonical_artists": [
+                    "skyguide"
+                ]
             }
         ]
     },
@@ -9366,31 +11022,37 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Echoes Bats",
                 "title": "Spiteful Wave feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/01. EchoEs Bats - Spiteful Wave feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.27
+                "canonical_artists": [
+                    "echoesbats"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "informationcake",
                 "title": "Stay Quiet (feat. Superlative)",
-                "file": "2024/Sim_Selections_MAY_2024/02. informationcake - Stay Quiet (feat. Superlative).mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 336.3
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Edwin",
                 "title": "That Just Happened feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/03. Edwin, Superlative - That Just Happened feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.95
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 4,
@@ -9399,287 +11061,347 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "informationcake",
                 "title": "Its Too Bright",
-                "file": "2024/Sim_Selections_MAY_2024/04. informationcake - Its Too Bright.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 394.37
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Err:Rawr vs Ponyart",
                 "title": "Wage Riot feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/05. err_ Rawr vs PonyArt - Wage Riot feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.68
+                "canonical_artists": [
+                    "errrawr",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Nornec",
                 "title": "Go Home (feat. Superlative)",
-                "file": "2024/Sim_Selections_MAY_2024/06. Nornec - Go Home (feat. Superlative).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.02
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Snoozevelt",
                 "title": "struggle feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/07. snoozevelt - struggle feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 91.98
+                "canonical_artists": [
+                    "snoozevelt"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Adam Johan Bergren",
                 "title": "Ego Fatality (ft. Superlative)",
-                "file": "2024/Sim_Selections_MAY_2024/08. Adam Johan Bergren - Ego Fatality (ft. Superlative).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/adam-johan-bergren/ego-fatality-ft-superlative?si=58fdada864f1474ea0d9c88e9577886b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.49
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Fjaru",
                 "title": "Too loud, featuring Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/09. Fjaru - Too loud, featuring Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 78.29
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Negative Teens",
                 "title": "Stay Quiet",
-                "file": "2024/Sim_Selections_MAY_2024/10. Negative Teens ft. Superlative - Stay Quiet.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.1
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Nascen7",
                 "title": "Test Track",
-                "file": "2024/Sim_Selections_MAY_2024/11. NASCEN7 - Test Track.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 65.14
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Lonnon Foster",
                 "title": "Making Mountains feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/12. Lonnon Foster - Making Mountains feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.02
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Poetry In Noise",
                 "title": "emBap Ft. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/13. Poetry In Noise - emBap Ft. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.76
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Dedblank",
                 "title": "Hmmmmm feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/14. dedblank - Hmmmmm feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.02
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Broken Gravity",
                 "title": "Alterlative",
-                "file": "2024/Sim_Selections_MAY_2024/15. Broken Gravity ft. Superlative - Alterlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 76.3
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Prysm",
                 "title": "Loch Ness Monster",
-                "file": "2024/Sim_Selections_MAY_2024/16. PrYsM - Loch Ness Monster.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/prvsm/loch-ness-monster",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.68
+                "canonical_artists": [
+                    "prysm"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Ducks",
                 "title": "the boy s rappin feat. superlative",
-                "file": "2024/Sim_Selections_MAY_2024/17. ducks - the boy s rappin feat. superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 95.14
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Robert Redshaw",
                 "title": "Humidity",
-                "file": "2024/Sim_Selections_MAY_2024/18. Robert Redshaw - Humidity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.04
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Skitter",
                 "title": "Mindset feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/19. Skitter - Mindset feat. Superlative.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/mindset",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.83
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Astar, A Robot",
                 "title": "Stay Damaging feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/20. Astar, a Robot - Stay Damaging feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.9
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Perlin",
                 "title": "Vienna",
-                "file": "2024/Sim_Selections_MAY_2024/21. Perlin - Vienna.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.36
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Procrastronaut",
                 "title": "To a New Beginning",
-                "file": "2024/Sim_Selections_MAY_2024/22. Procrastronaut - To a New Beginning.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.04
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Takamoon",
                 "title": "-est  feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/23. Takamoon - -est  feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 72.17
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Jungle Pickle",
                 "title": "gattb",
-                "file": "2024/Sim_Selections_MAY_2024/24. jungle pickle - gattb.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/gattb?si=87d4536fbb494b88a05a4de8f196d473&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 145.56
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Stu M",
                 "title": "6AM feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/25. Stu M - 6AM feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.51
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Moiko",
                 "title": "Bad Vibes is Damaging (feat. Superlative)",
-                "file": "2024/Sim_Selections_MAY_2024/26. moiko - Bad Vibes is Damaging (feat. Superlative).mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/ricvGN6eceMaDPjMA",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.97
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Dream Static",
                 "title": "I Could Be Safe",
-                "file": "2024/Sim_Selections_MAY_2024/27. Dream Static feat. Superlative - I Could Be Safe.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.98
+                "canonical_artists": [
+                    "dreamstatic"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Jacketpocket",
                 "title": "WHaTS HaPPeNiN (feat. Superlative)",
-                "file": "2024/Sim_Selections_MAY_2024/28. jacketpocket, Superlative - WHaTS HaPPeNiN (feat. Superlative).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/traviedoodle/whats-happenin-feat-superlative",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.3
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Euskalduna",
                 "title": "61 Marker feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/29. euskalduna - 61 Marker feat. Superlative.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.79
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Pathing",
                 "title": "Pembroke",
-                "file": "2024/Sim_Selections_MAY_2024/30. pathing - Pembroke.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/pathing/pembroke",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.22
+                "canonical_artists": [
+                    "pathing"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Skyguide",
                 "title": "mindset feat. Superlative",
-                "file": "2024/Sim_Selections_MAY_2024/31. Skyguide ; Superlative - mindset feat. Superlative.mp4",
+                "file": "",
                 "link": "https://youtu.be/oFGSkX5vc4w?si=GQ1szkFN2swe4Hnn",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.73
+                "canonical_artists": [
+                    "skyguide"
+                ]
             }
         ]
     },
@@ -9700,371 +11422,435 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Derek Shunia",
                 "title": "As the Sun Begins to Set",
-                "file": "2024/Sim_Selections_JUNE_2024/01. Derek Shunia - As the Sun Begins to Set.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 356.68
+                "canonical_artists": [
+                    "derekshunia"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "dedblank",
                 "title": "Confusion (dedblank 99%stem confused remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/02. dedblank - Confusion (dedblank 99%stem confused remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.63
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Nornec",
                 "title": "Confusion (Stoic Remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/03. Nornec - Confusion (Stoic Remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.02
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Broken Gravity",
                 "title": "The Hidden Entrance",
-                "file": "2024/Sim_Selections_JUNE_2024/04. Broken Gravity - The Hidden Entrance.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.31
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Negative Teens",
                 "title": "Lofi Music to Study Forensics",
-                "file": "2024/Sim_Selections_JUNE_2024/05. Negative Teens - Lofi Music to Study Forensics.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.93
+                "canonical_artists": [
+                    "negativeteens"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Teapotahedron",
                 "title": "Taking Punches",
-                "file": "2024/Sim_Selections_JUNE_2024/06. Teapotahedron - Taking Punches.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 119.64
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Seth Monyette",
                 "title": "Recoil",
-                "file": "2024/Sim_Selections_JUNE_2024/07. Seth Monyette - Recoil.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.27
+                "canonical_artists": [
+                    "sethmonyette"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "moiko",
                 "title": "Confusion (feat. Nornec)",
-                "file": "2024/Sim_Selections_JUNE_2024/08. moiko - Confusion (feat. Nornec).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.7
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "stupidPilled",
                 "title": "where_man_ends_and_machine_begins...",
-                "file": "2024/Sim_Selections_JUNE_2024/09. stupidPilled - where_man_ends_and_machine_begins....mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.32
+                "canonical_artists": [
+                    "stupidpilled"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Buttons",
                 "title": "Assisi",
-                "file": "2024/Sim_Selections_JUNE_2024/10. Buttons - Assisi.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.09
+                "canonical_artists": [
+                    "buttons"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Donoru",
                 "title": "Impulse",
-                "file": "2024/Sim_Selections_JUNE_2024/11. Donoru - Impulse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 312.03
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Default Media Transmitter;Nornec",
                 "title": "Confusion remix",
-                "file": "2024/Sim_Selections_JUNE_2024/03. Default Media Transmitter;Nornec - Confusion remix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.14
+                "canonical_artists": [
+                    "defaultmediatransmitter",
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Amadeus B Snivelitch",
                 "title": "We Run (Nornec - Confusion done redid)",
-                "file": "2024/Sim_Selections_JUNE_2024/13. Amadeus B Snivelitch - We Run (Nornec - Confusion done redid).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.46
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "IamNabil",
                 "title": "I am not interested in this conversation",
-                "file": "2024/Sim_Selections_JUNE_2024/13. IamNabil - I am not interested in this conversation.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.7
+                "canonical_artists": [
+                    "iamnabil"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "jungle pickle",
                 "title": "hindsight",
-                "file": "2024/Sim_Selections_JUNE_2024/10. jungle pickle - hindsight.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/hindsight?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=133dc6fa156043449c1bb72af17d858a",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.75
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Nornec",
                 "title": "Confusion (Aplut Remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/01. Nornec - Confusion (Aplut Remix).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/aplutofficial/nornec-confusion-aplut-remixx",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.56
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Stu M",
                 "title": "Nornec Confusion Remix",
-                "file": "2024/Sim_Selections_JUNE_2024/17. Stu M - Nornec Confusion Remix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.83
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Nornec",
                 "title": "Special Thanks",
-                "file": "2024/Sim_Selections_JUNE_2024/18. Nornec - Special Thanks.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 417.79
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Procrastronaut",
                 "title": "Organ Ick",
-                "file": "2024/Sim_Selections_JUNE_2024/12. Procrastronaut - Organ Ick.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.03
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "ducks",
                 "title": "con foo son (Nornec - Confusion Remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/20. ducks - con foo son (Nornec - Confusion Remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.56
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Edwin",
                 "title": "Many Spaces (feat. Nornec)",
-                "file": "2024/Sim_Selections_JUNE_2024/08. Edwin - Many Spaces (feat. Nornec).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 267.22
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Perlin",
                 "title": "Confusion - Nornec (Perlin Remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/22. Perlin - Confusion - Nornec (Perlin Remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.43
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Procrastronaut",
                 "title": "Nornec - Confusion (Procrastronaut Remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/23. Procrastronaut - Nornec - Confusion (Procrastronaut Remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.03
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Ara Cristina",
                 "title": "THE KNIFE",
-                "file": "2024/Sim_Selections_JUNE_2024/19. Ara Cristina - THE KNIFE.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.04
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Nornec",
                 "title": "Confusion (AJB Remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/14. Nornec - Confusion (AJB Remix).mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/confusion-ajb-remix-bandcamp-exclusive",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.22
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Nornec",
                 "title": "Confusion (err: Rawr remix)",
-                "file": "2024/Sim_Selections_JUNE_2024/02. Nornec - Confusion (err_ Rawr remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.37
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Astar, a Robot",
                 "title": "Blood Circuit",
-                "file": "2024/Sim_Selections_JUNE_2024/05. Astar, a Robot - Blood Circuit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.08
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "informationcake",
                 "title": "Not OK (Nornec - Confusion remake)",
-                "file": "2024/Sim_Selections_JUNE_2024/32. informationcake - Not OK (Nornec - Confusion remake).mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 348.0
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Hunter the Gatherer",
                 "title": "So Glad You Made It",
-                "file": "2024/Sim_Selections_JUNE_2024/09. Hunter the Gatherer - So Glad You Made It.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.03
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "jacketpocket",
                 "title": "Beware",
-                "file": "2024/Sim_Selections_JUNE_2024/04. jacketpocket - Beware.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.89
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Skitter",
                 "title": "The Lounge",
-                "file": "2024/Sim_Selections_JUNE_2024/31. Skitter - The Lounge.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.45
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "fallen princess",
                 "title": "Evening Glow (Nornec - Confusion Reimagining)",
-                "file": "2024/Sim_Selections_JUNE_2024/06. fallen princess - Evening Glow (Nornec - Confusion Reimagining).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.02
+                "canonical_artists": [
+                    "fallenprincess"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "jacketpocket vs PonyArt",
                 "title": "Haunted",
-                "file": "2024/Sim_Selections_JUNE_2024/28. jacketpocket vs PonyArt - Haunted.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.45
+                "canonical_artists": [
+                    "jacketpocket",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Sir Fancy",
                 "title": "Not Okay",
-                "file": "2024/Sim_Selections_JUNE_2024/21. Sir Fancy - Not Okay.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.42
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Robert Redshaw",
                 "title": "Phasm",
-                "file": "2024/Sim_Selections_JUNE_2024/07. Robert Redshaw - Phasm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.38
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Poetry In Noise",
                 "title": "4 Poems",
-                "file": "2024/Sim_Selections_JUNE_2024/36. Poetry In Noise - 4 Poems.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.24
-            },
-            {
-                "trackNo": 37,
-                "artist": "Muggi B",
-                "title": "Land of Lobotomise",
-                "file": "2024/Sim_Selections_JUNE_2024/37. Muggi B - Land of Lobotomise.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 275.05
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             }
         ]
     },
@@ -10085,281 +11871,326 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "fulhjort",
                 "title": "Macgyvering a Swiss Android",
-                "file": "2024/Sim_Selections_JULY_2024/01. fulhjort - Macgyvering a Swiss Android.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.13
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Edwin",
                 "title": "Precog Hot Summer Chill Jam",
-                "file": "2024/Sim_Selections_JULY_2024/02. Edwin - Precog Hot Summer Chill Jam.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=ygTG0dG6_Ao",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.95
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "moiko",
                 "title": "Elevate",
-                "file": "2024/Sim_Selections_JULY_2024/03. moiko - Elevate.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.5
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Computrhead",
                 "title": "Algernon",
-                "file": "2024/Sim_Selections_JULY_2024/04. Computrhead - Algernon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 286.37
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Film for the Future",
                 "title": "Sirens",
-                "file": "2024/Sim_Selections_JULY_2024/05. Film for the Future - Sirens.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.03
+                "canonical_artists": [
+                    "filmforthefuture"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Adam Johan Bergren",
                 "title": "Ruminate on Change of State",
-                "file": "2024/Sim_Selections_JULY_2024/06. Adam Johan Bergren - Ruminate on Change of State.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/ruminate-on-change-of-state",
                 "optIn": false,
                 "canPlay": false,
-                "length": 286.08
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Perlin",
                 "title": "Sleeping Through The Fire Alarm",
-                "file": "2024/Sim_Selections_JULY_2024/07. Perlin - Sleeping Through The Fire Alarm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.03
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Astar, a Robot",
                 "title": "Cosmic Noon",
-                "file": "2024/Sim_Selections_JULY_2024/08. Astar, a Robot - Cosmic Noon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 112.17
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Stu m & PonyArt",
                 "title": "Ukiyo feat. Mad Hed City",
-                "file": "2024/Sim_Selections_JULY_2024/09. Stu m & PonyArt - Ukiyo feat. Mad Hed City.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.6
+                "canonical_artists": [
+                    "stum",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Hunter the Gatherer",
                 "title": "False Alarm",
-                "file": "2024/Sim_Selections_JULY_2024/11. Hunter the Gatherer - False Alarm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.23
-            },
-            {
-                "trackNo": 10,
-                "artist": "Muggi B",
-                "title": "OFFLINE",
-                "file": "2024/Sim_Selections_JULY_2024/10. Muggi B - OFFLINE.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 248.03
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "DREWILLARD",
                 "title": "I Like to Run",
-                "file": "2024/Sim_Selections_JULY_2024/12. DREWILLARD - I Like to Run.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.74
+                "canonical_artists": [
+                    "drewillard"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "No Time To Mix",
                 "title": "Just Put Infiltrator On It",
-                "file": "2024/Sim_Selections_JULY_2024/13. No Time To Mix - Just Put Infiltrator On It.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.21
+                "canonical_artists": [
+                    "notimetomix"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "PrYsM",
                 "title": "Good2BeBack",
-                "file": "2024/Sim_Selections_JULY_2024/14. PrYsM - Good2BeBack.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.46
+                "canonical_artists": [
+                    "prysm"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "wisteria",
                 "title": "butterfly",
-                "file": "2024/Sim_Selections_JULY_2024/15. wisteria - butterfly.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.3
+                "canonical_artists": [
+                    "wisteria"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "kanaris",
                 "title": "4sound",
-                "file": "2024/Sim_Selections_JULY_2024/16. kanaris - 4sound.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.89
+                "canonical_artists": [
+                    "kanaris"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "dedblank",
                 "title": "Oh (WIP)",
-                "file": "2024/Sim_Selections_JULY_2024/17. dedblank - Oh (WIP).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.87
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "KrovvyTheRed",
                 "title": "Ten Tabulae (Four Part)",
-                "file": "2024/Sim_Selections_JULY_2024/18. KrovvyTheRed - Ten Tabulae (Four Part).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 151.61
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Procrastronaut",
                 "title": "On Empty",
-                "file": "2024/Sim_Selections_JULY_2024/19. Procrastronaut - On Empty.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.05
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "c alt",
                 "title": "lost in process",
-                "file": "2024/Sim_Selections_JULY_2024/20. c alt - lost in process.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.09
+                "canonical_artists": [
+                    "calt"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "pathing",
                 "title": "Vacillate",
-                "file": "2024/Sim_Selections_JULY_2024/21. pathing - Vacillate.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.66
+                "canonical_artists": [
+                    "pathing"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Sir Fancy",
                 "title": "Lofi Interlude to Study(slash)Fight Fires To",
-                "file": "2024/Sim_Selections_JULY_2024/22. Sir Fancy - Lofi Interlude to Study(slash)Fight Fires To.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.86
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "stupidPilled",
                 "title": "XxxSingularSamplexxX",
-                "file": "2024/Sim_Selections_JULY_2024/23. stupidPilled - XxxSingularSamplexxX.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.43
+                "canonical_artists": [
+                    "stupidpilled"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Long Century of The Surreal",
                 "title": "Ultra Low",
-                "file": "2024/Sim_Selections_JULY_2024/24. Long Century of The Surreal - Ultra Low.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.73
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Takamoon",
                 "title": "Beats Are Meant To Be Broken",
-                "file": "2024/Sim_Selections_JULY_2024/25. Takamoon - Beats Are Meant To Be Broken.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.77
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Skitter",
                 "title": "Some Scribbles",
-                "file": "2024/Sim_Selections_JULY_2024/26. Skitter - Some Scribbles.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/production-hell",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.92
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Poetry in Noise",
                 "title": "Voiceless",
-                "file": "2024/Sim_Selections_JULY_2024/27. Poetry in Noise - Voiceless.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.7
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "jungle pickle",
                 "title": "when the heat is on",
-                "file": "2024/Sim_Selections_JULY_2024/28. jungle pickle - when the heat is on.mp4",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/when-the-heat-is-on?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=1279bad7cc664716b43e9683a2b7ae8f",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.93
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -10380,251 +12211,289 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Stu M",
                 "title": "MNTN",
-                "file": "2024/Sim_Selections_AUGUST_2024/01. Stu M - MNTN.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.1
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "The Elk Lodge",
                 "title": "Fibber Nietzsches Lighthouse",
-                "file": "2024/Sim_Selections_AUGUST_2024/02. The Elk Lodge - Fibber Nietzsches Lighthouse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.4
+                "canonical_artists": [
+                    "theelklodge"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Edwin",
                 "title": "Endless Summer Memory",
-                "file": "2024/Sim_Selections_AUGUST_2024/03. Edwin - Endless Summer Memory.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=nUAz0bcPMUU",
                 "optIn": false,
                 "canPlay": false,
-                "length": 172.23
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Takamoon",
                 "title": "Uninspired By Real Events",
-                "file": "2024/Sim_Selections_AUGUST_2024/04. Takamoon - Uninspired By Real Events.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.18
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Astar, a Robot",
                 "title": "Robot Exploration Project",
-                "file": "2024/Sim_Selections_AUGUST_2024/05. Astar, a Robot - Robot Exploration Project.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.46
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "dedblank",
                 "title": "F og In vesti gation",
-                "file": "2024/Sim_Selections_AUGUST_2024/06. dedblank - F og In vesti gation.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.02
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake",
                 "title": "Soft Light",
-                "file": "2024/Sim_Selections_AUGUST_2024/07. informationcake - Soft Light.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 404.82
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "kruvek",
                 "title": "Lighthouse",
-                "file": "2024/Sim_Selections_AUGUST_2024/08. kruvek - Lighthouse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.57
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "fulhjort",
                 "title": "Didnt Mean To Type Groin",
-                "file": "2024/Sim_Selections_AUGUST_2024/09. fulhjort - Didnt Mean To Type Groin.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.24
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Long Century of The Surreal",
                 "title": "The Navigator",
-                "file": "2024/Sim_Selections_AUGUST_2024/10. Long Century of The Surreal - The Navigator.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.24
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "pathing",
                 "title": "Hungarian Infarction",
-                "file": "2024/Sim_Selections_AUGUST_2024/11. pathing - Hungarian Infarction.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.74
+                "canonical_artists": [
+                    "pathing"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Skitter",
                 "title": "Unfamiliar Thoughts",
-                "file": "2024/Sim_Selections_AUGUST_2024/12. Skitter - Unfamiliar Thoughts.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.96
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "jacketpocket",
                 "title": "Point Hope",
-                "file": "2024/Sim_Selections_AUGUST_2024/13. jacketpocket - Point Hope.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.03
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Perlin",
                 "title": "Lighthouse",
-                "file": "2024/Sim_Selections_AUGUST_2024/14. Perlin - Lighthouse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.3
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Robert Redshaw",
                 "title": "The Storm",
-                "file": "2024/Sim_Selections_AUGUST_2024/15. Robert Redshaw - The Storm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.65
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Poetry in Noise",
                 "title": "The Light from Outside",
-                "file": "2024/Sim_Selections_AUGUST_2024/16. Poetry in Noise - The Light from Outside.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.26
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "DREWILLARD",
                 "title": "Hit the Ground",
-                "file": "2024/Sim_Selections_AUGUST_2024/17. DREWILLARD - Hit the Ground.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.47
+                "canonical_artists": [
+                    "drewillard"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Lonnon Foster",
                 "title": "Phi Life",
-                "file": "2024/Sim_Selections_AUGUST_2024/18. Lonnon Foster - Phi Life.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.56
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Sir Fancy",
                 "title": "The Universe Beacon",
-                "file": "2024/Sim_Selections_AUGUST_2024/19. Sir Fancy - The Universe Beacon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.1
+                "canonical_artists": [
+                    "sirfancy"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "PonyArt",
                 "title": "Lets take a moment together",
-                "file": "2024/Sim_Selections_AUGUST_2024/20. PonyArt - Lets take a moment together.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.36
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "KooDaiSung",
                 "title": "AA384",
-                "file": "2024/Sim_Selections_AUGUST_2024/21. KooDaiSung - AA384.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.84
+                "canonical_artists": [
+                    "koodaisung"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Adam Johan Bergren",
                 "title": "Uncrypting",
-                "file": "2024/Sim_Selections_AUGUST_2024/22. Adam Johan Bergren - Uncrypting.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/uncrypting",
                 "optIn": false,
                 "canPlay": false,
-                "length": 242.66
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "jungle pickle",
                 "title": "lighthouse",
-                "file": "2024/Sim_Selections_AUGUST_2024/23. jungle pickle - lighthouse.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/the-storm?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=91312ecd6574448d9e98103631021301",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.02
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Procrastronaut",
                 "title": "bbadekidubb",
-                "file": "2024/Sim_Selections_AUGUST_2024/24. Procrastronaut - bbadekidubb.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.03
-            },
-            {
-                "trackNo": 25,
-                "artist": "BS Reactor",
-                "title": "Lite House",
-                "file": "2024/Sim_Selections_AUGUST_2024/25. BS Reactor - Lite House.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 125.96
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             }
         ]
     },
@@ -10645,301 +12514,363 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Monkey Luckless",
                 "title": "Forever Ever",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/01. Monkey Luckless - Forever Ever.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 127.54
+                "canonical_artists": [
+                    "monkeyluckless"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Poetry In Noise",
                 "title": "In nomine Citrea",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/02. Poetry In Noise - In nomine Citrea.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.17
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "kruvek",
                 "title": "Your Trial Has Expired",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/03. kruvek - Your Trial Has Expired.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.2
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "jungle pickle",
                 "title": "youve got time",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/04. jungle pickle - youve got time.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/youve-got-time?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=621225d8b8d747989c53c7922929ac85",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.02
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Hunter the Gatherer",
                 "title": "Holy Fire",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/05. Hunter the Gatherer - Holy Fire.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.89
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "jacketpocket, Mason",
                 "title": "Raging River (Masons Blues)",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/06. jacketpocket, Mason - Raging River (Masons Blues).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.36
+                "canonical_artists": [
+                    "jacketpocket",
+                    "mason"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "CayZe",
                 "title": "Eternal Reign",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/07. CayZe - Eternal Reign.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.14
+                "canonical_artists": [
+                    "cayze"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Edwin",
                 "title": "Summer End",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/08. Edwin - Summer End.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=EHUWTIQNb3Q",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.85
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Mark Feifarek",
                 "title": "Circuit",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/09. Mark Feifarek - Circuit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.77
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Lonnon Foster",
                 "title": "Iron Star Orbit",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/10. Lonnon Foster - Iron Star Orbit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.98
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Perlin",
                 "title": "Glittermine",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/11. Perlin - Glittermine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.53
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "ducks",
                 "title": "blood.moon",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/12. ducks - blood.moon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 260.62
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Adam Johan Bergren",
                 "title": "Tortuosity",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/13. Adam Johan Bergren - Tortuosity.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/tortuosity",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.18
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "b",
                 "title": "loontype",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/14. b - loontype.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.19
+                "canonical_artists": [
+                    "b"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "LuckyTamagotchi",
                 "title": "Eternity",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/15. LuckyTamagotchi - Eternity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.67
+                "canonical_artists": [
+                    "luckytamagotchi"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "wisteria & informationcake",
                 "title": "Eternity",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/16. wisteria & informationcake - Eternity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 339.41
+                "canonical_artists": [
+                    "wisteria",
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "dedblank",
                 "title": "fwd",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/17. dedblank - fwd.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.14
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Zero Lucks Given",
                 "title": "Cannot Come Home",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/18. Zero Lucks Given - Cannot Come Home.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/cant-come-home",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.03
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Procrastronaut",
                 "title": "Hunger",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/19. Procrastronaut - Hunger.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.02
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "fulhjort",
                 "title": "colonized apstrophe paranthesis",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/20. fulhjort - colonized apstrophe paranthesis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.42
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Ara Cristina",
                 "title": "FABRIC",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/21. Ara Cristina - FABRIC.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.74
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "truck (but with a leading underscore like my discord handle)",
                 "title": "Anathema (Excerpt From Live Set Chicago, IL 9-5-24)",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/22. truck (but with a leading underscore like my discord handle) - Anathema (Excerpt From Live Set Chicago, IL 9-5-24).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.82
+                "canonical_artists": [
+                    "truckbutwithaleadingunderscorelikemydiscordhandle"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Broken Gravity",
                 "title": "Into the Ever After",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/23. Broken Gravity - Into the Ever After.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.27
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "stoic",
                 "title": "rolling flutter",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/24. stoic - rolling flutter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.35
+                "canonical_artists": [
+                    "stoic"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "err: Rawr",
                 "title": "Out West",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/25. err_ Rawr - Out West.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 263.69
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "KrovvyTheRed",
                 "title": "Romanesca",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/26. KrovvyTheRed - Romanesca.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 148.06
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "moiko",
                 "title": "Slow Magic",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/27. moiko - Slow Magic.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.22
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Takamoon",
                 "title": "Autumn Damage",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/28. Takamoon - Autumn Damage.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.46
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Robert Redshaw",
                 "title": "Li to Os and back",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/29. Robert Redshaw - Li to Os and back.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.37
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "BS Reactor",
                 "title": "St Couilles",
-                "file": "2024/Sim_Selections_SEPTEMBER_2024/30. BS Reactor - St Couilles.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.37
+                "canonical_artists": [
+                    "bsreactor"
+                ]
             }
         ]
     },
@@ -10960,271 +12891,325 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "fulhjort",
                 "title": "Quick one",
-                "file": "2024/Sim_Selections_OCTOBER_2024/01. fulhjort - Quick one.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 97.57
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Poetry in Noise",
                 "title": "Thin Place",
-                "file": "2024/Sim_Selections_OCTOBER_2024/02. Poetry in Noise - Thin Place.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 304.98
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Akila Kavo",
                 "title": "Tape Forest Terror",
-                "file": "2024/Sim_Selections_OCTOBER_2024/03. Akila Kavo - Tape Forest Terror.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 60.84
+                "canonical_artists": [
+                    "akilakavo"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Hunter the Gatherer",
                 "title": "I Dont Mind",
-                "file": "2024/Sim_Selections_OCTOBER_2024/04. Hunter the Gatherer - I Dont Mind.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.3
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "mmm",
                 "title": "Weekly Garlic Banshees",
-                "file": "2024/Sim_Selections_OCTOBER_2024/05. mmm - Weekly Garlic Banshees.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.42
+                "canonical_artists": [
+                    "mmm"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "kruvek",
                 "title": "The Monster Bash",
-                "file": "2024/Sim_Selections_OCTOBER_2024/06. kruvek - The Monster Bash.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.92
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Derek Shunia",
                 "title": "Tokyo Drama",
-                "file": "2024/Sim_Selections_OCTOBER_2024/07. Derek Shunia - Tokyo Drama.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.64
+                "canonical_artists": [
+                    "derekshunia"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Stu M",
                 "title": "Codehip",
-                "file": "2024/Sim_Selections_OCTOBER_2024/08. Stu M - Codehip.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.82
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Skitter",
                 "title": "Downwind",
-                "file": "2024/Sim_Selections_OCTOBER_2024/09. Skitter - Downwind.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/downwind/s-bIlWqM8cB7K?si=b659428dfe79429cb0ef304467d2a14e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.55
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "jungle pickle",
                 "title": "it was an accident",
-                "file": "2024/Sim_Selections_OCTOBER_2024/10. jungle pickle - it was an accident.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/it-was-an-accident?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=be1045be727c41e79e8c89937f676bd4",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.45
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Perlin",
                 "title": "black cats",
-                "file": "2024/Sim_Selections_OCTOBER_2024/11. Perlin - black cats.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.03
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Teapotahedron",
                 "title": "It is under the colors",
-                "file": "2024/Sim_Selections_OCTOBER_2024/12. Teapotahedron - It is under the colors.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.02
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Adam Johan Bergren",
                 "title": "Two Against All Odds",
-                "file": "2024/Sim_Selections_OCTOBER_2024/13. Adam Johan Bergren - Two Against All Odds.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/two-against-all-odds",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.07
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "jacketpocket",
                 "title": "2600 Beat",
-                "file": "2024/Sim_Selections_OCTOBER_2024/14. jacketpocket - 2600 Beat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.24
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "informationcake",
                 "title": "Our Journeys End",
-                "file": "2024/Sim_Selections_OCTOBER_2024/15. informationcake - Our Journeys End.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 326.66
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "PonyArt",
                 "title": "Stung by a FUCKING Bee!",
-                "file": "2024/Sim_Selections_OCTOBER_2024/16. PonyArt - Stung by a FUCKING Bee!.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 75.05
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Edwin",
                 "title": "Fall Haiku 2",
-                "file": "2024/Sim_Selections_OCTOBER_2024/17. Edwin - Fall Haiku 2.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=AWqv-ZqZt90",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.92
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Robert Redshaw",
                 "title": "Summer is Gone",
-                "file": "2024/Sim_Selections_OCTOBER_2024/18. Robert Redshaw - Summer is Gone.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.38
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "NASCEN7",
                 "title": "Flooding In",
-                "file": "2024/Sim_Selections_OCTOBER_2024/19. NASCEN7 - Flooding In.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 257.04
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Procrastronaut",
                 "title": "Dollar Store Emperor",
-                "file": "2024/Sim_Selections_OCTOBER_2024/20. Procrastronaut - Dollar Store Emperor.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.02
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Broken Gravity",
                 "title": "Octobers Ember",
-                "file": "2024/Sim_Selections_OCTOBER_2024/21. Broken Gravity - Octobers Ember.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.77
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "AP",
                 "title": "Unknown Trails",
-                "file": "2024/Sim_Selections_OCTOBER_2024/22. AP - Unknown Trails.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 100.2
+                "canonical_artists": [
+                    "ap"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "err: Rawr",
                 "title": "You",
-                "file": "2024/Sim_Selections_OCTOBER_2024/23. err_ Rawr - You.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.04
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "dedblank",
                 "title": "Fallutumn",
-                "file": "2024/Sim_Selections_OCTOBER_2024/24. dedblank - Fallutumn.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.03
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Ara Cristina",
                 "title": "Decoherence",
-                "file": "2024/Sim_Selections_OCTOBER_2024/25. Ara Cristina - Decoherence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.34
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "BS Reactor",
                 "title": "13th",
-                "file": "2024/Sim_Selections_OCTOBER_2024/26. BS Reactor - 13th.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.15
+                "canonical_artists": [
+                    "bsreactor"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Lonnon Foster",
                 "title": "Escape from Phobos",
-                "file": "2024/Sim_Selections_OCTOBER_2024/27. Lonnon Foster - Escape from Phobos.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.34
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             }
         ]
     },
@@ -11245,281 +13230,338 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "wisteria",
                 "title": "beat_9",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/01. wisteria - beat_9.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.78
+                "canonical_artists": [
+                    "wisteria"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Teapotahedron",
                 "title": "Matches to Ashes",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/02. Teapotahedron - Matches to Ashes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.02
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "dedblank",
                 "title": "latency",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/03. dedblank - latency.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.3
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Ara Cristina",
                 "title": "(reeling)",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/04. Ara Cristina - (reeling).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 330.02
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Perlin",
                 "title": "Campfire Magic",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/05. Perlin - Campfire Magic.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.41
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Astar, a Robot",
                 "title": "Object M104",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/06. Astar, a Robot - Object M104.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.04
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Law Effort",
                 "title": "Frying sausages",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/07. Law Effort - Frying sausages.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.06
+                "canonical_artists": [
+                    "laweffort"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "jacketpocket",
                 "title": "Loved Ones",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/08. jacketpocket - Loved Ones.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 123.02
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Poetry in Noise",
                 "title": "Accendit Ignem",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/09. Poetry in Noise - Accendit Ignem.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.54
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Broken Gravity",
                 "title": "Tall Tales",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/10. Broken Gravity - Tall Tales.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.07
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Hunter the Gatherer",
                 "title": "Honking, Hucka, Snore, and Cackle",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/11. Hunter the Gatherer - Honking, Hucka, Snore, and Cackle.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 78.63
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Procrastronaut",
                 "title": "Fades In Slowly",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/12. Procrastronaut - Fades In Slowly.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.02
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 13,
-                "artist": "infomationcake vs PonyArt",
+                "artist": "informationcake vs PonyArt",
                 "title": "November",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/13. infomationcake vs PonyArt - November.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.43
+                "canonical_artists": [
+                    "informationcake",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Lonnon Foster",
                 "title": "Set this Metaphor Ablaze",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/14. Lonnon Foster - Set this Metaphor Ablaze.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.69
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "informationcake",
                 "title": "Emotional Afterglow",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/15. informationcake - Emotional Afterglow.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 390.27
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Donoru",
                 "title": "Shatter",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/16. Donoru - Shatter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.43
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "err: Rawr",
                 "title": "Paint With No Colour",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/17. err_ Rawr - Paint With No Colour.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.04
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Long Century of The Surreal",
                 "title": "Telluraves",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/18. Long Century of The Surreal - Telluraves.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.59
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Skitter",
                 "title": "Decommissioned Structures",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/19. Skitter - Decommissioned Structures.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.38
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Japanese Seizure Robots",
                 "title": "The Waiting Room",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/20. Japanese Seizure Robots - The Waiting Room.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.42
+                "canonical_artists": [
+                    "japaneseseizurerobots"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Christopher Sisk",
                 "title": "Afterglow",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/21. Christopher Sisk - Afterglow.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 410.06
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Stu M",
                 "title": "HRZNS",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/22. Stu M - HRZNS.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.83
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Deithryn",
                 "title": "Zippo",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/23. Deithryn - Zippo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.47
+                "canonical_artists": [
+                    "deithryn"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "jungle pickle",
                 "title": "rekindled",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/24. jungle pickle - rekindled.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 125.57
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "AmbientSpace",
                 "title": "Nocturne for Benjolin and 4 Horns",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/25. AmbientSpace - Nocturne for Benjolin and 4 Horns.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 314.21
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Adam Johan Bergren",
                 "title": "Mind Palace Wandering",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/26. Adam Johan Bergren - Mind Palace Wandering.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.2
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Edwin",
                 "title": "Kindle Flames",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/27. Edwin - Kindle Flames.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=tcF04YLzY88",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.05
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Robert Redshaw",
                 "title": "Disconnected",
-                "file": "2024/Sim_Selections_NOVEMBER_2024/28. Robert Redshaw - Disconnected.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 161.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             }
         ]
     },
@@ -11540,201 +13582,241 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Teapotahedron",
                 "title": "Stairway to Nowhere",
-                "file": "2024/Sim_Selections_DECEMBER_2024/01. Teapotahedron - Stairway to Nowhere.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.74
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Adam Johan Bergren",
                 "title": "Turbulence",
-                "file": "2024/Sim_Selections_DECEMBER_2024/02. Adam Johan Bergren - Turbulence.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/turbulence",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.19
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Derek Erdmann",
                 "title": "Glucagon",
-                "file": "2024/Sim_Selections_DECEMBER_2024/03. Derek Erdmann - Glucagon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.32
+                "canonical_artists": [
+                    "derekerdmann"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "AmbientSpace",
                 "title": "Lapis Majuscules - An exploration of VCV Blippoo Box, Horns and Virus.",
-                "file": "2024/Sim_Selections_DECEMBER_2024/04. AmbientSpace - Lapis Majuscules - An exploration of VCV Blippoo Box, Horns and Virus_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.76
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Christopher Sisk",
                 "title": "Prince Prospero's Prosperous Dream",
-                "file": "2024/Sim_Selections_DECEMBER_2024/05. Christopher Sisk - Prince Prospero's Prosperous Dream.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.04
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Reark",
                 "title": "Artemis",
-                "file": "2024/Sim_Selections_DECEMBER_2024/06. Reark - Artemis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.06
+                "canonical_artists": [
+                    "reark"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Skitter",
                 "title": "Bell2",
-                "file": "2024/Sim_Selections_DECEMBER_2024/07. Skitter - Bell2.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.12
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "jacketpocket",
                 "title": "Cuckoo",
-                "file": "2024/Sim_Selections_DECEMBER_2024/08. jacketpocket - Cuckoo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.82
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Edwin",
                 "title": "byeeeee. oh hi!",
-                "file": "2024/Sim_Selections_DECEMBER_2024/09. Edwin - byeeeee. oh hi!.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=B_tSMjWVkw8",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.04
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Robert Redshaw",
                 "title": "A Gentle Bend",
-                "file": "2024/Sim_Selections_DECEMBER_2024/10. Robert Redshaw - A Gentle Bend.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.98
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Stu M",
                 "title": "Faded Region",
-                "file": "2024/Sim_Selections_DECEMBER_2024/11. Stu M - Faded Region.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.31
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "AmbientSpace",
                 "title": "Lapis Majuscules - explorations with Blippoo Box, Horns, and Virus",
-                "file": "2024/Sim_Selections_DECEMBER_2024/12. AmbientSpace - Lapis Majuscules - explorations with Blippoo Box, Horns, and Virus.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.76
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "dedblank",
                 "title": "LRon",
-                "file": "2024/Sim_Selections_DECEMBER_2024/13. dedblank - LRon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.3
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "jungle pickle",
                 "title": "jabby",
-                "file": "2024/Sim_Selections_DECEMBER_2024/14. jungle pickle - jabby.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/jabby?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=908b74df09284dd4aa1fd642e4e4c78f",
                 "optIn": false,
                 "canPlay": false,
-                "length": 152.04
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "err: Rawr",
                 "title": "Microbones",
-                "file": "2024/Sim_Selections_DECEMBER_2024/15. err_ Rawr - Microbones.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.95
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Kiwillian",
                 "title": "Hear That Sound (19EDO)",
-                "file": "2024/Sim_Selections_DECEMBER_2024/16. Kiwillian - Hear That Sound (19EDO).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.63
+                "canonical_artists": [
+                    "kiwillian"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Perlin",
                 "title": "Elkenroc Mountain",
-                "file": "2024/Sim_Selections_DECEMBER_2024/17. Perlin - Elkenroc Mountain.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.69
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Long Century of The Surreal",
                 "title": "Cynocephaly",
-                "file": "2024/Sim_Selections_DECEMBER_2024/18. Long Century of The Surreal - Cynocephaly.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.44
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "fulhjort",
                 "title": "Rubber #3",
-                "file": "2024/Sim_Selections_DECEMBER_2024/19. fulhjort - Rubber #3.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.12
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Poetry in Noise",
                 "title": "Paper Raga",
-                "file": "2024/Sim_Selections_DECEMBER_2024/20. Poetry in Noise - Paper Raga.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.01
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             }
         ]
     },
@@ -11755,351 +13837,422 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Broken Gravity",
                 "title": "Sorry, not sorry",
-                "file": "2025/Sim_Selections_JANUARY_2025/01. Broken Gravity - Sorry, not sorry.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.24
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "wisteria / ok seashells",
                 "title": "OVER U",
-                "file": "2025/Sim_Selections_JANUARY_2025/02. wisteria _ ok seashells - OVER U.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.53
+                "canonical_artists": [
+                    "wisteria",
+                    "okseashells"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Adam Johan Bergren",
                 "title": "Penultimate",
-                "file": "2025/Sim_Selections_JANUARY_2025/03. Adam Johan Bergren - Penultimate.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/penultimate",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.25
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "jacketpocket",
                 "title": "Uncertain Dub",
-                "file": "2025/Sim_Selections_JANUARY_2025/04. jacketpocket - Uncertain Dub.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.69
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "ErgoNogo",
                 "title": "Rustbreaker",
-                "file": "2025/Sim_Selections_JANUARY_2025/05. ErgoNogo - Rustbreaker.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 89.42
+                "canonical_artists": [
+                    "ergonogo"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Poetry in Noise",
                 "title": "Acid Walk With Me",
-                "file": "2025/Sim_Selections_JANUARY_2025/06. Poetry in Noise - Acid Walk With Me.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.8
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Robert Redshaw",
                 "title": "And Then",
-                "file": "2025/Sim_Selections_JANUARY_2025/07. Robert Redshaw - And Then.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Derek Shunia",
                 "title": "The Shattered Planet - Prometheus",
-                "file": "2025/Sim_Selections_JANUARY_2025/08. Derek Shunia - The Shattered Planet - Prometheus.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.48
+                "canonical_artists": [
+                    "derekshunia"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Poetry in Noise",
                 "title": "PsyWork",
-                "file": "2025/Sim_Selections_JANUARY_2025/09. Poetry in Noise - PsyWork.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.88
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "frildoh",
                 "title": "future passed",
-                "file": "2025/Sim_Selections_JANUARY_2025/10. frildoh - future passed.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.56
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Takamoon",
                 "title": "Downloaded Baked Potato",
-                "file": "2025/Sim_Selections_JANUARY_2025/11. Takamoon - Downloaded Baked Potato.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.54
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "KwaK",
                 "title": "Pretending it Matters",
-                "file": "2025/Sim_Selections_JANUARY_2025/12. KwaK - Pretending it Matters.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 131.23
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "informationcake",
                 "title": "Hopeless Future",
-                "file": "2025/Sim_Selections_JANUARY_2025/13. informationcake - Hopeless Future.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 378.28
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Edwin",
                 "title": "Garden of Hope and Stuff",
-                "file": "2025/Sim_Selections_JANUARY_2025/14. Edwin - Garden of Hope and Stuff.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=iCObgxXh8hg",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.98
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Stu M",
                 "title": "Pressures",
-                "file": "2025/Sim_Selections_JANUARY_2025/15. Stu M - Pressures.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.09
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "PonyArt",
                 "title": "Old vs New",
-                "file": "2025/Sim_Selections_JANUARY_2025/16. PonyArt - Old vs New.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.09
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "dedblank",
                 "title": "F U N with drones",
-                "file": "2025/Sim_Selections_JANUARY_2025/17. dedblank - F U N with drones.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.02
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "michaelol179",
                 "title": "Swim Season",
-                "file": "2025/Sim_Selections_JANUARY_2025/18. michaelol179 - Swim Season.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.18
+                "canonical_artists": [
+                    "michaelol179"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Derek Erdmann",
                 "title": "TODO Lyrics",
-                "file": "2025/Sim_Selections_JANUARY_2025/19. Derek Erdmann - TODO Lyrics.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.32
+                "canonical_artists": [
+                    "derekerdmann"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Perlin",
                 "title": "Mariana Sauce",
-                "file": "2025/Sim_Selections_JANUARY_2025/20. Perlin - Mariana Sauce.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.66
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "fulhjort",
                 "title": "A headless time",
-                "file": "2025/Sim_Selections_JANUARY_2025/21. fulhjort - A headless time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.29
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Antimancer",
                 "title": "YeeHaw_Surprise",
-                "file": "2025/Sim_Selections_JANUARY_2025/22. Antimancer - YeeHaw_Surprise.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.17
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "jungle pickle",
                 "title": "a new day",
-                "file": "2025/Sim_Selections_JANUARY_2025/23. jungle pickle - a new day.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/a-new-day?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=f808809e623143d49b0c3034402eab2a",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.54
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "AmbientSpace",
                 "title": "Improvisation for Blippoo Box and French Horn",
-                "file": "2025/Sim_Selections_JANUARY_2025/24. AmbientSpace - Improvisation for Blippoo Box and French Horn.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.31
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Lemon Berries",
                 "title": "Rubik's Protocol",
-                "file": "2025/Sim_Selections_JANUARY_2025/25. Lemon Berries - Rubik's Protocol.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.02
+                "canonical_artists": [
+                    "lemonberries"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "err: Rawr",
                 "title": "Pe Es eX",
-                "file": "2025/Sim_Selections_JANUARY_2025/26. err_ Rawr - Pe Es eX.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.85
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Astar, a Robot",
                 "title": "Cepheid Variable",
-                "file": "2025/Sim_Selections_JANUARY_2025/27. Astar, a Robot - Cepheid Variable.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.59
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "daxa",
                 "title": "didnt think (live) fka \"new tracker wheeee\"",
-                "file": "2025/Sim_Selections_JANUARY_2025/28. daxa - didnt think (live) fka _new tracker wheeee_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.03
+                "canonical_artists": [
+                    "daxa"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Fractalint",
                 "title": "432",
-                "file": "2025/Sim_Selections_JANUARY_2025/29. Fractalint - 432.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.36
+                "canonical_artists": [
+                    "fractalint"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "xaqmusic",
                 "title": "Ignis Deorum",
-                "file": "2025/Sim_Selections_JANUARY_2025/30. xaqmusic - Ignis Deorum.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.66
+                "canonical_artists": [
+                    "xaqmusic"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Deithryn",
                 "title": "Skinny dipping",
-                "file": "2025/Sim_Selections_JANUARY_2025/31. Deithryn - Skinny dipping.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.67
+                "canonical_artists": [
+                    "deithryn"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Christopher Sisk",
                 "title": "Occam's Happy Accident",
-                "file": "2025/Sim_Selections_JANUARY_2025/32. Christopher Sisk - Occam's Happy Accident.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.04
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Danetal; Systeemplafond",
                 "title": "Rainy Days",
-                "file": "2025/Sim_Selections_JANUARY_2025/33. Danetal; Systeemplafond - Rainy Days.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.05
+                "canonical_artists": [
+                    "danetalsysteemplafond"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Procrastronaut",
                 "title": "Chasing The Rainbow",
-                "file": "2025/Sim_Selections_JANUARY_2025/34. Procrastronaut - Chasing The Rainbow.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.02
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Tail Glow",
                 "title": "1564",
-                "file": "2025/Sim_Selections_JANUARY_2025/35. Tail Glow - 1564.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.57
+                "canonical_artists": [
+                    "tailglow"
+                ]
             }
         ]
     },
@@ -12120,291 +14273,349 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "NASCEN7",
                 "title": "Words Not Spoken",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/03. NASCEN7 - Words Not Spoken.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 115.1
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "xaqmusic",
                 "title": "Timeless",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/01. xaqmusic - Timeless.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.25
+                "canonical_artists": [
+                    "xaqmusic"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "dedblank",
                 "title": "Noise",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/04. dedblank - Noise.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 211.8
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "jacketpocket",
                 "title": "Numbers",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/05. jacketpocket - Numbers.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.74
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "jungle pickle",
                 "title": "man in the garden",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/06. jungle pickle - man in the garden.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/jungle-pickle/man-in-the-garden?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=0dab613def69446a8a515296a8bbefcf",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Adam Johan Bergren",
                 "title": "Octachoron",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/07. Adam Johan Bergren - Octachoron.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/octachoron",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.48
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Robert Redshaw",
                 "title": "Down Deep",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/08. Robert Redshaw - Down Deep.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.25
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Jordan",
                 "title": "Blueshift",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/09. Jordan - Blueshift.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.34
+                "canonical_artists": [
+                    "jordan"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Takamoon",
                 "title": "Impasto",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/10. Takamoon - Impasto.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.39
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "KrovvyTheRed",
                 "title": "Winter Eludes Me",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/11. KrovvyTheRed - Winter Eludes Me.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.65
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Edwin",
                 "title": "Golden Age",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/12. Edwin - Golden Age.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=4GR2szFiloI",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.5
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "informationcake",
                 "title": "My Dream Fragments",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/13. informationcake - My Dream Fragments.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 428.36
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "GoErikGo",
                 "title": "Last Can of Beans",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/14. GoErikGo - Last Can of Beans.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.46
+                "canonical_artists": [
+                    "goerikgo"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Derek Erdmann",
                 "title": "Decompression",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/15. Derek Erdmann - Decompression.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.15
+                "canonical_artists": [
+                    "derekerdmann"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Shaolin Rib",
                 "title": "MdnsJm",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/16. Shaolin Rib - MdnsJm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.33
+                "canonical_artists": [
+                    "shaolinrib"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Lemon Berries",
                 "title": "Holograham Crackers",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/17. Lemon Berries - Holograham Crackers.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 98.69
+                "canonical_artists": [
+                    "lemonberries"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "vetra miga",
                 "title": "vm-trvlr.xm",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/18. vetra miga - vm-trvlr.xm.mp3",
+                "file": "",
                 "link": "https://youtu.be/d3_tR9gM1JE",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.46
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Lonnon Foster",
                 "title": "Under Green Skies",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/19. Lonnon Foster - Under Green Skies.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.79
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "KwaK",
                 "title": "Talking to the Entity from [REDACTED]",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/20. KwaK - Talking to the Entity from [REDACTED].mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.04
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "AmbientSpace",
                 "title": "Plaits Space",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/21. AmbientSpace - Plaits Space.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.04
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Skitter",
                 "title": "Square Improv",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/22. Skitter - Square Improv.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 42.74
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Stu M",
                 "title": "Entrance Stone",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/23. Stu M - Entrance Stone.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.35
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Antimancer",
                 "title": "George_T",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/24. Antimancer - George_T.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 140.18
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Teapotahedron",
                 "title": "Solar Zephyr",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/25. Teapotahedron - Solar Zephyr.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.04
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Poetry in Noise",
                 "title": "The Title is Elsewhere",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/26. Poetry in Noise - The Title is Elsewhere.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.03
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Procrastronaut",
                 "title": "Spaces",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/27. Procrastronaut - Spaces.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.03
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "NASCEN7",
                 "title": "Memorae Aeternum I",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/28. NASCEN7 - Memorae Aeternum I.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 118.92
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "First Sun",
                 "title": "Dimensions In Chaos",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/29. First Sun - Dimensions In Chaos.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.64
+                "canonical_artists": [
+                    "firstsun"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "fulhjort",
                 "title": "My Apologies To Your Ears",
-                "file": "2025/Sim_Selections_FEBRUARY_2025/02. fulhjort - My Apologies To Your Ears.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 348.97
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             }
         ]
     },
@@ -12425,291 +14636,349 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Astar, a Robot",
                 "title": "Transit",
-                "file": "2025/Sim_Selections_MARCH_2025/01. Astar, a Robot - Transit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.7
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "dedblank",
                 "title": "Rising Clutches (Bronchitis Mix)",
-                "file": "2025/Sim_Selections_MARCH_2025/02. dedblank - Rising Clutches (Bronchitis Mix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.71
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Softcore Toucan",
                 "title": "To Accept Dystopia",
-                "file": "2025/Sim_Selections_MARCH_2025/03. Softcore Toucan - To Accept Dystopia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.85
+                "canonical_artists": [
+                    "softcoretoucan"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Perlin",
                 "title": "Windmill Savannah",
-                "file": "2025/Sim_Selections_MARCH_2025/04. Perlin - Windmill Savannah.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.41
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "michaelol179",
                 "title": "Shinkansen",
-                "file": "2025/Sim_Selections_MARCH_2025/05. michaelol179 - Shinkansen.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 82.31
+                "canonical_artists": [
+                    "michaelol179"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Poetry in Noise",
                 "title": "Manny's Dance",
-                "file": "2025/Sim_Selections_MARCH_2025/06. Poetry in Noise - Manny's Dance.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 167.58
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Antimancer",
                 "title": "spiritual_successor7",
-                "file": "2025/Sim_Selections_MARCH_2025/07. Antimancer - spiritual_successor7.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.86
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Cathartic Reunion",
                 "title": "Resigned",
-                "file": "2025/Sim_Selections_MARCH_2025/08. Cathartic Reunion - Resigned.mp3",
+                "file": "",
                 "link": "https://catharticreunion.bandcamp.com/track/resigned",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.05
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Procrastronaut",
                 "title": "Look, Ryan",
-                "file": "2025/Sim_Selections_MARCH_2025/09. Procrastronaut - Look, Ryan.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.55
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Fine Structure Constant",
                 "title": "Dust To Dust",
-                "file": "2025/Sim_Selections_MARCH_2025/10. Fine Structure Constant - Dust To Dust.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/dust-to-dust",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.02
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Skitter",
                 "title": "BEEK",
-                "file": "2025/Sim_Selections_MARCH_2025/11. Skitter - BEEK.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/beek",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.04
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Adam Johan Bergren",
                 "title": "Multimodality",
-                "file": "2025/Sim_Selections_MARCH_2025/12. Adam Johan Bergren - Multimodality.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/multimodality",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.65
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Drum Node",
                 "title": "Blok feat. Mad Hed City",
-                "file": "2025/Sim_Selections_MARCH_2025/13. Drum Node - Blok feat. Mad Hed City.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.63
+                "canonical_artists": [
+                    "drumnode"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Jordan",
                 "title": "Am",
-                "file": "2025/Sim_Selections_MARCH_2025/14. Jordan - Am.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.82
+                "canonical_artists": [
+                    "jordan"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Christopher Sisk",
                 "title": "It All Happened So Fast",
-                "file": "2025/Sim_Selections_MARCH_2025/15. Christopher Sisk - It All Happened So Fast.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.03
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "AmbientSpace",
                 "title": "Plaits Space v2 - The Journey Continues",
-                "file": "2025/Sim_Selections_MARCH_2025/16. AmbientSpace - Plaits Space v2 - The Journey Continues.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 308.62
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "frildoh",
                 "title": "Lore(n)",
-                "file": "2025/Sim_Selections_MARCH_2025/17. frildoh - Lore(n).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.83
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "jacketpocket",
                 "title": "Don't Worry So Much",
-                "file": "2025/Sim_Selections_MARCH_2025/18. jacketpocket - Don't Worry So Much.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.89
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Long Century of The Surreal",
                 "title": "En Prison",
-                "file": "2025/Sim_Selections_MARCH_2025/19. Long Century of The Surreal - En Prison.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.57
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "kruvek",
                 "title": "Scapeshift_003",
-                "file": "2025/Sim_Selections_MARCH_2025/20. kruvek - Scapeshift_003.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.71
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Edwin",
                 "title": "Over Glow Transit",
-                "file": "2025/Sim_Selections_MARCH_2025/21. Edwin - Over Glow Transit.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=vxvwMaGtwZY",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.94
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "jungle pickle",
                 "title": "jenny of the soul",
-                "file": "2025/Sim_Selections_MARCH_2025/22. jungle pickle - jenny of the soul.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.58
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Stu M",
                 "title": "Earthshine",
-                "file": "2025/Sim_Selections_MARCH_2025/23. Stu M - Earthshine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.03
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "err: Rawr",
                 "title": "Hey",
-                "file": "2025/Sim_Selections_MARCH_2025/24. err_ Rawr - Hey.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.01
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Teapotahedron",
                 "title": "Empty Vessel Travels Faster",
-                "file": "2025/Sim_Selections_MARCH_2025/25. Teapotahedron - Empty Vessel Travels Faster.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.31
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "KwaK",
                 "title": "We Do Recover",
-                "file": "2025/Sim_Selections_MARCH_2025/26. KwaK - We Do Recover.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.92
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Donoru",
                 "title": "Fracture",
-                "file": "2025/Sim_Selections_MARCH_2025/27. Donoru - Fracture.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.28
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "fulhjort as Lith um Oh",
                 "title": "A shorter and slightly different take",
-                "file": "2025/Sim_Selections_MARCH_2025/28. fulhjort as Lith um Oh - A shorter and slightly different take.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.42
+                "canonical_artists": [
+                    "fulhjortaslithumoh"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "informationcake",
                 "title": "Modes Of The Soul",
-                "file": "2025/Sim_Selections_MARCH_2025/29. informationcake - Modes Of The Soul.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 538.67
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             }
         ]
     },
@@ -12730,331 +14999,402 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "PonyArt",
                 "title": "Too many ideas WIP",
-                "file": "2025/Sim_Selections_APRIL_2025/01. PonyArt - Too many ideas WIP.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 434.83
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Cathartic Reunion",
                 "title": "Frozen Trajectory (Cathartic Reunion Remix)",
-                "file": "2025/Sim_Selections_APRIL_2025/02. Cathartic Reunion - Frozen Trajectory (Cathartic Reunion Remix).mp3",
+                "file": "",
                 "link": "https://catharticreunion.bandcamp.com/track/the-flashbulb-frozen-trajectory-remix",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.91
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Softcore Toucan",
                 "title": "The Next Revolution's Tremors",
-                "file": "2025/Sim_Selections_APRIL_2025/03. Softcore Toucan - The Next Revolution's Tremors.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 70.94
+                "canonical_artists": [
+                    "softcoretoucan"
+                ]
             },
             {
                 "trackNo": 4,
-                "artist": "The Flashbulb",
+                "artist": "Adam Johan Bergren ; The Flashbulb",
                 "title": "Frozen Trajectory (AJB Remix)",
-                "file": "2025/Sim_Selections_APRIL_2025/04. The Flashbulb - Frozen Trajectory (AJB Remix).mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/frozen-trajectory-ajb-remix",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.86
+                "canonical_artists": [
+                    "adamjohanbergren",
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Skitter",
                 "title": "Frozen Trajectory (Skitter Flip)",
-                "file": "2025/Sim_Selections_APRIL_2025/05. Skitter - Frozen Trajectory (Skitter Flip).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/frozen-trajectory-skitter-flip",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.03
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Lonnon Foster",
                 "title": "Frozen Trajectory (Lonnon Foster Remix)",
-                "file": "2025/Sim_Selections_APRIL_2025/06. Lonnon Foster - Frozen Trajectory (Lonnon Foster Remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.9
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Long Century of The Surreal",
                 "title": "Quarries (Frozen Trajectory Interpolation)",
-                "file": "2025/Sim_Selections_APRIL_2025/07. Long Century of The Surreal - Quarries (Frozen Trajectory Interpolation).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.53
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Fjaru",
                 "title": "Adversarial noise",
-                "file": "2025/Sim_Selections_APRIL_2025/08. Fjaru - Adversarial noise.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.56
+                "canonical_artists": [
+                    "fjaru"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Intent Unknown",
                 "title": "A Hymn Sung By Ice",
-                "file": "2025/Sim_Selections_APRIL_2025/09. Intent Unknown - A Hymn Sung By Ice.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.61
+                "canonical_artists": [
+                    "intentunknown"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Poetry in Noise",
                 "title": "Eats Swan Oat",
-                "file": "2025/Sim_Selections_APRIL_2025/10. Poetry in Noise - Eats Swan Oat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.51
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Fine Structure Constant",
                 "title": "Stasis",
-                "file": "2025/Sim_Selections_APRIL_2025/11. Fine Structure Constant - Stasis.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/stasis",
                 "optIn": false,
                 "canPlay": false,
-                "length": 201.82
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "KwaK",
                 "title": "Enure",
-                "file": "2025/Sim_Selections_APRIL_2025/12. KwaK - Enure.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 242.23
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Perlin",
                 "title": "Frozen Trajectory - Perlin Remix",
-                "file": "2025/Sim_Selections_APRIL_2025/13. Perlin - Frozen Trajectory - Perlin Remix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 151.95
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "stupidPilled",
                 "title": "Frozen Something Or Other",
-                "file": "2025/Sim_Selections_APRIL_2025/14. stupidPilled - Frozen Something Or Other.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.15
+                "canonical_artists": [
+                    "stupidpilled"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "vetra miga",
                 "title": "elara",
-                "file": "2025/Sim_Selections_APRIL_2025/15. vetra miga - elara.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.98
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "IKAN",
                 "title": "Frozen Trajectory (In Crushed Stasis Mix)",
-                "file": "2025/Sim_Selections_APRIL_2025/16. IKAN - Frozen Trajectory (In Crushed Stasis Mix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.04
+                "canonical_artists": [
+                    "ikan"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "fulhjort vs The Flashbulb",
                 "title": "Trazen Frojectory",
-                "file": "2025/Sim_Selections_APRIL_2025/17. fulhjort vs The Flashbulb - Trazen Frojectory.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.04
+                "canonical_artists": [
+                    "fulhjort",
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "The Elk Lodge",
                 "title": "Cryotonic",
-                "file": "2025/Sim_Selections_APRIL_2025/18. The Elk Lodge - Cryotonic.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.05
+                "canonical_artists": [
+                    "theelklodge"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Antimancer; The Flashbulb",
                 "title": "Frozen Trajectory (The Flashbulb) - Antimancer Remix",
-                "file": "2025/Sim_Selections_APRIL_2025/19. Antimancer; The Flashbulb - Frozen Trajectory (The Flashbulb) - Antimancer Remix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.87
+                "canonical_artists": [
+                    "antimancer",
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "fractal4053",
                 "title": "joy refrozen tract",
-                "file": "2025/Sim_Selections_APRIL_2025/20. fractal4053 - joy refrozen tract.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 163.58
+                "canonical_artists": [
+                    "fractal4053"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "kruvek",
                 "title": "Fractured Apogee",
-                "file": "2025/Sim_Selections_APRIL_2025/21. kruvek - Fractured Apogee.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 280.03
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Benn Jordan",
                 "title": "Frozen Trajectory - (JORDAN'S MEGASLEEPY MIX)",
-                "file": "2025/Sim_Selections_APRIL_2025/22. Benn Jordan - Frozen Trajectory - (JORDAN'S MEGASLEEPY MIX).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.86
+                "canonical_artists": [
+                    "bennjordan"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Astar, a Robot",
                 "title": "Frozen Trajectory (Astar, a Robot Remix)",
-                "file": "2025/Sim_Selections_APRIL_2025/23. Astar, a Robot - Frozen Trajectory (Astar, a Robot Remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.65
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "The Flashbulb;Broken Gravity",
                 "title": "Frozen Trajectory - Gravity Mix",
-                "file": "2025/Sim_Selections_APRIL_2025/24. The Flashbulb;Broken Gravity - Frozen Trajectory - Gravity Mix.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.17
+                "canonical_artists": [
+                    "theflashbulb",
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "MISLS",
                 "title": "Rewind Time",
-                "file": "2025/Sim_Selections_APRIL_2025/25. MISLS - Rewind Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.87
+                "canonical_artists": [
+                    "misls"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "jungle pickle",
                 "title": "6 years",
-                "file": "2025/Sim_Selections_APRIL_2025/26. jungle pickle - 6 years.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.78
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "informationcake & The Flashbulb",
                 "title": "Frozen Trajectory",
-                "file": "2025/Sim_Selections_APRIL_2025/27. informationcake & The Flashbulb - Frozen Trajectory.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 368.74
+                "canonical_artists": [
+                    "informationcake",
+                    "theflashbulb"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Robert Redshaw",
                 "title": "No Straight Line",
-                "file": "2025/Sim_Selections_APRIL_2025/28. Robert Redshaw - No Straight Line.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 158.04
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Teapotahedron",
                 "title": "Glacier Dream (optional challenge remix)",
-                "file": "2025/Sim_Selections_APRIL_2025/29. Teapotahedron - Glacier Dream (optional challenge remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 149.54
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Christopher Sisk",
                 "title": "Cold Path",
-                "file": "2025/Sim_Selections_APRIL_2025/30. Christopher Sisk - Cold Path.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.23
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Nornec",
                 "title": "Slush Fiend (feat. The Flashbulb)",
-                "file": "2025/Sim_Selections_APRIL_2025/31. Nornec - Slush Fiend (feat. The Flashbulb).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 324.24
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "frildoh",
                 "title": "The Flashbulb - Frozen Trajectory (frildoh remix)",
-                "file": "2025/Sim_Selections_APRIL_2025/32. frildoh - The Flashbulb - Frozen Trajectory (frildoh remix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 139.49
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Edwin",
                 "title": "Balance Bit",
-                "file": "2025/Sim_Selections_APRIL_2025/33. Edwin - Balance Bit.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=2p0-eVzSmy0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.68
+                "canonical_artists": [
+                    "edwin"
+                ]
             }
         ]
     },
@@ -13075,331 +15415,399 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "The Infra",
                 "title": "Buttons",
-                "file": "2025/Sim_Selections_MAY_2025/01. The Infra - Buttons.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/the-button",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.02
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Broken Gravity",
                 "title": "Legend of the Lazer Wizard Druid",
-                "file": "2025/Sim_Selections_MAY_2025/02. Broken Gravity - Legend of the Lazer Wizard Druid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.91
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "vetra miga",
                 "title": "5995245",
-                "file": "2025/Sim_Selections_MAY_2025/03. vetra miga - 5995245.mp3",
+                "file": "",
                 "link": "https://youtu.be/8IKhjcALHd8",
                 "optIn": false,
                 "canPlay": false,
-                "length": 124.94
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Skitter",
                 "title": "Collateral (Antagonist's Theme)",
-                "file": "2025/Sim_Selections_MAY_2025/04. Skitter - Collateral (Antagonist's Theme).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/collateral?si=db5293cfa4ba476bbb9aa45f041077aa&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.9
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "dedblank",
                 "title": "Discover the long path",
-                "file": "2025/Sim_Selections_MAY_2025/05. dedblank - Discover the long path.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.75
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "KwaK",
                 "title": "Let Me Walk You to Your Atari",
-                "file": "2025/Sim_Selections_MAY_2025/06. KwaK - Let Me Walk You to Your Atari.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.93
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Fine Structure Constant",
                 "title": "End of an Era",
-                "file": "2025/Sim_Selections_MAY_2025/07. Fine Structure Constant - End of an Era.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/end-of-an-era",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.44
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Camino del Dragon",
                 "title": "MielMielFive",
-                "file": "2025/Sim_Selections_MAY_2025/08. Camino del Dragon - MielMielFive.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.22
+                "canonical_artists": [
+                    "caminodeldragon"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "jungle pickle",
                 "title": "garbage",
-                "file": "2025/Sim_Selections_MAY_2025/09. jungle pickle - garbage.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.18
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "kruvek",
                 "title": "SimSelect Moto GP 4",
-                "file": "2025/Sim_Selections_MAY_2025/10. kruvek - SimSelect Moto GP 4.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.75
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Waived (Ethan Cadamore)",
                 "title": "Game Over (I Just Died)",
-                "file": "2025/Sim_Selections_MAY_2025/11. Waived (Ethan Cadamore) - Game Over (I Just Died).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 48.02
+                "canonical_artists": [
+                    "waivedethancadamore"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Amadeus B Snivelitch",
                 "title": "May Challenge Song",
-                "file": "2025/Sim_Selections_MAY_2025/12. Amadeus B Snivelitch - May Challenge Song.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.29
+                "canonical_artists": [
+                    "amadeusbsnivelitch"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Charles Randall, The Cure",
                 "title": "One Hundred Years (1989 Nostalgia Ver)",
-                "file": "2025/Sim_Selections_MAY_2025/13. Charles Randall, The Cure - One Hundred Years (1989 Nostalgia Ver).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 394.79
+                "canonical_artists": [
+                    "charlesrandall",
+                    "thecure"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Dalton",
                 "title": "8bit Goes Clubbing",
-                "file": "2025/Sim_Selections_MAY_2025/14. Dalton - 8bit Goes Clubbing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.11
+                "canonical_artists": [
+                    "dalton"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Poetry in Noise",
                 "title": "Dub.IT",
-                "file": "2025/Sim_Selections_MAY_2025/15. Poetry in Noise - Dub.IT.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.96
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "CayZe",
                 "title": "MTX",
-                "file": "2025/Sim_Selections_MAY_2025/16. CayZe - MTX.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.68
+                "canonical_artists": [
+                    "cayze"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "mikey chiptune",
                 "title": "orca (lazy lsdj version)",
-                "file": "2025/Sim_Selections_MAY_2025/17. mikey chiptune - orca (lazy lsdj version).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.51
+                "canonical_artists": [
+                    "mikeychiptune"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Stu M",
                 "title": "RAMEN",
-                "file": "2025/Sim_Selections_MAY_2025/18. Stu M - RAMEN.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.78
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "PonyArt",
                 "title": "Chiptune Dub",
-                "file": "2025/Sim_Selections_MAY_2025/19. PonyArt - Chiptune Dub.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "jacketpocket",
                 "title": "You Pissed Off the Orc",
-                "file": "2025/Sim_Selections_MAY_2025/20. jacketpocket - You Pissed Off the Orc.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.02
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Takamoon",
                 "title": "10 Channel Mega Stereo Sound",
-                "file": "2025/Sim_Selections_MAY_2025/21. Takamoon - 10 Channel Mega Stereo Sound.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.05
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "wisteria / ok seashells",
                 "title": "tiny house of mountains",
-                "file": "2025/Sim_Selections_MAY_2025/22. wisteria _ ok seashells - tiny house of mountains.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 548.1
+                "canonical_artists": [
+                    "wisteria",
+                    "okseashells"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Perlin",
                 "title": "MooMoo Kart TimeTrial",
-                "file": "2025/Sim_Selections_MAY_2025/23. Perlin - MooMoo Kart TimeTrial.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.79
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Robert Redshaw",
                 "title": "Brain Scoop",
-                "file": "2025/Sim_Selections_MAY_2025/24. Robert Redshaw - Brain Scoop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.03
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "frildoh",
                 "title": "no backlight",
-                "file": "2025/Sim_Selections_MAY_2025/25. frildoh - no backlight.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.74
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Reark",
                 "title": "Choo choo train's last outing",
-                "file": "2025/Sim_Selections_MAY_2025/26. Reark - Choo choo train's last outing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.09
+                "canonical_artists": [
+                    "reark"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Procrastronaut",
                 "title": "But They Don't Fall Down",
-                "file": "2025/Sim_Selections_MAY_2025/27. Procrastronaut - But They Don't Fall Down.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 345.26
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Teapotahedron",
                 "title": "Running Towards Evil",
-                "file": "2025/Sim_Selections_MAY_2025/28. Teapotahedron - Running Towards Evil.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.79
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Adam Johan Bergren",
                 "title": "Questline",
-                "file": "2025/Sim_Selections_MAY_2025/29. Adam Johan Bergren - Questline.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/questline",
                 "optIn": false,
                 "canPlay": false,
-                "length": 321.91
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Edwin",
                 "title": "fantasy for a memory",
-                "file": "2025/Sim_Selections_MAY_2025/30. Edwin - fantasy for a memory.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=UHOCFJQ_v9M",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.65
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "fulhjort",
                 "title": "Way beyond bits",
-                "file": "2025/Sim_Selections_MAY_2025/31. fulhjort - Way beyond bits.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.11
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Iggy",
                 "title": "Fry's Lament",
-                "file": "2025/Sim_Selections_MAY_2025/32. Iggy - Fry's Lament.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.04
+                "canonical_artists": [
+                    "iggy"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "informationcake",
                 "title": "Pixelated Memories",
-                "file": "2025/Sim_Selections_MAY_2025/33. informationcake - Pixelated Memories.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 363.96
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             }
         ]
     },
@@ -13420,381 +15828,458 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Antimancer",
                 "title": "scaring_witches",
-                "file": "2025/Sim_Selections_JUNE_2025/05. Antimancer - scaring_witches.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.14
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "LMNO Project",
                 "title": "Coyote Summoning",
-                "file": "2025/Sim_Selections_JUNE_2025/04. LMNO Project - Coyote Summoning.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/lmno-project/coyote-summoning",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.63
+                "canonical_artists": [
+                    "lmnoproject"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Fine Structure Constant",
                 "title": "Nova",
-                "file": "2025/Sim_Selections_JUNE_2025/02. Fine Structure Constant - Nova.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/nova",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.71
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Long Century of The Surreal",
                 "title": "Egg Later",
-                "file": "2025/Sim_Selections_JUNE_2025/03. Long Century of The Surreal - Egg Later.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.87
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Adam Johan Bergren",
                 "title": "Pipe Dream",
-                "file": "2025/Sim_Selections_JUNE_2025/06. Adam Johan Bergren - Pipe Dream.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/pipe-dream",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.2
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Procrastronaut",
                 "title": "Nucleosynthesis",
-                "file": "2025/Sim_Selections_JUNE_2025/08. Procrastronaut - Nucleosynthesis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 328.05
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "informationcake",
                 "title": "Solar Maximum",
-                "file": "2025/Sim_Selections_JUNE_2025/09. informationcake - Solar Maximum.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 423.63
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "AmbientSpace",
                 "title": "Solstice Dawn, a nocturne for Horns, Tuba and Synths",
-                "file": "2025/Sim_Selections_JUNE_2025/10. AmbientSpace - Solstice Dawn, a nocturne for Horns, Tuba and Synths.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.68
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Skitter",
                 "title": "Outlast the Relentless Sun",
-                "file": "2025/Sim_Selections_JUNE_2025/11. Skitter - Outlast the Relentless Sun.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/outlast-the-relentless-sun?si=8eb1dce8b8334adba51357c03f22c6f2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.63
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Dalton",
                 "title": "The Ancient Club",
-                "file": "2025/Sim_Selections_JUNE_2025/12. Dalton - The Ancient Club.wav",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.0
+                "canonical_artists": [
+                    "dalton"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "fulhjort",
                 "title": "Lom Kar-Ah",
-                "file": "2025/Sim_Selections_JUNE_2025/07. fulhjort - Lom Kar-Ah.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.16
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Cathartic Reunion",
                 "title": "Wish I Was An Ancient",
-                "file": "2025/Sim_Selections_JUNE_2025/13. Cathartic Reunion - Wish I Was An Ancient.mp3",
+                "file": "",
                 "link": "https://catharticreunion.bandcamp.com/track/wish-i-was-an-ancient",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.03
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Mark Feifarek",
                 "title": "Koschei",
-                "file": "2025/Sim_Selections_JUNE_2025/14. Mark Feifarek - Koschei.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.02
+                "canonical_artists": [
+                    "markfeifarek"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "NASCEN7",
                 "title": "Logical Atomism",
-                "file": "2025/Sim_Selections_JUNE_2025/15. NASCEN7 - Logical Atomism.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.02
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Astar, a Robot",
                 "title": "AAR TRACK 016",
-                "file": "2025/Sim_Selections_JUNE_2025/16. Astar, a Robot - AAR TRACK 016.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.09
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Poetry in Noise",
                 "title": "Solstice in Lemuria",
-                "file": "2025/Sim_Selections_JUNE_2025/17. Poetry in Noise - Solstice in Lemuria.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.85
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "err: Rawr",
                 "title": "Something",
-                "file": "2025/Sim_Selections_JUNE_2025/18. err_ Rawr - Something.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.08
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Teapotahedron",
                 "title": "Ekpyrosis",
-                "file": "2025/Sim_Selections_JUNE_2025/19. Teapotahedron - Ekpyrosis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.03
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "jungle pickle",
                 "title": "a summer gathering",
-                "file": "2025/Sim_Selections_JUNE_2025/20. jungle pickle - a summer gathering.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.02
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "jacketpocket",
                 "title": "Eclipse",
-                "file": "2025/Sim_Selections_JUNE_2025/21. jacketpocket - Eclipse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 115.03
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Robert Redshaw",
                 "title": "Sunburn",
-                "file": "2025/Sim_Selections_JUNE_2025/22. Robert Redshaw - Sunburn.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.03
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "frildoh",
                 "title": "Mantra",
-                "file": "2025/Sim_Selections_JUNE_2025/23. frildoh - Mantra.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.34
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "KwaK",
                 "title": "Trippa Snippa",
-                "file": "2025/Sim_Selections_JUNE_2025/24. KwaK - Trippa Snippa.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.13
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Christopher Sisk",
                 "title": "The Shimmering",
-                "file": "2025/Sim_Selections_JUNE_2025/25. Christopher Sisk - The Shimmering.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.12
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Perlin",
                 "title": "Woodpecker",
-                "file": "2025/Sim_Selections_JUNE_2025/26. Perlin - Woodpecker.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.59
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Donoru",
                 "title": "Valhalla",
-                "file": "2025/Sim_Selections_JUNE_2025/27. Donoru - Valhalla.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.63
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "vetra miga",
                 "title": "183.7351334",
-                "file": "2025/Sim_Selections_JUNE_2025/28. vetra miga - 183.7351334.wav",
+                "file": "",
                 "link": "https://youtu.be/tNh993whMKc",
                 "optIn": false,
                 "canPlay": false,
-                "length": 153.15
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "The Infra",
                 "title": "Solar Wax",
-                "file": "2025/Sim_Selections_JUNE_2025/29. The Infra - Solar Wax.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/solar-wax",
                 "optIn": false,
                 "canPlay": false,
-                "length": 264.67
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "edwin",
                 "title": "solari 2",
-                "file": "2025/Sim_Selections_JUNE_2025/30. edwin - solari 2.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=KmvtYHgCsfo",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.54
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Fine Structure Constant;Skitter",
                 "title": "The Source",
-                "file": "2025/Sim_Selections_JUNE_2025/31. Fine Structure Constant;Skitter - The Source.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 164.05
+                "canonical_artists": [
+                    "finestructureconstant",
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Stu M",
                 "title": "Runes",
-                "file": "2025/Sim_Selections_JUNE_2025/32. Stu M - Runes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.19
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "dedblank",
                 "title": "page",
-                "file": "2025/Sim_Selections_JUNE_2025/33. dedblank - page.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.06
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Christopher Sisk",
                 "title": "Begin Again",
-                "file": "2025/Sim_Selections_JUNE_2025/34. Christopher Sisk - Begin Again.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.02
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "PonyArt",
                 "title": "RYTM2",
-                "file": "2025/Sim_Selections_JUNE_2025/35. PonyArt - RYTM2.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 345.05
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Ara Cristina",
                 "title": "VACIAR",
-                "file": "2025/Sim_Selections_JUNE_2025/36. Ara Cristina - VACIAR.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.02
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "kruvek",
                 "title": "Stellar Rite",
-                "file": "2025/Sim_Selections_JUNE_2025/37. kruvek - Stellar Rite.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.38
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "TomNomNom",
                 "title": "Rise and Shine",
-                "file": "2025/Sim_Selections_JUNE_2025/38. TomNomNom - Rise and Shine.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 195.07
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Camino del Dragon",
                 "title": "QueVoyezVous",
-                "file": "2025/Sim_Selections_JUNE_2025/01. Camino del Dragon - QueVoyezVous.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 302.16
+                "canonical_artists": [
+                    "caminodeldragon"
+                ]
             }
         ]
     },
@@ -13815,341 +16300,410 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Edwin",
                 "title": "Halikarn Field",
-                "file": "2025/Sim_Selections_JULY_2025/01. Edwin - Halikarn Field.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.57
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "LMNO Project",
                 "title": "Squeeze",
-                "file": "2025/Sim_Selections_JULY_2025/02. LMNO Project - Squeeze.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/lmno-project/squeeze",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.9
+                "canonical_artists": [
+                    "lmnoproject"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "KwaK",
                 "title": "Upside Down and Overwhelmed",
-                "file": "2025/Sim_Selections_JULY_2025/03. KwaK - Upside Down and Overwhelmed.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 284.03
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "dedblank",
                 "title": "9am",
-                "file": "2025/Sim_Selections_JULY_2025/04. dedblank - 9am.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.17
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Charles Randall",
                 "title": "Collapse",
-                "file": "2025/Sim_Selections_JULY_2025/05. Charles Randall - Collapse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.0
+                "canonical_artists": [
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Fine Structure Constant",
                 "title": "Escape",
-                "file": "2025/Sim_Selections_JULY_2025/06. Fine Structure Constant - Escape.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/escape",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.26
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Nornec",
                 "title": "Challenger",
-                "file": "2025/Sim_Selections_JULY_2025/07. Nornec - Challenger.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.04
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "wisteria",
                 "title": "SGM serenade",
-                "file": "2025/Sim_Selections_JULY_2025/08. wisteria - SGM serenade.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.4
+                "canonical_artists": [
+                    "wisteria"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Cathartic Reunion",
                 "title": "Check the Tape",
-                "file": "2025/Sim_Selections_JULY_2025/09. Cathartic Reunion - Check the Tape.mp3",
+                "file": "",
                 "link": "https://catharticreunion.bandcamp.com/track/check-the-tape",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.71
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Robert Redshaw",
                 "title": "Distant One",
-                "file": "2025/Sim_Selections_JULY_2025/10. Robert Redshaw - Distant One.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "NASCEN7",
                 "title": "Homeworld",
-                "file": "2025/Sim_Selections_JULY_2025/11. NASCEN7 - Homeworld.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.68
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "kruvek",
                 "title": "Back to House",
-                "file": "2025/Sim_Selections_JULY_2025/12. kruvek - Back to House.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.97
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Robert Redshaw",
                 "title": "Distant Two",
-                "file": "2025/Sim_Selections_JULY_2025/13. Robert Redshaw - Distant Two.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Camino del Dragon (feat BerserkerBot)",
                 "title": "Zenosyne",
-                "file": "2025/Sim_Selections_JULY_2025/14. Camino del Dragon (feat BerserkerBot) - Zenosyne.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.9
+                "canonical_artists": [
+                    "caminodeldragon",
+                    "berserkerbot"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Skitter",
                 "title": "Sorry This Was Rushed",
-                "file": "2025/Sim_Selections_JULY_2025/15. Skitter - Sorry This Was Rushed.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/language-games",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.43
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "STU M",
                 "title": "STOCK M",
-                "file": "2025/Sim_Selections_JULY_2025/16. STU M - STOCK M.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.06
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "informationcake",
                 "title": "I Found My Place",
-                "file": "2025/Sim_Selections_JULY_2025/17. informationcake - I Found My Place.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 226.17
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "fulhjort",
                 "title": "Sour aero",
-                "file": "2025/Sim_Selections_JULY_2025/18. fulhjort - Sour aero.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.37
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "NASCEN7",
                 "title": "Echoes Of Me",
-                "file": "2025/Sim_Selections_JULY_2025/19. NASCEN7 - Echoes Of Me.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.03
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "TomNomNom",
                 "title": "We have Mr Oizo at home",
-                "file": "2025/Sim_Selections_JULY_2025/20. TomNomNom - We have Mr Oizo at home.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 88.2
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Long Century of The Surreal",
                 "title": "Parakeets",
-                "file": "2025/Sim_Selections_JULY_2025/21. Long Century of The Surreal - Parakeets.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.54
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "jungle pickle",
                 "title": "sweet life",
-                "file": "2025/Sim_Selections_JULY_2025/22. jungle pickle - sweet life.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.75
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "The Infra",
                 "title": "No more days like this",
-                "file": "2025/Sim_Selections_JULY_2025/23. The Infra - No more days like this.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/no-more-days-like-this",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.48
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "hellcat5",
                 "title": "kick it harder",
-                "file": "2025/Sim_Selections_JULY_2025/24. hellcat5 - kick it harder.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 455.37
+                "canonical_artists": [
+                    "hellcat5"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Christopher Sisk",
                 "title": "I've Been Here Before",
-                "file": "2025/Sim_Selections_JULY_2025/25. Christopher Sisk - I've Been Here Before.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.04
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Poetry in Noise",
                 "title": "For Lux",
-                "file": "2025/Sim_Selections_JULY_2025/26. Poetry in Noise - For Lux.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.96
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Adam Johan Bergren",
                 "title": "Unplugged Plugins",
-                "file": "2025/Sim_Selections_JULY_2025/27. Adam Johan Bergren - Unplugged Plugins.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/unplugged-plugins",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.62
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Perlin",
                 "title": "Fruity Loop Nebula (WIP)",
-                "file": "2025/Sim_Selections_JULY_2025/28. Perlin - Fruity Loop Nebula (WIP).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.79
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "frildoh",
                 "title": "terror inside",
-                "file": "2025/Sim_Selections_JULY_2025/29. frildoh - terror inside.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.57
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "PonyArt",
                 "title": "Let You Down",
-                "file": "2025/Sim_Selections_JULY_2025/30. PonyArt - Let You Down.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 305.71
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Hunter the Gatherer",
                 "title": "maocha",
-                "file": "2025/Sim_Selections_JULY_2025/31. Hunter the Gatherer - maocha.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.92
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Feedback",
                 "title": "Cheater",
-                "file": "2025/Sim_Selections_JULY_2025/32. Feedback - Cheater.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.64
+                "canonical_artists": [
+                    "feedback"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Pantagruel",
                 "title": "Manus IV",
-                "file": "2025/Sim_Selections_JULY_2025/33. Pantagruel - Manus IV.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.33
+                "canonical_artists": [
+                    "pantagruel"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Antimancer",
                 "title": "wine_o_fox",
-                "file": "2025/Sim_Selections_JULY_2025/34. Antimancer - wine_o_fox.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.0
+                "canonical_artists": [
+                    "antimancer"
+                ]
             }
         ]
     },
@@ -14170,431 +16724,518 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "informationcake",
                 "title": "Revival",
-                "file": "2025/Sim_Selections_AUGUST_2025/01. informationcake - Revival.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 491.34
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "jungle pickle",
                 "title": "a north sea story",
-                "file": "2025/Sim_Selections_AUGUST_2025/02. jungle pickle - a north sea story.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.14
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 3,
-                "artist": "fulhjotr",
+                "artist": "Fulhjort",
                 "title": "No Spotify",
-                "file": "2025/Sim_Selections_AUGUST_2025/03. fulhjotr - No Spotify.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.47
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Committees of Newfoundland",
                 "title": "hellocount",
-                "file": "2025/Sim_Selections_AUGUST_2025/04. Committees of Newfoundland - hellocount.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.69
+                "canonical_artists": [
+                    "committeesofnewfoundland"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "The Infra",
                 "title": "Zero Sum",
-                "file": "2025/Sim_Selections_AUGUST_2025/05. The Infra - Zero Sum.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/the_infra/zero-sum?si=421677e0c7a548089c741197746f51f8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.34
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "dedblank",
                 "title": "Electric Horsemen",
-                "file": "2025/Sim_Selections_AUGUST_2025/06. dedblank - Electric Horsemen.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.27
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "shereen",
                 "title": "paths never traveled",
-                "file": "2025/Sim_Selections_AUGUST_2025/07. shereen - paths never traveled.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 393.35
+                "canonical_artists": [
+                    "shereen"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "KwaK",
                 "title": "Exciton 2025",
-                "file": "2025/Sim_Selections_AUGUST_2025/08. KwaK - Exciton 2025.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.38
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Donoru",
                 "title": "Prophet",
-                "file": "2025/Sim_Selections_AUGUST_2025/09. Donoru - Prophet.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 328.88
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "ARC19-X",
                 "title": "Catalytic Luminous Ascent",
-                "file": "2025/Sim_Selections_AUGUST_2025/10. ARC19-X - Catalytic Luminous Ascent.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.01
+                "canonical_artists": [
+                    "arc19"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Teapotahedron",
                 "title": "The Re-Cycle",
-                "file": "2025/Sim_Selections_AUGUST_2025/11. Teapotahedron - The Re-Cycle.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.1
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "TomNomNom",
                 "title": "Dirty-Six-Dirty",
-                "file": "2025/Sim_Selections_AUGUST_2025/12. TomNomNom - Dirty-Six-Dirty.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.06
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Perlin",
                 "title": "Blackhill Bay",
-                "file": "2025/Sim_Selections_AUGUST_2025/13. Perlin - Blackhill Bay.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.45
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Akila Kavo",
                 "title": "Anchors",
-                "file": "2025/Sim_Selections_AUGUST_2025/14. Akila Kavo - Anchors.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 230.33
+                "canonical_artists": [
+                    "akilakavo"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Poetry in Noise",
                 "title": "string_find(LostTime)",
-                "file": "2025/Sim_Selections_AUGUST_2025/15. Poetry in Noise - string_find(LostTime).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.33
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Adam Johan Bergren",
                 "title": "Two Dozen Bars of Guitar",
-                "file": "2025/Sim_Selections_AUGUST_2025/16. Adam Johan Bergren - Two Dozen Bars of Guitar.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/two-dozen-bars-of-guitar",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.37
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Film for the Future",
                 "title": "The sky cleared",
-                "file": "2025/Sim_Selections_AUGUST_2025/17. Film for the Future - The sky cleared.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.61
+                "canonical_artists": [
+                    "filmforthefuture"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "frildoh",
                 "title": "i cant go",
-                "file": "2025/Sim_Selections_AUGUST_2025/18. frildoh - i cant go.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.72
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Cathartic Reunion",
                 "title": "Upwards",
-                "file": "2025/Sim_Selections_AUGUST_2025/19. Cathartic Reunion - Upwards.mp3",
+                "file": "",
                 "link": "https://catharticreunion.bandcamp.com/track/upwards",
                 "optIn": false,
                 "canPlay": false,
-                "length": 129.1
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Yesterday's Lazers (CDD)",
                 "title": "Four Feet",
-                "file": "2025/Sim_Selections_AUGUST_2025/20. Yesterday's Lazers (CDD) - Four Feet.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.73
+                "canonical_artists": [
+                    "yesterdayslazerscdd"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "KrovvyTheRed",
                 "title": "Locrian Octaves",
-                "file": "2025/Sim_Selections_AUGUST_2025/21. KrovvyTheRed - Locrian Octaves.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.3
+                "canonical_artists": [
+                    "krovvythered"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "NASCEN7",
                 "title": "Odd Days Ahead",
-                "file": "2025/Sim_Selections_AUGUST_2025/22. NASCEN7 - Odd Days Ahead.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.02
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Robert Redshaw",
                 "title": "Retardant",
-                "file": "2025/Sim_Selections_AUGUST_2025/23. Robert Redshaw - Retardant.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 139.25
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "PonyArt",
                 "title": "Fugue Machine",
-                "file": "2025/Sim_Selections_AUGUST_2025/24. PonyArt - Fugue Machine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.02
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Astar, a Robot",
                 "title": "Jar of Nails",
-                "file": "2025/Sim_Selections_AUGUST_2025/25. Astar, a Robot - Jar of Nails.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.81
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Procrastronaut",
                 "title": "Objects in mirror are closer than they appear",
-                "file": "2025/Sim_Selections_AUGUST_2025/26. Procrastronaut - Objects in mirror are closer than they appear.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.03
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "antimancer",
                 "title": "parascope_aquarium",
-                "file": "2025/Sim_Selections_AUGUST_2025/27. antimancer - parascope_aquarium.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.38
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Dire Gaze",
                 "title": "Stuck",
-                "file": "2025/Sim_Selections_AUGUST_2025/28. Dire Gaze - Stuck.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 235.87
+                "canonical_artists": [
+                    "diregaze"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "AmbientSpace",
                 "title": "Reason Automatica: Bonkwave",
-                "file": "2025/Sim_Selections_AUGUST_2025/29. AmbientSpace - Reason Automatica_ Bonkwave.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 280.34
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Computrhead",
                 "title": "Crystalline",
-                "file": "2025/Sim_Selections_AUGUST_2025/30. Computrhead - Crystalline.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 239.83
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "moiko",
                 "title": "Interruption",
-                "file": "2025/Sim_Selections_AUGUST_2025/31. moiko - Interruption.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.54
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Paranautica",
                 "title": "The Objector",
-                "file": "2025/Sim_Selections_AUGUST_2025/32. Paranautica - The Objector.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.33
+                "canonical_artists": [
+                    "paranautica"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Takamoon",
                 "title": "Your Password Is Too Strong",
-                "file": "2025/Sim_Selections_AUGUST_2025/33. Takamoon - Your Password Is Too Strong.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.86
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Broken Gravity",
                 "title": "The Last Ditch",
-                "file": "2025/Sim_Selections_AUGUST_2025/34. Broken Gravity - The Last Ditch.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.65
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Edwin",
                 "title": "mad canon",
-                "file": "2025/Sim_Selections_AUGUST_2025/35. Edwin - mad canon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 118.03
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "jacketpocket, Kri Schafer",
                 "title": "Suffocate",
-                "file": "2025/Sim_Selections_AUGUST_2025/36. jacketpocket, Kri Schafer - Suffocate.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.3
+                "canonical_artists": [
+                    "jacketpocket",
+                    "krischafer"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "The Owl",
                 "title": "Second Live",
-                "file": "2025/Sim_Selections_AUGUST_2025/37. The Owl - Second Live.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.23
+                "canonical_artists": [
+                    "theowl"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Skitter",
                 "title": "Holly3",
-                "file": "2025/Sim_Selections_AUGUST_2025/38. Skitter - Holly3.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.53
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "Fine Structure Constant",
                 "title": "Alive Again",
-                "file": "2025/Sim_Selections_AUGUST_2025/39. Fine Structure Constant - Alive Again.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/alive-again",
                 "optIn": false,
                 "canPlay": false,
-                "length": 278.21
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "Lonnon Foster",
                 "title": "Baroquen",
-                "file": "2025/Sim_Selections_AUGUST_2025/40. Lonnon Foster - Baroquen.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 158.43
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Robert Redshaw",
                 "title": "Back Again",
-                "file": "2025/Sim_Selections_AUGUST_2025/41. Robert Redshaw - Back Again.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 109.82
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 42,
                 "artist": "Avery Tomlinson",
                 "title": "Fingertips",
-                "file": "2025/Sim_Selections_AUGUST_2025/42. Avery Tomlinson - Fingertips.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.54
+                "canonical_artists": [
+                    "averytomlinson"
+                ]
             },
             {
                 "trackNo": 43,
                 "artist": "PANTAGRUEL",
                 "title": "MANUS I",
-                "file": "2025/Sim_Selections_AUGUST_2025/43. PANTAGRUEL - MANUS I.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.5
+                "canonical_artists": [
+                    "pantagruel"
+                ]
             }
         ]
     },
@@ -14609,417 +17250,500 @@ export const playlistData = [
             "Imperfect"
         ],
         "challenge": "Challenge the listener. We're talking unexpected sounds/timings/progressions/inter-genres, whatever devices you can think of to keep the listener questioning their musical reality. Break their expectations and the satisfaction they derive from sustained order, make them accept the inevitable decay of all systems into disorder.",
-        "streamUrl": "https://www.youtube.com/watch?v=mEC6PM97IRI",
+        "streamUrl": "https://www.youtube.com/watch?v=aWlFVNNc2Ss",
         "tracks": [
             {
                 "trackNo": 1,
                 "artist": "Film for the Future",
                 "title": "Pearls",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/01. Film for the Future - Pearls.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.11
+                "canonical_artists": [
+                    "filmforthefuture"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "jacketpocket",
                 "title": "You Were Once My Darling",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/02. jacketpocket - You Were Once My Darling.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 114.82
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Takamoon",
                 "title": "Dinner Is Superstition",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/03. Takamoon - Dinner Is Superstition.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.03
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Cschweppe NeutronCereal",
                 "title": "All Of The Pieces None Of the Parts",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/04. Cschweppe NeutronCereal - All Of The Pieces None Of the Parts.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.34
+                "canonical_artists": [
+                    "cschweppeneutroncereal"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "moiko",
                 "title": "The Leftists Went Too Low",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/05. moiko - The Leftists Went Too Low.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.02
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Adam Johan Bergren",
                 "title": "Watch Hands on Sands",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/06. Adam Johan Bergren - Watch Hands on Sands.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/watch-hands-on-sands",
                 "optIn": false,
                 "canPlay": false,
-                "length": 295.46
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Zero Lucks Given",
                 "title": "The Anomalist",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/07. Zero Lucks Given - The Anomalist.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/the-anomalist",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.08
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "TomNomNom",
                 "title": "Clich\u00e9s in Free Time",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/08. TomNomNom - Clich\u00e9s in Free Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.1
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "The Infra",
                 "title": "From Rats To Itches (Ratcrazy)",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/09. The Infra - From Rats To Itches (Ratcrazy).mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/from-rats-to-itches",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.64
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "moiko",
                 "title": "Entropy in Reverse",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/10. moiko - Entropy in Reverse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 298.03
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "5XVT",
                 "title": "Entropy",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/11. 5XVT - Entropy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 154.78
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Camino del Dragon (YL)",
                 "title": "Between Two Skies",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/12. Camino del Dragon (YL) - Between Two Skies.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.23
+                "canonical_artists": [
+                    "caminodeldragonyl"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "shereen",
                 "title": "a slowly shrinking point of light",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/13. shereen - a slowly shrinking point of light.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.46
+                "canonical_artists": [
+                    "shereen"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Computrhead",
                 "title": "Lithium",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/14. Computrhead - Lithium.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.4
+                "canonical_artists": [
+                    "computrhead"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "kruvek",
                 "title": "Scapeshift 5",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/15. kruvek - Scapeshift 5.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.74
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Charles Randall",
                 "title": "Offended by even the concept of music (demo)(final)(edit)(2)_done",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/16. Charles Randall - Offended by even the concept of music (demo)(final)(edit)(2)_done.mp3",
+                "file": "",
                 "link": "https://youtu.be/0E4uWUB7nv4",
                 "optIn": false,
                 "canPlay": false,
-                "length": 38.43
+                "canonical_artists": [
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Reark",
                 "title": "Fade without trace",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/17. Reark - Fade without trace.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.1
+                "canonical_artists": [
+                    "reark"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "fulhjort",
                 "title": "Over the wonderful rainbow road",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/18. fulhjort - Over the wonderful rainbow road.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.9
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "PonyArt",
                 "title": "Tonverk day 1 wip",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/19. PonyArt - Tonverk day 1 wip.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 341.33
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Edwin",
                 "title": "Ambionlemika",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/20. Edwin - Ambionlemika.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.48
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Robert Redshaw",
                 "title": "Bed Rock",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/21. Robert Redshaw - Bed Rock.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.65
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "LMNO Project",
                 "title": "Tangentially Related To Idioms And Concepts Equine In Nature",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/22. LMNO Project - Tangentially Related To Idioms And Concepts Equine In Nature.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/lmno-project/tangentially-related-to-sayings-equine-in-nature",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.7
+                "canonical_artists": [
+                    "lmnoproject"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "PonyArt",
                 "title": "Syntakt.exe",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/23. PonyArt - Syntakt.exe.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.02
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Fine Structure Constant",
                 "title": "Boltzmann Brains",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/24. Fine Structure Constant - Boltzmann Brains.mp3",
+                "file": "",
                 "link": "https://finestructureconstant.bandcamp.com/track/boltzmann-brains",
                 "optIn": false,
                 "canPlay": false,
-                "length": 138.96
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Chaos Engine",
                 "title": "Entropy311",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/25. Chaos Engine - Entropy311.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 676.03
+                "canonical_artists": [
+                    "chaosengine"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "KwaK",
                 "title": "Free Bass",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/26. KwaK - Free Bass.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.04
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Cathartic Reunion",
                 "title": "All the Endings Explained",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/27. Cathartic Reunion - All the Endings Explained.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.82
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Skitter",
                 "title": "Life",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/28. Skitter - Life.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/married-life",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.35
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "informationcake",
                 "title": "Moments From The Fall",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/29. informationcake - Moments From The Fall.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 554.34
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Jordan",
                 "title": "Wraith",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/30. Jordan - Wraith.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.12
+                "canonical_artists": [
+                    "jordan"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "kruvek; Benn Jordan",
                 "title": "Music for Concrete Tewbs",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/31. kruvek; Benn Jordan - Music for Concrete Tewbs.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.4
+                "canonical_artists": [
+                    "kruvek",
+                    "bennjordan"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Ara Cristina",
                 "title": "SPIRALING",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/32. Ara Cristina - SPIRALING.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 338.11
+                "canonical_artists": [
+                    "aracristina"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "KairoKun\u97f3\u697d",
                 "title": "Breathing Exercise",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/33. KairoKun\u97f3\u697d - Breathing Exercise.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.26
+                "canonical_artists": [
+                    "kairokun"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "TheOwl84",
                 "title": "One Past Four",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/34. TheOwl84 - One Past Four.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/matthias-straka-1/one-past-four",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.49
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "The Elk Lodge",
                 "title": "Brave Octopus",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/35. The Elk Lodge - Brave Octopus.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.13
+                "canonical_artists": [
+                    "theelklodge"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Dire Gaze",
                 "title": "Waste",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/36. Dire Gaze - Waste.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 250.94
+                "canonical_artists": [
+                    "diregaze"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "frildoh",
                 "title": "second law",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/37. frildoh - second law.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.6
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Poetry in Noise",
                 "title": "The Jester Laughs Last",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/38. Poetry in Noise - The Jester Laughs Last.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.35
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "jungle pickle",
                 "title": "bad neighbour",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/39. jungle pickle - bad neighbour.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 115.97
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "NASCEN7",
                 "title": "Droplets",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/40. NASCEN7 - Droplets.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.81
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Hunter the Gatherer",
                 "title": "Minor Mending",
-                "file": "2025/Sim_Selections_SEPTEMBER_2025/41. Hunter the Gatherer - Minor Mending.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.85
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             }
         ]
     },
@@ -15040,481 +17764,577 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Cschweppe (NeutronCereal)",
                 "title": "Great Value Tomorrowland in F",
-                "file": "2025/Sim_Selections_OCTOBER_2025/15. Cschweppe (NeutronCereal) - Great Value Tomorrowland in F.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.78
+                "canonical_artists": [
+                    "cschweppeneutroncereal"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "NASCEN7",
                 "title": "Dolor",
-                "file": "2025/Sim_Selections_OCTOBER_2025/45. NASCEN7 - Dolor.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 174.43
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "err:Rawr",
                 "title": "Yeah",
-                "file": "2025/Sim_Selections_OCTOBER_2025/31. err_ Rawr - Yeah.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 350.04
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Charles Randall",
                 "title": "Out of Time (Supernatural)",
-                "file": "2025/Sim_Selections_OCTOBER_2025/03. Charles Randall - Out of Time (Supernatural).mp3",
+                "file": "",
                 "link": "https://apalebluethought.bandcamp.com/track/out-of-time",
                 "optIn": false,
                 "canPlay": false,
-                "length": 213.08
+                "canonical_artists": [
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Paranautica",
                 "title": "I'll follow your shadow",
-                "file": "2025/Sim_Selections_OCTOBER_2025/47. Paranautica - I'll follow your shadow.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 324.24
+                "canonical_artists": [
+                    "paranautica"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Stu M",
                 "title": "Toasted",
-                "file": "2025/Sim_Selections_OCTOBER_2025/04. Stu M - Toasted.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.04
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Adam Johan Bergren",
                 "title": "Affect Modulation",
-                "file": "2025/Sim_Selections_OCTOBER_2025/05. Adam Johan Bergren - Affect Modulation.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/affect-modulation",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.07
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Broken Gravity",
                 "title": "One Sixty No Scope",
-                "file": "2025/Sim_Selections_OCTOBER_2025/06. Broken Gravity - One Sixty No Scope.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Chooko",
                 "title": "Bloodhound Demon Puppy",
-                "file": "2025/Sim_Selections_OCTOBER_2025/07. Chooko - Bloodhound Demon Puppy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.07
+                "canonical_artists": [
+                    "chooko"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "kruvek",
                 "title": "Antithetical",
-                "file": "2025/Sim_Selections_OCTOBER_2025/08. kruvek - Antithetical.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.06
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "jungle pickle",
                 "title": "mary and george",
-                "file": "2025/Sim_Selections_OCTOBER_2025/10. jungle pickle - mary and george.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.54
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "5XVT",
                 "title": "Supernatural",
-                "file": "2025/Sim_Selections_OCTOBER_2025/09. 5XVT - Supernatural.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.92
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "informationcake",
                 "title": "Supernatural",
-                "file": "2025/Sim_Selections_OCTOBER_2025/11. informationcake - Supernatural.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 187.53
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Shaolin Rib",
                 "title": "In High Spirits",
-                "file": "2025/Sim_Selections_OCTOBER_2025/12. Shaolin Rib - In High Spirits.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.02
+                "canonical_artists": [
+                    "shaolinrib"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Domilo",
                 "title": "A Celestial Foray",
-                "file": "2025/Sim_Selections_OCTOBER_2025/13. Domilo - A Celestial Foray.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.03
+                "canonical_artists": [
+                    "domilo"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Poetry in Noise",
                 "title": "Juke O' Lantern",
-                "file": "2025/Sim_Selections_OCTOBER_2025/14. Poetry in Noise - Juke O' Lantern.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.05
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Christopher Sisk",
                 "title": "They Were All Around Me",
-                "file": "2025/Sim_Selections_OCTOBER_2025/16. Christopher Sisk - They Were All Around Me.mp3",
+                "file": "",
                 "link": "https://christophersisk.bandcamp.com/track/they-were-all-around-me",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.16
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "euskalduna",
                 "title": "[untitled simsel] (wip)",
-                "file": "2025/Sim_Selections_OCTOBER_2025/17. euskalduna - [untitled simsel] (wip).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 113.48
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "jacketpocket",
                 "title": "Too Scary - Unfinished",
-                "file": "2025/Sim_Selections_OCTOBER_2025/18. jacketpocket - Too Scary - Unfinished.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 335.66
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Takamoon",
                 "title": "These Beats Are Aching For Breaking",
-                "file": "2025/Sim_Selections_OCTOBER_2025/19. Takamoon - These Beats Are Aching For Breaking.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 327.02
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "fulhjort",
                 "title": "One and a two and a three",
-                "file": "2025/Sim_Selections_OCTOBER_2025/20. fulhjort - One and a two and a three.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.05
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Teapotahedron",
                 "title": "Vienna",
-                "file": "2025/Sim_Selections_OCTOBER_2025/21. Teapotahedron - Vienna.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.02
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Lonnon Foster",
                 "title": "Clowns of Charon",
-                "file": "2025/Sim_Selections_OCTOBER_2025/22. Lonnon Foster - Clowns of Charon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 291.03
+                "canonical_artists": [
+                    "lonnonfoster"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Perlin",
                 "title": "Mr Pumpkabones",
-                "file": "2025/Sim_Selections_OCTOBER_2025/24. Perlin - Mr Pumpkabones.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.25
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "PonyArt",
                 "title": "Elektron Lover",
-                "file": "2025/Sim_Selections_OCTOBER_2025/25. PonyArt - Elektron Lover.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.02
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Long Century of The Surreal",
                 "title": "A Fistfull of Rent",
-                "file": "2025/Sim_Selections_OCTOBER_2025/26. Long Century of The Surreal - A Fistfull of Rent.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 258.02
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Fine Structure Constant",
                 "title": "Discombobulated",
-                "file": "2025/Sim_Selections_OCTOBER_2025/28. Fine Structure Constant - Discombobulated.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.02
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Hunter the Gatherer",
                 "title": "Let Your Skeleton Dance",
-                "file": "2025/Sim_Selections_OCTOBER_2025/27. Hunter the Gatherer - Let Your Skeleton Dance.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 146.47
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "The Infra",
                 "title": "Can't think of a Name",
-                "file": "2025/Sim_Selections_OCTOBER_2025/30. The Infra - Can't think of a Name.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/smoked-out",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.02
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "edwin",
                 "title": "ghosts n groovelins",
-                "file": "2025/Sim_Selections_OCTOBER_2025/32. edwin - ghosts n groovelins.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 303.02
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "frildoh",
                 "title": "Ghost Train",
-                "file": "2025/Sim_Selections_OCTOBER_2025/33. frildoh - Ghost Train.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 246.05
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "The Infra",
                 "title": "Acid Baloney",
-                "file": "2025/Sim_Selections_OCTOBER_2025/34. The Infra - Acid Baloney.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.02
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Bottle:Brush",
                 "title": "Rivals",
-                "file": "2025/Sim_Selections_OCTOBER_2025/35. Bottle_Brush - Rivals.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 265.12
+                "canonical_artists": [
+                    "bottlebrush"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "mikey303",
                 "title": "all that i",
-                "file": "2025/Sim_Selections_OCTOBER_2025/36. mikey303 - all that i.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.96
+                "canonical_artists": [
+                    "mikey303"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "moiko",
                 "title": "Artificial Spirit",
-                "file": "2025/Sim_Selections_OCTOBER_2025/37. moiko - Artificial Spirit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.02
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "KwaK",
                 "title": "Void Chat",
-                "file": "2025/Sim_Selections_OCTOBER_2025/38. KwaK - Void Chat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.28
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Cathartic Reunion",
                 "title": "Party, with Ghosts?",
-                "file": "2025/Sim_Selections_OCTOBER_2025/39. Cathartic Reunion - Party, with Ghosts!_.mp3",
+                "file": "",
                 "link": "https://catharticreunion.bandcamp.com/track/party-with-ghosts",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.19
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "stupidPilled",
                 "title": "Song For A Wizard I Met One Time",
-                "file": "2025/Sim_Selections_OCTOBER_2025/40. stupidPilled - Song For A Wizard I Met One Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 289.27
+                "canonical_artists": [
+                    "stupidpilled"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "dedblank",
                 "title": "Chugga",
-                "file": "2025/Sim_Selections_OCTOBER_2025/41. dedblank - Chugga.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.54
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "5XVT",
                 "title": "Genre Unknown",
-                "file": "2025/Sim_Selections_OCTOBER_2025/42. 5XVT - Genre Unknown.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.78
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Deelooon",
                 "title": "Haunt Your Friends",
-                "file": "2025/Sim_Selections_OCTOBER_2025/43. Deelooon - Haunt Your Friends.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.03
+                "canonical_artists": [
+                    "deelooon"
+                ]
             },
             {
                 "trackNo": 42,
                 "artist": "vetra miga",
                 "title": "aandrisk sun",
-                "file": "2025/Sim_Selections_OCTOBER_2025/44. vetra miga - aandrisk sun.mp3",
-                "link": "",
+                "file": "",
+                "link": "https://www.youtube.com/watch?v=MsHu-_Zfnsk",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.02
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 43,
                 "artist": "Pantagruel",
                 "title": "Splintered Limbs Give Way",
-                "file": "2025/Sim_Selections_OCTOBER_2025/48. Pantagruel - Splintered Limbs Give Way.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.16
+                "canonical_artists": [
+                    "pantagruel"
+                ]
             },
             {
                 "trackNo": 44,
                 "artist": "Fallacy Dice",
                 "title": "Murano",
-                "file": "2025/Sim_Selections_OCTOBER_2025/01. Fallacy Dice - Murano.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 132.02
+                "canonical_artists": [
+                    "fallacydice"
+                ]
             },
             {
                 "trackNo": 45,
                 "artist": "Abe G",
                 "title": "Control Group",
-                "file": "2025/Sim_Selections_OCTOBER_2025/02. Abe G - Control Group.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 207.79
+                "canonical_artists": [
+                    "abeg"
+                ]
             },
             {
                 "trackNo": 46,
                 "artist": "Robert Redshaw",
                 "title": "On Some Path",
-                "file": "2025/Sim_Selections_OCTOBER_2025/23. Robert Redshaw - On Some Path.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 47,
                 "artist": "Antimancer",
                 "title": "Windgongs_4",
-                "file": "2025/Sim_Selections_OCTOBER_2025/46. Antimancer - Wingdongs_4.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.54
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 48,
                 "artist": "Christopher Sisk",
                 "title": "Axis Mundi",
-                "file": "2025/Sim_Selections_OCTOBER_2025/29. Christopher Sisk - Axis Mundi.mp3",
+                "file": "",
                 "link": "https://christophersisk.bandcamp.com/track/axis-mundi",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.22
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             }
         ]
     },
@@ -15535,761 +18355,673 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "jacketpocket",
                 "title": "jacketpocket_YaYaYa",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/01. jacketpocket - jacketpocket_YaYaYa.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 0.89
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Camino del Dragon",
                 "title": "120 rising beat break",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/02. Camino del Dragon - 120 rising beat break.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "caminodeldragon"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "The Elk Lodge",
                 "title": "Bowie Trills",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/03. The Elk Lodge - Bowie Trills.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 8.47
+                "canonical_artists": [
+                    "theelklodge"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "TheOwl84",
                 "title": "Cobol Noisy Cutoff Octaves in A",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/04. TheOwl84 - Cobol Noisy Cutoff Octaves in A.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Adam Johan Bergren",
                 "title": "In the Void A E D A A E C#m Bm E D G C D E E7 A",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/05. Adam Johan Bergren - In the Void A E D A A E C#m Bm E D G C D E E7 A.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.09
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "The Elk Lodge",
                 "title": "MerisX Make The Drum Hum",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/06. The Elk Lodge - MerisX Make The Drum Hum.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.32
+                "canonical_artists": [
+                    "theelklodge"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Fine Structure Constant",
                 "title": "Unknown Clean Loop",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/07. Fine Structure Constant - Unknown Clean Loop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "jungle pickle",
                 "title": "MESSAGE",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/08. jungle pickle - MESSAGE.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 1.92
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Oobesan",
                 "title": "Beng Beat",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/09. Oobesan - Beng Beat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.91
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "tabs",
                 "title": "electric-keys",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/10. tabs - electric-keys.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 4.03
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "jungle pickle",
                 "title": "MERCY",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/11. jungle pickle - MERCY.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 1.92
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Nornec",
                 "title": "Boop boop boop...boo-boop 120bpm",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/12. Nornec - Boop boop boop...boo-boop 120bpm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Paranautica",
                 "title": "Resonant beat",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/13. Paranautica - Resonant beat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 23.59
+                "canonical_artists": [
+                    "paranautica"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Camino del Dragon",
                 "title": "Mechano mallet thing",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/14. Camino del Dragon - Mechano mallet thing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 12.77
+                "canonical_artists": [
+                    "caminodeldragon"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Poetry in Noise",
                 "title": "pad_natural decay_PIN",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/15. Poetry in Noise - pad_natural decay_PIN.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.56
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Bjen",
                 "title": "Tuba Licks (Clean + Dirty)",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/16. Bjen - Tuba Licks (Clean + Dirty).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 36.65
+                "canonical_artists": [
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "edwin",
                 "title": "chaos-pluck-bleep-bloop-loop",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/17. edwin - chaos-pluck-bleep-bloop-loop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "vetra miga",
                 "title": "wttwbass16bar",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/18. vetra miga - wttwbass16bar.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 34.03
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Charles Randall",
                 "title": "Drop A Riff",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/19. Charles Randall - Drop A Riff.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 15.05
+                "canonical_artists": [
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Cathartic Reunion",
                 "title": "Crackle_Stomp",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/20. Cathartic Reunion - Crackle_Stomp.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 9.4
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Domilo",
                 "title": "Domilo - 2025-11 woodland crow",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/21. Domilo - Domilo - 2025-11 woodland crow.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 3.34
+                "canonical_artists": [
+                    "domilo"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Domilo",
                 "title": "Domilo - 2025-11 beach camp bird",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/22. Domilo - Domilo - 2025-11 beach camp bird.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 3.16
+                "canonical_artists": [
+                    "domilo"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "TheOwl84",
                 "title": "Finger on a Bottle Top Pop Melody Loop",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/23. TheOwl84 - Finger on a Bottle Top Pop Melody Loop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 8.04
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "err: Rawr",
                 "title": "Garbeled Transmission",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/24. err_ Rawr - Garbeled Transmission.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 14.04
+                "canonical_artists": [
+                    "errrawr"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "KwaK",
                 "title": "KwaK Melodic Loops Dry",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/25. KwaK - KwaK Melodic Loops Dry.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 10.03
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Fallacy Dog",
                 "title": "Verdancy",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/26. Fallacy Dog - Verdancy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 24.03
+                "canonical_artists": [
+                    "fallacydog"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Christopher Sisk",
                 "title": "Whailsong in A",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/27. Christopher Sisk - Whailsong in A.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.55
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "The Infra",
                 "title": "The Infra, I Need To Fix My Electribe",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/28. The Infra - The Infra, I Need To Fix My Electribe.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 13.03
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Teapotahedron",
                 "title": "Guitar Loop",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/29. Teapotahedron - Guitar Loop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Oobesan",
                 "title": "Beng Beng",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/30. Oobesan - Beng Beng.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 21.91
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "electrovesta",
                 "title": "Ibis",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/31. electrovesta - Ibis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "electrovesta"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Perlin",
                 "title": "November Samples B",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/32. Perlin - November Samples B.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "NASCEN7",
                 "title": "M1 Donk Labs 120BPM A Maj 2",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/33. NASCEN7 - M1 Donk Labs 120BPM A Maj 2.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.04
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Long Century of The Surreal",
                 "title": "sample",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/34. Long Century of The Surreal - sample.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 4.55
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "fulhjort",
                 "title": "Not HNW at all, I promise!",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/35. fulhjort - Not HNW at all, I promise!.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 25.97
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Fine Structure Constant",
                 "title": "Unknown Teapot Loop",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/36. Fine Structure Constant - Unknown Teapot Loop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "informationcake",
                 "title": "samples",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/37. informationcake - samples.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 36.02
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Shaolin Rib",
                 "title": "ArpyDroneEditVerb",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/38. Shaolin Rib - ArpyDroneEditVerb.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "shaolinrib"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "kruvek",
                 "title": "Player Piano - Rewind Roll",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/39. kruvek - Player Piano - Rewind Roll.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.22
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "frildoh",
                 "title": "tongue drum w reverb",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/40. frildoh - tongue drum w reverb.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Paranautica",
                 "title": "crappy organ",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/41. Paranautica - crappy organ.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "paranautica"
+                ]
             },
             {
                 "trackNo": 42,
                 "artist": "Cathartic Reunion",
                 "title": "Scritchy_Island",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/42. Cathartic Reunion - Scritchy_Island.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 43,
                 "artist": "TomNomNom",
                 "title": "For The Birds",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/43. TomNomNom - For The Birds.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 44,
                 "artist": "ZBreezie",
                 "title": "unknown_iridescent_circular_guitar",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/44. ZBreezie - unknown_iridescent_circular_guitar.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 24.03
+                "canonical_artists": [
+                    "zbreezie"
+                ]
             },
             {
                 "trackNo": 45,
                 "artist": "Takamoon",
                 "title": "Acoustic Drums 7/4",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/45. Takamoon - Acoustic Drums 7_4.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.15
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 46,
                 "artist": "jacketpocket",
                 "title": "jacketpocket_EtherealBoy",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/46. jacketpocket - jacketpocket_EtherealBoy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 47,
                 "artist": "Christopher Sisk",
                 "title": "SoFast 7th Strums",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/47. Christopher Sisk - SoFast 7th Strums.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 54.29
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 48,
                 "artist": "Fallacy Dog",
                 "title": "No pressure.",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/48. Fallacy Dog - No pressure_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.04
+                "canonical_artists": [
+                    "fallacydog"
+                ]
             },
             {
                 "trackNo": 49,
                 "artist": "TomNomNom",
                 "title": "Bitter Aftertaste",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/49. TomNomNom - Bitter Aftertaste.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.06
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 50,
                 "artist": "jungle pickle",
                 "title": "I MADE A CALL",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/50. jungle pickle - I MADE A CALL.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.3
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 51,
                 "artist": "Nornec",
                 "title": "BDTR 120bpm B",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/51. Nornec - BDTR 120bpm B.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 16.03
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 52,
                 "artist": "Takamoon",
                 "title": "SFX Zebralette3",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/52. Takamoon - SFX Zebralette3.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 22.03
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 53,
                 "artist": "euskalduna",
                 "title": "engines failure",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/53. euskalduna - engines failure.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 15.23
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 54,
                 "artist": "NASCEN7",
                 "title": "M1 Donk Labs 120BPM A Maj",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/54. NASCEN7 - M1 Donk Labs 120BPM A Maj.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.04
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 55,
                 "artist": "kruvek",
                 "title": "Thunder-IR",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/55. kruvek - Thunder-IR.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 17.21
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 56,
                 "artist": "cschweppe",
                 "title": "Neon Winter",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/56. cschweppe - Neon Winter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 70.39
-            },
-            {
-                "trackNo": 57,
-                "artist": "The Infra",
-                "title": "The Infra. Bass Samples (Notes A and F)",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/57. The Infra - The Infra. Bass Samples (Notes A and F).mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 13.54
-            },
-            {
-                "trackNo": 58,
-                "artist": "vetra miga",
-                "title": "wttwdrum16bar",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/58. vetra miga - wttwdrum16bar.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 32.04
-            },
-            {
-                "trackNo": 59,
-                "artist": "moiko",
-                "title": "A 120 Circle",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/59. moiko - A 120 Circle.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 20.04
-            },
-            {
-                "trackNo": 60,
-                "artist": "Lunch Nap",
-                "title": "yesferatu",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/60. Lunch Nap - yesferatu.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 10.92
-            },
-            {
-                "trackNo": 61,
-                "artist": "euskalduna",
-                "title": "at the edge",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/61. euskalduna - at the edge.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 15.05
-            },
-            {
-                "trackNo": 62,
-                "artist": "Antimancer",
-                "title": "kalimba_pensive",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/62. Antimancer - kalimba_pensive.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.03
-            },
-            {
-                "trackNo": 63,
-                "artist": "kruvek",
-                "title": "Iridescent Handbells",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/63. kruvek - Iridescent Handbells.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.04
-            },
-            {
-                "trackNo": 64,
-                "artist": "dedblank",
-                "title": "tree",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/64. dedblank - tree.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.03
-            },
-            {
-                "trackNo": 65,
-                "artist": "Perlin",
-                "title": "November Samples A",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/65. Perlin - November Samples A.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.04
-            },
-            {
-                "trackNo": 66,
-                "artist": "dedblank",
-                "title": "Jitter",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/66. dedblank - Jitter.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.03
-            },
-            {
-                "trackNo": 67,
-                "artist": "Hunter the Gatherer",
-                "title": "sample",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/67. Hunter the Gatherer - sample.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 12.9
-            },
-            {
-                "trackNo": 68,
-                "artist": "Charles Randall",
-                "title": "Guitar Arp A Majorish",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/68. Charles Randall - Guitar Arp A Majorish.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 15.05
-            },
-            {
-                "trackNo": 69,
-                "artist": "the_f3l1x",
-                "title": "Nights in Worthing",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/69. the_f3l1x - Nights in Worthing.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 18.36
-            },
-            {
-                "trackNo": 70,
-                "artist": "electrovesta",
-                "title": "Floolf",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/70. electrovesta - Floolf.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.07
-            },
-            {
-                "trackNo": 71,
-                "artist": "frildoh",
-                "title": "tongue drum wfx",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/71. frildoh - tongue drum wfx.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.04
-            },
-            {
-                "trackNo": 72,
-                "artist": "KwaK",
-                "title": "KwaK Melodic Loops Wet",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/72. KwaK - KwaK Melodic Loops Wet.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 17.03
-            },
-            {
-                "trackNo": 73,
-                "artist": "Antimancer",
-                "title": "kalimba_mystery",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/73. Antimancer - kalimba_mystery.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.03
-            },
-            {
-                "trackNo": 74,
-                "artist": "Poetry in Noise",
-                "title": "pad_winddownandup_PIN",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/74. Poetry in Noise - pad_winddownandup_PIN.mp3",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 19.94
-            },
-            {
-                "trackNo": 75,
-                "artist": "Pantagruel",
-                "title": "Gruel",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/75. Pantagruel - Gruel.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 19.82
-            },
-            {
-                "trackNo": 76,
-                "artist": "Pantagruel",
-                "title": "Bass Drone",
-                "file": "2025/Sim_Selections_NOVEMBER_2025/76. Pantagruel - Bass Drone.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 16.99
+                "canonical_artists": [
+                    "cschweppe"
+                ]
             }
         ]
     },
@@ -16310,411 +19042,497 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Hunter the Gatherer",
                 "title": "Skyway Pit Stop",
-                "file": "2025/Sim_Selections_DECEMBER_2025/01. Hunter the Gatherer - Skyway Pit Stop.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 117.03
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Chooko",
                 "title": "Catch a break",
-                "file": "2025/Sim_Selections_DECEMBER_2025/02. Chooko - Catch a break.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.03
+                "canonical_artists": [
+                    "chooko"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Oobesan",
                 "title": "Warm Winter",
-                "file": "2025/Sim_Selections_DECEMBER_2025/03. Oobesan - Warm Winter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.2
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Robert Redshaw",
                 "title": "GrowPlex",
-                "file": "2025/Sim_Selections_DECEMBER_2025/04. Robert Redshaw - GrowPlex.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.04
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "jungle pickle",
                 "title": "mercy",
-                "file": "2025/Sim_Selections_DECEMBER_2025/05. jungle pickle - mercy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.54
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Panoramic Dream",
                 "title": "Reverbial Growth",
-                "file": "2025/Sim_Selections_DECEMBER_2025/06. Panoramic Dream - Reverbial Growth.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.16
+                "canonical_artists": [
+                    "panoramicdream"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Teapotahedron",
                 "title": "Sleep Paralysis",
-                "file": "2025/Sim_Selections_DECEMBER_2025/07. Teapotahedron - Sleep Paralysis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.04
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Cathartic Reunion",
                 "title": "Hope // Mercy",
-                "file": "2025/Sim_Selections_DECEMBER_2025/08. Cathartic Reunion - Hope __ Mercy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.54
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "KwaK",
                 "title": "I don't like mirrors",
-                "file": "2025/Sim_Selections_DECEMBER_2025/09. KwaK - I don't like mirrors.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.42
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "The F3l1x",
                 "title": "Chill #1",
-                "file": "2025/Sim_Selections_DECEMBER_2025/10. The F3l1x - Chill #1.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 134.04
+                "canonical_artists": [
+                    "thef3l1x"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Perlin",
                 "title": "Churros for Dogs",
-                "file": "2025/Sim_Selections_DECEMBER_2025/11. Perlin - Churros for Dogs.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.12
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Antimancer",
                 "title": "succumbence",
-                "file": "2025/Sim_Selections_DECEMBER_2025/12. Antimancer - succumbence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.67
+                "canonical_artists": [
+                    "antimancer"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Fine Structure Constant",
                 "title": "Carbon Oceans",
-                "file": "2025/Sim_Selections_DECEMBER_2025/13. Fine Structure Constant - Carbon Oceans.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.04
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "APBT (Charles Randall)",
                 "title": "Mercy",
-                "file": "2025/Sim_Selections_DECEMBER_2025/14. APBT (Charles Randall) - Mercy.mp3",
+                "file": "",
                 "link": "https://apalebluethought.bandcamp.com/track/mercy",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.3
+                "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "edwin and the sim-sel community",
                 "title": "contributions",
-                "file": "2025/Sim_Selections_DECEMBER_2025/15. edwin and the sim-sel community - contributions.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.14
+                "canonical_artists": [
+                    "edwin",
+                    "thesimselcommunity"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Long Century of The Surreal",
                 "title": "The Sommelier",
-                "file": "2025/Sim_Selections_DECEMBER_2025/16. Long Century of The Surreal - The Sommelier.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.31
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "AmbientSpace",
                 "title": "Blippoo Bonkmas",
-                "file": "2025/Sim_Selections_DECEMBER_2025/17. AmbientSpace - Blippoo Bonkmas.mp3",
+                "file": "",
                 "link": "https://bandwagon.fm/6960b81c2f0f56fdcee52f6e",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.02
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Cschweppe",
                 "title": "Arcaid",
-                "file": "2025/Sim_Selections_DECEMBER_2025/18. Cschweppe - Arcaid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 130.25
+                "canonical_artists": [
+                    "cschweppe"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "tabs",
                 "title": "They Speak For Themselves",
-                "file": "2025/Sim_Selections_DECEMBER_2025/19. tabs - They Speak For Themselves.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/25-12-sim-selections-they-speak-for-themselves",
                 "optIn": false,
                 "canPlay": false,
-                "length": 263.08
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "The Infra",
                 "title": "Phillip is unemployed",
-                "file": "2025/Sim_Selections_DECEMBER_2025/20. The Infra - Phillip is unemployed.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/phillip-is-unemployed",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.8
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "shereen",
                 "title": "dark side",
-                "file": "2025/Sim_Selections_DECEMBER_2025/21. shereen - dark side.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.04
+                "canonical_artists": [
+                    "shereen"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Doggo Shark (Fallacy Dice)",
                 "title": "My Friendliest Squamous Polyp",
-                "file": "2025/Sim_Selections_DECEMBER_2025/22. Doggo Shark (Fallacy Dice) - My Friendliest Squamous Polyp.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.08
+                "canonical_artists": [
+                    "doggoshark",
+                    "fallacydice"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Yesterday's Lazers (CDD)",
                 "title": "Tallying the Giltwrights' Ledger (Simsel Samples)",
-                "file": "2025/Sim_Selections_DECEMBER_2025/23. Yesterday's Lazers (CDD) - Tallying the Giltwrights' Ledger (Simsel Samples).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.1
+                "canonical_artists": [
+                    "yesterdayslazerscdd"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Skitter",
                 "title": "A Few Ideas",
-                "file": "2025/Sim_Selections_DECEMBER_2025/24. Skitter - A Few Ideas.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.61
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "informationcake",
                 "title": "Dark Reflections",
-                "file": "2025/Sim_Selections_DECEMBER_2025/25. informationcake - Dark Reflections.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 190.67
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Christopher Sisk",
                 "title": "Bowie's Big Adventure",
-                "file": "2025/Sim_Selections_DECEMBER_2025/26. Christopher Sisk - Bowie's Big Adventure.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 241.06
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "fulhjort",
                 "title": "beng inna de om nom tom",
-                "file": "2025/Sim_Selections_DECEMBER_2025/27. fulhjort - beng inna de om nom tom.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.87
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Adam Johan Bergren (ft. All)",
                 "title": "Solvatochromism",
-                "file": "2025/Sim_Selections_DECEMBER_2025/28. Adam Johan Bergren (ft. All) - Solvatochromism.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/solvatochromism",
                 "optIn": false,
                 "canPlay": false,
-                "length": 306.02
+                "canonical_artists": [
+                    "adamjohanbergren",
+                    "all"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "TheOwl84",
                 "title": "A Stroll Through the Haunted Forest",
-                "file": "2025/Sim_Selections_DECEMBER_2025/29. TheOwl84 - A Stroll Through the Haunted Forest.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.53
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "ducks",
                 "title": "hugo",
-                "file": "2025/Sim_Selections_DECEMBER_2025/30. ducks - hugo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 185.5
+                "canonical_artists": [
+                    "ducks"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "electrovesta",
                 "title": "Affirmative Repair",
-                "file": "2025/Sim_Selections_DECEMBER_2025/31. electrovesta - Affirmative Repair.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/kongr45gpen/affirmative-repair",
                 "optIn": false,
                 "canPlay": false,
-                "length": 236.07
+                "canonical_artists": [
+                    "electrovesta"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Kyle Barr",
                 "title": "Quell",
-                "file": "2025/Sim_Selections_DECEMBER_2025/32. Kyle Barr - Quell.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.07
+                "canonical_artists": [
+                    "kylebarr"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Bjen",
                 "title": "Radio Simulacra (Stream Edit)",
-                "file": "2025/Sim_Selections_DECEMBER_2025/33. Bjen - Radio Simulacra (Stream Edit).mp3",
+                "file": "",
                 "link": "https://bjen.bandcamp.com/album/radio-simulacra",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.54
+                "canonical_artists": [
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "dedblank",
                 "title": "ADHD",
-                "file": "2025/Sim_Selections_DECEMBER_2025/34. dedblank - ADHD.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.59
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Stu M",
                 "title": "On Level 4",
-                "file": "2025/Sim_Selections_DECEMBER_2025/35. Stu M - On Level 4.mp3",
+                "file": "",
                 "link": "https://on.soundcloud.com/ohk3Wkpi0MrFjF7Ljh",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.83
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "euskalduna",
                 "title": "walking through the snow on nye (working title)",
-                "file": "2025/Sim_Selections_DECEMBER_2025/36. euskalduna - walking through the snow on nye (working title).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 161.65
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Poetry in Noise",
                 "title": "(bring the room)Down",
-                "file": "2025/Sim_Selections_DECEMBER_2025/37. Poetry in Noise - (bring the room)Down.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.17
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "kruvek",
                 "title": "In The Void With Me",
-                "file": "2025/Sim_Selections_DECEMBER_2025/38. kruvek - In The Void With Me.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 364.72
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "TomNomNom",
                 "title": "Winter",
-                "file": "2025/Sim_Selections_DECEMBER_2025/39. TomNomNom - Winter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.65
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "stupidPilled",
                 "title": "Sounds People On The Internet Made",
-                "file": "2025/Sim_Selections_DECEMBER_2025/40. stupidPilled - Sounds People On The Internet Made.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.44
+                "canonical_artists": [
+                    "stupidpilled"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Domilo",
                 "title": "MPC - Many Playful Characters",
-                "file": "2025/Sim_Selections_DECEMBER_2025/41. Domilo - MPC - Many Playful Characters.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.37
+                "canonical_artists": [
+                    "domilo"
+                ]
             }
         ]
     },
@@ -16735,571 +19553,677 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "DarkSwordsman",
                 "title": "Seeking Serenity",
-                "file": "2026/Sim_Selections_JANUARY_2026/02. DarkSwordsman - Seeking Serenity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.97
+                "canonical_artists": [
+                    "darkswordsman"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "informationcake",
                 "title": "Leaf",
-                "file": "2026/Sim_Selections_JANUARY_2026/03. informationcake - Leaf.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 327.29
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Domilo",
                 "title": "A few bleeps and a couple bloops",
-                "file": "2026/Sim_Selections_JANUARY_2026/04. Domilo - A few bleeps and a couple bloops.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.04
+                "canonical_artists": [
+                    "domilo"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "jungle pickle",
                 "title": "meditation",
-                "file": "2026/Sim_Selections_JANUARY_2026/01. jungle pickle - meditation.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.38
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "NASCEN7",
                 "title": "Ocean Of Red Sand",
-                "file": "2026/Sim_Selections_JANUARY_2026/05. NASCEN7 - Ocean Of Red Sand.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.02
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Teapotahedron",
                 "title": "Nothing",
-                "file": "2026/Sim_Selections_JANUARY_2026/06. Teapotahedron - Nothing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.04
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "frildoh",
                 "title": "The Flower Shrine Opens",
-                "file": "2026/Sim_Selections_JANUARY_2026/07. frildoh - The Flower Shrine Opens.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.43
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Poetry in Noise",
                 "title": "BellDrone",
-                "file": "2026/Sim_Selections_JANUARY_2026/08. Poetry in Noise - BellDrone.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.29
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Christopher Sisk",
                 "title": "Caught In Zazen",
-                "file": "2026/Sim_Selections_JANUARY_2026/09. Christopher Sisk - Caught In Zazen.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.74
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Pantagruel",
                 "title": "Everlasting",
-                "file": "2026/Sim_Selections_JANUARY_2026/10. Pantagruel - Everlasting.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.03
+                "canonical_artists": [
+                    "pantagruel"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Panoramic Dream",
                 "title": "Main Sequence Meditator",
-                "file": "2026/Sim_Selections_JANUARY_2026/11. Panoramic Dream - Main Sequence Meditator.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.61
+                "canonical_artists": [
+                    "panoramicdream"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Robert Redshaw",
                 "title": "Meditat",
-                "file": "2026/Sim_Selections_JANUARY_2026/12. Robert Redshaw - Meditat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.02
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Shaolin Rib",
                 "title": "Angles Mort",
-                "file": "2026/Sim_Selections_JANUARY_2026/13. Shaolin Rib - Angles Mort.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.02
+                "canonical_artists": [
+                    "shaolinrib"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Oobesan",
                 "title": "Is This Ambient_",
-                "file": "2026/Sim_Selections_JANUARY_2026/14. Oobesan - Is This Ambient_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.38
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "kruvek",
                 "title": "Moonlite",
-                "file": "2026/Sim_Selections_JANUARY_2026/15. kruvek - Moonlite.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 316.84
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "moiko",
                 "title": "Uncanny",
-                "file": "2026/Sim_Selections_JANUARY_2026/16. moiko - Uncanny.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 138.02
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Broken Gravity",
                 "title": "Signal Rain",
-                "file": "2026/Sim_Selections_JANUARY_2026/17. Broken Gravity - Signal Rain.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 255.03
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "tabs",
                 "title": "Getting Here",
-                "file": "2026/Sim_Selections_JANUARY_2026/18. tabs - Getting Here.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-01-sim-selections-getting?si=e0624068fa0444ce8d08347b490c710c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.75
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "KwaK",
                 "title": "Spiraling Thoughts",
-                "file": "2026/Sim_Selections_JANUARY_2026/19. KwaK - Spiraling Thoughts.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 311.61
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Bjen",
                 "title": "Janus Descendentis",
-                "file": "2026/Sim_Selections_JANUARY_2026/20. Bjen - Janus Descendentis.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=WD-UUCPSiI0",
                 "optIn": false,
                 "canPlay": false,
-                "length": 381.23
+                "canonical_artists": [
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "5XVT",
                 "title": "Float Tank",
-                "file": "2026/Sim_Selections_JANUARY_2026/21. 5XVT - Float Tank.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=WBgbk5bVXFg",
                 "optIn": false,
                 "canPlay": false,
-                "length": 341.71
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Peregrine (Cschweppe)",
                 "title": "Air",
-                "file": "2026/Sim_Selections_JANUARY_2026/22. Peregrine (Cschweppe) - Air.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.38
+                "canonical_artists": [
+                    "peregrine",
+                    "cschweppe"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "dedblank",
                 "title": "smothered guilt",
-                "file": "2026/Sim_Selections_JANUARY_2026/23. dedblank - smothered guilt.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.9
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "kruvek",
                 "title": "Vibe Downtempo",
-                "file": "2026/Sim_Selections_JANUARY_2026/24. kruvek - Vibe Downtempo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.66
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "KairoKunOngaku",
                 "title": "Dilapidated Shrine",
-                "file": "2026/Sim_Selections_JANUARY_2026/25. KairoKunOngaku - Dilapidated Shrine.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 210.84
+                "canonical_artists": [
+                    "kairokunongaku"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "zuggamasta",
                 "title": "Simple Joys",
-                "file": "2026/Sim_Selections_JANUARY_2026/26. zuggamasta - Simple Joys.mp3",
+                "file": "",
                 "link": "https://zuggamasta.de/music/sim-sel/1/",
                 "optIn": false,
                 "canPlay": false,
-                "length": 124.03
+                "canonical_artists": [
+                    "zuggamasta"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Reark",
                 "title": "Aurora",
-                "file": "2026/Sim_Selections_JANUARY_2026/27. Reark - Aurora.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.84
+                "canonical_artists": [
+                    "reark"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Cathartic Reunion",
                 "title": "Continuation Day",
-                "file": "2026/Sim_Selections_JANUARY_2026/28. Cathartic Reunion - Continuation Day.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.84
+                "canonical_artists": [
+                    "catharticreunion"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "euskalduna",
                 "title": "breathe in",
-                "file": "2026/Sim_Selections_JANUARY_2026/29. euskalduna - breathe in.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.04
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Doggo Shark (Fallacy Dice)",
                 "title": "Recollections of Qualia",
-                "file": "2026/Sim_Selections_JANUARY_2026/30. Doggo Shark (Fallacy Dice) - Recollections of Qualia.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.77
+                "canonical_artists": [
+                    "doggoshark",
+                    "fallacydice"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Chooko",
                 "title": "Rain at the beach",
-                "file": "2026/Sim_Selections_JANUARY_2026/31. Chooko - Rain at the beach.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.54
+                "canonical_artists": [
+                    "chooko"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Skitter",
                 "title": "Birth of Sound + Eden + Corruption(1_2)",
-                "file": "2026/Sim_Selections_JANUARY_2026/32. Skitter - Birth of Sound + Eden + Corruption(1_2).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 347.48
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "The F3l1x",
                 "title": "#2 - A walk by the beach",
-                "file": "2026/Sim_Selections_JANUARY_2026/33. The F3l1x - #2 - A walk by the beach.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 163.85
+                "canonical_artists": [
+                    "thef3l1x"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "NASCEN7",
                 "title": "Heart",
-                "file": "2026/Sim_Selections_JANUARY_2026/34. NASCEN7 - Heart.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 32.3
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Stu M",
                 "title": "Tiles",
-                "file": "2026/Sim_Selections_JANUARY_2026/35. Stu M - Tiles.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.03
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Skybird",
                 "title": "Breach the Depths",
-                "file": "2026/Sim_Selections_JANUARY_2026/36. Skybird - Breach the Depths.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 44.04
+                "canonical_artists": [
+                    "skybird"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "electrovesta",
                 "title": "Sorry, but I only had time for a SINGLE BLOOP_",
-                "file": "2026/Sim_Selections_JANUARY_2026/37. electrovesta - Sorry, but I only had time for a SINGLE BLOOP_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 53.63
+                "canonical_artists": [
+                    "electrovesta"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "APBT (Charles Randall)",
                 "title": "Traveller (Interlude)",
-                "file": "2026/Sim_Selections_JANUARY_2026/38. APBT (Charles Randall) - Traveller (Interlude).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 99.06
+                "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "Robert Redshaw",
                 "title": "BlooBle",
-                "file": "2026/Sim_Selections_JANUARY_2026/39. Robert Redshaw - BlooBle.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 100.39
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "Takamoon",
                 "title": "33 27 01",
-                "file": "2026/Sim_Selections_JANUARY_2026/40. Takamoon - 33 27 01.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 125.5
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "TheOwl84",
                 "title": "Spa in a Can",
-                "file": "2026/Sim_Selections_JANUARY_2026/41. TheOwl84 - Spa in a Can.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/matthias-straka-1/spa-in-a-can",
                 "optIn": false,
                 "canPlay": false,
-                "length": 160.03
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 42,
                 "artist": "edwin",
                 "title": "stringstreet",
-                "file": "2026/Sim_Selections_JANUARY_2026/42. edwin - stringstreet.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 315.77
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 43,
                 "artist": "APBT (Charles Randall)",
                 "title": "This Universe",
-                "file": "2026/Sim_Selections_JANUARY_2026/43. APBT (Charles Randall) - This Universe.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 297.72
+                "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 44,
                 "artist": "Elossa",
                 "title": "Guided meditation for a computer",
-                "file": "2026/Sim_Selections_JANUARY_2026/44. Elossa - Guided meditation for a computer.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.23
+                "canonical_artists": [
+                    "elossa"
+                ]
             },
             {
                 "trackNo": 45,
                 "artist": "Camino del Dragon",
                 "title": "A phone call on the last day of a citric summer",
-                "file": "2026/Sim_Selections_JANUARY_2026/45. Camino del Dragon - A phone call on the last day of a citric summer.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 165.67
+                "canonical_artists": [
+                    "caminodeldragon"
+                ]
             },
             {
                 "trackNo": 46,
                 "artist": "PonyArt",
                 "title": "b2 wip4",
-                "file": "2026/Sim_Selections_JANUARY_2026/46. PonyArt - b2 wip4.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 346.92
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 47,
                 "artist": "vetra miga",
                 "title": "walk to the water",
-                "file": "2026/Sim_Selections_JANUARY_2026/47. vetra miga - walk to the water.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 239.78
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 48,
                 "artist": "Paranautica",
                 "title": "What once was lost",
-                "file": "2026/Sim_Selections_JANUARY_2026/48. Paranautica - What once was lost.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.21
+                "canonical_artists": [
+                    "paranautica"
+                ]
             },
             {
                 "trackNo": 49,
                 "artist": "TomNomNom",
                 "title": "Electromagnetic Spectrum Disorder",
-                "file": "2026/Sim_Selections_JANUARY_2026/49. TomNomNom - Electromagnetic Spectrum Disorder.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 198.29
+                "canonical_artists": [
+                    "tomnomnom"
+                ]
             },
             {
                 "trackNo": 50,
                 "artist": "Perlin",
                 "title": "Waterwheel",
-                "file": "2026/Sim_Selections_JANUARY_2026/50. Perlin - Waterwheel.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 180.35
+                "canonical_artists": [
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 51,
                 "artist": "Ryan Spratt",
                 "title": "Lancaster260129",
-                "file": "2026/Sim_Selections_JANUARY_2026/51. Ryan Spratt - Lancaster260129.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.07
+                "canonical_artists": [
+                    "ryanspratt"
+                ]
             },
             {
                 "trackNo": 52,
                 "artist": "poldu",
                 "title": "Ohm",
-                "file": "2026/Sim_Selections_JANUARY_2026/52. poldu - Ohm.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.04
+                "canonical_artists": [
+                    "poldu"
+                ]
             },
             {
                 "trackNo": 53,
                 "artist": "Adam Johan Bergren",
                 "title": "Translational Mantra",
-                "file": "2026/Sim_Selections_JANUARY_2026/53. Adam Johan Bergren - Translational Mantra.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/translational-mantra",
                 "optIn": false,
                 "canPlay": false,
-                "length": 300.72
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 54,
                 "artist": "jacketpocket",
                 "title": "SimpleSimSelSamplerSaxSketch",
-                "file": "2026/Sim_Selections_JANUARY_2026/54. jacketpocket - SimpleSimSelSamplerSaxSketch.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.54
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 55,
                 "artist": "The Infra",
                 "title": "Teeth",
-                "file": "2026/Sim_Selections_JANUARY_2026/55. The Infra - Teeth.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/the_infra/teeth?si=cd694eff2dac4b5092abf826867aebce&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 217.18
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 56,
                 "artist": "fulhjort",
                 "title": "Relax (feat Jungle Pickle)",
-                "file": "2026/Sim_Selections_JANUARY_2026/56. fulhjort - Relax (feat Jungle Pickle).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.93
-            },
-            {
-                "trackNo": 57,
-                "artist": "Andrew Collinsworth",
-                "title": "Zentecha",
-                "file": "2026/Sim_Selections_JANUARY_2026/57. Andrew Collinsworth - Zentecha.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "length": 88.5
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             }
         ]
     },
@@ -17314,47 +20238,56 @@ export const playlistData = [
             "Analog"
         ],
         "challenge": "Write a track that sits somewhere on the Ph scale, or transitions through it.",
-        "streamUrl": "https://www.youtube.com/watch?v=5DRN3Dr1xVQ",
+        "streamUrl": "https://www.youtube.com/watch?v=Cc0bkPl9y84",
         "tracks": [
             {
                 "trackNo": 1,
                 "artist": "APBT (Charles Randall)",
                 "title": "3nB",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/03. APBT (Charles Randall) - 3nB.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 196.0
+                "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "jungle pickle",
                 "title": "highs and lows",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/02. jungle pickle - highs and lows.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 202.32
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Shaolin Rib",
                 "title": "Fun With Acid",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/04. Shaolin Rib - Fun With Acid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.02
+                "canonical_artists": [
+                    "shaolinrib"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Saw Whet",
                 "title": "Fortune",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/01. Saw Whet - Fortune.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.83
+                "canonical_artists": [
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 5,
@@ -17363,317 +20296,384 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "optIn": false,
-                "canPlay": false
+                "canPlay": false,
+                "canonical_artists": [
+                    "acidwolf"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Chooko",
                 "title": "Harbor",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/05. Chooko - Harbor.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.02
+                "canonical_artists": [
+                    "chooko"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "edwin",
                 "title": "raze the ph",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/06. edwin - raze the ph.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 304.01
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Lahlah",
                 "title": "Reflux",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/07. Lahlah - Reflux.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/lewpsi/reflux?si=65001b1f73a945c8a13c14f605d2728d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.74
+                "canonical_artists": [
+                    "lahlah"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "dedblank",
                 "title": "V\u00e1hat",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/08. dedblank - V\u00e1hat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.0
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Stu M",
                 "title": "ausazkoa",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/09. Stu M - ausazkoa.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.71
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "poldu",
                 "title": "Caustic Ooze",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/10. poldu - Caustic Ooze.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.04
+                "canonical_artists": [
+                    "poldu"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "zuggamasta",
                 "title": "Intervasion of the Eurorack",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/11. zuggamasta - Intervasion of the Eurorack.mp3",
+                "file": "",
                 "link": "https://zuggamasta.de/music/sim-sel/2/",
                 "optIn": false,
                 "canPlay": false,
-                "length": 285.78
+                "canonical_artists": [
+                    "zuggamasta"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Bottle Brush",
                 "title": "Acid Sim",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/12. Bottle Brush - Acid Sim.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.89
+                "canonical_artists": [
+                    "bottlebrush"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "tabs",
                 "title": "this conversation is going nowhere",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/13. tabs - this conversation is going nowhere.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-02-sim-selections-this",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.76
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Panoramic Dream",
                 "title": "Subterranean Acid Lab",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/14. Panoramic Dream - Subterranean Acid Lab.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 149.38
+                "canonical_artists": [
+                    "panoramicdream"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Reark",
                 "title": "Acid Dub Melodrama",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/15. Reark - Acid Dub Melodrama.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.83
+                "canonical_artists": [
+                    "reark"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "KwaK",
                 "title": "Someday",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/16. KwaK - Someday.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.02
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Takamoon",
                 "title": "Darling Come Here Actually Don't",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/17. Takamoon - Darling Come Here Actually Don't.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.23
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Bjen",
                 "title": "Hydrolysis",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/18. Bjen - Hydrolysis.mp3",
+                "file": "",
                 "link": "https://bjen.bandcamp.com/album/catalyst",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.18
+                "canonical_artists": [
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Peregrine (Cschweppe)",
                 "title": "Locked Out",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/19. Peregrine (Cschweppe) - Locked Out.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 177.34
+                "canonical_artists": [
+                    "peregrine",
+                    "cschweppe"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Zero Lucks Given",
                 "title": "Acids and Bases",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/20. Zero Lucks Given - Acids and Bases.mp3",
+                "file": "",
                 "link": "https://zerolucksgiven.bandcamp.com/track/acids-and-bases",
                 "optIn": false,
                 "canPlay": false,
-                "length": 249.41
+                "canonical_artists": [
+                    "zerolucksgiven"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "PonyArt",
                 "title": "LSD (ACID)",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/21. PonyArt - LSD (ACID).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 313.68
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "informationcake",
                 "title": "Caution",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/22. informationcake - Caution.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 263.29
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "fulhjort",
                 "title": "Zee drangrers ov AC kid",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/23. fulhjort - Zee drangrers ov AC kid.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 243.25
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Adam Johan Bergren",
                 "title": "Alter of Acid",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/24. Adam Johan Bergren - Alter of Acid.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/alter-of-acid",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.5
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "euskalduna",
                 "title": "don't drink that",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/25. euskalduna - don't drink that.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 222.35
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Doggo Shark (Fallacy Dice)",
                 "title": "Acid? Well I added the squeaky bits.",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/26. Doggo Shark (Fallacy Dice) - Acid_ Well I added the squeaky bits_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 105.12
+                "canonical_artists": [
+                    "doggoshark",
+                    "fallacydice"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Robert Redshaw",
                 "title": "pH 5.555",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/27. Robert Redshaw - pH 5.555.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.04
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Oobesan",
                 "title": "Just Turnin Deez Knobs",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/28. Oobesan - Just Turnin Deez Knobs.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 293.8
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "dotaistheworstgame",
                 "title": "I took acid and went to get a burger",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/29. dotaistheworstgame - I took acid and went to get a burger.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.63
+                "canonical_artists": [
+                    "dotaistheworstgame"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Nornec",
                 "title": "Why, Doug?",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/30. Nornec - Why, Doug_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.91
+                "canonical_artists": [
+                    "nornec"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "kruvek",
                 "title": "Coterminous Discontinuation, Acerbic Station",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/31. kruvek - Coterminous Discontinuation, Acerbic Station.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 229.75
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Depthbuffer",
                 "title": "Reflux",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/32. Depthbuffer - Reflux.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 344.5
+                "canonical_artists": [
+                    "depthbuffer"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Skitter",
                 "title": "selfexec",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/33. Skitter - selfexec.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/too-little-time?si=0d5b8759939848ee914c15fe6fc61dfb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.34
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "TheOwl84",
                 "title": "Into the Ultrasound Range (feat. Benn Jordan)",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/34. TheOwl84 - Into the Ultrasound Range (feat. Benn Jordan).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 101.62
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Mime Mining Corporation",
                 "title": "La Campanella / Stanley Park",
-                "file": "2026/Sim_Selections_FEBRUARY_2026/35. Mime Mining Corporation - La Campanella _ Stanley Park.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 267.79
+                "canonical_artists": [
+                    "mimeminingcorporation"
+                ]
             }
         ]
     },
@@ -17694,401 +20694,484 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "The Planting Noise",
                 "title": "Seven",
-                "file": "2026/Sim_Selections_MARCH_2026/01. The Planting Noise - Seven.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 136.46
+                "canonical_artists": [
+                    "theplantingnoise"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "frildoh",
                 "title": "alcubierre drive",
-                "file": "2026/Sim_Selections_MARCH_2026/02. frildoh - alcubierre drive.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.47
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "euskalduna",
                 "title": "causality",
-                "file": "2026/Sim_Selections_MARCH_2026/03. euskalduna - causality.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 227.24
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "Camino del Dragon (YL)",
                 "title": "Redshift est un mot facilie",
-                "file": "2026/Sim_Selections_MARCH_2026/04. Camino del Dragon (YL) - Redshift est un mot facilie.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 119.38
+                "canonical_artists": [
+                    "caminodeldragonyl"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Adam Johan Bergren",
                 "title": "Edges of History",
-                "file": "2026/Sim_Selections_MARCH_2026/05. Adam Johan Bergren - Edges of History.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/edges-of-history",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.52
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "AmbientSpace",
                 "title": "Existential Lemonade",
-                "file": "2026/Sim_Selections_MARCH_2026/06. AmbientSpace - Existential Lemonade.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 144.02
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Takamoon",
                 "title": "Chromatic Aberration",
-                "file": "2026/Sim_Selections_MARCH_2026/07. Takamoon - Chromatic Aberration.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 83.04
+                "canonical_artists": [
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "PonyArt",
                 "title": "MDMA but no Acid = No fractals",
-                "file": "2026/Sim_Selections_MARCH_2026/08. PonyArt - MDMA but no Acid = No fractals.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.48
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Donoru",
                 "title": "Transient Motive",
-                "file": "2026/Sim_Selections_MARCH_2026/09. Donoru - Transient Motive.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.68
+                "canonical_artists": [
+                    "donoru"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "dedblank",
                 "title": "Ovr",
-                "file": "2026/Sim_Selections_MARCH_2026/10. dedblank - Ovr.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 205.53
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Oobesan",
                 "title": "Dance Yer Little Fractals Off",
-                "file": "2026/Sim_Selections_MARCH_2026/11. Oobesan - Dance Yer Little Fractals Off.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.67
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Doggo Shark (Fallacy Dice)",
                 "title": "Bread is better buttered",
-                "file": "2026/Sim_Selections_MARCH_2026/12. Doggo Shark (Fallacy Dice) - Bread is better buttered.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 74.04
+                "canonical_artists": [
+                    "doggoshark",
+                    "fallacydice"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "jungle pickle",
                 "title": "on the edge",
-                "file": "2026/Sim_Selections_MARCH_2026/13. jungle pickle - on the edge.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.45
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "bit.r.ist",
                 "title": "Black Hole Casualty",
-                "file": "2026/Sim_Selections_MARCH_2026/14. bit.r.ist - Black Hole Casualty.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.08
+                "canonical_artists": [
+                    "bitrist"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "tabs",
                 "title": "Cryoslept into a Frozen Star",
-                "file": "2026/Sim_Selections_MARCH_2026/15. tabs - Cryoslept into a Frozen Star.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-03-sim-selections-cryoslept",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.1
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "KwaK",
                 "title": "Event Horizon",
-                "file": "2026/Sim_Selections_MARCH_2026/16. KwaK - Event Horizon.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.43
+                "canonical_artists": [
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Spirit Unknown",
                 "title": "Sine Party",
-                "file": "2026/Sim_Selections_MARCH_2026/17. Spirit Unknown - Sine Party.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/spirit_unknown/sine-party?si=99bfe962c5504ac2b17aa86d64ab84a6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 188.62
+                "canonical_artists": [
+                    "spiritunknown"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Skitter",
                 "title": "Convalescence",
-                "file": "2026/Sim_Selections_MARCH_2026/18. Skitter - Convalescence.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/convalescence?si=96de784b9db84fd4b3e5687aaa10866b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 344.56
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "shereen",
                 "title": "auxiliary engine startup sequence",
-                "file": "2026/Sim_Selections_MARCH_2026/19. shereen - auxiliary engine startup sequence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.97
+                "canonical_artists": [
+                    "shereen"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "edwin",
                 "title": "time crunch ship escape question mark",
-                "file": "2026/Sim_Selections_MARCH_2026/20. edwin - time crunch ship escape question mark.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.96
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "informationcake",
                 "title": "Reality Engine",
-                "file": "2026/Sim_Selections_MARCH_2026/21. informationcake - Reality Engine.mp3",
+                "file": "",
                 "link": "",
-                "optIn": true,
-                "canPlay": true,
-                "length": 363.42
+                "optIn": false,
+                "canPlay": false,
+                "canonical_artists": [
+                    "informationcake"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Elossa",
                 "title": "Funny little Bitwig patch I made",
-                "file": "2026/Sim_Selections_MARCH_2026/22. Elossa - Funny little Bitwig patch I made.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 69.56
+                "canonical_artists": [
+                    "elossa"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Cahl",
                 "title": "Gravity's Diktat",
-                "file": "2026/Sim_Selections_MARCH_2026/23. Cahl - Gravity's Diktat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 342.82
+                "canonical_artists": [
+                    "cahl"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Fine Structure Constant",
                 "title": "Zero Hour",
-                "file": "2026/Sim_Selections_MARCH_2026/24. Fine Structure Constant - Zero Hour.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 114.72
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Yesterday's Lazers (MMT mix)",
                 "title": "If I stop time, you cant see me fall, but then where is up?",
-                "file": "2026/Sim_Selections_MARCH_2026/25. Yesterday's Lazers (MMT mix) - If I stop time, you cant see me fall, but then where is up_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.27
+                "canonical_artists": [
+                    "yesterdayslazersmmtmix"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "TallDarknWeirdo",
                 "title": "The Mandelbrot Set",
-                "file": "2026/Sim_Selections_MARCH_2026/26. TallDarknWeirdo - The Mandelbrot Set.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 252.03
+                "canonical_artists": [
+                    "talldarknweirdo"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Peregrine (Cschweppe)",
                 "title": "Tidal Faults",
-                "file": "2026/Sim_Selections_MARCH_2026/27. Peregrine (Cschweppe) - Tidal Faults.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.37
+                "canonical_artists": [
+                    "peregrine",
+                    "cschweppe"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Teapotahedron",
                 "title": "Death of Time",
-                "file": "2026/Sim_Selections_MARCH_2026/28. Teapotahedron - Death of Time.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 182.04
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Long Century of The Surreal",
                 "title": "The One Who Will Eat",
-                "file": "2026/Sim_Selections_MARCH_2026/29. Long Century of The Surreal - The One Who Will Eat.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.69
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "5XVT",
                 "title": "Fractal the Future",
-                "file": "2026/Sim_Selections_MARCH_2026/30. 5XVT - Fractal the Future.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=8dSwmxEVJSw",
                 "optIn": false,
                 "canPlay": false,
-                "length": 290.27
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "Procrastronaut",
                 "title": "GollyThatEventHorizonIsREALLYClose",
-                "file": "2026/Sim_Selections_MARCH_2026/31. Procrastronaut - GollyThatEventHorizonIsREALLYClose.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.27
+                "canonical_artists": [
+                    "procrastronaut"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "STU M",
                 "title": "mantle137",
-                "file": "2026/Sim_Selections_MARCH_2026/32. STU M - mantle137.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 287.35
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "poldu",
                 "title": "The Beast of Many Colors and None",
-                "file": "2026/Sim_Selections_MARCH_2026/33. poldu - The Beast of Many Colors and None.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.54
+                "canonical_artists": [
+                    "poldu"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "fulhjort",
                 "title": "bennmar26d",
-                "file": "2026/Sim_Selections_MARCH_2026/34. fulhjort - bennmar26d.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 206.81
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Poetry in Noise",
                 "title": "Fractal Mass",
-                "file": "2026/Sim_Selections_MARCH_2026/35. Poetry in Noise - Fractal Mass.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.47
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "The Infra",
                 "title": "Thin Air",
-                "file": "2026/Sim_Selections_MARCH_2026/36. The Infra - Thin Air.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/the_infra/thin-air?si=d828baca8ba44c339bf6731ce4b016b1&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.76
+                "canonical_artists": [
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Robert Redshaw",
                 "title": "Zoom Out",
-                "file": "2026/Sim_Selections_MARCH_2026/37. Robert Redshaw - Zoom Out.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 194.45
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "NASCEN7",
                 "title": "The Summit",
-                "file": "2026/Sim_Selections_MARCH_2026/38. NASCEN7 - The Summit.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 159.46
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "kruvek",
                 "title": "Reverse the Modularity of the Fractal Flow",
-                "file": "2026/Sim_Selections_MARCH_2026/39. kruvek - Reverse the Modularity of the Fractal Flow.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 336.3
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "Saw Whet ft. Bjen",
                 "title": "Singularity",
-                "file": "2026/Sim_Selections_MARCH_2026/40. Saw Whet ft. Bjen - Singularity.mp4",
+                "file": "",
                 "link": "https://app.boombox.io/app/shares/cOrPa6BWrpvjVYnAo",
                 "optIn": false,
                 "canPlay": false,
-                "length": 283.0
+                "canonical_artists": [
+                    "sawwhet",
+                    "bjen"
+                ]
             }
         ]
     },
@@ -18107,503 +21190,648 @@ export const playlistData = [
         "tracks": [
             {
                 "trackNo": 1,
-                "artist": "saw whet / vetramiga",
+                "artist": "saw whet / vetra miga",
                 "title": "breathe you in",
-                "file": "2026/Sim_Selections_APRIL_2026/01. saw whet _ vetramiga - breathe you in.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.39
+                "canonical_artists": [
+                    "sawwhet",
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Chooko, euskalduna",
                 "title": "untitled WIP",
-                "file": "2026/Sim_Selections_APRIL_2026/02. Chooko, euskalduna - untitled WIP.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 92.34
+                "canonical_artists": [
+                    "chooko",
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Robert Redshaw",
                 "title": "Digital Shadow",
-                "file": "2026/Sim_Selections_APRIL_2026/03. Robert Redshaw - Digital Shadow.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.05
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "saw whet ; jungle pickle",
                 "title": "shake the ground",
-                "file": "2026/Sim_Selections_APRIL_2026/04. saw whet ; jungle pickle - shake the ground.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.02
+                "canonical_artists": [
+                    "sawwhet",
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "the_f3l1x;ArcticOne",
                 "title": "HorseRocket, RTT",
-                "file": "2026/Sim_Selections_APRIL_2026/05. the_f3l1x;ArcticOne - HorseRocket, RTT.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.03
+                "canonical_artists": [
+                    "thef3l1x",
+                    "arcticone"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Dig Fig; Saw Whet",
                 "title": "Engulfed",
-                "file": "2026/Sim_Selections_APRIL_2026/06. Dig Fig; Saw Whet - Engulfed.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 271.92
+                "canonical_artists": [
+                    "digfig",
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "tabs;KwaK",
                 "title": "Don't Lose",
-                "file": "2026/Sim_Selections_APRIL_2026/07. tabs;KwaK - Don't Lose.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.04
+                "canonical_artists": [
+                    "tabs",
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "Bjen, Skitter",
                 "title": "Binary Inquiry",
-                "file": "2026/Sim_Selections_APRIL_2026/08. Bjen, Skitter - Binary Inquiry.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 116.66
+                "canonical_artists": [
+                    "bjen",
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "NASCEN7 x Bonfire",
                 "title": "Phantom Limb (Sunset Afternoon)",
-                "file": "2026/Sim_Selections_APRIL_2026/09. NASCEN7 x Bonfire - Phantom Limb (Sunset Afternoon).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.04
+                "canonical_artists": [
+                    "nascen7",
+                    "bonfire"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "PONYART & STU M",
                 "title": "REDSHIFT",
-                "file": "2026/Sim_Selections_APRIL_2026/10. PONYART & STU M - REDSHIFT.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.53
+                "canonical_artists": [
+                    "ponyart",
+                    "stum"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Saw Whet x AmbientSpace",
                 "title": "Earthquakes",
-                "file": "2026/Sim_Selections_APRIL_2026/11. Saw Whet x AmbientSpace - Earthquakes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.88
+                "canonical_artists": [
+                    "sawwhet",
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Stu_m, Bit.R.Ist",
                 "title": "iDiOM",
-                "file": "2026/Sim_Selections_APRIL_2026/12. Stu_m, Bit.R.Ist - iDiOM.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 203.31
+                "canonical_artists": [
+                    "stum",
+                    "bitrist"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Frildoh, Skitter",
                 "title": "Multivariate",
-                "file": "2026/Sim_Selections_APRIL_2026/13. Frildoh, Skitter - Multivariate.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/multivariate?si=a0e2fadf30e7425990d27990c6bd752d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 234.03
+                "canonical_artists": [
+                    "frildoh",
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Skitter, The Infra",
                 "title": "nights in your arms",
-                "file": "2026/Sim_Selections_APRIL_2026/14. Skitter, The Infra - nights in your arms.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/nights-in-your-arms",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.81
+                "canonical_artists": [
+                    "skitter",
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Saw Whet - Adam Johan Bergren",
                 "title": "Limerence",
-                "file": "2026/Sim_Selections_APRIL_2026/15. Saw Whet - Adam Johan Bergren - Limerence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.79
+                "canonical_artists": [
+                    "sawwhetadamjohanbergren"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Perlin / Christopher Sisk",
                 "title": "WIP-411_Yin",
-                "file": "2026/Sim_Selections_APRIL_2026/16. Perlin _ Christopher Sisk - WIP-411_Yin.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.02
+                "canonical_artists": [
+                    "perlin",
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 17,
-                "artist": "bottlebrush / vetramiga",
+                "artist": "bottlebrush / vetra miga",
                 "title": "creature (ft. jungle pickle)",
-                "file": "2026/Sim_Selections_APRIL_2026/17. bottlebrush _ vetramiga - creature (ft. jungle pickle).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.66
+                "canonical_artists": [
+                    "bottlebrush",
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "AmbientSpace x Saw Whet",
                 "title": "Earthquakes",
-                "file": "2026/Sim_Selections_APRIL_2026/18. AmbientSpace x Saw Whet - Earthquakes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.88
+                "canonical_artists": [
+                    "ambientspace",
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "The F3l1x & ArticOne",
                 "title": "Acid in the resonant chamber",
-                "file": "2026/Sim_Selections_APRIL_2026/19. The F3l1x & ArticOne - Acid in the resonant chamber.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 108.05
+                "canonical_artists": [
+                    "thef3l1x",
+                    "articone"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "frildoh, dedblank",
                 "title": "Unseen-Ordinary",
-                "file": "2026/Sim_Selections_APRIL_2026/20. frildoh, dedblank - Unseen-Ordinary.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.78
+                "canonical_artists": [
+                    "frildoh",
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "The Infra; frildoh",
                 "title": "Drunken Master",
-                "file": "2026/Sim_Selections_APRIL_2026/21. The Infra; frildoh - Drunken Master.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 224.18
+                "canonical_artists": [
+                    "theinfra",
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "stupidPilled;KwaK",
                 "title": "halfPilled",
-                "file": "2026/Sim_Selections_APRIL_2026/22. stupidPilled;KwaK - halfPilled.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 155.3
+                "canonical_artists": [
+                    "stupidpilled",
+                    "kwak"
+                ]
             },
             {
                 "trackNo": 23,
-                "artist": "vetramiga; PonyArt",
+                "artist": "vetra miga; PonyArt",
                 "title": "Just F***ing Myself",
-                "file": "2026/Sim_Selections_APRIL_2026/23. vetramiga; PonyArt - Just F___ing Myself.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.68
+                "canonical_artists": [
+                    "vetramiga",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Perlin / Christopher Sisk",
                 "title": "WIP-411_Yang",
-                "file": "2026/Sim_Selections_APRIL_2026/24. Perlin _ Christopher Sisk - WIP-411_Yang.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 274.06
+                "canonical_artists": [
+                    "perlin",
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "NASCEN7",
                 "title": "Sentient Playground",
-                "file": "2026/Sim_Selections_APRIL_2026/25. NASCEN7 - Sentient Playground.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 135.26
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "AmbientSpace x Christopher Sisk",
                 "title": "It was There, Then it Wasn't",
-                "file": "2026/Sim_Selections_APRIL_2026/26. AmbientSpace x Christopher Sisk - It was There, Then it Wasn't.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.12
+                "canonical_artists": [
+                    "ambientspace",
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Long Century of The Surreal",
                 "title": "A Walled Garden",
-                "file": "2026/Sim_Selections_APRIL_2026/27. Long Century of The Surreal - A Walled Garden.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 228.68
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Bottle Brush; Takamoon",
                 "title": "NO GODS NO MASTERS",
-                "file": "2026/Sim_Selections_APRIL_2026/28. Bottle Brush; Takamoon - NO GODS NO MASTERS.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.81
+                "canonical_artists": [
+                    "bottlebrush",
+                    "takamoon"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Poetry in Noise; AJ Bergren",
                 "title": "Attention Economy-PIN Remix",
-                "file": "2026/Sim_Selections_APRIL_2026/29. Poetry in Noise; AJ Bergren - Attention Economy-PIN Remix.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/attention-economy-remix-by-poetry-in-noise",
                 "optIn": false,
                 "canPlay": false,
-                "length": 208.14
+                "canonical_artists": [
+                    "poetryinnoise",
+                    "ajbergren"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "fulhjort",
                 "title": "Contesting the selective process",
-                "file": "2026/Sim_Selections_APRIL_2026/30. fulhjort - Contesting the selective process.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.45
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "moiko / Perlin",
                 "title": "Qubit Collapse",
-                "file": "2026/Sim_Selections_APRIL_2026/31. moiko _ Perlin - Qubit Collapse.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 279.14
+                "canonical_artists": [
+                    "moiko",
+                    "perlin"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "FSC x Stu M",
                 "title": "In The Dark",
-                "file": "2026/Sim_Selections_APRIL_2026/32. FSC x Stu M - In The Dark.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 226.68
+                "canonical_artists": [
+                    "fsc",
+                    "stum"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Infra / Mime Mining Corporation",
                 "title": "Swamp Squirrel's Soir\u00e9e",
-                "file": "2026/Sim_Selections_APRIL_2026/33. Infra _ Mime Mining Corporation - Swamp Squirrel's Soir\u00e9e.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 244.39
+                "canonical_artists": [
+                    "infra",
+                    "mimeminingcorporation"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Euskalduna; Saw Whet",
                 "title": "Emergence",
-                "file": "2026/Sim_Selections_APRIL_2026/34. Euskalduna; Saw Whet - Emergence.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.04
+                "canonical_artists": [
+                    "euskalduna",
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Adam Johan Bergren",
                 "title": "Aliens Are Demons",
-                "file": "2026/Sim_Selections_APRIL_2026/35. Adam Johan Bergren - Aliens Are Demons.mp3",
+                "file": "",
                 "link": "https://adamjohanbergren.bandcamp.com/track/aliens-are-demons",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.89
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Skitter / Bjen",
                 "title": "A Night In Your Arms",
-                "file": "2026/Sim_Selections_APRIL_2026/36. Skitter _ Bjen - A Night In Your Arms.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 137.17
+                "canonical_artists": [
+                    "skitter",
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "Poetry In Noise",
                 "title": "Binary Star",
-                "file": "2026/Sim_Selections_APRIL_2026/37. Poetry In Noise - Binary Star.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.15
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "stu m; PonyArt",
                 "title": "MC On The Track",
-                "file": "2026/Sim_Selections_APRIL_2026/38. stu m; PonyArt - MC On The Track.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 254.04
+                "canonical_artists": [
+                    "stum",
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "Christopher Sisk x AmbientSpace",
                 "title": "It was There, Then it Wasn't",
-                "file": "2026/Sim_Selections_APRIL_2026/39. Christopher Sisk x AmbientSpace - It was There, Then it Wasn't.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.12
+                "canonical_artists": [
+                    "christophersisk",
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "SomethingAboutThings; Saw Whet",
                 "title": "Ear Lily",
-                "file": "2026/Sim_Selections_APRIL_2026/40. SomethingAboutThings; Saw Whet - Ear Lily.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 156.67
+                "canonical_artists": [
+                    "somethingaboutthings",
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 41,
-                "artist": "Jungle Pickel // Poldu",
+                "artist": "Jungle Picklel / Poldu",
                 "title": "Under A Box",
-                "file": "2026/Sim_Selections_APRIL_2026/41. Jungle Pickel __ Poldu - Under A Box.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.04
+                "canonical_artists": [
+                    "junglepicklel",
+                    "poldu"
+                ]
             },
             {
                 "trackNo": 42,
                 "artist": "deedsblankwin (deeds / dedblank / edwin)",
                 "title": "distraction",
-                "file": "2026/Sim_Selections_APRIL_2026/42. deedsblankwin (deeds _ dedblank _ edwin) - distraction.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 65.07
+                "canonical_artists": [
+                    "deedsblankwin",
+                    "deeds",
+                    "dedblank",
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 43,
                 "artist": "euskawin (euskalduna / edwin)",
                 "title": "artifact phase",
-                "file": "2026/Sim_Selections_APRIL_2026/43. euskawin (euskalduna _ edwin) - artifact phase.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 126.25
+                "canonical_artists": [
+                    "euskawin",
+                    "euskalduna",
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 44,
                 "artist": "Kwak;tabs",
                 "title": "Squatting and Thinking However",
-                "file": "2026/Sim_Selections_APRIL_2026/44. Kwak;tabs - Squatting and Thinking However.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 147.49
+                "canonical_artists": [
+                    "kwak",
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 45,
                 "artist": "Paranautica, euskalduna",
                 "title": "bathyal",
-                "file": "2026/Sim_Selections_APRIL_2026/45. Paranautica, euskalduna - bathyal.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 376.03
+                "canonical_artists": [
+                    "paranautica",
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 46,
                 "artist": "DYSTOP1AN",
                 "title": "Duality",
-                "file": "2026/Sim_Selections_APRIL_2026/46. DYSTOP1AN - Duality.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.02
+                "canonical_artists": [
+                    "dystop1an"
+                ]
             },
             {
                 "trackNo": 47,
                 "artist": "siskwin (Christopher Sisk / Edwin)",
                 "title": "half and half",
-                "file": "2026/Sim_Selections_APRIL_2026/47. siskwin (Christopher Sisk _ Edwin) - half and half.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 204.41
+                "canonical_artists": [
+                    "siskwin",
+                    "christophersisk",
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 48,
                 "artist": "Frildoh, The Infra",
                 "title": "mechanical brain",
-                "file": "2026/Sim_Selections_APRIL_2026/48. Frildoh, The Infra - mechanical brain.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/thesimfra/mechanical-brain",
                 "optIn": false,
                 "canPlay": false,
-                "length": 162.3
+                "canonical_artists": [
+                    "frildoh",
+                    "theinfra"
+                ]
             },
             {
                 "trackNo": 49,
                 "artist": "jacketpocket",
                 "title": "Evil Twin",
-                "file": "2026/Sim_Selections_APRIL_2026/49. jacketpocket - Evil Twin.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.34
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 50,
                 "artist": "5XVT, Fallacy Dice",
                 "title": "So Far",
-                "file": "2026/Sim_Selections_APRIL_2026/50. 5XVT, Fallacy Dice - So Far.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.02
+                "canonical_artists": [
+                    "5xvt",
+                    "fallacydice"
+                ]
             }
         ]
     },
@@ -18624,361 +21852,437 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "Broken Gravity",
                 "title": "The Launch of Sputnik",
-                "file": "2026/Sim_Selections_MAY_2026/01. Broken Gravity - The Launch of Sputnik.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 247.95
+                "canonical_artists": [
+                    "brokengravity"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Poetry in Noise",
                 "title": "Meditations:Clusters",
-                "file": "2026/Sim_Selections_MAY_2026/02. Poetry in Noise - Meditations_Clusters.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 329.87
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "Heavix",
                 "title": "Moth lights the flame",
-                "file": "2026/Sim_Selections_MAY_2026/03. Heavix - Moth lights the flame.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=rruLkkRlD0U",
                 "optIn": false,
                 "canPlay": false,
-                "length": 320.28
+                "canonical_artists": [
+                    "heavix"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "PonyArt",
                 "title": "Voice Trance 7/8",
-                "file": "2026/Sim_Selections_MAY_2026/04. PonyArt - Voice Trance 7_8.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 359.66
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Camino Del Dragon",
                 "title": "A Heart Before The Knife",
-                "file": "2026/Sim_Selections_MAY_2026/05. Camino del Dragon - A Heart Before the Knife.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 181.32
+                "canonical_artists": [
+                    "caminodeldragon"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Fine Structure Constant",
                 "title": "Calculated Annihilation",
-                "file": "2026/Sim_Selections_MAY_2026/06. Fine Structure Constant - Calculated Annihilation.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 120.14
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Chooko;Arcticone",
                 "title": "Anubis",
-                "file": "2026/Sim_Selections_MAY_2026/07. Chooko;ArcticOne - Anubis.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.42
+                "canonical_artists": [
+                    "chooko",
+                    "arcticone"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "AmbientSpace",
                 "title": "Meezer Swagger",
-                "file": "2026/Sim_Selections_MAY_2026/08. AmbientSpace - Meezer Swagger.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 261.5
+                "canonical_artists": [
+                    "ambientspace"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Jungle Pickle",
                 "title": "Her Name Was Jody",
-                "file": "2026/Sim_Selections_MAY_2026/09. junge pickle - her name was jody.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 175.25
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Stu M",
                 "title": "North Cap",
-                "file": "2026/Sim_Selections_MAY_2026/10. STU M - NORTH CAP.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 251.87
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Bjen",
                 "title": "Laundry",
-                "file": "2026/Sim_Selections_MAY_2026/11. Bjen - Laundry.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 272.04
+                "canonical_artists": [
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Spirit Unknown",
                 "title": "Chromatic Surrogation",
-                "file": "2026/Sim_Selections_MAY_2026/12. Spirit Unknown - Chromatic Surrogation.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/spirit_unknown/chromatic-surrogation?si=3f1c88faf48e4423b980a9a27834b54f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 309.77
+                "canonical_artists": [
+                    "spiritunknown"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Tabs",
                 "title": "Beh Buh Boh",
-                "file": "2026/Sim_Selections_MAY_2026/13. tabs - Beh Buh Boh.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-05-sim-selections",
                 "optIn": false,
                 "canPlay": false,
-                "length": 171.67
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 14,
-                "artist": "Vetra Miga",
+                "artist": "vetra miga",
                 "title": "Farewell Echo",
-                "file": "2026/Sim_Selections_MAY_2026/14. vetra miga - farewell echo.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 150.1
+                "canonical_artists": [
+                    "vetramiga"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Teapotahedron",
                 "title": "Tetraphobia No. 4",
-                "file": "2026/Sim_Selections_MAY_2026/15. Teapotahedron - Tetraphobia No. 4.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 143.66
+                "canonical_artists": [
+                    "teapotahedron"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Peregrine (Cschweppe)",
                 "title": "Thresher",
-                "file": "2026/Sim_Selections_MAY_2026/16. Peregrine (CSchweppe) - Thresher.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 141.38
+                "canonical_artists": [
+                    "peregrine",
+                    "cschweppe"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "Prysm",
                 "title": "City Nano",
-                "file": "2026/Sim_Selections_MAY_2026/17. PrYsM - City Nano.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 282.83
+                "canonical_artists": [
+                    "prysm"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Charles Randall",
                 "title": "The Count",
-                "file": "2026/Sim_Selections_MAY_2026/18. Charles Randall - The Count.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 133.9
+                "canonical_artists": [
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Arcticone;Chooko",
                 "title": "Hornet",
-                "file": "2026/Sim_Selections_MAY_2026/19. ArcticOne;Chooko - Hornet.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.02
+                "canonical_artists": [
+                    "arcticone",
+                    "chooko"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Long Century of the Surreal",
                 "title": "Alchemy",
-                "file": "2026/Sim_Selections_MAY_2026/20. Long Century of The Surreal - Alchemy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.33
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "Bit.R.Ist",
                 "title": "I'm Sorry RDJ",
-                "file": "2026/Sim_Selections_MAY_2026/21. bit.r.ist - I'm Sorry RDJ.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 288.89
+                "canonical_artists": [
+                    "bitrist"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Robert Redshaw",
                 "title": "Thick in the Middle",
-                "file": "2026/Sim_Selections_MAY_2026/22. Robert Redshaw - Thick in the middle.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 214.82
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Adam Johan Bergren",
                 "title": "Meltdown",
-                "file": "2026/Sim_Selections_MAY_2026/23. Adam Johan Bergren - Meltdown.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 237.41
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Saw Whet",
                 "title": "Wolves",
-                "file": "2026/Sim_Selections_MAY_2026/24. Saw Whet - Wolves.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 253.13
+                "canonical_artists": [
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "Paranautica; Euskalduna",
                 "title": "In This House",
-                "file": "2026/Sim_Selections_MAY_2026/25. Paranautica; euskalduna - In this house.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 346.08
+                "canonical_artists": [
+                    "paranautica",
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "Dedblank",
                 "title": "1274Scream",
-                "file": "2026/Sim_Selections_MAY_2026/26. dedblank - 1274Scream.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 248.29
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Fulhjort",
                 "title": "In Spire of Productivity",
-                "file": "2026/Sim_Selections_MAY_2026/27. fulhjort - in spire of productivity.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 266.76
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Euskalduna",
                 "title": "Faces",
-                "file": "2026/Sim_Selections_MAY_2026/28. euskalduna - faces.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 225.04
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Jacketpocket",
                 "title": "Quantize, Humanize, Swing",
-                "file": "2026/Sim_Selections_MAY_2026/29. jacketpocket - Quantize, Humanize, Swing.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.54
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Skitter",
                 "title": "I Lost",
-                "file": "2026/Sim_Selections_MAY_2026/30. Skitter - I Lost.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/in-freefall?si=5997c5789cbe469a8ca3e593fc51bd5e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 170.66
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "TheOwl84",
                 "title": "Trunkated Bars",
-                "file": "2026/Sim_Selections_MAY_2026/31. TheOwl84 - Trunkated Bars.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 90.29
+                "canonical_artists": [
+                    "theowl84"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Moiko",
                 "title": "Playing The Game",
-                "file": "2026/Sim_Selections_MAY_2026/32. moiko - Playing the Game.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.53
+                "canonical_artists": [
+                    "moiko"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Sean V",
                 "title": "Hiroshima Dentist",
-                "file": "2026/Sim_Selections_MAY_2026/33. Sean V - Hiroshima Dentist.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 176.77
+                "canonical_artists": [
+                    "seanv"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Edwin",
                 "title": "Summer Breeze Scream Dream",
-                "file": "2026/Sim_Selections_MAY_2026/34. edwin - summer breeze scream dream.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 84.43
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "Bottlebrush",
                 "title": "4 x 4",
-                "file": "2026/Sim_Selections_MAY_2026/35. Bottle_Brush - 4 x 4.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 245.29
+                "canonical_artists": [
+                    "bottlebrush"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Christopher Sisk",
                 "title": "Hierophany",
-                "file": "2026/Sim_Selections_MAY_2026/36. Christopher Sisk - Hierophany.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 303.14
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             }
         ]
     },
@@ -18999,341 +22303,410 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "5XVT",
                 "title": "Snake Eyes",
-                "file": "2026/Sim_Selections_JUNE_2026/01. 5XVT - Snake Eyes.mp3",
+                "file": "",
                 "link": "https://www.youtube.com/watch?v=3wkqgvhghFI",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.28
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Skitter",
                 "title": "Thinking in Patterns",
-                "file": "2026/Sim_Selections_JUNE_2026/02. Skitter - Thinking in Patterns.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/skittermusic/thinking-in-patterns?si=89835369290b4b178e2d399588a896f0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 277.26
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "euskalduna",
                 "title": "partial coast",
-                "file": "2026/Sim_Selections_JUNE_2026/03. euskalduna - partial coast.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 366.5
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "edwin",
                 "title": "dr. rando and his mad machines",
-                "file": "2026/Sim_Selections_JUNE_2026/04. edwin - dr. rando and his mad machines.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 322.51
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "Christopher Sisk",
                 "title": "Not Sure",
-                "file": "2026/Sim_Selections_JUNE_2026/05. Christopher Sisk - Not Sure.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 200.04
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "NASCEN7",
                 "title": "Meditation in Chaos (Finding Calm Edit)",
-                "file": "2026/Sim_Selections_JUNE_2026/06. NASCEN7 - Meditation in Chaos (Finding Calm Edit).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 324.02
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "Oobesan",
                 "title": "The World Won't Do You Any Favors",
-                "file": "2026/Sim_Selections_JUNE_2026/07. Oobesan - The World Won't Do You Any Favors.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 184.1
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "STU M",
                 "title": "ZHANG",
-                "file": "2026/Sim_Selections_JUNE_2026/08. STU M - ZHANG.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 270.03
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "Film for the Future",
                 "title": "Down to a T1",
-                "file": "2026/Sim_Selections_JUNE_2026/09. Film for the Future - Down to a T1.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 193.37
+                "canonical_artists": [
+                    "filmforthefuture"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "tabs",
                 "title": "A Walk on Uneven Ground",
-                "file": "2026/Sim_Selections_JUNE_2026/10. tabs - A Walk on Uneven Ground.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-06-sim-selections-1of2-a",
                 "optIn": false,
                 "canPlay": false,
-                "length": 169.42
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "shereen",
                 "title": "in the third act, we violate causality",
-                "file": "2026/Sim_Selections_JUNE_2026/11. shereen - in the third act, we violate causality.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 173.06
+                "canonical_artists": [
+                    "shereen"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "Adam Johan Bergren",
                 "title": "Chance Encounter",
-                "file": "2026/Sim_Selections_JUNE_2026/12. Adam Johan Bergren - Chance Encounter.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 275.04
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "PonyArt",
                 "title": "Pure Grains",
-                "file": "2026/Sim_Selections_JUNE_2026/13. PonyArt - Pure Grains.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.58
+                "canonical_artists": [
+                    "ponyart"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "dedblank",
                 "title": "rnd on rnd on rnd on rnd",
-                "file": "2026/Sim_Selections_JUNE_2026/14. dedblank - rnd on rnd on rnd on rnd.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.05
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "Long Century of The Surreal",
                 "title": "Run With Legs",
-                "file": "2026/Sim_Selections_JUNE_2026/15. Long Century of The Surreal - Run With Legs.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 216.37
+                "canonical_artists": [
+                    "longcenturyofthesurreal"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "APBT (Charles Randall)",
                 "title": "Conjunction",
-                "file": "2026/Sim_Selections_JUNE_2026/16. APBT (Charles Randall) - Conjunction.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 310.78
+                "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "tabs",
                 "title": "Generational Bad Luck",
-                "file": "2026/Sim_Selections_JUNE_2026/17. tabs - Generational Bad Luck.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-06-sim-selections",
                 "optIn": false,
                 "canPlay": false,
-                "length": 122.57
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "Christopher Sisk",
                 "title": "It Could Go Either Way",
-                "file": "2026/Sim_Selections_JUNE_2026/18. Christopher Sisk - It Could Go Either Way.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 220.03
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Poetry In Noise",
                 "title": "Risky Disco",
-                "file": "2026/Sim_Selections_JUNE_2026/19. Poetry In Noise - Risky Disco.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 191.82
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "Heavix",
                 "title": "Tookachance",
-                "file": "2026/Sim_Selections_JUNE_2026/20. Heavix - Tookachance.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 342.72
+                "canonical_artists": [
+                    "heavix"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "poldu",
                 "title": "Amethyst Fog",
-                "file": "2026/Sim_Selections_JUNE_2026/21. poldu - Amethyst Fog.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.58
+                "canonical_artists": [
+                    "poldu"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "bit.r.ist",
                 "title": "Creep & Breath",
-                "file": "2026/Sim_Selections_JUNE_2026/22. bit.r.ist - Creep & Breath.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 268.7
+                "canonical_artists": [
+                    "bitrist"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "fulhjort",
                 "title": "Jag vet oftast inte",
-                "file": "2026/Sim_Selections_JUNE_2026/23. fulhjort - Jag vet oftast inte.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 317.05
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Muskox Archives",
                 "title": "Geographic hit",
-                "file": "2026/Sim_Selections_JUNE_2026/24. Muskox Archives - Geographic hit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 232.22
+                "canonical_artists": [
+                    "muskoxarchives"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "NASCEN7",
                 "title": "Something Familiar",
-                "file": "2026/Sim_Selections_JUNE_2026/25. NASCEN7 - Something Familiar.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 104.38
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "ArcticOne",
                 "title": "WubDotRand(Apocalypse)",
-                "file": "2026/Sim_Selections_JUNE_2026/26. ArcticOne - WubDotRand(Apocalypse).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 259.22
+                "canonical_artists": [
+                    "arcticone"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Spirit Unknown",
                 "title": "The Snow in June",
-                "file": "2026/Sim_Selections_JUNE_2026/27. Spirit Unknown - The Snow in June.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/spirit_unknown/the-snow-in-june?si=5faeb5fc633040e7922f2466a47f2959&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "optIn": false,
                 "canPlay": false,
-                "length": 294.89
+                "canonical_artists": [
+                    "spiritunknown"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Poetry In Noise",
                 "title": "BongosesReverbesesNoisum",
-                "file": "2026/Sim_Selections_JUNE_2026/28. Poetry In Noise - BongosesReverbesesNoisum.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 307.33
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Sean VanSickel",
                 "title": "Dictatorial Pips",
-                "file": "2026/Sim_Selections_JUNE_2026/29. Sean VanSickel - Dictatorial Pips.mp3",
+                "file": "",
                 "link": "https://youtu.be/q10Z7TCzeMA?",
                 "optIn": false,
                 "canPlay": false,
-                "length": 131.74
+                "canonical_artists": [
+                    "seanvansickel"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Peregrine",
                 "title": "corrupt",
-                "file": "2026/Sim_Selections_JUNE_2026/30. Peregrine - corrupt.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 197.59
+                "canonical_artists": [
+                    "peregrine"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "jungle pickle",
                 "title": "when the time comes",
-                "file": "2026/Sim_Selections_JUNE_2026/31. jungle pickle - when the time comes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 189.5
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "Robert Redshaw",
                 "title": "Inevitable",
-                "file": "2026/Sim_Selections_JUNE_2026/32. Robert Redshaw - Inevitable.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 166.42
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "frildoh",
                 "title": "Kaladin",
-                "file": "2026/Sim_Selections_JUNE_2026/33. frildoh - Kaladin.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 278.47
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "jungle pickle",
                 "title": "go nuts",
-                "file": "2026/Sim_Selections_JUNE_2026/34. jungle pickle - go nuts.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 80.0
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             }
         ]
     },
@@ -19354,411 +22727,495 @@ export const playlistData = [
                 "trackNo": 1,
                 "artist": "estes_",
                 "title": "puddlejumper",
-                "file": "2026/Sim_Selections_JULY_2026/01. estes_ - puddlejumper.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 215.22
+                "canonical_artists": [
+                    "estes"
+                ]
             },
             {
                 "trackNo": 2,
                 "artist": "Bjen",
                 "title": "Woolgathering",
-                "file": "2026/Sim_Selections_JULY_2026/02. Bjen - Woolgathering.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.05
+                "canonical_artists": [
+                    "bjen"
+                ]
             },
             {
                 "trackNo": 3,
                 "artist": "liquidkey",
                 "title": "ocean debris",
-                "file": "2026/Sim_Selections_JULY_2026/03. liquidkey - ocean debris.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 221.73
+                "canonical_artists": [
+                    "liquidkey"
+                ]
             },
             {
                 "trackNo": 4,
                 "artist": "jacketpocket",
                 "title": "Splendor",
-                "file": "2026/Sim_Selections_JULY_2026/04. jacketpocket - Splendor.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 239.04
+                "canonical_artists": [
+                    "jacketpocket"
+                ]
             },
             {
                 "trackNo": 5,
                 "artist": "edwin",
                 "title": "birds",
-                "file": "2026/Sim_Selections_JULY_2026/05. edwin - birds.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 63.77
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 6,
                 "artist": "Doggo Shark (Fallacy Dice)",
                 "title": "What Was Once a Glade",
-                "file": "2026/Sim_Selections_JULY_2026/06. Doggo Shark (Fallacy Dice) - What Was Once a Glade.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 178.99
+                "canonical_artists": [
+                    "doggoshark",
+                    "fallacydice"
+                ]
             },
             {
                 "trackNo": 7,
                 "artist": "euskalduna",
                 "title": "Orange Band, June 17, 1987",
-                "file": "2026/Sim_Selections_JULY_2026/07. euskalduna - Orange Band, June 17, 1987.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 238.79
+                "canonical_artists": [
+                    "euskalduna"
+                ]
             },
             {
                 "trackNo": 8,
                 "artist": "5XVT",
                 "title": "///Swanky.Future.Plankton",
-                "file": "2026/Sim_Selections_JULY_2026/08. 5XVT - ___Swanky.Future.Plankton.mp3",
+                "file": "",
                 "link": "https://youtu.be/ZUqNdkm72i0?si=r7Jpo48258rKMcEO",
                 "optIn": false,
                 "canPlay": false,
-                "length": 256.03
+                "canonical_artists": [
+                    "5xvt"
+                ]
             },
             {
                 "trackNo": 9,
                 "artist": "dedblank",
                 "title": "I think its gonna rain",
-                "file": "2026/Sim_Selections_JULY_2026/09. dedblank - I think its gonna rain.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.74
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 10,
                 "artist": "Poetry In Noise",
                 "title": "Plants Shall Inherit",
-                "file": "2026/Sim_Selections_JULY_2026/10. Poetry In Noise - Plants Shall Inherit.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 292.26
+                "canonical_artists": [
+                    "poetryinnoise"
+                ]
             },
             {
                 "trackNo": 11,
                 "artist": "Stu M",
                 "title": "For the last",
-                "file": "2026/Sim_Selections_JULY_2026/11. Stu M - For the last.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 117.37
+                "canonical_artists": [
+                    "stum"
+                ]
             },
             {
                 "trackNo": 12,
                 "artist": "natas_liam",
                 "title": "walk_in_a_park",
-                "file": "2026/Sim_Selections_JULY_2026/12. natas_liam - walk_in_a_park.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 452.05
+                "canonical_artists": [
+                    "natasliam"
+                ]
             },
             {
                 "trackNo": 13,
                 "artist": "Heavix",
                 "title": "Mothers tears",
-                "file": "2026/Sim_Selections_JULY_2026/13. Heavix - Mothers tears.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 187.37
+                "canonical_artists": [
+                    "heavix"
+                ]
             },
             {
                 "trackNo": 14,
                 "artist": "Sean VanSickel",
                 "title": "Shod Steps",
-                "file": "2026/Sim_Selections_JULY_2026/14. Sean VanSickel - Shod Steps.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 168.54
+                "canonical_artists": [
+                    "seanvansickel"
+                ]
             },
             {
                 "trackNo": 15,
                 "artist": "NASCEN7",
                 "title": "Stuck In The Ever",
-                "file": "2026/Sim_Selections_JULY_2026/15. NASCEN7 - Stuck In The Ever.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 212.52
+                "canonical_artists": [
+                    "nascen7"
+                ]
             },
             {
                 "trackNo": 16,
                 "artist": "Skitter",
                 "title": "tailwhip",
-                "file": "2026/Sim_Selections_JULY_2026/16. Skitter - tailwhip.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 119.82
+                "canonical_artists": [
+                    "skitter"
+                ]
             },
             {
                 "trackNo": 17,
                 "artist": "ArcticOne",
                 "title": "Waiting For Thunder (Heatwave Mix)",
-                "file": "2026/Sim_Selections_JULY_2026/17. ArcticOne - Waiting For Thunder (Heatwave Mix).mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 299.95
+                "canonical_artists": [
+                    "arcticone"
+                ]
             },
             {
                 "trackNo": 18,
                 "artist": "kruvek",
                 "title": "atmosphere.wav",
-                "file": "2026/Sim_Selections_JULY_2026/18. kruvek - atmosphere.wav.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 335.28
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 19,
                 "artist": "Storm",
                 "title": "Slumber of the Frogs",
-                "file": "2026/Sim_Selections_JULY_2026/19. Storm - Slumber of the Frogs.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 96.73
+                "canonical_artists": [
+                    "storm"
+                ]
             },
             {
                 "trackNo": 20,
                 "artist": "bit.r.ist",
                 "title": "Rain, the Moon, and Me",
-                "file": "2026/Sim_Selections_JULY_2026/20. bit.r.ist - Rain, the Moon, and Me.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 269.74
+                "canonical_artists": [
+                    "bitrist"
+                ]
             },
             {
                 "trackNo": 21,
                 "artist": "edwin",
                 "title": "thunder",
-                "file": "2026/Sim_Selections_JULY_2026/21. edwin - thunder.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 42.03
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 22,
                 "artist": "Peregrine (cschweppe)",
                 "title": "Of Nowhere",
-                "file": "2026/Sim_Selections_JULY_2026/22. Peregrine (cschweppe) - Of Nowhere.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.87
+                "canonical_artists": [
+                    "peregrine",
+                    "cschweppe"
+                ]
             },
             {
                 "trackNo": 23,
                 "artist": "Robert Redshaw",
                 "title": "The Rush",
-                "file": "2026/Sim_Selections_JULY_2026/23. Robert Redshaw - The Rush.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 186.34
+                "canonical_artists": [
+                    "robertredshaw"
+                ]
             },
             {
                 "trackNo": 24,
                 "artist": "Saw Whet",
                 "title": "Quicksand",
-                "file": "2026/Sim_Selections_JULY_2026/24. Saw Whet - Quicksand.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 183.46
+                "canonical_artists": [
+                    "sawwhet"
+                ]
             },
             {
                 "trackNo": 25,
                 "artist": "edwin",
                 "title": "windy",
-                "file": "2026/Sim_Selections_JULY_2026/25. edwin - windy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 64.29
+                "canonical_artists": [
+                    "edwin"
+                ]
             },
             {
                 "trackNo": 26,
                 "artist": "frildoh",
                 "title": "Nighteyes",
-                "file": "2026/Sim_Selections_JULY_2026/26. frildoh - Nighteyes.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 262.9
+                "canonical_artists": [
+                    "frildoh"
+                ]
             },
             {
                 "trackNo": 27,
                 "artist": "Astar, a Robot",
                 "title": "Bo\u00f6tes Void",
-                "file": "2026/Sim_Selections_JULY_2026/27. Astar, a Robot - Bo\u00f6tes Void.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 276.43
+                "canonical_artists": [
+                    "astararobot"
+                ]
             },
             {
                 "trackNo": 28,
                 "artist": "Adam Johan Bergren",
                 "title": "Exile",
-                "file": "2026/Sim_Selections_JULY_2026/28. Adam Johan Bergren - Exile.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 233.09
+                "canonical_artists": [
+                    "adamjohanbergren"
+                ]
             },
             {
                 "trackNo": 29,
                 "artist": "Oobesan",
                 "title": "Vitthala Panduranga",
-                "file": "2026/Sim_Selections_JULY_2026/29. Oobesan - Vitthala Panduranga.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 240.34
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 30,
                 "artist": "Spirit Unknown",
                 "title": "Rain Dance",
-                "file": "2026/Sim_Selections_JULY_2026/30. Spirit Unknown - Rain Dance.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 386.45
+                "canonical_artists": [
+                    "spiritunknown"
+                ]
             },
             {
                 "trackNo": 31,
                 "artist": "dedblank",
                 "title": "Smokey Summer",
-                "file": "2026/Sim_Selections_JULY_2026/31. dedblank - Smokey Summer.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 190.93
+                "canonical_artists": [
+                    "dedblank"
+                ]
             },
             {
                 "trackNo": 32,
                 "artist": "fulhjort",
                 "title": "Enough, soon enough.",
-                "file": "2026/Sim_Selections_JULY_2026/32. fulhjort - Enough, soon enough_.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 209.14
+                "canonical_artists": [
+                    "fulhjort"
+                ]
             },
             {
                 "trackNo": 33,
                 "artist": "Softcore Toucan",
                 "title": "Sidequest Stulle",
-                "file": "2026/Sim_Selections_JULY_2026/33. Softcore Toucan - Sidequest Stulle.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 223.73
+                "canonical_artists": [
+                    "softcoretoucan"
+                ]
             },
             {
                 "trackNo": 34,
                 "artist": "Oobesan",
                 "title": "So Easy",
-                "file": "2026/Sim_Selections_JULY_2026/34. Oobesan - So Easy.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 192.31
+                "canonical_artists": [
+                    "oobesan"
+                ]
             },
             {
                 "trackNo": 35,
                 "artist": "tabs",
                 "title": "A Walk at 0500 on 28th July 2026",
-                "file": "2026/Sim_Selections_JULY_2026/35. tabs - A Walk at 0500 on 28th July 2026.mp3",
+                "file": "",
                 "link": "https://soundcloud.com/user-783179659/26-07-sim-selections-a-walk-at",
                 "optIn": false,
                 "canPlay": false,
-                "length": 199.9
+                "canonical_artists": [
+                    "tabs"
+                ]
             },
             {
                 "trackNo": 36,
                 "artist": "Fine Structure Constant",
                 "title": "Nature's Lament",
-                "file": "2026/Sim_Selections_JULY_2026/36. Fine Structure Constant - Nature's Lament.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 219.02
+                "canonical_artists": [
+                    "finestructureconstant"
+                ]
             },
             {
                 "trackNo": 37,
                 "artist": "kruvek",
                 "title": "who_loves_the_rain.wav",
-                "file": "2026/Sim_Selections_JULY_2026/37. kruvek - who_loves_the_rain.wav.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 273.08
+                "canonical_artists": [
+                    "kruvek"
+                ]
             },
             {
                 "trackNo": 38,
                 "artist": "Heavix",
                 "title": "HennJordan",
-                "file": "2026/Sim_Selections_JULY_2026/38. Heavix - HennJordan.mp3",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 102.29
+                "canonical_artists": [
+                    "heavix"
+                ]
             },
             {
                 "trackNo": 39,
                 "artist": "Christopher Sisk",
                 "title": "The Fireflies Are Out Tonight",
-                "file": "2026/Sim_Selections_JULY_2026/39. Christopher Sisk - The Fireflies Are Out Tonight.mp3",
+                "file": "",
                 "link": "https://music.christophersisk.com/simsel",
                 "optIn": false,
                 "canPlay": false,
-                "length": 218.04
+                "canonical_artists": [
+                    "christophersisk"
+                ]
             },
             {
                 "trackNo": 40,
                 "artist": "jungle pickle",
                 "title": "on a beach",
-                "file": "2026/Sim_Selections_JULY_2026/40. jungle pickle - on a beach.mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 179.99
+                "canonical_artists": [
+                    "junglepickle"
+                ]
             },
             {
                 "trackNo": 41,
                 "artist": "Hunter the Gatherer",
                 "title": "A Good Year (but maybe not for me)",
-                "file": "2026/Sim_Selections_JULY_2026/41. Hunter the Gatherer - A Good Year (but maybe not for me).mp4",
+                "file": "",
                 "link": "",
                 "optIn": false,
                 "canPlay": false,
-                "length": 231.13
+                "canonical_artists": [
+                    "hunterthegatherer"
+                ]
             }
         ]
     }

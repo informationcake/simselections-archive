@@ -7,181 +7,157 @@
     },
     "how_login_works": "When an artist logs in via Discord OAuth2, the server normalizes their Discord username (removes spaces, punctuation, lowercase) and queries 'handle_lookup' to find all artist aliases they own.",
     "coverage": {
-      "total_individual_artists": 385,
-      "linked_artists_count": 288,
-      "coverage_percentage": "74.8%"
+      "total_individual_artists": 363,
+      "linked_artists_count": 274,
+      "coverage_percentage": "75.5%"
     }
   },
   "artists": {
-    "5XVT": {
+    "5xvt": {
       "handles": [
         "5XVT"
       ],
       "discord_ids": []
     },
-    "_rchestra": {
-      "handles": [
-        "Kev"
-      ],
-      "discord_ids": []
-    },
-    "A Robot": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "Abe G": {
+    "abeg": {
       "handles": [
         "mgrasker"
       ],
       "discord_ids": []
     },
-    "Abstract Justice Board": {
+    "abstractjusticeboard": {
       "handles": [],
       "discord_ids": []
     },
-    "Acid Rain": {
+    "acidrain": {
       "handles": [],
       "discord_ids": []
     },
-    "Acidwolf": {
-      "handles": [],
+    "acidwolf": {
+      "handles": [
+        "Benn#1714"
+      ],
       "discord_ids": []
     },
-    "Acrid Meteors": {
+    "acridmeteors": {
       "handles": [
         "stoic and dreamer"
       ],
       "discord_ids": []
     },
-    "Adam Johan Bergren": {
+    "adamjohanbergren": {
       "handles": [
         "ajbergren"
       ],
       "discord_ids": []
     },
-    "Adam Johan Bergren (ft. All)": {
-      "handles": [
-        "ajbergren"
-      ],
-      "discord_ids": []
-    },
-    "Adam Johan Bergren (ft. Jungle Pickle)": {
-      "handles": [
-        "ajbergren"
-      ],
-      "discord_ids": []
-    },
-    "Agent VX": {
+    "agentvx": {
       "handles": [
         "Agent VX"
       ],
       "discord_ids": []
     },
-    "AJ Bergren": {
+    "ajbergren": {
       "handles": [
         "ajbergren"
       ],
       "discord_ids": []
     },
-    "Akemiya": {
+    "akemiya": {
       "handles": [],
       "discord_ids": []
     },
-    "Akila Kavo": {
+    "akilakavo": {
       "handles": [
         "AkilaKavo"
       ],
       "discord_ids": []
     },
-    "Alderach": {
+    "alderach": {
       "handles": [],
       "discord_ids": []
     },
-    "Amadeus B. Snivelitch": {
+    "all": {
+      "handles": [],
+      "discord_ids": []
+    },
+    "amadeusbsnivelitch": {
       "handles": [
         ".spekkio",
         "Spekkio (A.B. Snivelitch)"
       ],
       "discord_ids": []
     },
-    "AmbientSpace": {
+    "ambientspace": {
       "handles": [
         "AmbientSpace",
         "ambientspace"
       ],
       "discord_ids": []
     },
-    "Amess": {
+    "amess": {
       "handles": [],
       "discord_ids": []
     },
-    "Andrew Collinsworth": {
-      "handles": [
-        "simdrew"
-      ],
-      "discord_ids": []
-    },
-    "ANODE": {
+    "anode": {
       "handles": [
         "anode7[Jo]"
       ],
       "discord_ids": []
     },
-    "Anomaly": {
+    "anomaly": {
       "handles": [],
       "discord_ids": []
     },
-    "Anonymoose": {
+    "anonymoose": {
       "handles": [],
       "discord_ids": []
     },
-    "Anonymous Water Bottle": {
+    "anonymouswaterbottle": {
       "handles": [
         "amessvv"
       ],
       "discord_ids": []
     },
-    "Anthony Brechbill": {
+    "anthonybrechbill": {
       "handles": [],
       "discord_ids": []
     },
-    "Anthony Felos": {
+    "anthonyfelos": {
       "handles": [
         "hurler1348"
       ],
       "discord_ids": []
     },
-    "Antimancer": {
+    "antimancer": {
       "handles": [
         "themeatdealer",
         "themeatdealter"
       ],
       "discord_ids": []
     },
-    "AP": {
+    "ap": {
       "handles": [
         "iamthesoundman"
       ],
       "discord_ids": []
     },
-    "APBT (Charles Randall)": {
-      "handles": [
-        "charlesrandall"
-      ],
+    "apbt": {
+      "handles": [],
       "discord_ids": []
     },
-    "Aplut": {
+    "aplut": {
       "handles": [
         "aplut",
         "simon224"
       ],
       "discord_ids": []
     },
-    "apple butter": {
+    "applebutter": {
       "handles": [],
       "discord_ids": []
     },
-    "Ara Cristina": {
+    "aracristina": {
       "handles": [
         "AIADreamloss",
         "AIAdreamloss",
@@ -189,13 +165,13 @@
       ],
       "discord_ids": []
     },
-    "ARC19-": {
+    "arc19": {
       "handles": [
         "keatonktw121"
       ],
       "discord_ids": []
     },
-    "ArcticOne": {
+    "arcticone": {
       "handles": [
         "mAngAt00n (ArcticOne)",
         "mangat00n"
@@ -204,17 +180,17 @@
         "168419735946395648"
       ]
     },
-    "ArticOne": {
+    "articone": {
       "handles": [],
       "discord_ids": []
     },
-    "Ashley Chapman": {
+    "ashleychapman": {
       "handles": [
         "ashchap"
       ],
       "discord_ids": []
     },
-    "Astar": {
+    "astararobot": {
       "handles": [
         "Jason",
         "Jason M",
@@ -224,13 +200,13 @@
         "151393932822052864"
       ]
     },
-    "Avery Tomlinson": {
+    "averytomlinson": {
       "handles": [
         "averytt10"
       ],
       "discord_ids": []
     },
-    "Axel Ramirez": {
+    "axelramirez": {
       "handles": [
         "Axe"
       ],
@@ -242,19 +218,24 @@
       ],
       "discord_ids": []
     },
-    "Bazebuster": {
+    "bazebuster": {
       "handles": [
         "lukas"
       ],
       "discord_ids": []
     },
-    "Benn Jordan": {
+    "bennjordan": {
       "handles": [
-        "Jordan"
+        "Jordan",
+        "Benn#1714"
       ],
       "discord_ids": []
     },
-    "bit.r.ist": {
+    "berserkerbot": {
+      "handles": [],
+      "discord_ids": []
+    },
+    "bitrist": {
       "handles": [
         "Ginger_Bitters"
       ],
@@ -262,7 +243,7 @@
         "720835842767061024"
       ]
     },
-    "Bjen": {
+    "bjen": {
       "handles": [
         "Stevo",
         "Stevo /Bjen\\",
@@ -270,89 +251,83 @@
       ],
       "discord_ids": []
     },
-    "Blip Factory": {
+    "blipfactory": {
       "handles": [
         "corey.ostman"
       ],
       "discord_ids": []
     },
-    "Blush Akimbo": {
+    "blushakimbo": {
       "handles": [],
       "discord_ids": []
     },
-    "Bonfire": {
+    "bonfire": {
       "handles": [],
       "discord_ids": []
     },
-    "Bottle:Brush": {
+    "bottlebrush": {
       "handles": [
         "Digfig"
       ],
       "discord_ids": []
     },
-    "Broken Anti-Gravity": {
+    "brokenantigravity": {
       "handles": [],
       "discord_ids": []
     },
-    "Broken Gravity": {
+    "brokengravity": {
       "handles": [
         "Broken Gravity",
         "brokengravity"
       ],
       "discord_ids": []
     },
-    "Broken Information": {
+    "brokeninformation": {
       "handles": [],
       "discord_ids": []
     },
-    "BS Reactor": {
+    "bsreactor": {
       "handles": [
         "Alderach"
       ],
       "discord_ids": []
     },
-    "Buttons": {
+    "buttons": {
       "handles": [
         "bjorkmann."
       ],
       "discord_ids": []
     },
-    "c alt": {
-      "handles": [
-        "c_alt"
-      ],
-      "discord_ids": []
-    },
-    "Cahl": {
+    "cahl": {
       "handles": [
         "Cahl",
         "cahl_."
       ],
       "discord_ids": []
     },
-    "Cake Sandhi": {
+    "cakesandhi": {
       "handles": [],
       "discord_ids": []
     },
-    "Camino del Dragon": {
+    "calt": {
+      "handles": [
+        "c_alt"
+      ],
+      "discord_ids": []
+    },
+    "caminodeldragon": {
       "handles": [
         "Deeds"
       ],
       "discord_ids": []
     },
-    "Camino del Dragon (feat BerserkerBot)": {
+    "caminodeldragonyl": {
       "handles": [
         "Deeds"
       ],
       "discord_ids": []
     },
-    "Camino del Dragon (YL)": {
-      "handles": [
-        "Deeds"
-      ],
-      "discord_ids": []
-    },
-    "CataclystP": {
+    "cataclystp": {
       "handles": [],
       "discord_ids": []
     },
@@ -362,47 +337,47 @@
       ],
       "discord_ids": []
     },
-    "Cathartic Reunion": {
+    "catharticreunion": {
       "handles": [
         "cath.reu"
       ],
       "discord_ids": []
     },
-    "CayZe": {
+    "cayze": {
       "handles": [
         "Jimbotron5000",
         "jimbotron5000"
       ],
       "discord_ids": []
     },
-    "Chaos Engine": {
+    "chaosengine": {
       "handles": [
         "Plebscream"
       ],
       "discord_ids": []
     },
-    "Charles Randall": {
+    "charlesrandall": {
       "handles": [
         "charlesrandall"
       ],
       "discord_ids": []
     },
-    "Chooko": {
+    "chooko": {
       "handles": [
         "Chooko",
         "nikochooko, andrew.tobia"
       ],
       "discord_ids": []
     },
-    "Christopher Floyd": {
+    "christopherfloyd": {
       "handles": [],
       "discord_ids": []
     },
-    "Christopher Mills (ambientSpace)": {
+    "christophermills": {
       "handles": [],
       "discord_ids": []
     },
-    "Christopher Sisk": {
+    "christophersisk": {
       "handles": [
         "Christopher Sisk",
         "christophersisk"
@@ -411,35 +386,35 @@
         "825848945640603670"
       ]
     },
-    "Committees of Newfoundland": {
+    "committeesofnewfoundland": {
       "handles": [
         "PoetryinNoise"
       ],
       "discord_ids": []
     },
-    "Composite Complex": {
+    "compositecomplex": {
       "handles": [
         "Makhnos_Mustache"
       ],
       "discord_ids": []
     },
-    "Computerhead": {
+    "computerhead": {
       "handles": [],
       "discord_ids": []
     },
-    "Computrhead": {
+    "computrhead": {
       "handles": [
         "Computrhead"
       ],
       "discord_ids": []
     },
-    "Coolout Coexist": {
+    "cooloutcoexist": {
       "handles": [
         "Simme"
       ],
       "discord_ids": []
     },
-    "CRXZOSDK": {
+    "crxzosdk": {
       "handles": [
         "crxzosdk"
       ],
@@ -452,38 +427,32 @@
       ],
       "discord_ids": []
     },
-    "Cschweppe NeutronCereal": {
+    "cschweppeneutroncereal": {
       "handles": [
         "NeutronCereal",
         "RiskyDevilCS \"NeutronCereal"
       ],
       "discord_ids": []
     },
-    "Dalton": {
+    "dalton": {
       "handles": [
         "Dalton"
       ],
       "discord_ids": []
     },
-    "Dan": {
+    "dan": {
       "handles": [
         "Danbjo"
       ],
       "discord_ids": []
     },
-    "Danetal": {
+    "danetalsysteemplafond": {
       "handles": [
         "danetal_66991"
       ],
       "discord_ids": []
     },
-    "DARKMAJIK": {
-      "handles": [
-        "DARKMAJIK"
-      ],
-      "discord_ids": []
-    },
-    "DarkSwordsman": {
+    "darkswordsman": {
       "handles": [
         "darkswordsman"
       ],
@@ -495,7 +464,7 @@
       ],
       "discord_ids": []
     },
-    "Dedblank": {
+    "dedblank": {
       "handles": [
         "dedblank"
       ],
@@ -511,82 +480,74 @@
       "handles": [],
       "discord_ids": []
     },
-    "Deelooon": {
+    "deelooon": {
       "handles": [
         "Deelooon"
       ],
       "discord_ids": []
     },
-    "Default Media Transmitter": {
+    "defaultmediatransmitter": {
       "handles": [
         "ksa",
         "ksa (Default Media Transmitter)"
       ],
       "discord_ids": []
     },
-    "Defauly Media Transmitter": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "Defaut Media Transmitter": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "Deithryn": {
+    "deithryn": {
       "handles": [
         "Deithryn.wav"
       ],
       "discord_ids": []
     },
-    "Depthbuffer": {
+    "depthbuffer": {
       "handles": [
         "Depthbuffer",
         "depthbuffer"
       ],
       "discord_ids": []
     },
-    "Derek Erdmann": {
+    "derekerdmann": {
       "handles": [
         "derekerdmann"
       ],
       "discord_ids": []
     },
-    "Derek Shunia": {
+    "derekshunia": {
       "handles": [
         "DEREK"
       ],
       "discord_ids": []
     },
-    "Devon Gates": {
+    "devongates": {
       "handles": [
         "dvtrn"
       ],
       "discord_ids": []
     },
-    "Dig Fig": {
+    "digfig": {
       "handles": [],
       "discord_ids": []
     },
-    "Dire Gaze": {
+    "diregaze": {
       "handles": [
         "DireGaze",
         "waived"
       ],
       "discord_ids": []
     },
-    "Divided Horizon": {
+    "dividedhorizon": {
       "handles": [],
       "discord_ids": []
     },
-    "DJ Stable D": {
+    "djstabled": {
       "handles": [],
       "discord_ids": []
     },
-    "DMT": {
+    "dmt": {
       "handles": [],
       "discord_ids": []
     },
-    "Doggo Shark (Fallacy Dice)": {
+    "doggoshark": {
       "handles": [
         "Doggo Shark"
       ],
@@ -598,13 +559,13 @@
       "handles": [],
       "discord_ids": []
     },
-    "Domilo": {
+    "domilo": {
       "handles": [
         ".domilo."
       ],
       "discord_ids": []
     },
-    "Donoru": {
+    "donoru": {
       "handles": [
         "Donoru",
         "donoru"
@@ -617,93 +578,93 @@
       ],
       "discord_ids": []
     },
-    "Dream Static": {
+    "dreamstatic": {
       "handles": [
         "Dream Static"
       ],
       "discord_ids": []
     },
-    "DREAMX": {
+    "dreamx": {
       "handles": [
         "Dream Static"
       ],
       "discord_ids": []
     },
-    "Drew Willard": {
+    "drewillard": {
       "handles": [
         "drewillard"
       ],
       "discord_ids": []
     },
-    "DREWILLARD": {
+    "drewwillard": {
       "handles": [
         "drewillard"
       ],
       "discord_ids": []
     },
-    "DRMR": {
+    "drmr": {
       "handles": [
         "dreamer"
       ],
       "discord_ids": []
     },
-    "Drum Node": {
+    "drumnode": {
       "handles": [
         "PonyArt, Stu_m"
       ],
       "discord_ids": []
     },
-    "Dschungelgurke (jungle pickle)": {
+    "dschungelgurke": {
       "handles": [],
       "discord_ids": []
     },
-    "DSM4LV": {
+    "dsm4lv": {
       "handles": [],
       "discord_ids": []
     },
-    "Duck Propaganda": {
+    "duckpropaganda": {
       "handles": [
         "fulhjort"
       ],
       "discord_ids": []
     },
-    "Ducks": {
+    "ducks": {
       "handles": [
         "konni.ducks",
         "konni_ducks"
       ],
       "discord_ids": []
     },
-    "Durkl": {
+    "durkl": {
       "handles": [
         "Durkl"
       ],
       "discord_ids": []
     },
-    "DYSTOP1AN": {
+    "dystop1an": {
       "handles": [
         "dystop_ian_"
       ],
       "discord_ids": []
     },
-    "Earl Grey": {
+    "earlgrey": {
       "handles": [
         "jellymustardgut"
       ],
       "discord_ids": []
     },
-    "Echoes Bats": {
+    "echoesbats": {
       "handles": [
         "LoOm / EchoEs Bats",
         "loomerama"
       ],
       "discord_ids": []
     },
-    "Echos Bats": {
+    "echosbats": {
       "handles": [],
       "discord_ids": []
     },
-    "Edwin": {
+    "edwin": {
       "handles": [
         "Edwin",
         "edwin1337"
@@ -716,29 +677,29 @@
       ],
       "discord_ids": []
     },
-    "Elossa": {
+    "elossa": {
       "handles": [
         "its_pronounced_elossa"
       ],
       "discord_ids": []
     },
-    "Equal Equals": {
+    "equalequals": {
       "handles": [
         "Lopezcartoons"
       ],
       "discord_ids": []
     },
-    "Equals Equals": {
+    "equalsequals": {
       "handles": [],
       "discord_ids": []
     },
-    "ErgoNogo": {
+    "ergonogo": {
       "handles": [
         "ErgoNogo"
       ],
       "discord_ids": []
     },
-    "err rawr": {
+    "errrawr": {
       "handles": [
         "err.rawr",
         "err: Rawr",
@@ -747,21 +708,17 @@
       ],
       "discord_ids": []
     },
-    "err___PROTECTED_DELIM___ Rawr": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "estes_": {
+    "estes": {
       "handles": [
         "best_orange"
       ],
       "discord_ids": []
     },
-    "Eukan Happonen": {
+    "eukanhapponen": {
       "handles": [],
       "discord_ids": []
     },
-    "Euskalduna": {
+    "euskalduna": {
       "handles": [
         "andrew.tobia"
       ],
@@ -771,43 +728,43 @@
       "handles": [],
       "discord_ids": []
     },
-    "Fallacy Dice": {
+    "fallacydice": {
       "handles": [
         "Doggo Shark"
       ],
       "discord_ids": []
     },
-    "Fallacy Dog": {
+    "fallacydog": {
       "handles": [
         "Doggo Shark"
       ],
       "discord_ids": []
     },
-    "fallen princess": {
+    "fallenprincess": {
       "handles": [
         "fallenprincess"
       ],
       "discord_ids": []
     },
-    "Feedback": {
+    "feedback": {
       "handles": [
         "feedback0742"
       ],
       "discord_ids": []
     },
-    "Fileareport": {
+    "fileareport": {
       "handles": [
         "fileareport"
       ],
       "discord_ids": []
     },
-    "Film for the Future": {
+    "filmforthefuture": {
       "handles": [
         "benadamstyles"
       ],
       "discord_ids": []
     },
-    "Fine Structure Constant": {
+    "finestructureconstant": {
       "handles": [
         "_kholdstare_",
         "kholdstare"
@@ -816,25 +773,25 @@
         "886782262656532501"
       ]
     },
-    "Firephly": {
+    "firephly": {
       "handles": [
         "Firephly"
       ],
       "discord_ids": []
     },
-    "First Sun": {
+    "firstsun": {
       "handles": [
         "acid_rain"
       ],
       "discord_ids": []
     },
-    "Fjaru": {
+    "fjaru": {
       "handles": [
         "Fjaru"
       ],
       "discord_ids": []
     },
-    "Fool Mala": {
+    "foolmala": {
       "handles": [],
       "discord_ids": []
     },
@@ -844,7 +801,7 @@
       ],
       "discord_ids": []
     },
-    "Fractalint": {
+    "fractalint": {
       "handles": [
         "Alan (Fractal::INT)",
         "Alan (Fractalint)",
@@ -852,7 +809,7 @@
       ],
       "discord_ids": []
     },
-    "Frank Lumien": {
+    "franklumien": {
       "handles": [
         "SnowLight"
       ],
@@ -867,75 +824,61 @@
         "466624835980623872"
       ]
     },
-    "FSC": {
+    "fsc": {
       "handles": [
         "_kholdstare_"
       ],
       "discord_ids": []
     },
-    "Fulhjort": {
+    "fulhjort": {
       "handles": [
         "fulhjort"
       ],
       "discord_ids": []
     },
-    "fulhjort as Lith um Oh": {
+    "fulhjortaslithumoh": {
       "handles": [
         "fulhjort"
       ],
       "discord_ids": []
     },
-    "fulhjotr": {
-      "handles": [
-        "fulhjort"
-      ],
-      "discord_ids": []
-    },
-    "Fuljhort": {
+    "fwlty": {
       "handles": [],
       "discord_ids": []
     },
-    "fuljort": {
+    "gazeboozan": {
       "handles": [],
       "discord_ids": []
     },
-    "Fwlty": {
+    "gero": {
       "handles": [],
       "discord_ids": []
     },
-    "Gaze Boozan": {
+    "giunglasottaceto": {
       "handles": [],
       "discord_ids": []
     },
-    "Gero": {
+    "goerikgo": {
       "handles": [],
       "discord_ids": []
     },
-    "Giungla Sottaceto (jungle pickle)": {
+    "gold": {
       "handles": [],
       "discord_ids": []
     },
-    "GoErikGo": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "Gold": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "GRBT": {
+    "grbt": {
       "handles": [
         "gamingrobot"
       ],
       "discord_ids": []
     },
-    "Grokker": {
+    "grokker": {
       "handles": [
         "dogsander"
       ],
       "discord_ids": []
     },
-    "Heavix": {
+    "heavix": {
       "handles": [
         "LeroyHeavix"
       ],
@@ -943,7 +886,7 @@
         "1448359647432933454"
       ]
     },
-    "Heavy Listening": {
+    "heavylistening": {
       "handles": [
         "Alan (Heavy Listening)"
       ],
@@ -955,59 +898,51 @@
       ],
       "discord_ids": []
     },
-    "Herr Shield": {
+    "herrshield": {
       "handles": [
         "herr shield",
         "herr_shield"
       ],
       "discord_ids": []
     },
-    "HH": {
+    "hh": {
       "handles": [
         "Hillbilly_Hipster"
       ],
       "discord_ids": []
     },
-    "Hjorten": {
+    "hjorten": {
       "handles": [],
       "discord_ids": []
     },
-    "Hojascirculares": {
+    "hojascirculares": {
       "handles": [
         "aiadreamloss"
       ],
       "discord_ids": []
     },
-    "Hunter the Gatherer": {
+    "hunterthegatherer": {
       "handles": [
         "morchella"
       ],
       "discord_ids": []
     },
-    "I": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "IamNabil": {
+    "iamnabil": {
       "handles": [
         "IamNabil"
       ],
       "discord_ids": []
     },
-    "Iggy": {
+    "iggy": {
       "handles": [
         "skroobler"
       ],
       "discord_ids": []
     },
-    "IKAN": {
+    "ikan": {
       "handles": [
         "Dalton"
       ],
-      "discord_ids": []
-    },
-    "infomationcake": {
-      "handles": [],
       "discord_ids": []
     },
     "informationcake": {
@@ -1020,18 +955,22 @@
       ],
       "discord_ids": []
     },
-    "Infra": {
+    "infra": {
       "handles": [],
       "discord_ids": []
     },
-    "Innate Distance": {
+    "innatedistance": {
       "handles": [],
       "discord_ids": []
     },
-    "Intent Unknown": {
+    "intentunknown": {
       "handles": [
         "khae0"
       ],
+      "discord_ids": []
+    },
+    "ionothem": {
+      "handles": [],
       "discord_ids": []
     },
     "ipso": {
@@ -1044,7 +983,7 @@
       "handles": [],
       "discord_ids": []
     },
-    "Jacketpocket": {
+    "jacketpocket": {
       "handles": [
         "TravieBoPankis",
         "TravieDoodle",
@@ -1052,52 +991,52 @@
       ],
       "discord_ids": []
     },
-    "Japanese Seizure Robots": {
+    "japaneseseizurerobots": {
       "handles": [
         ".mr.transistor"
       ],
       "discord_ids": []
     },
-    "Joel": {
+    "joel": {
       "handles": [
         "JoeI"
       ],
       "discord_ids": []
     },
-    "Jordan": {
+    "jordan": {
       "handles": [
         "Jordan"
       ],
       "discord_ids": []
     },
-    "Josef HF K(ErikJMS)": {
+    "josefhfkerikjms": {
       "handles": [],
       "discord_ids": []
     },
-    "Jungle Pickel": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "jungle pickle": {
+    "junglepickle": {
       "handles": [
         "jungle pickle",
         "jungle.pickle"
       ],
       "discord_ids": []
     },
-    "Just Below Purgatory": {
+    "junglepicklel": {
+      "handles": [],
+      "discord_ids": []
+    },
+    "justbelowpurgatory": {
       "handles": [
         "acid_rain"
       ],
       "discord_ids": []
     },
-    "KairoKunOngaku": {
+    "kairokun": {
       "handles": [
         "KairoKun\u97f3\u697d"
       ],
       "discord_ids": []
     },
-    "KairoKun\u97f3\u697d": {
+    "kairokunongaku": {
       "handles": [
         "KairoKun\u97f3\u697d"
       ],
@@ -1109,66 +1048,60 @@
       ],
       "discord_ids": []
     },
-    "Katt": {
+    "katt": {
       "handles": [
         "Katt"
       ],
       "discord_ids": []
     },
-    "Ken": {
+    "ken": {
       "handles": [],
       "discord_ids": []
     },
-    "Kevhuman": {
-      "handles": [
-        "Kevhuman"
-      ],
-      "discord_ids": []
-    },
-    "kevin Thorsen": {
+    "kevinthorsen": {
       "handles": [
         "Kev",
         "kev"
       ],
       "discord_ids": []
     },
-    "Kitsune Machines": {
+    "kitsunemachines": {
       "handles": [
         "Elsper"
       ],
       "discord_ids": []
     },
-    "Kiwillian": {
+    "kiwillian": {
       "handles": [
         "Kiwillian"
       ],
       "discord_ids": []
     },
-    "KooDaiSung": {
+    "koodaisung": {
       "handles": [
         "Jimh001"
       ],
       "discord_ids": []
     },
-    "Krank Grokker": {
+    "krankgrokker": {
       "handles": [
         "dogsander"
       ],
       "discord_ids": []
     },
-    "Krank Gronker": {
+    "krankgronker": {
       "handles": [],
       "discord_ids": []
     },
-    "Krank Grotter": {
+    "krankgrotter": {
       "handles": [],
       "discord_ids": []
     },
-    "Kri Schafer": {
+    "krischafer": {
       "handles": [],
       "discord_ids": []
     },
-    "Krovvythered": {
+    "krovvythered": {
       "handles": [
         "KrovvyTheRed"
       ],
@@ -1180,83 +1113,83 @@
       ],
       "discord_ids": []
     },
-    "KwaK": {
+    "kwak": {
       "handles": [
         "mcjizzle"
       ],
       "discord_ids": []
     },
-    "Kyle Barr": {
+    "kylebarr": {
       "handles": [
         "darkswordsman"
       ],
       "discord_ids": []
     },
-    "Lahlah": {
+    "lahlah": {
       "handles": [
         "stfulahlah"
       ],
       "discord_ids": []
     },
-    "Lake Machine": {
+    "lakemachine": {
       "handles": [],
       "discord_ids": []
     },
-    "Largeman": {
+    "largeman": {
       "handles": [
         "spaceperson16largeman"
       ],
       "discord_ids": []
     },
-    "Largeman - Abell 85 Studios": {
+    "largemanabell85studios": {
       "handles": [],
       "discord_ids": []
     },
-    "Lauren": {
+    "lauren": {
       "handles": [
         "lauren"
       ],
       "discord_ids": []
     },
-    "Lauren Pins Channels": {
+    "laurenpinschannels": {
       "handles": [
         "lauren",
         "lauren0001"
       ],
       "discord_ids": []
     },
-    "Law Effort": {
+    "laweffort": {
       "handles": [
         "jellymustardgut"
       ],
       "discord_ids": []
     },
-    "Lemon Berries": {
+    "lemonberries": {
       "handles": [
         "Massive Dynamic"
       ],
       "discord_ids": []
     },
-    "Liquidkey": {
+    "liquidkey": {
       "handles": [
         "surfin_bird",
         "surfin_bird_"
       ],
       "discord_ids": []
     },
-    "Lizard Milke": {
+    "lizardmilke": {
       "handles": [
         "mondayeyesxo"
       ],
       "discord_ids": []
     },
-    "LMNO Project": {
+    "lmnoproject": {
       "handles": [
         "breadthestore"
       ],
       "discord_ids": []
     },
-    "Long Century of The Surreal": {
+    "longcenturyofthesurreal": {
       "handles": [
         "Michael (long Century)",
         "Michael Wood (long Century)",
@@ -1265,37 +1198,31 @@
       ],
       "discord_ids": []
     },
-    "Lonnon Foster": {
+    "lonnonfoster": {
       "handles": [
         "Lonnon"
       ],
       "discord_ids": []
     },
-    "LuckyTamagotchi": {
+    "luckytamagotchi": {
       "handles": [
         "luckytamagotchi"
       ],
       "discord_ids": []
     },
-    "Lunch Nap": {
-      "handles": [
-        "bugonk"
-      ],
-      "discord_ids": []
-    },
-    "Mango Chunks": {
+    "mangochunks": {
       "handles": [
         "Mango Chunks"
       ],
       "discord_ids": []
     },
-    "Mark": {
+    "mark": {
       "handles": [
         "avant5"
       ],
       "discord_ids": []
     },
-    "Mark Feifarek": {
+    "markfeifarek": {
       "handles": [
         "Mark",
         "Motoko",
@@ -1303,46 +1230,40 @@
       ],
       "discord_ids": []
     },
-    "Mason": {
+    "mason": {
       "handles": [],
       "discord_ids": []
     },
-    "Max Mattingly": {
+    "maxmattingly": {
       "handles": [
         "MaxMattingly"
       ],
       "discord_ids": []
     },
-    "MC Kevhuman": {
+    "mckevhuman": {
       "handles": [],
       "discord_ids": []
     },
-    "Meganeura": {
+    "meganeura": {
       "handles": [
         "vluh123"
       ],
       "discord_ids": []
     },
-    "Menhirs": {
+    "menhirs": {
       "handles": [
         "Pity"
       ],
       "discord_ids": []
     },
-    "Mia Moon": {
+    "miamoon": {
       "handles": [
         "Elsper"
       ],
       "discord_ids": []
     },
-    "Michael Henry": {
+    "michaelhenry": {
       "handles": [],
-      "discord_ids": []
-    },
-    "Michael Till": {
-      "handles": [
-        "Skwisgaar - Michael Till"
-      ],
       "discord_ids": []
     },
     "michaelol179": {
@@ -1351,35 +1272,41 @@
       ],
       "discord_ids": []
     },
-    "mikey chiptune": {
+    "michaeltill": {
+      "handles": [
+        "Skwisgaar - Michael Till"
+      ],
+      "discord_ids": []
+    },
+    "mikey303": {
       "handles": [
         "mikey303"
       ],
       "discord_ids": []
     },
-    "Mikey303": {
+    "mikeychiptune": {
       "handles": [
         "mikey303"
       ],
       "discord_ids": []
     },
-    "Mikki Pike Hades": {
+    "mikkipikehades": {
       "handles": [],
       "discord_ids": []
     },
-    "Mime Mining Corporation": {
+    "mimeminingcorporation": {
       "handles": [
         "Deeds"
       ],
       "discord_ids": []
     },
-    "MISLS": {
+    "misls": {
       "handles": [
         "sassycuddlefish"
       ],
       "discord_ids": []
     },
-    "Miya Moon": {
+    "miyamoon": {
       "handles": [
         "Elsper"
       ],
@@ -1391,71 +1318,61 @@
       ],
       "discord_ids": []
     },
-    "Moiko": {
+    "moiko": {
       "handles": [
         "moikojay"
       ],
       "discord_ids": []
     },
-    "Monkey Luckless": {
+    "monkeyluckless": {
       "handles": [
         ".electricbuffalo"
       ],
       "discord_ids": []
     },
-    "Mr P": {
-      "handles": [
-        "jungle pickle"
-      ],
-      "discord_ids": []
-    },
-    "MRDR": {
+    "mrdr": {
       "handles": [
         "dreamer"
       ],
       "discord_ids": []
     },
-    "Muggi B": {
+    "mrp": {
       "handles": [
-        "351423793199185920"
+        "jungle pickle"
       ],
       "discord_ids": []
     },
-    "Mup": {
+    "mupmuurmon": {
       "handles": [],
       "discord_ids": []
     },
-    "Muskox Archives": {
+    "muskoxarchives": {
       "handles": [
         "archsimonn"
       ],
       "discord_ids": []
     },
-    "Muurmon": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "My Gloomy Machine": {
+    "mygloomymachine": {
       "handles": [
         "My Gloomy Machine"
       ],
       "discord_ids": []
     },
-    "Mylarmelodies": {
+    "mylarmelodies": {
       "handles": [],
       "discord_ids": []
     },
-    "Myrrys": {
+    "myrrys": {
       "handles": [],
       "discord_ids": []
     },
-    "NASCEN7": {
+    "nascen7": {
       "handles": [
         "NASCEN7"
       ],
       "discord_ids": []
     },
-    "natas_liam": {
+    "natasliam": {
       "handles": [
         "natas_liam"
       ],
@@ -1467,78 +1384,66 @@
       ],
       "discord_ids": []
     },
-    "Negative Teens": {
+    "negativeteens": {
       "handles": [
         "NegativeTeens"
       ],
       "discord_ids": []
     },
-    "Next Stop Mars": {
+    "nextstopmars": {
       "handles": [],
       "discord_ids": []
     },
-    "NGC 3019": {
+    "ngc3019": {
       "handles": [
         "NGC  3019",
         "NGC 3019"
       ],
       "discord_ids": []
     },
-    "No Owls": {
-      "handles": [
-        "No Owls"
-      ],
-      "discord_ids": []
-    },
-    "No Time To Mix": {
-      "handles": [
-        "jellymustardgut"
-      ],
-      "discord_ids": []
-    },
-    "Nootropic": {
+    "nootropic": {
       "handles": [
         "CaffeineChamber"
       ],
       "discord_ids": []
     },
-    "Nornec": {
+    "noowls": {
+      "handles": [
+        "No Owls"
+      ],
+      "discord_ids": []
+    },
+    "nornec": {
       "handles": [
         "nornec"
       ],
       "discord_ids": []
     },
-    "Obselysium": {
+    "notimetomix": {
+      "handles": [
+        "jellymustardgut"
+      ],
+      "discord_ids": []
+    },
+    "obselysium": {
       "handles": [
         "goog"
       ],
       "discord_ids": []
     },
-    "Octalus": {
+    "octalus": {
       "handles": [],
       "discord_ids": []
     },
-    "ok seashells": {
+    "okseashells": {
       "handles": [],
       "discord_ids": []
     },
-    "Olessia Dupuy": {
-      "handles": [
-        "Sayoco"
-      ],
-      "discord_ids": []
-    },
-    "One Track Mind": {
+    "onetrackmind": {
       "handles": [],
       "discord_ids": []
     },
-    "onothem": {
-      "handles": [
-        "Tycho/\u00c4onothem"
-      ],
-      "discord_ids": []
-    },
-    "Oobesan": {
+    "oobesan": {
       "handles": [
         "Oobe",
         "Oobesan",
@@ -1548,17 +1453,17 @@
         "651633875809730561"
       ]
     },
-    "Paco": {
+    "paco": {
       "handles": [],
       "discord_ids": []
     },
-    "Panoramic Dream": {
+    "panoramicdream": {
       "handles": [
         "simont9944"
       ],
       "discord_ids": []
     },
-    "Pantagruel": {
+    "pantagruel": {
       "handles": [
         "PolkaBird",
         "gargantagruel",
@@ -1567,55 +1472,48 @@
       ],
       "discord_ids": []
     },
-    "Paranautica": {
+    "paranautica": {
       "handles": [
         "Paranautica",
         "paranautica, andrew.tobia"
       ],
       "discord_ids": []
     },
-    "Paroxysmal Nocturnal Dyspnea (PND)": {
+    "paroxysmalnocturnaldyspneapnd": {
       "handles": [],
       "discord_ids": []
     },
-    "Pathing": {
+    "pathing": {
       "handles": [
         "pathing"
       ],
       "discord_ids": []
     },
-    "Peman Audio": {
+    "pemanaudio": {
       "handles": [
         "Pavlik"
       ],
       "discord_ids": []
     },
-    "Peregrine": {
+    "peregrine": {
       "handles": [
         "cschweppe"
       ],
       "discord_ids": []
     },
-    "Peregrine (Cschweppe)": {
-      "handles": [
-        "Cschweppe",
-        "cschweppe"
-      ],
-      "discord_ids": []
-    },
-    "Perlin": {
+    "perlin": {
       "handles": [
         "ckevv"
       ],
       "discord_ids": []
     },
-    "Plesiotone": {
+    "plesiotone": {
       "handles": [
         "octalus"
       ],
       "discord_ids": []
     },
-    "Poetry In Noise": {
+    "poetryinnoise": {
       "handles": [
         "PoetryInNoise",
         "PoetryinNoise"
@@ -1629,20 +1527,20 @@
       ],
       "discord_ids": []
     },
-    "PonyArt": {
+    "ponyart": {
       "handles": [
         "PonyArt",
         "doppyjoe"
       ],
       "discord_ids": []
     },
-    "PonyArt (Mad Hed City)": {
+    "ponyartmadhedcity": {
       "handles": [
         "PonyArt"
       ],
       "discord_ids": []
     },
-    "Popbot": {
+    "popbot": {
       "handles": [
         "Popbot"
       ],
@@ -1652,49 +1550,55 @@
       "handles": [],
       "discord_ids": []
     },
-    "Procrastronaut": {
+    "procrastronaut": {
       "handles": [
         "robotlovesyou"
       ],
       "discord_ids": []
     },
-    "Protocol": {
+    "protocol": {
       "handles": [
         "CommanderViral"
       ],
       "discord_ids": []
     },
-    "Prysm": {
+    "prysm": {
       "handles": [
         "Raf"
       ],
       "discord_ids": []
     },
-    "Pulse-Static": {
+    "pulsestatic": {
       "handles": [
         "Dohgurt15",
         "swordnspade"
       ],
       "discord_ids": []
     },
-    "Reark": {
+    "rchestra": {
+      "handles": [
+        "Kev"
+      ],
+      "discord_ids": []
+    },
+    "reark": {
       "handles": [
         "reark",
         "reark_"
       ],
       "discord_ids": []
     },
-    "Reveur Mort": {
+    "reveurmort": {
       "handles": [],
       "discord_ids": []
     },
-    "Riku Morten": {
+    "rikumorten": {
       "handles": [
         "Riku"
       ],
       "discord_ids": []
     },
-    "Robert Redshaw": {
+    "robertredshaw": {
       "handles": [
         "Red Robert",
         "Red.Robert",
@@ -1702,54 +1606,54 @@
       ],
       "discord_ids": []
     },
-    "Robolution": {
+    "robolution": {
       "handles": [],
       "discord_ids": []
     },
-    "Rosentwig": {
+    "rosentwig": {
       "handles": [
         "Rosentwig"
       ],
       "discord_ids": []
     },
-    "Ryan Spratt": {
+    "ryanspratt": {
       "handles": [
         "Ryan Spratt"
       ],
       "discord_ids": []
     },
-    "Samar": {
+    "samar": {
       "handles": [
         "mdsds"
       ],
       "discord_ids": []
     },
-    "Sarah Arvizo": {
+    "saraharvizo": {
       "handles": [
         "Sarah Soda"
       ],
       "discord_ids": []
     },
-    "Saw Whet": {
+    "sawwhet": {
       "handles": [
         "sawwhet_85750",
         "sawwhet_85750, neuroprism"
       ],
       "discord_ids": []
     },
-    "Saw Whet - Adam Johan Bergren": {
+    "sawwhetadamjohanbergren": {
       "handles": [
         "ajbergren"
       ],
       "discord_ids": []
     },
-    "Sean V": {
+    "seanv": {
       "handles": [
         "SeanSVS"
       ],
       "discord_ids": []
     },
-    "Sean VanSickel": {
+    "seanvansickel": {
       "handles": [
         "seansvs"
       ],
@@ -1757,14 +1661,14 @@
         "719363656797913099"
       ]
     },
-    "Seth Monyette": {
+    "sethmonyette": {
       "handles": [
         "Mantooth901",
         "Seth Monyette"
       ],
       "discord_ids": []
     },
-    "Shaolin Rib": {
+    "shaolinrib": {
       "handles": [
         "Hallucyn8 / Shaolin Rib"
       ],
@@ -1776,15 +1680,15 @@
       ],
       "discord_ids": []
     },
-    "Silence (jungle pickle)": {
+    "silence": {
       "handles": [],
       "discord_ids": []
     },
-    "Silent Pity": {
+    "silentpity": {
       "handles": [],
       "discord_ids": []
     },
-    "Sir Fancy": {
+    "sirfancy": {
       "handles": [
         "sirfancy"
       ],
@@ -1794,72 +1698,66 @@
       "handles": [],
       "discord_ids": []
     },
-    "Skitter": {
+    "skitter": {
       "handles": [
         "Skitter",
         "Skitterr"
       ],
       "discord_ids": []
     },
-    "Skybird": {
+    "skybird": {
       "handles": [
         "skybirdmakes"
       ],
       "discord_ids": []
     },
-    "Skyguide": {
+    "skyguide": {
       "handles": [
         "Skyguide"
       ],
       "discord_ids": []
     },
-    "Sleep Television": {
+    "sleeptelevision": {
       "handles": [
         "Sleep Television"
       ],
       "discord_ids": []
     },
-    "Snoozevelt": {
+    "snoozevelt": {
       "handles": [
         "snoozevelt"
       ],
       "discord_ids": []
     },
-    "Softcore Toucan": {
+    "softcoretoucan": {
       "handles": [
         "topograph"
       ],
       "discord_ids": []
     },
-    "SomethingAboutThings": {
+    "somethingaboutthings": {
       "handles": [],
       "discord_ids": []
     },
-    "Sonarant Escapades": {
+    "sonarantescapades": {
       "handles": [
         "Jimbotron5000"
       ],
       "discord_ids": []
     },
-    "Sounds by Shawn": {
-      "handles": [
-        "sfs"
-      ],
-      "discord_ids": []
-    },
-    "Sparga": {
+    "sparga": {
       "handles": [
         "Multivax"
       ],
       "discord_ids": []
     },
-    "Spec7or": {
+    "spec7or": {
       "handles": [
         "Spec7or"
       ],
       "discord_ids": []
     },
-    "Spirit Unknown": {
+    "spiritunknown": {
       "handles": [
         "Yin",
         "Yin0599"
@@ -1873,13 +1771,13 @@
       ],
       "discord_ids": []
     },
-    "Storm": {
+    "storm": {
       "handles": [
         "Storm"
       ],
       "discord_ids": []
     },
-    "Stu M": {
+    "stum": {
       "handles": [
         "Ginger_Bitters",
         "Stu M",
@@ -1890,7 +1788,7 @@
       ],
       "discord_ids": []
     },
-    "stupidPilled": {
+    "stupidpilled": {
       "handles": [
         "stupidPilled",
         "stupidPilled / bl_00n",
@@ -1898,11 +1796,7 @@
       ],
       "discord_ids": []
     },
-    "Systeemplafond": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "T3ter": {
+    "t3ter": {
       "handles": [
         "T3ter"
       ],
@@ -1917,63 +1811,80 @@
         "116306897140842505"
       ]
     },
-    "Tail Glow": {
+    "tailglow": {
       "handles": [
         "Athens Horseparty"
       ],
       "discord_ids": []
     },
-    "Takamoon": {
+    "takamoon": {
       "handles": [
         "Takamoon",
         "takamoon"
       ],
       "discord_ids": []
     },
-    "TallDarknWeirdo": {
+    "talldarknweirdo": {
       "handles": [
         "talldarknweirdo"
       ],
       "discord_ids": []
     },
-    "Tanukid": {
+    "tanukid": {
       "handles": [
         "TanukiD"
       ],
       "discord_ids": []
     },
-    "Teapotahedron": {
+    "teapotahedron": {
       "handles": [
         "Teapotahedron"
       ],
       "discord_ids": []
     },
-    "TessellationRow": {
+    "tessellationrow": {
       "handles": [
         "Tessellation Row",
         "TessellationRow"
       ],
       "discord_ids": []
     },
-    "The Cure": {
+    "thecure": {
       "handles": [],
       "discord_ids": []
     },
-    "The Elk Lodge": {
+    "thecuri": {
+      "handles": [
+        "curi"
+      ],
+      "discord_ids": []
+    },
+    "thedisordered": {
+      "handles": [
+        "TheDisordered"
+      ],
+      "discord_ids": []
+    },
+    "theelklodge": {
       "handles": [
         "elklodge"
       ],
       "discord_ids": []
     },
-    "the Evil Computer": {
-      "handles": [],
+    "thef3l1x": {
+      "handles": [
+        "the_F3l1x",
+        "the_f3l1x"
+      ],
       "discord_ids": []
     },
-    "The Flashbulb": {
-      "handles": [],
+    "theflashbulb": {
+      "handles": [
+        "Benn#1714"
+      ],
       "discord_ids": []
     },
-    "The Infra": {
+    "theinfra": {
       "handles": [
         "The Infra",
         "The Infra/Squirrel",
@@ -1981,112 +1892,93 @@
       ],
       "discord_ids": []
     },
-    "The Jovian Path": {
-      "handles": [
-        "Jovian Path"
-      ],
-      "discord_ids": []
-    },
-    "The Owl": {
-      "handles": [
-        "TheOwl84"
-      ],
-      "discord_ids": []
-    },
-    "The Planting Noise": {
-      "handles": [
-        "angela slamsbury"
-      ],
-      "discord_ids": []
-    },
-    "the sim-sel community": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "the_f3l1x": {
-      "handles": [
-        "the_F3l1x",
-        "the_f3l1x"
-      ],
-      "discord_ids": []
-    },
-    "Thecuri": {
-      "handles": [
-        "curi"
-      ],
-      "discord_ids": []
-    },
-    "TheDisordered": {
-      "handles": [
-        "TheDisordered"
-      ],
-      "discord_ids": []
-    },
-    "Theit": {
+    "theit": {
       "handles": [
         "Theit"
       ],
       "discord_ids": []
     },
-    "Theodore Snoozevelt": {
+    "thejovianpath": {
+      "handles": [
+        "Jovian Path"
+      ],
+      "discord_ids": []
+    },
+    "theodoresnoozevelt": {
       "handles": [
         "TheodoreSnoozevelt",
         "snoozevelt"
       ],
       "discord_ids": []
     },
-    "TheOwl84": {
+    "theowl": {
       "handles": [
         "TheOwl84"
       ],
       "discord_ids": []
     },
-    "Thomas": {
+    "theowl84": {
+      "handles": [
+        "TheOwl84"
+      ],
+      "discord_ids": []
+    },
+    "theplantingnoise": {
+      "handles": [
+        "angela slamsbury"
+      ],
+      "discord_ids": []
+    },
+    "thesimselcommunity": {
+      "handles": [],
+      "discord_ids": []
+    },
+    "thomasandtheevilcomputer": {
       "handles": [
         "Mathemagician",
         "mathemagician"
       ],
       "discord_ids": []
     },
-    "Thomass": {
+    "thomass": {
       "handles": [],
       "discord_ids": []
     },
-    "Tom Higgins": {
+    "tomhiggins": {
       "handles": [
         "Tom Higgins"
       ],
       "discord_ids": []
     },
-    "Tom Morton": {
+    "tommorton": {
       "handles": [
         "tealwarrior"
       ],
       "discord_ids": []
     },
-    "TomNomNom": {
+    "tomnomnom": {
       "handles": [
         "tomnomnomuk"
       ],
       "discord_ids": []
     },
-    "Too Much Stress": {
+    "toomuchstress": {
       "handles": [
         "jellymustardgut"
       ],
       "discord_ids": []
     },
-    "Total Bedroom": {
+    "totalbedroom": {
       "handles": [],
       "discord_ids": []
     },
-    "Tranendal": {
+    "tranendal": {
       "handles": [
         "dreamer"
       ],
       "discord_ids": []
     },
-    "truck (but with a leading underscore like my discord handle)": {
+    "truckbutwithaleadingunderscorelikemydiscordhandle": {
       "handles": [
         "_truck"
       ],
@@ -2096,22 +1988,22 @@
       "handles": [],
       "discord_ids": []
     },
-    "Udio": {
+    "udio": {
       "handles": [],
       "discord_ids": []
     },
-    "Udonkhatola": {
+    "udonkhatola": {
       "handles": [],
       "discord_ids": []
     },
-    "Undercover": {
+    "undercover": {
       "handles": [
         "Undercover",
         "UndercoverBrother"
       ],
       "discord_ids": []
     },
-    "Undercover Brother": {
+    "undercoverbrother": {
       "handles": [
         "Undercover Brother"
       ],
@@ -2121,54 +2013,50 @@
       "handles": [],
       "discord_ids": []
     },
-    "Unknown Artist": {
-      "handles": [],
-      "discord_ids": []
-    },
-    "Unthank": {
+    "unthank": {
       "handles": [
         "Unthank"
       ],
       "discord_ids": []
     },
-    "Valeph_{0}": {
+    "valeph0": {
       "handles": [],
       "discord_ids": []
     },
-    "vetra miga": {
+    "vetramiga": {
       "handles": [
         "vetramiga"
       ],
       "discord_ids": []
     },
-    "Viiri": {
+    "viiri": {
       "handles": [
         "ilmai",
         "ilmai (Viiri)"
       ],
       "discord_ids": []
     },
-    "Viridian": {
+    "viridian": {
       "handles": [
         "ViridianLoom"
       ],
       "discord_ids": []
     },
-    "Virus_Protocol": {
+    "virusprotocol": {
       "handles": [],
       "discord_ids": []
     },
-    "Vogel": {
+    "vogel": {
       "handles": [],
       "discord_ids": []
     },
-    "Waived (Ethan Cadamore)": {
+    "waivedethancadamore": {
       "handles": [
         "waived"
       ],
       "discord_ids": []
     },
-    "Wasted Transmitter": {
+    "wastedtransmitter": {
       "handles": [],
       "discord_ids": []
     },
@@ -2181,7 +2069,7 @@
       ],
       "discord_ids": []
     },
-    "Wonky Robot": {
+    "wonkyrobot": {
       "handles": [
         "Malte (Wonky Robot)"
       ],
@@ -2193,51 +2081,51 @@
       ],
       "discord_ids": []
     },
-    "Yakmilksoda": {
+    "yakmilksoda": {
       "handles": [
         "yakmilksoda"
       ],
       "discord_ids": []
     },
-    "Yesterday's Lazers (CDD)": {
+    "yesterdayslazerscdd": {
       "handles": [
         "Deeds"
       ],
       "discord_ids": []
     },
-    "Yesterday's Lazers (MMT mix)": {
+    "yesterdayslazersmmtmix": {
       "handles": [
         "Deeds"
       ],
       "discord_ids": []
     },
-    "Your Computer": {
+    "yourcomputer": {
       "handles": [
         "jellymustardgut"
       ],
       "discord_ids": []
     },
-    "ZBreezie": {
+    "zbreezie": {
       "handles": [
         "ZBreezie"
       ],
       "discord_ids": []
     },
-    "Zero Lucks Given": {
+    "zeroapr": {
+      "handles": [
+        "ZeroApr",
+        "Zeroapr",
+        "zeroApr"
+      ],
+      "discord_ids": []
+    },
+    "zerolucksgiven": {
       "handles": [
         "Anxst",
         "Anxst (Zero Lucks Given)",
         "Anxst(Zero Lucks Given)",
         "anxst",
         "anxst (Zero Lucks Given)"
-      ],
-      "discord_ids": []
-    },
-    "zeroAPR": {
-      "handles": [
-        "ZeroApr",
-        "Zeroapr",
-        "zeroApr"
       ],
       "discord_ids": []
     },
@@ -2249,41 +2137,36 @@
     }
   },
   "handle_lookup": {
-    "351423793199185920": [
-      "Muggi B"
-    ],
     "5xvt": [
-      "5XVT"
+      "5xvt"
     ],
     "acidrain": [
-      "First Sun",
-      "Just Below Purgatory"
+      "firstsun",
+      "justbelowpurgatory"
     ],
     "agentvx": [
-      "Agent VX"
+      "agentvx"
     ],
     "aiadreamloss": [
-      "Ara Cristina",
-      "Hojascirculares"
+      "aracristina",
+      "hojascirculares"
     ],
     "ajbergren": [
-      "AJ Bergren",
-      "Adam Johan Bergren",
-      "Adam Johan Bergren (ft. All)",
-      "Adam Johan Bergren (ft. Jungle Pickle)",
-      "Saw Whet - Adam Johan Bergren"
+      "adamjohanbergren",
+      "ajbergren",
+      "sawwhetadamjohanbergren"
     ],
     "akilakavo": [
-      "Akila Kavo"
+      "akilakavo"
     ],
     "alanfractalint": [
-      "Fractalint"
+      "fractalint"
     ],
     "alanheavylistening": [
-      "Heavy Listening"
+      "heavylistening"
     ],
     "alderach": [
-      "BS Reactor"
+      "bsreactor"
     ],
     "alexclarke": [
       "informationcake"
@@ -2292,258 +2175,249 @@
       "informationcake"
     ],
     "ambientspace": [
-      "AmbientSpace"
+      "ambientspace"
     ],
     "amessvv": [
-      "Anonymous Water Bottle"
+      "anonymouswaterbottle"
     ],
     "andrewtobia": [
-      "Euskalduna"
+      "euskalduna"
     ],
     "angelaslamsbury": [
-      "The Planting Noise"
+      "theplantingnoise"
     ],
     "anode7jo": [
-      "ANODE"
+      "anode"
     ],
     "anxst": [
-      "Zero Lucks Given"
+      "zerolucksgiven"
     ],
     "anxstzerolucksgiven": [
-      "Zero Lucks Given"
+      "zerolucksgiven"
     ],
     "aplut": [
-      "Aplut"
+      "aplut"
     ],
     "archsimonn": [
-      "Muskox Archives"
+      "muskoxarchives"
     ],
     "ashchap": [
-      "Ashley Chapman"
+      "ashleychapman"
     ],
     "athenshorseparty": [
-      "Tail Glow"
+      "tailglow"
     ],
     "avant5": [
-      "Mark"
+      "mark"
     ],
     "averytt10": [
-      "Avery Tomlinson"
+      "averytomlinson"
     ],
     "axe": [
-      "Axel Ramirez"
+      "axelramirez"
     ],
     "benadamstyles": [
-      "Film for the Future"
+      "filmforthefuture"
     ],
     "bestorange": [
-      "estes_"
+      "estes"
     ],
     "bjorkmann": [
-      "Buttons"
+      "buttons"
     ],
     "breadthestore": [
-      "LMNO Project"
+      "lmnoproject"
     ],
     "brokengravity": [
-      "Broken Gravity"
-    ],
-    "bugonk": [
-      "Lunch Nap"
+      "brokengravity"
     ],
     "caffeinechamber": [
-      "Nootropic"
+      "nootropic"
     ],
     "cahl": [
-      "Cahl"
+      "cahl"
     ],
     "calt": [
-      "c alt"
+      "calt"
     ],
     "cathreu": [
-      "Cathartic Reunion"
+      "catharticreunion"
     ],
     "charlesrandall": [
-      "APBT (Charles Randall)",
-      "Charles Randall"
+      "charlesrandall"
     ],
     "chooko": [
-      "Chooko"
+      "chooko"
     ],
     "christophersisk": [
-      "Christopher Sisk"
+      "christophersisk"
     ],
     "ckevv": [
-      "Perlin"
+      "perlin"
     ],
     "commanderviral": [
-      "Protocol"
+      "protocol"
     ],
     "computrhead": [
-      "Computrhead"
+      "computrhead"
     ],
     "coreyostman": [
-      "Blip Factory"
+      "blipfactory"
     ],
     "crxzosdk": [
-      "CRXZOSDK"
+      "crxzosdk"
     ],
     "cschweppe": [
-      "Peregrine",
-      "Peregrine (Cschweppe)",
-      "cschweppe"
+      "cschweppe",
+      "peregrine"
     ],
     "curi": [
-      "Thecuri"
+      "thecuri"
     ],
     "dalton": [
-      "Dalton",
-      "IKAN"
+      "dalton",
+      "ikan"
     ],
     "danbjo": [
-      "Dan"
+      "dan"
     ],
     "danetal66991": [
-      "Danetal"
-    ],
-    "darkmajik": [
-      "DARKMAJIK"
+      "danetalsysteemplafond"
     ],
     "darkswordsman": [
-      "DarkSwordsman",
-      "Kyle Barr"
+      "darkswordsman",
+      "kylebarr"
     ],
     "daxa": [
       "daxa"
     ],
     "dedblank": [
-      "Dedblank"
+      "dedblank"
     ],
     "deeds": [
-      "Camino del Dragon",
-      "Camino del Dragon (YL)",
-      "Camino del Dragon (feat BerserkerBot)",
-      "Mime Mining Corporation",
-      "Yesterday's Lazers (CDD)",
-      "Yesterday's Lazers (MMT mix)"
+      "caminodeldragon",
+      "caminodeldragonyl",
+      "mimeminingcorporation",
+      "yesterdayslazerscdd",
+      "yesterdayslazersmmtmix"
     ],
     "deelooon": [
-      "Deelooon"
+      "deelooon"
     ],
     "deithrynwav": [
-      "Deithryn"
+      "deithryn"
     ],
     "depthbuffer": [
-      "Depthbuffer"
+      "depthbuffer"
     ],
     "derek": [
-      "Derek Shunia"
+      "derekshunia"
     ],
     "derekerdmann": [
-      "Derek Erdmann"
+      "derekerdmann"
     ],
     "digfig": [
-      "Bottle:Brush"
+      "bottlebrush"
     ],
     "diregaze": [
-      "Dire Gaze"
+      "diregaze"
     ],
     "doggoshark": [
-      "Doggo Shark (Fallacy Dice)",
-      "Fallacy Dice",
-      "Fallacy Dog"
+      "doggoshark",
+      "fallacydice",
+      "fallacydog"
     ],
     "dogsander": [
-      "Grokker",
-      "Krank Grokker"
+      "grokker",
+      "krankgrokker"
     ],
     "dohgurt15": [
-      "Pulse-Static"
+      "pulsestatic"
     ],
     "domilo": [
-      "Domilo"
+      "domilo"
     ],
     "donoru": [
-      "Donoru"
+      "donoru"
     ],
     "doppyjoe": [
-      "PonyArt"
+      "ponyart"
     ],
     "dotaistheworstgame": [
       "dotaistheworstgame"
     ],
     "dreamer": [
-      "DRMR",
-      "MRDR",
-      "Tranendal"
+      "drmr",
+      "mrdr",
+      "tranendal"
     ],
     "dreamstatic": [
-      "DREAMX",
-      "Dream Static"
+      "dreamstatic",
+      "dreamx"
     ],
     "drewillard": [
-      "DREWILLARD",
-      "Drew Willard"
+      "drewillard",
+      "drewwillard"
     ],
     "durkl": [
-      "Durkl"
+      "durkl"
     ],
     "dvtrn": [
-      "Devon Gates"
+      "devongates"
     ],
     "dystopian": [
-      "DYSTOP1AN"
+      "dystop1an"
     ],
     "edisolve": [
-      "Stu M"
+      "stum"
     ],
     "edisolvestum": [
-      "Stu M"
+      "stum"
     ],
     "edwin": [
-      "Edwin"
+      "edwin"
     ],
     "edwin1337": [
-      "Edwin"
+      "edwin"
     ],
     "electricbuffalo": [
-      "Monkey Luckless"
+      "monkeyluckless"
     ],
     "elklodge": [
-      "The Elk Lodge"
+      "theelklodge"
     ],
     "elsper": [
-      "Kitsune Machines",
-      "Mia Moon",
-      "Miya Moon"
+      "kitsunemachines",
+      "miamoon",
+      "miyamoon"
     ],
     "ergonogo": [
-      "ErgoNogo"
+      "ergonogo"
     ],
     "errrawr": [
-      "err rawr"
+      "errrawr"
     ],
     "fallenprincess": [
-      "fallen princess",
+      "fallenprincess",
       "wisteria"
     ],
     "fallenprincesswisteria": [
       "wisteria"
     ],
     "feedback0742": [
-      "Feedback"
+      "feedback"
     ],
     "fileareport": [
-      "Fileareport"
+      "fileareport"
     ],
     "firephly": [
-      "Firephly"
+      "firephly"
     ],
     "fjaru": [
-      "Fjaru"
+      "fjaru"
     ],
     "fractalint": [
-      "Fractalint"
+      "fractalint"
     ],
     "frildoh": [
       "frildoh"
@@ -2552,47 +2426,46 @@
       "frildoh"
     ],
     "fulhjort": [
-      "Duck Propaganda",
-      "Fulhjort",
-      "fulhjort as Lith um Oh",
-      "fulhjotr"
+      "duckpropaganda",
+      "fulhjort",
+      "fulhjortaslithumoh"
     ],
     "gamingrobot": [
-      "GRBT"
+      "grbt"
     ],
     "gargantagruel": [
-      "Pantagruel"
+      "pantagruel"
     ],
     "gingerbitters": [
-      "Stu M",
-      "bit.r.ist"
+      "bitrist",
+      "stum"
     ],
     "goog": [
-      "Obselysium"
+      "obselysium"
     ],
     "hallucyn8shaolinrib": [
-      "Shaolin Rib"
+      "shaolinrib"
     ],
     "herrshield": [
-      "Herr Shield"
+      "herrshield"
     ],
     "hillbillyhipster": [
-      "HH"
+      "hh"
     ],
     "hurler1348": [
-      "Anthony Felos"
+      "anthonyfelos"
     ],
     "iamnabil": [
-      "IamNabil"
+      "iamnabil"
     ],
     "iamthesoundman": [
-      "AP"
+      "ap"
     ],
     "ilmai": [
-      "Viiri"
+      "viiri"
     ],
     "ilmaiviiri": [
-      "Viiri"
+      "viiri"
     ],
     "informationcake": [
       "informationcake"
@@ -2601,531 +2474,516 @@
       "ipso"
     ],
     "itspronouncedelossa": [
-      "Elossa"
+      "elossa"
     ],
     "jason": [
-      "Astar"
+      "astararobot"
     ],
     "jasonm": [
-      "Astar"
+      "astararobot"
     ],
     "jellymustardgut": [
-      "Earl Grey",
-      "Law Effort",
-      "No Time To Mix",
-      "Too Much Stress",
-      "Your Computer"
+      "earlgrey",
+      "laweffort",
+      "notimetomix",
+      "toomuchstress",
+      "yourcomputer"
     ],
     "jimbotron5000": [
-      "CayZe",
-      "Sonarant Escapades"
+      "cayze",
+      "sonarantescapades"
     ],
     "jimh001": [
-      "KooDaiSung"
+      "koodaisung"
     ],
     "joei": [
-      "Joel"
+      "joel"
     ],
     "jordan": [
-      "Benn Jordan",
-      "Jordan"
+      "bennjordan",
+      "jordan"
     ],
     "jovianpath": [
-      "The Jovian Path"
+      "thejovianpath"
     ],
     "junglepickle": [
-      "Mr P",
-      "jungle pickle"
+      "junglepickle",
+      "mrp"
     ],
     "kairokun": [
-      "KairoKunOngaku",
-      "KairoKun\u97f3\u697d"
+      "kairokun",
+      "kairokunongaku"
     ],
     "kaiunix": [
       "kanaris"
     ],
     "katt": [
-      "Katt",
-      "catatronic"
+      "catatronic",
+      "katt"
     ],
     "keatonktw121": [
-      "ARC19-"
+      "arc19"
     ],
     "kev": [
-      "_rchestra",
-      "kevin Thorsen"
-    ],
-    "kevhuman": [
-      "Kevhuman"
+      "kevinthorsen",
+      "rchestra"
     ],
     "khae0": [
-      "Intent Unknown"
+      "intentunknown"
     ],
     "kholdstare": [
-      "FSC",
-      "Fine Structure Constant"
+      "finestructureconstant",
+      "fsc"
     ],
     "kiwillian": [
-      "Kiwillian"
+      "kiwillian"
     ],
     "kongr45gpen": [
       "electrovesta"
     ],
     "konniducks": [
-      "Ducks"
+      "ducks"
     ],
     "kothkane": [
-      "Astar"
+      "astararobot"
     ],
     "krovvythered": [
-      "Krovvythered"
+      "krovvythered"
     ],
     "kruvek": [
       "kruvek"
     ],
     "ksa": [
-      "Default Media Transmitter"
+      "defaultmediatransmitter"
     ],
     "ksadefaultmediatransmitter": [
-      "Default Media Transmitter"
+      "defaultmediatransmitter"
     ],
     "lauren": [
-      "Lauren",
-      "Lauren Pins Channels"
+      "lauren",
+      "laurenpinschannels"
     ],
     "lauren0001": [
-      "Lauren Pins Channels"
+      "laurenpinschannels"
     ],
     "lcots": [
-      "Long Century of The Surreal"
+      "longcenturyofthesurreal"
     ],
     "leroyheavix": [
-      "Heavix"
+      "heavix"
     ],
     "lonnon": [
-      "Lonnon Foster"
+      "lonnonfoster"
     ],
     "loomechoesbats": [
-      "Echoes Bats"
+      "echoesbats"
     ],
     "loomerama": [
-      "Echoes Bats"
+      "echoesbats"
     ],
     "lopezcartoons": [
-      "Equal Equals"
+      "equalequals"
     ],
     "luckytamagotchi": [
-      "LuckyTamagotchi"
+      "luckytamagotchi"
     ],
     "lukas": [
-      "Bazebuster"
+      "bazebuster"
     ],
     "makhnosmustache": [
-      "Composite Complex"
+      "compositecomplex"
     ],
     "maltewonkyrobot": [
-      "Wonky Robot"
+      "wonkyrobot"
     ],
     "mangat00n": [
-      "ArcticOne"
+      "arcticone"
     ],
     "mangat00narcticone": [
-      "ArcticOne"
+      "arcticone"
     ],
     "mangochunks": [
-      "Mango Chunks"
+      "mangochunks"
     ],
     "mantooth901": [
-      "Seth Monyette"
+      "sethmonyette"
     ],
     "mark": [
-      "Mark Feifarek"
+      "markfeifarek"
     ],
     "massivedynamic": [
-      "Lemon Berries"
+      "lemonberries"
     ],
     "mathemagician": [
-      "Thomas"
+      "thomasandtheevilcomputer"
     ],
     "maxmattingly": [
-      "Max Mattingly"
+      "maxmattingly"
     ],
     "mcjizzle": [
-      "KwaK"
+      "kwak"
     ],
     "mdsds": [
-      "Samar"
+      "samar"
     ],
     "mgrasker": [
-      "Abe G"
+      "abeg"
     ],
     "michaellongcentury": [
-      "Long Century of The Surreal"
+      "longcenturyofthesurreal"
     ],
     "michaelol179": [
       "michaelol179"
     ],
     "michaelwoodlongcentury": [
-      "Long Century of The Surreal"
+      "longcenturyofthesurreal"
     ],
     "mikey303": [
-      "Mikey303",
-      "mikey chiptune"
+      "mikey303",
+      "mikeychiptune"
     ],
     "misumurmur": [
       "mmm"
     ],
     "moikojay": [
-      "Moiko"
+      "moiko"
     ],
     "mondayeyesxo": [
-      "Lizard Milke"
+      "lizardmilke"
     ],
     "morchella": [
-      "Hunter the Gatherer"
+      "hunterthegatherer"
     ],
     "motoko": [
-      "Mark Feifarek"
+      "markfeifarek"
     ],
     "mrtransistor": [
-      "Japanese Seizure Robots"
+      "japaneseseizurerobots"
     ],
     "multivax": [
-      "Sparga"
+      "sparga"
     ],
     "mygloomymachine": [
-      "My Gloomy Machine"
+      "mygloomymachine"
     ],
     "nascen7": [
-      "NASCEN7"
+      "nascen7"
     ],
     "natasliam": [
-      "natas_liam"
+      "natasliam"
     ],
     "nedogled": [
       "nedogled"
     ],
     "negativeteens": [
-      "Negative Teens"
+      "negativeteens"
     ],
     "neuroprism": [
-      "Bjen"
+      "bjen"
     ],
     "neutroncereal": [
-      "Cschweppe NeutronCereal"
+      "cschweppeneutroncereal"
     ],
     "ngc3019": [
-      "NGC 3019"
+      "ngc3019"
     ],
     "nikochookoandrewtobia": [
-      "Chooko"
+      "chooko"
     ],
     "noowls": [
-      "No Owls"
+      "noowls"
     ],
     "nornec": [
-      "Nornec"
+      "nornec"
     ],
     "octalus": [
-      "Plesiotone"
+      "plesiotone"
     ],
     "officialhellcat5": [
       "hellcat5"
     ],
     "oobe": [
-      "Oobesan"
+      "oobesan"
     ],
     "oobesan": [
-      "Oobesan"
+      "oobesan"
     ],
     "paranautica": [
-      "Paranautica"
+      "paranautica"
     ],
     "paranauticaandrewtobia": [
-      "Paranautica"
+      "paranautica"
     ],
     "pathing": [
-      "Pathing"
+      "pathing"
     ],
     "pavlik": [
-      "Peman Audio"
+      "pemanaudio"
     ],
     "pity": [
-      "Menhirs"
+      "menhirs"
     ],
     "plebscream": [
-      "Chaos Engine"
+      "chaosengine"
     ],
     "poetryinnoise": [
-      "Committees of Newfoundland",
-      "Poetry In Noise"
+      "committeesofnewfoundland",
+      "poetryinnoise"
     ],
     "poldu": [
       "poldu"
     ],
     "polkabird": [
-      "Pantagruel"
+      "pantagruel"
     ],
     "ponyart": [
-      "PonyArt",
-      "PonyArt (Mad Hed City)"
+      "ponyart",
+      "ponyartmadhedcity"
     ],
     "ponyartstum": [
-      "Drum Node"
+      "drumnode"
     ],
     "popbot": [
-      "Popbot"
+      "popbot"
     ],
     "raf": [
-      "Prysm"
+      "prysm"
     ],
     "reark": [
-      "Reark"
+      "reark"
     ],
     "redrobert": [
-      "Robert Redshaw"
+      "robertredshaw"
     ],
     "riku": [
-      "Riku Morten"
+      "rikumorten"
     ],
     "riskydevilcsneutroncereal": [
-      "Cschweppe NeutronCereal"
+      "cschweppeneutroncereal"
     ],
     "robotlovesyou": [
-      "Procrastronaut"
+      "procrastronaut"
     ],
     "rosentwig": [
-      "Rosentwig"
+      "rosentwig"
     ],
     "ryanspratt": [
-      "Ryan Spratt"
+      "ryanspratt"
     ],
     "sanyavarvar2004": [
       "fractal4053"
     ],
     "sarahsoda": [
-      "Sarah Arvizo"
+      "saraharvizo"
     ],
     "sassycuddlefish": [
-      "MISLS"
+      "misls"
     ],
     "sawwhet85750": [
-      "Saw Whet"
+      "sawwhet"
     ],
     "sawwhet85750neuroprism": [
-      "Saw Whet"
-    ],
-    "sayoco": [
-      "Olessia Dupuy"
+      "sawwhet"
     ],
     "seansvs": [
-      "Sean V",
-      "Sean VanSickel"
+      "seanv",
+      "seanvansickel"
     ],
     "sethmonyette": [
-      "Seth Monyette"
-    ],
-    "sfs": [
-      "Sounds by Shawn"
+      "sethmonyette"
     ],
     "shere": [
       "shereen"
     ],
-    "simdrew": [
-      "Andrew Collinsworth"
-    ],
     "simme": [
-      "Coolout Coexist"
+      "cooloutcoexist"
     ],
     "simon224": [
-      "Aplut"
+      "aplut"
     ],
     "simont9944": [
-      "Panoramic Dream"
+      "panoramicdream"
     ],
     "sirfancy": [
-      "Sir Fancy"
+      "sirfancy"
     ],
     "skitter": [
-      "Skitter"
+      "skitter"
     ],
     "skitterr": [
-      "Skitter"
+      "skitter"
     ],
     "skroobler": [
-      "Iggy"
+      "iggy"
     ],
     "skwisgaarmichaeltill": [
-      "Michael Till"
+      "michaeltill"
     ],
     "skybirdmakes": [
-      "Skybird"
+      "skybird"
     ],
     "skyguide": [
-      "Skyguide"
+      "skyguide"
     ],
     "sleeptelevision": [
-      "Sleep Television"
+      "sleeptelevision"
     ],
     "snoozevelt": [
-      "Snoozevelt",
-      "Theodore Snoozevelt"
+      "snoozevelt",
+      "theodoresnoozevelt"
     ],
     "snowlight": [
-      "Frank Lumien"
+      "franklumien"
     ],
     "spaceperson16largeman": [
-      "Largeman"
+      "largeman"
     ],
     "spec7or": [
-      "Spec7or"
+      "spec7or"
     ],
     "spekkio": [
-      "Amadeus B. Snivelitch"
+      "amadeusbsnivelitch"
     ],
     "spekkioabsnivelitch": [
-      "Amadeus B. Snivelitch"
+      "amadeusbsnivelitch"
     ],
     "spillmaster87": [
-      "Pantagruel"
+      "pantagruel"
     ],
     "squirrelmaster": [
-      "The Infra"
+      "theinfra"
     ],
     "ssluggss": [
       "b"
     ],
     "stevo": [
-      "Bjen"
+      "bjen"
     ],
     "stevobjen": [
-      "Bjen"
+      "bjen"
     ],
     "stfulahlah": [
-      "Lahlah"
+      "lahlah"
     ],
     "stoic": [
       "stoic"
     ],
     "stoicanddreamer": [
-      "Acrid Meteors"
+      "acridmeteors"
     ],
     "stoicofficial": [
       "stoic"
     ],
     "storm": [
-      "Storm"
+      "storm"
     ],
     "stum": [
-      "Stu M"
+      "stum"
     ],
     "stupidpilled": [
-      "stupidPilled"
+      "stupidpilled"
     ],
     "stupidpilledbl00n": [
-      "stupidPilled"
+      "stupidpilled"
     ],
     "surfinbird": [
-      "Liquidkey"
+      "liquidkey"
     ],
     "swordnspade": [
-      "Pulse-Static"
+      "pulsestatic"
     ],
     "t3ter": [
-      "T3ter"
+      "t3ter"
     ],
     "tabs": [
       "tabs"
     ],
     "takamoon": [
-      "Takamoon"
+      "takamoon"
     ],
     "talldarknweirdo": [
-      "TallDarknWeirdo"
+      "talldarknweirdo"
     ],
     "tanukid": [
-      "Tanukid"
+      "tanukid"
     ],
     "tealwarrior": [
-      "Tom Morton"
+      "tommorton"
     ],
     "teapotahedron": [
-      "Teapotahedron"
+      "teapotahedron"
     ],
     "tessellationrow": [
-      "TessellationRow"
+      "tessellationrow"
     ],
     "thedisordered": [
-      "TheDisordered"
+      "thedisordered"
     ],
     "thef3l1x": [
-      "the_f3l1x"
+      "thef3l1x"
     ],
     "theinfra": [
-      "The Infra"
+      "theinfra"
     ],
     "theinfrasquirrel": [
-      "The Infra"
+      "theinfra"
     ],
     "theit": [
-      "Theit"
+      "theit"
     ],
     "themeatdealer": [
-      "Antimancer"
+      "antimancer"
     ],
     "themeatdealter": [
-      "Antimancer"
+      "antimancer"
     ],
     "theodoresnoozevelt": [
-      "Theodore Snoozevelt"
+      "theodoresnoozevelt"
     ],
     "theowl84": [
-      "The Owl",
-      "TheOwl84"
+      "theowl",
+      "theowl84"
     ],
     "tomhiggins": [
-      "Tom Higgins"
+      "tomhiggins"
     ],
     "tomnomnomuk": [
-      "TomNomNom"
+      "tomnomnom"
     ],
     "topograph": [
-      "Softcore Toucan"
+      "softcoretoucan"
     ],
     "traviebopankis": [
-      "Jacketpocket"
+      "jacketpocket"
     ],
     "traviedoodle": [
-      "Jacketpocket"
+      "jacketpocket"
     ],
     "truck": [
-      "truck (but with a leading underscore like my discord handle)"
-    ],
-    "tychoonothem": [
-      "onothem"
+      "truckbutwithaleadingunderscorelikemydiscordhandle"
     ],
     "undercover": [
-      "Undercover"
+      "undercover"
     ],
     "undercoverbrother": [
-      "Undercover",
-      "Undercover Brother"
+      "undercover",
+      "undercoverbrother"
     ],
     "unthank": [
-      "Unthank"
+      "unthank"
     ],
     "vetramiga": [
-      "vetra miga"
+      "vetramiga"
     ],
     "viridianloom": [
-      "Viridian"
+      "viridian"
     ],
     "vluh123": [
-      "Meganeura"
+      "meganeura"
     ],
     "waived": [
-      "Dire Gaze",
-      "Waived (Ethan Cadamore)"
+      "diregaze",
+      "waivedethancadamore"
     ],
     "wisteriafallenprincess": [
       "wisteria"
@@ -3137,22 +2995,27 @@
       "xaqmusic"
     ],
     "yakmilksoda": [
-      "Yakmilksoda"
+      "yakmilksoda"
     ],
     "yin": [
-      "Spirit Unknown"
+      "spiritunknown"
     ],
     "yin0599": [
-      "Spirit Unknown"
+      "spiritunknown"
     ],
     "zbreezie": [
-      "ZBreezie"
+      "zbreezie"
     ],
     "zeroapr": [
-      "zeroAPR"
+      "zeroapr"
     ],
     "zuggamasta": [
       "zuggamasta"
+    ],
+    "Benn": [
+      "theflashbulb",
+      "bennjordan",
+      "acidwolf"
     ]
   }
 }

@@ -139,12 +139,12 @@ function getUserTracks() {
             if (!track.artist) return;
             const cleanArt = track.artist.toLowerCase().replace(/[^a-z0-9]/g, '');
 
-            // Check if user is linked to primary artist or collaboration
-            let isMatch = linkedSet.has(cleanArt);
-            if (!isMatch) {
-                const normCollab = track.artist.replace(/\b(feat|ft|and|with|vs|versus)\b\.?/gi, '|');
-                const parts = normCollab.split(/[&;\|/,]/).map(p => p.trim().toLowerCase().replace(/[^a-z0-9]/g, ''));
-                isMatch = parts.some(p => p && linkedSet.has(p));
+            // Check if user is linked to any of the dynamically split canonical artists
+            let isMatch = false;
+            if (track.canonical_artists && Array.isArray(track.canonical_artists)) {
+                isMatch = track.canonical_artists.some(p => p && linkedSet.has(p));
+            } else {
+                isMatch = linkedSet.has(cleanArt);
             }
 
             if (isMatch) {

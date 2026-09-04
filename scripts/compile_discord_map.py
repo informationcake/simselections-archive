@@ -12,8 +12,11 @@ import os
 import sys
 import json
 import csv
+import json
+import csv
 import re
 import pandas as pd
+import collab_utils
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
@@ -46,84 +49,6 @@ def clean_string(s):
     if not s: return ""
     return re.sub(r'[^a-z0-9]', '', s.lower())
 
-def is_collaboration(artist_str):
-    """
-    Checks if an artist string contains multi-artist collaboration delimiters outside parentheses.
-    """
-    if not artist_str:
-        return False
-    # Remove text in parentheses before checking for collaboration words, 
-    # UNLESS they contain strong delimiters like / or &
-    def strip_safe_parens(match):
-        content = match.group(0)
-        if bool(re.search(r'[/&;]', content)):
-            return content
-        return ""
-    
-    s_no_paren = re.sub(r'\(.*?\)', strip_safe_parens, artist_str)
-    return bool(re.search(r'\b(feat|ft|and|with|vs|versus|x)\b|[&;\|/,]', s_no_paren, re.IGNORECASE))
-
-# Artists that contain delimiters but should NOT be split
-IGNORE_SPLIT = [
-    "err, rawr",
-    "err: rawr",
-    "err:rawr",
-    "err; rawr",
-    "err;rawr",
-    "a star, a robot"
-]
-
-def split_collaborators(artist_str):
-    """
-    Splits multi-artist strings into individual artist names, ignoring delimiters inside parentheses.
-    e.g. "A & B & C" -> ["A", "B", "C"]
-    e.g. "truck (but with a leading underscore)" -> ["truck (but with a leading underscore)"]
-    """
-    if not artist_str:
-        return []
-    
-    # If no delimiters outside parentheses, return as single artist
-    def strip_safe_parens(match):
-        content = match.group(0)
-        if bool(re.search(r'[/&;]', content)):
-            return content
-        return ""
-    
-    s_no_paren = re.sub(r'\(.*?\)', strip_safe_parens, artist_str)
-    if not bool(re.search(r'\b(feat|ft|and|with|vs|versus|x)\b|[&;\|/,]', s_no_paren, re.IGNORECASE)):
-        return [artist_str.strip()]
-
-    # Replace collaboration words outside parentheses
-    # Protect parentheses content by replacing temporarily
-    parens = []
-    def save_paren(match):
-        content = match.group(0)
-        if bool(re.search(r'[/&;]', content)):
-            # Convert parentheses to delimiters so we split on them too!
-            return "|" + content[1:-1] + "|"
-        parens.append(content)
-        return f"__PAREN_{len(parens)-1}__"
-    
-    protected = re.sub(r'\(.*?\)', save_paren, artist_str)
-    
-    # Protect specific complex artists that contain delimiters
-    for protected_name in IGNORE_SPLIT:
-        pattern = re.compile(re.escape(protected_name), re.IGNORECASE)
-        protected = pattern.sub(lambda m: m.group(0).replace(",", "___PROTECTED_DELIM___").replace(":", "___PROTECTED_DELIM___").replace(";", "___PROTECTED_DELIM___"), protected)
-    
-    norm = re.sub(r'\b(feat|ft|and|with|vs|versus|x)\b\.?', '|', protected, flags=re.IGNORECASE)
-    parts = [p.strip() for p in re.split(r'[&;\|/,]', norm) if p.strip()]
-    
-    # Restore parenthetical content
-    restored = []
-    for p in parts:
-        for idx, orig in enumerate(parens):
-            p = p.replace(f"__PAREN_{idx}__", orig)
-        if p.strip():
-            restored.append(p.strip())
-            
-    return restored
-
 def normalize_discord_handle(handle):
     if not handle:
         return ""
@@ -141,7 +66,7 @@ def normalize_discord_handle(handle):
     if h.startswith("@"):
         h = h[1:].strip()
         
-    # Strip old 4-digit discriminators: e.g. "corey.ostman#6424" -> "corey.ostman"
+    # Strip old 4-digit discriminators: e.g. "username#1234" -> "username"
     if "#" in h:
         parts = h.split("#")
         base = parts[0].strip()
@@ -158,40 +83,35 @@ def normalize_discord_handle(handle):
 
 def load_atomic_catalog_artists():
     """
-    Extracts all individual (atomic) artist names from src/metadata.js by splitting
-    collaboration strings into individual human entities.
+    Extracts all canonical artist names from src/metadata.js (which already applied dynamic heuristics).
     """
     if not os.path.exists(METADATA_JS_PATH):
-        return set()
+        return {}
 
     with open(METADATA_JS_PATH, 'r', encoding='utf-8') as f:
         content = f.read()
 
     m = re.search(r'export const playlistData = (\[.*?\]);', content, re.DOTALL)
     if not m:
-        return set()
+        return {}
 
     try:
         playlists = json.loads(m.group(1))
     except Exception as e:
         print(f"Warning: Could not parse metadata.js JSON: {e}")
-        return set()
+        return {}
 
-    atomic_artists = {} # clean_name -> canonical_display_name
+    atomic_artists = {}
 
     for playlist in playlists:
         for track in playlist.get("tracks", []):
-            artist_field = (track.get("artist") or "").strip()
-            if not artist_field:
-                continue
+            artists_list = track.get("canonical_artists") or []
+            # fallback if it's missing for some reason
+            if not artists_list and track.get("artist"):
+                artists_list = [track.get("artist")]
 
-            if is_collaboration(artist_field):
-                individual_artists = split_collaborators(artist_field)
-            else:
-                individual_artists = [artist_field]
-
-            for art in individual_artists:
-                c = clean_string(art)
+            for art in artists_list:
+                c = collab_utils.clean_string(art)
                 if c and c not in atomic_artists:
                     atomic_artists[c] = art
 
@@ -203,21 +123,15 @@ def compile_discord_map(music_dir=""):
     Ensures all top-level artist entities are individual human creators (no bundled collab strings).
     """
     atomic_artists = load_atomic_catalog_artists()
-    print(f"Discovered {len(atomic_artists)} individual atomic artist entities in catalog.")
+    print(f"Discovered {len(atomic_artists)} individual atomic artist entities from metadata.js.")
 
     search_dirs = [DATA_DIR]
     if music_dir and os.path.exists(music_dir):
         search_dirs.append(music_dir)
 
-    artist_to_handles = {} # clean_artist -> { "name": str, "handles": set(), "discord_ids": set() }
-
-    # Initialize all atomic catalog artists
-    for c_art, display_name in atomic_artists.items():
-        artist_to_handles[c_art] = {
-            "name": display_name,
-            "handles": set(),
-            "discord_ids": set()
-        }
+    # Discover and parse submission CSVs
+    scanned_files = 0
+    all_rows = []
 
 
     # Discover and parse submission CSVs
@@ -286,13 +200,34 @@ def compile_discord_map(music_dir=""):
                     except Exception as e:
                         print(f"Warning: Failed to read {fpath}: {e}")
 
+    # Calculate raw artist string frequencies across all parsed rows for dynamic splitting
+    raw_artist_counts = {}
+    for art_val, _, _, _ in all_rows:
+        c = collab_utils.clean_string(art_val)
+        if c:
+            raw_artist_counts[c] = raw_artist_counts.get(c, 0) + 1
+
+    # We no longer add artists from local submission CSVs to atomic_artists.
+    # If they were removed from the master sheet, they shouldn't be here.
+    print(f"Total atomic artists to map: {len(atomic_artists)}")
+
+    artist_to_handles = {} # clean_artist -> { "name": str, "handles": set(), "discord_ids": set() }
+    
+    # Initialize all atomic catalog artists
+    for c_art, display_name in atomic_artists.items():
+        artist_to_handles[c_art] = {
+            "name": display_name,
+            "handles": set(),
+            "discord_ids": set()
+        }
+
     # Pass 1: Build dynamic aliases from solo tracks
     dynamic_aliases = {}
     for art_val, tit_val, disc_val, disc_id_val in all_rows:
         clean_handle = normalize_discord_handle(disc_val)
-        c_handle = clean_string(clean_handle)
+        c_handle = collab_utils.clean_string(clean_handle)
         # If this is a solo track (not a collaboration), the handle belongs to this artist
-        if c_handle and not is_collaboration(art_val):
+        if c_handle and len(collab_utils.split_collaborators(art_val, raw_artist_counts)) == 1:
             if c_handle not in dynamic_aliases:
                 dynamic_aliases[c_handle] = set()
             dynamic_aliases[c_handle].add(art_val)
@@ -307,7 +242,7 @@ def compile_discord_map(music_dir=""):
 
         # Remix title protection
         is_remix_title = bool(re.search(r'\b(remix|rework|reimagining|cover|flip|edit|remake|done redid)\b', tit_val, re.IGNORECASE))
-        if is_remix_title and c_handle and c_handle != clean_string(art_val):
+        if is_remix_title and c_handle and c_handle != collab_utils.clean_string(art_val):
             remixer_candidate = None
             for c_art_key, disp_name in atomic_artists.items():
                 if c_art_key == c_handle:
@@ -318,7 +253,7 @@ def compile_discord_map(music_dir=""):
                 remixer_candidate = list(dynamic_aliases[c_handle])[0]
 
             if remixer_candidate:
-                c_remixer = clean_string(remixer_candidate)
+                c_remixer = collab_utils.clean_string(remixer_candidate)
                 if c_remixer in artist_to_handles:
                     if clean_handle:
                         artist_to_handles[c_remixer]["handles"].add(clean_handle)
@@ -327,19 +262,19 @@ def compile_discord_map(music_dir=""):
             continue
 
         # Stem provider protection during remix months
-        if clean_string(art_val) in {"theflashbulb", "simulation"}:
+        if collab_utils.clean_string(art_val) in {"theflashbulb", "simulation"}:
             if "remix" in tit_val.lower() or "edit" in tit_val.lower() or c_handle not in {"theflashbulb", "bennjordan"}:
                 continue
 
         # Split into constituent atomic artists
-        constituents = split_collaborators(art_val) if is_collaboration(art_val) else [art_val]
+        constituents = collab_utils.split_collaborators(art_val, raw_artist_counts)
 
         # Determine which constituent artist this handle belongs to
         target_artist = None
 
         # 1. Exact string match between handle and constituent
         for const in constituents:
-            if clean_string(const) == c_handle:
+            if collab_utils.clean_string(const) == c_handle:
                 target_artist = const
                 break
 
@@ -350,16 +285,15 @@ def compile_discord_map(music_dir=""):
                     target_artist = const
                     break
 
-        # 3. Default to primary submitting artist
         if not target_artist and len(constituents) > 0:
             first_const = constituents[0]
-            if clean_string(first_const) in {"theflashbulb", "simulation"} and len(constituents) > 1:
+            if collab_utils.clean_string(first_const) in {"theflashbulb", "simulation"} and len(constituents) > 1:
                 target_artist = constituents[1]
             else:
                 target_artist = first_const
 
         if target_artist:
-            c_target = clean_string(target_artist)
+            c_target = collab_utils.clean_string(target_artist)
 
             if c_target in artist_to_handles:
                 if clean_handle:
@@ -372,7 +306,7 @@ def compile_discord_map(music_dir=""):
     for c_art, data in artist_to_handles.items():
         canonical_name = data["name"]
         for handle in data["handles"]:
-            h_key = clean_string(handle)
+            h_key = collab_utils.clean_string(handle)
             if h_key:
                 if h_key not in handle_to_artists:
                     handle_to_artists[h_key] = set()
@@ -414,6 +348,23 @@ def compile_discord_map(music_dir=""):
         "artists": artists_dict,
         "handle_lookup": handle_lookup_dict
     }
+
+    overrides_path = os.path.join(DATA_DIR, "discord_map_overrides.json")
+    if os.path.exists(overrides_path):
+        try:
+            with open(overrides_path, "r", encoding="utf-8") as f:
+                overrides = json.load(f)
+                for clean_artist, data in overrides.items():
+                    if clean_artist in artists_dict:
+                        for h in data.get("handles", []):
+                            if h not in artists_dict[clean_artist]["handles"]:
+                                artists_dict[clean_artist]["handles"].append(h)
+                                handle_lookup_dict.setdefault(normalize_discord_handle(h), []).append(clean_artist)
+                        for d in data.get("discord_ids", []):
+                            if d not in artists_dict[clean_artist]["discord_ids"]:
+                                artists_dict[clean_artist]["discord_ids"].append(d)
+        except Exception as e:
+            print(f"Warning: Failed to load overrides: {e}")
 
     os.makedirs(os.path.dirname(OUTPUT_JSON_PATH), exist_ok=True)
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as out_f:
