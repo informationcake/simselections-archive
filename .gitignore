@@ -26,3 +26,5 @@ Thumbs.db
 
 # Created automatically at runtime locally from start_server.py script.
 data/dynamic_optin.json
+r2_upload_temp/
+scratch/
