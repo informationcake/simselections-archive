@@ -66,50 +66,21 @@ export function initPlayerElements() {
 export function playTrack(index) {
     if (!state.currentPlaylist || index < 0 || index >= state.currentPlaylist.tracks.length) return;
 
-    state.playingPlaylist = state.currentPlaylist;
-    state.currentTrackIndex = index;
     const track = state.currentPlaylist.tracks[index];
-
-    events.emit('TRACK_CHANGED', { track, index, playlist: state.playingPlaylist });
 
     // Check if user is in View-Only mode / not logged into Discord
     if (window.AUTH_STATE && window.AUTH_STATE.canPlayAudio === false) {
-        stopCurrentMedia();
-        updatePlayState(false);
-        playerTrackTitle.textContent = track.title;
-        playerTrackArtist.textContent = track.artist;
-        fallbackTitle.textContent = track.title;
-        fallbackArtist.textContent = track.artist;
-
-        if (track.link) {
-            playerTrackTitle.classList.add('has-link');
-            playerTrackTitle.title = "View Link (Bandcamp/Soundcloud/YouTube)";
-        } else {
-            playerTrackTitle.classList.remove('has-link');
-            playerTrackTitle.removeAttribute('title');
-        }
-
         return;
     }
 
     if (!canTrackPlay(track)) {
-        stopCurrentMedia();
-        updatePlayState(false);
-        playerTrackTitle.textContent = track.title;
-        playerTrackArtist.textContent = track.artist;
-        fallbackTitle.textContent = track.title;
-        fallbackArtist.textContent = track.artist;
-
-        if (track.link) {
-            playerTrackTitle.classList.add('has-link');
-            playerTrackTitle.title = "View Link (Bandcamp/Soundcloud/YouTube)";
-        } else {
-            playerTrackTitle.classList.remove('has-link');
-            playerTrackTitle.removeAttribute('title');
-        }
-
         return;
     }
+
+    state.playingPlaylist = state.currentPlaylist;
+    state.currentTrackIndex = index;
+
+    events.emit('TRACK_CHANGED', { track, index, playlist: state.playingPlaylist });
 
     const base = window.SIMSELECTIONS_AUDIO_BASE || '';
     const mediaUrl = base + (base && !base.endsWith('/') ? '/' : '') + track.file.split('/').map(encodeURIComponent).join('/');
