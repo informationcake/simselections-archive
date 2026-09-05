@@ -40,8 +40,7 @@ def process_audio(input_file, rel_path, out_dir):
     
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        # We can delete the keyinfo file after, it's only needed by ffmpeg
-        os.remove(keyinfo_file)
+        # Keeping keyinfo_file as per user request (no rm)
     except subprocess.CalledProcessError as e:
         print(f"Error processing audio {input_file}: {e}")
 
@@ -76,9 +75,9 @@ def process_video(input_file, rel_path, out_dir, backup_dir):
 
 def main():
     parser = argparse.ArgumentParser(description="Process media into HLS encrypted chunks and compress videos.")
-    parser.add_argument("--input-dir", default=r"C:\Users\Alex\Documents\Music\SimSelections", help="Input directory")
-    parser.add_argument("--output-dir", default=r"C:\Users\Alex\Documents\Music\SimSelections-encrypted", help="Output directory")
-    parser.add_argument("--backup-dir", default=r"C:\Users\Alex\Documents\Music\SimSelections-originals-replaced", help="Backup directory for videos")
+    parser.add_argument("--input-dir", default="/mnt/c/Users/Alex/Documents/Music/SimSelections", help="Input directory")
+    parser.add_argument("--output-dir", default="/mnt/c/Users/Alex/Documents/Music/SimSelections-encrypted", help="Output directory")
+    parser.add_argument("--backup-dir", default="/mnt/c/Users/Alex/Documents/Music/SimSelections-originals-replaced", help="Backup directory for videos")
     args = parser.parse_args()
     
     in_dir = os.path.abspath(args.input_dir)
