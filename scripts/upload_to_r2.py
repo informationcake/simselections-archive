@@ -1,3 +1,11 @@
+"""
+upload_to_r2.py
+
+This script safely deploys the processed, web-ready media from the encrypted directory 
+to the production Cloudflare R2 bucket.
+- Uses whitelist filtering to only upload tracks belonging to allowed Discord testers.
+- Fetches existing keys from R2 to prevent redundant uploads and save bandwidth.
+"""
 import os
 import boto3
 import argparse

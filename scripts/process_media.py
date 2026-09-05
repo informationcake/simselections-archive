@@ -1,3 +1,12 @@
+"""
+process_media.py
+
+This script processes original media files from the input directory into highly-optimized web delivery formats.
+- Audio tracks are chunked into 10-second AES-128 encrypted HLS segments (.ts / index.m3u8).
+- Video tracks are downscaled (max 1080p), compressed (H.264/AAC), and also chunked into AES-128 HLS segments.
+- Original files in the input directory are left completely untouched.
+- Outputs are written securely to the encrypted directory.
+"""
 import os
 import sys
 import shutil

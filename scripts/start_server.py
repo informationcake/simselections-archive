@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+start_server.py
+
+This script runs a local HTTP development server for testing the web player interface.
+It securely serves the static frontend assets while providing mock endpoints for authentication
+and Cloudflare worker features so the frontend can be tested locally without needing wrangler.
+"""
 import os
 import re
 import urllib.parse

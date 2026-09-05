@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+scanner.py
+
+This script scans the original media directory and parses the Google Sheets CSV metadata.
+It validates that tracks exist, calculates audio/video durations using ffprobe, 
+and generates the final `src/metadata.js` file used by the frontend web player.
+"""
 import os
 import re
 import csv
