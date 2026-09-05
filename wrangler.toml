@@ -12,4 +12,4 @@ bucket_name = "simselections-music"
 
 [vars]
 DISCORD_CLIENT_ID = "1543720575183360111"
-DISCORD_TESTERS = "informationcake,mcjizzle,christophersisk,anxst,vetramiga"
+DISCORD_TESTERS = "informationcake,mcjizzle,christophersisk,anxst,vetramiga,ajbergren,seansvs,andrew.tobia"
