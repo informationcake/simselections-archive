@@ -67,12 +67,12 @@ export function renderAuthHeader() {
                 <img src="${user.avatar_url || 'https://cdn.discordapp.com/embed/avatars/0.png'}" class="user-avatar" alt="Avatar">
                 <span class="user-name">${user.global_name || user.username}</span>
                 <a href="/api/auth/logout" class="btn btn-logout-small" title="Log Out">
-                    <i data-lucide="log-out"></i>
+                    <svg class="lucide lucide-log-out"><use href="#icon-log-out"></use></svg>
                 </a>
             </div>
             ${authState.linked_artists.length > 0 ? `
                 <button class="btn btn-artist-dash-sidebar" id="btn-open-artist-dash" title="Manage your tracks and playback permissions">
-                    <i data-lucide="sliders-horizontal"></i> Artist Dashboard
+                    <svg class="lucide lucide-sliders-horizontal"><use href="#icon-sliders-horizontal"></use></svg> Artist Dashboard
                 </button>
             ` : ''}
         `;
@@ -88,24 +88,22 @@ export function renderAuthHeader() {
             <div class="sidebar-viewonly-card">
                 <div class="view-only-row">
                     <div class="view-only-badge">
-                        <i data-lucide="eye"></i> View-Only Mode
+                        <svg class="lucide lucide-eye"><use href="#icon-eye"></use></svg> View-Only Mode
                     </div>
                     ${authState.authenticated ? `
                         <a href="/api/auth/logout" class="btn btn-logout-small" title="Log Out / Switch Account">
-                            <i data-lucide="log-out"></i>
+                            <svg class="lucide lucide-log-out"><use href="#icon-log-out"></use></svg>
                         </a>
                     ` : ''}
                 </div>
                 <a href="/api/auth/discord" class="btn btn-discord-sidebar" title="Login with Discord to enable audio playback">
-                    <i data-lucide="disc"></i> Login with Discord
+                    <svg class="lucide lucide-disc"><use href="#icon-disc"></use></svg> Login with Discord
                 </a>
             </div>
         `;
     }
 
-    if (window.lucide) {
-        window.lucide.createIcons();
-    }
+    
 }
 
 /**
@@ -117,7 +115,7 @@ export function openArtistDashboard() {
 
     renderArtistDashboardContent();
     modal.classList.remove('hidden');
-    if (window.lucide) window.lucide.createIcons();
+    
 }
 
 export function closeArtistDashboard() {
@@ -200,10 +198,10 @@ function renderArtistDashboardContent() {
             </div>
             <div class="dash-batch-actions">
                 <button class="btn btn-batch btn-enable-all" id="btn-enable-all-tracks">
-                    <i data-lucide="check-circle"></i> Enable All Tracks
+                    <svg class="lucide lucide-check-circle"><use href="#icon-check-circle"></use></svg> Enable All Tracks
                 </button>
                 <button class="btn btn-batch btn-disable-all" id="btn-disable-all-tracks">
-                    <i data-lucide="x-circle"></i> Disable All Tracks
+                    <svg class="lucide lucide-x-circle"><use href="#icon-x-circle"></use></svg> Disable All Tracks
                 </button>
             </div>
         </div>
@@ -211,7 +209,7 @@ function renderArtistDashboardContent() {
         <div class="dash-track-list">
             ${userTracks.length === 0 ? `
                 <div class="dash-empty-state">
-                    <i data-lucide="music"></i>
+                    <svg class="lucide lucide-music"><use href="#icon-music"></use></svg>
                     <p>No tracks currently matched to your verified artist aliases in this catalog.</p>
                 </div>
             ` : userTracks.map(item => {

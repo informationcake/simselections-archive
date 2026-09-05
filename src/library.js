@@ -63,7 +63,7 @@ export function initLibrary() {
         yearHeader.className = `year-header ${idx === 0 ? 'open' : ''}`;
         yearHeader.innerHTML = `
             <span>${year}</span>
-            <i data-lucide="chevron-right"></i>
+            <svg class="lucide lucide-chevron-right"><use href="#icon-chevron-right"></use></svg>
         `;
 
         const monthList = document.createElement('div');
@@ -74,7 +74,7 @@ export function initLibrary() {
             monthItem.className = 'month-item';
             monthItem.dataset.id = playlist.id;
             monthItem.innerHTML = `
-                <i data-lucide="music-2"></i>
+                <svg class="lucide lucide-music-2"><use href="#icon-music-2"></use></svg>
                 <span>${playlist.name.split(' ')[0]}</span>
             `;
 
@@ -285,7 +285,7 @@ export function renderTracklist(tracks) {
         tracklistBody.innerHTML = `
             <tr>
                 <td colspan="4" class="empty-state">
-                    <i data-lucide="info" class="empty-icon"></i>
+                    <svg class="lucide lucide-info empty-icon"><use href="#icon-info"></use></svg>
                     <p>No tracks found</p>
                 </td>
             </tr>
@@ -308,12 +308,12 @@ export function renderTracklist(tracks) {
             <td class="col-action">
                 ${track.link ? `
                     <a href="${track.link}" target="_blank" rel="noopener noreferrer" class="row-link-btn" title="View Link (Bandcamp/Soundcloud/YouTube)" onclick="event.stopPropagation();">
-                        <i data-lucide="external-link"></i>
+                        <svg class="lucide lucide-external-link"><use href="#icon-external-link"></use></svg>
                         <span>Link</span>
                     </a>
                 ` : ''}
                 <button class="row-play-btn">
-                    <i data-lucide="play-circle"></i>
+                    <svg class="lucide lucide-play-circle"><use href="#icon-play-circle"></use></svg>
                 </button>
             </td>
         `;

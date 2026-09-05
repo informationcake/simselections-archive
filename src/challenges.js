@@ -67,7 +67,7 @@ export function renderChallengesDashboard() {
                         </div>
                         ${playlist.streamUrl ? `
                             <a href="${playlist.streamUrl}" target="_blank" rel="noopener noreferrer" class="challenge-stream-link" title="Watch Stream" onclick="event.stopPropagation();">
-                                <i data-lucide="link-2"></i> Stream
+                                <svg class="lucide lucide-link-2"><use href="#icon-link-2"></use></svg> Stream
                             </a>
                         ` : ''}
                     </div>
@@ -79,7 +79,7 @@ export function renderChallengesDashboard() {
                         <div class="stats-challenge-line">${escapeHtml(challengeText)}</div>
                     </div>
                     <div class="stats-month-submissions">
-                        <i data-lucide="music-4"></i>
+                        <svg class="lucide lucide-music-4"><use href="#icon-music-4"></use></svg>
                         <span>${tracks.length} submissions</span>
                     </div>
                 </div>

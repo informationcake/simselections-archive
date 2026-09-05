@@ -231,7 +231,7 @@ function drawLengthsHistogram(container, playlists) {
     });
 
     if (secondsList.length === 0) {
-        container.innerHTML = `<div class="empty-state" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--text-muted);"><i data-lucide="info" style="margin-bottom:8px;width:24px;height:24px;"></i><p>No track lengths available</p></div>`;
+        container.innerHTML = `<div class="empty-state" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--text-muted);"><svg class="lucide lucide-info"><use href="#icon-info"></use></svg><p>No track lengths available</p></div>`;
         if (typeof lucide !== 'undefined') lucide.createIcons({ root: container });
         return;
     }

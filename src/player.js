@@ -269,9 +269,9 @@ export function updatePlaylistPlayButtonState() {
     const isCurrentPlaylistPlaying = state.isPlaying && state.playingPlaylist && state.currentPlaylist && state.playingPlaylist.id === state.currentPlaylist.id;
     
     if (isCurrentPlaylistPlaying) {
-        btnPlay.innerHTML = '<i data-lucide="pause"></i><span>Pause</span>';
+        btnPlay.innerHTML = '<svg class="lucide lucide-pause"><use href="#icon-pause"></use></svg><span>Pause</span>';
     } else {
-        btnPlay.innerHTML = '<i data-lucide="play"></i><span>Play</span>';
+        btnPlay.innerHTML = '<svg class="lucide lucide-play"><use href="#icon-play"></use></svg><span>Play</span>';
     }
     
     if (typeof lucide !== 'undefined') {
@@ -517,17 +517,13 @@ function setupPlayerEventListeners() {
  * @param {number} vol - The current volume level (0.0 to 1.0)
  */
 function updateVolumeIcon(vol) {
-    if (typeof lucide !== 'undefined') {
-        const currentVolIcon = document.getElementById('volume-icon');
-        if (currentVolIcon) {
-            const parent = currentVolIcon.parentNode;
-            if (parent) {
-                const newIcon = document.createElement('i');
-                newIcon.id = 'volume-icon';
-                newIcon.setAttribute('data-lucide', vol === 0 ? 'volume-x' : (vol < 0.4 ? 'volume' : (vol < 0.7 ? 'volume-1' : 'volume-2')));
-                parent.replaceChild(newIcon, currentVolIcon);
-                lucide.createIcons({ root: parent });
-            }
+    const currentVolIcon = document.getElementById('volume-icon');
+    if (currentVolIcon) {
+        const iconName = vol === 0 ? 'volume-x' : (vol < 0.4 ? 'volume' : (vol < 0.7 ? 'volume-1' : 'volume-2'));
+        const useTag = currentVolIcon.querySelector('use');
+        if (useTag) {
+            useTag.setAttribute('href', '#icon-' + iconName);
         }
+        currentVolIcon.className = 'lucide lucide-' + iconName;
     }
 }

@@ -13,8 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- Lucide Icons for premium modern look -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-
     <!-- Configuration for Production R2 Bucket Streaming -->
     <script>
         // Set this to your Cloudflare R2 bucket public URL when deploying to the cloud (e.g. Pages/Workers)
@@ -24,14 +22,153 @@
 </head>
 
 <body>
+    <!-- SVG Sprite Sheet -->
+<svg style="display: none;">
+    <defs>
+        <symbol id="icon-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="8" r="6" />
+  <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+</symbol><symbol id="icon-bar-chart-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 3v18h18" />
+  <path d="M18 17V9" />
+  <path d="M13 17V5" />
+  <path d="M8 17v-3" />
+</symbol><symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 2v4" />
+  <path d="M16 2v4" />
+  <rect width="18" height="18" x="3" y="4" rx="2" />
+  <path d="M3 10h18" />
+</symbol><symbol id="icon-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+  <path d="m9 11 3 3L22 4" />
+</symbol><symbol id="icon-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m9 18 6-6-6-6" />
+</symbol><symbol id="icon-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+</symbol><symbol id="icon-disc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="2" />
+</symbol><symbol id="icon-external-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M15 3h6v6" />
+  <path d="M10 14 21 3" />
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+</symbol><symbol id="icon-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+  <circle cx="12" cy="12" r="3" />
+</symbol><symbol id="icon-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 16v-4" />
+  <path d="M12 8h.01" />
+</symbol><symbol id="icon-library" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m16 6 4 14" />
+  <path d="M12 6v14" />
+  <path d="M8 8v12" />
+  <path d="M4 4v16" />
+</symbol><symbol id="icon-link-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 17H7A5 5 0 0 1 7 7h2" />
+  <path d="M15 7h2a5 5 0 1 1 0 10h-2" />
+  <line x1="8" x2="16" y1="12" y2="12" />
+</symbol><symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+</symbol><symbol id="icon-log-out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+  <polyline points="16 17 21 12 16 7" />
+  <line x1="21" x2="9" y1="12" y2="12" />
+</symbol><symbol id="icon-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
+  <line x1="9" x2="9" y1="3" y2="18" />
+  <line x1="15" x2="15" y1="6" y2="21" />
+</symbol><symbol id="icon-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 18V5l12-2v13" />
+  <circle cx="6" cy="18" r="3" />
+  <circle cx="18" cy="16" r="3" />
+</symbol><symbol id="icon-music-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="8" cy="18" r="4" />
+  <path d="M12 18V2l7 4" />
+</symbol><symbol id="icon-music-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 18V5l12-2v13" />
+  <path d="m9 9 12-2" />
+  <circle cx="6" cy="18" r="3" />
+  <circle cx="18" cy="16" r="3" />
+</symbol><symbol id="icon-palette" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+  <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+  <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+  <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+</symbol><symbol id="icon-pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="4" height="16" x="6" y="4" />
+  <rect width="4" height="16" x="14" y="4" />
+</symbol><symbol id="icon-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="5 3 19 12 5 21 5 3" />
+</symbol><symbol id="icon-play-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <polygon points="10 8 16 12 10 16 10 8" />
+</symbol><symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="11" cy="11" r="8" />
+  <path d="m21 21-4.3-4.3" />
+</symbol><symbol id="icon-shuffle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22" />
+  <path d="m18 2 4 4-4 4" />
+  <path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2" />
+  <path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8" />
+  <path d="m18 14 4 4-4 4" />
+</symbol><symbol id="icon-skip-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="19 20 9 12 19 4 19 20" />
+  <line x1="5" x2="5" y1="19" y2="5" />
+</symbol><symbol id="icon-skip-forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="5 4 15 12 5 20 5 4" />
+  <line x1="19" x2="19" y1="5" y2="19" />
+</symbol><symbol id="icon-sliders-horizontal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="21" x2="14" y1="4" y2="4" />
+  <line x1="10" x2="3" y1="4" y2="4" />
+  <line x1="21" x2="12" y1="12" y2="12" />
+  <line x1="8" x2="3" y1="12" y2="12" />
+  <line x1="21" x2="16" y1="20" y2="20" />
+  <line x1="12" x2="3" y1="20" y2="20" />
+  <line x1="14" x2="14" y1="2" y2="6" />
+  <line x1="8" x2="8" y1="10" y2="14" />
+  <line x1="16" x2="16" y1="18" y2="22" />
+</symbol><symbol id="icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+  <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+</symbol><symbol id="icon-volume" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+</symbol><symbol id="icon-volume-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+  <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+</symbol><symbol id="icon-volume-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+  <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+  <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+</symbol><symbol id="icon-volume-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+  <line x1="22" x2="16" y1="9" y2="15" />
+  <line x1="16" x2="22" y1="9" y2="15" />
+</symbol><symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 6 6 18" />
+  <path d="m6 6 12 12" />
+</symbol><symbol id="icon-x-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="m15 9-6 6" />
+  <path d="m9 9 6 6" />
+</symbol><symbol id="icon-youtube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+  <path d="m10 15 5-3-5-3z" />
+</symbol>
+    </defs>
+</svg>
+
     <!-- Password & Authentication Overlay -->
     <div id="password-overlay" class="password-overlay">
         <div class="password-card">
-            <i data-lucide="lock" class="lock-icon"></i>
+            <svg class="lucide lucide-lock lock-icon"><use href="#icon-lock"></use></svg>
             <h2>SimSelections Archive</h2>
 
             <a href="/api/auth/discord" class="btn btn-discord-large" id="btn-discord-primary">
-                <i data-lucide="disc"></i> Login with Discord (Enables playback & opt-in features for artists)
+                <svg class="lucide lucide-disc"><use href="#icon-disc"></use></svg> Login with Discord (Enables playback & opt-in features for artists)
             </a>
 
             <div class="auth-divider">
@@ -52,11 +189,11 @@
         <aside class="sidebar">
             <div class="sidebar-header">
                 <div class="logo">
-                    <i data-lucide="music" class="logo-icon animate-pulse"></i>
+                    <svg class="lucide lucide-music logo-icon animate-pulse"><use href="#icon-music"></use></svg>
                     <span>SimSelections</span>
                 </div>
                 <button class="theme-toggle-btn" id="theme-toggle" title="Switch Color Theme">
-                    <i data-lucide="palette"></i>
+                    <svg class="lucide lucide-palette"><use href="#icon-palette"></use></svg>
                 </button>
             </div>
 
@@ -66,29 +203,29 @@
             <div class="sidebar-nav">
                 <div class="view-toggles">
                     <button class="nav-tab active" id="tab-playlist-view">
-                        <i data-lucide="library"></i> Playlists
+                        <svg class="lucide lucide-library"><use href="#icon-library"></use></svg> Playlists
                     </button>
                     <button class="nav-tab" id="tab-challenges-view">
-                        <i data-lucide="award"></i> Challenges
+                        <svg class="lucide lucide-award"><use href="#icon-award"></use></svg> Challenges
                     </button>
                     <button class="nav-tab" id="tab-clustermap-view">
-                        <i data-lucide="map"></i> Cluster Map
+                        <svg class="lucide lucide-map"><use href="#icon-map"></use></svg> Cluster Map
                     </button>
                     <button class="nav-tab" id="tab-stats-view">
-                        <i data-lucide="bar-chart-3"></i> Statistics
+                        <svg class="lucide lucide-bar-chart-3"><use href="#icon-bar-chart-3"></use></svg> Statistics
                     </button>
                 </div>
 
                 <div class="search-box">
-                    <i data-lucide="search" class="search-icon"></i>
+                    <svg class="lucide lucide-search search-icon"><use href="#icon-search"></use></svg>
                     <input type="text" id="search-input" placeholder="Search songs or artists...">
                     <button id="clear-search" class="hidden">
-                        <i data-lucide="x"></i>
+                        <svg class="lucide lucide-x"><use href="#icon-x"></use></svg>
                     </button>
                 </div>
 
                 <button class="btn btn-shuffle-all" id="btn-shuffle-all">
-                    <i data-lucide="shuffle"></i> Shuffle All
+                    <svg class="lucide lucide-shuffle"><use href="#icon-shuffle"></use></svg> Shuffle All
                 </button>
                 <div class="nav-section-title">Library</div>
                 <div id="library-tree" class="library-tree">
@@ -109,20 +246,20 @@
             <!-- Playlist Metadata Dashboard Card -->
             <div id="playlist-metadata-card" class="metadata-card hidden">
                 <div class="metadata-item">
-                    <span class="meta-label"><i data-lucide="compass"></i> Theme</span>
+                    <span class="meta-label"><svg class="lucide lucide-compass"><use href="#icon-compass"></use></svg> Theme</span>
                     <span class="meta-val" id="meta-theme">-</span>
                 </div>
                 <div class="metadata-item">
-                    <span class="meta-label"><i data-lucide="tag"></i> Keywords</span>
+                    <span class="meta-label"><svg class="lucide lucide-tag"><use href="#icon-tag"></use></svg> Keywords</span>
                     <span class="meta-val" id="meta-keywords">-</span>
                 </div>
                 <div class="metadata-item challenge-item">
-                    <span class="meta-label"><i data-lucide="award"></i> Optional Challenge</span>
+                    <span class="meta-label"><svg class="lucide lucide-award"><use href="#icon-award"></use></svg> Optional Challenge</span>
                     <span class="meta-val" id="meta-challenge">-</span>
                 </div>
                 <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-stream metadata-stream-link hidden"
                     id="stream-link-btn">
-                    <i data-lucide="youtube"></i> Watch Stream
+                    <svg class="lucide lucide-youtube"><use href="#icon-youtube"></use></svg> Watch Stream
                 </a>
             </div>
 
@@ -132,7 +269,7 @@
                 <section class="panel tracklist-panel">
                     <div class="panel-header">
                         <button class="btn-playlist-play" id="btn-playlist-play" title="Play Playlist">
-                            <i data-lucide="play"></i>
+                            <svg class="lucide lucide-play"><use href="#icon-play"></use></svg>
                             <span>Play</span>
                         </button>
                         <span class="count-badge" id="track-count">0 songs</span>
@@ -150,7 +287,7 @@
                             <tbody id="tracklist-body">
                                 <tr>
                                     <td colspan="4" class="empty-state">
-                                        <i data-lucide="music-4" class="empty-icon"></i>
+                                        <svg class="lucide lucide-music-4 empty-icon"><use href="#icon-music-4"></use></svg>
                                         <p>Choose a playlist or search to list tracks</p>
                                     </td>
                                 </tr>
@@ -200,17 +337,17 @@
                     <div class="stats-card-header challenges-card-header">
                         <div class="stats-metric-grid">
                             <div class="stat-metric">
-                                <i data-lucide="calendar"></i>
+                                <svg class="lucide lucide-calendar"><use href="#icon-calendar"></use></svg>
                                 <span class="stat-label">Months</span>
                                 <strong id="challenges-month-count">0</strong>
                             </div>
                             <div class="stat-metric">
-                                <i data-lucide="music-4"></i>
+                                <svg class="lucide lucide-music-4"><use href="#icon-music-4"></use></svg>
                                 <span class="stat-label">Submissions</span>
                                 <strong id="challenges-submission-count">0</strong>
                             </div>
                             <div class="stat-metric">
-                                <i data-lucide="link-2"></i>
+                                <svg class="lucide lucide-link-2"><use href="#icon-link-2"></use></svg>
                                 <span class="stat-label">Linked Tracks</span>
                                 <strong id="challenges-linked-count">0</strong>
                             </div>
@@ -226,17 +363,17 @@
                     <h2>Statistics</h2>
                     <div class="stats-metric-grid">
                         <div class="stat-metric">
-                            <i data-lucide="calendar"></i>
+                            <svg class="lucide lucide-calendar"><use href="#icon-calendar"></use></svg>
                             <span class="stat-label">Months</span>
                             <strong id="stats-month-count">0</strong>
                         </div>
                         <div class="stat-metric">
-                            <i data-lucide="music-4"></i>
+                            <svg class="lucide lucide-music-4"><use href="#icon-music-4"></use></svg>
                             <span class="stat-label">Submissions</span>
                             <strong id="stats-submission-count">0</strong>
                         </div>
                         <div class="stat-metric">
-                            <i data-lucide="link-2"></i>
+                            <svg class="lucide lucide-link-2"><use href="#icon-link-2"></use></svg>
                             <span class="stat-label">Linked Tracks</span>
                             <strong id="stats-linked-count">0</strong>
                         </div>
@@ -322,7 +459,7 @@
             <!-- Left Column: Made By Info -->
             <div class="player-bar-left">
                 <div class="footer-credit" id="btn-more-info">
-                    <i data-lucide="info"></i>
+                    <svg class="lucide lucide-info"><use href="#icon-info"></use></svg>
                     <span>more information</span>
                 </div>
             </div>
@@ -338,14 +475,14 @@
                 <!-- Controls -->
                 <div class="control-buttons">
                     <button class="ctrl-btn" id="btn-prev" title="Previous">
-                        <i data-lucide="skip-back"></i>
+                        <svg class="lucide lucide-skip-back"><use href="#icon-skip-back"></use></svg>
                     </button>
                     <button class="ctrl-btn ctrl-btn-main" id="btn-play-pause" title="Play">
-                        <i data-lucide="play" class="play-icon"></i>
-                        <i data-lucide="pause" class="pause-icon hidden"></i>
+                        <svg class="lucide lucide-play play-icon"><use href="#icon-play"></use></svg>
+                        <svg class="lucide lucide-pause pause-icon hidden"><use href="#icon-pause"></use></svg>
                     </button>
                     <button class="ctrl-btn" id="btn-next" title="Next">
-                        <i data-lucide="skip-forward"></i>
+                        <svg class="lucide lucide-skip-forward"><use href="#icon-skip-forward"></use></svg>
                     </button>
                 </div>
 
@@ -366,7 +503,7 @@
             <div class="player-bar-right">
                 <div class="player-settings">
                     <button class="ctrl-btn" id="btn-mute" title="Mute">
-                        <i data-lucide="volume-2" id="volume-icon"></i>
+                        <svg class="lucide lucide-volume-2" id="volume-icon"><use href="#icon-volume-2"></use></svg>
                     </button>
                     <div class="volume-slider" id="volume-slider-wrapper">
                         <div class="volume-track">
@@ -402,7 +539,6 @@
 
     <!-- External Libraries -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
     <script type="module" src="src/main.js"></script>
 </body>
 
