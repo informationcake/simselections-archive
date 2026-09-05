@@ -136,8 +136,8 @@ def upload_directory(local_dir, bucket_name, whitelist_only=False):
     print(f"\nUpload complete! Uploaded {upload_count} files, skipped {skip_count} existing files.")
 
 def main():
-    parser = argparse.ArgumentParser(description="Upload encrypted media to Cloudflare R2")
-    parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Directory containing the encrypted files")
+    parser = argparse.ArgumentParser(description="Upload processed web-ready media (HLS audio chunks & MP4 videos) to Cloudflare R2")
+    parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Directory containing the processed delivery files")
     parser.add_argument("--whitelist-only", action="store_true", help="Only upload tracks belonging to whitelisted tester artists")
     args = parser.parse_args()
     

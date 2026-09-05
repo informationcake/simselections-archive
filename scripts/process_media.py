@@ -9,7 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def process_audio(input_file, rel_path, out_dir):
-    """Encrypts audio using AES-128 HLS."""
+    """Encrypts audio using AES-128 HLS.
+    Original file remains entirely unmodified in the input directory.
+    Output is written to the output directory as chunked .ts and .m3u8 files."""
     # Output is a folder named after the track (without extension)
     base_name = os.path.splitext(os.path.basename(input_file))[0]
     track_out_dir = os.path.join(out_dir, os.path.dirname(rel_path), base_name)
@@ -48,7 +50,9 @@ def process_audio(input_file, rel_path, out_dir):
         print(f"Error processing audio {input_file}: {e}")
 
 def process_video(input_file, rel_path, out_dir):
-    """Compresses video into the output directory."""
+    """Compresses video into an optimized web-ready mp4.
+    Original video file remains entirely unmodified in the input directory.
+    Output is written to the output directory."""
     out_file = os.path.join(out_dir, rel_path)
     # Ensure it's an mp4 output
     out_file = os.path.splitext(out_file)[0] + ".mp4"
@@ -71,7 +75,7 @@ def process_video(input_file, rel_path, out_dir):
         print(f"Error compressing video {input_file}: {e}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Process media into HLS encrypted chunks and compress videos.")
+    parser = argparse.ArgumentParser(description="Process media into web-ready formats. Encrypts audio into HLS chunks and compresses video to MP4. Original files are left completely untouched.")
     parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_INPUT_DIR"), help="Input directory")
     parser.add_argument("--output-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Output directory")
     args = parser.parse_args()
