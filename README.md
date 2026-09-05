@@ -12,10 +12,13 @@ A custom archive for the **SimSelections** community song writing challenges in 
 │   └── metadata_YYYY.csv               # Downloaded metadata per year
 ├── scripts/
 │   ├── auth.py                         # Discord OAuth, JWT sessions, allowlist & guild check
+│   ├── collab_utils.py                 # Utilities for parsing multi-artist collaboration strings
 │   ├── compile_discord_map.py          # Discord identity map compiler
 │   ├── download_sheets.py              # Google Sheets tab downloader
+│   ├── process_media.py                # Media encoder (AES-128 HLS chunking & video compression)
 │   ├── scanner.py                      # Library scanner & catalog compiler
-│   └── start_server.py                 # Local HTTP server with Range Request & API support
+│   ├── start_server.py                 # Local HTTP server with Range Request & API support
+│   └── upload_to_r2.py                 # Production deployment script for uploading to Cloudflare R2
 ├── src/
 │   ├── css/
 │   │   ├── base.css                    # Reset, body, app grid, scrollbars
