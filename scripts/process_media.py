@@ -40,7 +40,7 @@ def process_audio(input_file, rel_path, out_dir):
     
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        # Keeping keyinfo_file as per user request (no rm)
+        os.remove(keyinfo_file)
     except subprocess.CalledProcessError as e:
         print(f"Error processing audio {input_file}: {e}")
 
