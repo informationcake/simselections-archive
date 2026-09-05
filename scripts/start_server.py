@@ -400,7 +400,7 @@ class RangeHTTPRequestHandler(BaseHTTPRequestHandler):
                 # Resolve Content-Type
                 _, ext = os.path.splitext(local_path)
                 ext = ext.lower()
-                is_audio = ext in {".mp3", ".mp4", ".webm", ".ogg", ".mov", ".wav", ".flac", ".m4a"}
+                is_audio = ext in {".mp3", ".mp4", ".webm", ".ogg", ".mov", ".wav", ".flac", ".m4a", ".ts", ".m3u8", ".key"}
 
                 # ─── Enforcement: Audio Playback Gating ───
                 if is_audio and is_year_folder:
@@ -415,7 +415,19 @@ class RangeHTTPRequestHandler(BaseHTTPRequestHandler):
 
                     # 2. Check Dynamic Opt-In Status (Default Opt-Out)
                     dynamic_map = load_dynamic_optins()
-                    if not dynamic_map.get(rel_path, False):
+                    
+                    # For HLS chunks (e.g. 2024/.../song/index.m3u8), we need to check the original track file path
+                    # which is usually 2024/.../song.mp3 (as stored in metadata.js and dynamic_optins.json)
+                    # We'll just check if ANY key in dynamic_optins.json matches the directory prefix.
+                    rel_dir = os.path.dirname(rel_path)
+                    
+                    is_opted_in = False
+                    for opt_key, opt_val in dynamic_map.items():
+                        if opt_val and rel_dir.startswith(os.path.splitext(opt_key)[0]):
+                            is_opted_in = True
+                            break
+                            
+                    if not is_opted_in:
                         self.send_json(403, {
                             "error": "track_opted_out",
                             "message": "Playback for this track has not been enabled by the artist."

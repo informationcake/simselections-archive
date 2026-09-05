@@ -435,15 +435,26 @@ export default {
 
             // 2. Enforce Dynamic Opt-In Security Check (Default Opt-Out)
             const dynamicMap = await loadDynamicOptins(env);
-            const optData = dynamicMap[path];
+            
+            // For HLS chunks (e.g. 2024/.../song/index.m3u8), we need to check the original track file path
+            // which is usually 2024/.../song.mp3 (as stored in metadata.js and dynamic_optins.json)
+            // We'll just check if ANY key in dynamic_optins.json matches the directory prefix.
+            const pathParts = path.split('/');
+            const relDir = pathParts.slice(0, -1).join('/');
             
             let isOptedIn = false;
-            if (optData !== undefined) {
-                if (typeof optData === 'object' && optData !== null) {
-                    isOptedIn = Boolean(optData.isPlayable);
-                } else {
-                    // Legacy boolean state
-                    isOptedIn = Boolean(optData);
+            for (const [optKey, optData] of Object.entries(dynamicMap)) {
+                // Remove extension from optKey to get base directory
+                const lastDot = optKey.lastIndexOf('.');
+                const baseOptDir = lastDot !== -1 ? optKey.substring(0, lastDot) : optKey;
+                
+                if (relDir === baseOptDir || path === optKey) {
+                    if (typeof optData === 'object' && optData !== null) {
+                        isOptedIn = Boolean(optData.isPlayable);
+                    } else {
+                        isOptedIn = Boolean(optData);
+                    }
+                    if (isOptedIn) break;
                 }
             }
 
