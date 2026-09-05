@@ -137,10 +137,14 @@ def upload_directory(local_dir, bucket_name, whitelist_only=False):
 
 def main():
     parser = argparse.ArgumentParser(description="Upload encrypted media to Cloudflare R2")
-    parser.add_argument("--input-dir", default=r"C:\Users\Alex\Documents\Music\SimSelections-encrypted", help="Directory containing the encrypted files")
+    parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Directory containing the encrypted files")
     parser.add_argument("--whitelist-only", action="store_true", help="Only upload tracks belonging to whitelisted tester artists")
     args = parser.parse_args()
     
+    if not args.input_dir:
+        print("Error: Missing input directory. Set SIMSELECTIONS_ENCRYPTED_DIR in .env or pass --input-dir.")
+        exit(1)
+
     if not os.path.exists(args.input_dir):
         print(f"Error: Directory not found: {args.input_dir}")
         exit(1)

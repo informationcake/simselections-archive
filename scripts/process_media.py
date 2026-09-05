@@ -4,6 +4,9 @@ import shutil
 import subprocess
 import argparse
 import secrets
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def process_audio(input_file, rel_path, out_dir):
     """Encrypts audio using AES-128 HLS."""
@@ -75,10 +78,14 @@ def process_video(input_file, rel_path, out_dir, backup_dir):
 
 def main():
     parser = argparse.ArgumentParser(description="Process media into HLS encrypted chunks and compress videos.")
-    parser.add_argument("--input-dir", default="/mnt/c/Users/Alex/Documents/Music/SimSelections", help="Input directory")
-    parser.add_argument("--output-dir", default="/mnt/c/Users/Alex/Documents/Music/SimSelections-encrypted", help="Output directory")
-    parser.add_argument("--backup-dir", default="/mnt/c/Users/Alex/Documents/Music/SimSelections-originals-replaced", help="Backup directory for videos")
+    parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_INPUT_DIR"), help="Input directory")
+    parser.add_argument("--output-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Output directory")
+    parser.add_argument("--backup-dir", default=os.getenv("SIMSELECTIONS_BACKUP_DIR"), help="Backup directory for videos")
     args = parser.parse_args()
+    
+    if not args.input_dir or not args.output_dir or not args.backup_dir:
+        print("Error: Missing directory paths. Set them in .env (SIMSELECTIONS_INPUT_DIR, SIMSELECTIONS_ENCRYPTED_DIR, SIMSELECTIONS_BACKUP_DIR) or pass them as arguments.")
+        sys.exit(1)
     
     in_dir = os.path.abspath(args.input_dir)
     out_dir = os.path.abspath(args.output_dir)
