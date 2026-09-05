@@ -65,3 +65,11 @@ body::before {
 .hidden {
     display: none !important;
 }
+
+/* Lucide Icon Defaults */
+svg.lucide {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
