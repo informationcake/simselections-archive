@@ -47,8 +47,8 @@ def process_audio(input_file, rel_path, out_dir):
     except subprocess.CalledProcessError as e:
         print(f"Error processing audio {input_file}: {e}")
 
-def process_video(input_file, rel_path, out_dir, backup_dir):
-    """Compresses video and moves original to backup dir."""
+def process_video(input_file, rel_path, out_dir):
+    """Compresses video into the output directory."""
     out_file = os.path.join(out_dir, rel_path)
     # Ensure it's an mp4 output
     out_file = os.path.splitext(out_file)[0] + ".mp4"
@@ -67,12 +67,6 @@ def process_video(input_file, rel_path, out_dir, backup_dir):
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
-        # Copy original to backup instead of moving it
-        backup_file = os.path.join(backup_dir, rel_path)
-        os.makedirs(os.path.dirname(backup_file), exist_ok=True)
-        shutil.copy2(input_file, backup_file)
-        print(f"  -> Original video copied to {backup_file}")
-        
     except subprocess.CalledProcessError as e:
         print(f"Error compressing video {input_file}: {e}")
 
@@ -80,16 +74,14 @@ def main():
     parser = argparse.ArgumentParser(description="Process media into HLS encrypted chunks and compress videos.")
     parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_INPUT_DIR"), help="Input directory")
     parser.add_argument("--output-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Output directory")
-    parser.add_argument("--backup-dir", default=os.getenv("SIMSELECTIONS_BACKUP_DIR"), help="Backup directory for videos")
     args = parser.parse_args()
     
-    if not args.input_dir or not args.output_dir or not args.backup_dir:
-        print("Error: Missing directory paths. Set them in .env (SIMSELECTIONS_INPUT_DIR, SIMSELECTIONS_ENCRYPTED_DIR, SIMSELECTIONS_BACKUP_DIR) or pass them as arguments.")
+    if not args.input_dir or not args.output_dir:
+        print("Error: Missing directory paths. Set them in .env (SIMSELECTIONS_INPUT_DIR, SIMSELECTIONS_ENCRYPTED_DIR) or pass them as arguments.")
         sys.exit(1)
     
     in_dir = os.path.abspath(args.input_dir)
     out_dir = os.path.abspath(args.output_dir)
-    backup_dir = os.path.abspath(args.backup_dir)
     
     if not os.path.exists(in_dir):
         print(f"Error: Input directory {in_dir} does not exist.")
@@ -113,7 +105,7 @@ def main():
                 process_audio(input_file, rel_path, out_dir)
                 count_audio += 1
             elif ext in video_exts:
-                process_video(input_file, rel_path, out_dir, backup_dir)
+                process_video(input_file, rel_path, out_dir)
                 count_video += 1
                 
     print(f"\nProcessing complete!")
