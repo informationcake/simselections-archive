@@ -326,8 +326,33 @@ export default {
             for (const it of items) {
                 const trackKey = it.trackKey || it.file;
                 const optIn = Boolean(it.optIn);
-                if (trackKey) {
-                    dynamicMap[trackKey] = optIn;
+                const actingArtists = it.actingArtists || [];
+                const requiredArtists = it.requiredArtists || [];
+
+                if (trackKey && actingArtists.length > 0) {
+                    // Legacy boolean migration
+                    if (typeof dynamicMap[trackKey] === 'boolean' || dynamicMap[trackKey] === undefined) {
+                        dynamicMap[trackKey] = {
+                            optInBy: dynamicMap[trackKey] === true ? [...requiredArtists] : [],
+                            required: requiredArtists
+                        };
+                    }
+                    
+                    const obj = dynamicMap[trackKey];
+                    // Ensure structure exists
+                    if (!obj.optInBy) obj.optInBy = [];
+                    if (!obj.required || obj.required.length === 0) obj.required = requiredArtists;
+                    
+                    actingArtists.forEach(acting => {
+                        if (optIn) {
+                            if (!obj.optInBy.includes(acting)) obj.optInBy.push(acting);
+                        } else {
+                            obj.optInBy = obj.optInBy.filter(a => a !== acting);
+                        }
+                    });
+                    
+                    // Recompute playability
+                    obj.isPlayable = obj.required.length > 0 && obj.required.every(req => obj.optInBy.includes(req));
                 }
             }
 
@@ -346,10 +371,34 @@ export default {
             const trackKey = body.trackKey || body.file;
             const artist = body.artist;
             const optIn = Boolean(body.optIn);
+            const actingArtists = body.actingArtists || [];
+            const requiredArtists = body.requiredArtists || [];
 
             const dynamicMap = await loadDynamicOptins(env);
-            if (trackKey) {
-                dynamicMap[trackKey] = optIn;
+            if (trackKey && actingArtists.length > 0) {
+                // Legacy boolean migration
+                if (typeof dynamicMap[trackKey] === 'boolean' || dynamicMap[trackKey] === undefined) {
+                    dynamicMap[trackKey] = {
+                        optInBy: dynamicMap[trackKey] === true ? [...requiredArtists] : [],
+                        required: requiredArtists
+                    };
+                }
+                
+                const obj = dynamicMap[trackKey];
+                // Ensure structure exists
+                if (!obj.optInBy) obj.optInBy = [];
+                if (!obj.required || obj.required.length === 0) obj.required = requiredArtists;
+                
+                actingArtists.forEach(acting => {
+                    if (optIn) {
+                        if (!obj.optInBy.includes(acting)) obj.optInBy.push(acting);
+                    } else {
+                        obj.optInBy = obj.optInBy.filter(a => a !== acting);
+                    }
+                });
+                
+                // Recompute playability
+                obj.isPlayable = obj.required.length > 0 && obj.required.every(req => obj.optInBy.includes(req));
             }
 
             await saveDynamicOptins(env, dynamicMap);
@@ -386,12 +435,22 @@ export default {
 
             // 2. Enforce Dynamic Opt-In Security Check (Default Opt-Out)
             const dynamicMap = await loadDynamicOptins(env);
-            const isOptedIn = Boolean(dynamicMap[path]);
+            const optData = dynamicMap[path];
+            
+            let isOptedIn = false;
+            if (optData !== undefined) {
+                if (typeof optData === 'object' && optData !== null) {
+                    isOptedIn = Boolean(optData.isPlayable);
+                } else {
+                    // Legacy boolean state
+                    isOptedIn = Boolean(optData);
+                }
+            }
 
             if (!isOptedIn) {
                 return new Response(JSON.stringify({
                     error: "track_opted_out",
-                    message: "Forbidden: This track is not opted in for playback."
+                    message: "Forbidden: All collaborators must opt-in for this track to be playable."
                 }), { 
                     status: 403,
                     headers: { 'Content-Type': 'application/json' }

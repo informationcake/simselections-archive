@@ -1,6 +1,6 @@
 // ─── Discord Auth & Artist Dashboard Module ──────────────────────────────────
 import { playlistData } from './metadata.js';
-import { canTrackPlay, updateLocalOptIn } from './optin.js';
+import { canTrackPlay, hasUserOptedIn, updateLocalOptIn } from './optin.js';
 
 export let authState = {
     authenticated: false,
@@ -141,10 +141,13 @@ function getUserTracks() {
 
             // Check if user is linked to any of the dynamically split canonical artists
             let isMatch = false;
+            let matchedArtists = [];
             if (track.canonical_artists && Array.isArray(track.canonical_artists)) {
                 isMatch = track.canonical_artists.some(p => p && linkedSet.has(p));
+                matchedArtists = track.canonical_artists.filter(p => p && linkedSet.has(p));
             } else {
                 isMatch = linkedSet.has(cleanArt);
+                if (isMatch) matchedArtists.push(cleanArt);
             }
 
             if (isMatch) {
@@ -153,7 +156,8 @@ function getUserTracks() {
                     playlistTitle: playlist.title,
                     year: playlist.year,
                     month: playlist.month,
-                    track: track
+                    track: track,
+                    matchedArtists: matchedArtists
                 });
             }
         });
@@ -213,7 +217,9 @@ function renderArtistDashboardContent() {
             ` : userTracks.map(item => {
                 const tr = item.track;
                 const hasFile = Boolean(tr.file);
-                const isOptedIn = canTrackPlay(tr);
+                const isFullyPlayable = canTrackPlay(tr);
+                const userOptedIn = hasUserOptedIn(tr, item.matchedArtists);
+                const reqArtists = tr.canonical_artists || [tr.artist.toLowerCase().replace(/[^a-z0-9]/g, '')];
                 
                 return `
                     <div class="dash-track-row" data-file="${tr.file || ''}" data-artist="${tr.artist}">
@@ -226,11 +232,11 @@ function renderArtistDashboardContent() {
                         </div>
                         <div class="dash-track-toggle-wrapper">
                             ${hasFile ? `
-                                <label class="switch-toggle" title="Toggle Public Audio Playback for this submission">
-                                    <input type="checkbox" class="optin-toggle" ${isOptedIn ? 'checked' : ''} data-file="${tr.file || ''}" data-artist="${tr.artist}">
+                                <label class="switch-toggle" title="Toggle your personal consent for playback">
+                                    <input type="checkbox" class="optin-toggle" ${userOptedIn ? 'checked' : ''} data-file="${tr.file || ''}" data-artist="${tr.artist}" data-matched='${JSON.stringify(item.matchedArtists)}' data-required='${JSON.stringify(reqArtists)}'>
                                     <span class="slider-round"></span>
                                 </label>
-                                <span class="status-label ${isOptedIn ? 'status-on' : 'status-off'}">${isOptedIn ? 'Playback ON' : 'Playback OFF'}</span>
+                                <span class="status-label ${isFullyPlayable ? 'status-on' : (userOptedIn ? 'status-pending' : 'status-off')}">${isFullyPlayable ? 'Playback ON' : (userOptedIn ? 'Waiting on Collab' : 'Playback OFF')}</span>
                             ` : `
                                 <div class="dash-no-file-badge">
                                     <span>No File Available</span>
@@ -250,20 +256,20 @@ function renderArtistDashboardContent() {
     const enableAllBtn = content.querySelector('#btn-enable-all-tracks');
     if (enableAllBtn) {
         enableAllBtn.addEventListener('click', async () => {
-            // Instantly update DOM checkboxes and labels for immediate visual feedback
+            // Instantly update DOM checkboxes
             content.querySelectorAll('.optin-toggle').forEach(input => {
                 input.checked = true;
                 const row = input.closest('.dash-track-row');
                 const label = row.querySelector('.status-label');
                 if (label) {
-                    label.textContent = 'Playback ON';
-                    label.className = 'status-label status-on';
+                    label.textContent = 'Saving...';
                 }
             });
 
             const success = await toggleAllUserTracks(userTracks, true);
             if (success) {
-                showToast('All your tracks have been enabled for public playback!', 'success');
+                showToast('All your tracks have been updated!', 'success');
+                renderArtistDashboardContent();
             } else {
                 showToast('Failed to sync changes to the server. Please try logging in again.', 'error');
             }
@@ -273,20 +279,20 @@ function renderArtistDashboardContent() {
     const disableAllBtn = content.querySelector('#btn-disable-all-tracks');
     if (disableAllBtn) {
         disableAllBtn.addEventListener('click', async () => {
-            // Instantly update DOM checkboxes and labels for immediate visual feedback
+            // Instantly update DOM checkboxes
             content.querySelectorAll('.optin-toggle').forEach(input => {
                 input.checked = false;
                 const row = input.closest('.dash-track-row');
                 const label = row.querySelector('.status-label');
                 if (label) {
-                    label.textContent = 'Playback OFF';
-                    label.className = 'status-label status-off';
+                    label.textContent = 'Saving...';
                 }
             });
 
             const success = await toggleAllUserTracks(userTracks, false);
             if (success) {
                 showToast('All your tracks have been disabled for public playback.', 'info');
+                renderArtistDashboardContent();
             } else {
                 showToast('Failed to sync changes to the server. Please try logging in again.', 'error');
             }
@@ -297,18 +303,22 @@ function renderArtistDashboardContent() {
         input.addEventListener('change', async (e) => {
             const file = e.target.getAttribute('data-file');
             const artist = e.target.getAttribute('data-artist');
+            const matched = JSON.parse(e.target.getAttribute('data-matched') || '[]');
+            const required = JSON.parse(e.target.getAttribute('data-required') || '[]');
             const isChecked = e.target.checked;
             const row = e.target.closest('.dash-track-row');
             const label = row.querySelector('.status-label');
 
             if (label) {
-                label.textContent = isChecked ? 'Playback ON' : 'Playback OFF';
-                label.className = `status-label ${isChecked ? 'status-on' : 'status-off'}`;
+                label.textContent = 'Saving...';
             }
 
-            const success = await toggleTrackOptIn(file, artist, isChecked);
+            const success = await toggleTrackOptIn(file, artist, isChecked, matched, required);
             if (success) {
                 showToast(`Updated playback for "${row.querySelector('.dash-track-name').textContent}"`, 'success');
+                renderArtistDashboardContent();
+            } else {
+                e.target.checked = !isChecked;
             }
         });
     });
@@ -320,18 +330,16 @@ function renderArtistDashboardContent() {
 async function toggleAllUserTracks(userTracks, optIn) {
     const items = userTracks
         .filter(item => item.track && item.track.file)
-        .map(item => ({
-            trackKey: item.track.file,
-            artist: item.track.artist,
-            optIn: optIn
-        }));
-
-    // Update in-memory opt-in state immediately
-    items.forEach(it => {
-        if (it.trackKey) {
-            updateLocalOptIn(it.trackKey, it.optIn);
-        }
-    });
+        .map(item => {
+            const reqArtists = item.track.canonical_artists || [item.track.artist.toLowerCase().replace(/[^a-z0-9]/g, '')];
+            return {
+                trackKey: item.track.file,
+                artist: item.track.artist,
+                optIn: optIn,
+                actingArtists: item.matchedArtists,
+                requiredArtists: reqArtists
+            };
+        });
 
     try {
         const resp = await fetch('/api/optin/batch', {
@@ -339,6 +347,7 @@ async function toggleAllUserTracks(userTracks, optIn) {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ items })
         });
+        if (window.loadOptInList) await window.loadOptInList();
         return resp.ok;
     } catch (e) {
         console.error('Failed to batch update opt-in state:', e);
@@ -349,15 +358,20 @@ async function toggleAllUserTracks(userTracks, optIn) {
 /**
  * Calls server API to update track opt-in preference.
  */
-async function toggleTrackOptIn(trackFile, artist, optIn) {
-    updateLocalOptIn(trackFile, optIn);
-
+async function toggleTrackOptIn(trackFile, artist, optIn, matchedArtists, requiredArtists) {
     try {
         const resp = await fetch('/api/optin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ trackKey: trackFile, artist, optIn })
+            body: JSON.stringify({ 
+                trackKey: trackFile, 
+                artist, 
+                optIn,
+                actingArtists: matchedArtists,
+                requiredArtists: requiredArtists
+            })
         });
+        if (window.loadOptInList) await window.loadOptInList();
         return resp.ok;
     } catch (e) {
         console.error('Failed to update opt-in state on server:', e);
