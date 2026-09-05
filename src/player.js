@@ -450,7 +450,10 @@ function setupPlayerEventListeners() {
     });
 
     // Seek Drag
-    progressSliderWrapper.addEventListener('mousedown', () => { isDraggingSeek = true; });
+    progressSliderWrapper.addEventListener('mousedown', (e) => { 
+        e.preventDefault();
+        isDraggingSeek = true; 
+    });
     document.addEventListener('mousemove', (e) => {
         const activeMedia = state.currentMediaType === 'video' ? video : audio;
         if (!isDraggingSeek || !activeMedia || !activeMedia.duration) return;
@@ -487,7 +490,10 @@ function setupPlayerEventListeners() {
     }
 
     volumeSliderWrapper.addEventListener('click', setVolumeFromEvent);
-    volumeSliderWrapper.addEventListener('mousedown', () => { isDraggingVolume = true; });
+    volumeSliderWrapper.addEventListener('mousedown', (e) => { 
+        e.preventDefault();
+        isDraggingVolume = true; 
+    });
     document.addEventListener('mousemove', (e) => {
         if (isDraggingVolume) setVolumeFromEvent(e);
     });
