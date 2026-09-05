@@ -471,7 +471,7 @@ export default {
             object.writeHttpMetadata(headers);
             headers.set("Accept-Ranges", "bytes");
             headers.set("Access-Control-Allow-Origin", "*");
-            headers.set("Cache-Control", "public, max-age=2592000"); // Cache at edge for 30 days
+            headers.set("Cache-Control", "public, max-age=604800"); // Cache at edge for 1 week
             
             return new Response(object.body, {
                 headers,
