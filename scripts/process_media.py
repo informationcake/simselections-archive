@@ -64,11 +64,11 @@ def process_video(input_file, rel_path, out_dir, backup_dir):
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
-        # Move original to backup
+        # Copy original to backup instead of moving it
         backup_file = os.path.join(backup_dir, rel_path)
         os.makedirs(os.path.dirname(backup_file), exist_ok=True)
-        shutil.move(input_file, backup_file)
-        print(f"  -> Original video moved to {backup_file}")
+        shutil.copy2(input_file, backup_file)
+        print(f"  -> Original video copied to {backup_file}")
         
     except subprocess.CalledProcessError as e:
         print(f"Error compressing video {input_file}: {e}")
