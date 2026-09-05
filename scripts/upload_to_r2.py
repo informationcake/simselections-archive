@@ -1,5 +1,8 @@
 import os
 import boto3
+import argparse
+import json
+import toml
 from botocore.config import Config
 from dotenv import load_dotenv
 
@@ -18,7 +21,7 @@ if not all([R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_ACCOUNT_ID, R2_BUCKET_NAM
 
 ENDPOINT_URL = f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
 
-# Initialize boto3 S3 client with Cloudflare R2 configurations
+# Initialize boto3 S3 client
 s3 = boto3.client(
     "s3",
     endpoint_url=ENDPOINT_URL,
@@ -28,8 +31,56 @@ s3 = boto3.client(
     region_name="auto",
 )
 
+def get_testers_from_wrangler():
+    with open("wrangler.toml", "r") as f:
+        data = toml.load(f)
+    testers_str = data.get("vars", {}).get("DISCORD_TESTERS", "")
+    return [t.strip().lower() for t in testers_str.split(",") if t.strip()]
+
+def get_tester_artists(testers):
+    with open("data/artist_discord_map.json", "r") as f:
+        discord_map = json.load(f)
+    artists = discord_map.get("artists", {})
+    tester_artists = set()
+    for clean_name, data in artists.items():
+        handles = data.get("handles", [])
+        for handle in handles:
+            h = handle.lower().split("#")[0]
+            if h in testers:
+                tester_artists.add(clean_name)
+                break
+    return tester_artists
+
+def get_whitelisted_paths():
+    """Returns a set of base directories that are allowed to be uploaded."""
+    testers = get_testers_from_wrangler()
+    tester_artists = get_tester_artists(testers)
+    
+    with open("src/metadata.js", "r", encoding="utf-8") as f:
+        content = f.read()
+        
+    start_idx = content.find("=") + 1
+    end_idx = content.rfind("];") + 1
+    if end_idx == -1: end_idx = len(content)
+    
+    json_str = content[start_idx:end_idx].strip()
+    playlists = json.loads(json_str)
+    
+    allowed_dirs = set()
+    
+    for playlist in playlists:
+        tracks = playlist.get("tracks", [])
+        for track in tracks:
+            canon_artists = track.get("canonical_artists", [])
+            if any(a in tester_artists for a in canon_artists):
+                file_rel = track.get("file", "")
+                if file_rel:
+                    # e.g., '2025/.../song.mp3' -> '2025/.../song'
+                    base_dir = os.path.splitext(file_rel)[0].replace("\\", "/")
+                    allowed_dirs.add(base_dir)
+    return allowed_dirs
+
 def get_existing_objects(bucket_name):
-    """Retrieve all object keys currently in the bucket to avoid re-uploading."""
     keys = set()
     paginator = s3.get_paginator('list_objects_v2')
     pages = paginator.paginate(Bucket=bucket_name)
@@ -39,10 +90,24 @@ def get_existing_objects(bucket_name):
                 keys.add(obj['Key'])
     return keys
 
-def upload_directory(local_dir, bucket_name):
+def is_path_allowed(s3_key, allowed_dirs):
+    """Check if the given s3_key falls under any of the allowed base directories."""
+    # s3_key might be '2025/.../song/index.m3u8'
+    # we check if it starts with '2025/.../song'
+    for d in allowed_dirs:
+        if s3_key.startswith(d):
+            return True
+    return False
+
+def upload_directory(local_dir, bucket_name, whitelist_only=False):
     print(f"Fetching existing files from R2 bucket '{bucket_name}'...")
     existing_keys = get_existing_objects(bucket_name)
     print(f"Found {len(existing_keys)} existing files in bucket.")
+    
+    allowed_dirs = set()
+    if whitelist_only:
+        allowed_dirs = get_whitelisted_paths()
+        print(f"Whitelist mode ON. Found {len(allowed_dirs)} allowed track folders.")
     
     upload_count = 0
     skip_count = 0
@@ -50,10 +115,11 @@ def upload_directory(local_dir, bucket_name):
     for root, dirs, files in os.walk(local_dir):
         for filename in files:
             local_path = os.path.join(root, filename)
-            # Create S3 key by removing the local_dir prefix
-            # E.g., 'r2_upload_temp/2023/Sim_Selections_JUNE_2023/info.mp3' -> '2023/Sim_Selections_JUNE_2023/info.mp3'
             relative_path = os.path.relpath(local_path, local_dir)
-            s3_key = relative_path.replace(os.sep, '/')  # Ensure forward slashes for S3 keys
+            s3_key = relative_path.replace(os.sep, '/')
+            
+            if whitelist_only and not is_path_allowed(s3_key, allowed_dirs):
+                continue
             
             if s3_key in existing_keys:
                 print(f"Skipping (already exists): {s3_key}")
@@ -69,10 +135,17 @@ def upload_directory(local_dir, bucket_name):
                 
     print(f"\nUpload complete! Uploaded {upload_count} files, skipped {skip_count} existing files.")
 
-if __name__ == "__main__":
-    LOCAL_UPLOAD_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "r2_upload_temp"))
-    if not os.path.exists(LOCAL_UPLOAD_DIR):
-        print(f"Error: Directory not found: {LOCAL_UPLOAD_DIR}")
+def main():
+    parser = argparse.ArgumentParser(description="Upload encrypted media to Cloudflare R2")
+    parser.add_argument("--input-dir", default=r"C:\Users\Alex\Documents\Music\SimSelections-encrypted", help="Directory containing the encrypted files")
+    parser.add_argument("--whitelist-only", action="store_true", help="Only upload tracks belonging to whitelisted tester artists")
+    args = parser.parse_args()
+    
+    if not os.path.exists(args.input_dir):
+        print(f"Error: Directory not found: {args.input_dir}")
         exit(1)
         
-    upload_directory(LOCAL_UPLOAD_DIR, R2_BUCKET_NAME)
+    upload_directory(args.input_dir, R2_BUCKET_NAME, args.whitelist_only)
+
+if __name__ == "__main__":
+    main()

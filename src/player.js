@@ -133,17 +133,45 @@ export function playTrack(index) {
                 updatePlayState(false);
             });
     } else {
-        audio.src = mediaUrl;
-        audio.play()
-            .then(() => {
-                initAudioContext();
-                updatePlayState(true);
-                showAudioVisualizer();
-            })
-            .catch(err => {
-                console.error("Audio playback error:", err);
-                updatePlayState(false);
+        // HLS URL path generation
+        const hlsUrl = mediaUrl.replace(/\.(mp3|wav|flac|aac|m4a)(\?.*)?$/i, '/index.m3u8$2');
+
+        const playAudio = () => {
+            audio.play()
+                .then(() => {
+                    initAudioContext();
+                    updatePlayState(true);
+                    showAudioVisualizer();
+                })
+                .catch(err => {
+                    console.error("Audio playback error:", err);
+                    updatePlayState(false);
+                });
+        };
+
+        if (window.Hls && Hls.isSupported()) {
+            if (window.hlsInstance) {
+                window.hlsInstance.destroy();
+            }
+            window.hlsInstance = new Hls();
+            window.hlsInstance.loadSource(hlsUrl);
+            window.hlsInstance.attachMedia(audio);
+            window.hlsInstance.on(Hls.Events.MANIFEST_PARSED, playAudio);
+            window.hlsInstance.on(Hls.Events.ERROR, function(event, data) {
+                if (data.fatal) {
+                    console.error("HLS error:", data);
+                    updatePlayState(false);
+                }
             });
+        } else if (audio.canPlayType('application/vnd.apple.mpegurl')) {
+            // Safari fallback
+            audio.src = hlsUrl;
+            audio.addEventListener('loadedmetadata', playAudio, { once: true });
+        } else {
+            // Final fallback to original url if HLS completely unsupported
+            audio.src = mediaUrl;
+            playAudio();
+        }
     }
 
     // Update Player Info

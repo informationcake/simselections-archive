@@ -421,17 +421,12 @@ def build_playlist_entry(playlist_id, playlist_name, folder_year, month, meta, f
         seen_tracks.add(track_key)
 
         matched_file = find_matching_file(artist, title, track_no)
-        opted_in = is_artist_opted_in(artist, optin_artists, context=f"track '{title}' ({playlist_name})")
-        can_play = bool(matched_file) and opted_in
-
         tracks.append({
             "trackNo": track_no or (len(tracks) + 1),
             "artist": artist,
             "title": title,
             "file": matched_file,
-            "link": track.get("link", "") or "",
-            "optIn": opted_in,
-            "canPlay": can_play
+            "link": track.get("link", "") or ""
         })
 
     for candidate in file_candidates:
@@ -442,17 +437,12 @@ def build_playlist_entry(playlist_id, playlist_name, folder_year, month, meta, f
             continue
         seen_tracks.add(track_key)
 
-        opted_in = is_artist_opted_in(candidate["artist"], optin_artists)
-        can_play = bool(candidate["file"]) and opted_in
-
         tracks.append({
             "trackNo": candidate["trackNo"] or (len(tracks) + 1),
             "artist": candidate["artist"],
             "title": candidate["title"],
             "file": candidate["file"],
-            "link": "",
-            "optIn": opted_in,
-            "canPlay": can_play
+            "link": ""
         })
 
     tracks.sort(key=lambda t: (t["trackNo"] if isinstance(t["trackNo"], int) else 999999, t["artist"].lower(), t["title"].lower()))
