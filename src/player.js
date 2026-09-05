@@ -226,6 +226,16 @@ export function playTrack(index) {
  */
 export function stopCurrentMedia() {
     if (!audio) initPlayerElements();
+
+    if (window.hlsInstance) {
+        window.hlsInstance.destroy();
+        window.hlsInstance = null;
+    }
+    if (window.hlsVideoInstance) {
+        window.hlsVideoInstance.destroy();
+        window.hlsVideoInstance = null;
+    }
+
     audio.pause();
     audio.currentTime = 0;
     audio.src = '';
