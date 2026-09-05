@@ -119,23 +119,53 @@ export function playTrack(index) {
 
     stopCurrentMedia();
 
-    if (isVideo) {
-        video.src = mediaUrl;
-        video.load();
-        showVideoPlayer();
-        video.play()
-            .then(() => {
-                updatePlayState(true);
-            })
-            .catch(err => {
-                console.error("Video playback error:", err);
-                showAudioVisualizer();
-                updatePlayState(false);
-            });
-    } else {
-        // HLS URL path generation
-        const hlsUrl = mediaUrl.replace(/\.(mp3|wav|flac|aac|m4a)(\?.*)?$/i, '/index.m3u8$2');
+    const hlsUrl = mediaUrl.replace(/\.(mp3|wav|flac|aac|m4a|mp4|webm|ogg|mov|mkv|avi)(\?.*)?$/i, '/index.m3u8$2');
 
+    if (isVideo) {
+        showVideoPlayer();
+        const playVideo = () => {
+            video.play()
+                .then(() => updatePlayState(true))
+                .catch(err => {
+                    console.error("Video playback error:", err);
+                    showAudioVisualizer();
+                    updatePlayState(false);
+                });
+        };
+        
+        if (window.Hls && Hls.isSupported()) {
+            if (window.hlsVideoInstance) {
+                window.hlsVideoInstance.destroy();
+            }
+            window.hlsVideoInstance = new Hls();
+            window.hlsVideoInstance.loadSource(hlsUrl);
+            window.hlsVideoInstance.attachMedia(video);
+            window.hlsVideoInstance.on(Hls.Events.MANIFEST_PARSED, playVideo);
+            window.hlsVideoInstance.on(Hls.Events.ERROR, function(event, data) {
+                if (data.fatal) {
+                    console.error("Video HLS fatal error", data);
+                    switch(data.type) {
+                        case Hls.ErrorTypes.NETWORK_ERROR:
+                            window.hlsVideoInstance.startLoad();
+                            break;
+                        case Hls.ErrorTypes.MEDIA_ERROR:
+                            window.hlsVideoInstance.recoverMediaError();
+                            break;
+                        default:
+                            window.hlsVideoInstance.destroy();
+                            break;
+                    }
+                }
+            });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = hlsUrl;
+            video.addEventListener('loadedmetadata', playVideo);
+        } else {
+            console.error("HLS not supported for video");
+            showAudioVisualizer();
+            updatePlayState(false);
+        }
+    } else {
         const playAudio = () => {
             audio.play()
                 .then(() => {

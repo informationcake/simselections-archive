@@ -50,29 +50,46 @@ def process_audio(input_file, rel_path, out_dir):
         print(f"Error processing audio {input_file}: {e}")
 
 def process_video(input_file, rel_path, out_dir):
-    """Compresses video into mp4.
+    """Compresses video into AES-128 encrypted HLS chunks.
     Original video file remains entirely unmodified in the input directory.
-    Output is written to the output directory."""
-    out_file = os.path.join(out_dir, rel_path)
-    # Ensure it's an mp4 output
-    out_file = os.path.splitext(out_file)[0] + ".mp4"
-    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+    Output is written to the output directory as chunked .ts and .m3u8 files."""
+    # Output is a folder named after the track (without extension)
+    base_name = os.path.splitext(os.path.basename(input_file))[0]
+    track_out_dir = os.path.join(out_dir, os.path.dirname(rel_path), base_name)
+    os.makedirs(track_out_dir, exist_ok=True)
     
-    print(f"Compressing video: {rel_path} -> {out_file}")
+    # Generate a random 16-byte key
+    key = secrets.token_bytes(16)
+    key_file = os.path.join(track_out_dir, "key.key")
+    with open(key_file, "wb") as f:
+        f.write(key)
+        
+    # Create keyinfo file for ffmpeg
+    keyinfo_file = os.path.join(track_out_dir, "encryption.keyinfo")
+    with open(keyinfo_file, "w") as f:
+        f.write(f"key.key\n{key_file}\n")
+        
+    m3u8_file = os.path.join(track_out_dir, "index.m3u8")
+    segment_pattern = os.path.join(track_out_dir, "chunk_%03d.ts")
     
-    # Basic compression: h264, CRF 28, fast preset
-    # Limits resolution to 1080p max (maintains aspect ratio, won't upscale)
+    print(f"Encrypting video: {rel_path} -> {m3u8_file}")
+    
+    # HLS Video compression: limits resolution to 1080p max, maintains aspect ratio
     cmd = [
         "ffmpeg", "-y", "-i", input_file,
         "-vf", "scale=-2:'min(1080,ih)'",
         "-c:v", "libx264", "-crf", "28", "-preset", "fast",
         "-c:a", "aac", "-b:a", "320k",
-        out_file
+        "-hls_time", "10",
+        "-hls_key_info_file", keyinfo_file,
+        "-hls_playlist_type", "vod",
+        "-hls_segment_filename", segment_pattern,
+        m3u8_file
     ]
     
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        
+        os.remove(keyinfo_file)
     except subprocess.CalledProcessError as e:
         print(f"Error compressing video {input_file}: {e}")
 
