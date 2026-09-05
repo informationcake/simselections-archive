@@ -3,7 +3,7 @@
 scanner.py
 
 This script scans the original media directory and parses the Google Sheets CSV metadata.
-It validates that tracks exist, calculates audio/video durations using ffprobe, 
+It validates that tracks exist, calculates audio/video durations, 
 and generates the final `src/metadata.js` file used by the frontend web player.
 """
 import os
@@ -14,6 +14,10 @@ import urllib.request
 import urllib.parse
 import glob
 import sys
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 from concurrent.futures import ThreadPoolExecutor
 
 # Import new shared logic
@@ -985,11 +989,11 @@ if (typeof module !== 'undefined') {{
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description="Scan local directories for MP3 files matching spreadsheet data.")
-    parser.add_argument("--music-file-path", default=os.environ.get("music-file-path", ""), help="Path to music library folder")
+    parser.add_argument("--music-file-path", default=os.environ.get("SIMSELECTIONS_INPUT_DIR") or os.environ.get("music-file-path", ""), help="Path to original unencrypted music library folder")
     parser.add_argument("--verbose", "-v", action="store_true", help="Print verbose output (parsing and URL resolution details)")
     args, _ = parser.parse_known_args()
     MUSIC_DIR = args.music_file_path
     if not MUSIC_DIR:
-        print("Warning: Music directory path is not configured. Please set music-file-path environment variable or pass --music-file-path if local audio scanning is needed.")
+        print("Warning: Music directory path is not configured. Please set SIMSELECTIONS_INPUT_DIR in .env or pass --music-file-path if local audio scanning is needed.")
         
     run_scan(MUSIC_DIR, verbose=args.verbose)
