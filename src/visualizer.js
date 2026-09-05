@@ -22,6 +22,12 @@ export function initVisualizerElements() {
     }
     visualizerModeSelect = document.getElementById('visualizer-mode');
     nowPlayingFallback = document.getElementById('now-playing-fallback');
+    
+    if (visualizerModeSelect) {
+        visualizerModeSelect.addEventListener('change', () => {
+            window.dispatchEvent(new Event('visualizermodechange'));
+        });
+    }
 }
 
 /**
@@ -66,6 +72,15 @@ export function resizeCanvas() {
  */
 export function showVideoPlayer() {
     if (!canvas || !video || !nowPlayingFallback) initVisualizerElements();
+    
+    const mode = visualizerModeSelect ? visualizerModeSelect.value : 'bars';
+    if (mode === 'off') {
+        canvas.classList.add('hidden');
+        video.classList.remove('active');
+        nowPlayingFallback.classList.remove('hidden');
+        return;
+    }
+
     canvas.classList.add('hidden');
     video.classList.add('active');
     nowPlayingFallback.classList.add('hidden');
@@ -76,10 +91,21 @@ export function showVideoPlayer() {
  */
 export function showAudioVisualizer() {
     if (!canvas || !video || !nowPlayingFallback) initVisualizerElements();
+    
+    const mode = visualizerModeSelect ? visualizerModeSelect.value : 'bars';
+    if (mode === 'off') {
+        canvas.classList.add('hidden');
+        video.classList.remove('active');
+        nowPlayingFallback.classList.remove('hidden');
+        return;
+    }
+
     canvas.classList.remove('hidden');
     video.classList.remove('active');
     if (!state.audioCtx) {
         nowPlayingFallback.classList.remove('hidden');
+    } else {
+        nowPlayingFallback.classList.add('hidden');
     }
 }
 
@@ -153,6 +179,10 @@ export function drawVisualizer() {
         dataArray = new Uint8Array(bufferLength);
     }
     const mode = visualizerModeSelect ? visualizerModeSelect.value : 'bars';
+
+    if (mode === 'off') {
+        return;
+    }
 
     // Get current theme color variables from DOM
     const bodyStyles = getComputedStyle(document.body);

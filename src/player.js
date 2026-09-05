@@ -285,16 +285,23 @@ export function updatePlaylistPlayButtonState() {
  */
 export function updatePlayState(playing) {
     state.isPlaying = playing;
+    const modeSelect = document.getElementById('visualizer-mode');
+    const isOff = modeSelect && modeSelect.value === 'off';
+
     if (playing) {
         btnPlayPause.querySelector('.play-icon').classList.add('hidden');
         btnPlayPause.querySelector('.pause-icon').classList.remove('hidden');
         vinylDisc.classList.add('playing');
-        nowPlayingFallback.classList.add('hidden');
+        if (!isOff) {
+            nowPlayingFallback.classList.add('hidden');
+        } else {
+            nowPlayingFallback.classList.remove('hidden');
+        }
     } else {
         btnPlayPause.querySelector('.play-icon').classList.remove('hidden');
         btnPlayPause.querySelector('.pause-icon').classList.add('hidden');
         vinylDisc.classList.remove('playing');
-        if (!state.audioCtx) {
+        if (!state.audioCtx || isOff) {
             nowPlayingFallback.classList.remove('hidden');
         }
     }
@@ -398,6 +405,19 @@ function setupPlayerEventListeners() {
             btnShuffle.classList.toggle('active', state.isShuffle);
         });
     }
+
+    window.addEventListener('visualizermodechange', () => {
+        updatePlayState(state.isPlaying);
+        if (state.currentTrack) {
+            if (state.currentTrack.video) {
+                showVideoPlayer();
+            } else {
+                showAudioVisualizer();
+            }
+        } else {
+            showAudioVisualizer();
+        }
+    });
 
     // Audio/Video native listeners
     audio.addEventListener('timeupdate', handleTimeUpdate);
