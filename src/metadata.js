@@ -6705,17 +6705,6 @@ export const playlistData = [
                 "canonical_artists": [
                     "informationcake"
                 ]
-            },
-            {
-                "trackNo": 22,
-                "artist": "informationcake",
-                "title": "Aurora Simulation_backup",
-                "file": "2023/Sim_Selections_JUNE_2023/informationcake - Aurora Simulation_backup.mp4",
-                "link": "",
-                "length": 285.68,
-                "canonical_artists": [
-                    "informationcake"
-                ]
             }
         ]
     },
