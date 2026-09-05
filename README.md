@@ -113,6 +113,17 @@ This mapping is used by both the local server and Cloudflare Workers to automati
 ### Fuzzy matching
 We have a situation where metadata in the Google Sheet may not exactly match that of the uploaded files. Whilst I fill in the Google Sheet with data that exactly matches the uploaded tracks (I have a script that does this to avoid errors), we enable the community to go and edit the Google Sheet, and they may wish to change their track name, artist name, or perhaps other data in the future. So having the ability to fuzzily match them is usefull. Therefore all media files must be downloaded locally for this matching process to generate the `src/metadata.js` file reliably and also to test playback.
 
+## Pre-processing
+To protect the community's media from being easily downloaded, and to optimise streaming delivery, all files are processed into AES-128 encrypted HLS (HTTP Live Streaming) chunks. The `scripts/process_media.py` script takes the original media files and processes them into a separate `SimSelections-encrypted` output directory, leaving the originals untouched.
+
+**Audio Processing:** 
+Audio tracks are re-encoded to 320kbps MP3 and sliced into 10-second `.ts` segments with an accompanying `index.m3u8` playlist. Each track is encrypted with a uniquely generated 16-byte AES key.
+
+**Video Compression & Processing:** 
+Video files are dynamically compressed using H.264 (CRF 28) and AAC (320kbps) to ensure decent video quality while drastically reducing file sizes. The resolution is capped at 1080p while preserving the original aspect ratio. Like audio, they are sliced into 10-second AES-128 encrypted HLS segments. 
+
+During playback, the player fetches the AES keys to decrypt the media chunks on the fly inside the browser's memory. This prevents bad actors from simply right-clicking or using the network tab to download raw `.mp3` or `.mp4` files. It's not bullet proof, but it make it very difficult to automate bulk downloads. In any case, someone could just record the audio stream live in their DAW as you can do anywhere on the internet.
+
 ## Playback
 Logging in with discord will be required for playback, but anyone logging in with the global user/pass can browse the catalog without playback.
 
@@ -121,18 +132,6 @@ All tracks are opted out of playback until artists log in and enable it by hand.
 The most effective deployment proposal is to use a Cloudflare R2 storage bucket combined with a serverless Cloudflare Worker proxy (`src/worker.js`). For the amount of data and number of expected users this is essentially free. In production, the player requests audio using relative paths (e.g., `/2024/...`), which are intercepted by the serverless proxy worker to stream tracks directly from the bound R2 bucket. Locally, these same relative requests are captured by the HTTP development server (`scripts/start_server.py`) and resolved to your local drive. This ensures that the local workspace matches the cloud setup.
 
 Beyond these technical aspects, we must ensure users are aware of the legal implications of sharing their music, with clear terms of service (further described in the additional information section).
-
-### Encryption
-
-To protect the community's media from being easily ripped or downloaded, and to optimise streaming delivery, all files are processed into AES-128 encrypted HLS (HTTP Live Streaming) chunks. The `scripts/process_media.py` script takes the original pristine media files and processes them into a separate `SimSelections-encrypted` output directory, leaving the originals completely untouched.
-
-**Audio Processing:** 
-Audio tracks are re-encoded to 320kbps MP3 and sliced into 10-second `.ts` segments with an accompanying `index.m3u8` playlist. Each track is encrypted with a uniquely generated 16-byte AES key.
-
-**Video Compression & Processing:** 
-Video files are dynamically compressed using H.264 (CRF 28) and AAC (320kbps) to ensure high web-quality while drastically reducing massive file sizes. The resolution is safely capped at a maximum of 1080p while strictly preserving the original aspect ratio. Like audio, they are sliced into 10-second AES-128 encrypted HLS segments. 
-
-During playback, the JavaScript player (`src/player.js`) dynamically fetches the AES keys to decrypt the media chunks on the fly inside the browser's memory. This prevents bad actors from simply right-clicking or using the network tab to download raw `.mp3` or `.mp4` files.
 
 # Requirements
 A standard Python installation is sufficient for local development and deployment. If ffprobe is found on the host system it will prioritise this to extract file durations but will fall back to use Python to look at file headers to extract durations.
@@ -143,7 +142,7 @@ A standard Python installation is sufficient for local development and deploymen
 
 *   **Cross-view functionality**: Any track selected in one view is tracked across all views. Click on a track in the map view, the library panel will navigate to that track, the challenges panel will highlight which month that track is playing, etc.
 *   **Color Themes**: Switch between **Cyberpunk Cyan/Pink**, **Emerald/Gold/Orange**, and **Monochrome Greyscale** color palettes.
-*   **Visualizers**: Real-time rendering modes (FFT 2048) including a Scrolling Heatmap, Circular Spikes, and Cyber Waves. This switches to play video files where available.
+*   **Visualizers**: Real-time rendering modes (FFT 2048) including a spectrum, spectrogram, circular spikes, and cyber waves. This switches to play video files where available.
 *   **Statistics**: Analysis of metadata on submission rates and song lengths.
 *   **Challenges**: List of all challenges, links to youtube streams, and fully connected to other panels.
 *   **Cluster Map**: An interactive 2D map of all tracks with forces pulling/pushing them based on a few metrics (metadata only - no audio file analysis).
