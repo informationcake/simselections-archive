@@ -314,11 +314,20 @@ function renderArtistDashboardContent() {
             }
 
             const success = await toggleTrackOptIn(file, artist, isChecked, matched, required);
+            
+            const tr = { file, artist, canonical_artists: required };
+            const isFullyPlayable = canTrackPlay(tr);
+            const userOptedIn = hasUserOptedIn(tr, matched);
+
             if (success) {
                 showToast(`Updated playback for "${row.querySelector('.dash-track-name').textContent}"`, 'success');
-                renderArtistDashboardContent();
             } else {
                 e.target.checked = !isChecked;
+            }
+            
+            if (label) {
+                label.textContent = isFullyPlayable ? 'Playback ON' : (userOptedIn ? 'Waiting on Collab' : 'Playback OFF');
+                label.className = `status-label ${isFullyPlayable ? 'status-on' : (userOptedIn ? 'status-pending' : 'status-off')}`;
             }
         });
     });
