@@ -499,6 +499,10 @@ input:checked + .slider-round:before {
     color: var(--text-muted);
 }
 
+.status-pending {
+    color: #f59e0b;
+}
+
 /* ─── Toast Notifications ────────────────────────────────────────────────── */
 .toast-container {
     position: fixed;
