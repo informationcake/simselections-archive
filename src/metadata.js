@@ -7861,18 +7861,6 @@ export const playlistData = [
                 "canonical_artists": [
                     "informationcake"
                 ]
-            },
-            {
-                "trackNo": 22,
-                "artist": "informationcake",
-                "title": "Aurora Simulation_test",
-                "file": "2023/Sim_Selections_JUNE_2023/informationcake - Aurora Simulation_test.mp4",
-                "link": "",
-                "optIn": false,
-                "canPlay": false,
-                "canonical_artists": [
-                    "informationcake"
-                ]
             }
         ]
     },
@@ -18846,7 +18834,7 @@ export const playlistData = [
             "Imperfect"
         ],
         "challenge": "Challenge the listener. We're talking unexpected sounds/timings/progressions/inter-genres, whatever devices you can think of to keep the listener questioning their musical reality. Break their expectations and the satisfaction they derive from sustained order, make them accept the inevitable decay of all systems into disorder.",
-        "streamUrl": "https://www.youtube.com/watch?v=mEC6PM97IRI",
+        "streamUrl": "https://www.youtube.com/watch?v=aWlFVNNc2Ss",
         "tracks": [
             {
                 "trackNo": 1,
