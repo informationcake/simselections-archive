@@ -50,7 +50,7 @@ def process_audio(input_file, rel_path, out_dir):
         print(f"Error processing audio {input_file}: {e}")
 
 def process_video(input_file, rel_path, out_dir):
-    """Compresses video into an optimized web-ready mp4.
+    """Compresses video into mp4.
     Original video file remains entirely unmodified in the input directory.
     Output is written to the output directory."""
     out_file = os.path.join(out_dir, rel_path)
@@ -61,10 +61,12 @@ def process_video(input_file, rel_path, out_dir):
     print(f"Compressing video: {rel_path} -> {out_file}")
     
     # Basic compression: h264, CRF 28, fast preset
+    # Limits resolution to 1080p max (maintains aspect ratio, won't upscale)
     cmd = [
         "ffmpeg", "-y", "-i", input_file,
+        "-vf", "scale=-2:'min(1080,ih)'",
         "-c:v", "libx264", "-crf", "28", "-preset", "fast",
-        "-c:a", "aac", "-b:a", "128k",
+        "-c:a", "aac", "-b:a", "320k",
         out_file
     ]
     
@@ -75,7 +77,7 @@ def process_video(input_file, rel_path, out_dir):
         print(f"Error compressing video {input_file}: {e}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Process media into web-ready formats. Encrypts audio into HLS chunks and compresses video to MP4. Original files are left completely untouched.")
+    parser = argparse.ArgumentParser(description="Process media into web-ready formats. Encrypts audio into HLS chunks and compresses video to MP4. Original files are left untouched.")
     parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_INPUT_DIR"), help="Input directory")
     parser.add_argument("--output-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Output directory")
     args = parser.parse_args()
