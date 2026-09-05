@@ -27,6 +27,7 @@ let fallbackTitle = null;
 let fallbackArtist = null;
 let nowPlayingFallback = null;
 let isDraggingSeek = false;
+let isDraggingVolume = false;
 
 /**
  * Initializes DOM element references for the player module and sets up listeners.
@@ -474,7 +475,7 @@ function setupPlayerEventListeners() {
     });
 
     // Volume controls
-    volumeSliderWrapper.addEventListener('click', (e) => {
+    function setVolumeFromEvent(e) {
         const rect = volumeSliderWrapper.getBoundingClientRect();
         const clickX = e.clientX - rect.left;
         const volume = Math.max(0, Math.min(1, clickX / rect.width));
@@ -483,6 +484,15 @@ function setupPlayerEventListeners() {
         volumeFill.style.width = `${volume * 100}%`;
         updateVolumeIcon(volume);
         state.lastVolume = volume;
+    }
+
+    volumeSliderWrapper.addEventListener('click', setVolumeFromEvent);
+    volumeSliderWrapper.addEventListener('mousedown', () => { isDraggingVolume = true; });
+    document.addEventListener('mousemove', (e) => {
+        if (isDraggingVolume) setVolumeFromEvent(e);
+    });
+    document.addEventListener('mouseup', () => {
+        if (isDraggingVolume) isDraggingVolume = false;
     });
 
     btnMute.addEventListener('click', () => {
