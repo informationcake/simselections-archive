@@ -15,12 +15,18 @@ import {
     loadPlaylist, activatePlaylistSelection, updateMetadataCard,
     renderTracklist, clearSearch, performSearch
 } from './library.js';
+import {
+    playTrack, pauseCurrentMedia, resumeCurrentMedia, 
+    playRandomFromAll, initPlayerElements
+} from './player.js';
 import { escapeHtml, parseAndFormatText } from './utils.js';
 
 /**
  * Initializes references to library DOM elements and sets up event listeners.
  */
 export function initUiElements() {
+    initPlayerElements();
+    
     // Library elements (passed to library.js)
     initLibraryElements({
         libraryTree:      document.getElementById('library-tree'),
