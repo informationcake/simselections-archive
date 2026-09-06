@@ -1,6 +1,7 @@
 import { state } from './state.js';
 import { FEATURES } from './features.js';
 import { playlistData } from './metadata.js';
+import { canTrackPlay } from './optin.js';
 import { renderStatsDashboard } from './statistics.js';
 import { renderChallengesDashboard } from './challenges.js';
 import { resizeCanvas } from './visualizer.js';
@@ -284,7 +285,13 @@ export function setupPlaylistPlayButton() {
             if (state.playingPlaylist && state.playingPlaylist.id === state.currentPlaylist.id && state.currentTrackIndex !== -1) {
                 resumeCurrentMedia();
             } else {
-                playTrack(0);
+                let startIdx = 0;
+                while (startIdx < state.currentPlaylist.tracks.length && !canTrackPlay(state.currentPlaylist.tracks[startIdx])) {
+                    startIdx++;
+                }
+                if (startIdx < state.currentPlaylist.tracks.length) {
+                    playTrack(startIdx);
+                }
             }
         }
     });
