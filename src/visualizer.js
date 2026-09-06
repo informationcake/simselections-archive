@@ -422,7 +422,7 @@ export function drawVisualizer() {
         const barWidth = width / useBars;
 
         for (let i = 0; i < useBars; i++) {
-            const barHeight = (dataArray[i] / 255) * height * 0.9;
+            const barHeight = (dataArray[i] / 255) * height;
             const x = i * barWidth;
             
             const gradient = ctx.createLinearGradient(x, height, x, height - barHeight);
