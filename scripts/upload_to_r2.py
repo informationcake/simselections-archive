@@ -1,10 +1,8 @@
 """
 upload_to_r2.py
 
-This script safely deploys the processed, web-ready media from the encrypted directory 
+This script uploads the processed, web-ready media from the encrypted directory 
 to the production Cloudflare R2 bucket.
-- Uses whitelist filtering to only upload tracks belonging to allowed Discord testers.
-- Fetches existing keys from R2 to prevent redundant uploads and save bandwidth.
 """
 import os
 import boto3
@@ -107,7 +105,7 @@ def is_path_allowed(s3_key, allowed_dirs):
             return True
     return False
 
-def upload_directory(local_dir, bucket_name, whitelist_only=False):
+def upload_directory(local_dir, bucket_name, whitelist_only=False, overwrite=False):
     print(f"Fetching existing files from R2 bucket '{bucket_name}'...")
     existing_keys = get_existing_objects(bucket_name)
     print(f"Found {len(existing_keys)} existing files in bucket.")
@@ -129,7 +127,7 @@ def upload_directory(local_dir, bucket_name, whitelist_only=False):
             if whitelist_only and not is_path_allowed(s3_key, allowed_dirs):
                 continue
             
-            if s3_key in existing_keys:
+            if not overwrite and s3_key in existing_keys:
                 print(f"Skipping (already exists): {s3_key}")
                 skip_count += 1
                 continue
@@ -147,6 +145,7 @@ def main():
     parser = argparse.ArgumentParser(description="Upload processed web-ready media (HLS audio chunks & MP4 videos) to Cloudflare R2")
     parser.add_argument("--input-dir", default=os.getenv("SIMSELECTIONS_ENCRYPTED_DIR"), help="Directory containing the processed delivery files")
     parser.add_argument("--whitelist-only", action="store_true", help="Only upload tracks belonging to whitelisted tester artists")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files in R2 even if they already exist")
     args = parser.parse_args()
     
     if not args.input_dir:
@@ -157,7 +156,7 @@ def main():
         print(f"Error: Directory not found: {args.input_dir}")
         exit(1)
         
-    upload_directory(args.input_dir, R2_BUCKET_NAME, args.whitelist_only)
+    upload_directory(args.input_dir, R2_BUCKET_NAME, args.whitelist_only, args.overwrite)
 
 if __name__ == "__main__":
     main()

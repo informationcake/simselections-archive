@@ -84,12 +84,16 @@ def process_video(input_file, rel_path, out_dir):
     print(f"Encrypting video: {rel_path} -> {m3u8_file}")
     
     # HLS Video compression: limits resolution to 1080p max, maintains aspect ratio
+    # 24fps, capped at 2Mbps, 5s chunks, forced keyframes every 5s
     cmd = [
         "ffmpeg", "-y", "-i", input_file,
         "-vf", "scale=-2:'min(1080,ih)'",
         "-c:v", "libx264", "-crf", "28", "-preset", "fast",
+        "-r", "24",
+        "-maxrate", "2M", "-bufsize", "4M",
+        "-g", "120", "-keyint_min", "120", "-sc_threshold", "0",
         "-c:a", "aac", "-b:a", "320k",
-        "-hls_time", "10",
+        "-hls_time", "5",
         "-hls_key_info_file", keyinfo_file,
         "-hls_playlist_type", "vod",
         "-hls_segment_filename", segment_pattern,
