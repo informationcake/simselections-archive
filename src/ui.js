@@ -342,7 +342,6 @@ async function sha256(message) {
 function setupUiEventListeners() {
     const searchInput = document.getElementById('search-input');
     const clearSearchBtn = document.getElementById('clear-search');
-    const shufflePlaylistBtn = document.getElementById('shuffle-playlist-btn');
 
     const btnShuffleAll = document.getElementById('btn-shuffle-all');
     if (btnShuffleAll) {
@@ -352,26 +351,13 @@ function setupUiEventListeners() {
                 btnShuffleAll.classList.remove('active');
             } else {
                 state.isShuffleAll = true;
-                state.isShuffle = false;
-                const btnShuffle = document.getElementById('btn-shuffle');
-                if (btnShuffle) btnShuffle.classList.remove('active');
                 btnShuffleAll.classList.add('active');
                 playRandomFromAll();
             }
         });
     }
 
-    if (shufflePlaylistBtn) {
-        shufflePlaylistBtn.addEventListener('click', () => {
-            if (state.currentPlaylist && state.currentPlaylist.tracks.length > 0) {
-                state.isShuffle = true;
-                const btnShuffle = document.getElementById('btn-shuffle');
-                if (btnShuffle) btnShuffle.classList.add('active');
-                const randIdx = Math.floor(Math.random() * state.currentPlaylist.tracks.length);
-                playTrack(randIdx);
-            }
-        });
-    }
+
 
     // Theme toggle
     const themeToggleBtn = document.getElementById('theme-toggle');

@@ -9,7 +9,6 @@ let video = null;
 let btnPlayPause = null;
 let btnPrev = null;
 let btnNext = null;
-let btnShuffle = null;
 let btnRepeat = null;
 let btnMute = null;
 let volumeIcon = null;
@@ -38,7 +37,6 @@ export function initPlayerElements() {
     btnPlayPause = document.getElementById('btn-play-pause');
     btnPrev = document.getElementById('btn-prev');
     btnNext = document.getElementById('btn-next');
-    btnShuffle = document.getElementById('btn-shuffle');
     btnRepeat = document.getElementById('btn-repeat');
     btnMute = document.getElementById('btn-mute');
     volumeIcon = document.getElementById('volume-icon');
@@ -274,40 +272,26 @@ export function playNextTrack() {
     const maxAttempts = state.currentPlaylist.tracks.length;
     let attempts = 0;
 
-    if (state.isShuffle) {
-        let randIdx, track;
-        do {
-            randIdx = Math.floor(Math.random() * state.currentPlaylist.tracks.length);
-            track = state.currentPlaylist.tracks[randIdx];
-            attempts++;
-            if (attempts > maxAttempts) {
+    let nextIdx = state.currentTrackIndex;
+    let track;
+    do {
+        nextIdx++;
+        if (nextIdx >= state.currentPlaylist.tracks.length) {
+            if (state.isRepeat) {
+                nextIdx = 0; // Loop playlist
+            } else {
                 updatePlayState(false);
-                return;
+                return; // Stop at end
             }
-        } while (!canTrackPlay(track));
-        playTrack(randIdx);
-    } else {
-        let nextIdx = state.currentTrackIndex;
-        let track;
-        do {
-            nextIdx++;
-            if (nextIdx >= state.currentPlaylist.tracks.length) {
-                if (state.isRepeat) {
-                    nextIdx = 0; // Loop playlist
-                } else {
-                    updatePlayState(false);
-                    return; // Stop at end
-                }
-            }
-            track = state.currentPlaylist.tracks[nextIdx];
-            attempts++;
-            if (attempts > maxAttempts) {
-                updatePlayState(false);
-                return;
-            }
-        } while (!canTrackPlay(track));
-        playTrack(nextIdx);
-    }
+        }
+        track = state.currentPlaylist.tracks[nextIdx];
+        attempts++;
+        if (attempts > maxAttempts) {
+            updatePlayState(false);
+            return;
+        }
+    } while (!canTrackPlay(track));
+    playTrack(nextIdx);
 }
 
 /**
@@ -496,13 +480,6 @@ function setupPlayerEventListeners() {
         btnRepeat.addEventListener('click', () => {
             state.isRepeat = !state.isRepeat;
             btnRepeat.classList.toggle('active', state.isRepeat);
-        });
-    }
-
-    if (btnShuffle) {
-        btnShuffle.addEventListener('click', () => {
-            state.isShuffle = !state.isShuffle;
-            btnShuffle.classList.toggle('active', state.isShuffle);
         });
     }
 

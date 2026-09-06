@@ -7,7 +7,6 @@ let libraryTree = null;
 let playlistTitle = null;
 let playlistSubtitle = null;
 let playlistMeta = null;
-let shufflePlaylistBtn = null;
 let trackCount = null;
 let tracklistBody = null;
 let searchInput = null;
@@ -23,7 +22,6 @@ export function initLibraryElements(refs) {
     playlistTitle   = refs.playlistTitle;
     playlistSubtitle = refs.playlistSubtitle;
     playlistMeta    = refs.playlistMeta;
-    shufflePlaylistBtn = refs.shufflePlaylistBtn;
     trackCount      = refs.trackCount;
     tracklistBody   = refs.tracklistBody;
     searchInput     = refs.searchInput;
@@ -229,7 +227,6 @@ export function loadPlaylist(playlist, playImmediately = false) {
     if (playlistMeta) playlistMeta.textContent = `Archive of curation selections for ${playlist.name}`;
     trackCount.textContent = `${playlist.tracks.length} songs`;
 
-    if (shufflePlaylistBtn) shufflePlaylistBtn.disabled = false;
     if (playPlaylistBtn) playPlaylistBtn.disabled = false;
 
     // Show/hide YouTube stream link
@@ -413,7 +410,6 @@ export function performSearch(query) {
     trackCount.textContent = `${results.length} results`;
 
     if (playPlaylistBtn) playPlaylistBtn.disabled = results.length === 0;
-    if (shufflePlaylistBtn) shufflePlaylistBtn.disabled = results.length === 0;
 
     const tempPlaylist = {
         id: 'search-results',

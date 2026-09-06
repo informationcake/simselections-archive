@@ -4,7 +4,6 @@ export const state = {
     playingPlaylist: null, // Tracks the playlist that is currently playing audio/video
     currentTrackIndex: -1,
     isPlaying: false,
-    isShuffle: false,
     isShuffleAll: false, // true = shuffle across all playlists
     isRepeat: false, // true = repeat playlist/track, false = no repeat
     lastVolume: 1.0,
