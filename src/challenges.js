@@ -17,15 +17,7 @@ export function renderChallengesDashboard() {
         return monthOrder.indexOf(String(a.month || '').toUpperCase()) - monthOrder.indexOf(String(b.month || '').toUpperCase());
     });
 
-    const totalSubmissions = orderedMonths.reduce((sum, playlist) => sum + (playlist.tracks || []).length, 0);
-    const linkedCount = orderedMonths.reduce((sum, playlist) => sum + (playlist.tracks || []).filter(track => track.link && track.link.trim()).length, 0);
 
-    const challengesMonthCount = document.getElementById('challenges-month-count');
-    const challengesSubmissionCount = document.getElementById('challenges-submission-count');
-    const challengesLinkedCount = document.getElementById('challenges-linked-count');
-    if (challengesMonthCount) challengesMonthCount.textContent = orderedMonths.length;
-    if (challengesSubmissionCount) challengesSubmissionCount.textContent = totalSubmissions;
-    if (challengesLinkedCount) challengesLinkedCount.textContent = linkedCount;
 
     const monthList = document.getElementById('stats-month-list');
     if (monthList) {

@@ -260,7 +260,10 @@ export function loadPlaylist(playlist, playImmediately = false) {
     renderTracklist(playlist.tracks);
 
     if (playImmediately && playlist.tracks.length > 0) {
-        playTrack(0);
+        const playableIdx = playlist.tracks.findIndex(t => canTrackPlay(t));
+        if (playableIdx !== -1) {
+            playTrack(playableIdx);
+        }
     }
 }
 
