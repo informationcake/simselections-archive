@@ -230,7 +230,7 @@ def compile_discord_map(music_dir=""):
         if c_handle and len(collab_utils.split_collaborators(art_val, raw_artist_counts)) == 1:
             if c_handle not in dynamic_aliases:
                 dynamic_aliases[c_handle] = set()
-            dynamic_aliases[c_handle].add(art_val)
+            dynamic_aliases[c_handle].add(collab_utils.clean_string(art_val))
 
     # Pass 2: Assign handles correctly even in collaborations
     for art_val, tit_val, disc_val, disc_id_val in all_rows:
@@ -281,7 +281,7 @@ def compile_discord_map(music_dir=""):
         # 2. Match against dynamic aliases learned from solo tracks (for collaborations)
         if not target_artist and c_handle in dynamic_aliases and len(constituents) > 1:
             for const in constituents:
-                if const in dynamic_aliases[c_handle]:
+                if collab_utils.clean_string(const) in dynamic_aliases[c_handle]:
                     target_artist = const
                     break
 
