@@ -269,20 +269,43 @@ export function playNextTrack() {
         return;
     }
     
-    if (!state.currentPlaylist) return;
+    if (!state.currentPlaylist || state.currentPlaylist.tracks.length === 0) return;
     
+    const maxAttempts = state.currentPlaylist.tracks.length;
+    let attempts = 0;
+
     if (state.isShuffle) {
-        const randIdx = Math.floor(Math.random() * state.currentPlaylist.tracks.length);
+        let randIdx, track;
+        do {
+            randIdx = Math.floor(Math.random() * state.currentPlaylist.tracks.length);
+            track = state.currentPlaylist.tracks[randIdx];
+            attempts++;
+            if (attempts > maxAttempts) {
+                updatePlayState(false);
+                return;
+            }
+        } while (!canTrackPlay(track));
         playTrack(randIdx);
     } else {
-        let nextIdx = state.currentTrackIndex + 1;
-        if (nextIdx >= state.currentPlaylist.tracks.length) {
-            if (state.isRepeat) {
-                nextIdx = 0; // Loop playlist
-            } else {
-                return; // Stop at end
+        let nextIdx = state.currentTrackIndex;
+        let track;
+        do {
+            nextIdx++;
+            if (nextIdx >= state.currentPlaylist.tracks.length) {
+                if (state.isRepeat) {
+                    nextIdx = 0; // Loop playlist
+                } else {
+                    updatePlayState(false);
+                    return; // Stop at end
+                }
             }
-        }
+            track = state.currentPlaylist.tracks[nextIdx];
+            attempts++;
+            if (attempts > maxAttempts) {
+                updatePlayState(false);
+                return;
+            }
+        } while (!canTrackPlay(track));
         playTrack(nextIdx);
     }
 }
@@ -292,19 +315,32 @@ export function playNextTrack() {
  */
 export function playRandomFromAll() {
     if (typeof playlistData === 'undefined' || playlistData.length === 0) return;
-    const randPlaylist = playlistData[Math.floor(Math.random() * playlistData.length)];
-    if (!randPlaylist.tracks || randPlaylist.tracks.length === 0) {
-        playRandomFromAll(); // Try again if empty
-        return;
-    }
-    // Load the playlist and pick a random track
+    
+    const maxAttempts = 100;
+    let attempts = 0;
+    let randPlaylist, randTrackIdx, track;
+    
+    do {
+        randPlaylist = playlistData[Math.floor(Math.random() * playlistData.length)];
+        if (!randPlaylist.tracks || randPlaylist.tracks.length === 0) {
+            attempts++;
+            continue;
+        }
+        randTrackIdx = Math.floor(Math.random() * randPlaylist.tracks.length);
+        track = randPlaylist.tracks[randTrackIdx];
+        attempts++;
+        if (attempts > maxAttempts) {
+            updatePlayState(false);
+            return;
+        }
+    } while (!canTrackPlay(track));
+
     if (typeof window.loadPlaylist === 'function') {
         window.loadPlaylist(randPlaylist);
     }
     if (typeof window.activatePlaylistSelection === 'function') {
         window.activatePlaylistSelection(randPlaylist);
     }
-    const randTrackIdx = Math.floor(Math.random() * randPlaylist.tracks.length);
     playTrack(randTrackIdx);
 }
 
@@ -429,12 +465,27 @@ function setupPlayerEventListeners() {
     });
 
     btnPrev.addEventListener('click', () => {
-        if (!state.currentPlaylist) return;
-        let nextIdx = state.currentTrackIndex - 1;
-        if (nextIdx < 0) {
-            nextIdx = state.currentPlaylist.tracks.length - 1;
-        }
-        playTrack(nextIdx);
+        if (!state.currentPlaylist || state.currentPlaylist.tracks.length === 0) return;
+        
+        const maxAttempts = state.currentPlaylist.tracks.length;
+        let attempts = 0;
+        let prevIdx = state.currentTrackIndex;
+        let track;
+        
+        do {
+            prevIdx--;
+            if (prevIdx < 0) {
+                prevIdx = state.currentPlaylist.tracks.length - 1;
+            }
+            track = state.currentPlaylist.tracks[prevIdx];
+            attempts++;
+            if (attempts > maxAttempts) {
+                updatePlayState(false);
+                return;
+            }
+        } while (!canTrackPlay(track));
+        
+        playTrack(prevIdx);
     });
 
     btnNext.addEventListener('click', () => {
