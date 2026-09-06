@@ -2,6 +2,7 @@ import { state, events } from './state.js';
 import { playlistData } from './metadata.js';
 import { playTrack, updatePlaylistPlayButtonState } from './player.js';
 import { escapeHtml } from './utils.js';
+import { canTrackPlay } from './optin.js';
 // ── Module-level DOM references (lazily populated) ────────────────────────────
 let libraryTree = null;
 let playlistTitle = null;
@@ -294,6 +295,11 @@ export function renderTracklist(tracks) {
     tracks.forEach((track, index) => {
         const row = document.createElement('tr');
         row.className = 'tracklist-row';
+        
+        if (!canTrackPlay(track)) {
+            row.classList.add('opted-out');
+        }
+        
         if (state.currentPlaylist && state.currentTrackIndex === index && isCurrentTrackInPlaylist()) {
             row.classList.add('active');
         }
