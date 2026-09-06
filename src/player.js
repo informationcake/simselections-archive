@@ -161,16 +161,25 @@ export function playTrack(index) {
             window.hlsInstance.on(Hls.Events.ERROR, function(event, data) {
                 if (data.fatal) {
                     console.error("HLS error:", data);
-                    updatePlayState(false);
+                    // Skip to next track on fatal network errors instead of just stopping
+                    setTimeout(() => playNextTrack(), 500);
                 }
             });
         } else if (audio.canPlayType('application/vnd.apple.mpegurl')) {
             // Safari fallback
             audio.src = hlsUrl;
+            audio.onerror = function() {
+                console.error("Audio error in Safari fallback");
+                setTimeout(() => playNextTrack(), 500);
+            };
             audio.addEventListener('loadedmetadata', playAudio, { once: true });
         } else {
             // Final fallback to original url if HLS completely unsupported
             audio.src = mediaUrl;
+            audio.onerror = function() {
+                console.error("Audio error in final fallback");
+                setTimeout(() => playNextTrack(), 500);
+            };
             playAudio();
         }
     }
