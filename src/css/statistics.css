@@ -50,9 +50,9 @@
 
 .stats-metric-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 10px;
-    width: min(520px, 100%);
+    width: min(600px, 100%);
 }
 
 .stat-metric {

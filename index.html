@@ -160,6 +160,12 @@
   <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
   <path d="m10 15 5-3-5-3z" />
 </symbol>
+<symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+  <circle cx="9" cy="7" r="4" />
+  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+</symbol>
     </defs>
 </svg>
 
@@ -366,7 +372,7 @@
                     <div class="stats-metric-grid">
                         <div class="stat-metric">
                             <svg class="lucide lucide-calendar"><use href="#icon-calendar"></use></svg>
-                            <span class="stat-label">Months</span>
+                            <span class="stat-label">Challenges</span>
                             <strong id="stats-month-count">0</strong>
                         </div>
                         <div class="stat-metric">
@@ -375,9 +381,14 @@
                             <strong id="stats-submission-count">0</strong>
                         </div>
                         <div class="stat-metric">
-                            <svg class="lucide lucide-link-2"><use href="#icon-link-2"></use></svg>
-                            <span class="stat-label">Linked Tracks</span>
-                            <strong id="stats-linked-count">0</strong>
+                            <svg class="lucide lucide-play"><use href="#icon-play"></use></svg>
+                            <span class="stat-label">Playable Tracks</span>
+                            <strong id="stats-playable-count">0</strong>
+                        </div>
+                        <div class="stat-metric">
+                            <svg class="lucide lucide-users"><use href="#icon-users"></use></svg>
+                            <span class="stat-label">Artists</span>
+                            <strong id="stats-artist-count">0</strong>
                         </div>
                     </div>
                 </div>
