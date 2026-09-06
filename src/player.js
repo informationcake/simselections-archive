@@ -99,6 +99,15 @@ export function playTrack(index) {
     const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(cleanFile);
     state.currentMediaType = isVideo ? 'video' : 'audio';
 
+    // Unlock autoplay for strict browsers by consuming the user gesture synchronously
+    const activeMedia = isVideo ? video : audio;
+    if (activeMedia) {
+        const unlockPromise = activeMedia.play();
+        if (unlockPromise !== undefined) {
+            unlockPromise.catch(() => {});
+        }
+    }
+
     stopCurrentMedia();
 
     const hlsUrl = mediaUrl.replace(/\.(mp3|wav|flac|aac|m4a|mp4|webm|ogg|mov|mkv|avi)(\?.*)?$/i, '/index.m3u8$2');
