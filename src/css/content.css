@@ -216,7 +216,7 @@
 }
 
 .tracklist-row.opted-out .row-play-btn {
-    display: none !important;
+    visibility: hidden !important;
 }
 
 .tracklist-row.active {
