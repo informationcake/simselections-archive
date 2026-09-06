@@ -7,9 +7,9 @@
     },
     "how_login_works": "When an artist logs in via Discord OAuth2, the server normalizes their Discord username (removes spaces, punctuation, lowercase) and queries 'handle_lookup' to find all artist aliases they own.",
     "coverage": {
-      "total_individual_artists": 363,
-      "linked_artists_count": 274,
-      "coverage_percentage": "75.5%"
+      "total_individual_artists": 371,
+      "linked_artists_count": 281,
+      "coverage_percentage": "75.7%"
     }
   },
   "artists": {
@@ -97,6 +97,12 @@
     },
     "amess": {
       "handles": [],
+      "discord_ids": []
+    },
+    "andrewcollinsworth": {
+      "handles": [
+        "simdrew"
+      ],
       "discord_ids": []
     },
     "anode": {
@@ -449,6 +455,12 @@
     "danetalsysteemplafond": {
       "handles": [
         "danetal_66991"
+      ],
+      "discord_ids": []
+    },
+    "darkmajik": {
+      "handles": [
+        "DARKMAJIK"
       ],
       "discord_ids": []
     },
@@ -1058,6 +1070,12 @@
       "handles": [],
       "discord_ids": []
     },
+    "kevhuman": {
+      "handles": [
+        "Kevhuman"
+      ],
+      "discord_ids": []
+    },
     "kevinthorsen": {
       "handles": [
         "Kev",
@@ -1210,6 +1228,12 @@
       ],
       "discord_ids": []
     },
+    "lunchnap": {
+      "handles": [
+        "bugonk"
+      ],
+      "discord_ids": []
+    },
     "mangochunks": {
       "handles": [
         "Mango Chunks"
@@ -1342,6 +1366,12 @@
       ],
       "discord_ids": []
     },
+    "muggib": {
+      "handles": [
+        "351423793199185920"
+      ],
+      "discord_ids": []
+    },
     "mupmuurmon": {
       "handles": [],
       "discord_ids": []
@@ -1437,6 +1467,12 @@
     },
     "okseashells": {
       "handles": [],
+      "discord_ids": []
+    },
+    "olessiadupuy": {
+      "handles": [
+        "Sayoco"
+      ],
       "discord_ids": []
     },
     "onetrackmind": {
@@ -1745,6 +1781,12 @@
       ],
       "discord_ids": []
     },
+    "soundsbyshawn": {
+      "handles": [
+        "sfs"
+      ],
+      "discord_ids": []
+    },
     "sparga": {
       "handles": [
         "Multivax"
@@ -2012,6 +2054,10 @@
       "handles": [],
       "discord_ids": []
     },
+    "unknownartist": {
+      "handles": [],
+      "discord_ids": []
+    },
     "unthank": {
       "handles": [
         "Unthank"
@@ -2136,6 +2182,9 @@
     }
   },
   "handle_lookup": {
+    "351423793199185920": [
+      "muggib"
+    ],
     "5xvt": [
       "5xvt"
     ],
@@ -2230,6 +2279,9 @@
     "brokengravity": [
       "brokengravity"
     ],
+    "bugonk": [
+      "lunchnap"
+    ],
     "caffeinechamber": [
       "nootropic"
     ],
@@ -2282,6 +2334,9 @@
     ],
     "danetal66991": [
       "danetalsysteemplafond"
+    ],
+    "darkmajik": [
+      "darkmajik"
     ],
     "darkswordsman": [
       "darkswordsman",
@@ -2436,8 +2491,7 @@
       "pantagruel"
     ],
     "gingerbitters": [
-      "bitrist",
-      "stum"
+      "bitrist"
     ],
     "goog": [
       "obselysium"
@@ -2526,6 +2580,9 @@
     "kev": [
       "kevinthorsen",
       "rchestra"
+    ],
+    "kevhuman": [
+      "kevhuman"
     ],
     "khae0": [
       "intentunknown"
@@ -2784,6 +2841,9 @@
     "sawwhet85750neuroprism": [
       "sawwhet"
     ],
+    "sayoco": [
+      "olessiadupuy"
+    ],
     "seansvs": [
       "seanv",
       "seanvansickel"
@@ -2791,8 +2851,14 @@
     "sethmonyette": [
       "sethmonyette"
     ],
+    "sfs": [
+      "soundsbyshawn"
+    ],
     "shere": [
       "shereen"
+    ],
+    "simdrew": [
+      "andrewcollinsworth"
     ],
     "simme": [
       "cooloutcoexist"
