@@ -54,6 +54,7 @@ export function renderStatsDashboard() {
     });
 
     const totalSubmissions = orderedMonths.reduce((sum, playlist) => sum + (playlist.tracks || []).length, 0);
+    const linkedCount = orderedMonths.reduce((sum, playlist) => sum + (playlist.tracks || []).filter(track => track.link && track.link.trim()).length, 0);
     
     let playableCount = 0;
     const uniqueArtists = new Set();
@@ -73,11 +74,13 @@ export function renderStatsDashboard() {
 
     const statsMonthCount = document.getElementById('stats-month-count');
     const statsSubmissionCount = document.getElementById('stats-submission-count');
+    const statsLinkedCount = document.getElementById('stats-linked-count');
     const statsPlayableCount = document.getElementById('stats-playable-count');
     const statsArtistCount = document.getElementById('stats-artist-count');
     
     if (statsMonthCount) statsMonthCount.textContent = orderedMonths.length;
     if (statsSubmissionCount) statsSubmissionCount.textContent = totalSubmissions;
+    if (statsLinkedCount) statsLinkedCount.textContent = linkedCount;
     if (statsPlayableCount) statsPlayableCount.textContent = playableCount;
     if (statsArtistCount) statsArtistCount.textContent = uniqueArtists.size;
 
