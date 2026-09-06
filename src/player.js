@@ -75,6 +75,19 @@ export function playTrack(index) {
         return;
     }
 
+    if (!state.isNavigatingHistory) {
+        if (state.playingPlaylist && state.currentTrackIndex !== -1) {
+            state.playbackHistory.push({
+                playlist: state.playingPlaylist,
+                trackIndex: state.currentTrackIndex
+            });
+            if (state.playbackHistory.length > 50) {
+                state.playbackHistory.shift();
+            }
+        }
+    }
+    state.isNavigatingHistory = false;
+
     state.playingPlaylist = state.currentPlaylist;
     state.currentTrackIndex = index;
 
@@ -449,6 +462,19 @@ function setupPlayerEventListeners() {
     });
 
     btnPrev.addEventListener('click', () => {
+        if (state.isShuffleAll && state.playbackHistory && state.playbackHistory.length > 0) {
+            const prev = state.playbackHistory.pop();
+            state.isNavigatingHistory = true;
+            if (typeof window.loadPlaylist === 'function') {
+                window.loadPlaylist(prev.playlist);
+            }
+            if (typeof window.activatePlaylistSelection === 'function') {
+                window.activatePlaylistSelection(prev.playlist);
+            }
+            playTrack(prev.trackIndex);
+            return;
+        }
+
         if (!state.currentPlaylist || state.currentPlaylist.tracks.length === 0) return;
         
         const maxAttempts = state.currentPlaylist.tracks.length;

@@ -7,6 +7,8 @@ export const state = {
     isShuffleAll: false, // true = shuffle across all playlists
     isRepeat: false, // true = repeat playlist/track, false = no repeat
     lastVolume: 1.0,
+    playbackHistory: [],
+    isNavigatingHistory: false,
 
     // Web Audio API State
     audioCtx: null,
