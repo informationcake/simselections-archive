@@ -1,0 +1,5 @@
+# Blacklist specific artists entirely
+artist: muggib
+
+# Blacklist specific files by full path to prevent them from becoming orphaned
+file: 2021/Sim_Selections_MAY_2021/07. Wonky Robot - Sim Selections May.mp3

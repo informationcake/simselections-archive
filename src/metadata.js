@@ -72,9 +72,9 @@ export const playlistData = [
                 "trackNo": 6,
                 "artist": "Wonky Robot",
                 "title": "untitled",
-                "file": "2021/Sim_Selections_MAY_2021/07. Wonky Robot - Sim Selections May.mp3",
+                "file": "2021/Sim_Selections_MAY_2021/08. Wonky Robot - Sim Selections May (video).mp4",
                 "link": "",
-                "length": 224.06,
+                "length": 224.0,
                 "canonical_artists": [
                     "wonkyrobot"
                 ]
@@ -99,17 +99,6 @@ export const playlistData = [
                 "length": 238.68,
                 "canonical_artists": [
                     "menhirs"
-                ]
-            },
-            {
-                "trackNo": 8,
-                "artist": "Wonky Robot",
-                "title": "Sim Selections May (video)",
-                "file": "2021/Sim_Selections_MAY_2021/08. Wonky Robot - Sim Selections May (video).mp4",
-                "link": "",
-                "length": 224.0,
-                "canonical_artists": [
-                    "wonkyrobot"
                 ]
             },
             {
@@ -7078,17 +7067,6 @@ export const playlistData = [
             },
             {
                 "trackNo": 10,
-                "artist": "Muggi B",
-                "title": "Breaks From Thieves",
-                "file": "2023/Sim_Selections_AUGUST_2023/10. Muggi B - Breaks From Thieves.mp3",
-                "link": "",
-                "length": 155.72,
-                "canonical_artists": [
-                    "muggib"
-                ]
-            },
-            {
-                "trackNo": 10,
                 "artist": "One Track Mind",
                 "title": "Nostalgia (Clues)",
                 "file": "2023/Sim_Selections_AUGUST_2023/09. One Track Mind - Nostalgia (Clues).mp3",
@@ -11054,17 +11032,6 @@ export const playlistData = [
                 "canonical_artists": [
                     "poetryinnoise"
                 ]
-            },
-            {
-                "trackNo": 37,
-                "artist": "Muggi B",
-                "title": "Land of Lobotomise",
-                "file": "2024/Sim_Selections_JUNE_2024/37. Muggi B - Land of Lobotomise.mp4",
-                "link": "",
-                "length": 275.05,
-                "canonical_artists": [
-                    "muggib"
-                ]
             }
         ]
     },
@@ -11190,17 +11157,6 @@ export const playlistData = [
                 "length": 122.23,
                 "canonical_artists": [
                     "hunterthegatherer"
-                ]
-            },
-            {
-                "trackNo": 10,
-                "artist": "Muggi B",
-                "title": "OFFLINE",
-                "file": "2024/Sim_Selections_JULY_2024/10. Muggi B - OFFLINE.mp3",
-                "link": "",
-                "length": 248.03,
-                "canonical_artists": [
-                    "muggib"
                 ]
             },
             {

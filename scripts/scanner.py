@@ -231,7 +231,35 @@ def is_artist_opted_in(artist, optin_sets, context=""):
     return True
 
 
-def build_playlist_entry(playlist_id, playlist_name, folder_year, month, meta, folder_path, year, folder_name, files, optin_artists=None):
+def load_blacklist():
+    """
+    Reads blacklist.txt in DATA_DIR or PROJECT_ROOT. Returns a tuple (blacklisted_artists, blacklisted_files).
+    """
+    candidate_paths = [
+        os.path.join(DATA_DIR, "blacklist.txt"),
+        os.path.join(PROJECT_ROOT, "blacklist.txt")
+    ]
+    blacklisted_artists = set()
+    blacklisted_files = set()
+    for path in candidate_paths:
+        if os.path.exists(path):
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith('#'):
+                            if line.lower().startswith("artist:"):
+                                artist = line[7:].strip()
+                                blacklisted_artists.add(clean_string(artist))
+                            elif line.lower().startswith("file:"):
+                                file_path = line[5:].strip()
+                                blacklisted_files.add(file_path)
+            except Exception as e:
+                print(f"Warning: Could not read blacklist file at {path}: {e}")
+    return (blacklisted_artists, blacklisted_files)
+
+
+def build_playlist_entry(playlist_id, playlist_name, folder_year, month, meta, folder_path, year, folder_name, files, optin_artists=None, blacklisted_artists=None, blacklisted_files=None):
     """
     Constructs a full playlist metadata object by cross-referencing local files 
     with Google Sheets metadata.
@@ -299,13 +327,20 @@ def build_playlist_entry(playlist_id, playlist_name, folder_year, month, meta, f
             artist = " - ".join(parts[:best_split_idx]).strip()
             title = " - ".join(parts[best_split_idx:]).strip()
 
-        file_candidates.append({
+        candidate = {
             "trackNo": track_no,
             "artist": artist,
             "title": title,
             "file": file_path,
             "key": (clean_string(artist), clean_string(title))
-        })
+        }
+        
+        if blacklisted_files and file_path in blacklisted_files:
+            continue
+        if blacklisted_artists and candidate["key"][0] in blacklisted_artists:
+            continue
+            
+        file_candidates.append(candidate)
 
     def find_matching_file(track_artist, track_title, track_no):
         """
@@ -423,6 +458,9 @@ def build_playlist_entry(playlist_id, playlist_name, folder_year, month, meta, f
         artist = (track.get("artist") or "Unknown Artist").strip()
         title = (track.get("title") or "").strip()
         if not artist and not title:
+            continue
+            
+        if blacklisted_artists and clean_string(artist) in blacklisted_artists:
             continue
 
         track_no = track.get("trackNo") or 0
@@ -669,6 +707,7 @@ def run_scan(music_dir, verbose=False):
     filename_warnings = []
     naming_warnings = []
     optin_artists = load_optin_artists()
+    blacklisted_artists, blacklisted_files = load_blacklist()
 
     # Map to store month metadata
     meta_map = {}
@@ -877,6 +916,8 @@ def run_scan(music_dir, verbose=False):
                     folder_name=folder,
                     files=files,
                     optin_artists=optin_artists,
+                    blacklisted_artists=blacklisted_artists,
+                    blacklisted_files=blacklisted_files,
                 )
                 if playlist_entry:
                     playlists.append(playlist_entry)
@@ -900,6 +941,8 @@ def run_scan(music_dir, verbose=False):
             folder_name="",
             files=[],
             optin_artists=optin_artists,
+            blacklisted_artists=blacklisted_artists,
+            blacklisted_files=blacklisted_files,
         )
         if playlist_entry:
             existing_ids = {p["id"] for p in playlists}
