@@ -1512,8 +1512,8 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 8,
-                "artist": "lauren",
+                "trackNo": 9,
+                "artist": "Lauren",
                 "title": "some chromophone taps",
                 "file": "2022/Sim_Selections_JANUARY_2022/08. lauren - some chromophone taps.mp3",
                 "link": "",
@@ -1523,9 +1523,9 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 9,
+                "trackNo": 10,
                 "artist": "Lauren",
-                "title": "some chromophone taps; spent 2h making it this bad",
+                "title": "spent 2h making it this bad",
                 "file": "2022/Sim_Selections_JANUARY_2022/09. lauren - spent 2h making it this bad.mp3",
                 "link": "",
                 "length": 24.84,
@@ -1534,7 +1534,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 10,
+                "trackNo": 11,
                 "artist": "liquidkey",
                 "title": "glass half full",
                 "file": "2022/Sim_Selections_JANUARY_2022/10. liquidkey - glass half full.mp3",
@@ -1545,7 +1545,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 11,
+                "trackNo": 12,
                 "artist": "nedogled",
                 "title": "solar panels will not save us",
                 "file": "2022/Sim_Selections_JANUARY_2022/11. nedogled - solar panels will not save us.mp3",
@@ -1556,7 +1556,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 12,
+                "trackNo": 13,
                 "artist": "NGC 3019",
                 "title": "Low Vapour Pressure",
                 "file": "2022/Sim_Selections_JANUARY_2022/12. NGC 3019 - Low Vapour Pressure.mp3",
@@ -1567,7 +1567,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 13,
+                "trackNo": 14,
                 "artist": "Plesiotone",
                 "title": "The Pumpkin Beer Microwave Incident",
                 "file": "2022/Sim_Selections_JANUARY_2022/13. plesiotone - The Punpkin Beer Microwave Incident.mp3",
@@ -1578,7 +1578,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 14,
+                "trackNo": 15,
                 "artist": "Sparga",
                 "title": "Song of the Sad Screwdriver",
                 "file": "2022/Sim_Selections_JANUARY_2022/14. Sparga - Song of the Sad Screwdriver.mp3",
@@ -1589,7 +1589,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 15,
+                "trackNo": 16,
                 "artist": "stoic",
                 "title": "Sephrim 9",
                 "file": "2022/Sim_Selections_JANUARY_2022/15. stoic - Sephrim 9.mp3",
@@ -1600,7 +1600,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 16,
+                "trackNo": 17,
                 "artist": "Theodore Snoozevelt",
                 "title": "the high price of clownery",
                 "file": "2022/Sim_Selections_JANUARY_2022/16. Theodore Snoozevelt - the high price of clownery.mp3",
@@ -1611,7 +1611,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 17,
+                "trackNo": 18,
                 "artist": "Thomas and the Evil Computer",
                 "title": "Low Job",
                 "file": "2022/Sim_Selections_JANUARY_2022/17. Thomas and the Evil Computer - Low Job.mp3",
@@ -1622,7 +1622,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 18,
+                "trackNo": 19,
                 "artist": "Viiri",
                 "title": "Mmoni",
                 "file": "2022/Sim_Selections_JANUARY_2022/18. Viiri - Mmoni.mp3",
@@ -1633,7 +1633,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 19,
+                "trackNo": 20,
                 "artist": "Wonky Robot",
                 "title": "Dancing Alone",
                 "file": "2022/Sim_Selections_JANUARY_2022/19. Wonky Robot - Dancing Alone.mp3",
@@ -1644,7 +1644,7 @@ export const playlistData = [
                 ]
             },
             {
-                "trackNo": 20,
+                "trackNo": 21,
                 "artist": "ZeroApr",
                 "title": "Bwrrrang Town",
                 "file": "2022/Sim_Selections_JANUARY_2022/20. zeroApr - Bwrrrang Town.mp3",
@@ -5869,7 +5869,7 @@ export const playlistData = [
             "towering"
         ],
         "challenge": "",
-        "streamUrl": "https://www.youtube.com/watch?v=odfagKt4ZH4",
+        "streamUrl": "https://www.youtube.com/watch?v=UcAq28nt3jw",
         "tracks": [
             {
                 "trackNo": 1,
@@ -11359,7 +11359,7 @@ export const playlistData = [
             "shaky"
         ],
         "challenge": "Use the Fibonacci sequence in any and all of the ways you can think of! e.g. for rhythms/timings, chord/melody progressions, song structure, parameter automation, and who knows what else!",
-        "streamUrl": "https://www.youtube.com/watch?v=HPXLEDZ-IFQ",
+        "streamUrl": "https://www.youtube.com/watch?v=BS1EZcVrl80",
         "tracks": [
             {
                 "trackNo": 1,
@@ -12632,7 +12632,7 @@ export const playlistData = [
             "curly"
         ],
         "challenge": "Microtonal",
-        "streamUrl": "https://www.youtube.com/watch?v=YA-m5XYHvIw",
+        "streamUrl": "https://www.youtube.com/watch?v=gb7wUz7yYFM",
         "tracks": [
             {
                 "trackNo": 1,
@@ -16012,7 +16012,7 @@ export const playlistData = [
             "Imperfect"
         ],
         "challenge": "Challenge the listener. We're talking unexpected sounds/timings/progressions/inter-genres, whatever devices you can think of to keep the listener questioning their musical reality. Break their expectations and the satisfaction they derive from sustained order, make them accept the inevitable decay of all systems into disorder.",
-        "streamUrl": "https://www.youtube.com/watch?v=NX_dPqAgTk0",
+        "streamUrl": "https://www.youtube.com/watch?v=0QfonxxBhtE",
         "tracks": [
             {
                 "trackNo": 1,
