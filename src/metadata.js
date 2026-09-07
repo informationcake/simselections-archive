@@ -22,6 +22,9 @@ export const playlistData = [
                 "length": 298.15,
                 "canonical_artists": [
                     "akemiya"
+                ],
+                "discord_users": [
+                    "akemiya"
                 ]
             },
             {
@@ -32,6 +35,9 @@ export const playlistData = [
                 "link": "",
                 "length": 173.64,
                 "canonical_artists": [
+                    "dogsander"
+                ],
+                "discord_users": [
                     "dogsander"
                 ]
             },
@@ -44,6 +50,9 @@ export const playlistData = [
                 "length": 364.9,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -54,6 +63,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/durkl1/the-arsonist",
                 "length": 288.07,
                 "canonical_artists": [
+                    "durkl"
+                ],
+                "discord_users": [
                     "durkl"
                 ]
             },
@@ -66,6 +78,9 @@ export const playlistData = [
                 "length": 90.07,
                 "canonical_artists": [
                     "ipsotheque"
+                ],
+                "discord_users": [
+                    "ipsotheque"
                 ]
             },
             {
@@ -77,6 +92,9 @@ export const playlistData = [
                 "length": 224.0,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -88,6 +106,9 @@ export const playlistData = [
                 "length": 140.35,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -99,6 +120,9 @@ export const playlistData = [
                 "length": 238.68,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -109,6 +133,9 @@ export const playlistData = [
                 "link": "",
                 "length": 188.14,
                 "canonical_artists": [
+                    "nextstopmars"
+                ],
+                "discord_users": [
                     "nextstopmars"
                 ]
             },
@@ -121,6 +148,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -132,6 +162,9 @@ export const playlistData = [
                 "length": 185.28,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -142,6 +175,9 @@ export const playlistData = [
                 "link": "",
                 "length": 141.82,
                 "canonical_artists": [
+                    "octalus"
+                ],
+                "discord_users": [
                     "octalus"
                 ]
             }
@@ -169,6 +205,9 @@ export const playlistData = [
                 "length": 26.9,
                 "canonical_artists": [
                     "applebutter"
+                ],
+                "discord_users": [
+                    "applebutter"
                 ]
             },
             {
@@ -179,6 +218,9 @@ export const playlistData = [
                 "link": "",
                 "length": 127.58,
                 "canonical_artists": [
+                    "dogsander"
+                ],
+                "discord_users": [
                     "dogsander"
                 ]
             },
@@ -191,6 +233,9 @@ export const playlistData = [
                 "length": 239.98,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -201,6 +246,9 @@ export const playlistData = [
                 "link": "",
                 "length": 226.44,
                 "canonical_artists": [
+                    "ipso"
+                ],
+                "discord_users": [
                     "ipso"
                 ]
             },
@@ -213,6 +261,9 @@ export const playlistData = [
                 "length": 215.3,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -224,6 +275,9 @@ export const playlistData = [
                 "length": 204.07,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -236,6 +290,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "menhirs",
                     "akemiya"
+                ],
+                "discord_users": [
+                    "pity",
+                    "akemiya"
                 ]
             },
             {
@@ -246,6 +304,9 @@ export const playlistData = [
                 "link": "",
                 "length": 120.07,
                 "canonical_artists": [
+                    "nextstopmars"
+                ],
+                "discord_users": [
                     "nextstopmars"
                 ]
             },
@@ -258,6 +319,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -268,6 +332,9 @@ export const playlistData = [
                 "link": "",
                 "length": 51.07,
                 "canonical_artists": [
+                    "theit"
+                ],
+                "discord_users": [
                     "theit"
                 ]
             },
@@ -280,6 +347,9 @@ export const playlistData = [
                 "length": 177.62,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -291,6 +361,9 @@ export const playlistData = [
                 "length": 212.93,
                 "canonical_artists": [
                     "tranendal"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             }
         ]
@@ -317,6 +390,9 @@ export const playlistData = [
                 "length": 300.96,
                 "canonical_artists": [
                     "akemiya"
+                ],
+                "discord_users": [
+                    "akemiya"
                 ]
             },
             {
@@ -327,6 +403,9 @@ export const playlistData = [
                 "link": "",
                 "length": 152.06,
                 "canonical_artists": [
+                    "anomaly"
+                ],
+                "discord_users": [
                     "anomaly"
                 ]
             },
@@ -339,6 +418,9 @@ export const playlistData = [
                 "length": 144.1,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -349,6 +431,9 @@ export const playlistData = [
                 "link": "",
                 "length": 179.9,
                 "canonical_artists": [
+                    "dogsander"
+                ],
+                "discord_users": [
                     "dogsander"
                 ]
             },
@@ -361,6 +446,9 @@ export const playlistData = [
                 "length": 181.1,
                 "canonical_artists": [
                     "durkl"
+                ],
+                "discord_users": [
+                    "durkl"
                 ]
             },
             {
@@ -372,6 +460,9 @@ export const playlistData = [
                 "length": 181.63,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -383,6 +474,9 @@ export const playlistData = [
                 "length": 187.27,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -394,6 +488,9 @@ export const playlistData = [
                 "length": 172.37,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -405,6 +502,10 @@ export const playlistData = [
                 "length": 225.07,
                 "canonical_artists": [
                     "menhirs",
+                    "nornec"
+                ],
+                "discord_users": [
+                    "pity",
                     "nornec"
                 ]
             },
@@ -418,6 +519,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "ngc3019",
                     "nextstopmars"
+                ],
+                "discord_users": [
+                    "ngc  3019",
+                    "nextstopmars"
                 ]
             },
             {
@@ -429,6 +534,9 @@ export const playlistData = [
                 "length": 165.07,
                 "canonical_artists": [
                     "obselysium"
+                ],
+                "discord_users": [
+                    "goog"
                 ]
             },
             {
@@ -439,6 +547,9 @@ export const playlistData = [
                 "link": "",
                 "length": 160.13,
                 "canonical_artists": [
+                    "theit"
+                ],
+                "discord_users": [
                     "theit"
                 ]
             },
@@ -451,6 +562,9 @@ export const playlistData = [
                 "length": 184.87,
                 "canonical_artists": [
                     "unthank"
+                ],
+                "discord_users": [
+                    "unthank"
                 ]
             },
             {
@@ -462,6 +576,9 @@ export const playlistData = [
                 "length": 311.81,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -473,6 +590,9 @@ export const playlistData = [
                 "length": 151.3,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -483,6 +603,9 @@ export const playlistData = [
                 "link": "",
                 "length": 353.18,
                 "canonical_artists": [
+                    "ipso"
+                ],
+                "discord_users": [
                     "ipso"
                 ]
             },
@@ -495,6 +618,9 @@ export const playlistData = [
                 "length": 203.23,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             }
         ]
@@ -521,6 +647,9 @@ export const playlistData = [
                 "length": 65.11,
                 "canonical_artists": [
                     "ipso"
+                ],
+                "discord_users": [
+                    "ipso"
                 ]
             },
             {
@@ -532,6 +661,9 @@ export const playlistData = [
                 "length": 180.55,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -543,6 +675,9 @@ export const playlistData = [
                 "length": 306.43,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -554,6 +689,9 @@ export const playlistData = [
                 "length": 176.06,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -564,6 +702,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/durkl1/running-out-of-time",
                 "length": 203.98,
                 "canonical_artists": [
+                    "durkl"
+                ],
+                "discord_users": [
                     "durkl"
                 ]
             },
@@ -576,6 +717,9 @@ export const playlistData = [
                 "length": 179.9,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -587,6 +731,9 @@ export const playlistData = [
                 "length": 181.82,
                 "canonical_artists": [
                     "plesiotone"
+                ],
+                "discord_users": [
+                    "octalus"
                 ]
             },
             {
@@ -598,6 +745,9 @@ export const playlistData = [
                 "length": 223.92,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -609,6 +759,9 @@ export const playlistData = [
                 "length": 186.0,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -619,6 +772,9 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/the-ritual",
                 "length": 214.54,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -631,6 +787,9 @@ export const playlistData = [
                 "length": 159.24,
                 "canonical_artists": [
                     "zeroapr"
+                ],
+                "discord_users": [
+                    "zeroapr"
                 ]
             },
             {
@@ -641,6 +800,9 @@ export const playlistData = [
                 "link": "",
                 "length": 129.07,
                 "canonical_artists": [
+                    "dogsander"
+                ],
+                "discord_users": [
                     "dogsander"
                 ]
             },
@@ -653,6 +815,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -664,6 +829,9 @@ export const playlistData = [
                 "length": 202.73,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -674,6 +842,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/unthank/sim-selections-august-benn-midi",
                 "length": 161.69,
                 "canonical_artists": [
+                    "unthank"
+                ],
+                "discord_users": [
                     "unthank"
                 ]
             },
@@ -686,6 +857,9 @@ export const playlistData = [
                 "length": 206.54,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -697,6 +871,9 @@ export const playlistData = [
                 "length": 224.06,
                 "canonical_artists": [
                     "kitsunemachines"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -708,6 +885,9 @@ export const playlistData = [
                 "length": 231.22,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -718,6 +898,9 @@ export const playlistData = [
                 "link": "",
                 "length": 196.08,
                 "canonical_artists": [
+                    "christopherfloyd"
+                ],
+                "discord_users": [
                     "christopherfloyd"
                 ]
             }
@@ -745,6 +928,9 @@ export const playlistData = [
                 "length": 259.18,
                 "canonical_artists": [
                     "myrrys"
+                ],
+                "discord_users": [
+                    "myrrys"
                 ]
             },
             {
@@ -754,6 +940,9 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/2NX8bddJcr8",
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -766,6 +955,9 @@ export const playlistData = [
                 "length": 152.93,
                 "canonical_artists": [
                     "kitsunemachines"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -776,6 +968,9 @@ export const playlistData = [
                 "link": "",
                 "length": 232.61,
                 "canonical_artists": [
+                    "paroxysmalnocturnaldyspneapnd"
+                ],
+                "discord_users": [
                     "paroxysmalnocturnaldyspneapnd"
                 ]
             },
@@ -788,6 +983,9 @@ export const playlistData = [
                 "length": 249.84,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -798,6 +996,9 @@ export const playlistData = [
                 "link": "",
                 "length": 180.94,
                 "canonical_artists": [
+                    "aplut"
+                ],
+                "discord_users": [
                     "aplut"
                 ]
             },
@@ -810,6 +1011,9 @@ export const playlistData = [
                 "length": 219.55,
                 "canonical_artists": [
                     "dividedhorizon"
+                ],
+                "discord_users": [
+                    "dividedhorizon"
                 ]
             },
             {
@@ -820,6 +1024,9 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/gentle-giant",
                 "length": 266.74,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -832,6 +1039,9 @@ export const playlistData = [
                 "length": 55.9,
                 "canonical_artists": [
                     "nedogled"
+                ],
+                "discord_users": [
+                    "nedogled"
                 ]
             },
             {
@@ -843,6 +1053,9 @@ export const playlistData = [
                 "length": 202.08,
                 "canonical_artists": [
                     "udinkhatola"
+                ],
+                "discord_users": [
+                    "udinkhatola"
                 ]
             },
             {
@@ -853,6 +1066,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=D0RXRPm6MOs",
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             }
         ]
@@ -879,6 +1095,9 @@ export const playlistData = [
                 "length": 94.27,
                 "canonical_artists": [
                     "stoic"
+                ],
+                "discord_users": [
+                    "stoic"
                 ]
             },
             {
@@ -889,6 +1108,9 @@ export const playlistData = [
                 "link": "",
                 "length": 98.3,
                 "canonical_artists": [
+                    "theit"
+                ],
+                "discord_users": [
                     "theit"
                 ]
             },
@@ -901,6 +1123,9 @@ export const playlistData = [
                 "length": 313.49,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -911,6 +1136,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/charles-ginsberg/private-poets-entropy-1",
                 "length": 196.08,
                 "canonical_artists": [
+                    "zeroapr"
+                ],
+                "discord_users": [
                     "zeroapr"
                 ]
             },
@@ -923,6 +1151,9 @@ export const playlistData = [
                 "length": 175.27,
                 "canonical_artists": [
                     "durkl"
+                ],
+                "discord_users": [
+                    "durkl"
                 ]
             },
             {
@@ -934,6 +1165,9 @@ export const playlistData = [
                 "length": 147.77,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -944,6 +1178,9 @@ export const playlistData = [
                 "link": "",
                 "length": 83.59,
                 "canonical_artists": [
+                    "unthank"
+                ],
+                "discord_users": [
                     "unthank"
                 ]
             },
@@ -956,6 +1193,9 @@ export const playlistData = [
                 "length": 341.02,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -966,6 +1206,9 @@ export const playlistData = [
                 "link": "",
                 "length": 149.45,
                 "canonical_artists": [
+                    "nedogled"
+                ],
+                "discord_users": [
                     "nedogled"
                 ]
             },
@@ -978,6 +1221,9 @@ export const playlistData = [
                 "length": 189.43,
                 "canonical_artists": [
                     "fjaru"
+                ],
+                "discord_users": [
+                    "fjaru"
                 ]
             },
             {
@@ -989,6 +1235,9 @@ export const playlistData = [
                 "length": 192.07,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -999,6 +1248,9 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/the-death-of-song",
                 "length": 254.47,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -1011,6 +1263,9 @@ export const playlistData = [
                 "length": 162.41,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -1022,6 +1277,9 @@ export const playlistData = [
                 "length": 254.3,
                 "canonical_artists": [
                     "sparga"
+                ],
+                "discord_users": [
+                    "multivax"
                 ]
             },
             {
@@ -1033,6 +1291,9 @@ export const playlistData = [
                 "length": 114.5,
                 "canonical_artists": [
                     "agentvx"
+                ],
+                "discord_users": [
+                    "agent vx"
                 ]
             },
             {
@@ -1043,6 +1304,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/aplutofficial/rediscovery",
                 "length": 143.38,
                 "canonical_artists": [
+                    "aplut"
+                ],
+                "discord_users": [
                     "aplut"
                 ]
             },
@@ -1055,6 +1319,9 @@ export const playlistData = [
                 "length": 145.34,
                 "canonical_artists": [
                     "kitsunemachines"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -1066,6 +1333,9 @@ export const playlistData = [
                 "length": 112.51,
                 "canonical_artists": [
                     "plesiotone"
+                ],
+                "discord_users": [
+                    "octalus"
                 ]
             },
             {
@@ -1077,6 +1347,9 @@ export const playlistData = [
                 "length": 157.2,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -1088,6 +1361,9 @@ export const playlistData = [
                 "length": 65.52,
                 "canonical_artists": [
                     "obselysium"
+                ],
+                "discord_users": [
+                    "goog"
                 ]
             },
             {
@@ -1099,6 +1375,9 @@ export const playlistData = [
                 "length": 214.18,
                 "canonical_artists": [
                     "mrdr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             }
         ]
@@ -1125,6 +1404,9 @@ export const playlistData = [
                 "length": 239.66,
                 "canonical_artists": [
                     "agentvx"
+                ],
+                "discord_users": [
+                    "agent vx"
                 ]
             },
             {
@@ -1135,6 +1417,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/aplutofficial/watching-time-go-by",
                 "length": 297.58,
                 "canonical_artists": [
+                    "aplut"
+                ],
+                "discord_users": [
                     "aplut"
                 ]
             },
@@ -1147,6 +1432,9 @@ export const playlistData = [
                 "length": 250.7,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -1157,6 +1445,9 @@ export const playlistData = [
                 "link": "",
                 "length": 234.29,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -1169,6 +1460,9 @@ export const playlistData = [
                 "length": 88.58,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -1180,6 +1474,9 @@ export const playlistData = [
                 "length": 106.42,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -1190,6 +1487,9 @@ export const playlistData = [
                 "link": "",
                 "length": 357.24,
                 "canonical_artists": [
+                    "ipso"
+                ],
+                "discord_users": [
                     "ipso"
                 ]
             },
@@ -1202,6 +1502,9 @@ export const playlistData = [
                 "length": 180.07,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -1213,6 +1516,9 @@ export const playlistData = [
                 "length": 254.14,
                 "canonical_artists": [
                     "justbelowpurgatory"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -1224,6 +1530,9 @@ export const playlistData = [
                 "length": 257.57,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -1234,6 +1543,9 @@ export const playlistData = [
                 "link": "",
                 "length": 210.91,
                 "canonical_artists": [
+                    "lauren"
+                ],
+                "discord_users": [
                     "lauren"
                 ]
             },
@@ -1246,6 +1558,9 @@ export const playlistData = [
                 "length": 221.62,
                 "canonical_artists": [
                     "liquidkey"
+                ],
+                "discord_users": [
+                    "surfin_bird"
                 ]
             },
             {
@@ -1257,6 +1572,9 @@ export const playlistData = [
                 "length": 277.18,
                 "canonical_artists": [
                     "mygloomymachine"
+                ],
+                "discord_users": [
+                    "my gloomy machine"
                 ]
             },
             {
@@ -1267,6 +1585,9 @@ export const playlistData = [
                 "link": "",
                 "length": 85.44,
                 "canonical_artists": [
+                    "nedogled"
+                ],
+                "discord_users": [
                     "nedogled"
                 ]
             },
@@ -1279,6 +1600,9 @@ export const playlistData = [
                 "length": 204.86,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -1289,6 +1613,9 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/warlord-unreal-remix",
                 "length": 193.78,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -1301,6 +1628,9 @@ export const playlistData = [
                 "length": 215.02,
                 "canonical_artists": [
                     "obselysium"
+                ],
+                "discord_users": [
+                    "goog"
                 ]
             },
             {
@@ -1312,6 +1642,9 @@ export const playlistData = [
                 "length": 264.07,
                 "canonical_artists": [
                     "rikumorten"
+                ],
+                "discord_users": [
+                    "riku"
                 ]
             },
             {
@@ -1322,6 +1655,9 @@ export const playlistData = [
                 "link": "",
                 "length": 57.89,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -1334,6 +1670,9 @@ export const playlistData = [
                 "length": 144.14,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -1345,6 +1684,9 @@ export const playlistData = [
                 "length": 555.17,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -1356,6 +1698,9 @@ export const playlistData = [
                 "length": 148.54,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -1367,6 +1712,9 @@ export const playlistData = [
                 "length": 103.01,
                 "canonical_artists": [
                     "zeroapr"
+                ],
+                "discord_users": [
+                    "zeroapr"
                 ]
             },
             {
@@ -1376,6 +1724,9 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -1387,6 +1738,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "bennjordan"
+                ],
+                "discord_users": [
+                    "jordan"
                 ]
             },
             {
@@ -1397,6 +1751,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "bennjordan"
+                ],
+                "discord_users": [
+                    "jordan"
                 ]
             },
             {
@@ -1407,6 +1764,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "bennjordan"
+                ],
+                "discord_users": [
+                    "jordan"
                 ]
             }
         ]
@@ -1433,6 +1793,9 @@ export const playlistData = [
                 "length": 60.72,
                 "canonical_artists": [
                     "agentvx"
+                ],
+                "discord_users": [
+                    "agent vx"
                 ]
             },
             {
@@ -1443,6 +1806,9 @@ export const playlistData = [
                 "link": "https://youtu.be/Nq5q-gB9Dfc",
                 "length": 149.06,
                 "canonical_artists": [
+                    "aplut"
+                ],
+                "discord_users": [
                     "aplut"
                 ]
             },
@@ -1455,6 +1821,9 @@ export const playlistData = [
                 "length": 375.05,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -1465,6 +1834,9 @@ export const playlistData = [
                 "link": "",
                 "length": 142.78,
                 "canonical_artists": [
+                    "equalsequals"
+                ],
+                "discord_users": [
                     "equalsequals"
                 ]
             },
@@ -1477,6 +1849,9 @@ export const playlistData = [
                 "length": 238.66,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -1487,6 +1862,9 @@ export const playlistData = [
                 "link": "https://informationcake.bandcamp.com/track/once-2",
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -1498,6 +1876,9 @@ export const playlistData = [
                 "length": 269.54,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -1509,6 +1890,9 @@ export const playlistData = [
                 "length": 160.68,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -1519,6 +1903,9 @@ export const playlistData = [
                 "link": "",
                 "length": 35.4,
                 "canonical_artists": [
+                    "lauren"
+                ],
+                "discord_users": [
                     "lauren"
                 ]
             },
@@ -1531,6 +1918,9 @@ export const playlistData = [
                 "length": 24.84,
                 "canonical_artists": [
                     "lauren"
+                ],
+                "discord_users": [
+                    "lauren"
                 ]
             },
             {
@@ -1542,6 +1932,9 @@ export const playlistData = [
                 "length": 160.08,
                 "canonical_artists": [
                     "liquidkey"
+                ],
+                "discord_users": [
+                    "surfin_bird"
                 ]
             },
             {
@@ -1552,6 +1945,9 @@ export const playlistData = [
                 "link": "",
                 "length": 133.01,
                 "canonical_artists": [
+                    "nedogled"
+                ],
+                "discord_users": [
                     "nedogled"
                 ]
             },
@@ -1564,6 +1960,9 @@ export const playlistData = [
                 "length": 193.92,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -1575,6 +1974,9 @@ export const playlistData = [
                 "length": 155.74,
                 "canonical_artists": [
                     "plesiotone"
+                ],
+                "discord_users": [
+                    "octalus"
                 ]
             },
             {
@@ -1586,6 +1988,9 @@ export const playlistData = [
                 "length": 255.07,
                 "canonical_artists": [
                     "sparga"
+                ],
+                "discord_users": [
+                    "multivax"
                 ]
             },
             {
@@ -1596,6 +2001,9 @@ export const playlistData = [
                 "link": "",
                 "length": 240.07,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -1608,6 +2016,9 @@ export const playlistData = [
                 "length": 97.75,
                 "canonical_artists": [
                     "theodoresnoozevelt"
+                ],
+                "discord_users": [
+                    "theodoresnoozevelt"
                 ]
             },
             {
@@ -1619,6 +2030,9 @@ export const playlistData = [
                 "length": 168.65,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -1630,6 +2044,9 @@ export const playlistData = [
                 "length": 73.92,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -1641,6 +2058,9 @@ export const playlistData = [
                 "length": 168.29,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -1651,6 +2071,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/charles-ginsberg/bwrang-town-final",
                 "length": 85.27,
                 "canonical_artists": [
+                    "zeroapr"
+                ],
+                "discord_users": [
                     "zeroapr"
                 ]
             }
@@ -1678,6 +2101,9 @@ export const playlistData = [
                 "length": 179.33,
                 "canonical_artists": [
                     "maxmattingly"
+                ],
+                "discord_users": [
+                    "maxmattingly"
                 ]
             },
             {
@@ -1690,6 +2116,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "agentvx",
                     "ken"
+                ],
+                "discord_users": [
+                    "agent vx",
+                    "ken"
                 ]
             },
             {
@@ -1700,6 +2130,9 @@ export const playlistData = [
                 "link": "",
                 "length": 192.94,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -1712,6 +2145,9 @@ export const playlistData = [
                 "length": 221.62,
                 "canonical_artists": [
                     "equalsequals"
+                ],
+                "discord_users": [
+                    "equalsequals"
                 ]
             },
             {
@@ -1722,6 +2158,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/hjorten/once-maybe-twice",
                 "length": 181.78,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -1734,6 +2173,9 @@ export const playlistData = [
                 "length": 105.41,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -1745,6 +2187,9 @@ export const playlistData = [
                 "length": 232.08,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -1756,6 +2201,9 @@ export const playlistData = [
                 "length": 192.12,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -1767,6 +2215,9 @@ export const playlistData = [
                 "length": 201.02,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -1778,6 +2229,9 @@ export const playlistData = [
                 "length": 197.21,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -1789,6 +2243,9 @@ export const playlistData = [
                 "length": 222.07,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -1800,6 +2257,9 @@ export const playlistData = [
                 "length": 217.54,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -1811,6 +2271,9 @@ export const playlistData = [
                 "length": 201.67,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -1821,6 +2284,9 @@ export const playlistData = [
                 "link": "",
                 "length": 166.8,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -1833,6 +2299,9 @@ export const playlistData = [
                 "length": 299.16,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -1844,6 +2313,9 @@ export const playlistData = [
                 "length": 329.95,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -1854,6 +2326,9 @@ export const playlistData = [
                 "link": "",
                 "length": 226.68,
                 "canonical_artists": [
+                    "innatedistance"
+                ],
+                "discord_users": [
                     "innatedistance"
                 ]
             },
@@ -1866,6 +2341,9 @@ export const playlistData = [
                 "length": 234.36,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -1877,6 +2355,9 @@ export const playlistData = [
                 "length": 154.1,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -1888,6 +2369,9 @@ export const playlistData = [
                 "length": 203.47,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -1899,6 +2383,9 @@ export const playlistData = [
                 "length": 180.07,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -1909,6 +2396,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/ipsotheque/thump-where-the-lost-balloons",
                 "length": 327.77,
                 "canonical_artists": [
+                    "ipso"
+                ],
+                "discord_users": [
                     "ipso"
                 ]
             },
@@ -1921,6 +2411,9 @@ export const playlistData = [
                 "length": 73.85,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -1930,6 +2423,9 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "canonical_artists": [
+                    "anthonybrechbill"
+                ],
+                "discord_users": [
                     "anthonybrechbill"
                 ]
             },
@@ -1941,6 +2437,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -1967,6 +2466,9 @@ export const playlistData = [
                 "length": 207.58,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -1977,6 +2479,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/charles-ginsberg/time-decay",
                 "length": 188.98,
                 "canonical_artists": [
+                    "zeroapr"
+                ],
+                "discord_users": [
                     "zeroapr"
                 ]
             },
@@ -1989,6 +2494,9 @@ export const playlistData = [
                 "length": 246.86,
                 "canonical_artists": [
                     "aplut"
+                ],
+                "discord_users": [
+                    "aplut"
                 ]
             },
             {
@@ -2000,6 +2508,9 @@ export const playlistData = [
                 "length": 162.53,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -2011,6 +2522,9 @@ export const playlistData = [
                 "length": 152.06,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -2022,6 +2536,9 @@ export const playlistData = [
                 "length": 249.53,
                 "canonical_artists": [
                     "undercoverbrother"
+                ],
+                "discord_users": [
+                    "undercover brother"
                 ]
             },
             {
@@ -2033,6 +2550,9 @@ export const playlistData = [
                 "length": 174.29,
                 "canonical_artists": [
                     "kitsunemachines"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -2044,6 +2564,9 @@ export const playlistData = [
                 "length": 358.34,
                 "canonical_artists": [
                     "tranendal"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -2055,6 +2578,9 @@ export const playlistData = [
                 "length": 227.06,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -2065,6 +2591,9 @@ export const playlistData = [
                 "link": "",
                 "length": 222.12,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -2077,6 +2606,9 @@ export const playlistData = [
                 "length": 237.89,
                 "canonical_artists": [
                     "durkl"
+                ],
+                "discord_users": [
+                    "durkl"
                 ]
             },
             {
@@ -2087,6 +2619,9 @@ export const playlistData = [
                 "link": "https://khaotomsunrise.bandcamp.com/track/pyrite-mining",
                 "length": 232.51,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -2099,6 +2634,9 @@ export const playlistData = [
                 "length": 300.79,
                 "canonical_artists": [
                     "equalsequals"
+                ],
+                "discord_users": [
+                    "equalsequals"
                 ]
             },
             {
@@ -2109,6 +2647,9 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/f-at-the-end-of-time",
                 "length": 284.64,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -2121,6 +2662,9 @@ export const playlistData = [
                 "length": 245.45,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -2132,6 +2676,9 @@ export const playlistData = [
                 "length": 299.11,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -2142,6 +2689,9 @@ export const playlistData = [
                 "link": "",
                 "length": 319.9,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -2154,6 +2704,9 @@ export const playlistData = [
                 "length": 245.62,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -2165,6 +2718,9 @@ export const playlistData = [
                 "length": 180.14,
                 "canonical_artists": [
                     "ashleychapman"
+                ],
+                "discord_users": [
+                    "ashchap"
                 ]
             },
             {
@@ -2176,6 +2732,9 @@ export const playlistData = [
                 "length": 176.71,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -2187,6 +2746,9 @@ export const playlistData = [
                 "length": 260.06,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -2198,6 +2760,9 @@ export const playlistData = [
                 "length": 293.71,
                 "canonical_artists": [
                     "ipso"
+                ],
+                "discord_users": [
+                    "ipso"
                 ]
             },
             {
@@ -2207,6 +2772,9 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "canonical_artists": [
+                    "gero"
+                ],
+                "discord_users": [
                     "gero"
                 ]
             }
@@ -2234,6 +2802,9 @@ export const playlistData = [
                 "length": 154.9,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -2244,6 +2815,9 @@ export const playlistData = [
                 "link": "",
                 "length": 175.46,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -2256,6 +2830,9 @@ export const playlistData = [
                 "length": 163.73,
                 "canonical_artists": [
                     "ashleychapman"
+                ],
+                "discord_users": [
+                    "ashchap"
                 ]
             },
             {
@@ -2266,6 +2843,9 @@ export const playlistData = [
                 "link": "https://drive.google.com/file/d/1vSIWIM7zZBEKgKMuaQUbbZa83I80zlc2/view?usp=sharing",
                 "length": 152.04,
                 "canonical_artists": [
+                    "popbot"
+                ],
+                "discord_users": [
                     "popbot"
                 ]
             },
@@ -2278,6 +2858,9 @@ export const playlistData = [
                 "length": 134.06,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -2289,6 +2872,9 @@ export const playlistData = [
                 "length": 288.07,
                 "canonical_artists": [
                     "firstsun"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -2299,6 +2885,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/durkl1/inferno",
                 "length": 189.94,
                 "canonical_artists": [
+                    "durkl"
+                ],
+                "discord_users": [
                     "durkl"
                 ]
             },
@@ -2312,6 +2901,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "ngc3019",
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "ngc  3019"
                 ]
             },
             {
@@ -2322,6 +2915,9 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/kuiper-noir",
                 "length": 251.04,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -2334,6 +2930,9 @@ export const playlistData = [
                 "length": 183.86,
                 "canonical_artists": [
                     "mrdr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -2345,6 +2944,9 @@ export const playlistData = [
                 "length": 340.51,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -2355,6 +2957,9 @@ export const playlistData = [
                 "link": "https://khaotomsunrise.bandcamp.com/track/passing-pluto-in-reverse",
                 "length": 254.06,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -2367,6 +2972,9 @@ export const playlistData = [
                 "length": 272.11,
                 "canonical_artists": [
                     "plesiotone"
+                ],
+                "discord_users": [
+                    "octalus"
                 ]
             },
             {
@@ -2378,6 +2986,9 @@ export const playlistData = [
                 "length": 206.74,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -2389,6 +3000,9 @@ export const playlistData = [
                 "length": 179.45,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -2399,6 +3013,9 @@ export const playlistData = [
                 "link": "",
                 "length": 174.65,
                 "canonical_artists": [
+                    "michaelhenry"
+                ],
+                "discord_users": [
                     "michaelhenry"
                 ]
             },
@@ -2411,6 +3028,9 @@ export const playlistData = [
                 "length": 360.07,
                 "canonical_artists": [
                     "cataclystp"
+                ],
+                "discord_users": [
+                    "cataclystp"
                 ]
             },
             {
@@ -2422,6 +3042,9 @@ export const playlistData = [
                 "length": 236.06,
                 "canonical_artists": [
                     "sparga"
+                ],
+                "discord_users": [
+                    "multivax"
                 ]
             },
             {
@@ -2433,6 +3056,9 @@ export const playlistData = [
                 "length": 129.96,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -2444,6 +3070,9 @@ export const playlistData = [
                 "length": 155.43,
                 "canonical_artists": [
                     "ipso"
+                ],
+                "discord_users": [
+                    "ipso"
                 ]
             },
             {
@@ -2453,6 +3082,9 @@ export const playlistData = [
                 "file": "",
                 "link": "https://www.youtube.com/watch?v=eWA6LcxOzls",
                 "canonical_artists": [
+                    "theodoresnoozevelt"
+                ],
+                "discord_users": [
                     "theodoresnoozevelt"
                 ]
             }
@@ -2480,6 +3112,9 @@ export const playlistData = [
                 "length": 231.41,
                 "canonical_artists": [
                     "tranendal"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -2491,6 +3126,9 @@ export const playlistData = [
                 "length": 217.85,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -2502,6 +3140,9 @@ export const playlistData = [
                 "length": 348.17,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -2513,6 +3154,9 @@ export const playlistData = [
                 "length": 271.46,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -2523,6 +3167,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/popbot1/1-popbot-grist/s-zewidRsQzmz?si=5d4f0c033d574407826545d97bd64b0d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 230.21,
                 "canonical_artists": [
+                    "popbot"
+                ],
+                "discord_users": [
                     "popbot"
                 ]
             },
@@ -2535,6 +3182,9 @@ export const playlistData = [
                 "length": 236.06,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -2545,6 +3195,9 @@ export const playlistData = [
                 "link": "",
                 "length": 202.08,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -2557,6 +3210,9 @@ export const playlistData = [
                 "length": 225.96,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -2568,6 +3224,9 @@ export const playlistData = [
                 "length": 220.08,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -2578,6 +3237,10 @@ export const playlistData = [
                 "link": "https://nornec.bandcamp.com/track/one-hundred-acres-feat-ipso",
                 "length": 188.06,
                 "canonical_artists": [
+                    "ipso",
+                    "nornec"
+                ],
+                "discord_users": [
                     "ipso",
                     "nornec"
                 ]
@@ -2591,6 +3254,9 @@ export const playlistData = [
                 "length": 165.1,
                 "canonical_artists": [
                     "miyamoon"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -2601,6 +3267,9 @@ export const playlistData = [
                 "link": "",
                 "length": 248.11,
                 "canonical_artists": [
+                    "katt"
+                ],
+                "discord_users": [
                     "katt"
                 ]
             },
@@ -2613,6 +3282,9 @@ export const playlistData = [
                 "length": 184.2,
                 "canonical_artists": [
                     "compositecomplex"
+                ],
+                "discord_users": [
+                    "makhnos_mustache"
                 ]
             },
             {
@@ -2624,6 +3296,9 @@ export const playlistData = [
                 "length": 124.08,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -2634,6 +3309,9 @@ export const playlistData = [
                 "link": "",
                 "length": 188.86,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -2646,6 +3324,9 @@ export const playlistData = [
                 "length": 201.1,
                 "canonical_artists": [
                     "aplut"
+                ],
+                "discord_users": [
+                    "aplut"
                 ]
             },
             {
@@ -2656,6 +3337,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=4zCgY4MD9Y8",
                 "canonical_artists": [
                     "herrshield"
+                ],
+                "discord_users": [
+                    "herr shield"
                 ]
             },
             {
@@ -2666,6 +3350,10 @@ export const playlistData = [
                 "link": "",
                 "length": 101.2,
                 "canonical_artists": [
+                    "ipso",
+                    "nornec"
+                ],
+                "discord_users": [
                     "ipso",
                     "nornec"
                 ]
@@ -2694,6 +3382,9 @@ export const playlistData = [
                 "length": 260.26,
                 "canonical_artists": [
                     "acridmeteors"
+                ],
+                "discord_users": [
+                    "stoic and dreamer"
                 ]
             },
             {
@@ -2704,6 +3395,9 @@ export const playlistData = [
                 "link": "https://youtu.be/vqoC9oEstaw",
                 "length": 160.73,
                 "canonical_artists": [
+                    "aplut"
+                ],
+                "discord_users": [
                     "aplut"
                 ]
             },
@@ -2716,6 +3410,9 @@ export const playlistData = [
                 "length": 307.73,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -2727,6 +3424,9 @@ export const playlistData = [
                 "length": 202.63,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -2737,6 +3437,9 @@ export const playlistData = [
                 "link": "",
                 "length": 150.14,
                 "canonical_artists": [
+                    "krankgronker"
+                ],
+                "discord_users": [
                     "krankgronker"
                 ]
             },
@@ -2749,6 +3452,9 @@ export const playlistData = [
                 "length": 218.42,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -2760,6 +3466,9 @@ export const playlistData = [
                 "length": 420.07,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -2770,6 +3479,9 @@ export const playlistData = [
                 "link": "",
                 "length": 336.98,
                 "canonical_artists": [
+                    "kevhuman"
+                ],
+                "discord_users": [
                     "kevhuman"
                 ]
             },
@@ -2782,6 +3494,9 @@ export const playlistData = [
                 "length": 204.53,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -2792,6 +3507,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/popbot1/2-popbot-pocket-note/s-amAfU39rtBc?si=6964e1060ca847cfb399370b8f66a7ea&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 195.5,
                 "canonical_artists": [
+                    "popbot"
+                ],
+                "discord_users": [
                     "popbot"
                 ]
             },
@@ -2804,6 +3522,9 @@ export const playlistData = [
                 "length": 166.58,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -2814,6 +3535,9 @@ export const playlistData = [
                 "link": "",
                 "length": 173.35,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -2826,6 +3550,9 @@ export const playlistData = [
                 "length": 313.92,
                 "canonical_artists": [
                     "cooloutcoexist"
+                ],
+                "discord_users": [
+                    "simme"
                 ]
             },
             {
@@ -2837,6 +3564,9 @@ export const playlistData = [
                 "length": 281.14,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -2847,6 +3577,9 @@ export const playlistData = [
                 "link": "",
                 "length": 129.02,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -2859,6 +3592,9 @@ export const playlistData = [
                 "length": 226.94,
                 "canonical_artists": [
                     "herrshield"
+                ],
+                "discord_users": [
+                    "herr shield"
                 ]
             },
             {
@@ -2870,6 +3606,9 @@ export const playlistData = [
                 "length": 223.56,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -2880,6 +3619,9 @@ export const playlistData = [
                 "link": "",
                 "length": 238.85,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -2892,6 +3634,9 @@ export const playlistData = [
                 "length": 156.07,
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -2903,6 +3648,9 @@ export const playlistData = [
                 "length": 244.03,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -2914,6 +3662,9 @@ export const playlistData = [
                 "length": 314.28,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -2925,6 +3676,9 @@ export const playlistData = [
                 "length": 200.16,
                 "canonical_artists": [
                     "justbelowpurgatory"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -2936,6 +3690,9 @@ export const playlistData = [
                 "length": 329.59,
                 "canonical_artists": [
                     "mygloomymachine"
+                ],
+                "discord_users": [
+                    "my gloomy machine"
                 ]
             },
             {
@@ -2947,6 +3704,9 @@ export const playlistData = [
                 "length": 116.57,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -2958,6 +3718,9 @@ export const playlistData = [
                 "length": 85.27,
                 "canonical_artists": [
                     "theodoresnoozevelt"
+                ],
+                "discord_users": [
+                    "theodoresnoozevelt"
                 ]
             },
             {
@@ -2968,6 +3731,9 @@ export const playlistData = [
                 "link": "https://www.theflashbulb.co.uk/tba",
                 "canonical_artists": [
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714"
                 ]
             },
             {
@@ -2977,6 +3743,9 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "canonical_artists": [
+                    "hjorten"
+                ],
+                "discord_users": [
                     "hjorten"
                 ]
             }
@@ -3004,6 +3773,9 @@ export const playlistData = [
                 "length": 170.06,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -3016,6 +3788,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "catatronic",
                     "sparga"
+                ],
+                "discord_users": [
+                    "katt",
+                    "multivax"
                 ]
             },
             {
@@ -3027,6 +3803,9 @@ export const playlistData = [
                 "length": 243.24,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -3038,6 +3817,9 @@ export const playlistData = [
                 "length": 196.1,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -3049,6 +3831,9 @@ export const playlistData = [
                 "length": 191.33,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -3060,6 +3845,9 @@ export const playlistData = [
                 "length": 266.23,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -3071,6 +3859,9 @@ export const playlistData = [
                 "length": 169.66,
                 "canonical_artists": [
                     "krankgrokker"
+                ],
+                "discord_users": [
+                    "dogsander"
                 ]
             },
             {
@@ -3082,6 +3873,9 @@ export const playlistData = [
                 "length": 230.83,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -3094,6 +3888,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "popbot",
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa",
+                    "popbot"
                 ]
             },
             {
@@ -3105,6 +3903,9 @@ export const playlistData = [
                 "length": 145.08,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -3115,6 +3916,9 @@ export const playlistData = [
                 "link": "",
                 "length": 300.17,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -3127,6 +3931,9 @@ export const playlistData = [
                 "length": 204.84,
                 "canonical_artists": [
                     "stoic"
+                ],
+                "discord_users": [
+                    "stoic"
                 ]
             },
             {
@@ -3138,6 +3945,9 @@ export const playlistData = [
                 "length": 244.22,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -3150,6 +3960,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "dreamstatic",
                     "nornec"
+                ],
+                "discord_users": [
+                    "dream static",
+                    "nornec"
                 ]
             },
             {
@@ -3161,6 +3975,9 @@ export const playlistData = [
                 "length": 211.27,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -3172,6 +3989,9 @@ export const playlistData = [
                 "length": 146.28,
                 "canonical_artists": [
                     "duckpropaganda"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -3183,6 +4003,9 @@ export const playlistData = [
                 "length": 275.42,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -3194,6 +4017,9 @@ export const playlistData = [
                 "length": 268.63,
                 "canonical_artists": [
                     "miamoon"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -3204,6 +4030,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/popbot1/4-popbot-brain-termites/s-e5FR04c7bHC?si=e32eff8d808943c085d1700458bbf5c6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 251.42,
                 "canonical_artists": [
+                    "popbot"
+                ],
+                "discord_users": [
                     "popbot"
                 ]
             },
@@ -3216,6 +4045,9 @@ export const playlistData = [
                 "length": 116.06,
                 "canonical_artists": [
                     "soundsbyshawn"
+                ],
+                "discord_users": [
+                    "sfs"
                 ]
             },
             {
@@ -3227,6 +4059,9 @@ export const playlistData = [
                 "length": 229.18,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -3238,6 +4073,9 @@ export const playlistData = [
                 "length": 95.45,
                 "canonical_artists": [
                     "grbt"
+                ],
+                "discord_users": [
+                    "gamingrobot"
                 ]
             },
             {
@@ -3249,6 +4087,9 @@ export const playlistData = [
                 "length": 274.7,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -3260,6 +4101,9 @@ export const playlistData = [
                 "length": 153.7,
                 "canonical_artists": [
                     "plesiotone"
+                ],
+                "discord_users": [
+                    "octalus"
                 ]
             },
             {
@@ -3271,6 +4115,9 @@ export const playlistData = [
                 "length": 192.05,
                 "canonical_artists": [
                     "protocol"
+                ],
+                "discord_users": [
+                    "commanderviral"
                 ]
             },
             {
@@ -3282,6 +4129,9 @@ export const playlistData = [
                 "length": 231.77,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -3292,6 +4142,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/baby?si=809d4830c8cc4ace9e5d394a2c45cc6a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -3318,6 +4171,9 @@ export const playlistData = [
                 "length": 108.58,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -3328,6 +4184,9 @@ export const playlistData = [
                 "link": "https://chewy.skin/dandelion_dreams.mp3",
                 "length": 342.0,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -3340,6 +4199,9 @@ export const playlistData = [
                 "length": 153.29,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -3351,6 +4213,9 @@ export const playlistData = [
                 "length": 261.5,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -3361,6 +4226,9 @@ export const playlistData = [
                 "link": "",
                 "length": 289.87,
                 "canonical_artists": [
+                    "eukanhapponen"
+                ],
+                "discord_users": [
                     "eukanhapponen"
                 ]
             },
@@ -3373,6 +4241,9 @@ export const playlistData = [
                 "length": 260.88,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -3384,6 +4255,9 @@ export const playlistData = [
                 "length": 258.19,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -3395,6 +4269,9 @@ export const playlistData = [
                 "length": 113.3,
                 "canonical_artists": [
                     "plesiotone"
+                ],
+                "discord_users": [
+                    "octalus"
                 ]
             },
             {
@@ -3406,6 +4283,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "blipfactory"
+                ],
+                "discord_users": [
+                    "corey.ostman"
                 ]
             },
             {
@@ -3417,6 +4297,9 @@ export const playlistData = [
                 "length": 262.7,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -3428,6 +4311,9 @@ export const playlistData = [
                 "length": 226.49,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -3439,6 +4325,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "sparga"
+                ],
+                "discord_users": [
+                    "multivax"
                 ]
             },
             {
@@ -3450,6 +4339,9 @@ export const playlistData = [
                 "length": 253.66,
                 "canonical_artists": [
                     "catatronic"
+                ],
+                "discord_users": [
+                    "katt"
                 ]
             },
             {
@@ -3461,6 +4353,9 @@ export const playlistData = [
                 "length": 226.51,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -3472,6 +4367,9 @@ export const playlistData = [
                 "length": 253.66,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -3483,6 +4381,9 @@ export const playlistData = [
                 "length": 292.78,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -3494,6 +4395,9 @@ export const playlistData = [
                 "length": 339.7,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -3504,6 +4408,9 @@ export const playlistData = [
                 "link": "",
                 "length": 186.65,
                 "canonical_artists": [
+                    "krankgrotter"
+                ],
+                "discord_users": [
                     "krankgrotter"
                 ]
             },
@@ -3516,6 +4423,9 @@ export const playlistData = [
                 "length": 337.46,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -3526,6 +4436,9 @@ export const playlistData = [
                 "link": "",
                 "length": 231.05,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -3538,6 +4451,9 @@ export const playlistData = [
                 "length": 201.58,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -3549,6 +4465,9 @@ export const playlistData = [
                 "length": 330.65,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -3559,6 +4478,9 @@ export const playlistData = [
                 "link": "",
                 "length": 270.6,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -3572,6 +4494,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "popbot",
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static",
+                    "popbot"
                 ]
             },
             {
@@ -3583,6 +4509,9 @@ export const playlistData = [
                 "length": 292.15,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -3593,6 +4522,9 @@ export const playlistData = [
                 "link": "",
                 "length": 231.05,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -3605,6 +4537,9 @@ export const playlistData = [
                 "length": 321.58,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -3616,6 +4551,9 @@ export const playlistData = [
                 "length": 361.42,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -3627,6 +4565,9 @@ export const playlistData = [
                 "length": 244.22,
                 "canonical_artists": [
                     "rchestra"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -3640,6 +4581,11 @@ export const playlistData = [
                     "stoic",
                     "fjaru",
                     "acidrain"
+                ],
+                "discord_users": [
+                    "fjaru",
+                    "acidrain",
+                    "stoic"
                 ]
             },
             {
@@ -3651,6 +4597,9 @@ export const playlistData = [
                 "length": 301.08,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -3662,6 +4611,9 @@ export const playlistData = [
                 "length": 271.46,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -3673,6 +4625,9 @@ export const playlistData = [
                 "length": 235.56,
                 "canonical_artists": [
                     "fjaru"
+                ],
+                "discord_users": [
+                    "fjaru"
                 ]
             },
             {
@@ -3683,6 +4638,9 @@ export const playlistData = [
                 "link": "",
                 "length": 276.91,
                 "canonical_artists": [
+                    "kevhuman"
+                ],
+                "discord_users": [
                     "kevhuman"
                 ]
             }
@@ -3710,6 +4668,9 @@ export const playlistData = [
                 "length": 190.18,
                 "canonical_artists": [
                     "popbot"
+                ],
+                "discord_users": [
+                    "popbot"
                 ]
             },
             {
@@ -3720,6 +4681,9 @@ export const playlistData = [
                 "link": "",
                 "length": 268.08,
                 "canonical_artists": [
+                    "undercover"
+                ],
+                "discord_users": [
                     "undercover"
                 ]
             },
@@ -3732,6 +4696,9 @@ export const playlistData = [
                 "length": 204.1,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -3743,6 +4710,9 @@ export const playlistData = [
                 "length": 279.07,
                 "canonical_artists": [
                     "blipfactory"
+                ],
+                "discord_users": [
+                    "corey.ostman"
                 ]
             },
             {
@@ -3753,6 +4723,9 @@ export const playlistData = [
                 "link": "",
                 "length": 172.44,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -3765,6 +4738,9 @@ export const playlistData = [
                 "length": 318.65,
                 "canonical_artists": [
                     "miamoon"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -3776,6 +4752,9 @@ export const playlistData = [
                 "length": 357.67,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -3787,6 +4766,9 @@ export const playlistData = [
                 "length": 216.34,
                 "canonical_artists": [
                     "kevhuman"
+                ],
+                "discord_users": [
+                    "kevhuman"
                 ]
             },
             {
@@ -3797,6 +4779,9 @@ export const playlistData = [
                 "link": "",
                 "length": 240.07,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -3810,6 +4795,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "adamjohanbergren",
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle",
+                    "ajbergren"
                 ]
             },
             {
@@ -3821,6 +4810,9 @@ export const playlistData = [
                 "length": 244.08,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -3832,6 +4824,9 @@ export const playlistData = [
                 "length": 219.07,
                 "canonical_artists": [
                     "catatronic"
+                ],
+                "discord_users": [
+                    "katt"
                 ]
             },
             {
@@ -3842,6 +4837,9 @@ export const playlistData = [
                 "link": "",
                 "length": 157.85,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -3854,6 +4852,9 @@ export const playlistData = [
                 "length": 232.9,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -3865,6 +4866,9 @@ export const playlistData = [
                 "length": 221.14,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -3876,6 +4880,9 @@ export const playlistData = [
                 "length": 212.81,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -3886,6 +4893,9 @@ export const playlistData = [
                 "link": "https://www.dropbox.com/s/0dtrsgbz4uc5y67/PonyArt%20-%20FRM%20guitar%20SelfMaster1.wav?dl=0",
                 "length": 312.89,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -3898,6 +4908,9 @@ export const playlistData = [
                 "length": 220.61,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -3908,6 +4921,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/snoozevelt/ex-chao",
                 "length": 97.82,
                 "canonical_artists": [
+                    "theodoresnoozevelt"
+                ],
+                "discord_users": [
                     "theodoresnoozevelt"
                 ]
             },
@@ -3920,6 +4936,9 @@ export const playlistData = [
                 "length": 169.99,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -3931,6 +4950,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -3942,6 +4964,9 @@ export const playlistData = [
                 "length": 340.75,
                 "canonical_artists": [
                     "tranendal"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -3953,6 +4978,9 @@ export const playlistData = [
                 "length": 373.42,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -3964,6 +4992,9 @@ export const playlistData = [
                 "length": 75.14,
                 "canonical_artists": [
                     "krankgrokker"
+                ],
+                "discord_users": [
+                    "dogsander"
                 ]
             },
             {
@@ -3975,6 +5006,9 @@ export const playlistData = [
                 "length": 213.05,
                 "canonical_artists": [
                     "kevinthorsen"
+                ],
+                "discord_users": [
+                    "kev"
                 ]
             },
             {
@@ -3986,6 +5020,9 @@ export const playlistData = [
                 "length": 249.46,
                 "canonical_artists": [
                     "anode"
+                ],
+                "discord_users": [
+                    "anode7[jo]"
                 ]
             },
             {
@@ -3997,6 +5034,9 @@ export const playlistData = [
                 "length": 240.14,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -4008,6 +5048,9 @@ export const playlistData = [
                 "length": 124.25,
                 "canonical_artists": [
                     "sparga"
+                ],
+                "discord_users": [
+                    "multivax"
                 ]
             },
             {
@@ -4019,6 +5062,9 @@ export const playlistData = [
                 "length": 340.61,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -4029,6 +5075,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/forever-god?si=b57873a3d6af436caf338dffdbfb6c2d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -4052,6 +5101,9 @@ export const playlistData = [
                 "length": 158.66,
                 "canonical_artists": [
                     "tranendal"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -4063,6 +5115,9 @@ export const playlistData = [
                 "length": 217.75,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -4073,6 +5128,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "bennjordan"
+                ],
+                "discord_users": [
+                    "jordan"
                 ]
             },
             {
@@ -4084,6 +5142,9 @@ export const playlistData = [
                 "length": 114.07,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -4095,6 +5156,9 @@ export const playlistData = [
                 "length": 182.02,
                 "canonical_artists": [
                     "catatronic"
+                ],
+                "discord_users": [
+                    "katt"
                 ]
             },
             {
@@ -4106,6 +5170,9 @@ export const playlistData = [
                 "length": 204.07,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -4117,6 +5184,9 @@ export const playlistData = [
                 "length": 272.09,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -4128,6 +5198,9 @@ export const playlistData = [
                 "length": 196.08,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -4139,6 +5212,9 @@ export const playlistData = [
                 "length": 209.3,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -4149,6 +5225,9 @@ export const playlistData = [
                 "link": "",
                 "length": 188.09,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -4161,6 +5240,9 @@ export const playlistData = [
                 "length": 282.96,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -4172,6 +5254,9 @@ export const playlistData = [
                 "length": 332.06,
                 "canonical_artists": [
                     "equalequals"
+                ],
+                "discord_users": [
+                    "lopezcartoons"
                 ]
             },
             {
@@ -4182,6 +5267,9 @@ export const playlistData = [
                 "link": "",
                 "length": 213.41,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -4194,6 +5282,9 @@ export const playlistData = [
                 "length": 259.3,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -4205,6 +5296,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -4216,6 +5310,9 @@ export const playlistData = [
                 "length": 257.09,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -4226,6 +5323,9 @@ export const playlistData = [
                 "link": "https://youtu.be/AKvFoW9Jd0U",
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             }
         ]
@@ -4252,6 +5352,9 @@ export const playlistData = [
                 "length": 274.2,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -4263,6 +5366,9 @@ export const playlistData = [
                 "length": 257.09,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -4274,6 +5380,9 @@ export const playlistData = [
                 "length": 355.3,
                 "canonical_artists": [
                     "viridian"
+                ],
+                "discord_users": [
+                    "viridianloom"
                 ]
             },
             {
@@ -4284,6 +5393,9 @@ export const playlistData = [
                 "link": "https://www.dropbox.com/s/50630038fnpbz0y/PonyArt%20-%20FRMS%20aphex%20SM1.1.wav?dl=0",
                 "length": 297.38,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -4296,6 +5408,9 @@ export const playlistData = [
                 "length": 176.28,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -4307,6 +5422,9 @@ export const playlistData = [
                 "length": 240.07,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -4318,6 +5436,9 @@ export const playlistData = [
                 "length": 254.57,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -4328,6 +5449,9 @@ export const playlistData = [
                 "link": "",
                 "length": 264.67,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -4340,6 +5464,9 @@ export const playlistData = [
                 "length": 205.54,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -4351,6 +5478,9 @@ export const playlistData = [
                 "length": 413.16,
                 "canonical_artists": [
                     "catatronic"
+                ],
+                "discord_users": [
+                    "katt"
                 ]
             },
             {
@@ -4361,6 +5491,9 @@ export const playlistData = [
                 "link": "",
                 "length": 288.07,
                 "canonical_artists": [
+                    "firephly"
+                ],
+                "discord_users": [
                     "firephly"
                 ]
             },
@@ -4373,6 +5506,9 @@ export const playlistData = [
                 "length": 245.9,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -4384,6 +5520,9 @@ export const playlistData = [
                 "length": 184.37,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -4394,6 +5533,9 @@ export const playlistData = [
                 "link": "https://drive.google.com/drive/folders/1ukaUZ9RBhXKtz-uT07qOW08NPvzOA1GF?usp=share_link",
                 "length": 158.69,
                 "canonical_artists": [
+                    "popbot"
+                ],
+                "discord_users": [
                     "popbot"
                 ]
             },
@@ -4406,6 +5548,9 @@ export const playlistData = [
                 "length": 132.07,
                 "canonical_artists": [
                     "ipso"
+                ],
+                "discord_users": [
+                    "ipso"
                 ]
             },
             {
@@ -4416,6 +5561,9 @@ export const playlistData = [
                 "link": "",
                 "length": 116.86,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -4428,6 +5576,9 @@ export const playlistData = [
                 "length": 135.07,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -4439,6 +5590,9 @@ export const playlistData = [
                 "length": 299.69,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -4450,6 +5604,9 @@ export const playlistData = [
                 "length": 147.77,
                 "canonical_artists": [
                     "sleeptelevision"
+                ],
+                "discord_users": [
+                    "sleep television"
                 ]
             },
             {
@@ -4460,6 +5617,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/snoozevelt/de_theo",
                 "length": 103.15,
                 "canonical_artists": [
+                    "theodoresnoozevelt"
+                ],
+                "discord_users": [
                     "theodoresnoozevelt"
                 ]
             },
@@ -4472,6 +5632,9 @@ export const playlistData = [
                 "length": 179.62,
                 "canonical_artists": [
                     "ashleychapman"
+                ],
+                "discord_users": [
+                    "ashchap"
                 ]
             },
             {
@@ -4482,6 +5645,9 @@ export const playlistData = [
                 "link": "",
                 "length": 205.51,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -4494,6 +5660,9 @@ export const playlistData = [
                 "length": 121.8,
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -4505,6 +5674,9 @@ export const playlistData = [
                 "length": 221.02,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -4516,6 +5688,9 @@ export const playlistData = [
                 "length": 211.54,
                 "canonical_artists": [
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -4526,6 +5701,9 @@ export const playlistData = [
                 "link": "",
                 "length": 191.21,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -4538,6 +5716,9 @@ export const playlistData = [
                 "length": 176.49,
                 "canonical_artists": [
                     "zeroapr"
+                ],
+                "discord_users": [
+                    "zeroapr"
                 ]
             },
             {
@@ -4549,6 +5730,9 @@ export const playlistData = [
                 "length": 219.57,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             }
         ]
@@ -4575,6 +5759,9 @@ export const playlistData = [
                 "length": 226.37,
                 "canonical_artists": [
                     "firstsun"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -4585,6 +5772,9 @@ export const playlistData = [
                 "link": "",
                 "length": 230.09,
                 "canonical_artists": [
+                    "blushakimbo"
+                ],
+                "discord_users": [
                     "blushakimbo"
                 ]
             },
@@ -4597,6 +5787,9 @@ export const playlistData = [
                 "length": 210.6,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -4608,6 +5801,9 @@ export const playlistData = [
                 "length": 93.67,
                 "canonical_artists": [
                     "firstsun"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -4619,6 +5815,9 @@ export const playlistData = [
                 "length": 200.09,
                 "canonical_artists": [
                     "protocol"
+                ],
+                "discord_users": [
+                    "commanderviral"
                 ]
             },
             {
@@ -4629,6 +5828,9 @@ export const playlistData = [
                 "link": "",
                 "length": 182.06,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -4641,6 +5843,9 @@ export const playlistData = [
                 "length": 266.02,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -4652,6 +5857,9 @@ export const playlistData = [
                 "length": 338.5,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -4663,6 +5871,9 @@ export const playlistData = [
                 "length": 255.31,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -4674,6 +5885,9 @@ export const playlistData = [
                 "length": 300.07,
                 "canonical_artists": [
                     "hojascirculares"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -4685,6 +5899,9 @@ export const playlistData = [
                 "length": 146.6,
                 "canonical_artists": [
                     "tessellationrow"
+                ],
+                "discord_users": [
+                    "tessellation row"
                 ]
             },
             {
@@ -4695,6 +5912,9 @@ export const playlistData = [
                 "link": "",
                 "length": 185.74,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -4707,6 +5927,9 @@ export const playlistData = [
                 "length": 176.57,
                 "canonical_artists": [
                     "zeroapr"
+                ],
+                "discord_users": [
+                    "zeroapr"
                 ]
             },
             {
@@ -4717,6 +5940,9 @@ export const playlistData = [
                 "link": "",
                 "length": 284.38,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -4729,6 +5955,9 @@ export const playlistData = [
                 "length": 276.74,
                 "canonical_artists": [
                     "computrhead"
+                ],
+                "discord_users": [
+                    "computrhead"
                 ]
             },
             {
@@ -4740,6 +5969,9 @@ export const playlistData = [
                 "length": 302.69,
                 "canonical_artists": [
                     "equalequals"
+                ],
+                "discord_users": [
+                    "lopezcartoons"
                 ]
             },
             {
@@ -4750,6 +5982,9 @@ export const playlistData = [
                 "link": "",
                 "length": 176.9,
                 "canonical_artists": [
+                    "kevhuman"
+                ],
+                "discord_users": [
                     "kevhuman"
                 ]
             },
@@ -4762,6 +5997,9 @@ export const playlistData = [
                 "length": 216.26,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -4773,6 +6011,9 @@ export const playlistData = [
                 "length": 141.74,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -4784,6 +6025,9 @@ export const playlistData = [
                 "length": 231.07,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -4795,6 +6039,9 @@ export const playlistData = [
                 "length": 70.08,
                 "canonical_artists": [
                     "mangochunks"
+                ],
+                "discord_users": [
+                    "mango chunks"
                 ]
             },
             {
@@ -4806,6 +6053,9 @@ export const playlistData = [
                 "length": 197.54,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -4817,6 +6067,9 @@ export const playlistData = [
                 "length": 225.41,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -4828,6 +6081,9 @@ export const playlistData = [
                 "length": 376.58,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -4838,6 +6094,9 @@ export const playlistData = [
                 "link": "",
                 "length": 133.01,
                 "canonical_artists": [
+                    "zeroapr"
+                ],
+                "discord_users": [
                     "zeroapr"
                 ]
             },
@@ -4850,6 +6109,9 @@ export const playlistData = [
                 "length": 202.34,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -4861,6 +6123,9 @@ export const playlistData = [
                 "length": 210.7,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -4871,6 +6136,9 @@ export const playlistData = [
                 "link": "",
                 "length": 209.02,
                 "canonical_artists": [
+                    "ipso"
+                ],
+                "discord_users": [
                     "ipso"
                 ]
             },
@@ -4883,6 +6151,9 @@ export const playlistData = [
                 "length": 235.51,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -4893,6 +6164,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/throw-it-back?si=3a6dd6f34a8c434f947bb93a97fb1cb7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -4916,6 +6190,9 @@ export const playlistData = [
                 "length": 90.0,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -4927,6 +6204,9 @@ export const playlistData = [
                 "length": 87.0,
                 "canonical_artists": [
                     "joel"
+                ],
+                "discord_users": [
+                    "joei"
                 ]
             },
             {
@@ -4938,6 +6218,9 @@ export const playlistData = [
                 "length": 84.01,
                 "canonical_artists": [
                     "tommorton"
+                ],
+                "discord_users": [
+                    "tealwarrior"
                 ]
             },
             {
@@ -4949,6 +6232,9 @@ export const playlistData = [
                 "length": 87.36,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -4960,6 +6246,9 @@ export const playlistData = [
                 "length": 90.0,
                 "canonical_artists": [
                     "axelramirez"
+                ],
+                "discord_users": [
+                    "axe"
                 ]
             },
             {
@@ -4971,6 +6260,9 @@ export const playlistData = [
                 "length": 89.43,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -4981,6 +6273,9 @@ export const playlistData = [
                 "link": "",
                 "length": 87.34,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -4993,6 +6288,9 @@ export const playlistData = [
                 "length": 90.05,
                 "canonical_artists": [
                     "fileareport"
+                ],
+                "discord_users": [
+                    "fileareport"
                 ]
             },
             {
@@ -5004,6 +6302,9 @@ export const playlistData = [
                 "length": 87.29,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -5015,6 +6316,9 @@ export const playlistData = [
                 "length": 92.19,
                 "canonical_artists": [
                     "pemanaudio"
+                ],
+                "discord_users": [
+                    "pavlik"
                 ]
             },
             {
@@ -5026,6 +6330,9 @@ export const playlistData = [
                 "length": 90.78,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -5037,6 +6344,9 @@ export const playlistData = [
                 "length": 88.15,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -5047,6 +6357,9 @@ export const playlistData = [
                 "link": "",
                 "length": 87.5,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -5059,6 +6372,9 @@ export const playlistData = [
                 "length": 90.0,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -5070,6 +6386,9 @@ export const playlistData = [
                 "length": 89.53,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -5081,6 +6400,9 @@ export const playlistData = [
                 "length": 89.51,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -5091,6 +6413,9 @@ export const playlistData = [
                 "link": "",
                 "length": 90.43,
                 "canonical_artists": [
+                    "rosentwig"
+                ],
+                "discord_users": [
                     "rosentwig"
                 ]
             },
@@ -5103,6 +6428,9 @@ export const playlistData = [
                 "length": 90.5,
                 "canonical_artists": [
                     "dan"
+                ],
+                "discord_users": [
+                    "danbjo"
                 ]
             },
             {
@@ -5114,6 +6442,9 @@ export const playlistData = [
                 "length": 81.5,
                 "canonical_artists": [
                     "mrp"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -5125,6 +6456,9 @@ export const playlistData = [
                 "length": 90.0,
                 "canonical_artists": [
                     "tessellationrow"
+                ],
+                "discord_users": [
+                    "tessellation row"
                 ]
             },
             {
@@ -5135,6 +6469,9 @@ export const playlistData = [
                 "link": "",
                 "length": 89.5,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -5147,6 +6484,9 @@ export const playlistData = [
                 "length": 90.08,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -5157,6 +6497,9 @@ export const playlistData = [
                 "link": "",
                 "length": 87.28,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -5169,6 +6512,9 @@ export const playlistData = [
                 "length": 89.51,
                 "canonical_artists": [
                     "nootropic"
+                ],
+                "discord_users": [
+                    "caffeinechamber"
                 ]
             },
             {
@@ -5180,6 +6526,9 @@ export const playlistData = [
                 "length": 87.33,
                 "canonical_artists": [
                     "wonkyrobot"
+                ],
+                "discord_users": [
+                    "malte (wonky robot)"
                 ]
             },
             {
@@ -5190,6 +6539,9 @@ export const playlistData = [
                 "link": "https://skyguiderecords.bandcamp.com/track/ending-exodus",
                 "length": 87.06,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -5202,6 +6554,9 @@ export const playlistData = [
                 "length": 92.59,
                 "canonical_artists": [
                     "grokker"
+                ],
+                "discord_users": [
+                    "dogsander"
                 ]
             },
             {
@@ -5212,6 +6567,9 @@ export const playlistData = [
                 "link": "",
                 "length": 89.5,
                 "canonical_artists": [
+                    "firephly"
+                ],
+                "discord_users": [
                     "firephly"
                 ]
             },
@@ -5224,6 +6582,9 @@ export const playlistData = [
                 "length": 87.37,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -5234,6 +6595,9 @@ export const playlistData = [
                 "link": "",
                 "length": 89.51,
                 "canonical_artists": [
+                    "crxzosdk"
+                ],
+                "discord_users": [
                     "crxzosdk"
                 ]
             },
@@ -5246,6 +6610,9 @@ export const playlistData = [
                 "length": 117.3,
                 "canonical_artists": [
                     "saraharvizo"
+                ],
+                "discord_users": [
+                    "sarah soda"
                 ]
             },
             {
@@ -5257,6 +6624,9 @@ export const playlistData = [
                 "length": 90.28,
                 "canonical_artists": [
                     "samar"
+                ],
+                "discord_users": [
+                    "mdsds"
                 ]
             },
             {
@@ -5268,6 +6638,9 @@ export const playlistData = [
                 "length": 92.02,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -5278,6 +6651,9 @@ export const playlistData = [
                 "link": "",
                 "length": 89.55,
                 "canonical_artists": [
+                    "donoru"
+                ],
+                "discord_users": [
                     "donoru"
                 ]
             },
@@ -5290,6 +6666,9 @@ export const playlistData = [
                 "length": 87.33,
                 "canonical_artists": [
                     "spec7or"
+                ],
+                "discord_users": [
+                    "spec7or"
                 ]
             },
             {
@@ -5301,6 +6680,9 @@ export const playlistData = [
                 "length": 93.18,
                 "canonical_artists": [
                     "mark"
+                ],
+                "discord_users": [
+                    "avant5"
                 ]
             },
             {
@@ -5311,6 +6693,9 @@ export const playlistData = [
                 "link": "",
                 "length": 90.0,
                 "canonical_artists": [
+                    "tanukid"
+                ],
+                "discord_users": [
                     "tanukid"
                 ]
             },
@@ -5323,6 +6708,9 @@ export const playlistData = [
                 "length": 90.0,
                 "canonical_artists": [
                     "devongates"
+                ],
+                "discord_users": [
+                    "dvtrn"
                 ]
             },
             {
@@ -5334,6 +6722,9 @@ export const playlistData = [
                 "length": 87.33,
                 "canonical_artists": [
                     "toomuchstress"
+                ],
+                "discord_users": [
+                    "jellymustardgut"
                 ]
             },
             {
@@ -5344,6 +6735,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=-c41iha6DQk",
                 "length": 88.33,
                 "canonical_artists": [
+                    "theodoresnoozevelt"
+                ],
+                "discord_users": [
                     "theodoresnoozevelt"
                 ]
             },
@@ -5356,6 +6750,9 @@ export const playlistData = [
                 "length": 92.0,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -5367,6 +6764,9 @@ export const playlistData = [
                 "length": 90.02,
                 "canonical_artists": [
                     "miamoon"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -5378,6 +6778,9 @@ export const playlistData = [
                 "length": 89.5,
                 "canonical_artists": [
                     "bazebuster"
+                ],
+                "discord_users": [
+                    "lukas"
                 ]
             },
             {
@@ -5389,6 +6792,9 @@ export const playlistData = [
                 "length": 89.51,
                 "canonical_artists": [
                     "firstsun"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -5400,6 +6806,9 @@ export const playlistData = [
                 "length": 88.06,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -5411,6 +6820,9 @@ export const playlistData = [
                 "length": 87.33,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -5422,6 +6834,9 @@ export const playlistData = [
                 "length": 89.5,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -5433,6 +6848,9 @@ export const playlistData = [
                 "length": 89.02,
                 "canonical_artists": [
                     "franklumien"
+                ],
+                "discord_users": [
+                    "snowlight"
                 ]
             },
             {
@@ -5443,6 +6861,9 @@ export const playlistData = [
                 "link": "",
                 "length": 84.0,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -5455,6 +6876,9 @@ export const playlistData = [
                 "length": 96.88,
                 "canonical_artists": [
                     "gazeboozan"
+                ],
+                "discord_users": [
+                    "gazeboozan"
                 ]
             },
             {
@@ -5466,6 +6890,9 @@ export const playlistData = [
                 "length": 89.51,
                 "canonical_artists": [
                     "lizardmilke"
+                ],
+                "discord_users": [
+                    "mondayeyesxo"
                 ]
             },
             {
@@ -5476,6 +6903,9 @@ export const playlistData = [
                 "link": "",
                 "length": 88.0,
                 "canonical_artists": [
+                    "t3ter"
+                ],
+                "discord_users": [
                     "t3ter"
                 ]
             },
@@ -5488,6 +6918,9 @@ export const playlistData = [
                 "length": 90.5,
                 "canonical_artists": [
                     "thecuri"
+                ],
+                "discord_users": [
+                    "curi"
                 ]
             },
             {
@@ -5499,6 +6932,9 @@ export const playlistData = [
                 "length": 87.0,
                 "canonical_artists": [
                     "tomhiggins"
+                ],
+                "discord_users": [
+                    "tom higgins"
                 ]
             },
             {
@@ -5510,6 +6946,9 @@ export const playlistData = [
                 "length": 91.55,
                 "canonical_artists": [
                     "laurenpinschannels"
+                ],
+                "discord_users": [
+                    "lauren"
                 ]
             },
             {
@@ -5520,6 +6959,9 @@ export const playlistData = [
                 "link": "",
                 "length": 89.51,
                 "canonical_artists": [
+                    "ionothem"
+                ],
+                "discord_users": [
                     "ionothem"
                 ]
             },
@@ -5532,6 +6974,9 @@ export const playlistData = [
                 "length": 85.3,
                 "canonical_artists": [
                     "olessiadupuy"
+                ],
+                "discord_users": [
+                    "sayoco"
                 ]
             },
             {
@@ -5542,6 +6987,9 @@ export const playlistData = [
                 "link": "",
                 "length": 92.6,
                 "canonical_artists": [
+                    "darkmajik"
+                ],
+                "discord_users": [
                     "darkmajik"
                 ]
             }
@@ -5569,6 +7017,9 @@ export const playlistData = [
                 "length": 64.06,
                 "canonical_artists": [
                     "amess"
+                ],
+                "discord_users": [
+                    "amess"
                 ]
             },
             {
@@ -5579,6 +7030,9 @@ export const playlistData = [
                 "link": "",
                 "length": 197.41,
                 "canonical_artists": [
+                    "vogel"
+                ],
+                "discord_users": [
                     "vogel"
                 ]
             },
@@ -5591,6 +7045,9 @@ export const playlistData = [
                 "length": 172.22,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -5602,6 +7059,9 @@ export const playlistData = [
                 "length": 300.02,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -5612,6 +7072,9 @@ export const playlistData = [
                 "link": "",
                 "length": 220.46,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -5624,6 +7087,9 @@ export const playlistData = [
                 "length": 211.33,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -5635,6 +7101,9 @@ export const playlistData = [
                 "length": 156.46,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -5646,6 +7115,9 @@ export const playlistData = [
                 "length": 258.01,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -5657,6 +7129,9 @@ export const playlistData = [
                 "length": 177.82,
                 "canonical_artists": [
                     "blipfactory"
+                ],
+                "discord_users": [
+                    "corey.ostman"
                 ]
             },
             {
@@ -5667,6 +7142,9 @@ export const playlistData = [
                 "link": "",
                 "length": 280.58,
                 "canonical_artists": [
+                    "josefhfkerikjms"
+                ],
+                "discord_users": [
                     "josefhfkerikjms"
                 ]
             },
@@ -5679,6 +7157,9 @@ export const playlistData = [
                 "length": 256.55,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -5689,6 +7170,9 @@ export const playlistData = [
                 "link": "",
                 "length": 133.38,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -5701,6 +7185,9 @@ export const playlistData = [
                 "length": 213.96,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -5712,6 +7199,9 @@ export const playlistData = [
                 "length": 240.0,
                 "canonical_artists": [
                     "miamoon"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -5723,6 +7213,9 @@ export const playlistData = [
                 "length": 211.65,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -5733,6 +7226,9 @@ export const playlistData = [
                 "link": "",
                 "length": 338.08,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -5745,6 +7241,9 @@ export const playlistData = [
                 "length": 330.6,
                 "canonical_artists": [
                     "computrhead"
+                ],
+                "discord_users": [
+                    "computrhead"
                 ]
             },
             {
@@ -5756,6 +7255,9 @@ export const playlistData = [
                 "length": 279.02,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -5766,6 +7268,9 @@ export const playlistData = [
                 "link": "",
                 "length": 166.9,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -5778,6 +7283,9 @@ export const playlistData = [
                 "length": 236.02,
                 "canonical_artists": [
                     "thomass"
+                ],
+                "discord_users": [
+                    "thomass"
                 ]
             },
             {
@@ -5789,6 +7297,9 @@ export const playlistData = [
                 "length": 206.81,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -5799,6 +7310,9 @@ export const playlistData = [
                 "link": "",
                 "length": 331.27,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -5811,6 +7325,9 @@ export const playlistData = [
                 "length": 192.0,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -5822,6 +7339,9 @@ export const playlistData = [
                 "length": 222.02,
                 "canonical_artists": [
                     "cooloutcoexist"
+                ],
+                "discord_users": [
+                    "simme"
                 ]
             },
             {
@@ -5833,6 +7353,9 @@ export const playlistData = [
                 "length": 105.04,
                 "canonical_artists": [
                     "grokker"
+                ],
+                "discord_users": [
+                    "dogsander"
                 ]
             },
             {
@@ -5844,6 +7367,9 @@ export const playlistData = [
                 "length": 264.84,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -5853,6 +7379,9 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/3p_iJWIYJiU",
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             }
@@ -5869,7 +7398,7 @@ export const playlistData = [
             "towering"
         ],
         "challenge": "",
-        "streamUrl": "https://www.youtube.com/watch?v=UcAq28nt3jw",
+        "streamUrl": "https://www.youtube.com/watch?v=odfagKt4ZH4",
         "tracks": [
             {
                 "trackNo": 1,
@@ -5879,6 +7408,9 @@ export const playlistData = [
                 "link": "",
                 "length": 66.54,
                 "canonical_artists": [
+                    "amess"
+                ],
+                "discord_users": [
                     "amess"
                 ]
             },
@@ -5891,6 +7423,9 @@ export const playlistData = [
                 "length": 235.78,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -5902,6 +7437,9 @@ export const playlistData = [
                 "length": 233.28,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -5913,6 +7451,9 @@ export const playlistData = [
                 "length": 284.47,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -5924,6 +7465,9 @@ export const playlistData = [
                 "length": 316.1,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -5935,6 +7479,9 @@ export const playlistData = [
                 "length": 257.54,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -5946,6 +7493,9 @@ export const playlistData = [
                 "length": 179.57,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -5956,6 +7506,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/aplutofficial/fabulist",
                 "length": 129.55,
                 "canonical_artists": [
+                    "aplut"
+                ],
+                "discord_users": [
                     "aplut"
                 ]
             },
@@ -5968,6 +7521,9 @@ export const playlistData = [
                 "length": 220.29,
                 "canonical_artists": [
                     "fjaru"
+                ],
+                "discord_users": [
+                    "fjaru"
                 ]
             },
             {
@@ -5978,6 +7534,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/hjorten/were-almost-out-of-oranges",
                 "length": 220.6,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -5990,6 +7549,9 @@ export const playlistData = [
                 "length": 217.85,
                 "canonical_artists": [
                     "kiwillian"
+                ],
+                "discord_users": [
+                    "kiwillian"
                 ]
             },
             {
@@ -6001,6 +7563,9 @@ export const playlistData = [
                 "length": 204.0,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -6012,6 +7577,9 @@ export const playlistData = [
                 "length": 237.72,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -6023,6 +7591,9 @@ export const playlistData = [
                 "length": 355.03,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -6034,6 +7605,9 @@ export const playlistData = [
                 "length": 178.81,
                 "canonical_artists": [
                     "protocol"
+                ],
+                "discord_users": [
+                    "commanderviral"
                 ]
             },
             {
@@ -6045,6 +7619,9 @@ export const playlistData = [
                 "length": 384.91,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -6055,6 +7632,9 @@ export const playlistData = [
                 "link": "",
                 "length": 165.0,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -6067,6 +7647,9 @@ export const playlistData = [
                 "length": 211.66,
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -6078,6 +7661,9 @@ export const playlistData = [
                 "length": 254.46,
                 "canonical_artists": [
                     "blipfactory"
+                ],
+                "discord_users": [
+                    "corey.ostman"
                 ]
             },
             {
@@ -6089,6 +7675,9 @@ export const playlistData = [
                 "length": 273.11,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -6099,6 +7688,9 @@ export const playlistData = [
                 "link": "",
                 "length": 271.36,
                 "canonical_artists": [
+                    "computrhead"
+                ],
+                "discord_users": [
                     "computrhead"
                 ]
             },
@@ -6111,6 +7703,9 @@ export const playlistData = [
                 "length": 192.01,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -6121,6 +7716,9 @@ export const playlistData = [
                 "link": "",
                 "length": 234.06,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             }
@@ -6148,6 +7746,9 @@ export const playlistData = [
                 "length": 214.76,
                 "canonical_artists": [
                     "virusprotocol"
+                ],
+                "discord_users": [
+                    "virusprotocol"
                 ]
             },
             {
@@ -6158,6 +7759,9 @@ export const playlistData = [
                 "link": "",
                 "length": 112.56,
                 "canonical_artists": [
+                    "amess"
+                ],
+                "discord_users": [
                     "amess"
                 ]
             },
@@ -6170,6 +7774,9 @@ export const playlistData = [
                 "length": 128.32,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -6181,6 +7788,9 @@ export const playlistData = [
                 "length": 165.89,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -6192,6 +7802,9 @@ export const playlistData = [
                 "length": 236.69,
                 "canonical_artists": [
                     "blipfactory"
+                ],
+                "discord_users": [
+                    "corey.ostman"
                 ]
             },
             {
@@ -6203,6 +7816,9 @@ export const playlistData = [
                 "length": 232.03,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -6214,6 +7830,9 @@ export const playlistData = [
                 "length": 231.72,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -6224,6 +7843,9 @@ export const playlistData = [
                 "link": "",
                 "length": 154.71,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -6236,6 +7858,9 @@ export const playlistData = [
                 "length": 98.22,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -6246,6 +7871,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714"
                 ]
             },
             {
@@ -6257,6 +7885,9 @@ export const playlistData = [
                 "length": 530.65,
                 "canonical_artists": [
                     "viiri"
+                ],
+                "discord_users": [
+                    "ilmai"
                 ]
             },
             {
@@ -6268,6 +7899,9 @@ export const playlistData = [
                 "length": 370.0,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -6279,6 +7913,9 @@ export const playlistData = [
                 "length": 229.36,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -6289,6 +7926,9 @@ export const playlistData = [
                 "link": "",
                 "length": 226.51,
                 "canonical_artists": [
+                    "unthank"
+                ],
+                "discord_users": [
                     "unthank"
                 ]
             },
@@ -6301,6 +7941,9 @@ export const playlistData = [
                 "length": 222.35,
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -6311,6 +7954,9 @@ export const playlistData = [
                 "link": "",
                 "length": 240.01,
                 "canonical_artists": [
+                    "myrrys"
+                ],
+                "discord_users": [
                     "myrrys"
                 ]
             },
@@ -6323,6 +7969,9 @@ export const playlistData = [
                 "length": 240.0,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -6334,6 +7983,9 @@ export const playlistData = [
                 "length": 289.05,
                 "canonical_artists": [
                     "kevhuman"
+                ],
+                "discord_users": [
+                    "kevhuman"
                 ]
             },
             {
@@ -6344,6 +7996,9 @@ export const playlistData = [
                 "link": "",
                 "length": 287.21,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -6357,6 +8012,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "giunglasottaceto",
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle",
+                    "giunglasottaceto"
                 ]
             },
             {
@@ -6368,6 +8027,9 @@ export const playlistData = [
                 "length": 282.17,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -6378,6 +8040,9 @@ export const playlistData = [
                 "link": "",
                 "length": 375.49,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -6391,6 +8056,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "silence",
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle",
+                    "silence"
                 ]
             },
             {
@@ -6402,6 +8071,9 @@ export const playlistData = [
                 "length": 199.21,
                 "canonical_artists": [
                     "cooloutcoexist"
+                ],
+                "discord_users": [
+                    "simme"
                 ]
             },
             {
@@ -6413,6 +8085,9 @@ export const playlistData = [
                 "length": 248.48,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -6423,6 +8098,9 @@ export const playlistData = [
                 "link": "",
                 "length": 143.81,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -6435,6 +8113,9 @@ export const playlistData = [
                 "length": 249.16,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -6446,6 +8127,9 @@ export const playlistData = [
                 "length": 277.0,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             }
         ]
@@ -6472,6 +8156,9 @@ export const playlistData = [
                 "length": 221.73,
                 "canonical_artists": [
                     "computerhead"
+                ],
+                "discord_users": [
+                    "computerhead"
                 ]
             },
             {
@@ -6483,6 +8170,9 @@ export const playlistData = [
                 "length": 164.76,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -6494,6 +8184,9 @@ export const playlistData = [
                 "length": 271.94,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -6504,6 +8197,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/hedbut/intrusive-thoughts-be-salty/s-3oLJ2ggOvI4?si=4206b01303f94569b90b559ec3bccade&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 172.54,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -6516,6 +8212,9 @@ export const playlistData = [
                 "length": 111.36,
                 "canonical_artists": [
                     "brokenantigravity"
+                ],
+                "discord_users": [
+                    "brokenantigravity"
                 ]
             },
             {
@@ -6527,6 +8226,9 @@ export const playlistData = [
                 "length": 89.05,
                 "canonical_artists": [
                     "grbt"
+                ],
+                "discord_users": [
+                    "gamingrobot"
                 ]
             },
             {
@@ -6538,6 +8240,9 @@ export const playlistData = [
                 "length": 244.22,
                 "canonical_artists": [
                     "miamoon"
+                ],
+                "discord_users": [
+                    "elsper"
                 ]
             },
             {
@@ -6548,6 +8253,9 @@ export const playlistData = [
                 "link": "",
                 "length": 204.05,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -6560,6 +8268,9 @@ export const playlistData = [
                 "length": 157.31,
                 "canonical_artists": [
                     "unknownartist"
+                ],
+                "discord_users": [
+                    "unknownartist"
                 ]
             },
             {
@@ -6570,6 +8281,9 @@ export const playlistData = [
                 "link": "",
                 "length": 288.41,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -6582,6 +8296,9 @@ export const playlistData = [
                 "length": 224.63,
                 "canonical_artists": [
                     "fjaru"
+                ],
+                "discord_users": [
+                    "fjaru"
                 ]
             },
             {
@@ -6592,6 +8309,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=ln56a-jy1E4",
                 "length": 181.0,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -6604,6 +8324,9 @@ export const playlistData = [
                 "length": 203.12,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -6615,6 +8338,9 @@ export const playlistData = [
                 "length": 186.62,
                 "canonical_artists": [
                     "popbot"
+                ],
+                "discord_users": [
+                    "popbot"
                 ]
             },
             {
@@ -6625,6 +8351,9 @@ export const playlistData = [
                 "link": "",
                 "length": 236.57,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -6638,6 +8367,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "dschungelgurke",
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "dschungelgurke",
+                    "jungle pickle"
                 ]
             },
             {
@@ -6649,6 +8382,9 @@ export const playlistData = [
                 "length": 186.07,
                 "canonical_artists": [
                     "blipfactory"
+                ],
+                "discord_users": [
+                    "corey.ostman"
                 ]
             },
             {
@@ -6659,6 +8395,9 @@ export const playlistData = [
                 "link": "",
                 "length": 209.56,
                 "canonical_artists": [
+                    "sirfancy"
+                ],
+                "discord_users": [
                     "sirfancy"
                 ]
             },
@@ -6671,6 +8410,9 @@ export const playlistData = [
                 "length": 256.42,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -6682,6 +8424,9 @@ export const playlistData = [
                 "length": 212.57,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -6693,6 +8438,9 @@ export const playlistData = [
                 "length": 285.68,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             }
         ]
@@ -6719,6 +8467,9 @@ export const playlistData = [
                 "length": 192.38,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -6730,6 +8481,9 @@ export const playlistData = [
                 "length": 277.03,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -6740,6 +8494,9 @@ export const playlistData = [
                 "link": "",
                 "length": 287.77,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -6752,6 +8509,9 @@ export const playlistData = [
                 "length": 189.62,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -6762,6 +8522,9 @@ export const playlistData = [
                 "link": "",
                 "length": 180.0,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -6774,6 +8537,9 @@ export const playlistData = [
                 "length": 202.89,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -6785,6 +8551,9 @@ export const playlistData = [
                 "length": 184.66,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -6795,6 +8564,9 @@ export const playlistData = [
                 "link": "",
                 "length": 110.79,
                 "canonical_artists": [
+                    "fwlty"
+                ],
+                "discord_users": [
                     "fwlty"
                 ]
             },
@@ -6807,6 +8579,9 @@ export const playlistData = [
                 "length": 21.86,
                 "canonical_artists": [
                     "mupmuurmon"
+                ],
+                "discord_users": [
+                    "mupmuurmon"
                 ]
             },
             {
@@ -6817,6 +8592,9 @@ export const playlistData = [
                 "link": "",
                 "length": 215.09,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -6829,6 +8607,9 @@ export const playlistData = [
                 "length": 376.01,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -6839,6 +8620,9 @@ export const playlistData = [
                 "link": "",
                 "length": 182.35,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -6851,6 +8635,9 @@ export const playlistData = [
                 "length": 231.11,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -6862,6 +8649,9 @@ export const playlistData = [
                 "length": 272.44,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -6872,6 +8662,9 @@ export const playlistData = [
                 "link": "",
                 "length": 258.01,
                 "canonical_artists": [
+                    "sirfancy"
+                ],
+                "discord_users": [
                     "sirfancy"
                 ]
             },
@@ -6884,6 +8677,9 @@ export const playlistData = [
                 "length": 250.36,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -6895,6 +8691,9 @@ export const playlistData = [
                 "length": 199.03,
                 "canonical_artists": [
                     "thomasandtheevilcomputer"
+                ],
+                "discord_users": [
+                    "mathemagician"
                 ]
             },
             {
@@ -6906,6 +8705,9 @@ export const playlistData = [
                 "length": 183.28,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -6916,6 +8718,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/snoozevelt/vierzig-grad-und-zwei-promille",
                 "length": 107.05,
                 "canonical_artists": [
+                    "theodoresnoozevelt"
+                ],
+                "discord_users": [
                     "theodoresnoozevelt"
                 ]
             },
@@ -6928,6 +8733,9 @@ export const playlistData = [
                 "length": 257.0,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -6938,6 +8746,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/nonsense?si=dd9f1e797201425093659b938180729b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -6948,6 +8759,9 @@ export const playlistData = [
                 "link": "https://on.soundcloud.com/BK2K1",
                 "length": 263.29,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             }
@@ -6975,6 +8789,9 @@ export const playlistData = [
                 "length": 108.47,
                 "canonical_artists": [
                     "valeph0"
+                ],
+                "discord_users": [
+                    "valeph0"
                 ]
             },
             {
@@ -6986,6 +8803,9 @@ export const playlistData = [
                 "length": 159.0,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -6997,6 +8817,9 @@ export const playlistData = [
                 "length": 238.13,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -7007,6 +8830,9 @@ export const playlistData = [
                 "link": "",
                 "length": 489.67,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -7019,6 +8845,9 @@ export const playlistData = [
                 "length": 130.54,
                 "canonical_artists": [
                     "sirfancy"
+                ],
+                "discord_users": [
+                    "sirfancy"
                 ]
             },
             {
@@ -7030,6 +8859,9 @@ export const playlistData = [
                 "length": 165.62,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -7040,6 +8872,9 @@ export const playlistData = [
                 "link": "",
                 "length": 161.15,
                 "canonical_artists": [
+                    "lakemachine"
+                ],
+                "discord_users": [
                     "lakemachine"
                 ]
             },
@@ -7052,6 +8887,9 @@ export const playlistData = [
                 "length": 315.89,
                 "canonical_artists": [
                     "stoic"
+                ],
+                "discord_users": [
+                    "stoic"
                 ]
             },
             {
@@ -7062,6 +8900,9 @@ export const playlistData = [
                 "link": "",
                 "length": 126.02,
                 "canonical_artists": [
+                    "virusprotocol"
+                ],
+                "discord_users": [
                     "virusprotocol"
                 ]
             },
@@ -7074,6 +8915,9 @@ export const playlistData = [
                 "length": 266.71,
                 "canonical_artists": [
                     "onetrackmind"
+                ],
+                "discord_users": [
+                    "onetrackmind"
                 ]
             },
             {
@@ -7084,6 +8928,9 @@ export const playlistData = [
                 "link": "",
                 "length": 223.98,
                 "canonical_artists": [
+                    "mckevhuman"
+                ],
+                "discord_users": [
                     "mckevhuman"
                 ]
             },
@@ -7096,6 +8943,9 @@ export const playlistData = [
                 "length": 216.58,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -7106,6 +8956,9 @@ export const playlistData = [
                 "link": "",
                 "length": 170.0,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -7118,6 +8971,9 @@ export const playlistData = [
                 "length": 331.68,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -7128,6 +8984,9 @@ export const playlistData = [
                 "link": "",
                 "length": 132.05,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -7140,6 +8999,9 @@ export const playlistData = [
                 "length": 92.03,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -7151,6 +9013,9 @@ export const playlistData = [
                 "length": 222.41,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -7162,6 +9027,9 @@ export const playlistData = [
                 "length": 283.26,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -7172,6 +9040,9 @@ export const playlistData = [
                 "link": "",
                 "length": 157.06,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -7185,6 +9056,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "heavylistening",
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)",
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -7195,6 +9070,9 @@ export const playlistData = [
                 "link": "",
                 "length": 171.0,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -7207,6 +9085,9 @@ export const playlistData = [
                 "length": 202.11,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -7218,6 +9099,9 @@ export const playlistData = [
                 "length": 181.89,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -7228,6 +9112,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/the-good-stuff?si=170012816511401c8a054e843684daf6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -7254,6 +9141,9 @@ export const playlistData = [
                 "length": 292.02,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -7265,6 +9155,9 @@ export const playlistData = [
                 "length": 287.43,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -7275,6 +9168,9 @@ export const playlistData = [
                 "link": "",
                 "length": 208.28,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -7287,6 +9183,9 @@ export const playlistData = [
                 "length": 290.67,
                 "canonical_artists": [
                     "kiwillian"
+                ],
+                "discord_users": [
+                    "kiwillian"
                 ]
             },
             {
@@ -7298,6 +9197,9 @@ export const playlistData = [
                 "length": 109.79,
                 "canonical_artists": [
                     "menhirs"
+                ],
+                "discord_users": [
+                    "pity"
                 ]
             },
             {
@@ -7308,6 +9210,9 @@ export const playlistData = [
                 "link": "",
                 "length": 401.14,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -7320,6 +9225,9 @@ export const playlistData = [
                 "length": 242.57,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -7331,6 +9239,9 @@ export const playlistData = [
                 "length": 192.0,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -7341,6 +9252,9 @@ export const playlistData = [
                 "link": "",
                 "length": 136.78,
                 "canonical_artists": [
+                    "computrhead"
+                ],
+                "discord_users": [
                     "computrhead"
                 ]
             },
@@ -7353,6 +9267,9 @@ export const playlistData = [
                 "length": 160.03,
                 "canonical_artists": [
                     "udonkhatola"
+                ],
+                "discord_users": [
+                    "udonkhatola"
                 ]
             },
             {
@@ -7363,6 +9280,9 @@ export const playlistData = [
                 "link": "",
                 "length": 293.33,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -7375,6 +9295,9 @@ export const playlistData = [
                 "length": 147.72,
                 "canonical_artists": [
                     "grokker"
+                ],
+                "discord_users": [
+                    "dogsander"
                 ]
             },
             {
@@ -7385,6 +9308,9 @@ export const playlistData = [
                 "link": "",
                 "length": 212.02,
                 "canonical_artists": [
+                    "anonymoose"
+                ],
+                "discord_users": [
                     "anonymoose"
                 ]
             },
@@ -7397,6 +9323,9 @@ export const playlistData = [
                 "length": 221.2,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -7408,6 +9337,9 @@ export const playlistData = [
                 "length": 255.51,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -7418,6 +9350,9 @@ export const playlistData = [
                 "link": "",
                 "length": 77.48,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -7431,6 +9366,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "fjaru",
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "fjaru"
                 ]
             },
             {
@@ -7441,6 +9380,9 @@ export const playlistData = [
                 "link": "",
                 "length": 275.04,
                 "canonical_artists": [
+                    "onetrackmind"
+                ],
+                "discord_users": [
                     "onetrackmind"
                 ]
             },
@@ -7453,6 +9395,9 @@ export const playlistData = [
                 "length": 369.12,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -7464,6 +9409,9 @@ export const playlistData = [
                 "length": 232.1,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -7474,6 +9422,9 @@ export const playlistData = [
                 "link": "",
                 "length": 196.97,
                 "canonical_artists": [
+                    "mikey303"
+                ],
+                "discord_users": [
                     "mikey303"
                 ]
             },
@@ -7486,6 +9437,9 @@ export const playlistData = [
                 "length": 36.57,
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -7497,6 +9451,9 @@ export const playlistData = [
                 "length": 180.0,
                 "canonical_artists": [
                     "foolmala"
+                ],
+                "discord_users": [
+                    "foolmala"
                 ]
             },
             {
@@ -7507,6 +9464,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/jungle-pickle/ai-robber?si=ab21efe784404149960d2b6fbfa20661&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -7533,6 +9493,9 @@ export const playlistData = [
                 "length": 238.18,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -7543,6 +9506,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=2x1l8Gnzk6I",
                 "length": 127.03,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -7555,6 +9521,9 @@ export const playlistData = [
                 "length": 223.3,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -7566,6 +9535,9 @@ export const playlistData = [
                 "length": 290.85,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -7577,6 +9549,9 @@ export const playlistData = [
                 "length": 233.78,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -7589,6 +9564,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "meganeura",
                     "nornec"
+                ],
+                "discord_users": [
+                    "vluh123",
+                    "nornec"
                 ]
             },
             {
@@ -7600,6 +9579,9 @@ export const playlistData = [
                 "length": 204.92,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -7611,6 +9593,9 @@ export const playlistData = [
                 "length": 168.57,
                 "canonical_artists": [
                     "krovvythered"
+                ],
+                "discord_users": [
+                    "krovvythered"
                 ]
             },
             {
@@ -7621,6 +9606,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=6xP7HmWUa2k",
                 "length": 217.73,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -7634,6 +9622,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "heavylistening",
                     "dmt"
+                ],
+                "discord_users": [
+                    "dmt",
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -7644,6 +9636,9 @@ export const playlistData = [
                 "link": "",
                 "length": 156.61,
                 "canonical_artists": [
+                    "mikey303"
+                ],
+                "discord_users": [
                     "mikey303"
                 ]
             },
@@ -7656,6 +9651,9 @@ export const playlistData = [
                 "length": 104.18,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -7666,6 +9664,9 @@ export const playlistData = [
                 "link": "",
                 "length": 348.06,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -7678,6 +9679,9 @@ export const playlistData = [
                 "length": 131.87,
                 "canonical_artists": [
                     "paco"
+                ],
+                "discord_users": [
+                    "paco"
                 ]
             },
             {
@@ -7688,6 +9692,9 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/limited-integrals",
                 "length": 264.32,
                 "canonical_artists": [
+                    "abstractjusticeboard"
+                ],
+                "discord_users": [
                     "abstractjusticeboard"
                 ]
             },
@@ -7700,6 +9707,9 @@ export const playlistData = [
                 "length": 210.47,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -7711,6 +9721,9 @@ export const playlistData = [
                 "length": 273.18,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -7721,6 +9734,9 @@ export const playlistData = [
                 "link": "",
                 "length": 70.16,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -7733,6 +9749,9 @@ export const playlistData = [
                 "length": 313.66,
                 "canonical_artists": [
                     "brokeninformation"
+                ],
+                "discord_users": [
+                    "brokeninformation"
                 ]
             },
             {
@@ -7743,6 +9762,9 @@ export const playlistData = [
                 "link": "",
                 "length": 255.38,
                 "canonical_artists": [
+                    "alderach"
+                ],
+                "discord_users": [
                     "alderach"
                 ]
             },
@@ -7755,6 +9777,9 @@ export const playlistData = [
                 "length": 268.49,
                 "canonical_artists": [
                     "noowls"
+                ],
+                "discord_users": [
+                    "no owls"
                 ]
             },
             {
@@ -7767,6 +9792,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "kiwillian",
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle",
+                    "kiwillian"
                 ]
             },
             {
@@ -7777,6 +9806,10 @@ export const playlistData = [
                 "link": "",
                 "length": 608.24,
                 "canonical_artists": [
+                    "fjaru",
+                    "nornec"
+                ],
+                "discord_users": [
                     "fjaru",
                     "nornec"
                 ]
@@ -7790,6 +9823,9 @@ export const playlistData = [
                 "length": 306.02,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -7801,6 +9837,9 @@ export const playlistData = [
                 "length": 175.13,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -7811,6 +9850,9 @@ export const playlistData = [
                 "link": "",
                 "length": 274.78,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -7823,6 +9865,9 @@ export const playlistData = [
                 "length": 181.4,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -7832,6 +9877,9 @@ export const playlistData = [
                 "file": "",
                 "link": "",
                 "canonical_artists": [
+                    "unknown"
+                ],
+                "discord_users": [
                     "unknown"
                 ]
             },
@@ -7844,6 +9892,9 @@ export const playlistData = [
                 "length": 162.04,
                 "canonical_artists": [
                     "silentpity"
+                ],
+                "discord_users": [
+                    "silentpity"
                 ]
             },
             {
@@ -7855,6 +9906,9 @@ export const playlistData = [
                 "length": 250.97,
                 "canonical_artists": [
                     "firstsun"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -7866,6 +9920,9 @@ export const playlistData = [
                 "length": 431.32,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             }
         ]
@@ -7892,6 +9949,9 @@ export const playlistData = [
                 "length": 219.17,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -7903,6 +9963,9 @@ export const playlistData = [
                 "length": 140.3,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -7914,6 +9977,9 @@ export const playlistData = [
                 "length": 230.71,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -7925,6 +9991,9 @@ export const playlistData = [
                 "length": 229.96,
                 "canonical_artists": [
                     "derekshunia"
+                ],
+                "discord_users": [
+                    "derek"
                 ]
             },
             {
@@ -7935,6 +10004,9 @@ export const playlistData = [
                 "link": "",
                 "length": 275.23,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -7947,6 +10019,9 @@ export const playlistData = [
                 "length": 266.04,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -7958,6 +10033,9 @@ export const playlistData = [
                 "length": 297.34,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -7969,6 +10047,9 @@ export const playlistData = [
                 "length": 319.54,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -7979,6 +10060,9 @@ export const playlistData = [
                 "link": "",
                 "length": 212.47,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             },
@@ -7991,6 +10075,9 @@ export const playlistData = [
                 "length": 193.85,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -8002,6 +10089,9 @@ export const playlistData = [
                 "length": 202.42,
                 "canonical_artists": [
                     "michaeltill"
+                ],
+                "discord_users": [
+                    "skwisgaar - michael till"
                 ]
             },
             {
@@ -8013,6 +10103,9 @@ export const playlistData = [
                 "length": 376.97,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -8023,6 +10116,9 @@ export const playlistData = [
                 "link": "",
                 "length": 304.54,
                 "canonical_artists": [
+                    "negativeteens"
+                ],
+                "discord_users": [
                     "negativeteens"
                 ]
             },
@@ -8035,6 +10131,9 @@ export const playlistData = [
                 "length": 195.37,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -8045,6 +10144,10 @@ export const playlistData = [
                 "link": "",
                 "length": 207.05,
                 "canonical_artists": [
+                    "pathing",
+                    "gold"
+                ],
+                "discord_users": [
                     "pathing",
                     "gold"
                 ]
@@ -8058,6 +10161,9 @@ export const playlistData = [
                 "length": 168.26,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -8069,6 +10175,9 @@ export const playlistData = [
                 "length": 84.41,
                 "canonical_artists": [
                     "lemonberries"
+                ],
+                "discord_users": [
+                    "massive dynamic"
                 ]
             },
             {
@@ -8079,6 +10188,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/defaultmediatransmitter/wasted-transmitter-stab-me-tender",
                 "length": 276.96,
                 "canonical_artists": [
+                    "wastedtransmitter"
+                ],
+                "discord_users": [
                     "wastedtransmitter"
                 ]
             },
@@ -8091,6 +10203,9 @@ export const playlistData = [
                 "length": 437.4,
                 "canonical_artists": [
                     "kiwillian"
+                ],
+                "discord_users": [
+                    "kiwillian"
                 ]
             },
             {
@@ -8101,6 +10216,9 @@ export const playlistData = [
                 "link": "",
                 "length": 105.51,
                 "canonical_artists": [
+                    "robolution"
+                ],
+                "discord_users": [
                     "robolution"
                 ]
             },
@@ -8113,6 +10231,9 @@ export const playlistData = [
                 "length": 254.2,
                 "canonical_artists": [
                     "fjaru"
+                ],
+                "discord_users": [
+                    "fjaru"
                 ]
             },
             {
@@ -8123,6 +10244,9 @@ export const playlistData = [
                 "link": "",
                 "length": 140.59,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -8135,6 +10259,9 @@ export const playlistData = [
                 "length": 195.29,
                 "canonical_artists": [
                     "ngc3019"
+                ],
+                "discord_users": [
+                    "ngc  3019"
                 ]
             },
             {
@@ -8145,6 +10272,9 @@ export const playlistData = [
                 "link": "",
                 "length": 273.19,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -8157,6 +10287,9 @@ export const playlistData = [
                 "length": 258.82,
                 "canonical_artists": [
                     "reveurmort"
+                ],
+                "discord_users": [
+                    "reveurmort"
                 ]
             },
             {
@@ -8167,6 +10300,9 @@ export const playlistData = [
                 "link": "",
                 "length": 235.08,
                 "canonical_artists": [
+                    "totalbedroom"
+                ],
+                "discord_users": [
                     "totalbedroom"
                 ]
             },
@@ -8179,6 +10315,9 @@ export const playlistData = [
                 "length": 246.91,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -8189,6 +10328,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=Lf-UJFrviSo",
                 "length": 257.3,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -8202,6 +10344,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "menhirs",
                     "nornec"
+                ],
+                "discord_users": [
+                    "pity",
+                    "nornec"
                 ]
             },
             {
@@ -8213,6 +10359,9 @@ export const playlistData = [
                 "length": 215.77,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -8223,6 +10372,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=QBKmMVYyiJA",
                 "length": 212.69,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -8235,6 +10387,9 @@ export const playlistData = [
                 "length": 168.05,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -8245,6 +10400,9 @@ export const playlistData = [
                 "link": "",
                 "length": 188.63,
                 "canonical_artists": [
+                    "computrhead"
+                ],
+                "discord_users": [
                     "computrhead"
                 ]
             },
@@ -8257,6 +10415,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "christophermills",
                     "ambientspace"
+                ],
+                "discord_users": [
+                    "christophermills",
+                    "ambientspace"
                 ]
             },
             {
@@ -8267,6 +10429,9 @@ export const playlistData = [
                 "link": "https://youtu.be/-t9RsTwcFQw  https://soundcloud.com/jungle-pickle/sunny-bunny?si=e5059b4ddff6463286770db00ad0a33b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -8294,6 +10459,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "djstabled",
                     "kiwillian"
+                ],
+                "discord_users": [
+                    "kiwillian",
+                    "djstabled"
                 ]
             },
             {
@@ -8304,6 +10473,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/snoozevelt/ebakindlusega",
                 "length": 107.49,
                 "canonical_artists": [
+                    "theodoresnoozevelt"
+                ],
+                "discord_users": [
                     "theodoresnoozevelt"
                 ]
             },
@@ -8316,6 +10488,9 @@ export const playlistData = [
                 "length": 180.6,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -8327,6 +10502,9 @@ export const playlistData = [
                 "length": 147.48,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -8337,6 +10515,9 @@ export const playlistData = [
                 "link": "",
                 "length": 242.99,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -8349,6 +10530,9 @@ export const playlistData = [
                 "length": 224.89,
                 "canonical_artists": [
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga"
                 ]
             },
             {
@@ -8360,6 +10544,9 @@ export const playlistData = [
                 "length": 144.02,
                 "canonical_artists": [
                     "lemonberries"
+                ],
+                "discord_users": [
+                    "massive dynamic"
                 ]
             },
             {
@@ -8371,6 +10558,9 @@ export const playlistData = [
                 "length": 285.41,
                 "canonical_artists": [
                     "computrhead"
+                ],
+                "discord_users": [
+                    "computrhead"
                 ]
             },
             {
@@ -8381,6 +10571,9 @@ export const playlistData = [
                 "link": "",
                 "length": 316.94,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -8394,6 +10587,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "informationcake",
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "benn#1714"
                 ]
             },
             {
@@ -8405,6 +10602,9 @@ export const playlistData = [
                 "length": 249.78,
                 "canonical_artists": [
                     "michaeltill"
+                ],
+                "discord_users": [
+                    "skwisgaar - michael till"
                 ]
             },
             {
@@ -8415,6 +10615,9 @@ export const playlistData = [
                 "link": "",
                 "length": 115.78,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -8427,6 +10630,9 @@ export const playlistData = [
                 "length": 186.31,
                 "canonical_artists": [
                     "largemanabell85studios"
+                ],
+                "discord_users": [
+                    "largemanabell85studios"
                 ]
             },
             {
@@ -8437,6 +10643,9 @@ export const playlistData = [
                 "link": "",
                 "length": 351.46,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -8449,6 +10658,9 @@ export const playlistData = [
                 "length": 137.21,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -8460,6 +10672,9 @@ export const playlistData = [
                 "length": 244.61,
                 "canonical_artists": [
                     "drmr"
+                ],
+                "discord_users": [
+                    "dreamer"
                 ]
             },
             {
@@ -8471,6 +10686,9 @@ export const playlistData = [
                 "length": 130.87,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -8482,6 +10700,9 @@ export const playlistData = [
                 "length": 166.08,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -8492,6 +10713,9 @@ export const playlistData = [
                 "link": "",
                 "length": 162.93,
                 "canonical_artists": [
+                    "sirfancy"
+                ],
+                "discord_users": [
                     "sirfancy"
                 ]
             },
@@ -8504,6 +10728,9 @@ export const playlistData = [
                 "length": 382.85,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -8514,6 +10741,9 @@ export const playlistData = [
                 "link": "",
                 "length": 272.66,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -8526,6 +10756,9 @@ export const playlistData = [
                 "length": 178.57,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -8537,6 +10770,9 @@ export const playlistData = [
                 "length": 317.35,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -8547,6 +10783,9 @@ export const playlistData = [
                 "link": "",
                 "length": 445.99,
                 "canonical_artists": [
+                    "cahl"
+                ],
+                "discord_users": [
                     "cahl"
                 ]
             },
@@ -8559,6 +10798,9 @@ export const playlistData = [
                 "length": 308.82,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -8570,6 +10812,9 @@ export const playlistData = [
                 "length": 256.84,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -8581,6 +10826,9 @@ export const playlistData = [
                 "length": 228.89,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -8592,6 +10840,9 @@ export const playlistData = [
                 "length": 221.95,
                 "canonical_artists": [
                     "noowls"
+                ],
+                "discord_users": [
+                    "no owls"
                 ]
             },
             {
@@ -8602,6 +10853,9 @@ export const playlistData = [
                 "link": "",
                 "length": 262.54,
                 "canonical_artists": [
+                    "procrastronaught"
+                ],
+                "discord_users": [
                     "procrastronaught"
                 ]
             },
@@ -8614,6 +10868,9 @@ export const playlistData = [
                 "length": 228.03,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -8624,6 +10881,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "anthonyfelos"
+                ],
+                "discord_users": [
+                    "hurler1348"
                 ]
             },
             {
@@ -8634,6 +10894,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "drewwillard"
+                ],
+                "discord_users": [
+                    "drewillard"
                 ]
             },
             {
@@ -8644,6 +10907,9 @@ export const playlistData = [
                 "link": "https://youtu.be/6uc0RVrYObg?si=ki5tSL61i1iQxW-6",
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -8653,6 +10919,9 @@ export const playlistData = [
                 "file": "",
                 "link": "https://youtu.be/oGqBGFNhGfA",
                 "canonical_artists": [
+                    "negativeteens"
+                ],
+                "discord_users": [
                     "negativeteens"
                 ]
             }
@@ -8680,6 +10949,9 @@ export const playlistData = [
                 "length": 228.57,
                 "canonical_artists": [
                     "yakmilksoda"
+                ],
+                "discord_users": [
+                    "yakmilksoda"
                 ]
             },
             {
@@ -8691,6 +10963,9 @@ export const playlistData = [
                 "length": 275.52,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -8702,6 +10977,9 @@ export const playlistData = [
                 "length": 172.04,
                 "canonical_artists": [
                     "anthonyfelos"
+                ],
+                "discord_users": [
+                    "hurler1348"
                 ]
             },
             {
@@ -8712,6 +10990,9 @@ export const playlistData = [
                 "link": "",
                 "length": 240.02,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -8724,6 +11005,9 @@ export const playlistData = [
                 "length": 209.42,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -8734,6 +11018,9 @@ export const playlistData = [
                 "link": "",
                 "length": 150.65,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -8746,6 +11033,9 @@ export const playlistData = [
                 "length": 215.57,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -8757,6 +11047,9 @@ export const playlistData = [
                 "length": 176.77,
                 "canonical_artists": [
                     "pulsestatic"
+                ],
+                "discord_users": [
+                    "dohgurt15"
                 ]
             },
             {
@@ -8767,6 +11060,9 @@ export const playlistData = [
                 "link": "",
                 "length": 175.8,
                 "canonical_artists": [
+                    "mikey303"
+                ],
+                "discord_users": [
                     "mikey303"
                 ]
             },
@@ -8780,6 +11076,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "junglepickle",
                     "heavylistening"
+                ],
+                "discord_users": [
+                    "jungle pickle",
+                    "alan (heavy listening)"
                 ]
             },
             {
@@ -8791,6 +11091,9 @@ export const playlistData = [
                 "length": 275.88,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -8802,6 +11105,9 @@ export const playlistData = [
                 "length": 170.3,
                 "canonical_artists": [
                     "largeman"
+                ],
+                "discord_users": [
+                    "spaceperson16largeman"
                 ]
             },
             {
@@ -8812,6 +11118,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=5KA3_vmpH5I",
                 "length": 185.26,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -8824,6 +11133,9 @@ export const playlistData = [
                 "length": 153.62,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -8834,6 +11146,9 @@ export const playlistData = [
                 "link": "",
                 "length": 309.36,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -8846,6 +11161,9 @@ export const playlistData = [
                 "length": 302.0,
                 "canonical_artists": [
                     "negativeteens"
+                ],
+                "discord_users": [
+                    "negativeteens"
                 ]
             },
             {
@@ -8857,6 +11175,9 @@ export const playlistData = [
                 "length": 255.02,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -8868,6 +11189,9 @@ export const playlistData = [
                 "length": 260.65,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -8878,6 +11202,9 @@ export const playlistData = [
                 "link": "",
                 "length": 204.04,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -8891,6 +11218,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "mylarmelodies",
                     "pathing"
+                ],
+                "discord_users": [
+                    "pathing",
+                    "mylarmelodies"
                 ]
             },
             {
@@ -8901,6 +11232,9 @@ export const playlistData = [
                 "link": "",
                 "length": 110.0,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -8913,6 +11247,9 @@ export const playlistData = [
                 "length": 131.76,
                 "canonical_artists": [
                     "kiwillian"
+                ],
+                "discord_users": [
+                    "kiwillian"
                 ]
             },
             {
@@ -8924,6 +11261,9 @@ export const playlistData = [
                 "length": 250.97,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -8935,6 +11275,9 @@ export const playlistData = [
                 "length": 230.69,
                 "canonical_artists": [
                     "drewwillard"
+                ],
+                "discord_users": [
+                    "drewillard"
                 ]
             },
             {
@@ -8946,6 +11289,9 @@ export const playlistData = [
                 "length": 322.25,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -8957,6 +11303,9 @@ export const playlistData = [
                 "length": 275.3,
                 "canonical_artists": [
                     "meganeura"
+                ],
+                "discord_users": [
+                    "vluh123"
                 ]
             }
         ]
@@ -8983,6 +11332,9 @@ export const playlistData = [
                 "length": 355.97,
                 "canonical_artists": [
                     "cahl"
+                ],
+                "discord_users": [
+                    "cahl"
                 ]
             },
             {
@@ -8995,6 +11347,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "fjaru",
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart",
+                    "fjaru"
                 ]
             },
             {
@@ -9006,6 +11362,9 @@ export const playlistData = [
                 "length": 325.72,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -9017,6 +11376,9 @@ export const playlistData = [
                 "length": 271.46,
                 "canonical_artists": [
                     "yourcomputer"
+                ],
+                "discord_users": [
+                    "jellymustardgut"
                 ]
             },
             {
@@ -9028,6 +11390,9 @@ export const playlistData = [
                 "length": 270.26,
                 "canonical_artists": [
                     "defaultmediatransmitter"
+                ],
+                "discord_users": [
+                    "ksa"
                 ]
             },
             {
@@ -9038,6 +11403,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714"
                 ]
             },
             {
@@ -9048,6 +11416,9 @@ export const playlistData = [
                 "link": "",
                 "length": 255.22,
                 "canonical_artists": [
+                    "mikey303"
+                ],
+                "discord_users": [
                     "mikey303"
                 ]
             },
@@ -9060,6 +11431,9 @@ export const playlistData = [
                 "length": 254.8,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -9071,6 +11445,9 @@ export const playlistData = [
                 "length": 244.9,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -9082,6 +11459,9 @@ export const playlistData = [
                 "length": 238.39,
                 "canonical_artists": [
                     "thejovianpath"
+                ],
+                "discord_users": [
+                    "jovian path"
                 ]
             },
             {
@@ -9093,6 +11473,9 @@ export const playlistData = [
                 "length": 233.33,
                 "canonical_artists": [
                     "meganeura"
+                ],
+                "discord_users": [
+                    "vluh123"
                 ]
             },
             {
@@ -9104,6 +11487,9 @@ export const playlistData = [
                 "length": 232.78,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -9114,6 +11500,9 @@ export const playlistData = [
                 "link": "",
                 "length": 227.04,
                 "canonical_artists": [
+                    "echosbats"
+                ],
+                "discord_users": [
                     "echosbats"
                 ]
             },
@@ -9126,6 +11515,9 @@ export const playlistData = [
                 "length": 224.74,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -9137,6 +11529,9 @@ export const playlistData = [
                 "length": 222.9,
                 "canonical_artists": [
                     "ponyartmadhedcity"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -9148,6 +11543,9 @@ export const playlistData = [
                 "length": 215.78,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -9160,6 +11558,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "nornec",
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714",
+                    "nornec"
                 ]
             },
             {
@@ -9171,6 +11573,9 @@ export const playlistData = [
                 "length": 208.34,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -9181,6 +11586,9 @@ export const playlistData = [
                 "link": "",
                 "length": 205.75,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -9193,6 +11601,9 @@ export const playlistData = [
                 "length": 202.06,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -9204,6 +11615,9 @@ export const playlistData = [
                 "length": 197.17,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -9215,6 +11629,9 @@ export const playlistData = [
                 "length": 195.53,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -9226,6 +11643,9 @@ export const playlistData = [
                 "length": 193.08,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -9237,6 +11657,9 @@ export const playlistData = [
                 "length": 187.08,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -9248,6 +11671,9 @@ export const playlistData = [
                 "length": 187.68,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -9259,6 +11685,9 @@ export const playlistData = [
                 "length": 186.2,
                 "canonical_artists": [
                     "drewwillard"
+                ],
+                "discord_users": [
+                    "drewillard"
                 ]
             },
             {
@@ -9271,6 +11700,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "menhirs",
                     "skyguide"
+                ],
+                "discord_users": [
+                    "pity",
+                    "skyguide"
                 ]
             },
             {
@@ -9281,6 +11714,9 @@ export const playlistData = [
                 "link": "",
                 "length": 185.04,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -9293,6 +11729,9 @@ export const playlistData = [
                 "length": 159.03,
                 "canonical_artists": [
                     "sonarantescapades"
+                ],
+                "discord_users": [
+                    "jimbotron5000"
                 ]
             },
             {
@@ -9304,6 +11743,9 @@ export const playlistData = [
                 "length": 153.38,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -9314,6 +11756,9 @@ export const playlistData = [
                 "link": "",
                 "length": 148.63,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -9326,6 +11771,9 @@ export const playlistData = [
                 "length": 177.32,
                 "canonical_artists": [
                     "fjaru"
+                ],
+                "discord_users": [
+                    "fjaru"
                 ]
             },
             {
@@ -9337,6 +11785,9 @@ export const playlistData = [
                 "length": 289.3,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -9347,6 +11798,9 @@ export const playlistData = [
                 "link": "",
                 "length": 113.58,
                 "canonical_artists": [
+                    "zeroapr"
+                ],
+                "discord_users": [
                     "zeroapr"
                 ]
             },
@@ -9359,6 +11813,9 @@ export const playlistData = [
                 "length": 107.0,
                 "canonical_artists": [
                     "laurenpinschannels"
+                ],
+                "discord_users": [
+                    "lauren"
                 ]
             },
             {
@@ -9370,6 +11827,9 @@ export const playlistData = [
                 "length": 97.54,
                 "canonical_artists": [
                     "anonymouswaterbottle"
+                ],
+                "discord_users": [
+                    "amessvv"
                 ]
             },
             {
@@ -9380,6 +11840,9 @@ export const playlistData = [
                 "link": "",
                 "length": 259.99,
                 "canonical_artists": [
+                    "negativeteens"
+                ],
+                "discord_users": [
                     "negativeteens"
                 ]
             },
@@ -9392,6 +11855,9 @@ export const playlistData = [
                 "length": 172.78,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -9402,6 +11868,9 @@ export const playlistData = [
                 "link": "",
                 "length": 256.0,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             }
@@ -9429,6 +11898,9 @@ export const playlistData = [
                 "length": 335.04,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -9439,6 +11911,9 @@ export const playlistData = [
                 "link": "https://youtu.be/W-72POw-Rnc",
                 "length": 177.43,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -9451,6 +11926,9 @@ export const playlistData = [
                 "length": 255.45,
                 "canonical_artists": [
                     "meganeura"
+                ],
+                "discord_users": [
+                    "vluh123"
                 ]
             },
             {
@@ -9462,6 +11940,9 @@ export const playlistData = [
                 "length": 243.67,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -9473,6 +11954,9 @@ export const playlistData = [
                 "length": 78.63,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -9484,6 +11968,9 @@ export const playlistData = [
                 "length": 117.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -9496,6 +11983,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "informationcake",
                     "anthonyfelos"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "hurler1348"
                 ]
             },
             {
@@ -9506,6 +11997,9 @@ export const playlistData = [
                 "link": "",
                 "length": 238.03,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -9518,6 +12012,9 @@ export const playlistData = [
                 "length": 175.31,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -9529,6 +12026,9 @@ export const playlistData = [
                 "length": 290.88,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -9540,6 +12040,9 @@ export const playlistData = [
                 "length": 196.51,
                 "canonical_artists": [
                     "earlgrey"
+                ],
+                "discord_users": [
+                    "jellymustardgut"
                 ]
             },
             {
@@ -9551,6 +12054,9 @@ export const playlistData = [
                 "length": 210.22,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -9562,6 +12068,9 @@ export const playlistData = [
                 "length": 285.57,
                 "canonical_artists": [
                     "dreamx"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -9572,6 +12081,9 @@ export const playlistData = [
                 "link": "https://audius.co/nascent/the-lullaby",
                 "length": 146.59,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -9584,6 +12096,9 @@ export const playlistData = [
                 "length": 66.96,
                 "canonical_artists": [
                     "snoozevelt"
+                ],
+                "discord_users": [
+                    "snoozevelt"
                 ]
             },
             {
@@ -9594,6 +12109,9 @@ export const playlistData = [
                 "link": "",
                 "length": 122.21,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -9606,6 +12124,9 @@ export const playlistData = [
                 "length": 156.0,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -9617,6 +12138,9 @@ export const playlistData = [
                 "length": 207.36,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -9628,6 +12152,9 @@ export const playlistData = [
                 "length": 192.46,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -9639,6 +12166,9 @@ export const playlistData = [
                 "length": 200.04,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -9650,6 +12180,9 @@ export const playlistData = [
                 "length": 238.1,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -9661,6 +12194,9 @@ export const playlistData = [
                 "length": 226.85,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -9672,6 +12208,9 @@ export const playlistData = [
                 "length": 222.29,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -9683,6 +12222,9 @@ export const playlistData = [
                 "length": 223.34,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -9693,6 +12235,9 @@ export const playlistData = [
                 "link": "",
                 "length": 197.38,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -9705,6 +12250,9 @@ export const playlistData = [
                 "length": 306.65,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -9716,6 +12264,9 @@ export const playlistData = [
                 "length": 236.47,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -9727,6 +12278,9 @@ export const playlistData = [
                 "length": 197.59,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -9737,6 +12291,9 @@ export const playlistData = [
                 "link": "",
                 "length": 202.08,
                 "canonical_artists": [
+                    "thedisordered"
+                ],
+                "discord_users": [
                     "thedisordered"
                 ]
             },
@@ -9749,6 +12306,9 @@ export const playlistData = [
                 "length": 274.29,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -9759,6 +12319,9 @@ export const playlistData = [
                 "link": "",
                 "length": 170.52,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -9771,6 +12334,9 @@ export const playlistData = [
                 "length": 162.7,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -9781,6 +12347,9 @@ export const playlistData = [
                 "link": "",
                 "length": 178.39,
                 "canonical_artists": [
+                    "cahl"
+                ],
+                "discord_users": [
                     "cahl"
                 ]
             },
@@ -9793,6 +12362,9 @@ export const playlistData = [
                 "length": 365.38,
                 "canonical_artists": [
                     "skyguide"
+                ],
+                "discord_users": [
+                    "skyguide"
                 ]
             },
             {
@@ -9804,6 +12376,9 @@ export const playlistData = [
                 "length": 297.2,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -9814,6 +12389,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=OMj0yvLeNIg",
                 "length": 146.47,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             }
@@ -9841,6 +12419,9 @@ export const playlistData = [
                 "length": 310.05,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -9852,6 +12433,9 @@ export const playlistData = [
                 "length": 253.7,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -9863,6 +12447,9 @@ export const playlistData = [
                 "length": 208.03,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -9875,6 +12462,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "ponyart",
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m",
+                    "ponyart"
                 ]
             },
             {
@@ -9885,6 +12476,9 @@ export const playlistData = [
                 "link": "",
                 "length": 238.39,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -9897,6 +12491,9 @@ export const playlistData = [
                 "length": 200.69,
                 "canonical_artists": [
                     "depthbuffer"
+                ],
+                "discord_users": [
+                    "depthbuffer"
                 ]
             },
             {
@@ -9907,6 +12504,9 @@ export const playlistData = [
                 "link": "",
                 "length": 187.79,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -9919,6 +12519,9 @@ export const playlistData = [
                 "length": 231.65,
                 "canonical_artists": [
                     "derekshunia"
+                ],
+                "discord_users": [
+                    "derek"
                 ]
             },
             {
@@ -9930,6 +12533,9 @@ export const playlistData = [
                 "length": 126.38,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -9941,6 +12547,9 @@ export const playlistData = [
                 "length": 206.81,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -9952,6 +12561,9 @@ export const playlistData = [
                 "length": 237.04,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -9962,6 +12574,9 @@ export const playlistData = [
                 "link": "",
                 "length": 276.19,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -9974,6 +12589,9 @@ export const playlistData = [
                 "length": 210.36,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -9984,6 +12602,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/hedbut/pommes?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=b7d38cd1e1164fb3aa289c528c139488",
                 "length": 152.93,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -9997,6 +12618,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "nornec",
                     "udio"
+                ],
+                "discord_users": [
+                    "udio",
+                    "nornec"
                 ]
             },
             {
@@ -10008,6 +12633,9 @@ export const playlistData = [
                 "length": 268.8,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -10019,6 +12647,9 @@ export const playlistData = [
                 "length": 186.91,
                 "canonical_artists": [
                     "hh"
+                ],
+                "discord_users": [
+                    "hillbilly_hipster"
                 ]
             },
             {
@@ -10030,6 +12661,9 @@ export const playlistData = [
                 "length": 153.53,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -10040,6 +12674,9 @@ export const playlistData = [
                 "link": "",
                 "length": 327.53,
                 "canonical_artists": [
+                    "dsm4lv"
+                ],
+                "discord_users": [
                     "dsm4lv"
                 ]
             },
@@ -10052,6 +12689,9 @@ export const playlistData = [
                 "length": 394.37,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -10063,6 +12703,9 @@ export const playlistData = [
                 "length": 297.46,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -10074,6 +12717,9 @@ export const playlistData = [
                 "length": 192.0,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -10084,6 +12730,9 @@ export const playlistData = [
                 "link": "",
                 "length": 159.26,
                 "canonical_artists": [
+                    "cakesandhi"
+                ],
+                "discord_users": [
                     "cakesandhi"
                 ]
             },
@@ -10096,6 +12745,9 @@ export const playlistData = [
                 "length": 225.67,
                 "canonical_artists": [
                     "mikey303"
+                ],
+                "discord_users": [
+                    "mikey303"
                 ]
             },
             {
@@ -10107,6 +12759,9 @@ export const playlistData = [
                 "length": 218.41,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -10117,6 +12772,9 @@ export const playlistData = [
                 "link": "https://depthbuffer.bandcamp.com/track/cicadasong",
                 "length": 302.35,
                 "canonical_artists": [
+                    "depthbuffer"
+                ],
+                "discord_users": [
                     "depthbuffer"
                 ]
             },
@@ -10129,6 +12787,9 @@ export const playlistData = [
                 "length": 130.8,
                 "canonical_artists": [
                     "nascen7"
+                ],
+                "discord_users": [
+                    "nascen7"
                 ]
             },
             {
@@ -10140,6 +12801,9 @@ export const playlistData = [
                 "length": 234.68,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -10150,6 +12814,9 @@ export const playlistData = [
                 "link": "",
                 "length": 189.1,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -10162,6 +12829,9 @@ export const playlistData = [
                 "length": 121.6,
                 "canonical_artists": [
                     "negativeteens"
+                ],
+                "discord_users": [
+                    "negativeteens"
                 ]
             },
             {
@@ -10173,6 +12843,9 @@ export const playlistData = [
                 "length": 136.03,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -10183,6 +12856,9 @@ export const playlistData = [
                 "link": "",
                 "length": 189.89,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -10196,6 +12872,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "adamjohanbergren",
                     "mikkipikehades"
+                ],
+                "discord_users": [
+                    "mikkipikehades",
+                    "ajbergren"
                 ]
             },
             {
@@ -10206,6 +12886,9 @@ export const playlistData = [
                 "link": "",
                 "length": 147.57,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -10218,6 +12901,9 @@ export const playlistData = [
                 "length": 216.43,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -10228,6 +12914,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=8xGJIhCya7c",
                 "length": 238.9,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -10240,6 +12929,9 @@ export const playlistData = [
                 "length": 240.35,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -10250,6 +12942,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=gpq4wo8GSCE",
                 "length": 116.82,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             }
@@ -10277,6 +12972,9 @@ export const playlistData = [
                 "length": 227.27,
                 "canonical_artists": [
                     "echoesbats"
+                ],
+                "discord_users": [
+                    "loom / echoes bats"
                 ]
             },
             {
@@ -10288,6 +12986,9 @@ export const playlistData = [
                 "length": 336.3,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -10299,6 +13000,9 @@ export const playlistData = [
                 "length": 194.95,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -10309,6 +13013,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714"
                 ]
             },
             {
@@ -10320,6 +13027,9 @@ export const playlistData = [
                 "length": 394.37,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -10332,6 +13042,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "errrawr",
                     "ponyart"
+                ],
+                "discord_users": [
+                    "err.rawr",
+                    "ponyart"
                 ]
             },
             {
@@ -10342,6 +13056,9 @@ export const playlistData = [
                 "link": "",
                 "length": 177.02,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -10354,6 +13071,9 @@ export const playlistData = [
                 "length": 91.98,
                 "canonical_artists": [
                     "snoozevelt"
+                ],
+                "discord_users": [
+                    "snoozevelt"
                 ]
             },
             {
@@ -10365,6 +13085,9 @@ export const playlistData = [
                 "length": 283.49,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -10375,6 +13098,9 @@ export const playlistData = [
                 "link": "",
                 "length": 78.29,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -10387,6 +13113,9 @@ export const playlistData = [
                 "length": 182.1,
                 "canonical_artists": [
                     "negativeteens"
+                ],
+                "discord_users": [
+                    "negativeteens"
                 ]
             },
             {
@@ -10397,6 +13126,9 @@ export const playlistData = [
                 "link": "",
                 "length": 65.14,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -10409,6 +13141,9 @@ export const playlistData = [
                 "length": 143.02,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -10419,6 +13154,9 @@ export const playlistData = [
                 "link": "",
                 "length": 202.76,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -10431,6 +13169,9 @@ export const playlistData = [
                 "length": 252.02,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -10442,6 +13183,9 @@ export const playlistData = [
                 "length": 76.3,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -10453,6 +13197,9 @@ export const playlistData = [
                 "length": 217.68,
                 "canonical_artists": [
                     "prysm"
+                ],
+                "discord_users": [
+                    "raf"
                 ]
             },
             {
@@ -10464,6 +13211,9 @@ export const playlistData = [
                 "length": 95.14,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -10475,6 +13225,9 @@ export const playlistData = [
                 "length": 182.04,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -10485,6 +13238,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/mindset",
                 "length": 143.83,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -10497,6 +13253,9 @@ export const playlistData = [
                 "length": 258.9,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -10508,6 +13267,9 @@ export const playlistData = [
                 "length": 150.36,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -10519,6 +13281,9 @@ export const playlistData = [
                 "length": 240.04,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -10529,6 +13294,9 @@ export const playlistData = [
                 "link": "",
                 "length": 72.17,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -10541,6 +13309,9 @@ export const playlistData = [
                 "length": 145.56,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -10552,6 +13323,9 @@ export const playlistData = [
                 "length": 154.51,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -10563,6 +13337,9 @@ export const playlistData = [
                 "length": 217.97,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -10574,6 +13351,9 @@ export const playlistData = [
                 "length": 116.98,
                 "canonical_artists": [
                     "dreamstatic"
+                ],
+                "discord_users": [
+                    "dream static"
                 ]
             },
             {
@@ -10585,6 +13365,9 @@ export const playlistData = [
                 "length": 134.3,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -10596,6 +13379,9 @@ export const playlistData = [
                 "length": 155.79,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -10607,6 +13393,9 @@ export const playlistData = [
                 "length": 130.22,
                 "canonical_artists": [
                     "pathing"
+                ],
+                "discord_users": [
+                    "pathing"
                 ]
             },
             {
@@ -10617,6 +13406,9 @@ export const playlistData = [
                 "link": "https://youtu.be/oFGSkX5vc4w?si=GQ1szkFN2swe4Hnn",
                 "length": 152.73,
                 "canonical_artists": [
+                    "skyguide"
+                ],
+                "discord_users": [
                     "skyguide"
                 ]
             }
@@ -10644,6 +13436,9 @@ export const playlistData = [
                 "length": 356.68,
                 "canonical_artists": [
                     "derekshunia"
+                ],
+                "discord_users": [
+                    "derek"
                 ]
             },
             {
@@ -10654,6 +13449,9 @@ export const playlistData = [
                 "link": "",
                 "length": 178.63,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -10666,6 +13464,9 @@ export const playlistData = [
                 "length": 180.02,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -10677,6 +13478,9 @@ export const playlistData = [
                 "length": 210.31,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -10687,6 +13491,9 @@ export const playlistData = [
                 "link": "",
                 "length": 240.93,
                 "canonical_artists": [
+                    "negativeteens"
+                ],
+                "discord_users": [
                     "negativeteens"
                 ]
             },
@@ -10699,6 +13506,9 @@ export const playlistData = [
                 "length": 119.64,
                 "canonical_artists": [
                     "teapotahedron"
+                ],
+                "discord_users": [
+                    "teapotahedron"
                 ]
             },
             {
@@ -10710,6 +13520,9 @@ export const playlistData = [
                 "length": 216.27,
                 "canonical_artists": [
                     "sethmonyette"
+                ],
+                "discord_users": [
+                    "mantooth901"
                 ]
             },
             {
@@ -10721,6 +13534,9 @@ export const playlistData = [
                 "length": 255.7,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -10731,6 +13547,9 @@ export const playlistData = [
                 "link": "",
                 "length": 238.32,
                 "canonical_artists": [
+                    "stupidpilled"
+                ],
+                "discord_users": [
                     "stupidpilled"
                 ]
             },
@@ -10743,6 +13562,9 @@ export const playlistData = [
                 "length": 166.09,
                 "canonical_artists": [
                     "buttons"
+                ],
+                "discord_users": [
+                    "bjorkmann."
                 ]
             },
             {
@@ -10753,6 +13575,9 @@ export const playlistData = [
                 "link": "",
                 "length": 312.03,
                 "canonical_artists": [
+                    "donoru"
+                ],
+                "discord_users": [
                     "donoru"
                 ]
             },
@@ -10766,6 +13591,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "defaultmediatransmitter",
                     "nornec"
+                ],
+                "discord_users": [
+                    "ksa",
+                    "nornec"
                 ]
             },
             {
@@ -10777,6 +13606,9 @@ export const playlistData = [
                 "length": 250.46,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -10787,6 +13619,9 @@ export const playlistData = [
                 "link": "",
                 "length": 193.7,
                 "canonical_artists": [
+                    "iamnabil"
+                ],
+                "discord_users": [
                     "iamnabil"
                 ]
             },
@@ -10799,6 +13634,9 @@ export const playlistData = [
                 "length": 205.75,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -10809,6 +13647,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/aplutofficial/nornec-confusion-aplut-remixx",
                 "length": 197.56,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -10821,6 +13662,9 @@ export const playlistData = [
                 "length": 253.83,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -10831,6 +13675,9 @@ export const playlistData = [
                 "link": "",
                 "length": 417.79,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -10843,6 +13690,9 @@ export const playlistData = [
                 "length": 288.03,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -10854,6 +13704,9 @@ export const playlistData = [
                 "length": 289.56,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -10864,6 +13717,9 @@ export const playlistData = [
                 "link": "",
                 "length": 267.22,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -10876,6 +13732,9 @@ export const playlistData = [
                 "length": 276.43,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -10887,6 +13746,9 @@ export const playlistData = [
                 "length": 120.03,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -10898,6 +13760,9 @@ export const playlistData = [
                 "length": 320.04,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -10908,6 +13773,9 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/confusion-ajb-remix-bandcamp-exclusive",
                 "length": 241.22,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -10920,6 +13788,9 @@ export const playlistData = [
                 "length": 202.37,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -10931,6 +13802,9 @@ export const playlistData = [
                 "length": 178.08,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -10942,6 +13816,9 @@ export const playlistData = [
                 "length": 348.0,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -10953,6 +13830,9 @@ export const playlistData = [
                 "length": 170.03,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -10964,6 +13844,9 @@ export const playlistData = [
                 "length": 135.89,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -10975,6 +13858,9 @@ export const playlistData = [
                 "length": 220.45,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -10985,6 +13871,9 @@ export const playlistData = [
                 "link": "",
                 "length": 228.02,
                 "canonical_artists": [
+                    "fallenprincess"
+                ],
+                "discord_users": [
                     "fallenprincess"
                 ]
             },
@@ -10998,6 +13887,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "jacketpocket",
                     "ponyart"
+                ],
+                "discord_users": [
+                    "traviebopankis",
+                    "ponyart"
                 ]
             },
             {
@@ -11008,6 +13901,9 @@ export const playlistData = [
                 "link": "",
                 "length": 192.42,
                 "canonical_artists": [
+                    "sirfancy"
+                ],
+                "discord_users": [
                     "sirfancy"
                 ]
             },
@@ -11020,6 +13916,9 @@ export const playlistData = [
                 "length": 156.38,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -11030,6 +13929,9 @@ export const playlistData = [
                 "link": "",
                 "length": 160.24,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             }
@@ -11057,6 +13959,9 @@ export const playlistData = [
                 "length": 302.13,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -11067,6 +13972,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=ygTG0dG6_Ao",
                 "length": 188.95,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -11079,6 +13987,9 @@ export const playlistData = [
                 "length": 282.5,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -11089,6 +14000,9 @@ export const playlistData = [
                 "link": "",
                 "length": 286.37,
                 "canonical_artists": [
+                    "computrhead"
+                ],
+                "discord_users": [
                     "computrhead"
                 ]
             },
@@ -11101,6 +14015,9 @@ export const playlistData = [
                 "length": 252.03,
                 "canonical_artists": [
                     "filmforthefuture"
+                ],
+                "discord_users": [
+                    "benadamstyles"
                 ]
             },
             {
@@ -11112,6 +14029,9 @@ export const playlistData = [
                 "length": 286.08,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -11123,6 +14043,9 @@ export const playlistData = [
                 "length": 252.03,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -11134,6 +14057,9 @@ export const playlistData = [
                 "length": 112.17,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -11146,6 +14072,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "stum",
                     "ponyart"
+                ],
+                "discord_users": [
+                    "stu m",
+                    "ponyart"
                 ]
             },
             {
@@ -11157,6 +14087,9 @@ export const playlistData = [
                 "length": 122.23,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -11167,6 +14100,9 @@ export const playlistData = [
                 "link": "",
                 "length": 164.74,
                 "canonical_artists": [
+                    "drewillard"
+                ],
+                "discord_users": [
                     "drewillard"
                 ]
             },
@@ -11179,6 +14115,9 @@ export const playlistData = [
                 "length": 188.21,
                 "canonical_artists": [
                     "notimetomix"
+                ],
+                "discord_users": [
+                    "jellymustardgut"
                 ]
             },
             {
@@ -11190,6 +14129,9 @@ export const playlistData = [
                 "length": 190.46,
                 "canonical_artists": [
                     "prysm"
+                ],
+                "discord_users": [
+                    "raf"
                 ]
             },
             {
@@ -11201,6 +14143,9 @@ export const playlistData = [
                 "length": 290.3,
                 "canonical_artists": [
                     "wisteria"
+                ],
+                "discord_users": [
+                    "fallenprincess"
                 ]
             },
             {
@@ -11212,6 +14157,9 @@ export const playlistData = [
                 "length": 126.89,
                 "canonical_artists": [
                     "kanaris"
+                ],
+                "discord_users": [
+                    "kai_unix"
                 ]
             },
             {
@@ -11222,6 +14170,9 @@ export const playlistData = [
                 "link": "",
                 "length": 217.87,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -11234,6 +14185,9 @@ export const playlistData = [
                 "length": 151.61,
                 "canonical_artists": [
                     "krovvythered"
+                ],
+                "discord_users": [
+                    "krovvythered"
                 ]
             },
             {
@@ -11245,6 +14199,9 @@ export const playlistData = [
                 "length": 207.05,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -11256,6 +14213,9 @@ export const playlistData = [
                 "length": 89.09,
                 "canonical_artists": [
                     "calt"
+                ],
+                "discord_users": [
+                    "c_alt"
                 ]
             },
             {
@@ -11266,6 +14226,9 @@ export const playlistData = [
                 "link": "",
                 "length": 176.66,
                 "canonical_artists": [
+                    "pathing"
+                ],
+                "discord_users": [
                     "pathing"
                 ]
             },
@@ -11278,6 +14241,9 @@ export const playlistData = [
                 "length": 89.86,
                 "canonical_artists": [
                     "sirfancy"
+                ],
+                "discord_users": [
+                    "sirfancy"
                 ]
             },
             {
@@ -11288,6 +14254,9 @@ export const playlistData = [
                 "link": "",
                 "length": 254.43,
                 "canonical_artists": [
+                    "stupidpilled"
+                ],
+                "discord_users": [
                     "stupidpilled"
                 ]
             },
@@ -11300,6 +14269,9 @@ export const playlistData = [
                 "length": 156.73,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -11310,6 +14282,9 @@ export const playlistData = [
                 "link": "",
                 "length": 264.77,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -11322,6 +14297,9 @@ export const playlistData = [
                 "length": 180.92,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -11332,6 +14310,9 @@ export const playlistData = [
                 "link": "",
                 "length": 210.7,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -11344,6 +14325,9 @@ export const playlistData = [
                 "length": 182.93,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -11359,7 +14343,7 @@ export const playlistData = [
             "shaky"
         ],
         "challenge": "Use the Fibonacci sequence in any and all of the ways you can think of! e.g. for rhythms/timings, chord/melody progressions, song structure, parameter automation, and who knows what else!",
-        "streamUrl": "https://www.youtube.com/watch?v=BS1EZcVrl80",
+        "streamUrl": "https://www.youtube.com/watch?v=HPXLEDZ-IFQ",
         "tracks": [
             {
                 "trackNo": 1,
@@ -11370,6 +14354,9 @@ export const playlistData = [
                 "length": 182.1,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -11381,6 +14368,9 @@ export const playlistData = [
                 "length": 180.4,
                 "canonical_artists": [
                     "theelklodge"
+                ],
+                "discord_users": [
+                    "elklodge"
                 ]
             },
             {
@@ -11391,6 +14381,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=nUAz0bcPMUU",
                 "length": 172.23,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -11403,6 +14396,9 @@ export const playlistData = [
                 "length": 190.18,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -11414,6 +14410,9 @@ export const playlistData = [
                 "length": 90.46,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -11424,6 +14423,9 @@ export const playlistData = [
                 "link": "",
                 "length": 225.02,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -11436,6 +14438,9 @@ export const playlistData = [
                 "length": 404.82,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -11446,6 +14451,9 @@ export const playlistData = [
                 "link": "",
                 "length": 225.57,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -11458,6 +14466,9 @@ export const playlistData = [
                 "length": 266.24,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -11469,6 +14480,9 @@ export const playlistData = [
                 "length": 269.24,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -11479,6 +14493,9 @@ export const playlistData = [
                 "link": "",
                 "length": 113.74,
                 "canonical_artists": [
+                    "pathing"
+                ],
+                "discord_users": [
                     "pathing"
                 ]
             },
@@ -11491,6 +14508,9 @@ export const playlistData = [
                 "length": 260.96,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -11502,6 +14522,9 @@ export const playlistData = [
                 "length": 184.03,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -11513,6 +14536,9 @@ export const playlistData = [
                 "length": 179.3,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -11524,6 +14550,9 @@ export const playlistData = [
                 "length": 129.65,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -11534,6 +14563,9 @@ export const playlistData = [
                 "link": "",
                 "length": 295.26,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -11546,6 +14578,9 @@ export const playlistData = [
                 "length": 152.47,
                 "canonical_artists": [
                     "drewillard"
+                ],
+                "discord_users": [
+                    "drewillard"
                 ]
             },
             {
@@ -11557,6 +14592,9 @@ export const playlistData = [
                 "length": 198.56,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -11567,6 +14605,9 @@ export const playlistData = [
                 "link": "",
                 "length": 203.1,
                 "canonical_artists": [
+                    "sirfancy"
+                ],
+                "discord_users": [
                     "sirfancy"
                 ]
             },
@@ -11579,6 +14620,9 @@ export const playlistData = [
                 "length": 232.36,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -11590,6 +14634,9 @@ export const playlistData = [
                 "length": 156.84,
                 "canonical_artists": [
                     "koodaisung"
+                ],
+                "discord_users": [
+                    "jimh001"
                 ]
             },
             {
@@ -11601,6 +14648,9 @@ export const playlistData = [
                 "length": 242.66,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -11612,6 +14662,9 @@ export const playlistData = [
                 "length": 234.02,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -11623,6 +14676,9 @@ export const playlistData = [
                 "length": 220.03,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -11634,6 +14690,9 @@ export const playlistData = [
                 "length": 125.96,
                 "canonical_artists": [
                     "bsreactor"
+                ],
+                "discord_users": [
+                    "alderach"
                 ]
             }
         ]
@@ -11660,6 +14719,9 @@ export const playlistData = [
                 "length": 127.54,
                 "canonical_artists": [
                     "monkeyluckless"
+                ],
+                "discord_users": [
+                    ".electricbuffalo"
                 ]
             },
             {
@@ -11670,6 +14732,9 @@ export const playlistData = [
                 "link": "",
                 "length": 282.17,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -11682,6 +14747,9 @@ export const playlistData = [
                 "length": 293.2,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -11693,6 +14761,9 @@ export const playlistData = [
                 "length": 168.02,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -11704,6 +14775,9 @@ export const playlistData = [
                 "length": 259.89,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -11716,6 +14790,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "jacketpocket",
                     "mason"
+                ],
+                "discord_users": [
+                    "mason",
+                    "traviebopankis"
                 ]
             },
             {
@@ -11727,6 +14805,9 @@ export const playlistData = [
                 "length": 180.14,
                 "canonical_artists": [
                     "cayze"
+                ],
+                "discord_users": [
+                    "jimbotron5000"
                 ]
             },
             {
@@ -11737,6 +14818,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=EHUWTIQNb3Q",
                 "length": 289.85,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -11749,6 +14833,9 @@ export const playlistData = [
                 "length": 219.77,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -11760,6 +14847,9 @@ export const playlistData = [
                 "length": 300.98,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -11771,6 +14861,9 @@ export const playlistData = [
                 "length": 262.53,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -11782,6 +14875,9 @@ export const playlistData = [
                 "length": 260.62,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -11793,6 +14889,9 @@ export const playlistData = [
                 "length": 268.18,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -11804,6 +14903,9 @@ export const playlistData = [
                 "length": 186.19,
                 "canonical_artists": [
                     "b"
+                ],
+                "discord_users": [
+                    "ssluggss"
                 ]
             },
             {
@@ -11814,6 +14916,9 @@ export const playlistData = [
                 "link": "",
                 "length": 136.67,
                 "canonical_artists": [
+                    "luckytamagotchi"
+                ],
+                "discord_users": [
                     "luckytamagotchi"
                 ]
             },
@@ -11827,6 +14932,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "wisteria",
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "fallenprincess"
                 ]
             },
             {
@@ -11837,6 +14946,9 @@ export const playlistData = [
                 "link": "",
                 "length": 287.14,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -11849,6 +14961,9 @@ export const playlistData = [
                 "length": 316.03,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -11860,6 +14975,9 @@ export const playlistData = [
                 "length": 264.02,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -11870,6 +14988,9 @@ export const playlistData = [
                 "link": "",
                 "length": 171.42,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -11882,6 +15003,9 @@ export const playlistData = [
                 "length": 276.74,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -11893,6 +15017,9 @@ export const playlistData = [
                 "length": 253.82,
                 "canonical_artists": [
                     "truckbutwithaleadingunderscorelikemydiscordhandle"
+                ],
+                "discord_users": [
+                    "_truck"
                 ]
             },
             {
@@ -11904,6 +15031,9 @@ export const playlistData = [
                 "length": 248.27,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -11914,6 +15044,9 @@ export const playlistData = [
                 "link": "",
                 "length": 236.35,
                 "canonical_artists": [
+                    "stoic"
+                ],
+                "discord_users": [
                     "stoic"
                 ]
             },
@@ -11926,6 +15059,9 @@ export const playlistData = [
                 "length": 263.69,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -11936,6 +15072,9 @@ export const playlistData = [
                 "link": "",
                 "length": 148.06,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -11948,6 +15087,9 @@ export const playlistData = [
                 "length": 199.22,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -11958,6 +15100,9 @@ export const playlistData = [
                 "link": "",
                 "length": 156.46,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -11970,6 +15115,9 @@ export const playlistData = [
                 "length": 193.37,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -11981,6 +15129,9 @@ export const playlistData = [
                 "length": 130.37,
                 "canonical_artists": [
                     "bsreactor"
+                ],
+                "discord_users": [
+                    "alderach"
                 ]
             }
         ]
@@ -12007,6 +15158,9 @@ export const playlistData = [
                 "length": 97.57,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -12017,6 +15171,9 @@ export const playlistData = [
                 "link": "",
                 "length": 304.98,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -12029,6 +15186,9 @@ export const playlistData = [
                 "length": 60.84,
                 "canonical_artists": [
                     "akilakavo"
+                ],
+                "discord_users": [
+                    "akilakavo"
                 ]
             },
             {
@@ -12040,6 +15200,9 @@ export const playlistData = [
                 "length": 247.3,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -12051,6 +15214,9 @@ export const playlistData = [
                 "length": 130.42,
                 "canonical_artists": [
                     "mmm"
+                ],
+                "discord_users": [
+                    "misumurmur"
                 ]
             },
             {
@@ -12061,6 +15227,9 @@ export const playlistData = [
                 "link": "",
                 "length": 252.92,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -12073,6 +15242,9 @@ export const playlistData = [
                 "length": 219.64,
                 "canonical_artists": [
                     "derekshunia"
+                ],
+                "discord_users": [
+                    "derek"
                 ]
             },
             {
@@ -12084,6 +15256,9 @@ export const playlistData = [
                 "length": 219.82,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -12094,6 +15269,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/downwind/s-bIlWqM8cB7K?si=b659428dfe79429cb0ef304467d2a14e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 192.55,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -12106,6 +15284,9 @@ export const playlistData = [
                 "length": 218.45,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -12117,6 +15298,9 @@ export const playlistData = [
                 "length": 188.03,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -12127,6 +15311,9 @@ export const playlistData = [
                 "link": "",
                 "length": 135.02,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -12139,6 +15326,9 @@ export const playlistData = [
                 "length": 288.07,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -12150,6 +15340,9 @@ export const playlistData = [
                 "length": 225.24,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -12161,6 +15354,9 @@ export const playlistData = [
                 "length": 326.66,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -12171,6 +15367,9 @@ export const playlistData = [
                 "link": "",
                 "length": 75.05,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -12183,6 +15382,9 @@ export const playlistData = [
                 "length": 298.92,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -12194,6 +15396,9 @@ export const playlistData = [
                 "length": 221.38,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -12204,6 +15409,9 @@ export const playlistData = [
                 "link": "",
                 "length": 257.04,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -12216,6 +15424,9 @@ export const playlistData = [
                 "length": 240.02,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -12227,6 +15438,9 @@ export const playlistData = [
                 "length": 275.77,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -12238,6 +15452,9 @@ export const playlistData = [
                 "length": 100.2,
                 "canonical_artists": [
                     "ap"
+                ],
+                "discord_users": [
+                    "iamthesoundman"
                 ]
             },
             {
@@ -12249,6 +15466,9 @@ export const playlistData = [
                 "length": 272.04,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -12259,6 +15479,9 @@ export const playlistData = [
                 "link": "",
                 "length": 320.03,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -12271,6 +15494,9 @@ export const playlistData = [
                 "length": 195.34,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -12282,6 +15508,9 @@ export const playlistData = [
                 "length": 168.15,
                 "canonical_artists": [
                     "bsreactor"
+                ],
+                "discord_users": [
+                    "alderach"
                 ]
             },
             {
@@ -12293,6 +15522,9 @@ export const playlistData = [
                 "length": 240.34,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             }
         ]
@@ -12319,6 +15551,9 @@ export const playlistData = [
                 "length": 199.78,
                 "canonical_artists": [
                     "wisteria"
+                ],
+                "discord_users": [
+                    "fallenprincess"
                 ]
             },
             {
@@ -12329,6 +15564,9 @@ export const playlistData = [
                 "link": "",
                 "length": 180.02,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -12341,6 +15579,9 @@ export const playlistData = [
                 "length": 302.3,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -12352,6 +15593,9 @@ export const playlistData = [
                 "length": 330.02,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -12363,6 +15607,9 @@ export const playlistData = [
                 "length": 204.41,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -12374,6 +15621,9 @@ export const playlistData = [
                 "length": 197.04,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -12385,6 +15635,9 @@ export const playlistData = [
                 "length": 173.06,
                 "canonical_artists": [
                     "laweffort"
+                ],
+                "discord_users": [
+                    "jellymustardgut"
                 ]
             },
             {
@@ -12396,6 +15649,9 @@ export const playlistData = [
                 "length": 123.02,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -12406,6 +15662,9 @@ export const playlistData = [
                 "link": "",
                 "length": 293.54,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -12418,6 +15677,9 @@ export const playlistData = [
                 "length": 243.07,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -12429,6 +15691,9 @@ export const playlistData = [
                 "length": 78.63,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -12440,6 +15705,9 @@ export const playlistData = [
                 "length": 300.02,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -12452,6 +15720,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "informationcake",
                     "ponyart"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "ponyart"
                 ]
             },
             {
@@ -12463,6 +15735,9 @@ export const playlistData = [
                 "length": 197.69,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -12474,6 +15749,9 @@ export const playlistData = [
                 "length": 390.27,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -12484,6 +15762,9 @@ export const playlistData = [
                 "link": "",
                 "length": 198.43,
                 "canonical_artists": [
+                    "donoru"
+                ],
+                "discord_users": [
                     "donoru"
                 ]
             },
@@ -12496,6 +15777,9 @@ export const playlistData = [
                 "length": 302.04,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -12507,6 +15791,9 @@ export const playlistData = [
                 "length": 232.59,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -12517,6 +15804,9 @@ export const playlistData = [
                 "link": "",
                 "length": 190.38,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -12529,6 +15819,9 @@ export const playlistData = [
                 "length": 251.42,
                 "canonical_artists": [
                     "japaneseseizurerobots"
+                ],
+                "discord_users": [
+                    ".mr.transistor"
                 ]
             },
             {
@@ -12540,6 +15833,9 @@ export const playlistData = [
                 "length": 410.06,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -12551,6 +15847,9 @@ export const playlistData = [
                 "length": 236.83,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -12562,6 +15861,9 @@ export const playlistData = [
                 "length": 188.47,
                 "canonical_artists": [
                     "deithryn"
+                ],
+                "discord_users": [
+                    "deithryn.wav"
                 ]
             },
             {
@@ -12573,6 +15875,9 @@ export const playlistData = [
                 "length": 125.57,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -12583,6 +15888,9 @@ export const playlistData = [
                 "link": "",
                 "length": 314.21,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -12595,6 +15903,9 @@ export const playlistData = [
                 "length": 295.2,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -12605,6 +15916,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=tcF04YLzY88",
                 "length": 200.05,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -12617,6 +15931,9 @@ export const playlistData = [
                 "length": 161.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             }
         ]
@@ -12632,7 +15949,7 @@ export const playlistData = [
             "curly"
         ],
         "challenge": "Microtonal",
-        "streamUrl": "https://www.youtube.com/watch?v=gb7wUz7yYFM",
+        "streamUrl": "https://www.youtube.com/watch?v=YA-m5XYHvIw",
         "tracks": [
             {
                 "trackNo": 1,
@@ -12642,6 +15959,9 @@ export const playlistData = [
                 "link": "",
                 "length": 144.74,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -12654,6 +15974,9 @@ export const playlistData = [
                 "length": 252.19,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -12664,6 +15987,9 @@ export const playlistData = [
                 "link": "",
                 "length": 141.32,
                 "canonical_artists": [
+                    "derekerdmann"
+                ],
+                "discord_users": [
                     "derekerdmann"
                 ]
             },
@@ -12676,6 +16002,9 @@ export const playlistData = [
                 "length": 248.76,
                 "canonical_artists": [
                     "ambientspace"
+                ],
+                "discord_users": [
+                    "ambientspace"
                 ]
             },
             {
@@ -12687,6 +16016,9 @@ export const playlistData = [
                 "length": 176.04,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -12697,6 +16029,9 @@ export const playlistData = [
                 "link": "",
                 "length": 220.06,
                 "canonical_artists": [
+                    "reark"
+                ],
+                "discord_users": [
                     "reark"
                 ]
             },
@@ -12709,6 +16044,9 @@ export const playlistData = [
                 "length": 90.12,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -12720,6 +16058,9 @@ export const playlistData = [
                 "length": 195.82,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -12730,6 +16071,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=B_tSMjWVkw8",
                 "length": 236.04,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -12742,6 +16086,9 @@ export const playlistData = [
                 "length": 234.98,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -12753,6 +16100,9 @@ export const playlistData = [
                 "length": 196.31,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -12763,6 +16113,9 @@ export const playlistData = [
                 "link": "",
                 "length": 248.76,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -12775,6 +16128,9 @@ export const playlistData = [
                 "length": 218.3,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -12786,6 +16142,9 @@ export const playlistData = [
                 "length": 152.04,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -12797,6 +16156,9 @@ export const playlistData = [
                 "length": 206.95,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -12807,6 +16169,9 @@ export const playlistData = [
                 "link": "",
                 "length": 253.63,
                 "canonical_artists": [
+                    "kiwillian"
+                ],
+                "discord_users": [
                     "kiwillian"
                 ]
             },
@@ -12819,6 +16184,9 @@ export const playlistData = [
                 "length": 162.69,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -12830,6 +16198,9 @@ export const playlistData = [
                 "length": 224.44,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -12841,6 +16212,9 @@ export const playlistData = [
                 "length": 265.12,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -12851,6 +16225,9 @@ export const playlistData = [
                 "link": "",
                 "length": 290.01,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             }
@@ -12878,6 +16255,9 @@ export const playlistData = [
                 "length": 160.24,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -12890,6 +16270,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "wisteria",
                     "okseashells"
+                ],
+                "discord_users": [
+                    "okseashells",
+                    "fallenprincess"
                 ]
             },
             {
@@ -12901,6 +16285,9 @@ export const playlistData = [
                 "length": 289.25,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -12912,6 +16299,9 @@ export const playlistData = [
                 "length": 245.69,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -12922,6 +16312,9 @@ export const playlistData = [
                 "link": "",
                 "length": 89.42,
                 "canonical_artists": [
+                    "ergonogo"
+                ],
+                "discord_users": [
                     "ergonogo"
                 ]
             },
@@ -12934,6 +16327,9 @@ export const playlistData = [
                 "length": 162.8,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -12945,6 +16341,9 @@ export const playlistData = [
                 "length": 234.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -12956,6 +16355,9 @@ export const playlistData = [
                 "length": 322.48,
                 "canonical_artists": [
                     "derekshunia"
+                ],
+                "discord_users": [
+                    "derek"
                 ]
             },
             {
@@ -12966,6 +16368,9 @@ export const playlistData = [
                 "link": "",
                 "length": 133.88,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -12978,6 +16383,9 @@ export const playlistData = [
                 "length": 222.56,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -12988,6 +16396,9 @@ export const playlistData = [
                 "link": "",
                 "length": 203.54,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -13000,6 +16411,9 @@ export const playlistData = [
                 "length": 131.23,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -13011,6 +16425,9 @@ export const playlistData = [
                 "length": 378.28,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -13021,6 +16438,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=iCObgxXh8hg",
                 "length": 272.98,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -13033,6 +16453,9 @@ export const playlistData = [
                 "length": 279.09,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -13043,6 +16466,9 @@ export const playlistData = [
                 "link": "",
                 "length": 269.09,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -13055,6 +16481,9 @@ export const playlistData = [
                 "length": 240.02,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -13065,6 +16494,9 @@ export const playlistData = [
                 "link": "",
                 "length": 206.18,
                 "canonical_artists": [
+                    "michaelol179"
+                ],
+                "discord_users": [
                     "michaelol179"
                 ]
             },
@@ -13077,6 +16509,9 @@ export const playlistData = [
                 "length": 159.32,
                 "canonical_artists": [
                     "derekerdmann"
+                ],
+                "discord_users": [
+                    "derekerdmann"
                 ]
             },
             {
@@ -13088,6 +16523,9 @@ export const playlistData = [
                 "length": 241.66,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -13098,6 +16536,9 @@ export const playlistData = [
                 "link": "",
                 "length": 306.29,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -13110,6 +16551,9 @@ export const playlistData = [
                 "length": 219.17,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -13121,6 +16565,9 @@ export const playlistData = [
                 "length": 187.54,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -13131,6 +16578,9 @@ export const playlistData = [
                 "link": "",
                 "length": 207.31,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -13143,6 +16593,9 @@ export const playlistData = [
                 "length": 120.02,
                 "canonical_artists": [
                     "lemonberries"
+                ],
+                "discord_users": [
+                    "massive dynamic"
                 ]
             },
             {
@@ -13154,6 +16607,9 @@ export const playlistData = [
                 "length": 295.85,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -13165,6 +16621,9 @@ export const playlistData = [
                 "length": 251.59,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -13175,6 +16634,9 @@ export const playlistData = [
                 "link": "",
                 "length": 136.03,
                 "canonical_artists": [
+                    "daxa"
+                ],
+                "discord_users": [
                     "daxa"
                 ]
             },
@@ -13187,6 +16649,9 @@ export const playlistData = [
                 "length": 231.36,
                 "canonical_artists": [
                     "fractalint"
+                ],
+                "discord_users": [
+                    "alan (fractal::int)"
                 ]
             },
             {
@@ -13198,6 +16663,9 @@ export const playlistData = [
                 "length": 170.66,
                 "canonical_artists": [
                     "xaqmusic"
+                ],
+                "discord_users": [
+                    "xaq9000"
                 ]
             },
             {
@@ -13209,6 +16677,9 @@ export const playlistData = [
                 "length": 208.67,
                 "canonical_artists": [
                     "deithryn"
+                ],
+                "discord_users": [
+                    "deithryn.wav"
                 ]
             },
             {
@@ -13220,6 +16691,9 @@ export const playlistData = [
                 "length": 206.04,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -13231,6 +16705,9 @@ export const playlistData = [
                 "length": 196.05,
                 "canonical_artists": [
                     "danetalsysteemplafond"
+                ],
+                "discord_users": [
+                    "danetal_66991"
                 ]
             },
             {
@@ -13242,6 +16719,9 @@ export const playlistData = [
                 "length": 216.02,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -13253,6 +16733,9 @@ export const playlistData = [
                 "length": 250.57,
                 "canonical_artists": [
                     "tailglow"
+                ],
+                "discord_users": [
+                    "athens horseparty"
                 ]
             }
         ]
@@ -13279,6 +16762,9 @@ export const playlistData = [
                 "length": 115.1,
                 "canonical_artists": [
                     "nascen7"
+                ],
+                "discord_users": [
+                    "nascen7"
                 ]
             },
             {
@@ -13290,6 +16776,9 @@ export const playlistData = [
                 "length": 196.25,
                 "canonical_artists": [
                     "xaqmusic"
+                ],
+                "discord_users": [
+                    "xaq9000"
                 ]
             },
             {
@@ -13300,6 +16789,9 @@ export const playlistData = [
                 "link": "",
                 "length": 211.8,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -13312,6 +16804,9 @@ export const playlistData = [
                 "length": 207.74,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -13323,6 +16818,9 @@ export const playlistData = [
                 "length": 168.05,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -13334,6 +16832,9 @@ export const playlistData = [
                 "length": 255.48,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -13345,6 +16846,9 @@ export const playlistData = [
                 "length": 235.25,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -13355,6 +16859,9 @@ export const playlistData = [
                 "link": "",
                 "length": 164.34,
                 "canonical_artists": [
+                    "jordan"
+                ],
+                "discord_users": [
                     "jordan"
                 ]
             },
@@ -13367,6 +16874,9 @@ export const playlistData = [
                 "length": 160.39,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -13377,6 +16887,9 @@ export const playlistData = [
                 "link": "",
                 "length": 175.65,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -13389,6 +16902,9 @@ export const playlistData = [
                 "length": 216.5,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -13400,6 +16916,9 @@ export const playlistData = [
                 "length": 428.36,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -13410,6 +16929,9 @@ export const playlistData = [
                 "link": "",
                 "length": 143.46,
                 "canonical_artists": [
+                    "goerikgo"
+                ],
+                "discord_users": [
                     "goerikgo"
                 ]
             },
@@ -13422,6 +16944,9 @@ export const playlistData = [
                 "length": 133.15,
                 "canonical_artists": [
                     "derekerdmann"
+                ],
+                "discord_users": [
+                    "derekerdmann"
                 ]
             },
             {
@@ -13433,6 +16958,9 @@ export const playlistData = [
                 "length": 293.33,
                 "canonical_artists": [
                     "shaolinrib"
+                ],
+                "discord_users": [
+                    "hallucyn8 / shaolin rib"
                 ]
             },
             {
@@ -13444,6 +16972,9 @@ export const playlistData = [
                 "length": 98.69,
                 "canonical_artists": [
                     "lemonberries"
+                ],
+                "discord_users": [
+                    "massive dynamic"
                 ]
             },
             {
@@ -13454,6 +16985,9 @@ export const playlistData = [
                 "link": "https://youtu.be/d3_tR9gM1JE",
                 "length": 200.46,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -13466,6 +17000,9 @@ export const playlistData = [
                 "length": 244.79,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -13477,6 +17014,9 @@ export const playlistData = [
                 "length": 229.04,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -13487,6 +17027,9 @@ export const playlistData = [
                 "link": "",
                 "length": 320.04,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -13499,6 +17042,9 @@ export const playlistData = [
                 "length": 42.74,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -13510,6 +17056,9 @@ export const playlistData = [
                 "length": 198.35,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -13521,6 +17070,9 @@ export const playlistData = [
                 "length": 140.18,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -13531,6 +17083,9 @@ export const playlistData = [
                 "link": "",
                 "length": 182.04,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -13543,6 +17098,9 @@ export const playlistData = [
                 "length": 288.03,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -13554,6 +17112,9 @@ export const playlistData = [
                 "length": 256.03,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -13564,6 +17125,9 @@ export const playlistData = [
                 "link": "",
                 "length": 118.92,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -13576,6 +17140,9 @@ export const playlistData = [
                 "length": 192.64,
                 "canonical_artists": [
                     "firstsun"
+                ],
+                "discord_users": [
+                    "acid_rain"
                 ]
             },
             {
@@ -13586,6 +17153,9 @@ export const playlistData = [
                 "link": "",
                 "length": 348.97,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             }
@@ -13613,6 +17183,9 @@ export const playlistData = [
                 "length": 271.7,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -13623,6 +17196,9 @@ export const playlistData = [
                 "link": "",
                 "length": 287.71,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -13635,6 +17211,9 @@ export const playlistData = [
                 "length": 274.85,
                 "canonical_artists": [
                     "softcoretoucan"
+                ],
+                "discord_users": [
+                    "topograph"
                 ]
             },
             {
@@ -13646,6 +17225,9 @@ export const playlistData = [
                 "length": 204.41,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -13656,6 +17238,9 @@ export const playlistData = [
                 "link": "",
                 "length": 82.31,
                 "canonical_artists": [
+                    "michaelol179"
+                ],
+                "discord_users": [
                     "michaelol179"
                 ]
             },
@@ -13668,6 +17253,9 @@ export const playlistData = [
                 "length": 167.58,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -13679,6 +17267,9 @@ export const playlistData = [
                 "length": 269.86,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -13690,6 +17281,9 @@ export const playlistData = [
                 "length": 249.05,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -13701,6 +17295,9 @@ export const playlistData = [
                 "length": 249.55,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -13712,6 +17309,9 @@ export const playlistData = [
                 "length": 216.02,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -13722,6 +17322,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/beek",
                 "length": 144.04,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -13734,6 +17337,9 @@ export const playlistData = [
                 "length": 279.65,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -13745,6 +17351,9 @@ export const playlistData = [
                 "length": 227.63,
                 "canonical_artists": [
                     "drumnode"
+                ],
+                "discord_users": [
+                    "ponyart, stu_m"
                 ]
             },
             {
@@ -13755,6 +17364,9 @@ export const playlistData = [
                 "link": "",
                 "length": 154.82,
                 "canonical_artists": [
+                    "jordan"
+                ],
+                "discord_users": [
                     "jordan"
                 ]
             },
@@ -13767,6 +17379,9 @@ export const playlistData = [
                 "length": 295.03,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -13777,6 +17392,9 @@ export const playlistData = [
                 "link": "",
                 "length": 308.62,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -13789,6 +17407,9 @@ export const playlistData = [
                 "length": 204.83,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -13800,6 +17421,9 @@ export const playlistData = [
                 "length": 285.89,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -13811,6 +17435,9 @@ export const playlistData = [
                 "length": 154.57,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -13821,6 +17448,9 @@ export const playlistData = [
                 "link": "",
                 "length": 299.71,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -13833,6 +17463,9 @@ export const playlistData = [
                 "length": 258.94,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -13844,6 +17477,9 @@ export const playlistData = [
                 "length": 198.58,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -13855,6 +17491,9 @@ export const playlistData = [
                 "length": 156.03,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -13866,6 +17505,9 @@ export const playlistData = [
                 "length": 268.01,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -13876,6 +17518,9 @@ export const playlistData = [
                 "link": "",
                 "length": 159.31,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -13888,6 +17533,9 @@ export const playlistData = [
                 "length": 212.92,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -13898,6 +17546,9 @@ export const playlistData = [
                 "link": "",
                 "length": 190.28,
                 "canonical_artists": [
+                    "donoru"
+                ],
+                "discord_users": [
                     "donoru"
                 ]
             },
@@ -13910,6 +17561,9 @@ export const playlistData = [
                 "length": 316.42,
                 "canonical_artists": [
                     "fulhjortaslithumoh"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -13921,6 +17575,9 @@ export const playlistData = [
                 "length": 538.67,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             }
         ]
@@ -13947,6 +17604,9 @@ export const playlistData = [
                 "length": 434.83,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -13958,6 +17618,9 @@ export const playlistData = [
                 "length": 243.91,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -13969,6 +17632,9 @@ export const playlistData = [
                 "length": 70.94,
                 "canonical_artists": [
                     "softcoretoucan"
+                ],
+                "discord_users": [
+                    "topograph"
                 ]
             },
             {
@@ -13981,6 +17647,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "adamjohanbergren",
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714",
+                    "ajbergren"
                 ]
             },
             {
@@ -13991,6 +17661,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/frozen-trajectory-skitter-flip",
                 "length": 195.03,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -14003,6 +17676,9 @@ export const playlistData = [
                 "length": 183.9,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -14014,6 +17690,9 @@ export const playlistData = [
                 "length": 259.53,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -14024,6 +17703,9 @@ export const playlistData = [
                 "link": "",
                 "length": 116.56,
                 "canonical_artists": [
+                    "fjaru"
+                ],
+                "discord_users": [
                     "fjaru"
                 ]
             },
@@ -14036,6 +17718,9 @@ export const playlistData = [
                 "length": 223.61,
                 "canonical_artists": [
                     "intentunknown"
+                ],
+                "discord_users": [
+                    "khae0"
                 ]
             },
             {
@@ -14046,6 +17731,9 @@ export const playlistData = [
                 "link": "",
                 "length": 173.51,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -14058,6 +17746,9 @@ export const playlistData = [
                 "length": 201.82,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -14069,6 +17760,9 @@ export const playlistData = [
                 "length": 242.23,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -14080,6 +17774,9 @@ export const playlistData = [
                 "length": 151.95,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -14090,6 +17787,9 @@ export const playlistData = [
                 "link": "",
                 "length": 235.15,
                 "canonical_artists": [
+                    "stupidpilled"
+                ],
+                "discord_users": [
                     "stupidpilled"
                 ]
             },
@@ -14102,6 +17802,9 @@ export const playlistData = [
                 "length": 204.98,
                 "canonical_artists": [
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga"
                 ]
             },
             {
@@ -14113,6 +17816,9 @@ export const playlistData = [
                 "length": 236.04,
                 "canonical_artists": [
                     "ikan"
+                ],
+                "discord_users": [
+                    "dalton"
                 ]
             },
             {
@@ -14125,6 +17831,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "fulhjort",
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714",
+                    "fulhjort"
                 ]
             },
             {
@@ -14136,6 +17846,9 @@ export const playlistData = [
                 "length": 292.05,
                 "canonical_artists": [
                     "theelklodge"
+                ],
+                "discord_users": [
+                    "elklodge"
                 ]
             },
             {
@@ -14148,6 +17861,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "antimancer",
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "benn#1714",
+                    "themeatdealer"
                 ]
             },
             {
@@ -14159,6 +17876,9 @@ export const playlistData = [
                 "length": 163.58,
                 "canonical_artists": [
                     "fractal4053"
+                ],
+                "discord_users": [
+                    "sanyavarvar2004"
                 ]
             },
             {
@@ -14169,6 +17889,9 @@ export const playlistData = [
                 "link": "",
                 "length": 280.03,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -14181,6 +17904,9 @@ export const playlistData = [
                 "length": 141.86,
                 "canonical_artists": [
                     "bennjordan"
+                ],
+                "discord_users": [
+                    "jordan"
                 ]
             },
             {
@@ -14192,6 +17918,9 @@ export const playlistData = [
                 "length": 185.65,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -14204,6 +17933,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "theflashbulb",
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity",
+                    "benn#1714"
                 ]
             },
             {
@@ -14215,6 +17948,9 @@ export const playlistData = [
                 "length": 154.87,
                 "canonical_artists": [
                     "misls"
+                ],
+                "discord_users": [
+                    "sassycuddlefish"
                 ]
             },
             {
@@ -14226,6 +17962,9 @@ export const playlistData = [
                 "length": 206.78,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -14238,6 +17977,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "informationcake",
                     "theflashbulb"
+                ],
+                "discord_users": [
+                    "alex / informationcake",
+                    "benn#1714"
                 ]
             },
             {
@@ -14249,6 +17992,9 @@ export const playlistData = [
                 "length": 158.04,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -14259,6 +18005,9 @@ export const playlistData = [
                 "link": "",
                 "length": 149.54,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -14271,6 +18020,9 @@ export const playlistData = [
                 "length": 218.23,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -14281,6 +18033,9 @@ export const playlistData = [
                 "link": "",
                 "length": 324.24,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -14293,6 +18048,9 @@ export const playlistData = [
                 "length": 139.49,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -14303,6 +18061,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=2p0-eVzSmy0",
                 "length": 262.68,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             }
@@ -14330,6 +18091,9 @@ export const playlistData = [
                 "length": 282.02,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -14341,6 +18105,9 @@ export const playlistData = [
                 "length": 153.91,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -14351,6 +18118,9 @@ export const playlistData = [
                 "link": "https://youtu.be/8IKhjcALHd8",
                 "length": 124.94,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -14363,6 +18133,9 @@ export const playlistData = [
                 "length": 251.9,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -14373,6 +18146,9 @@ export const playlistData = [
                 "link": "",
                 "length": 259.75,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -14385,6 +18161,9 @@ export const playlistData = [
                 "length": 194.93,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -14396,6 +18175,9 @@ export const playlistData = [
                 "length": 154.44,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -14407,6 +18189,9 @@ export const playlistData = [
                 "length": 199.22,
                 "canonical_artists": [
                     "caminodeldragon"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -14418,6 +18203,9 @@ export const playlistData = [
                 "length": 185.18,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -14428,6 +18216,9 @@ export const playlistData = [
                 "link": "",
                 "length": 300.75,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -14440,6 +18231,9 @@ export const playlistData = [
                 "length": 48.02,
                 "canonical_artists": [
                     "waivedethancadamore"
+                ],
+                "discord_users": [
+                    "waived"
                 ]
             },
             {
@@ -14451,6 +18245,9 @@ export const playlistData = [
                 "length": 255.29,
                 "canonical_artists": [
                     "amadeusbsnivelitch"
+                ],
+                "discord_users": [
+                    ".spekkio"
                 ]
             },
             {
@@ -14461,6 +18258,10 @@ export const playlistData = [
                 "link": "",
                 "length": 394.79,
                 "canonical_artists": [
+                    "charlesrandall",
+                    "thecure"
+                ],
+                "discord_users": [
                     "charlesrandall",
                     "thecure"
                 ]
@@ -14474,6 +18275,9 @@ export const playlistData = [
                 "length": 135.11,
                 "canonical_artists": [
                     "dalton"
+                ],
+                "discord_users": [
+                    "dalton"
                 ]
             },
             {
@@ -14484,6 +18288,9 @@ export const playlistData = [
                 "link": "",
                 "length": 204.96,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -14496,6 +18303,9 @@ export const playlistData = [
                 "length": 203.68,
                 "canonical_artists": [
                     "cayze"
+                ],
+                "discord_users": [
+                    "jimbotron5000"
                 ]
             },
             {
@@ -14507,6 +18317,9 @@ export const playlistData = [
                 "length": 178.51,
                 "canonical_artists": [
                     "mikeychiptune"
+                ],
+                "discord_users": [
+                    "mikey303"
                 ]
             },
             {
@@ -14518,6 +18331,9 @@ export const playlistData = [
                 "length": 271.78,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -14528,6 +18344,9 @@ export const playlistData = [
                 "link": "",
                 "length": 168.05,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -14540,6 +18359,9 @@ export const playlistData = [
                 "length": 180.02,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -14550,6 +18372,9 @@ export const playlistData = [
                 "link": "",
                 "length": 210.05,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -14563,6 +18388,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "wisteria",
                     "okseashells"
+                ],
+                "discord_users": [
+                    "okseashells",
+                    "fallenprincess"
                 ]
             },
             {
@@ -14574,6 +18403,9 @@ export const playlistData = [
                 "length": 213.79,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -14585,6 +18417,9 @@ export const playlistData = [
                 "length": 244.03,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -14595,6 +18430,9 @@ export const playlistData = [
                 "link": "",
                 "length": 191.74,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -14607,6 +18445,9 @@ export const playlistData = [
                 "length": 229.09,
                 "canonical_artists": [
                     "reark"
+                ],
+                "discord_users": [
+                    "reark"
                 ]
             },
             {
@@ -14618,6 +18459,9 @@ export const playlistData = [
                 "length": 345.26,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -14628,6 +18472,9 @@ export const playlistData = [
                 "link": "",
                 "length": 141.79,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -14640,6 +18487,9 @@ export const playlistData = [
                 "length": 321.91,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -14650,6 +18500,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=UHOCFJQ_v9M",
                 "length": 219.65,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -14662,6 +18515,9 @@ export const playlistData = [
                 "length": 177.11,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -14673,6 +18529,9 @@ export const playlistData = [
                 "length": 180.04,
                 "canonical_artists": [
                     "iggy"
+                ],
+                "discord_users": [
+                    "skroobler"
                 ]
             },
             {
@@ -14684,6 +18543,9 @@ export const playlistData = [
                 "length": 363.96,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             }
         ]
@@ -14699,7 +18561,7 @@ export const playlistData = [
             "Ritual"
         ],
         "challenge": "Write a song that channels the ritualistic spirit of the solstice. Transport the listener to a ceremony thousands of years ago, capturing ancient traditions and the timeless importance of this celestial event to our civilisation",
-        "streamUrl": "https://www.youtube.com/watch?v=w-XB8WPc9C4",
+        "streamUrl": "https://www.youtube.com/watch?v=886G79CqAI0",
         "tracks": [
             {
                 "trackNo": 1,
@@ -14710,6 +18572,9 @@ export const playlistData = [
                 "length": 231.14,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -14721,6 +18586,9 @@ export const playlistData = [
                 "length": 153.63,
                 "canonical_artists": [
                     "lmnoproject"
+                ],
+                "discord_users": [
+                    "breadthestore"
                 ]
             },
             {
@@ -14732,6 +18600,9 @@ export const playlistData = [
                 "length": 230.71,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -14743,6 +18614,9 @@ export const playlistData = [
                 "length": 235.87,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -14754,6 +18628,9 @@ export const playlistData = [
                 "length": 250.2,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -14765,6 +18642,9 @@ export const playlistData = [
                 "length": 328.05,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -14776,6 +18656,9 @@ export const playlistData = [
                 "length": 423.63,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -14786,6 +18669,9 @@ export const playlistData = [
                 "link": "",
                 "length": 283.68,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -14798,6 +18684,9 @@ export const playlistData = [
                 "length": 234.63,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -14808,6 +18697,9 @@ export const playlistData = [
                 "link": "",
                 "length": 147.0,
                 "canonical_artists": [
+                    "dalton"
+                ],
+                "discord_users": [
                     "dalton"
                 ]
             },
@@ -14820,6 +18712,9 @@ export const playlistData = [
                 "length": 224.16,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -14831,6 +18726,9 @@ export const playlistData = [
                 "length": 191.03,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -14842,6 +18740,9 @@ export const playlistData = [
                 "length": 120.02,
                 "canonical_artists": [
                     "markfeifarek"
+                ],
+                "discord_users": [
+                    "mark"
                 ]
             },
             {
@@ -14852,6 +18753,9 @@ export const playlistData = [
                 "link": "",
                 "length": 240.02,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -14864,6 +18768,9 @@ export const playlistData = [
                 "length": 169.09,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -14874,6 +18781,9 @@ export const playlistData = [
                 "link": "",
                 "length": 256.85,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -14886,6 +18796,9 @@ export const playlistData = [
                 "length": 175.08,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -14896,6 +18809,9 @@ export const playlistData = [
                 "link": "",
                 "length": 166.03,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -14908,6 +18824,9 @@ export const playlistData = [
                 "length": 273.02,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -14919,6 +18838,9 @@ export const playlistData = [
                 "length": 115.03,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -14930,6 +18852,9 @@ export const playlistData = [
                 "length": 256.03,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -14940,6 +18865,9 @@ export const playlistData = [
                 "link": "",
                 "length": 171.34,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -14952,6 +18880,9 @@ export const playlistData = [
                 "length": 196.13,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -14963,6 +18894,9 @@ export const playlistData = [
                 "length": 282.12,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -14974,6 +18908,9 @@ export const playlistData = [
                 "length": 179.59,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -14984,6 +18921,9 @@ export const playlistData = [
                 "link": "",
                 "length": 241.63,
                 "canonical_artists": [
+                    "donoru"
+                ],
+                "discord_users": [
                     "donoru"
                 ]
             },
@@ -14996,6 +18936,9 @@ export const playlistData = [
                 "length": 153.15,
                 "canonical_artists": [
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga"
                 ]
             },
             {
@@ -15007,6 +18950,9 @@ export const playlistData = [
                 "length": 264.67,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -15017,6 +18963,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=KmvtYHgCsfo",
                 "length": 194.54,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -15030,6 +18979,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "finestructureconstant",
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter",
+                    "_kholdstare_"
                 ]
             },
             {
@@ -15041,6 +18994,9 @@ export const playlistData = [
                 "length": 244.19,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -15051,6 +19007,9 @@ export const playlistData = [
                 "link": "",
                 "length": 199.06,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -15063,6 +19022,9 @@ export const playlistData = [
                 "length": 144.02,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -15073,6 +19035,9 @@ export const playlistData = [
                 "link": "",
                 "length": 345.05,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -15085,6 +19050,9 @@ export const playlistData = [
                 "length": 288.02,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -15095,6 +19063,9 @@ export const playlistData = [
                 "link": "",
                 "length": 258.38,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -15107,6 +19078,9 @@ export const playlistData = [
                 "length": 195.07,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -15118,6 +19092,9 @@ export const playlistData = [
                 "length": 302.16,
                 "canonical_artists": [
                     "caminodeldragon"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             }
         ]
@@ -15144,6 +19121,9 @@ export const playlistData = [
                 "length": 218.57,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -15155,6 +19135,9 @@ export const playlistData = [
                 "length": 144.9,
                 "canonical_artists": [
                     "lmnoproject"
+                ],
+                "discord_users": [
+                    "breadthestore"
                 ]
             },
             {
@@ -15166,6 +19149,9 @@ export const playlistData = [
                 "length": 284.03,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -15176,6 +19162,9 @@ export const playlistData = [
                 "link": "",
                 "length": 159.17,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -15188,6 +19177,9 @@ export const playlistData = [
                 "length": 256.0,
                 "canonical_artists": [
                     "charlesrandall"
+                ],
+                "discord_users": [
+                    "charlesrandall"
                 ]
             },
             {
@@ -15199,6 +19191,9 @@ export const playlistData = [
                 "length": 210.26,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -15209,6 +19204,9 @@ export const playlistData = [
                 "link": "",
                 "length": 215.04,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -15221,6 +19219,9 @@ export const playlistData = [
                 "length": 194.4,
                 "canonical_artists": [
                     "wisteria"
+                ],
+                "discord_users": [
+                    "fallenprincess"
                 ]
             },
             {
@@ -15232,6 +19233,9 @@ export const playlistData = [
                 "length": 287.71,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -15243,6 +19247,9 @@ export const playlistData = [
                 "length": 252.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -15253,6 +19260,9 @@ export const playlistData = [
                 "link": "",
                 "length": 175.68,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -15265,6 +19275,9 @@ export const playlistData = [
                 "length": 262.97,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -15276,6 +19289,9 @@ export const playlistData = [
                 "length": 192.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -15288,6 +19304,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "caminodeldragon",
                     "berserkerbot"
+                ],
+                "discord_users": [
+                    "berserkerbot",
+                    "deeds"
                 ]
             },
             {
@@ -15298,6 +19318,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/language-games",
                 "length": 176.43,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -15310,6 +19333,9 @@ export const playlistData = [
                 "length": 251.06,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -15321,6 +19347,9 @@ export const playlistData = [
                 "length": 226.17,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -15331,6 +19360,9 @@ export const playlistData = [
                 "link": "",
                 "length": 199.37,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -15343,6 +19375,9 @@ export const playlistData = [
                 "length": 178.03,
                 "canonical_artists": [
                     "nascen7"
+                ],
+                "discord_users": [
+                    "nascen7"
                 ]
             },
             {
@@ -15354,6 +19389,9 @@ export const playlistData = [
                 "length": 88.2,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -15365,6 +19403,9 @@ export const playlistData = [
                 "length": 271.54,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -15376,6 +19417,9 @@ export const playlistData = [
                 "length": 181.75,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -15387,6 +19431,9 @@ export const playlistData = [
                 "length": 177.48,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -15398,6 +19445,9 @@ export const playlistData = [
                 "length": 455.37,
                 "canonical_artists": [
                     "hellcat5"
+                ],
+                "discord_users": [
+                    "officialhellcat5"
                 ]
             },
             {
@@ -15409,6 +19459,9 @@ export const playlistData = [
                 "length": 92.04,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -15419,6 +19472,9 @@ export const playlistData = [
                 "link": "",
                 "length": 254.96,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -15431,6 +19487,9 @@ export const playlistData = [
                 "length": 290.62,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -15442,6 +19501,9 @@ export const playlistData = [
                 "length": 244.79,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -15452,6 +19514,9 @@ export const playlistData = [
                 "link": "",
                 "length": 217.57,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -15464,6 +19529,9 @@ export const playlistData = [
                 "length": 305.71,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -15475,6 +19543,9 @@ export const playlistData = [
                 "length": 113.92,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -15486,6 +19557,9 @@ export const playlistData = [
                 "length": 197.64,
                 "canonical_artists": [
                     "feedback"
+                ],
+                "discord_users": [
+                    "feedback0742"
                 ]
             },
             {
@@ -15497,6 +19571,9 @@ export const playlistData = [
                 "length": 262.33,
                 "canonical_artists": [
                     "pantagruel"
+                ],
+                "discord_users": [
+                    "polkabird"
                 ]
             },
             {
@@ -15508,6 +19585,9 @@ export const playlistData = [
                 "length": 246.0,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             }
         ]
@@ -15534,6 +19614,9 @@ export const playlistData = [
                 "length": 491.34,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -15545,6 +19628,9 @@ export const playlistData = [
                 "length": 197.14,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -15555,6 +19641,9 @@ export const playlistData = [
                 "link": "",
                 "length": 135.47,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -15567,6 +19656,9 @@ export const playlistData = [
                 "length": 245.69,
                 "canonical_artists": [
                     "committeesofnewfoundland"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -15578,6 +19670,9 @@ export const playlistData = [
                 "length": 259.34,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -15588,6 +19683,9 @@ export const playlistData = [
                 "link": "",
                 "length": 229.27,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -15600,6 +19698,9 @@ export const playlistData = [
                 "length": 393.35,
                 "canonical_artists": [
                     "shereen"
+                ],
+                "discord_users": [
+                    "she.re"
                 ]
             },
             {
@@ -15611,6 +19712,9 @@ export const playlistData = [
                 "length": 190.38,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -15621,6 +19725,9 @@ export const playlistData = [
                 "link": "",
                 "length": 328.88,
                 "canonical_artists": [
+                    "donoru"
+                ],
+                "discord_users": [
                     "donoru"
                 ]
             },
@@ -15633,6 +19740,9 @@ export const playlistData = [
                 "length": 169.01,
                 "canonical_artists": [
                     "arc19"
+                ],
+                "discord_users": [
+                    "keatonktw121"
                 ]
             },
             {
@@ -15643,6 +19753,9 @@ export const playlistData = [
                 "link": "",
                 "length": 129.1,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -15655,6 +19768,9 @@ export const playlistData = [
                 "length": 208.06,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -15666,6 +19782,9 @@ export const playlistData = [
                 "length": 266.45,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -15676,6 +19795,9 @@ export const playlistData = [
                 "link": "",
                 "length": 230.33,
                 "canonical_artists": [
+                    "akilakavo"
+                ],
+                "discord_users": [
                     "akilakavo"
                 ]
             },
@@ -15688,6 +19810,9 @@ export const playlistData = [
                 "length": 268.33,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -15699,6 +19824,9 @@ export const playlistData = [
                 "length": 292.37,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -15710,6 +19838,9 @@ export const playlistData = [
                 "length": 315.61,
                 "canonical_artists": [
                     "filmforthefuture"
+                ],
+                "discord_users": [
+                    "benadamstyles"
                 ]
             },
             {
@@ -15720,6 +19851,9 @@ export const playlistData = [
                 "link": "",
                 "length": 200.72,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -15732,6 +19866,9 @@ export const playlistData = [
                 "length": 129.1,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -15743,6 +19880,9 @@ export const playlistData = [
                 "length": 295.73,
                 "canonical_artists": [
                     "yesterdayslazerscdd"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -15753,6 +19893,9 @@ export const playlistData = [
                 "link": "",
                 "length": 166.3,
                 "canonical_artists": [
+                    "krovvythered"
+                ],
+                "discord_users": [
                     "krovvythered"
                 ]
             },
@@ -15765,6 +19908,9 @@ export const playlistData = [
                 "length": 168.02,
                 "canonical_artists": [
                     "nascen7"
+                ],
+                "discord_users": [
+                    "nascen7"
                 ]
             },
             {
@@ -15776,6 +19922,9 @@ export const playlistData = [
                 "length": 139.25,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -15786,6 +19935,9 @@ export const playlistData = [
                 "link": "",
                 "length": 307.02,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -15798,6 +19950,9 @@ export const playlistData = [
                 "length": 234.81,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -15809,6 +19964,9 @@ export const playlistData = [
                 "length": 270.03,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -15820,6 +19978,9 @@ export const playlistData = [
                 "length": 246.38,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -15830,6 +19991,9 @@ export const playlistData = [
                 "link": "",
                 "length": 235.87,
                 "canonical_artists": [
+                    "diregaze"
+                ],
+                "discord_users": [
                     "diregaze"
                 ]
             },
@@ -15842,6 +20006,9 @@ export const playlistData = [
                 "length": 280.34,
                 "canonical_artists": [
                     "ambientspace"
+                ],
+                "discord_users": [
+                    "ambientspace"
                 ]
             },
             {
@@ -15852,6 +20019,9 @@ export const playlistData = [
                 "link": "",
                 "length": 239.83,
                 "canonical_artists": [
+                    "computrhead"
+                ],
+                "discord_users": [
                     "computrhead"
                 ]
             },
@@ -15864,6 +20034,9 @@ export const playlistData = [
                 "length": 187.54,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -15874,6 +20047,9 @@ export const playlistData = [
                 "link": "",
                 "length": 299.33,
                 "canonical_artists": [
+                    "paranautica"
+                ],
+                "discord_users": [
                     "paranautica"
                 ]
             },
@@ -15886,6 +20062,9 @@ export const playlistData = [
                 "length": 214.86,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -15897,6 +20076,9 @@ export const playlistData = [
                 "length": 288.65,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -15907,6 +20089,9 @@ export const playlistData = [
                 "link": "",
                 "length": 118.03,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -15920,6 +20105,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "jacketpocket",
                     "krischafer"
+                ],
+                "discord_users": [
+                    "traviebopankis",
+                    "krischafer"
                 ]
             },
             {
@@ -15931,6 +20120,9 @@ export const playlistData = [
                 "length": 155.23,
                 "canonical_artists": [
                     "theowl"
+                ],
+                "discord_users": [
+                    "theowl84"
                 ]
             },
             {
@@ -15941,6 +20133,9 @@ export const playlistData = [
                 "link": "",
                 "length": 265.53,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -15953,6 +20148,9 @@ export const playlistData = [
                 "length": 278.21,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -15964,6 +20162,9 @@ export const playlistData = [
                 "length": 158.43,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -15975,6 +20176,9 @@ export const playlistData = [
                 "length": 109.82,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -15986,6 +20190,9 @@ export const playlistData = [
                 "length": 218.54,
                 "canonical_artists": [
                     "averytomlinson"
+                ],
+                "discord_users": [
+                    "averytt10"
                 ]
             },
             {
@@ -15997,6 +20204,9 @@ export const playlistData = [
                 "length": 221.5,
                 "canonical_artists": [
                     "pantagruel"
+                ],
+                "discord_users": [
+                    "polkabird"
                 ]
             }
         ]
@@ -16012,7 +20222,7 @@ export const playlistData = [
             "Imperfect"
         ],
         "challenge": "Challenge the listener. We're talking unexpected sounds/timings/progressions/inter-genres, whatever devices you can think of to keep the listener questioning their musical reality. Break their expectations and the satisfaction they derive from sustained order, make them accept the inevitable decay of all systems into disorder.",
-        "streamUrl": "https://www.youtube.com/watch?v=0QfonxxBhtE",
+        "streamUrl": "https://www.youtube.com/watch?v=TgoAgYR4584",
         "tracks": [
             {
                 "trackNo": 1,
@@ -16023,6 +20233,9 @@ export const playlistData = [
                 "length": 248.11,
                 "canonical_artists": [
                     "filmforthefuture"
+                ],
+                "discord_users": [
+                    "benadamstyles"
                 ]
             },
             {
@@ -16034,6 +20247,9 @@ export const playlistData = [
                 "length": 114.82,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -16044,6 +20260,9 @@ export const playlistData = [
                 "link": "",
                 "length": 135.03,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -16056,6 +20275,9 @@ export const playlistData = [
                 "length": 247.34,
                 "canonical_artists": [
                     "cschweppeneutroncereal"
+                ],
+                "discord_users": [
+                    "neutroncereal"
                 ]
             },
             {
@@ -16067,6 +20289,9 @@ export const playlistData = [
                 "length": 168.02,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -16078,6 +20303,9 @@ export const playlistData = [
                 "length": 295.46,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -16089,6 +20317,9 @@ export const playlistData = [
                 "length": 223.08,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -16100,6 +20331,9 @@ export const playlistData = [
                 "length": 283.1,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -16111,6 +20345,9 @@ export const playlistData = [
                 "length": 275.64,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -16122,6 +20359,9 @@ export const playlistData = [
                 "length": 298.03,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -16132,6 +20372,9 @@ export const playlistData = [
                 "link": "",
                 "length": 154.78,
                 "canonical_artists": [
+                    "5xvt"
+                ],
+                "discord_users": [
                     "5xvt"
                 ]
             },
@@ -16144,6 +20387,9 @@ export const playlistData = [
                 "length": 218.23,
                 "canonical_artists": [
                     "caminodeldragonyl"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -16155,6 +20401,9 @@ export const playlistData = [
                 "length": 307.46,
                 "canonical_artists": [
                     "shereen"
+                ],
+                "discord_users": [
+                    "she.re"
                 ]
             },
             {
@@ -16165,6 +20414,9 @@ export const playlistData = [
                 "link": "",
                 "length": 259.4,
                 "canonical_artists": [
+                    "computrhead"
+                ],
+                "discord_users": [
                     "computrhead"
                 ]
             },
@@ -16177,6 +20429,9 @@ export const playlistData = [
                 "length": 294.74,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -16187,6 +20442,9 @@ export const playlistData = [
                 "link": "https://youtu.be/0E4uWUB7nv4",
                 "length": 38.43,
                 "canonical_artists": [
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "charlesrandall"
                 ]
             },
@@ -16199,6 +20457,9 @@ export const playlistData = [
                 "length": 274.1,
                 "canonical_artists": [
                     "reark"
+                ],
+                "discord_users": [
+                    "reark"
                 ]
             },
             {
@@ -16209,6 +20470,9 @@ export const playlistData = [
                 "link": "",
                 "length": 169.9,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -16221,6 +20485,9 @@ export const playlistData = [
                 "length": 341.33,
                 "canonical_artists": [
                     "ponyart"
+                ],
+                "discord_users": [
+                    "ponyart"
                 ]
             },
             {
@@ -16231,6 +20498,9 @@ export const playlistData = [
                 "link": "",
                 "length": 282.48,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -16243,6 +20513,9 @@ export const playlistData = [
                 "length": 141.65,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -16254,6 +20527,9 @@ export const playlistData = [
                 "length": 225.7,
                 "canonical_artists": [
                     "lmnoproject"
+                ],
+                "discord_users": [
+                    "breadthestore"
                 ]
             },
             {
@@ -16264,6 +20540,9 @@ export const playlistData = [
                 "link": "",
                 "length": 288.02,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -16276,6 +20555,9 @@ export const playlistData = [
                 "length": 138.96,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -16287,6 +20569,9 @@ export const playlistData = [
                 "length": 676.03,
                 "canonical_artists": [
                     "chaosengine"
+                ],
+                "discord_users": [
+                    "plebscream"
                 ]
             },
             {
@@ -16298,6 +20583,9 @@ export const playlistData = [
                 "length": 276.04,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -16309,6 +20597,9 @@ export const playlistData = [
                 "length": 134.82,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -16319,6 +20610,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/married-life",
                 "length": 240.35,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -16331,6 +20625,9 @@ export const playlistData = [
                 "length": 554.34,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -16341,6 +20638,9 @@ export const playlistData = [
                 "link": "",
                 "length": 189.12,
                 "canonical_artists": [
+                    "jordan"
+                ],
+                "discord_users": [
                     "jordan"
                 ]
             },
@@ -16354,6 +20654,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "kruvek",
                     "bennjordan"
+                ],
+                "discord_users": [
+                    "kruvek",
+                    "jordan"
                 ]
             },
             {
@@ -16365,6 +20669,9 @@ export const playlistData = [
                 "length": 338.11,
                 "canonical_artists": [
                     "aracristina"
+                ],
+                "discord_users": [
+                    "aiadreamloss"
                 ]
             },
             {
@@ -16376,6 +20683,9 @@ export const playlistData = [
                 "length": 203.26,
                 "canonical_artists": [
                     "kairokun"
+                ],
+                "discord_users": [
+                    "kairokun\u97f3\u697d"
                 ]
             },
             {
@@ -16386,6 +20696,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/matthias-straka-1/one-past-four",
                 "length": 136.49,
                 "canonical_artists": [
+                    "theowl84"
+                ],
+                "discord_users": [
                     "theowl84"
                 ]
             },
@@ -16398,6 +20711,9 @@ export const playlistData = [
                 "length": 221.13,
                 "canonical_artists": [
                     "theelklodge"
+                ],
+                "discord_users": [
+                    "elklodge"
                 ]
             },
             {
@@ -16408,6 +20724,9 @@ export const playlistData = [
                 "link": "",
                 "length": 250.94,
                 "canonical_artists": [
+                    "diregaze"
+                ],
+                "discord_users": [
                     "diregaze"
                 ]
             },
@@ -16420,6 +20739,9 @@ export const playlistData = [
                 "length": 274.6,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -16430,6 +20752,9 @@ export const playlistData = [
                 "link": "",
                 "length": 300.35,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -16442,6 +20767,9 @@ export const playlistData = [
                 "length": 115.97,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -16452,6 +20780,9 @@ export const playlistData = [
                 "link": "",
                 "length": 180.81,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -16464,6 +20795,9 @@ export const playlistData = [
                 "length": 144.85,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             }
         ]
@@ -16490,6 +20824,9 @@ export const playlistData = [
                 "length": 229.78,
                 "canonical_artists": [
                     "cschweppeneutroncereal"
+                ],
+                "discord_users": [
+                    "neutroncereal"
                 ]
             },
             {
@@ -16500,6 +20837,9 @@ export const playlistData = [
                 "link": "",
                 "length": 174.43,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -16512,6 +20852,9 @@ export const playlistData = [
                 "length": 350.04,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -16522,6 +20865,9 @@ export const playlistData = [
                 "link": "https://apalebluethought.bandcamp.com/track/out-of-time",
                 "length": 213.08,
                 "canonical_artists": [
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "charlesrandall"
                 ]
             },
@@ -16534,6 +20880,9 @@ export const playlistData = [
                 "length": 324.24,
                 "canonical_artists": [
                     "paranautica"
+                ],
+                "discord_users": [
+                    "paranautica"
                 ]
             },
             {
@@ -16545,6 +20894,9 @@ export const playlistData = [
                 "length": 315.04,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -16556,6 +20908,9 @@ export const playlistData = [
                 "length": 225.07,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -16567,6 +20922,9 @@ export const playlistData = [
                 "length": 192.05,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -16577,6 +20935,9 @@ export const playlistData = [
                 "link": "",
                 "length": 189.07,
                 "canonical_artists": [
+                    "chooko"
+                ],
+                "discord_users": [
                     "chooko"
                 ]
             },
@@ -16589,6 +20950,9 @@ export const playlistData = [
                 "length": 252.06,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -16600,6 +20964,9 @@ export const playlistData = [
                 "length": 184.54,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -16610,6 +20977,9 @@ export const playlistData = [
                 "link": "",
                 "length": 198.92,
                 "canonical_artists": [
+                    "5xvt"
+                ],
+                "discord_users": [
                     "5xvt"
                 ]
             },
@@ -16622,6 +20992,9 @@ export const playlistData = [
                 "length": 187.53,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -16633,6 +21006,9 @@ export const playlistData = [
                 "length": 288.02,
                 "canonical_artists": [
                     "shaolinrib"
+                ],
+                "discord_users": [
+                    "hallucyn8 / shaolin rib"
                 ]
             },
             {
@@ -16644,6 +21020,9 @@ export const playlistData = [
                 "length": 252.03,
                 "canonical_artists": [
                     "domilo"
+                ],
+                "discord_users": [
+                    ".domilo."
                 ]
             },
             {
@@ -16654,6 +21033,9 @@ export const playlistData = [
                 "link": "",
                 "length": 189.05,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -16666,6 +21048,9 @@ export const playlistData = [
                 "length": 266.16,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -16677,6 +21062,9 @@ export const playlistData = [
                 "length": 113.48,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -16688,6 +21076,9 @@ export const playlistData = [
                 "length": 335.66,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -16698,6 +21089,9 @@ export const playlistData = [
                 "link": "",
                 "length": 327.02,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -16710,6 +21104,9 @@ export const playlistData = [
                 "length": 189.05,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -16720,6 +21117,9 @@ export const playlistData = [
                 "link": "",
                 "length": 162.02,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -16732,6 +21132,9 @@ export const playlistData = [
                 "length": 291.03,
                 "canonical_artists": [
                     "lonnonfoster"
+                ],
+                "discord_users": [
+                    "lonnon"
                 ]
             },
             {
@@ -16743,6 +21146,9 @@ export const playlistData = [
                 "length": 162.25,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -16753,6 +21159,9 @@ export const playlistData = [
                 "link": "",
                 "length": 258.02,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -16765,6 +21174,9 @@ export const playlistData = [
                 "length": 258.02,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -16776,6 +21188,9 @@ export const playlistData = [
                 "length": 192.02,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -16787,6 +21202,9 @@ export const playlistData = [
                 "length": 146.47,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -16798,6 +21216,9 @@ export const playlistData = [
                 "length": 216.02,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -16808,6 +21229,9 @@ export const playlistData = [
                 "link": "",
                 "length": 303.02,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -16820,6 +21244,9 @@ export const playlistData = [
                 "length": 246.05,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -16831,6 +21258,9 @@ export const playlistData = [
                 "length": 216.02,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -16842,6 +21272,9 @@ export const playlistData = [
                 "length": 265.12,
                 "canonical_artists": [
                     "bottlebrush"
+                ],
+                "discord_users": [
+                    "digfig"
                 ]
             },
             {
@@ -16852,6 +21285,9 @@ export const playlistData = [
                 "link": "",
                 "length": 171.96,
                 "canonical_artists": [
+                    "mikey303"
+                ],
+                "discord_users": [
                     "mikey303"
                 ]
             },
@@ -16864,6 +21300,9 @@ export const playlistData = [
                 "length": 222.02,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -16875,6 +21314,9 @@ export const playlistData = [
                 "length": 236.28,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -16886,6 +21328,9 @@ export const playlistData = [
                 "length": 184.19,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -16896,6 +21341,9 @@ export const playlistData = [
                 "link": "",
                 "length": 289.27,
                 "canonical_artists": [
+                    "stupidpilled"
+                ],
+                "discord_users": [
                     "stupidpilled"
                 ]
             },
@@ -16908,6 +21356,9 @@ export const playlistData = [
                 "length": 199.54,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -16918,6 +21369,9 @@ export const playlistData = [
                 "link": "",
                 "length": 192.78,
                 "canonical_artists": [
+                    "5xvt"
+                ],
+                "discord_users": [
                     "5xvt"
                 ]
             },
@@ -16930,6 +21384,9 @@ export const playlistData = [
                 "length": 187.03,
                 "canonical_artists": [
                     "deelooon"
+                ],
+                "discord_users": [
+                    "deelooon"
                 ]
             },
             {
@@ -16940,6 +21397,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=MsHu-_Zfnsk",
                 "length": 294.02,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -16952,6 +21412,9 @@ export const playlistData = [
                 "length": 212.16,
                 "canonical_artists": [
                     "pantagruel"
+                ],
+                "discord_users": [
+                    "polkabird"
                 ]
             },
             {
@@ -16963,6 +21426,9 @@ export const playlistData = [
                 "length": 132.02,
                 "canonical_artists": [
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -16974,6 +21440,9 @@ export const playlistData = [
                 "length": 207.79,
                 "canonical_artists": [
                     "abeg"
+                ],
+                "discord_users": [
+                    "mgrasker"
                 ]
             },
             {
@@ -16985,6 +21454,9 @@ export const playlistData = [
                 "length": 126.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -16996,6 +21468,9 @@ export const playlistData = [
                 "length": 178.54,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -17007,6 +21482,9 @@ export const playlistData = [
                 "length": 270.22,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             }
         ]
@@ -17033,6 +21511,9 @@ export const playlistData = [
                 "length": 0.89,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -17044,6 +21525,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "caminodeldragon"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -17055,6 +21539,9 @@ export const playlistData = [
                 "length": 8.47,
                 "canonical_artists": [
                     "theelklodge"
+                ],
+                "discord_users": [
+                    "elklodge"
                 ]
             },
             {
@@ -17065,6 +21552,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.03,
                 "canonical_artists": [
+                    "theowl84"
+                ],
+                "discord_users": [
                     "theowl84"
                 ]
             },
@@ -17077,6 +21567,9 @@ export const playlistData = [
                 "length": 32.09,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -17088,6 +21581,9 @@ export const playlistData = [
                 "length": 21.32,
                 "canonical_artists": [
                     "theelklodge"
+                ],
+                "discord_users": [
+                    "elklodge"
                 ]
             },
             {
@@ -17099,6 +21595,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -17110,6 +21609,9 @@ export const playlistData = [
                 "length": 1.92,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -17121,6 +21623,9 @@ export const playlistData = [
                 "length": 21.91,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -17132,6 +21637,9 @@ export const playlistData = [
                 "length": 4.03,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -17143,6 +21651,9 @@ export const playlistData = [
                 "length": 1.92,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -17153,6 +21664,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.03,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -17165,6 +21679,9 @@ export const playlistData = [
                 "length": 23.59,
                 "canonical_artists": [
                     "paranautica"
+                ],
+                "discord_users": [
+                    "paranautica"
                 ]
             },
             {
@@ -17176,6 +21693,9 @@ export const playlistData = [
                 "length": 12.77,
                 "canonical_artists": [
                     "caminodeldragon"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -17186,6 +21706,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.56,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -17198,6 +21721,9 @@ export const playlistData = [
                 "length": 36.65,
                 "canonical_artists": [
                     "bjen"
+                ],
+                "discord_users": [
+                    "stevo"
                 ]
             },
             {
@@ -17208,6 +21734,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.04,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -17220,6 +21749,9 @@ export const playlistData = [
                 "length": 34.03,
                 "canonical_artists": [
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga"
                 ]
             },
             {
@@ -17230,6 +21762,9 @@ export const playlistData = [
                 "link": "",
                 "length": 15.05,
                 "canonical_artists": [
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "charlesrandall"
                 ]
             },
@@ -17242,6 +21777,9 @@ export const playlistData = [
                 "length": 9.4,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -17253,6 +21791,9 @@ export const playlistData = [
                 "length": 3.34,
                 "canonical_artists": [
                     "domilo"
+                ],
+                "discord_users": [
+                    ".domilo."
                 ]
             },
             {
@@ -17264,6 +21805,9 @@ export const playlistData = [
                 "length": 3.16,
                 "canonical_artists": [
                     "domilo"
+                ],
+                "discord_users": [
+                    ".domilo."
                 ]
             },
             {
@@ -17274,6 +21818,9 @@ export const playlistData = [
                 "link": "",
                 "length": 8.04,
                 "canonical_artists": [
+                    "theowl84"
+                ],
+                "discord_users": [
                     "theowl84"
                 ]
             },
@@ -17286,6 +21833,9 @@ export const playlistData = [
                 "length": 14.04,
                 "canonical_artists": [
                     "errrawr"
+                ],
+                "discord_users": [
+                    "err.rawr"
                 ]
             },
             {
@@ -17297,6 +21847,9 @@ export const playlistData = [
                 "length": 10.03,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -17308,6 +21861,9 @@ export const playlistData = [
                 "length": 24.03,
                 "canonical_artists": [
                     "fallacydog"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -17319,6 +21875,9 @@ export const playlistData = [
                 "length": 21.55,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -17330,6 +21889,9 @@ export const playlistData = [
                 "length": 13.03,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -17340,6 +21902,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.03,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -17352,6 +21917,9 @@ export const playlistData = [
                 "length": 21.91,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -17363,6 +21931,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "electrovesta"
+                ],
+                "discord_users": [
+                    "kongr45gpen"
                 ]
             },
             {
@@ -17374,6 +21945,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -17384,6 +21958,9 @@ export const playlistData = [
                 "link": "",
                 "length": 32.04,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -17396,6 +21973,9 @@ export const playlistData = [
                 "length": 4.55,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -17406,6 +21986,9 @@ export const playlistData = [
                 "link": "",
                 "length": 25.97,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -17418,6 +22001,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -17429,6 +22015,9 @@ export const playlistData = [
                 "length": 36.02,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -17440,6 +22029,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "shaolinrib"
+                ],
+                "discord_users": [
+                    "hallucyn8 / shaolin rib"
                 ]
             },
             {
@@ -17450,6 +22042,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.22,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -17462,6 +22057,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -17472,6 +22070,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.03,
                 "canonical_artists": [
+                    "paranautica"
+                ],
+                "discord_users": [
                     "paranautica"
                 ]
             },
@@ -17484,6 +22085,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -17495,6 +22099,9 @@ export const playlistData = [
                 "length": 16.06,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -17505,6 +22112,9 @@ export const playlistData = [
                 "link": "",
                 "length": 24.03,
                 "canonical_artists": [
+                    "zbreezie"
+                ],
+                "discord_users": [
                     "zbreezie"
                 ]
             },
@@ -17517,6 +22127,9 @@ export const playlistData = [
                 "length": 16.15,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -17528,6 +22141,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -17539,6 +22155,9 @@ export const playlistData = [
                 "length": 54.29,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -17550,6 +22169,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "fallacydog"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -17561,6 +22183,9 @@ export const playlistData = [
                 "length": 16.06,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -17572,6 +22197,9 @@ export const playlistData = [
                 "length": 16.3,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -17582,6 +22210,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.03,
                 "canonical_artists": [
+                    "nornec"
+                ],
+                "discord_users": [
                     "nornec"
                 ]
             },
@@ -17594,6 +22225,9 @@ export const playlistData = [
                 "length": 22.03,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -17605,6 +22239,9 @@ export const playlistData = [
                 "length": 15.23,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -17615,6 +22252,9 @@ export const playlistData = [
                 "link": "",
                 "length": 32.04,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -17627,6 +22267,9 @@ export const playlistData = [
                 "length": 17.21,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -17637,6 +22280,9 @@ export const playlistData = [
                 "link": "",
                 "length": 70.39,
                 "canonical_artists": [
+                    "cschweppe"
+                ],
+                "discord_users": [
                     "cschweppe"
                 ]
             },
@@ -17649,6 +22295,9 @@ export const playlistData = [
                 "length": 13.54,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -17659,6 +22308,9 @@ export const playlistData = [
                 "link": "",
                 "length": 32.04,
                 "canonical_artists": [
+                    "vetramiga"
+                ],
+                "discord_users": [
                     "vetramiga"
                 ]
             },
@@ -17671,6 +22323,9 @@ export const playlistData = [
                 "length": 20.04,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -17682,6 +22337,9 @@ export const playlistData = [
                 "length": 10.92,
                 "canonical_artists": [
                     "lunchnap"
+                ],
+                "discord_users": [
+                    "bugonk"
                 ]
             },
             {
@@ -17693,6 +22351,9 @@ export const playlistData = [
                 "length": 15.05,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -17704,6 +22365,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -17714,6 +22378,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.04,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -17726,6 +22393,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -17737,6 +22407,9 @@ export const playlistData = [
                 "length": 16.04,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -17747,6 +22420,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.03,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -17759,6 +22435,9 @@ export const playlistData = [
                 "length": 12.9,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -17769,6 +22448,9 @@ export const playlistData = [
                 "link": "",
                 "length": 15.05,
                 "canonical_artists": [
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "charlesrandall"
                 ]
             },
@@ -17781,6 +22463,9 @@ export const playlistData = [
                 "length": 18.36,
                 "canonical_artists": [
                     "thef3l1x"
+                ],
+                "discord_users": [
+                    "the_f3l1x"
                 ]
             },
             {
@@ -17792,6 +22477,9 @@ export const playlistData = [
                 "length": 16.07,
                 "canonical_artists": [
                     "electrovesta"
+                ],
+                "discord_users": [
+                    "kongr45gpen"
                 ]
             },
             {
@@ -17802,6 +22490,9 @@ export const playlistData = [
                 "link": "",
                 "length": 16.04,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -17814,6 +22505,9 @@ export const playlistData = [
                 "length": 17.03,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -17825,6 +22519,9 @@ export const playlistData = [
                 "length": 16.03,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -17835,6 +22532,9 @@ export const playlistData = [
                 "link": "",
                 "length": 19.94,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -17847,6 +22547,9 @@ export const playlistData = [
                 "length": 19.82,
                 "canonical_artists": [
                     "pantagruel"
+                ],
+                "discord_users": [
+                    "polkabird"
                 ]
             },
             {
@@ -17858,6 +22561,9 @@ export const playlistData = [
                 "length": 16.99,
                 "canonical_artists": [
                     "pantagruel"
+                ],
+                "discord_users": [
+                    "polkabird"
                 ]
             }
         ]
@@ -17884,6 +22590,9 @@ export const playlistData = [
                 "length": 117.03,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             },
             {
@@ -17894,6 +22603,9 @@ export const playlistData = [
                 "link": "",
                 "length": 232.03,
                 "canonical_artists": [
+                    "chooko"
+                ],
+                "discord_users": [
                     "chooko"
                 ]
             },
@@ -17906,6 +22618,9 @@ export const playlistData = [
                 "length": 136.2,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -17917,6 +22632,9 @@ export const playlistData = [
                 "length": 182.04,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -17928,6 +22646,9 @@ export const playlistData = [
                 "length": 212.54,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -17939,6 +22660,9 @@ export const playlistData = [
                 "length": 155.16,
                 "canonical_artists": [
                     "panoramicdream"
+                ],
+                "discord_users": [
+                    "simont9944"
                 ]
             },
             {
@@ -17949,6 +22673,9 @@ export const playlistData = [
                 "link": "",
                 "length": 200.04,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -17961,6 +22688,9 @@ export const playlistData = [
                 "length": 189.54,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -17972,6 +22702,9 @@ export const playlistData = [
                 "length": 199.42,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -17983,6 +22716,9 @@ export const playlistData = [
                 "length": 134.04,
                 "canonical_artists": [
                     "thef3l1x"
+                ],
+                "discord_users": [
+                    "the_f3l1x"
                 ]
             },
             {
@@ -17994,6 +22730,9 @@ export const playlistData = [
                 "length": 176.12,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -18005,6 +22744,9 @@ export const playlistData = [
                 "length": 240.67,
                 "canonical_artists": [
                     "antimancer"
+                ],
+                "discord_users": [
+                    "themeatdealer"
                 ]
             },
             {
@@ -18016,6 +22758,9 @@ export const playlistData = [
                 "length": 248.04,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -18026,6 +22771,10 @@ export const playlistData = [
                 "link": "https://apalebluethought.bandcamp.com/track/mercy",
                 "length": 251.3,
                 "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "apbt",
                     "charlesrandall"
                 ]
@@ -18040,6 +22789,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "edwin",
                     "thesimselcommunity"
+                ],
+                "discord_users": [
+                    "edwin",
+                    "thesimselcommunity"
                 ]
             },
             {
@@ -18051,6 +22804,9 @@ export const playlistData = [
                 "length": 150.31,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -18061,6 +22817,9 @@ export const playlistData = [
                 "link": "https://bandwagon.fm/6960b81c2f0f56fdcee52f6e",
                 "length": 189.02,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -18073,6 +22832,9 @@ export const playlistData = [
                 "length": 130.25,
                 "canonical_artists": [
                     "cschweppe"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -18084,6 +22846,9 @@ export const playlistData = [
                 "length": 263.08,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -18095,6 +22860,9 @@ export const playlistData = [
                 "length": 169.8,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -18106,6 +22874,9 @@ export const playlistData = [
                 "length": 272.04,
                 "canonical_artists": [
                     "shereen"
+                ],
+                "discord_users": [
+                    "she.re"
                 ]
             },
             {
@@ -18118,6 +22889,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "doggoshark",
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -18129,6 +22903,9 @@ export const playlistData = [
                 "length": 228.1,
                 "canonical_artists": [
                     "yesterdayslazerscdd"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -18139,6 +22916,9 @@ export const playlistData = [
                 "link": "",
                 "length": 269.61,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -18151,6 +22931,9 @@ export const playlistData = [
                 "length": 190.67,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -18162,6 +22945,9 @@ export const playlistData = [
                 "length": 241.06,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -18172,6 +22958,9 @@ export const playlistData = [
                 "link": "",
                 "length": 216.87,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -18185,6 +22974,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "adamjohanbergren",
                     "all"
+                ],
+                "discord_users": [
+                    "all",
+                    "ajbergren"
                 ]
             },
             {
@@ -18195,6 +22988,9 @@ export const playlistData = [
                 "link": "",
                 "length": 216.53,
                 "canonical_artists": [
+                    "theowl84"
+                ],
+                "discord_users": [
                     "theowl84"
                 ]
             },
@@ -18207,6 +23003,9 @@ export const playlistData = [
                 "length": 185.5,
                 "canonical_artists": [
                     "ducks"
+                ],
+                "discord_users": [
+                    "konni.ducks"
                 ]
             },
             {
@@ -18218,6 +23017,9 @@ export const playlistData = [
                 "length": 236.07,
                 "canonical_artists": [
                     "electrovesta"
+                ],
+                "discord_users": [
+                    "kongr45gpen"
                 ]
             },
             {
@@ -18229,6 +23031,9 @@ export const playlistData = [
                 "length": 261.07,
                 "canonical_artists": [
                     "kylebarr"
+                ],
+                "discord_users": [
+                    "darkswordsman"
                 ]
             },
             {
@@ -18240,6 +23045,9 @@ export const playlistData = [
                 "length": 285.54,
                 "canonical_artists": [
                     "bjen"
+                ],
+                "discord_users": [
+                    "stevo"
                 ]
             },
             {
@@ -18250,6 +23058,9 @@ export const playlistData = [
                 "link": "",
                 "length": 188.59,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -18262,6 +23073,9 @@ export const playlistData = [
                 "length": 253.83,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -18273,6 +23087,9 @@ export const playlistData = [
                 "length": 161.65,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -18283,6 +23100,9 @@ export const playlistData = [
                 "link": "",
                 "length": 173.17,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -18295,6 +23115,9 @@ export const playlistData = [
                 "length": 364.72,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -18306,6 +23129,9 @@ export const playlistData = [
                 "length": 216.65,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -18316,6 +23142,9 @@ export const playlistData = [
                 "link": "",
                 "length": 285.44,
                 "canonical_artists": [
+                    "stupidpilled"
+                ],
+                "discord_users": [
                     "stupidpilled"
                 ]
             },
@@ -18328,6 +23157,9 @@ export const playlistData = [
                 "length": 221.37,
                 "canonical_artists": [
                     "domilo"
+                ],
+                "discord_users": [
+                    ".domilo."
                 ]
             }
         ]
@@ -18354,6 +23186,9 @@ export const playlistData = [
                 "length": 283.97,
                 "canonical_artists": [
                     "darkswordsman"
+                ],
+                "discord_users": [
+                    "darkswordsman"
                 ]
             },
             {
@@ -18365,6 +23200,9 @@ export const playlistData = [
                 "length": 327.29,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -18376,6 +23214,9 @@ export const playlistData = [
                 "length": 204.04,
                 "canonical_artists": [
                     "domilo"
+                ],
+                "discord_users": [
+                    ".domilo."
                 ]
             },
             {
@@ -18387,6 +23228,9 @@ export const playlistData = [
                 "length": 197.38,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -18397,6 +23241,9 @@ export const playlistData = [
                 "link": "",
                 "length": 282.02,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -18409,6 +23256,9 @@ export const playlistData = [
                 "length": 143.04,
                 "canonical_artists": [
                     "teapotahedron"
+                ],
+                "discord_users": [
+                    "teapotahedron"
                 ]
             },
             {
@@ -18419,6 +23269,9 @@ export const playlistData = [
                 "link": "",
                 "length": 208.43,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -18431,6 +23284,9 @@ export const playlistData = [
                 "length": 294.29,
                 "canonical_artists": [
                     "poetryinnoise"
+                ],
+                "discord_users": [
+                    "poetryinnoise"
                 ]
             },
             {
@@ -18442,6 +23298,9 @@ export const playlistData = [
                 "length": 269.74,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -18453,6 +23312,9 @@ export const playlistData = [
                 "length": 216.03,
                 "canonical_artists": [
                     "pantagruel"
+                ],
+                "discord_users": [
+                    "polkabird"
                 ]
             },
             {
@@ -18464,6 +23326,9 @@ export const playlistData = [
                 "length": 223.61,
                 "canonical_artists": [
                     "panoramicdream"
+                ],
+                "discord_users": [
+                    "simont9944"
                 ]
             },
             {
@@ -18475,6 +23340,9 @@ export const playlistData = [
                 "length": 192.02,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -18486,6 +23354,9 @@ export const playlistData = [
                 "length": 282.02,
                 "canonical_artists": [
                     "shaolinrib"
+                ],
+                "discord_users": [
+                    "hallucyn8 / shaolin rib"
                 ]
             },
             {
@@ -18497,6 +23368,9 @@ export const playlistData = [
                 "length": 293.38,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -18507,6 +23381,9 @@ export const playlistData = [
                 "link": "",
                 "length": 316.84,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -18519,6 +23396,9 @@ export const playlistData = [
                 "length": 138.02,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -18530,6 +23410,9 @@ export const playlistData = [
                 "length": 255.03,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -18541,6 +23424,9 @@ export const playlistData = [
                 "length": 226.75,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -18552,6 +23438,9 @@ export const playlistData = [
                 "length": 311.61,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -18563,6 +23452,9 @@ export const playlistData = [
                 "length": 381.23,
                 "canonical_artists": [
                     "bjen"
+                ],
+                "discord_users": [
+                    "stevo"
                 ]
             },
             {
@@ -18573,6 +23465,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=WBgbk5bVXFg",
                 "length": 341.71,
                 "canonical_artists": [
+                    "5xvt"
+                ],
+                "discord_users": [
                     "5xvt"
                 ]
             },
@@ -18586,6 +23481,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "peregrine",
                     "cschweppe"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -18596,6 +23494,9 @@ export const playlistData = [
                 "link": "",
                 "length": 283.9,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -18608,6 +23509,9 @@ export const playlistData = [
                 "length": 237.66,
                 "canonical_artists": [
                     "kruvek"
+                ],
+                "discord_users": [
+                    "kruvek"
                 ]
             },
             {
@@ -18619,6 +23523,9 @@ export const playlistData = [
                 "length": 210.84,
                 "canonical_artists": [
                     "kairokunongaku"
+                ],
+                "discord_users": [
+                    "kairokun\u97f3\u697d"
                 ]
             },
             {
@@ -18629,6 +23536,9 @@ export const playlistData = [
                 "link": "https://zuggamasta.de/music/sim-sel/1/",
                 "length": 124.03,
                 "canonical_artists": [
+                    "zuggamasta"
+                ],
+                "discord_users": [
                     "zuggamasta"
                 ]
             },
@@ -18641,6 +23551,9 @@ export const playlistData = [
                 "length": 273.84,
                 "canonical_artists": [
                     "reark"
+                ],
+                "discord_users": [
+                    "reark"
                 ]
             },
             {
@@ -18652,6 +23565,9 @@ export const playlistData = [
                 "length": 234.84,
                 "canonical_artists": [
                     "catharticreunion"
+                ],
+                "discord_users": [
+                    "cath.reu"
                 ]
             },
             {
@@ -18663,6 +23579,9 @@ export const playlistData = [
                 "length": 300.04,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -18675,6 +23594,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "doggoshark",
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -18685,6 +23607,9 @@ export const playlistData = [
                 "link": "",
                 "length": 220.54,
                 "canonical_artists": [
+                    "chooko"
+                ],
+                "discord_users": [
                     "chooko"
                 ]
             },
@@ -18697,6 +23622,9 @@ export const playlistData = [
                 "length": 347.48,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -18708,6 +23636,9 @@ export const playlistData = [
                 "length": 163.85,
                 "canonical_artists": [
                     "thef3l1x"
+                ],
+                "discord_users": [
+                    "the_f3l1x"
                 ]
             },
             {
@@ -18718,6 +23649,9 @@ export const playlistData = [
                 "link": "",
                 "length": 32.3,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -18730,6 +23664,9 @@ export const playlistData = [
                 "length": 224.03,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -18741,6 +23678,9 @@ export const playlistData = [
                 "length": 44.04,
                 "canonical_artists": [
                     "skybird"
+                ],
+                "discord_users": [
+                    "skybirdmakes"
                 ]
             },
             {
@@ -18752,6 +23692,9 @@ export const playlistData = [
                 "length": 53.63,
                 "canonical_artists": [
                     "electrovesta"
+                ],
+                "discord_users": [
+                    "kongr45gpen"
                 ]
             },
             {
@@ -18762,6 +23705,10 @@ export const playlistData = [
                 "link": "",
                 "length": 99.06,
                 "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "apbt",
                     "charlesrandall"
                 ]
@@ -18775,6 +23722,9 @@ export const playlistData = [
                 "length": 100.39,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -18785,6 +23735,9 @@ export const playlistData = [
                 "link": "",
                 "length": 125.5,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -18797,6 +23750,9 @@ export const playlistData = [
                 "length": 160.03,
                 "canonical_artists": [
                     "theowl84"
+                ],
+                "discord_users": [
+                    "theowl84"
                 ]
             },
             {
@@ -18807,6 +23763,9 @@ export const playlistData = [
                 "link": "",
                 "length": 315.77,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -18820,6 +23779,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "apbt",
                     "charlesrandall"
+                ],
+                "discord_users": [
+                    "apbt",
+                    "charlesrandall"
                 ]
             },
             {
@@ -18831,6 +23794,9 @@ export const playlistData = [
                 "length": 122.23,
                 "canonical_artists": [
                     "elossa"
+                ],
+                "discord_users": [
+                    "its_pronounced_elossa"
                 ]
             },
             {
@@ -18842,6 +23808,9 @@ export const playlistData = [
                 "length": 165.67,
                 "canonical_artists": [
                     "caminodeldragon"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -18852,6 +23821,9 @@ export const playlistData = [
                 "link": "",
                 "length": 346.92,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -18864,6 +23836,9 @@ export const playlistData = [
                 "length": 239.78,
                 "canonical_artists": [
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga"
                 ]
             },
             {
@@ -18874,6 +23849,9 @@ export const playlistData = [
                 "link": "",
                 "length": 329.21,
                 "canonical_artists": [
+                    "paranautica"
+                ],
+                "discord_users": [
                     "paranautica"
                 ]
             },
@@ -18886,6 +23864,9 @@ export const playlistData = [
                 "length": 198.29,
                 "canonical_artists": [
                     "tomnomnom"
+                ],
+                "discord_users": [
+                    "tomnomnomuk"
                 ]
             },
             {
@@ -18897,6 +23878,9 @@ export const playlistData = [
                 "length": 180.35,
                 "canonical_artists": [
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv"
                 ]
             },
             {
@@ -18908,6 +23892,9 @@ export const playlistData = [
                 "length": 253.07,
                 "canonical_artists": [
                     "ryanspratt"
+                ],
+                "discord_users": [
+                    "ryan spratt"
                 ]
             },
             {
@@ -18918,6 +23905,9 @@ export const playlistData = [
                 "link": "",
                 "length": 261.04,
                 "canonical_artists": [
+                    "poldu"
+                ],
+                "discord_users": [
                     "poldu"
                 ]
             },
@@ -18930,6 +23920,9 @@ export const playlistData = [
                 "length": 300.72,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -18941,6 +23934,9 @@ export const playlistData = [
                 "length": 220.54,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -18952,6 +23948,9 @@ export const playlistData = [
                 "length": 217.18,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -18962,6 +23961,9 @@ export const playlistData = [
                 "link": "",
                 "length": 225.93,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -18974,6 +23976,9 @@ export const playlistData = [
                 "length": 88.5,
                 "canonical_artists": [
                     "andrewcollinsworth"
+                ],
+                "discord_users": [
+                    "simdrew"
                 ]
             }
         ]
@@ -19001,6 +24006,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "apbt",
                     "charlesrandall"
+                ],
+                "discord_users": [
+                    "apbt",
+                    "charlesrandall"
                 ]
             },
             {
@@ -19012,6 +24021,9 @@ export const playlistData = [
                 "length": 202.32,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -19023,6 +24035,9 @@ export const playlistData = [
                 "length": 288.02,
                 "canonical_artists": [
                     "shaolinrib"
+                ],
+                "discord_users": [
+                    "hallucyn8 / shaolin rib"
                 ]
             },
             {
@@ -19034,6 +24049,9 @@ export const playlistData = [
                 "length": 268.83,
                 "canonical_artists": [
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750"
                 ]
             },
             {
@@ -19044,6 +24062,9 @@ export const playlistData = [
                 "link": "",
                 "canonical_artists": [
                     "acidwolf"
+                ],
+                "discord_users": [
+                    "benn#1714"
                 ]
             },
             {
@@ -19054,6 +24075,9 @@ export const playlistData = [
                 "link": "",
                 "length": 216.02,
                 "canonical_artists": [
+                    "chooko"
+                ],
+                "discord_users": [
                     "chooko"
                 ]
             },
@@ -19066,6 +24090,9 @@ export const playlistData = [
                 "length": 304.01,
                 "canonical_artists": [
                     "edwin"
+                ],
+                "discord_users": [
+                    "edwin"
                 ]
             },
             {
@@ -19077,6 +24104,9 @@ export const playlistData = [
                 "length": 104.74,
                 "canonical_artists": [
                     "lahlah"
+                ],
+                "discord_users": [
+                    "stfulahlah"
                 ]
             },
             {
@@ -19087,6 +24117,9 @@ export const playlistData = [
                 "link": "",
                 "length": 203.0,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -19099,6 +24132,9 @@ export const playlistData = [
                 "length": 259.71,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -19109,6 +24145,9 @@ export const playlistData = [
                 "link": "",
                 "length": 276.04,
                 "canonical_artists": [
+                    "poldu"
+                ],
+                "discord_users": [
                     "poldu"
                 ]
             },
@@ -19121,6 +24160,9 @@ export const playlistData = [
                 "length": 285.78,
                 "canonical_artists": [
                     "zuggamasta"
+                ],
+                "discord_users": [
+                    "zuggamasta"
                 ]
             },
             {
@@ -19132,6 +24174,9 @@ export const playlistData = [
                 "length": 270.89,
                 "canonical_artists": [
                     "bottlebrush"
+                ],
+                "discord_users": [
+                    "digfig"
                 ]
             },
             {
@@ -19143,6 +24188,9 @@ export const playlistData = [
                 "length": 173.76,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -19154,6 +24202,9 @@ export const playlistData = [
                 "length": 149.38,
                 "canonical_artists": [
                     "panoramicdream"
+                ],
+                "discord_users": [
+                    "simont9944"
                 ]
             },
             {
@@ -19164,6 +24215,9 @@ export const playlistData = [
                 "link": "",
                 "length": 182.83,
                 "canonical_artists": [
+                    "reark"
+                ],
+                "discord_users": [
                     "reark"
                 ]
             },
@@ -19176,6 +24230,9 @@ export const playlistData = [
                 "length": 310.02,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -19186,6 +24243,9 @@ export const playlistData = [
                 "link": "",
                 "length": 275.23,
                 "canonical_artists": [
+                    "takamoon"
+                ],
+                "discord_users": [
                     "takamoon"
                 ]
             },
@@ -19198,6 +24258,9 @@ export const playlistData = [
                 "length": 221.18,
                 "canonical_artists": [
                     "bjen"
+                ],
+                "discord_users": [
+                    "stevo"
                 ]
             },
             {
@@ -19210,6 +24273,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "peregrine",
                     "cschweppe"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -19221,6 +24287,9 @@ export const playlistData = [
                 "length": 249.41,
                 "canonical_artists": [
                     "zerolucksgiven"
+                ],
+                "discord_users": [
+                    "anxst"
                 ]
             },
             {
@@ -19231,6 +24300,9 @@ export const playlistData = [
                 "link": "",
                 "length": 313.68,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -19243,6 +24315,9 @@ export const playlistData = [
                 "length": 263.29,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -19253,6 +24328,9 @@ export const playlistData = [
                 "link": "",
                 "length": 243.25,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -19265,6 +24343,9 @@ export const playlistData = [
                 "length": 182.5,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -19276,6 +24357,9 @@ export const playlistData = [
                 "length": 222.35,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -19288,6 +24372,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "doggoshark",
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -19299,6 +24386,9 @@ export const playlistData = [
                 "length": 104.04,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -19310,6 +24400,9 @@ export const playlistData = [
                 "length": 293.8,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -19320,6 +24413,9 @@ export const playlistData = [
                 "link": "",
                 "length": 247.63,
                 "canonical_artists": [
+                    "dotaistheworstgame"
+                ],
+                "discord_users": [
                     "dotaistheworstgame"
                 ]
             },
@@ -19332,6 +24428,9 @@ export const playlistData = [
                 "length": 168.91,
                 "canonical_artists": [
                     "nornec"
+                ],
+                "discord_users": [
+                    "nornec"
                 ]
             },
             {
@@ -19342,6 +24441,9 @@ export const playlistData = [
                 "link": "",
                 "length": 229.75,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -19354,6 +24456,9 @@ export const playlistData = [
                 "length": 344.5,
                 "canonical_artists": [
                     "depthbuffer"
+                ],
+                "discord_users": [
+                    "depthbuffer"
                 ]
             },
             {
@@ -19364,6 +24469,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/too-little-time?si=0d5b8759939848ee914c15fe6fc61dfb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 221.34,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -19376,6 +24484,9 @@ export const playlistData = [
                 "length": 101.62,
                 "canonical_artists": [
                     "theowl84"
+                ],
+                "discord_users": [
+                    "theowl84"
                 ]
             },
             {
@@ -19387,6 +24498,9 @@ export const playlistData = [
                 "length": 267.79,
                 "canonical_artists": [
                     "mimeminingcorporation"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             }
         ]
@@ -19402,7 +24516,7 @@ export const playlistData = [
             "Quark"
         ],
         "challenge": "Your ship is in orbit around a black hole. The Fractal Warp Drive has run out of fuel. Within minutes, you will be drawn into the Event Horizon, which will cause time to stop for you. Only a song with fractal structure can power you out in time! Create a track with repeating/recursive patterns at every level, from melodies to harmonies to amplitudes to lyrics to tempos and rhythms. This will propel your ship to safety, if you can beat the clock before it stops! Feed your ship some Fractal Fuel! Good luck!",
-        "streamUrl": "https://www.youtube.com/watch?v=PFL65vw0nfI",
+        "streamUrl": "https://www.youtube.com/watch?v=nh7hHpilSaI",
         "tracks": [
             {
                 "trackNo": 1,
@@ -19413,6 +24527,9 @@ export const playlistData = [
                 "length": 136.46,
                 "canonical_artists": [
                     "theplantingnoise"
+                ],
+                "discord_users": [
+                    "angela slamsbury"
                 ]
             },
             {
@@ -19423,6 +24540,9 @@ export const playlistData = [
                 "link": "",
                 "length": 156.47,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -19435,6 +24555,9 @@ export const playlistData = [
                 "length": 227.24,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -19446,6 +24569,9 @@ export const playlistData = [
                 "length": 119.38,
                 "canonical_artists": [
                     "caminodeldragonyl"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -19457,6 +24583,9 @@ export const playlistData = [
                 "length": 245.52,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -19467,6 +24596,9 @@ export const playlistData = [
                 "link": "",
                 "length": 144.02,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -19479,6 +24611,9 @@ export const playlistData = [
                 "length": 83.04,
                 "canonical_artists": [
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon"
                 ]
             },
             {
@@ -19489,6 +24624,9 @@ export const playlistData = [
                 "link": "",
                 "length": 248.48,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -19501,6 +24639,9 @@ export const playlistData = [
                 "length": 288.68,
                 "canonical_artists": [
                     "donoru"
+                ],
+                "discord_users": [
+                    "donoru"
                 ]
             },
             {
@@ -19511,6 +24652,9 @@ export const playlistData = [
                 "link": "",
                 "length": 205.53,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -19523,6 +24667,9 @@ export const playlistData = [
                 "length": 234.67,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -19535,6 +24682,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "doggoshark",
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -19546,6 +24696,9 @@ export const playlistData = [
                 "length": 194.45,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -19557,6 +24710,9 @@ export const playlistData = [
                 "length": 192.08,
                 "canonical_artists": [
                     "bitrist"
+                ],
+                "discord_users": [
+                    "ginger_bitters"
                 ]
             },
             {
@@ -19568,6 +24724,9 @@ export const playlistData = [
                 "length": 237.1,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -19579,6 +24738,9 @@ export const playlistData = [
                 "length": 244.43,
                 "canonical_artists": [
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle"
                 ]
             },
             {
@@ -19590,6 +24752,9 @@ export const playlistData = [
                 "length": 188.62,
                 "canonical_artists": [
                     "spiritunknown"
+                ],
+                "discord_users": [
+                    "yin"
                 ]
             },
             {
@@ -19600,6 +24765,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/convalescence?si=96de784b9db84fd4b3e5687aaa10866b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 344.56,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -19612,6 +24780,9 @@ export const playlistData = [
                 "length": 232.97,
                 "canonical_artists": [
                     "shereen"
+                ],
+                "discord_users": [
+                    "she.re"
                 ]
             },
             {
@@ -19622,6 +24793,9 @@ export const playlistData = [
                 "link": "",
                 "length": 268.96,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -19634,6 +24808,9 @@ export const playlistData = [
                 "length": 363.42,
                 "canonical_artists": [
                     "informationcake"
+                ],
+                "discord_users": [
+                    "alex / informationcake"
                 ]
             },
             {
@@ -19645,6 +24822,9 @@ export const playlistData = [
                 "length": 69.56,
                 "canonical_artists": [
                     "elossa"
+                ],
+                "discord_users": [
+                    "its_pronounced_elossa"
                 ]
             },
             {
@@ -19655,6 +24835,9 @@ export const playlistData = [
                 "link": "",
                 "length": 342.82,
                 "canonical_artists": [
+                    "cahl"
+                ],
+                "discord_users": [
                     "cahl"
                 ]
             },
@@ -19667,6 +24850,9 @@ export const playlistData = [
                 "length": 114.72,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -19678,6 +24864,9 @@ export const playlistData = [
                 "length": 178.27,
                 "canonical_artists": [
                     "yesterdayslazersmmtmix"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -19688,6 +24877,9 @@ export const playlistData = [
                 "link": "",
                 "length": 252.03,
                 "canonical_artists": [
+                    "talldarknweirdo"
+                ],
+                "discord_users": [
                     "talldarknweirdo"
                 ]
             },
@@ -19701,6 +24893,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "peregrine",
                     "cschweppe"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -19711,6 +24906,9 @@ export const playlistData = [
                 "link": "",
                 "length": 182.04,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -19723,6 +24921,9 @@ export const playlistData = [
                 "length": 183.69,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -19733,6 +24934,9 @@ export const playlistData = [
                 "link": "https://www.youtube.com/watch?v=8dSwmxEVJSw",
                 "length": 290.27,
                 "canonical_artists": [
+                    "5xvt"
+                ],
+                "discord_users": [
                     "5xvt"
                 ]
             },
@@ -19745,6 +24949,9 @@ export const playlistData = [
                 "length": 273.27,
                 "canonical_artists": [
                     "procrastronaut"
+                ],
+                "discord_users": [
+                    "robotlovesyou"
                 ]
             },
             {
@@ -19756,6 +24963,9 @@ export const playlistData = [
                 "length": 287.35,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -19766,6 +24976,9 @@ export const playlistData = [
                 "link": "",
                 "length": 282.54,
                 "canonical_artists": [
+                    "poldu"
+                ],
+                "discord_users": [
                     "poldu"
                 ]
             },
@@ -19778,6 +24991,9 @@ export const playlistData = [
                 "length": 206.81,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -19788,6 +25004,9 @@ export const playlistData = [
                 "link": "",
                 "length": 251.47,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -19800,6 +25019,9 @@ export const playlistData = [
                 "length": 231.76,
                 "canonical_artists": [
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra"
                 ]
             },
             {
@@ -19811,6 +25033,9 @@ export const playlistData = [
                 "length": 194.45,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -19822,6 +25047,9 @@ export const playlistData = [
                 "length": 159.46,
                 "canonical_artists": [
                     "nascen7"
+                ],
+                "discord_users": [
+                    "nascen7"
                 ]
             },
             {
@@ -19832,6 +25060,9 @@ export const playlistData = [
                 "link": "",
                 "length": 336.3,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -19845,6 +25076,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "sawwhet",
                     "bjen"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "stevo"
                 ]
             }
         ]
@@ -19872,6 +25107,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "sawwhet",
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "vetramiga"
                 ]
             },
             {
@@ -19884,6 +25123,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "chooko",
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia",
+                    "chooko"
                 ]
             },
             {
@@ -19895,6 +25138,9 @@ export const playlistData = [
                 "length": 192.05,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -19907,6 +25153,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "sawwhet",
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "jungle pickle"
                 ]
             },
             {
@@ -19919,6 +25169,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "thef3l1x",
                     "arcticone"
+                ],
+                "discord_users": [
+                    "the_f3l1x",
+                    "mangat00n (arcticone)"
                 ]
             },
             {
@@ -19931,6 +25185,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "digfig",
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "digfig"
                 ]
             },
             {
@@ -19943,6 +25201,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "tabs",
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle",
+                    "_tabs_"
                 ]
             },
             {
@@ -19955,6 +25217,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "bjen",
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter",
+                    "stevo"
                 ]
             },
             {
@@ -19965,6 +25231,10 @@ export const playlistData = [
                 "link": "",
                 "length": 212.04,
                 "canonical_artists": [
+                    "nascen7",
+                    "bonfire"
+                ],
+                "discord_users": [
                     "nascen7",
                     "bonfire"
                 ]
@@ -19979,6 +25249,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "ponyart",
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m",
+                    "ponyart"
                 ]
             },
             {
@@ -19990,6 +25264,10 @@ export const playlistData = [
                 "length": 176.88,
                 "canonical_artists": [
                     "sawwhet",
+                    "ambientspace"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
                     "ambientspace"
                 ]
             },
@@ -20003,6 +25281,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "stum",
                     "bitrist"
+                ],
+                "discord_users": [
+                    "stu m",
+                    "ginger_bitters"
                 ]
             },
             {
@@ -20015,6 +25297,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "frildoh",
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter",
+                    "frildoh"
                 ]
             },
             {
@@ -20027,6 +25313,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "skitter",
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra",
+                    "skitter"
                 ]
             },
             {
@@ -20038,6 +25328,9 @@ export const playlistData = [
                 "length": 183.79,
                 "canonical_artists": [
                     "sawwhetadamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -20050,6 +25343,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "perlin",
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "ckevv",
+                    "christopher sisk"
                 ]
             },
             {
@@ -20062,6 +25359,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "bottlebrush",
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga",
+                    "digfig"
                 ]
             },
             {
@@ -20074,6 +25375,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "ambientspace",
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "ambientspace"
                 ]
             },
             {
@@ -20085,6 +25390,10 @@ export const playlistData = [
                 "length": 108.05,
                 "canonical_artists": [
                     "thef3l1x",
+                    "articone"
+                ],
+                "discord_users": [
+                    "the_f3l1x",
                     "articone"
                 ]
             },
@@ -20098,6 +25407,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "frildoh",
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank",
+                    "frildoh"
                 ]
             },
             {
@@ -20109,6 +25422,10 @@ export const playlistData = [
                 "length": 224.18,
                 "canonical_artists": [
                     "theinfra",
+                    "frildoh"
+                ],
+                "discord_users": [
+                    "the infra",
                     "frildoh"
                 ]
             },
@@ -20122,6 +25439,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "stupidpilled",
                     "kwak"
+                ],
+                "discord_users": [
+                    "mcjizzle",
+                    "stupidpilled"
                 ]
             },
             {
@@ -20132,6 +25453,10 @@ export const playlistData = [
                 "link": "",
                 "length": 322.68,
                 "canonical_artists": [
+                    "vetramiga",
+                    "ponyart"
+                ],
+                "discord_users": [
                     "vetramiga",
                     "ponyart"
                 ]
@@ -20146,6 +25471,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "perlin",
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "ckevv",
+                    "christopher sisk"
                 ]
             },
             {
@@ -20156,6 +25485,9 @@ export const playlistData = [
                 "link": "",
                 "length": 135.26,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -20169,6 +25501,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "ambientspace",
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk",
+                    "ambientspace"
                 ]
             },
             {
@@ -20180,6 +25516,9 @@ export const playlistData = [
                 "length": 228.68,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -20192,6 +25531,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "bottlebrush",
                     "takamoon"
+                ],
+                "discord_users": [
+                    "takamoon",
+                    "digfig"
                 ]
             },
             {
@@ -20202,6 +25545,10 @@ export const playlistData = [
                 "link": "https://adamjohanbergren.bandcamp.com/track/attention-economy-remix-by-poetry-in-noise",
                 "length": 208.14,
                 "canonical_artists": [
+                    "poetryinnoise",
+                    "ajbergren"
+                ],
+                "discord_users": [
                     "poetryinnoise",
                     "ajbergren"
                 ]
@@ -20215,6 +25562,9 @@ export const playlistData = [
                 "length": 223.45,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -20227,6 +25577,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "moiko",
                     "perlin"
+                ],
+                "discord_users": [
+                    "ckevv",
+                    "moikojay"
                 ]
             },
             {
@@ -20239,6 +25593,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "fsc",
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m",
+                    "_kholdstare_"
                 ]
             },
             {
@@ -20251,6 +25609,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "infra",
                     "mimeminingcorporation"
+                ],
+                "discord_users": [
+                    "deeds",
+                    "infra"
                 ]
             },
             {
@@ -20263,6 +25625,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "euskalduna",
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "andrew.tobia"
                 ]
             },
             {
@@ -20274,6 +25640,9 @@ export const playlistData = [
                 "length": 237.89,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -20286,6 +25655,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "skitter",
                     "bjen"
+                ],
+                "discord_users": [
+                    "skitter",
+                    "stevo"
                 ]
             },
             {
@@ -20296,6 +25669,9 @@ export const playlistData = [
                 "link": "",
                 "length": 310.15,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -20309,6 +25685,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "stum",
                     "ponyart"
+                ],
+                "discord_users": [
+                    "stu m",
+                    "ponyart"
                 ]
             },
             {
@@ -20320,6 +25700,10 @@ export const playlistData = [
                 "length": 171.12,
                 "canonical_artists": [
                     "christophersisk",
+                    "ambientspace"
+                ],
+                "discord_users": [
+                    "christopher sisk",
                     "ambientspace"
                 ]
             },
@@ -20333,6 +25717,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "somethingaboutthings",
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750",
+                    "somethingaboutthings"
                 ]
             },
             {
@@ -20343,6 +25731,10 @@ export const playlistData = [
                 "link": "",
                 "length": 183.04,
                 "canonical_artists": [
+                    "junglepicklel",
+                    "poldu"
+                ],
+                "discord_users": [
                     "junglepicklel",
                     "poldu"
                 ]
@@ -20359,6 +25751,12 @@ export const playlistData = [
                     "deeds",
                     "dedblank",
                     "edwin"
+                ],
+                "discord_users": [
+                    "dedblank",
+                    "deeds",
+                    "edwin",
+                    "deedsblankwin"
                 ]
             },
             {
@@ -20372,6 +25770,11 @@ export const playlistData = [
                     "euskawin",
                     "euskalduna",
                     "edwin"
+                ],
+                "discord_users": [
+                    "euskawin",
+                    "andrew.tobia",
+                    "edwin"
                 ]
             },
             {
@@ -20384,6 +25787,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "kwak",
                     "tabs"
+                ],
+                "discord_users": [
+                    "mcjizzle",
+                    "_tabs_"
                 ]
             },
             {
@@ -20396,6 +25803,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "paranautica",
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "paranautica",
+                    "andrew.tobia"
                 ]
             },
             {
@@ -20407,6 +25818,9 @@ export const playlistData = [
                 "length": 192.02,
                 "canonical_artists": [
                     "dystop1an"
+                ],
+                "discord_users": [
+                    "dystop_ian_"
                 ]
             },
             {
@@ -20420,6 +25834,11 @@ export const playlistData = [
                     "siskwin",
                     "christophersisk",
                     "edwin"
+                ],
+                "discord_users": [
+                    "siskwin",
+                    "edwin",
+                    "christopher sisk"
                 ]
             },
             {
@@ -20432,6 +25851,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "frildoh",
                     "theinfra"
+                ],
+                "discord_users": [
+                    "the infra",
+                    "frildoh"
                 ]
             },
             {
@@ -20443,6 +25866,9 @@ export const playlistData = [
                 "length": 270.34,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -20455,6 +25881,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "5xvt",
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "5xvt",
+                    "doggo shark"
                 ]
             }
         ]
@@ -20481,6 +25911,9 @@ export const playlistData = [
                 "length": 247.95,
                 "canonical_artists": [
                     "brokengravity"
+                ],
+                "discord_users": [
+                    "broken gravity"
                 ]
             },
             {
@@ -20491,6 +25924,9 @@ export const playlistData = [
                 "link": "",
                 "length": 329.87,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -20503,6 +25939,9 @@ export const playlistData = [
                 "length": 320.28,
                 "canonical_artists": [
                     "heavix"
+                ],
+                "discord_users": [
+                    "leroyheavix"
                 ]
             },
             {
@@ -20513,6 +25952,9 @@ export const playlistData = [
                 "link": "",
                 "length": 359.66,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -20525,6 +25967,9 @@ export const playlistData = [
                 "length": 181.32,
                 "canonical_artists": [
                     "caminodeldragon"
+                ],
+                "discord_users": [
+                    "deeds"
                 ]
             },
             {
@@ -20536,6 +25981,9 @@ export const playlistData = [
                 "length": 120.14,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -20548,6 +25996,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "chooko",
                     "arcticone"
+                ],
+                "discord_users": [
+                    "mangat00n (arcticone)",
+                    "chooko"
                 ]
             },
             {
@@ -20558,6 +26010,9 @@ export const playlistData = [
                 "link": "",
                 "length": 261.5,
                 "canonical_artists": [
+                    "ambientspace"
+                ],
+                "discord_users": [
                     "ambientspace"
                 ]
             },
@@ -20570,6 +26025,9 @@ export const playlistData = [
                 "length": 175.25,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -20581,6 +26039,9 @@ export const playlistData = [
                 "length": 251.87,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -20592,6 +26053,9 @@ export const playlistData = [
                 "length": 272.04,
                 "canonical_artists": [
                     "bjen"
+                ],
+                "discord_users": [
+                    "stevo"
                 ]
             },
             {
@@ -20603,6 +26067,9 @@ export const playlistData = [
                 "length": 309.77,
                 "canonical_artists": [
                     "spiritunknown"
+                ],
+                "discord_users": [
+                    "yin"
                 ]
             },
             {
@@ -20614,6 +26081,9 @@ export const playlistData = [
                 "length": 171.67,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -20625,6 +26095,9 @@ export const playlistData = [
                 "length": 150.1,
                 "canonical_artists": [
                     "vetramiga"
+                ],
+                "discord_users": [
+                    "vetramiga"
                 ]
             },
             {
@@ -20635,6 +26108,9 @@ export const playlistData = [
                 "link": "",
                 "length": 143.66,
                 "canonical_artists": [
+                    "teapotahedron"
+                ],
+                "discord_users": [
                     "teapotahedron"
                 ]
             },
@@ -20648,6 +26124,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "peregrine",
                     "cschweppe"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -20659,6 +26138,9 @@ export const playlistData = [
                 "length": 282.83,
                 "canonical_artists": [
                     "prysm"
+                ],
+                "discord_users": [
+                    "raf"
                 ]
             },
             {
@@ -20669,6 +26151,9 @@ export const playlistData = [
                 "link": "",
                 "length": 133.9,
                 "canonical_artists": [
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "charlesrandall"
                 ]
             },
@@ -20682,6 +26167,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "arcticone",
                     "chooko"
+                ],
+                "discord_users": [
+                    "mangat00n (arcticone)",
+                    "chooko"
                 ]
             },
             {
@@ -20693,6 +26182,9 @@ export const playlistData = [
                 "length": 307.33,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -20704,6 +26196,9 @@ export const playlistData = [
                 "length": 288.89,
                 "canonical_artists": [
                     "bitrist"
+                ],
+                "discord_users": [
+                    "ginger_bitters"
                 ]
             },
             {
@@ -20715,6 +26210,9 @@ export const playlistData = [
                 "length": 214.82,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -20726,6 +26224,9 @@ export const playlistData = [
                 "length": 237.41,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -20737,6 +26238,9 @@ export const playlistData = [
                 "length": 253.13,
                 "canonical_artists": [
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750"
                 ]
             },
             {
@@ -20749,6 +26253,10 @@ export const playlistData = [
                 "canonical_artists": [
                     "paranautica",
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "paranautica",
+                    "andrew.tobia"
                 ]
             },
             {
@@ -20759,6 +26267,9 @@ export const playlistData = [
                 "link": "",
                 "length": 248.29,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -20771,6 +26282,9 @@ export const playlistData = [
                 "length": 266.76,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -20782,6 +26296,9 @@ export const playlistData = [
                 "length": 225.04,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -20793,6 +26310,9 @@ export const playlistData = [
                 "length": 215.54,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -20803,6 +26323,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/in-freefall?si=5997c5789cbe469a8ca3e593fc51bd5e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 170.66,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -20815,6 +26338,9 @@ export const playlistData = [
                 "length": 90.29,
                 "canonical_artists": [
                     "theowl84"
+                ],
+                "discord_users": [
+                    "theowl84"
                 ]
             },
             {
@@ -20826,6 +26352,9 @@ export const playlistData = [
                 "length": 191.53,
                 "canonical_artists": [
                     "moiko"
+                ],
+                "discord_users": [
+                    "moikojay"
                 ]
             },
             {
@@ -20837,6 +26366,9 @@ export const playlistData = [
                 "length": 176.77,
                 "canonical_artists": [
                     "seanv"
+                ],
+                "discord_users": [
+                    "seansvs"
                 ]
             },
             {
@@ -20847,6 +26379,9 @@ export const playlistData = [
                 "link": "",
                 "length": 84.43,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -20859,6 +26394,9 @@ export const playlistData = [
                 "length": 245.29,
                 "canonical_artists": [
                     "bottlebrush"
+                ],
+                "discord_users": [
+                    "digfig"
                 ]
             },
             {
@@ -20870,6 +26408,9 @@ export const playlistData = [
                 "length": 303.14,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             }
         ]
@@ -20896,6 +26437,9 @@ export const playlistData = [
                 "length": 221.28,
                 "canonical_artists": [
                     "5xvt"
+                ],
+                "discord_users": [
+                    "5xvt"
                 ]
             },
             {
@@ -20906,6 +26450,9 @@ export const playlistData = [
                 "link": "https://soundcloud.com/skittermusic/thinking-in-patterns?si=89835369290b4b178e2d399588a896f0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 "length": 277.26,
                 "canonical_artists": [
+                    "skitter"
+                ],
+                "discord_users": [
                     "skitter"
                 ]
             },
@@ -20918,6 +26465,9 @@ export const playlistData = [
                 "length": 366.5,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -20928,6 +26478,9 @@ export const playlistData = [
                 "link": "",
                 "length": 322.51,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -20940,6 +26493,9 @@ export const playlistData = [
                 "length": 200.04,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -20950,6 +26506,9 @@ export const playlistData = [
                 "link": "",
                 "length": 324.02,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -20962,6 +26521,9 @@ export const playlistData = [
                 "length": 184.1,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -20973,6 +26535,9 @@ export const playlistData = [
                 "length": 270.03,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -20984,6 +26549,9 @@ export const playlistData = [
                 "length": 193.37,
                 "canonical_artists": [
                     "filmforthefuture"
+                ],
+                "discord_users": [
+                    "benadamstyles"
                 ]
             },
             {
@@ -20995,6 +26563,9 @@ export const playlistData = [
                 "length": 169.42,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -21006,6 +26577,9 @@ export const playlistData = [
                 "length": 173.06,
                 "canonical_artists": [
                     "shereen"
+                ],
+                "discord_users": [
+                    "she.re"
                 ]
             },
             {
@@ -21017,6 +26591,9 @@ export const playlistData = [
                 "length": 275.04,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -21027,6 +26604,9 @@ export const playlistData = [
                 "link": "",
                 "length": 220.58,
                 "canonical_artists": [
+                    "ponyart"
+                ],
+                "discord_users": [
                     "ponyart"
                 ]
             },
@@ -21039,6 +26619,9 @@ export const playlistData = [
                 "length": 232.05,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -21050,6 +26633,9 @@ export const playlistData = [
                 "length": 216.37,
                 "canonical_artists": [
                     "longcenturyofthesurreal"
+                ],
+                "discord_users": [
+                    "michael (long century)"
                 ]
             },
             {
@@ -21060,6 +26646,10 @@ export const playlistData = [
                 "link": "",
                 "length": 310.78,
                 "canonical_artists": [
+                    "apbt",
+                    "charlesrandall"
+                ],
+                "discord_users": [
                     "apbt",
                     "charlesrandall"
                 ]
@@ -21073,6 +26663,9 @@ export const playlistData = [
                 "length": 122.57,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -21084,6 +26677,9 @@ export const playlistData = [
                 "length": 220.03,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -21094,6 +26690,9 @@ export const playlistData = [
                 "link": "",
                 "length": 191.82,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -21106,6 +26705,9 @@ export const playlistData = [
                 "length": 342.72,
                 "canonical_artists": [
                     "heavix"
+                ],
+                "discord_users": [
+                    "leroyheavix"
                 ]
             },
             {
@@ -21116,6 +26718,9 @@ export const playlistData = [
                 "link": "",
                 "length": 273.58,
                 "canonical_artists": [
+                    "poldu"
+                ],
+                "discord_users": [
                     "poldu"
                 ]
             },
@@ -21128,6 +26733,9 @@ export const playlistData = [
                 "length": 268.7,
                 "canonical_artists": [
                     "bitrist"
+                ],
+                "discord_users": [
+                    "ginger_bitters"
                 ]
             },
             {
@@ -21138,6 +26746,9 @@ export const playlistData = [
                 "link": "",
                 "length": 317.05,
                 "canonical_artists": [
+                    "fulhjort"
+                ],
+                "discord_users": [
                     "fulhjort"
                 ]
             },
@@ -21150,6 +26761,9 @@ export const playlistData = [
                 "length": 232.22,
                 "canonical_artists": [
                     "muskoxarchives"
+                ],
+                "discord_users": [
+                    "archsimonn"
                 ]
             },
             {
@@ -21160,6 +26774,9 @@ export const playlistData = [
                 "link": "",
                 "length": 104.38,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -21172,6 +26789,9 @@ export const playlistData = [
                 "length": 259.22,
                 "canonical_artists": [
                     "arcticone"
+                ],
+                "discord_users": [
+                    "mangat00n (arcticone)"
                 ]
             },
             {
@@ -21183,6 +26803,9 @@ export const playlistData = [
                 "length": 294.89,
                 "canonical_artists": [
                     "spiritunknown"
+                ],
+                "discord_users": [
+                    "yin"
                 ]
             },
             {
@@ -21193,6 +26816,9 @@ export const playlistData = [
                 "link": "",
                 "length": 307.33,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -21205,6 +26831,9 @@ export const playlistData = [
                 "length": 131.74,
                 "canonical_artists": [
                     "seanvansickel"
+                ],
+                "discord_users": [
+                    "seansvs"
                 ]
             },
             {
@@ -21216,6 +26845,9 @@ export const playlistData = [
                 "length": 197.59,
                 "canonical_artists": [
                     "peregrine"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -21227,6 +26859,9 @@ export const playlistData = [
                 "length": 189.5,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -21238,6 +26873,9 @@ export const playlistData = [
                 "length": 166.42,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -21248,6 +26886,9 @@ export const playlistData = [
                 "link": "",
                 "length": 278.47,
                 "canonical_artists": [
+                    "frildoh"
+                ],
+                "discord_users": [
                     "frildoh"
                 ]
             },
@@ -21260,6 +26901,9 @@ export const playlistData = [
                 "length": 80.0,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             }
         ]
@@ -21286,6 +26930,9 @@ export const playlistData = [
                 "length": 215.22,
                 "canonical_artists": [
                     "estes"
+                ],
+                "discord_users": [
+                    "best_orange"
                 ]
             },
             {
@@ -21297,6 +26944,9 @@ export const playlistData = [
                 "length": 168.05,
                 "canonical_artists": [
                     "bjen"
+                ],
+                "discord_users": [
+                    "stevo"
                 ]
             },
             {
@@ -21308,6 +26958,9 @@ export const playlistData = [
                 "length": 221.73,
                 "canonical_artists": [
                     "liquidkey"
+                ],
+                "discord_users": [
+                    "surfin_bird"
                 ]
             },
             {
@@ -21319,6 +26972,9 @@ export const playlistData = [
                 "length": 239.04,
                 "canonical_artists": [
                     "jacketpocket"
+                ],
+                "discord_users": [
+                    "traviebopankis"
                 ]
             },
             {
@@ -21329,6 +26985,9 @@ export const playlistData = [
                 "link": "",
                 "length": 63.77,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -21342,6 +27001,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "doggoshark",
                     "fallacydice"
+                ],
+                "discord_users": [
+                    "doggo shark"
                 ]
             },
             {
@@ -21353,6 +27015,9 @@ export const playlistData = [
                 "length": 238.79,
                 "canonical_artists": [
                     "euskalduna"
+                ],
+                "discord_users": [
+                    "andrew.tobia"
                 ]
             },
             {
@@ -21363,6 +27028,9 @@ export const playlistData = [
                 "link": "https://youtu.be/ZUqNdkm72i0?si=r7Jpo48258rKMcEO",
                 "length": 256.03,
                 "canonical_artists": [
+                    "5xvt"
+                ],
+                "discord_users": [
                     "5xvt"
                 ]
             },
@@ -21375,6 +27043,9 @@ export const playlistData = [
                 "length": 209.74,
                 "canonical_artists": [
                     "dedblank"
+                ],
+                "discord_users": [
+                    "dedblank"
                 ]
             },
             {
@@ -21385,6 +27056,9 @@ export const playlistData = [
                 "link": "",
                 "length": 292.26,
                 "canonical_artists": [
+                    "poetryinnoise"
+                ],
+                "discord_users": [
                     "poetryinnoise"
                 ]
             },
@@ -21397,6 +27071,9 @@ export const playlistData = [
                 "length": 117.37,
                 "canonical_artists": [
                     "stum"
+                ],
+                "discord_users": [
+                    "stu m"
                 ]
             },
             {
@@ -21408,6 +27085,9 @@ export const playlistData = [
                 "length": 452.05,
                 "canonical_artists": [
                     "natasliam"
+                ],
+                "discord_users": [
+                    "natas_liam"
                 ]
             },
             {
@@ -21419,6 +27099,9 @@ export const playlistData = [
                 "length": 187.37,
                 "canonical_artists": [
                     "heavix"
+                ],
+                "discord_users": [
+                    "leroyheavix"
                 ]
             },
             {
@@ -21430,6 +27113,9 @@ export const playlistData = [
                 "length": 168.54,
                 "canonical_artists": [
                     "seanvansickel"
+                ],
+                "discord_users": [
+                    "seansvs"
                 ]
             },
             {
@@ -21440,6 +27126,9 @@ export const playlistData = [
                 "link": "",
                 "length": 212.52,
                 "canonical_artists": [
+                    "nascen7"
+                ],
+                "discord_users": [
                     "nascen7"
                 ]
             },
@@ -21452,6 +27141,9 @@ export const playlistData = [
                 "length": 119.82,
                 "canonical_artists": [
                     "skitter"
+                ],
+                "discord_users": [
+                    "skitter"
                 ]
             },
             {
@@ -21463,6 +27155,9 @@ export const playlistData = [
                 "length": 299.95,
                 "canonical_artists": [
                     "arcticone"
+                ],
+                "discord_users": [
+                    "mangat00n (arcticone)"
                 ]
             },
             {
@@ -21473,6 +27168,9 @@ export const playlistData = [
                 "link": "",
                 "length": 335.28,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -21485,6 +27183,9 @@ export const playlistData = [
                 "length": 96.73,
                 "canonical_artists": [
                     "storm"
+                ],
+                "discord_users": [
+                    "storm"
                 ]
             },
             {
@@ -21496,6 +27197,9 @@ export const playlistData = [
                 "length": 269.74,
                 "canonical_artists": [
                     "bitrist"
+                ],
+                "discord_users": [
+                    "ginger_bitters"
                 ]
             },
             {
@@ -21506,6 +27210,9 @@ export const playlistData = [
                 "link": "",
                 "length": 42.03,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -21519,6 +27226,9 @@ export const playlistData = [
                 "canonical_artists": [
                     "peregrine",
                     "cschweppe"
+                ],
+                "discord_users": [
+                    "cschweppe"
                 ]
             },
             {
@@ -21530,6 +27240,9 @@ export const playlistData = [
                 "length": 186.34,
                 "canonical_artists": [
                     "robertredshaw"
+                ],
+                "discord_users": [
+                    "red robert"
                 ]
             },
             {
@@ -21541,6 +27254,9 @@ export const playlistData = [
                 "length": 183.46,
                 "canonical_artists": [
                     "sawwhet"
+                ],
+                "discord_users": [
+                    "sawwhet_85750"
                 ]
             },
             {
@@ -21551,6 +27267,9 @@ export const playlistData = [
                 "link": "",
                 "length": 64.29,
                 "canonical_artists": [
+                    "edwin"
+                ],
+                "discord_users": [
                     "edwin"
                 ]
             },
@@ -21563,6 +27282,9 @@ export const playlistData = [
                 "length": 262.9,
                 "canonical_artists": [
                     "frildoh"
+                ],
+                "discord_users": [
+                    "frildoh"
                 ]
             },
             {
@@ -21574,6 +27296,9 @@ export const playlistData = [
                 "length": 276.43,
                 "canonical_artists": [
                     "astararobot"
+                ],
+                "discord_users": [
+                    "jason"
                 ]
             },
             {
@@ -21585,6 +27310,9 @@ export const playlistData = [
                 "length": 233.09,
                 "canonical_artists": [
                     "adamjohanbergren"
+                ],
+                "discord_users": [
+                    "ajbergren"
                 ]
             },
             {
@@ -21596,6 +27324,9 @@ export const playlistData = [
                 "length": 240.34,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -21607,6 +27338,9 @@ export const playlistData = [
                 "length": 386.45,
                 "canonical_artists": [
                     "spiritunknown"
+                ],
+                "discord_users": [
+                    "yin"
                 ]
             },
             {
@@ -21617,6 +27351,9 @@ export const playlistData = [
                 "link": "",
                 "length": 190.93,
                 "canonical_artists": [
+                    "dedblank"
+                ],
+                "discord_users": [
                     "dedblank"
                 ]
             },
@@ -21629,6 +27366,9 @@ export const playlistData = [
                 "length": 209.14,
                 "canonical_artists": [
                     "fulhjort"
+                ],
+                "discord_users": [
+                    "fulhjort"
                 ]
             },
             {
@@ -21640,6 +27380,9 @@ export const playlistData = [
                 "length": 223.73,
                 "canonical_artists": [
                     "softcoretoucan"
+                ],
+                "discord_users": [
+                    "topograph"
                 ]
             },
             {
@@ -21651,6 +27394,9 @@ export const playlistData = [
                 "length": 192.31,
                 "canonical_artists": [
                     "oobesan"
+                ],
+                "discord_users": [
+                    "oobe"
                 ]
             },
             {
@@ -21662,6 +27408,9 @@ export const playlistData = [
                 "length": 199.9,
                 "canonical_artists": [
                     "tabs"
+                ],
+                "discord_users": [
+                    "_tabs_"
                 ]
             },
             {
@@ -21673,6 +27422,9 @@ export const playlistData = [
                 "length": 219.02,
                 "canonical_artists": [
                     "finestructureconstant"
+                ],
+                "discord_users": [
+                    "_kholdstare_"
                 ]
             },
             {
@@ -21683,6 +27435,9 @@ export const playlistData = [
                 "link": "",
                 "length": 273.08,
                 "canonical_artists": [
+                    "kruvek"
+                ],
+                "discord_users": [
                     "kruvek"
                 ]
             },
@@ -21695,6 +27450,9 @@ export const playlistData = [
                 "length": 102.29,
                 "canonical_artists": [
                     "heavix"
+                ],
+                "discord_users": [
+                    "leroyheavix"
                 ]
             },
             {
@@ -21706,6 +27464,9 @@ export const playlistData = [
                 "length": 218.04,
                 "canonical_artists": [
                     "christophersisk"
+                ],
+                "discord_users": [
+                    "christopher sisk"
                 ]
             },
             {
@@ -21717,6 +27478,9 @@ export const playlistData = [
                 "length": 179.99,
                 "canonical_artists": [
                     "junglepickle"
+                ],
+                "discord_users": [
+                    "jungle pickle"
                 ]
             },
             {
@@ -21728,6 +27492,9 @@ export const playlistData = [
                 "length": 231.13,
                 "canonical_artists": [
                     "hunterthegatherer"
+                ],
+                "discord_users": [
+                    "morchella"
                 ]
             }
         ]

@@ -62,7 +62,11 @@ export function renderStatsDashboard() {
     orderedMonths.forEach(playlist => {
         if (!playlist.tracks) return;
         playlist.tracks.forEach(track => {
-            if (track.artist) uniqueArtists.add(track.artist.toLowerCase().trim());
+            if (track.discord_users && track.discord_users.length > 0) {
+                track.discord_users.forEach(u => uniqueArtists.add(u));
+            } else if (track.artist) {
+                uniqueArtists.add(track.artist.toLowerCase().trim());
+            }
             if (canTrackPlay(track)) playableCount++;
         });
     });
